@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<pattern name="Factory Method" />
+	<pattern name="Prototype" />
+	<pattern name="Singleton">
+		<instance>
+			<role name="Singleton" element="net.sf.jsqlparser.util.validation.ParseContext" />
+			<role name="uniqueInstance" element="net.sf.jsqlparser.util.validation.ParseContext::statement:net.sf.jsqlparser.util.validation.ParseContext" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="net.sf.jsqlparser.util.validation.feature.FeatureContext" />
+			<role name="uniqueInstance" element="net.sf.jsqlparser.util.validation.feature.FeatureContext::feature:net.sf.jsqlparser.util.validation.feature.FeatureContext" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="net.sf.jsqlparser.util.validation.feature.OracleVersion" />
+			<role name="uniqueInstance" element="net.sf.jsqlparser.util.validation.feature.OracleVersion::V19C:net.sf.jsqlparser.util.validation.feature.OracleVersion" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="net.sf.jsqlparser.util.validation.feature.SqlServerVersion" />
+			<role name="uniqueInstance" element="net.sf.jsqlparser.util.validation.feature.SqlServerVersion::V2019:net.sf.jsqlparser.util.validation.feature.SqlServerVersion" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="net.sf.jsqlparser.util.validation.feature.H2Version" />
+			<role name="uniqueInstance" element="net.sf.jsqlparser.util.validation.feature.H2Version::V_1_4_200:net.sf.jsqlparser.util.validation.feature.H2Version" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="net.sf.jsqlparser.util.validation.feature.MySqlVersion" />
+			<role name="uniqueInstance" element="net.sf.jsqlparser.util.validation.feature.MySqlVersion::V8_0:net.sf.jsqlparser.util.validation.feature.MySqlVersion" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="net.sf.jsqlparser.statement.delete.DeleteModifierPriority" />
+			<role name="uniqueInstance" element="net.sf.jsqlparser.statement.delete.DeleteModifierPriority::LOW_PRIORITY:net.sf.jsqlparser.statement.delete.DeleteModifierPriority" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="net.sf.jsqlparser.statement.update.UpdateModifierPriority" />
+			<role name="uniqueInstance" element="net.sf.jsqlparser.statement.update.UpdateModifierPriority::LOW_PRIORITY:net.sf.jsqlparser.statement.update.UpdateModifierPriority" />
+		</instance>
+	</pattern>
+	<pattern name="(Object)Adapter">
+		<instance>
+			<role name="Adaptee" element="net.sf.jsqlparser.expression.operators.relational.RegExpMatchOperatorType" />
+			<role name="Adapter" element="net.sf.jsqlparser.expression.operators.relational.RegExpMatchOperator" />
+			<role name="adaptee" element="net.sf.jsqlparser.expression.operators.relational.RegExpMatchOperator::operatorType:net.sf.jsqlparser.expression.operators.relational.RegExpMatchOperatorType" />
+			<role name="Request()" element="net.sf.jsqlparser.expression.operators.relational.RegExpMatchOperator::getStringExpression():java.lang.String" />
+		</instance>
+	</pattern>
+	<pattern name="Command" />
+	<pattern name="Composite" />
+	<pattern name="Decorator" />
+	<pattern name="Observer">
+		<instance>
+			<role name="Observer" element="net.sf.jsqlparser.parser.Node" />
+			<role name="Subject" element="net.sf.jsqlparser.parser.JJTCCJSqlParserState" />
+			<role name="Notify()" element="net.sf.jsqlparser.parser.JJTCCJSqlParserState::closeNodeScope(net.sf.jsqlparser.parser.Node, int):void" />
+			<role name="Notify()" element="net.sf.jsqlparser.parser.JJTCCJSqlParserState::closeNodeScope(net.sf.jsqlparser.parser.Node, boolean):void" />
+		</instance>
+	</pattern>
+	<pattern name="State">
+		<instance>
+			<role name="Context" element="net.sf.jsqlparser.parser.SimpleCharStream" />
+			<role name="State" element="net.sf.jsqlparser.parser.Provider" />
+			<role name="state" element="net.sf.jsqlparser.parser.SimpleCharStream::inputStream:net.sf.jsqlparser.parser.Provider" />
+			<role name="Request()" element="net.sf.jsqlparser.parser.SimpleCharStream::FillBuff():void" />
+		</instance>
+	</pattern>
+	<pattern name="Strategy" />
+	<pattern name="Bridge" />
+	<pattern name="Template Method">
+		<instance>
+			<role name="AbstractClass" element="net.sf.jsqlparser.expression.BinaryExpression" />
+			<role name="TemplateMethod()" element="net.sf.jsqlparser.expression.BinaryExpression::toString():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="net.sf.jsqlparser.util.ConnectExpressionsVisitor" />
+			<role name="TemplateMethod()" element="net.sf.jsqlparser.util.ConnectExpressionsVisitor::visit(net.sf.jsqlparser.statement.select.PlainSelect):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="net.sf.jsqlparser.util.cnfexpression.MultipleExpression" />
+			<role name="TemplateMethod()" element="net.sf.jsqlparser.util.cnfexpression.MultipleExpression::toString():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="net.sf.jsqlparser.parser.AbstractJSqlParser" />
+			<role name="TemplateMethod()" element="net.sf.jsqlparser.parser.AbstractJSqlParser::withFeature(net.sf.jsqlparser.parser.feature.Feature, boolean):java.lang.Object" />
+			<role name="TemplateMethod()" element="net.sf.jsqlparser.parser.AbstractJSqlParser::withFeature(net.sf.jsqlparser.parser.feature.Feature, int):java.lang.Object" />
+			<role name="TemplateMethod()" element="net.sf.jsqlparser.parser.AbstractJSqlParser::getAsBoolean(net.sf.jsqlparser.parser.feature.Feature):boolean" />
+			<role name="TemplateMethod()" element="net.sf.jsqlparser.parser.AbstractJSqlParser::getAsInteger(net.sf.jsqlparser.parser.feature.Feature):java.lang.Integer" />
+		</instance>
+	</pattern>
+	<pattern name="Visitor">
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.AllValue" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.AllValue::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.AnalyticExpression" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.AnalyticExpression::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.AnyComparisonExpression" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.AnyComparisonExpression::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.ArrayConstructor" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.ArrayConstructor::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.ArrayExpression" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.ArrayExpression::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.CaseExpression" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.CaseExpression::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.CastExpression" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.CastExpression::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.CollateExpression" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.CollateExpression::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.ConnectByRootOperator" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.ConnectByRootOperator::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.DateTimeLiteralExpression" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.DateTimeLiteralExpression::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.DateValue" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.DateValue::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.DoubleValue" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.DoubleValue::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.ExtractExpression" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.ExtractExpression::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.Function" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.Function::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.HexValue" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.HexValue::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.IntervalExpression" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.IntervalExpression::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.JdbcNamedParameter" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.JdbcNamedParameter::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.JdbcParameter" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.JdbcParameter::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.JsonAggregateFunction" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.JsonAggregateFunction::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.JsonExpression" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.JsonExpression::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.JsonFunction" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.JsonFunction::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.KeepExpression" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.KeepExpression::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.LongValue" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.LongValue::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.MySQLGroupConcat" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.MySQLGroupConcat::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.NextValExpression" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.NextValExpression::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.NotExpression" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.NotExpression::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.NullValue" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.NullValue::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.NumericBind" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.NumericBind::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.OracleHierarchicalExpression" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.OracleHierarchicalExpression::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.OracleHint" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.OracleHint::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.OracleNamedFunctionParameter" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.OracleNamedFunctionParameter::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.Parenthesis" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.Parenthesis::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.RowConstructor" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.RowConstructor::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.RowGetExpression" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.RowGetExpression::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.SignedExpression" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.SignedExpression::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.StringValue" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.StringValue::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.TimeKeyExpression" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.TimeKeyExpression::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.TimeValue" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.TimeValue::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.TimestampValue" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.TimestampValue::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.TimezoneExpression" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.TimezoneExpression::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.TryCastExpression" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.TryCastExpression::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.UserVariable" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.UserVariable::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.ValueListExpression" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.ValueListExpression::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.VariableAssignment" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.VariableAssignment::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.WhenClause" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.WhenClause::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.XMLSerializeExpr" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.XMLSerializeExpr::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.operators.arithmetic.Addition" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.operators.arithmetic.Addition::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.operators.arithmetic.BitwiseAnd" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.operators.arithmetic.BitwiseAnd::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.operators.arithmetic.BitwiseLeftShift" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.operators.arithmetic.BitwiseLeftShift::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.operators.arithmetic.BitwiseOr" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.operators.arithmetic.BitwiseOr::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.operators.arithmetic.BitwiseRightShift" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.operators.arithmetic.BitwiseRightShift::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.operators.arithmetic.BitwiseXor" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.operators.arithmetic.BitwiseXor::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.operators.arithmetic.Concat" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.operators.arithmetic.Concat::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.operators.arithmetic.Division" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.operators.arithmetic.Division::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.operators.arithmetic.IntegerDivision" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.operators.arithmetic.IntegerDivision::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.operators.arithmetic.Modulo" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.operators.arithmetic.Modulo::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.operators.arithmetic.Multiplication" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.operators.arithmetic.Multiplication::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.operators.arithmetic.Subtraction" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.operators.arithmetic.Subtraction::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.operators.conditional.AndExpression" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.operators.conditional.AndExpression::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.operators.conditional.OrExpression" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.operators.conditional.OrExpression::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.operators.conditional.XorExpression" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.operators.conditional.XorExpression::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.operators.relational.Between" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.operators.relational.Between::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.operators.relational.EqualsTo" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.operators.relational.EqualsTo::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.operators.relational.ExistsExpression" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.operators.relational.ExistsExpression::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.operators.relational.FullTextSearch" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.operators.relational.FullTextSearch::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.operators.relational.GeometryDistance" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.operators.relational.GeometryDistance::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.operators.relational.GreaterThan" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.operators.relational.GreaterThan::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.operators.relational.GreaterThanEquals" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.operators.relational.GreaterThanEquals::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.operators.relational.InExpression" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.operators.relational.InExpression::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.operators.relational.IsBooleanExpression" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.operators.relational.IsBooleanExpression::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.operators.relational.IsDistinctExpression" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.operators.relational.IsDistinctExpression::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.operators.relational.IsNullExpression" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.operators.relational.IsNullExpression::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.operators.relational.JsonOperator" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.operators.relational.JsonOperator::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.operators.relational.LikeExpression" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.operators.relational.LikeExpression::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.operators.relational.Matches" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.operators.relational.Matches::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.operators.relational.MinorThan" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.operators.relational.MinorThan::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.operators.relational.MinorThanEquals" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.operators.relational.MinorThanEquals::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.operators.relational.NotEqualsTo" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.operators.relational.NotEqualsTo::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.operators.relational.RegExpMatchOperator" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.operators.relational.RegExpMatchOperator::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.operators.relational.RegExpMySQLOperator" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.operators.relational.RegExpMySQLOperator::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.operators.relational.SimilarToExpression" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.operators.relational.SimilarToExpression::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.schema.Column" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.schema.Column::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.select.AllColumns" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.select.AllColumns::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.select.AllTableColumns" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.select.AllTableColumns::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.select.SubSelect" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.ExpressionVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.select.SubSelect::accept(net.sf.jsqlparser.expression.ExpressionVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.select.SubSelect" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.operators.relational.ItemsListVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.select.SubSelect::accept(net.sf.jsqlparser.expression.operators.relational.ItemsListVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.select.AllColumns" />
+			<role name="Visitor" element="net.sf.jsqlparser.statement.select.SelectItemVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.select.AllColumns::accept(net.sf.jsqlparser.statement.select.SelectItemVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.select.AllTableColumns" />
+			<role name="Visitor" element="net.sf.jsqlparser.statement.select.SelectItemVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.select.AllTableColumns::accept(net.sf.jsqlparser.statement.select.SelectItemVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.select.SelectExpressionItem" />
+			<role name="Visitor" element="net.sf.jsqlparser.statement.select.SelectItemVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.select.SelectExpressionItem::accept(net.sf.jsqlparser.statement.select.SelectItemVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.select.PlainSelect" />
+			<role name="Visitor" element="net.sf.jsqlparser.statement.select.SelectVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.select.PlainSelect::accept(net.sf.jsqlparser.statement.select.SelectVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.schema.Table" />
+			<role name="Visitor" element="net.sf.jsqlparser.statement.select.FromItemVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.schema.Table::accept(net.sf.jsqlparser.statement.select.FromItemVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.select.SubSelect" />
+			<role name="Visitor" element="net.sf.jsqlparser.statement.select.FromItemVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.select.SubSelect::accept(net.sf.jsqlparser.statement.select.FromItemVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="net.sf.jsqlparser.statement.StatementVisitor" />
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.Block" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.Block::accept(net.sf.jsqlparser.statement.StatementVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="net.sf.jsqlparser.statement.StatementVisitor" />
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.Commit" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.Commit::accept(net.sf.jsqlparser.statement.StatementVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="net.sf.jsqlparser.statement.StatementVisitor" />
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.CreateFunctionalStatement" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.CreateFunctionalStatement::accept(net.sf.jsqlparser.statement.StatementVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="net.sf.jsqlparser.statement.StatementVisitor" />
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.DeclareStatement" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.DeclareStatement::accept(net.sf.jsqlparser.statement.StatementVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="net.sf.jsqlparser.statement.StatementVisitor" />
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.DescribeStatement" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.DescribeStatement::accept(net.sf.jsqlparser.statement.StatementVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="net.sf.jsqlparser.statement.StatementVisitor" />
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.ExplainStatement" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.ExplainStatement::accept(net.sf.jsqlparser.statement.StatementVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="net.sf.jsqlparser.statement.StatementVisitor" />
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.IfElseStatement" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.IfElseStatement::accept(net.sf.jsqlparser.statement.StatementVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="net.sf.jsqlparser.statement.StatementVisitor" />
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.PurgeStatement" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.PurgeStatement::accept(net.sf.jsqlparser.statement.StatementVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="net.sf.jsqlparser.statement.StatementVisitor" />
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.ResetStatement" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.ResetStatement::accept(net.sf.jsqlparser.statement.StatementVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="net.sf.jsqlparser.statement.StatementVisitor" />
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.RollbackStatement" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.RollbackStatement::accept(net.sf.jsqlparser.statement.StatementVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="net.sf.jsqlparser.statement.StatementVisitor" />
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.SavepointStatement" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.SavepointStatement::accept(net.sf.jsqlparser.statement.StatementVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="net.sf.jsqlparser.statement.StatementVisitor" />
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.SetStatement" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.SetStatement::accept(net.sf.jsqlparser.statement.StatementVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="net.sf.jsqlparser.statement.StatementVisitor" />
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.ShowColumnsStatement" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.ShowColumnsStatement::accept(net.sf.jsqlparser.statement.StatementVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="net.sf.jsqlparser.statement.StatementVisitor" />
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.ShowStatement" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.ShowStatement::accept(net.sf.jsqlparser.statement.StatementVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="net.sf.jsqlparser.statement.StatementVisitor" />
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.UnsupportedStatement" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.UnsupportedStatement::accept(net.sf.jsqlparser.statement.StatementVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="net.sf.jsqlparser.statement.StatementVisitor" />
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.UseStatement" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.UseStatement::accept(net.sf.jsqlparser.statement.StatementVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="net.sf.jsqlparser.statement.StatementVisitor" />
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.alter.Alter" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.alter.Alter::accept(net.sf.jsqlparser.statement.StatementVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="net.sf.jsqlparser.statement.StatementVisitor" />
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.alter.AlterSession" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.alter.AlterSession::accept(net.sf.jsqlparser.statement.StatementVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="net.sf.jsqlparser.statement.StatementVisitor" />
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.alter.AlterSystemStatement" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.alter.AlterSystemStatement::accept(net.sf.jsqlparser.statement.StatementVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="net.sf.jsqlparser.statement.StatementVisitor" />
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.alter.RenameTableStatement" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.alter.RenameTableStatement::accept(net.sf.jsqlparser.statement.StatementVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="net.sf.jsqlparser.statement.StatementVisitor" />
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.alter.sequence.AlterSequence" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.alter.sequence.AlterSequence::accept(net.sf.jsqlparser.statement.StatementVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="net.sf.jsqlparser.statement.StatementVisitor" />
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.analyze.Analyze" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.analyze.Analyze::accept(net.sf.jsqlparser.statement.StatementVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="net.sf.jsqlparser.statement.StatementVisitor" />
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.comment.Comment" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.comment.Comment::accept(net.sf.jsqlparser.statement.StatementVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="net.sf.jsqlparser.statement.StatementVisitor" />
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.create.index.CreateIndex" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.create.index.CreateIndex::accept(net.sf.jsqlparser.statement.StatementVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="net.sf.jsqlparser.statement.StatementVisitor" />
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.create.schema.CreateSchema" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.create.schema.CreateSchema::accept(net.sf.jsqlparser.statement.StatementVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="net.sf.jsqlparser.statement.StatementVisitor" />
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.create.sequence.CreateSequence" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.create.sequence.CreateSequence::accept(net.sf.jsqlparser.statement.StatementVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="net.sf.jsqlparser.statement.StatementVisitor" />
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.create.synonym.CreateSynonym" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.create.synonym.CreateSynonym::accept(net.sf.jsqlparser.statement.StatementVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="net.sf.jsqlparser.statement.StatementVisitor" />
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.create.table.CreateTable" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.create.table.CreateTable::accept(net.sf.jsqlparser.statement.StatementVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="net.sf.jsqlparser.statement.StatementVisitor" />
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.create.view.AlterView" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.create.view.AlterView::accept(net.sf.jsqlparser.statement.StatementVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="net.sf.jsqlparser.statement.StatementVisitor" />
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.create.view.CreateView" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.create.view.CreateView::accept(net.sf.jsqlparser.statement.StatementVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="net.sf.jsqlparser.statement.StatementVisitor" />
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.delete.Delete" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.delete.Delete::accept(net.sf.jsqlparser.statement.StatementVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="net.sf.jsqlparser.statement.StatementVisitor" />
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.drop.Drop" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.drop.Drop::accept(net.sf.jsqlparser.statement.StatementVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="net.sf.jsqlparser.statement.StatementVisitor" />
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.execute.Execute" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.execute.Execute::accept(net.sf.jsqlparser.statement.StatementVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="net.sf.jsqlparser.statement.StatementVisitor" />
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.grant.Grant" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.grant.Grant::accept(net.sf.jsqlparser.statement.StatementVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="net.sf.jsqlparser.statement.StatementVisitor" />
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.insert.Insert" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.insert.Insert::accept(net.sf.jsqlparser.statement.StatementVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="net.sf.jsqlparser.statement.StatementVisitor" />
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.merge.Merge" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.merge.Merge::accept(net.sf.jsqlparser.statement.StatementVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="net.sf.jsqlparser.statement.StatementVisitor" />
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.replace.Replace" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.replace.Replace::accept(net.sf.jsqlparser.statement.StatementVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="net.sf.jsqlparser.statement.StatementVisitor" />
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.select.Select" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.select.Select::accept(net.sf.jsqlparser.statement.StatementVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="net.sf.jsqlparser.statement.StatementVisitor" />
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.show.ShowTablesStatement" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.show.ShowTablesStatement::accept(net.sf.jsqlparser.statement.StatementVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="net.sf.jsqlparser.statement.StatementVisitor" />
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.truncate.Truncate" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.truncate.Truncate::accept(net.sf.jsqlparser.statement.StatementVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="net.sf.jsqlparser.statement.StatementVisitor" />
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.update.Update" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.update.Update::accept(net.sf.jsqlparser.statement.StatementVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="net.sf.jsqlparser.statement.StatementVisitor" />
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.upsert.Upsert" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.upsert.Upsert::accept(net.sf.jsqlparser.statement.StatementVisitor):void" />
+		</instance>
+		<instance>
+			<role name="Visitor" element="net.sf.jsqlparser.statement.StatementVisitor" />
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.values.ValuesStatement" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.values.ValuesStatement::accept(net.sf.jsqlparser.statement.StatementVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.select.SetOperationList" />
+			<role name="Visitor" element="net.sf.jsqlparser.statement.select.SelectVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.select.SetOperationList::accept(net.sf.jsqlparser.statement.select.SelectVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.select.WithItem" />
+			<role name="Visitor" element="net.sf.jsqlparser.statement.select.SelectVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.select.WithItem::accept(net.sf.jsqlparser.statement.select.SelectVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.values.ValuesStatement" />
+			<role name="Visitor" element="net.sf.jsqlparser.statement.select.SelectVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.values.ValuesStatement::accept(net.sf.jsqlparser.statement.select.SelectVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.select.LateralSubSelect" />
+			<role name="Visitor" element="net.sf.jsqlparser.statement.select.FromItemVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.select.LateralSubSelect::accept(net.sf.jsqlparser.statement.select.FromItemVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.select.ParenthesisFromItem" />
+			<role name="Visitor" element="net.sf.jsqlparser.statement.select.FromItemVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.select.ParenthesisFromItem::accept(net.sf.jsqlparser.statement.select.FromItemVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.select.SubJoin" />
+			<role name="Visitor" element="net.sf.jsqlparser.statement.select.FromItemVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.select.SubJoin::accept(net.sf.jsqlparser.statement.select.FromItemVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.select.TableFunction" />
+			<role name="Visitor" element="net.sf.jsqlparser.statement.select.FromItemVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.select.TableFunction::accept(net.sf.jsqlparser.statement.select.FromItemVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.select.ValuesList" />
+			<role name="Visitor" element="net.sf.jsqlparser.statement.select.FromItemVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.select.ValuesList::accept(net.sf.jsqlparser.statement.select.FromItemVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.operators.relational.ExpressionList" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.operators.relational.ItemsListVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.operators.relational.ExpressionList::accept(net.sf.jsqlparser.expression.operators.relational.ItemsListVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.operators.relational.MultiExpressionList" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.operators.relational.ItemsListVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.operators.relational.MultiExpressionList::accept(net.sf.jsqlparser.expression.operators.relational.ItemsListVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.expression.operators.relational.NamedExpressionList" />
+			<role name="Visitor" element="net.sf.jsqlparser.expression.operators.relational.ItemsListVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.expression.operators.relational.NamedExpressionList::accept(net.sf.jsqlparser.expression.operators.relational.ItemsListVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.select.UnPivot" />
+			<role name="Visitor" element="net.sf.jsqlparser.statement.select.PivotVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.select.UnPivot::accept(net.sf.jsqlparser.statement.select.PivotVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.select.Pivot" />
+			<role name="Visitor" element="net.sf.jsqlparser.statement.select.PivotVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.select.Pivot::accept(net.sf.jsqlparser.statement.select.PivotVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.select.PivotXml" />
+			<role name="Visitor" element="net.sf.jsqlparser.statement.select.PivotVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.select.PivotXml::accept(net.sf.jsqlparser.statement.select.PivotVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.select.OrderByElement" />
+			<role name="Visitor" element="net.sf.jsqlparser.statement.select.OrderByVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.select.OrderByElement::accept(net.sf.jsqlparser.statement.select.OrderByVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.Statements" />
+			<role name="Visitor" element="net.sf.jsqlparser.statement.StatementVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.Statements::accept(net.sf.jsqlparser.statement.StatementVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.statement.select.GroupByElement" />
+			<role name="Visitor" element="net.sf.jsqlparser.statement.select.GroupByVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.statement.select.GroupByElement::accept(net.sf.jsqlparser.statement.select.GroupByVisitor):void" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.parser.SimpleNode" />
+			<role name="Visitor" element="net.sf.jsqlparser.parser.CCJSqlParserVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.parser.SimpleNode::jjtAccept(net.sf.jsqlparser.parser.CCJSqlParserVisitor, java.lang.Object):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="ConcreteElement" element="net.sf.jsqlparser.schema.Table" />
+			<role name="Visitor" element="net.sf.jsqlparser.statement.select.IntoTableVisitor" />
+			<role name="Accept()" element="net.sf.jsqlparser.schema.Table::accept(net.sf.jsqlparser.statement.select.IntoTableVisitor):void" />
+		</instance>
+	</pattern>
+	<pattern name="Proxy">
+		<instance>
+			<role name="Proxy" element="net.sf.jsqlparser.schema.Database" />
+			<role name="RealSubject" element="net.sf.jsqlparser.schema.Server" />
+			<role name="Request()" element="net.sf.jsqlparser.schema.Database::getFullyQualifiedName():java.lang.String" />
+		</instance>
+	</pattern>
+	<pattern name="Proxy2" />
+	<pattern name="Chain of Responsibility" />
+</system>
+

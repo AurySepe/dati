@@ -1,0 +1,103 @@
+Downloading https://services.gradle.org/distributions/gradle-2.2.1-bin.zip
+..................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Unzipping /root/.gradle/wrapper/dists/gradle-2.2.1-bin/88n1whbyjvxg3s40jzz5ur27/gradle-2.2.1-bin.zip to /root/.gradle/wrapper/dists/gradle-2.2.1-bin/88n1whbyjvxg3s40jzz5ur27
+Set executable permissions for: /root/.gradle/wrapper/dists/gradle-2.2.1-bin/88n1whbyjvxg3s40jzz5ur27/gradle-2.2.1/bin/gradle
+Download https://jcenter.bintray.com/com/netflix/nebula/gradle-rxjava-project-plugin/2.2.3/gradle-rxjava-project-plugin-2.2.3.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-project-plugin/2.0.0/nebula-project-plugin-2.0.0.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-bintray-plugin/2.0.2/nebula-bintray-plugin-2.0.2.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-release-plugin/2.2.4/nebula-release-plugin-2.2.4.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/gradle-override-plugin/2.0.1/gradle-override-plugin-2.0.1.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-publishing-plugin/2.0.1/nebula-publishing-plugin-2.0.1.pom
+Download https://jcenter.bintray.com/com/github/jengelman/gradle/plugins/shadow/1.2.0/shadow-1.2.0.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-core/2.0.0/nebula-core-2.0.0.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/gradle-contacts-plugin/2.0.0/gradle-contacts-plugin-2.0.0.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/gradle-dependency-lock-plugin/2.0.0/gradle-dependency-lock-plugin-2.0.0.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/gradle-info-plugin/2.0.0/gradle-info-plugin-2.0.0.pom
+Download https://jcenter.bintray.com/com/jfrog/bintray/gradle/gradle-bintray-plugin/1.0/gradle-bintray-plugin-1.0.pom
+Download https://jcenter.bintray.com/org/jfrog/buildinfo/build-info-extractor-gradle/3.0.1/build-info-extractor-gradle-3.0.1.pom
+Download https://jcenter.bintray.com/org/ajoberstar/gradle-git/0.12.0/gradle-git-0.12.0.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/gradle-scm-plugin/2.0.0/gradle-scm-plugin-2.0.0.pom
+Download https://jcenter.bintray.com/org/jfrog/buildinfo/build-info-extractor/2.3.0/build-info-extractor-2.3.0.pom
+Download https://jcenter.bintray.com/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.pom
+Download https://jcenter.bintray.com/org/ajoberstar/grgit/0.4.0/grgit-0.4.0.pom
+Download https://jcenter.bintray.com/com/github/zafarkhaja/java-semver/0.8.0/java-semver-0.8.0.pom
+Download https://jcenter.bintray.com/org/jfrog/buildinfo/build-info-client/2.3.0/build-info-client-2.3.0.pom
+Download https://jcenter.bintray.com/org/eclipse/jgit/org.eclipse.jgit.ui/3.3.2.201404171909-r/org.eclipse.jgit.ui-3.3.2.201404171909-r.pom
+Download https://jcenter.bintray.com/org/eclipse/jgit/org.eclipse.jgit-parent/3.3.2.201404171909-r/org.eclipse.jgit-parent-3.3.2.201404171909-r.pom
+Download https://jcenter.bintray.com/com/jcraft/jsch.agentproxy.jsch/0.0.7/jsch.agentproxy.jsch-0.0.7.pom
+Download https://jcenter.bintray.com/com/jcraft/jsch.agentproxy.pageant/0.0.7/jsch.agentproxy.pageant-0.0.7.pom
+Download https://jcenter.bintray.com/com/jcraft/jsch.agentproxy.sshagent/0.0.7/jsch.agentproxy.sshagent-0.0.7.pom
+Download https://jcenter.bintray.com/com/jcraft/jsch.agentproxy.usocket-jna/0.0.7/jsch.agentproxy.usocket-jna-0.0.7.pom
+Download https://jcenter.bintray.com/com/jcraft/jsch.agentproxy.usocket-nc/0.0.7/jsch.agentproxy.usocket-nc-0.0.7.pom
+Download https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom
+Download https://jcenter.bintray.com/org/slf4j/slf4j-parent/1.7.7/slf4j-parent-1.7.7.pom
+Download https://jcenter.bintray.com/org/jfrog/buildinfo/build-info-api/2.3.0/build-info-api-2.3.0.pom
+Download https://jcenter.bintray.com/net/java/dev/jna/jna/3.4.0/jna-3.4.0.pom
+Download https://jcenter.bintray.com/net/java/dev/jna/platform/3.4.0/platform-3.4.0.pom
+Download https://jcenter.bintray.com/org/eclipse/jgit/org.eclipse.jgit/3.3.2.201404171909-r/org.eclipse.jgit-3.3.2.201404171909-r.pom
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpclient/4.2.5/httpclient-4.2.5.pom
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpcomponents-client/4.2.5/httpcomponents-client-4.2.5.pom
+Download https://jcenter.bintray.com/com/jcraft/jsch/0.1.50/jsch-0.1.50.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/gradle-contacts-plugin/2.0.1/gradle-contacts-plugin-2.0.1.pom
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpcore/4.2.4/httpcore-4.2.4.pom
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpcomponents-core/4.2.4/httpcomponents-core-4.2.4.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/gradle-rxjava-project-plugin/2.2.3/gradle-rxjava-project-plugin-2.2.3.jar
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-project-plugin/2.0.0/nebula-project-plugin-2.0.0.jar
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-bintray-plugin/2.0.2/nebula-bintray-plugin-2.0.2.jar
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-release-plugin/2.2.4/nebula-release-plugin-2.2.4.jar
+Download https://jcenter.bintray.com/com/netflix/nebula/gradle-override-plugin/2.0.1/gradle-override-plugin-2.0.1.jar
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-publishing-plugin/2.0.1/nebula-publishing-plugin-2.0.1.jar
+Download https://jcenter.bintray.com/com/github/jengelman/gradle/plugins/shadow/1.2.0/shadow-1.2.0.jar
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-core/2.0.0/nebula-core-2.0.0.jar
+Download https://jcenter.bintray.com/com/netflix/nebula/gradle-dependency-lock-plugin/2.0.0/gradle-dependency-lock-plugin-2.0.0.jar
+Download https://jcenter.bintray.com/com/netflix/nebula/gradle-info-plugin/2.0.0/gradle-info-plugin-2.0.0.jar
+Download https://jcenter.bintray.com/com/jfrog/bintray/gradle/gradle-bintray-plugin/1.0/gradle-bintray-plugin-1.0.jar
+Download https://jcenter.bintray.com/org/jfrog/buildinfo/build-info-extractor-gradle/3.0.1/build-info-extractor-gradle-3.0.1.jar
+Download https://jcenter.bintray.com/org/ajoberstar/gradle-git/0.12.0/gradle-git-0.12.0.jar
+Download https://jcenter.bintray.com/com/netflix/nebula/gradle-scm-plugin/2.0.0/gradle-scm-plugin-2.0.0.jar
+Download https://jcenter.bintray.com/org/jfrog/buildinfo/build-info-extractor/2.3.0/build-info-extractor-2.3.0.jar
+Download https://jcenter.bintray.com/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar
+Download https://jcenter.bintray.com/org/ajoberstar/grgit/0.4.0/grgit-0.4.0.jar
+Download https://jcenter.bintray.com/com/github/zafarkhaja/java-semver/0.8.0/java-semver-0.8.0.jar
+Download https://jcenter.bintray.com/org/jfrog/buildinfo/build-info-client/2.3.0/build-info-client-2.3.0.jar
+Download https://jcenter.bintray.com/org/eclipse/jgit/org.eclipse.jgit.ui/3.3.2.201404171909-r/org.eclipse.jgit.ui-3.3.2.201404171909-r.jar
+Download https://jcenter.bintray.com/com/jcraft/jsch.agentproxy.jsch/0.0.7/jsch.agentproxy.jsch-0.0.7.jar
+Download https://jcenter.bintray.com/com/jcraft/jsch.agentproxy.pageant/0.0.7/jsch.agentproxy.pageant-0.0.7.jar
+Download https://jcenter.bintray.com/com/jcraft/jsch.agentproxy.sshagent/0.0.7/jsch.agentproxy.sshagent-0.0.7.jar
+Download https://jcenter.bintray.com/com/jcraft/jsch.agentproxy.usocket-jna/0.0.7/jsch.agentproxy.usocket-jna-0.0.7.jar
+Download https://jcenter.bintray.com/com/jcraft/jsch.agentproxy.usocket-nc/0.0.7/jsch.agentproxy.usocket-nc-0.0.7.jar
+Download https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar
+Download https://jcenter.bintray.com/org/jfrog/buildinfo/build-info-api/2.3.0/build-info-api-2.3.0.jar
+Download https://jcenter.bintray.com/com/jcraft/jsch.agentproxy.core/0.0.7/jsch.agentproxy.core-0.0.7.jar
+Download https://jcenter.bintray.com/net/java/dev/jna/jna/3.4.0/jna-3.4.0.jar
+Download https://jcenter.bintray.com/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar
+Download https://jcenter.bintray.com/org/eclipse/jgit/org.eclipse.jgit/3.3.2.201404171909-r/org.eclipse.jgit-3.3.2.201404171909-r.jar
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpclient/4.2.5/httpclient-4.2.5.jar
+Download https://jcenter.bintray.com/com/jcraft/jsch/0.1.50/jsch-0.1.50.jar
+Download https://jcenter.bintray.com/com/netflix/nebula/gradle-contacts-plugin/2.0.1/gradle-contacts-plugin-2.0.1.jar
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpcore/4.2.4/httpcore-4.2.4.jar
+Inferred version: 1.0.8-SNAPSHOT
+[buildinfo] Properties file path was not found! (Relevant only for builds running on a CI Server)
+:clean
+:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+/results/ReactiveX-RxJava/RELEASES/c41b37d11607393bc989642ff44f4a5f809b89ae/src/main/java/rx/internal/util/unsafe/UnsafeAccess.java:20: warning: Unsafe is internal proprietary API and may be removed in a future release
+import sun.misc.Unsafe;
+               ^
+/results/ReactiveX-RxJava/RELEASES/c41b37d11607393bc989642ff44f4a5f809b89ae/src/main/java/rx/internal/util/unsafe/UnsafeAccess.java:31: warning: Unsafe is internal proprietary API and may be removed in a future release
+    public static final Unsafe UNSAFE;
+                        ^
+/results/ReactiveX-RxJava/RELEASES/c41b37d11607393bc989642ff44f4a5f809b89ae/src/main/java/rx/internal/util/unsafe/UnsafeAccess.java:33: warning: Unsafe is internal proprietary API and may be removed in a future release
+        Unsafe u = null;
+        ^
+/results/ReactiveX-RxJava/RELEASES/c41b37d11607393bc989642ff44f4a5f809b89ae/src/main/java/rx/internal/util/unsafe/UnsafeAccess.java:41: warning: Unsafe is internal proprietary API and may be removed in a future release
+            Field field = Unsafe.class.getDeclaredField("theUnsafe");
+                          ^
+/results/ReactiveX-RxJava/RELEASES/c41b37d11607393bc989642ff44f4a5f809b89ae/src/main/java/rx/internal/util/unsafe/UnsafeAccess.java:43: warning: Unsafe is internal proprietary API and may be removed in a future release
+            u = (Unsafe) field.get(null);
+                 ^
+6 warnings
+
+
+BUILD SUCCESSFUL
+
+Total time: 49.462 secs

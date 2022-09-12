@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<pattern name="Factory Method">
+		<instance>
+			<role name="Creator" element="com.lmax.disruptor.Sequencer" />
+			<role name="FactoryMethod()" element="com.lmax.disruptor.Sequencer::newBarrier(com.lmax.disruptor.Sequence[]):com.lmax.disruptor.SequenceBarrier" />
+		</instance>
+	</pattern>
+	<pattern name="Prototype" />
+	<pattern name="Singleton">
+		<instance>
+			<role name="Singleton" element="com.lmax.disruptor.InsufficientCapacityException" />
+			<role name="uniqueInstance" element="com.lmax.disruptor.InsufficientCapacityException::INSTANCE:com.lmax.disruptor.InsufficientCapacityException" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.lmax.disruptor.util.DaemonThreadFactory" />
+			<role name="uniqueInstance" element="com.lmax.disruptor.util.DaemonThreadFactory::INSTANCE:com.lmax.disruptor.util.DaemonThreadFactory" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.lmax.disruptor.AlertException" />
+			<role name="uniqueInstance" element="com.lmax.disruptor.AlertException::INSTANCE:com.lmax.disruptor.AlertException" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.lmax.disruptor.TimeoutException" />
+			<role name="uniqueInstance" element="com.lmax.disruptor.TimeoutException::INSTANCE:com.lmax.disruptor.TimeoutException" />
+		</instance>
+	</pattern>
+	<pattern name="(Object)Adapter">
+		<instance>
+			<role name="Adaptee" element="com.lmax.disruptor.WorkerPool" />
+			<role name="Adapter" element="com.lmax.disruptor.dsl.WorkerPoolInfo" />
+			<role name="adaptee" element="com.lmax.disruptor.dsl.WorkerPoolInfo::workerPool:com.lmax.disruptor.WorkerPool" />
+			<role name="Request()" element="com.lmax.disruptor.dsl.WorkerPoolInfo::getSequences():com.lmax.disruptor.Sequence[]" />
+			<role name="Request()" element="com.lmax.disruptor.dsl.WorkerPoolInfo::start(java.util.concurrent.Executor):void" />
+			<role name="Request()" element="com.lmax.disruptor.dsl.WorkerPoolInfo::halt():void" />
+			<role name="Request()" element="com.lmax.disruptor.dsl.WorkerPoolInfo::isRunning():boolean" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.lmax.disruptor.Sequence" />
+			<role name="Adapter" element="com.lmax.disruptor.AbstractSequencer" />
+			<role name="adaptee" element="com.lmax.disruptor.AbstractSequencer::gatingSequences:com.lmax.disruptor.Sequence[]" />
+			<role name="adaptee" element="com.lmax.disruptor.AbstractSequencer::cursor:com.lmax.disruptor.Sequence" />
+			<role name="Request()" element="com.lmax.disruptor.AbstractSequencer::getMinimumSequence():long" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.lmax.disruptor.WaitStrategy" />
+			<role name="Adapter" element="com.lmax.disruptor.ProcessingSequenceBarrier" />
+			<role name="adaptee" element="com.lmax.disruptor.ProcessingSequenceBarrier::waitStrategy:com.lmax.disruptor.WaitStrategy" />
+			<role name="Request()" element="com.lmax.disruptor.ProcessingSequenceBarrier::waitFor(long):long" />
+			<role name="Request()" element="com.lmax.disruptor.ProcessingSequenceBarrier::alert():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.lmax.disruptor.SequenceBarrier" />
+			<role name="Adapter" element="com.lmax.disruptor.BatchEventProcessor" />
+			<role name="adaptee" element="com.lmax.disruptor.BatchEventProcessor::sequenceBarrier:com.lmax.disruptor.SequenceBarrier" />
+			<role name="Request()" element="com.lmax.disruptor.BatchEventProcessor::halt():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.lmax.disruptor.SequenceBarrier" />
+			<role name="Adapter" element="com.lmax.disruptor.WorkProcessor" />
+			<role name="adaptee" element="com.lmax.disruptor.WorkProcessor::sequenceBarrier:com.lmax.disruptor.SequenceBarrier" />
+			<role name="Request()" element="com.lmax.disruptor.WorkProcessor::halt():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.lmax.disruptor.EventProcessor" />
+			<role name="Adapter" element="com.lmax.disruptor.dsl.EventProcessorInfo" />
+			<role name="adaptee" element="com.lmax.disruptor.dsl.EventProcessorInfo::eventprocessor:com.lmax.disruptor.EventProcessor" />
+			<role name="Request()" element="com.lmax.disruptor.dsl.EventProcessorInfo::getSequences():com.lmax.disruptor.Sequence[]" />
+			<role name="Request()" element="com.lmax.disruptor.dsl.EventProcessorInfo::halt():void" />
+			<role name="Request()" element="com.lmax.disruptor.dsl.EventProcessorInfo::isRunning():boolean" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.lmax.disruptor.Sequence" />
+			<role name="Adapter" element="com.lmax.disruptor.ProcessingSequenceBarrier" />
+			<role name="adaptee" element="com.lmax.disruptor.ProcessingSequenceBarrier::dependentSequence:com.lmax.disruptor.Sequence" />
+			<role name="Request()" element="com.lmax.disruptor.ProcessingSequenceBarrier::getCursor():long" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.lmax.disruptor.Sequencer" />
+			<role name="Adapter" element="com.lmax.disruptor.ProcessingSequenceBarrier" />
+			<role name="adaptee" element="com.lmax.disruptor.ProcessingSequenceBarrier::sequencer:com.lmax.disruptor.Sequencer" />
+			<role name="Request()" element="com.lmax.disruptor.ProcessingSequenceBarrier::waitFor(long):long" />
+		</instance>
+	</pattern>
+	<pattern name="Command" />
+	<pattern name="Composite" />
+	<pattern name="Decorator">
+		<instance>
+			<role name="Component" element="com.lmax.disruptor.ExceptionHandler" />
+			<role name="Decorator" element="com.lmax.disruptor.dsl.ExceptionHandlerWrapper" />
+			<role name="component" element="com.lmax.disruptor.dsl.ExceptionHandlerWrapper::delegate:com.lmax.disruptor.ExceptionHandler" />
+			<role name="Operation()" element="com.lmax.disruptor.dsl.ExceptionHandlerWrapper::handleEventException(java.lang.Throwable, long, T):void" />
+			<role name="Operation()" element="com.lmax.disruptor.dsl.ExceptionHandlerWrapper::handleOnStartException(java.lang.Throwable):void" />
+			<role name="Operation()" element="com.lmax.disruptor.dsl.ExceptionHandlerWrapper::handleOnShutdownException(java.lang.Throwable):void" />
+		</instance>
+		<instance>
+			<role name="Component" element="com.lmax.disruptor.WaitStrategy" />
+			<role name="Decorator" element="com.lmax.disruptor.PhasedBackoffWaitStrategy" />
+			<role name="component" element="com.lmax.disruptor.PhasedBackoffWaitStrategy::fallbackStrategy:com.lmax.disruptor.WaitStrategy" />
+			<role name="Operation()" element="com.lmax.disruptor.PhasedBackoffWaitStrategy::waitFor(long, com.lmax.disruptor.Sequence, com.lmax.disruptor.Sequence, com.lmax.disruptor.SequenceBarrier):long" />
+			<role name="Operation()" element="com.lmax.disruptor.PhasedBackoffWaitStrategy::signalAllWhenBlocking():void" />
+		</instance>
+	</pattern>
+	<pattern name="Observer" />
+	<pattern name="State">
+		<instance>
+			<role name="Context" element="com.lmax.disruptor.BatchEventProcessor" />
+			<role name="State" element="com.lmax.disruptor.TimeoutHandler" />
+			<role name="state" element="com.lmax.disruptor.BatchEventProcessor::timeoutHandler:com.lmax.disruptor.TimeoutHandler" />
+			<role name="Request()" element="com.lmax.disruptor.BatchEventProcessor::notifyTimeout(long):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.lmax.disruptor.BatchEventProcessor" />
+			<role name="State" element="com.lmax.disruptor.DataProvider" />
+			<role name="state" element="com.lmax.disruptor.BatchEventProcessor::dataProvider:com.lmax.disruptor.DataProvider" />
+			<role name="Request()" element="com.lmax.disruptor.BatchEventProcessor::processEvents():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.lmax.disruptor.BatchEventProcessor" />
+			<role name="State" element="com.lmax.disruptor.BatchStartAware" />
+			<role name="state" element="com.lmax.disruptor.BatchEventProcessor::batchStartAware:com.lmax.disruptor.BatchStartAware" />
+			<role name="Request()" element="com.lmax.disruptor.BatchEventProcessor::processEvents():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.lmax.disruptor.WorkProcessor" />
+			<role name="State" element="com.lmax.disruptor.TimeoutHandler" />
+			<role name="state" element="com.lmax.disruptor.WorkProcessor::timeoutHandler:com.lmax.disruptor.TimeoutHandler" />
+			<role name="Request()" element="com.lmax.disruptor.WorkProcessor::notifyTimeout(long):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.lmax.disruptor.EventPoller" />
+			<role name="State" element="com.lmax.disruptor.DataProvider" />
+			<role name="state" element="com.lmax.disruptor.EventPoller::dataProvider:com.lmax.disruptor.DataProvider" />
+			<role name="Request()" element="com.lmax.disruptor.EventPoller::poll(com.lmax.disruptor.EventPoller$Handler):com.lmax.disruptor.EventPoller$PollState" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.lmax.disruptor.EventPoller" />
+			<role name="State" element="com.lmax.disruptor.Sequencer" />
+			<role name="state" element="com.lmax.disruptor.EventPoller::sequencer:com.lmax.disruptor.Sequencer" />
+			<role name="Request()" element="com.lmax.disruptor.EventPoller::poll(com.lmax.disruptor.EventPoller$Handler):com.lmax.disruptor.EventPoller$PollState" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.lmax.disruptor.BatchEventProcessor" />
+			<role name="State" element="com.lmax.disruptor.ExceptionHandler" />
+			<role name="state" element="com.lmax.disruptor.BatchEventProcessor::exceptionHandler:com.lmax.disruptor.ExceptionHandler" />
+			<role name="Request()" element="com.lmax.disruptor.BatchEventProcessor::processEvents():void" />
+			<role name="Request()" element="com.lmax.disruptor.BatchEventProcessor::notifyTimeout(long):void" />
+			<role name="Request()" element="com.lmax.disruptor.BatchEventProcessor::notifyStart():void" />
+			<role name="Request()" element="com.lmax.disruptor.BatchEventProcessor::notifyShutdown():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.lmax.disruptor.WorkProcessor" />
+			<role name="State" element="com.lmax.disruptor.ExceptionHandler" />
+			<role name="state" element="com.lmax.disruptor.WorkProcessor::exceptionHandler:com.lmax.disruptor.ExceptionHandler" />
+			<role name="Request()" element="com.lmax.disruptor.WorkProcessor::run():void" />
+			<role name="Request()" element="com.lmax.disruptor.WorkProcessor::notifyTimeout(long):void" />
+			<role name="Request()" element="com.lmax.disruptor.WorkProcessor::notifyStart():void" />
+			<role name="Request()" element="com.lmax.disruptor.WorkProcessor::notifyShutdown():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.lmax.disruptor.BatchEventProcessor" />
+			<role name="State" element="com.lmax.disruptor.SequenceBarrier" />
+			<role name="state" element="com.lmax.disruptor.BatchEventProcessor::sequenceBarrier:com.lmax.disruptor.SequenceBarrier" />
+			<role name="Request()" element="com.lmax.disruptor.BatchEventProcessor::halt():void" />
+			<role name="Request()" element="com.lmax.disruptor.BatchEventProcessor::run():void" />
+			<role name="Request()" element="com.lmax.disruptor.BatchEventProcessor::processEvents():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.lmax.disruptor.WorkProcessor" />
+			<role name="State" element="com.lmax.disruptor.SequenceBarrier" />
+			<role name="state" element="com.lmax.disruptor.WorkProcessor::sequenceBarrier:com.lmax.disruptor.SequenceBarrier" />
+			<role name="Request()" element="com.lmax.disruptor.WorkProcessor::halt():void" />
+			<role name="Request()" element="com.lmax.disruptor.WorkProcessor::run():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.lmax.disruptor.dsl.Disruptor" />
+			<role name="State" element="com.lmax.disruptor.ExceptionHandler" />
+			<role name="state" element="com.lmax.disruptor.dsl.Disruptor::exceptionHandler:com.lmax.disruptor.ExceptionHandler" />
+			<role name="Request()" element="com.lmax.disruptor.dsl.Disruptor::shutdown():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.lmax.disruptor.dsl.EventProcessorInfo" />
+			<role name="State" element="com.lmax.disruptor.EventProcessor" />
+			<role name="state" element="com.lmax.disruptor.dsl.EventProcessorInfo::eventprocessor:com.lmax.disruptor.EventProcessor" />
+			<role name="Request()" element="com.lmax.disruptor.dsl.EventProcessorInfo::getSequences():com.lmax.disruptor.Sequence[]" />
+			<role name="Request()" element="com.lmax.disruptor.dsl.EventProcessorInfo::halt():void" />
+			<role name="Request()" element="com.lmax.disruptor.dsl.EventProcessorInfo::isRunning():boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.lmax.disruptor.BatchEventProcessor" />
+			<role name="State" element="com.lmax.disruptor.EventHandler" />
+			<role name="state" element="com.lmax.disruptor.BatchEventProcessor::eventHandler:com.lmax.disruptor.EventHandler" />
+			<role name="Request()" element="com.lmax.disruptor.BatchEventProcessor::processEvents():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.lmax.disruptor.ProcessingSequenceBarrier" />
+			<role name="State" element="com.lmax.disruptor.Sequencer" />
+			<role name="state" element="com.lmax.disruptor.ProcessingSequenceBarrier::sequencer:com.lmax.disruptor.Sequencer" />
+			<role name="Request()" element="com.lmax.disruptor.ProcessingSequenceBarrier::waitFor(long):long" />
+		</instance>
+	</pattern>
+	<pattern name="Strategy">
+		<instance>
+			<role name="Context" element="com.lmax.disruptor.ProcessingSequenceBarrier" />
+			<role name="Strategy" element="com.lmax.disruptor.WaitStrategy" />
+			<role name="strategy" element="com.lmax.disruptor.ProcessingSequenceBarrier::waitStrategy:com.lmax.disruptor.WaitStrategy" />
+			<role name="ContextInterface()" element="com.lmax.disruptor.ProcessingSequenceBarrier::waitFor(long):long" />
+			<role name="ContextInterface()" element="com.lmax.disruptor.ProcessingSequenceBarrier::alert():void" />
+		</instance>
+	</pattern>
+	<pattern name="Bridge" />
+	<pattern name="Template Method" />
+	<pattern name="Visitor" />
+	<pattern name="Proxy" />
+	<pattern name="Proxy2">
+		<instance>
+			<role name="Proxy" element="com.lmax.disruptor.dsl.ExceptionHandlerWrapper" />
+			<role name="RealSubject" element="com.lmax.disruptor.FatalExceptionHandler" />
+			<role name="Subject" element="com.lmax.disruptor.ExceptionHandler" />
+			<role name="subject" element="com.lmax.disruptor.dsl.ExceptionHandlerWrapper::delegate:com.lmax.disruptor.ExceptionHandler" />
+			<role name="Request()" element="com.lmax.disruptor.dsl.ExceptionHandlerWrapper::handleEventException(java.lang.Throwable, long, T):void" />
+			<role name="Request()" element="com.lmax.disruptor.dsl.ExceptionHandlerWrapper::handleOnStartException(java.lang.Throwable):void" />
+			<role name="Request()" element="com.lmax.disruptor.dsl.ExceptionHandlerWrapper::handleOnShutdownException(java.lang.Throwable):void" />
+		</instance>
+	</pattern>
+	<pattern name="Chain of Responsibility" />
+</system>
+

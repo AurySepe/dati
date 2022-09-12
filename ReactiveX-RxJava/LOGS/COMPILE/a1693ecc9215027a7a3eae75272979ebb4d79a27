@@ -1,0 +1,10 @@
+JMH: [.*me.champeau.gradle.JMHPluginExtension_Decorated@4a944af9.*]
+:clean UP-TO-DATE
+:compileJava
+Download https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3-RC1/reactive-streams-1.0.3-RC1.pom
+Download https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3-RC1/reactive-streams-1.0.3-RC1.jar
+warning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+BUILD SUCCESSFUL in 10s
+2 actionable tasks: 1 executed, 1 up-to-date

@@ -1,0 +1,56 @@
+Downloading https://services.gradle.org/distributions/gradle-6.0.1-bin.zip
+.........10%.........20%.........30%.........40%.........50%.........60%.........70%.........80%.........90%.........100%
+
+Welcome to Gradle 6.0.1!
+
+Here are the highlights of this release:
+ - Substantial improvements in dependency management, including
+   - Publishing Gradle Module Metadata in addition to pom.xml
+   - Advanced control of transitive versions
+   - Support for optional features and dependencies
+   - Rules to tweak published metadata
+ - Support for Java 13
+ - Faster incremental Java and Groovy compilation
+ - New Zinc compiler for Scala
+ - VS2019 support
+ - Support for Gradle Enterprise plugin 3.0
+
+For more details see https://docs.gradle.org/6.0.1/release-notes.html
+
+To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.0.1/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+
+> Configure project :
+jadx version: dev
+
+> Task :cleanBuildDir UP-TO-DATE
+> Task :clean
+> Task :jadx-cli:clean UP-TO-DATE
+> Task :jadx-core:clean UP-TO-DATE
+> Task :jadx-gui:clean UP-TO-DATE
+> Task :jadx-samples:cleanGeneratedFiles UP-TO-DATE
+> Task :jadx-samples:clean UP-TO-DATE
+> Task :compileJava NO-SOURCE
+> Task :jadx-core:compileJava
+> Task :jadx-core:processResources
+> Task :jadx-core:classes
+> Task :jadx-core:jar
+> Task :jadx-cli:compileJava
+> Task :jadx-cli:processResources
+> Task :jadx-cli:classes
+> Task :jadx-cli:jar
+
+> Task :jadx-gui:compileJava
+/results/skylot-jadx/RELEASES/cc29da8e81e5bab534ad3d014e7162e1869d7ff6/jadx-gui/src/main/java/jadx/gui/ui/codearea/JNodeMenuAction.java:13: warning: [serial] serializable class JNodeMenuAction has no definition of serialVersionUID
+public abstract class JNodeMenuAction<T> extends AbstractAction implements PopupMenuListener {
+                ^
+1 warning
+
+> Task :jadx-samples:compileJava
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.0.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 50s
+15 actionable tasks: 9 executed, 6 up-to-date

@@ -1,0 +1,129 @@
+Downloading https://services.gradle.org/distributions/gradle-4.3-bin.zip
+..................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Unzipping /root/.gradle/wrapper/dists/gradle-4.3-bin/452wx51oxqsia28686mgqhot6/gradle-4.3-bin.zip to /root/.gradle/wrapper/dists/gradle-4.3-bin/452wx51oxqsia28686mgqhot6
+Set executable permissions for: /root/.gradle/wrapper/dists/gradle-4.3-bin/452wx51oxqsia28686mgqhot6/gradle-4.3/bin/gradle
+To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/4.3/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+Download http://repo.spring.io/plugins-release/com/puppycrawl/tools/checkstyle/8.4/checkstyle-8.4.pom
+Download http://repo.spring.io/plugins-release/gradle/plugin/io/morethan/jmhreport/gradle-jmh-report/0.6.2.1/gradle-jmh-report-0.6.2.1.pom
+Download http://repo.spring.io/plugins-release/com/gradle/build-scan-plugin/1.10.1/build-scan-plugin-1.10.1.pom
+Download http://repo.spring.io/plugins-release/me/champeau/gradle/jmh-gradle-plugin/0.4.5-beta-2/jmh-gradle-plugin-0.4.5-beta-2.pom
+[Fatal Error] checkstyle-8.4.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] gradle-jmh-report-0.6.2.1.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] build-scan-plugin-1.10.1.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] jmh-gradle-plugin-0.4.5-beta-2.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'caffeine'.
+> Could not resolve all files for configuration ':classpath'.
+   > Could not resolve com.gradle:build-scan-plugin:1.10.1.
+     Required by:
+         project :
+      > Could not resolve com.gradle:build-scan-plugin:1.10.1.
+         > Could not parse POM http://repo.spring.io/plugins-release/com/gradle/build-scan-plugin/1.10.1/build-scan-plugin-1.10.1.pom
+            > The element type "hr" must be terminated by the matching end-tag "</hr>".
+   > Could not resolve me.champeau.gradle:buildscan-recipes-plugin:0.2.0.
+     Required by:
+         project :
+      > Could not resolve me.champeau.gradle:buildscan-recipes-plugin:0.2.0.
+         > Failed to download SHA1 for resource 'http://repo.spring.io/plugins-release/me/champeau/gradle/buildscan-recipes-plugin/0.2.0/buildscan-recipes-plugin-0.2.0.pom'.
+            > For input string: "<ht"
+   > Could not resolve com.puppycrawl.tools:checkstyle:8.4.
+     Required by:
+         project :
+      > Could not resolve com.puppycrawl.tools:checkstyle:8.4.
+         > Could not parse POM http://repo.spring.io/plugins-release/com/puppycrawl/tools/checkstyle/8.4/checkstyle-8.4.pom
+            > The element type "hr" must be terminated by the matching end-tag "</hr>".
+   > Could not resolve org.kt3k.gradle.plugin:coveralls-gradle-plugin:2.8.2.
+     Required by:
+         project :
+      > Could not resolve org.kt3k.gradle.plugin:coveralls-gradle-plugin:2.8.2.
+         > Failed to download SHA1 for resource 'http://repo.spring.io/plugins-release/org/kt3k/gradle/plugin/coveralls-gradle-plugin/2.8.2/coveralls-gradle-plugin-2.8.2.pom'.
+            > For input string: "<ht"
+   > Could not resolve gradle.plugin.com.github.mjdetullio.gradle:coverity-plugin:1.0.10.
+     Required by:
+         project :
+      > Could not resolve gradle.plugin.com.github.mjdetullio.gradle:coverity-plugin:1.0.10.
+         > Failed to download SHA1 for resource 'http://repo.spring.io/plugins-release/gradle/plugin/com/github/mjdetullio/gradle/coverity-plugin/1.0.10/coverity-plugin-1.0.10.pom'.
+            > For input string: "<ht"
+   > Could not resolve net.ltgt.gradle:gradle-errorprone-plugin:0.0.13.
+     Required by:
+         project :
+      > Could not resolve net.ltgt.gradle:gradle-errorprone-plugin:0.0.13.
+         > Failed to download SHA1 for resource 'http://repo.spring.io/plugins-release/net/ltgt/gradle/gradle-errorprone-plugin/0.0.13/gradle-errorprone-plugin-0.0.13.pom'.
+            > For input string: "<ht"
+   > Could not resolve me.champeau.gradle:jmh-gradle-plugin:0.4.5-beta-2.
+     Required by:
+         project :
+      > Could not resolve me.champeau.gradle:jmh-gradle-plugin:0.4.5-beta-2.
+         > Could not parse POM http://repo.spring.io/plugins-release/me/champeau/gradle/jmh-gradle-plugin/0.4.5-beta-2/jmh-gradle-plugin-0.4.5-beta-2.pom
+            > The element type "hr" must be terminated by the matching end-tag "</hr>".
+   > Could not resolve org.openjdk.jmh:jmh-core:1.19.
+     Required by:
+         project :
+      > Could not resolve org.openjdk.jmh:jmh-core:1.19.
+         > Failed to download SHA1 for resource 'http://repo.spring.io/plugins-release/org/openjdk/jmh/jmh-core/1.19/jmh-core-1.19.pom'.
+            > For input string: "<ht"
+   > Could not resolve gradle.plugin.io.morethan.jmhreport:gradle-jmh-report:0.6.2.1.
+     Required by:
+         project :
+      > Could not resolve gradle.plugin.io.morethan.jmhreport:gradle-jmh-report:0.6.2.1.
+         > Could not parse POM http://repo.spring.io/plugins-release/gradle/plugin/io/morethan/jmhreport/gradle-jmh-report/0.6.2.1/gradle-jmh-report-0.6.2.1.pom
+            > The element type "hr" must be terminated by the matching end-tag "</hr>".
+   > Could not resolve com.bmuschko:gradle-nexus-plugin:2.3.1.
+     Required by:
+         project :
+      > Could not resolve com.bmuschko:gradle-nexus-plugin:2.3.1.
+         > Failed to download SHA1 for resource 'http://repo.spring.io/plugins-release/com/bmuschko/gradle-nexus-plugin/2.3.1/gradle-nexus-plugin-2.3.1.pom'.
+            > For input string: "<ht"
+   > Could not resolve io.spring.gradle:propdeps-plugin:0.0.10.RELEASE.
+     Required by:
+         project :
+      > Could not resolve io.spring.gradle:propdeps-plugin:0.0.10.RELEASE.
+         > Failed to download SHA1 for resource 'http://repo.spring.io/plugins-release/io/spring/gradle/propdeps-plugin/0.0.10.RELEASE/propdeps-plugin-0.0.10.RELEASE.pom'.
+            > For input string: "<ht"
+   > Could not resolve io.ehdev:gradle-semantic-versioning:1.1.0.
+     Required by:
+         project :
+      > Could not resolve io.ehdev:gradle-semantic-versioning:1.1.0.
+         > Failed to download SHA1 for resource 'http://repo.spring.io/plugins-release/io/ehdev/gradle-semantic-versioning/1.1.0/gradle-semantic-versioning-1.1.0.pom'.
+            > For input string: "<ht"
+   > Could not resolve com.github.jengelman.gradle.plugins:shadow:2.0.1.
+     Required by:
+         project :
+      > Could not resolve com.github.jengelman.gradle.plugins:shadow:2.0.1.
+         > Failed to download SHA1 for resource 'http://repo.spring.io/plugins-release/com/github/jengelman/gradle/plugins/shadow/2.0.1/shadow-2.0.1.pom'.
+            > For input string: "<ht"
+   > Could not resolve org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:2.5.
+     Required by:
+         project :
+      > Could not resolve org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:2.5.
+         > Failed to download SHA1 for resource 'http://repo.spring.io/plugins-release/org/sonarsource/scanner/gradle/sonarqube-gradle-plugin/2.5/sonarqube-gradle-plugin-2.5.pom'.
+            > For input string: "<ht"
+   > Could not resolve gradle.plugin.com.github.spotbugs:gradlePlugin:1.6.0.
+     Required by:
+         project :
+      > Could not resolve gradle.plugin.com.github.spotbugs:gradlePlugin:1.6.0.
+         > Failed to download SHA1 for resource 'http://repo.spring.io/plugins-release/gradle/plugin/com/github/spotbugs/gradlePlugin/1.6.0/gradlePlugin-1.6.0.pom'.
+            > For input string: "<ht"
+   > Could not resolve org.kordamp.gradle:stats-gradle-plugin:0.2.0.
+     Required by:
+         project :
+      > Could not resolve org.kordamp.gradle:stats-gradle-plugin:0.2.0.
+         > Failed to download SHA1 for resource 'http://repo.spring.io/plugins-release/org/kordamp/gradle/stats-gradle-plugin/0.2.0/stats-gradle-plugin-0.2.0.pom'.
+            > For input string: "<ht"
+   > Could not resolve com.github.ben-manes:gradle-versions-plugin:0.17.0.
+     Required by:
+         project :
+      > Could not resolve com.github.ben-manes:gradle-versions-plugin:0.17.0.
+         > Failed to download SHA1 for resource 'http://repo.spring.io/plugins-release/com/github/ben-manes/gradle-versions-plugin/0.17.0/gradle-versions-plugin-0.17.0.pom'.
+            > For input string: "<ht"
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 14s

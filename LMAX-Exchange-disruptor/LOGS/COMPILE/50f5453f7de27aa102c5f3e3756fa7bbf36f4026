@@ -1,0 +1,8 @@
+:clean UP-TO-DATE
+:compileJavaNote: /results/LMAX-Exchange-disruptor/RELEASES/50f5453f7de27aa102c5f3e3756fa7bbf36f4026/src/main/java/com/lmax/disruptor/dsl/ExceptionHandlerSetting.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+
+BUILD SUCCESSFUL
+
+Total time: 3.508 secs

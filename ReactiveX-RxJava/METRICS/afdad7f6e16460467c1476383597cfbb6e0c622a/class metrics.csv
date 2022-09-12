@@ -1,0 +1,406 @@
+COH	DAC	ELOC	HALSTEADLENGHT	HALSTEADVOCABULARY	HALSTEADVOLUME	ID	LCC	LCOM	LOC	MCCABEMETRIC	MPC	NAME	NOA	NOO	NUMBEROFCHILDREN	NUMBEROFIMPORTS	NUMBOFATTRIBUTES	NUMBOFMETHODS	PATTERNROLE	PATTERNTYPE	RFC	TCC
+-1	0	31	46	178	238.36204331343592	723	-1	15	82	14	11	rx.PerfBaseline	0	0	0	10	0	6			17	0
+-1	0	19	34	109	159.50582799579087	166	-1	3	53	6	15	rx.ObservableWindowTests	0	0	0	7	0	3			18	0
+0	4	450	357	3426	2905.6760783616114	758	-1	552	641	88	332	rx.BackpressureTests	0	0	0	13	6	45			377	-1
+-1	0	315	150	2356	1164.7080817157216	759	-1	2211	511	81	148	rx.SubscriberTest	0	0	0	15	0	67			215	-1
+-1	0	27	26	108	121.73541190522971	173	-1	3	61	3	24	rx.StartWithTests	0	0	0	4	0	3			27	0
+-1	0	54	78	382	463.74280747131286	379	-1	28	98	16	28	rx.ErrorHandlingTests	0	0	0	6	0	8			36	0
+-1	0	49	70	265	390.58108781903553	175	-1	15	103	7	35	rx.MergeTests	0	0	0	8	0	6			41	0
+0	2	150	162	975	1114.9548703016512	162	-1	210	250	51	55	rx.CovarianceTest	0	0	0	12	2	21			76	0
+-1	0	42	54	239	295.7290318043016	308	-1	15	83	8	27	rx.ObservableDoOnTest	0	0	0	9	0	6			33	0
+-1	0	61	115	459	704.8407741569627	189	-1	15	97	16	37	rx.EventStream	0	0	0	7	0	6			43	-1
+-1	0	29	50	180	259.6478425445105	185	-1	10	64	7	12	rx.IntervalDemo	0	0	0	7	0	5			17	-1
+-1	0	16	27	102	124.87426595867531	191	-1	3	52	6	9	rx.ScanTests	0	0	0	6	0	3			12	0
+0	2	774	518	4862	4397.408270225804	160	-1	5539	1141	189	594	rx.ObservableTests	0	0	0	41	2	107			701	-1
+0	3	74	146	496	906.1600853018394	177	-1	55	146	21	31	rx.ZipTests	0	0	0	21	3	11			42	0
+-1	0	28	39	113	184.3681249297813	179	0	0	62	2	10	rx.ThrottleWithTimeoutTests	0	0	0	7	0	1			11	0
+-1	0	104	79	494	490.0003058578459	172	-1	28	173	8	60	rx.ConcatTests	0	0	0	8	0	8			68	0
+0	3	49	83	272	465.28157150256783	174	-1	21	91	13	11	rx.CombineLatestTests	0	0	0	13	3	7			18	0
+-1	0	52	58	317	334.01630288488224	176	-1	36	108	17	14	rx.ReduceTests	0	0	0	5	0	9			23	-1
+-1	0	40	41	276	230.43643549440313	190	-1	28	93	16	22	rx.GroupByTests	0	0	0	5	0	8			30	0
+-1	0	28	39	113	184.3681249297813	294	0	0	62	2	10	rx.ThrottleLastTests	0	0	0	7	0	1			11	0
+0	3	3983	3551	56571	38859.48701891776	43	-1	73892	9309	1251	622	rx.Observable	0	0	0	13	3	385	singleton	Singleton	1007	-1
+-1	0	14	76	120	363.8493724514355	38	0	1	45	6	0	rx.Subscription	0	0	0	1	0	2	decorated	Decorator	2	0
+-1	0	10	88	138	433.598324293834	750	0	0	42	2	0	rx.Producer	0	0	0	0	0	1	implementor	Bridge	1	0
+0	5	142	199	869	1346.701281927813	42	-1	80	207	56	34	rx.Notification	0	0	0	0	5	17	singleton	Singleton	51	-1
+-1	0	21	103	223	556.9386924603922	451	0	3	63	5	0	rx.Observer	0	0	0	0	0	3	decorated	Decorator	3	0
+-1	0	71	218	714	1432.4524857900294	93	0	1	152	4	1	rx.Scheduler	0	0	7	4	0	2	creator	Factory Method	3	0
+0	4	109	302	891	2051.2880170961844	44	0	16	181	21	6	rx.Subscriber	0	0	0	1	4	9	abstraction	Bridge	15	0
+0	5	66	92	462	564.4719699795199	671	-1	65	130	23	14	rx.jmh.InputWithIncrementingInteger	0	0	0	7	6	15			29	-1
+0	2	16	30	67	126.14077858172897	724	0	2	48	4	3	rx.jmh.LatchedObserver	0	0	0	3	2	4			7	0
+-1	0	192	142	1379	1026.5341706466488	806	-1	435	280	64	58	rx.internal.AtomicPerf	0	0	0	13	0	30			88	0
+-1	0	26	40	156	201.9942402899815	755	-1	1	66	6	7	rx.internal.IndexedRingBufferPerf	0	0	0	8	0	2			9	0
+-1	0	75	52	445	317.09986267264446	756	-1	28	141	20	32	rx.internal.RxRingBufferPerf	0	0	0	10	0	8			40	0
+-1	0	43	90	330	521.9183389014473	824	-1	1	86	4	3	rx.subscriptions.SerialSubscriptionPerf	0	0	0	4	0	2			5	0
+0	3	64	98	452	599.1408536235587	825	1	1	131	14	8	rx.subscriptions.SubscriptionListConcurrentPerf	0	0	0	14	4	7			15	1
+-1	0	43	90	330	521.9183389014473	823	-1	1	86	4	3	rx.subscriptions.MultipleAssignmentSubscriptionPerf	0	0	0	4	0	2			5	0
+-1	0	45	91	342	530.967777072697	826	-1	1	89	4	5	rx.subscriptions.SubscriptionListPerf	0	0	0	5	0	2			7	0
+0	3	116	105	861	709.5999229649117	821	3	0	198	22	16	rx.subscriptions.CompositeSubscriptionConcurrentPerf	0	0	0	13	4	11			27	3
+-1	0	70	95	537	597.1698189783422	822	-1	6	118	8	10	rx.subscriptions.CompositeSubscriptionPerf	0	0	0	4	0	4			14	0
+1	1	132	100	784	666.4409020350407	215	6	0	202	30	63	rx.subscriptions.SerialSubscriptionTests	0	0	0	14	1	13			76	6
+-1	0	19	24	73	102.97102658756138	287	-1	3	54	4	14	rx.subscriptions.SubscriptionsTest	0	0	0	9	0	3			17	0
+-1	0	229	117	1428	849.891526719245	286	-1	496	347	63	76	rx.subscriptions.CompositeSubscriptionTest	0	0	0	11	0	32			108	-1
+0	2	36	36	144	178.91327878473604	365	2	0	83	9	23	rx.subscriptions.MultipleAssignmentSubscriptionTest	0	0	0	10	2	5			28	2
+1	2	56	35	223	189.25101200110416	366	2	0	118	11	32	rx.subscriptions.RefCountSubscriptionTest	0	0	0	10	2	5			37	2
+0	1	76	171	525	1071.0411029031677	91	-1	15	135	14	2	rx.subscriptions.Subscriptions	0	0	0	4	1	6			8	-1
+0	2	70	106	409	637.453806540537	214	1	0	105	16	5	rx.subscriptions.SerialSubscription	0	0	0	2	2	4			9	1
+0	2	117	148	789	987.2734154851893	124	2	0	168	27	12	rx.subscriptions.CompositeSubscription	0	0	0	8	2	9			21	2
+0	3	39	88	206	468.85310285348316	90	0	9	77	11	2	rx.subscriptions.BooleanSubscription	0	0	0	4	3	6	context	State	8	0
+0	2	69	109	400	653.06963563477	194	1	0	104	15	5	rx.subscriptions.MultipleAssignmentSubscription	0	0	0	3	2	4			9	1
+0	3	106	135	568	856.1863915273555	357	1	0	147	19	10	rx.subscriptions.RefCountSubscription	0	0	0	3	4	6			16	1
+-1	0	59	67	411	403.24574537124766	601	-1	66	119	22	26	rx.subjects.ReplaySubjectPerf	0	0	0	12	0	12			38	0
+-1	0	463	366	3943	3030.369150999212	679	-1	496	560	93	184	rx.subjects.ReplaySubjectBoundedConcurrencyTest	0	0	0	16	0	32			216	-1
+-1	0	11	20	43	75.22400231387125	791	0	0	36	1	7	rx.subjects.SerializedSubjectTest	0	0	0	3	0	1			8	0
+0	1	387	265	2129	2030.803031196772	283	-1	423	587	56	236	rx.subjects.BehaviorSubjectTest	0	0	0	23	1	30			266	-1
+-1	0	362	348	3127	2800.6446163953287	388	-1	378	459	71	144	rx.subjects.ReplaySubjectConcurrencyTest	0	0	0	12	0	28			172	-1
+0	1	547	342	2731	2706.0487075440074	285	-1	1122	892	77	298	rx.subjects.ReplaySubjectTest	0	0	0	31	1	48			346	-1
+0	1	265	246	1400	1782.079968838424	284	-1	274	451	40	148	rx.subjects.PublishSubjectTest	0	0	0	25	1	24			172	-1
+0	1	253	194	1307	1392.045004443099	282	-1	118	399	32	144	rx.subjects.AsyncSubjectTest	0	0	0	24	1	16			160	0
+0	3	122	255	960	1751.0679875377798	128	4	0	198	40	36	rx.subjects.AsyncSubject	0	0	0	7	3	12	adapter	(Object)Adapter	48	4
+-1	0	20	123	199	651.0764934411126	111	0	3	54	7	0	rx.subjects.Subject	0	0	0	3	0	3	decorated	Decorator	3	0
+0	2	29	118	230	641.6933584529371	790	1	0	71	7	6	rx.subjects.SerializedSubject	0	0	0	2	2	6	decorator	Decorator	12	1
+0	3	853	936	7015	8289.03440901422	147	-1	0	1121	89	58	rx.subjects.ReplaySubject	0	0	0	14	3	26	adapter	(Object)Adapter	84	-1
+0	2	132	269	1050	1871.310724207772	133	-1	0	232	41	36	rx.subjects.BehaviorSubject	0	0	0	7	2	15	adapter	(Object)Adapter	51	-1
+0	2	108	169	721	1112.1280142011565	586	-1	36	175	23	31	rx.subjects.TestSubject	0	0	0	8	2	16	adapter	(Object)Adapter	47	1
+0	2	88	180	609	1154.1272881877815	123	4	0	154	27	22	rx.subjects.PublishSubject	0	0	0	7	2	10	adapter	(Object)Adapter	32	4
+0	7	339	394	2319	3053.0631868786795	387	-1	23	343	27	17	rx.subjects.SubjectSubscriptionManager	0	0	0	11	9	10	context	State	27	-1
+-1	0	23	33	123	158.80208372728976	785	-1	3	75	6	6	rx.observables.BlockingObservablePerf	0	0	0	9	0	3			9	0
+0	1	396	222	1407	1609.3257426793944	808	-1	679	540	90	260	rx.observables.AbstractOnSubscribeTest	0	0	0	16	2	42			302	-1
+0	1	389	294	2395	2287.6547218944347	222	-1	2211	545	110	209	rx.observables.BlockingObservableTest	0	0	0	21	1	67			276	0
+0	1	264	420	2423	3272.9599227429408	139	-1	26	478	85	71	rx.observables.BlockingObservable	0	0	0	16	1	29			100	-1
+0	1	45	218	512	1359.9547682586126	87	-1	0	105	12	2	rx.observables.GroupedObservable	0	0	0	4	1	5			7	0
+0	1	394	723	3603	5921.024486070872	807	-1	36	625	15	8	rx.observables.AbstractOnSubscribe	0	0	0	8	1	9			17	-1
+-1	0	40	151	338	879.2799302179359	121	-1	10	83	8	2	rx.observables.ConnectableObservable	0	0	0	5	0	5	abstractClass	Template Method	7	-1
+-1	0	18	33	93	149.57578327405747	672	-1	1	62	4	10	rx.schedulers.ComputationSchedulerPerf	0	0	0	10	0	2			12	0
+-1	0	18	33	93	149.57578327405747	728	-1	1	62	4	10	rx.schedulers.IOSchedulerPerf	0	0	0	10	0	2			12	0
+-1	0	100	164	716	1078.083547381546	220	-1	105	172	26	67	rx.schedulers.TrampolineSchedulerTest	5	10	0	12	0	15			82	0
+-1	0	45	59	299	336.3261708300505	405	-1	15	86	12	25	rx.schedulers.NewThreadSchedulerTest	4	2	0	9	0	6			31	0
+-1	0	64	120	395	717.4662917881346	681	-1	21	123	16	36	rx.schedulers.CachedThreadSchedulerTest	5	2	0	9	0	7			43	0
+0	2	291	226	2468	1765.322925015713	407	-1	222	426	69	172	rx.schedulers.AbstractSchedulerConcurrencyTests	14	14	4	19	5	28			200	-1
+-1	0	144	89	940	609.2833088985004	408	-1	55	225	16	73	rx.schedulers.TestSchedulerTest	0	0	0	18	0	11			84	-1
+0	1	12	28	54	111.69155330379968	690	-1	3	43	6	5	rx.schedulers.ExecutorSchedulerTest	3	0	0	5	1	3			8	0
+-1	0	47	47	285	265.6669914726266	221	-1	45	104	17	33	rx.schedulers.ImmediateSchedulerTest	2	8	0	6	0	10			43	0
+0	1	362	278	2624	2188.5425317177865	404	-1	424	505	75	169	rx.schedulers.AbstractSchedulerTests	0	0	3	25	2	32			201	-1
+0	2	96	103	687	672.830432098902	380	-1	53	154	25	59	rx.schedulers.ComputationSchedulerTests	6	5	0	11	2	11			70	0
+-1	0	85	152	661	987.0505836574563	793	-1	3	125	12	20	rx.schedulers.SchedulerTests	0	0	0	7	0	3			23	0
+0	2	59	96	324	554.9513775160635	126	2	0	86	14	4	rx.schedulers.Timestamped	0	0	0	0	2	6			10	2
+0	1	82	172	547	1084.3651940165807	101	-1	16	140	21	8	rx.schedulers.Schedulers	0	0	0	4	4	8	singleton	Singleton	16	0
+1	3	31	48	195	253.10397881105985	96	0	0	55	6	6	rx.schedulers.SleepingAction	0	0	0	2	3	2	decorator	Decorator	8	0
+0	0	31	63	175	325.3815163571814	99	0	3	74	5	0	rx.schedulers.ImmediateScheduler	2	1	0	6	1	3	singleton	Singleton	3	0
+0	0	79	147	589	937.6286489967832	458	0	6	135	7	0	rx.schedulers.TrampolineScheduler	3	1	0	9	1	4	singleton	Singleton	4	0
+0	2	16	37	65	154.45232898613855	100	0	3	43	5	0	rx.schedulers.NewThreadScheduler	2	1	0	3	3	3	singleton	Singleton	3	0
+0	3	32	120	255	664.9516254190111	125	0	0	67	5	5	rx.schedulers.GenericScheduledExecutorService	0	0	0	4	4	2	singleton	Singleton	7	0
+0	2	52	141	394	842.6654782110087	218	2	0	96	14	3	rx.schedulers.TimeInterval	0	0	0	0	2	6			9	2
+0	2	107	182	731	1200.1832496744596	118	-1	3	180	14	11	rx.schedulers.TestScheduler	4	2	0	9	3	6			17	-1
+1	1	133	185	947	1267.8603322394245	689	0	0	195	3	0	rx.schedulers.ExecutorScheduler	1	1	0	15	1	2			2	0
+0	2	100	128	714	841.0730191794668	680	0	0	171	2	1	rx.schedulers.CachedThreadScheduler	0	1	0	10	4	1			2	0
+-1	0	32	41	201	217.43550123042212	725	-1	15	100	15	15	rx.operators.OperatorFlatMapPerf	0	0	0	12	0	6			21	0
+-1	0	23	34	118	162.2032772318326	727	-1	3	70	6	15	rx.operators.OperatorObserveOnPerf	0	0	0	11	0	3			18	0
+-1	0	84	78	505	485.5155574834781	726	-1	45	169	24	45	rx.operators.OperatorMergePerf	0	0	0	17	0	10			55	0
+0	2	21	41	113	193.82290056720598	455	-1	3	69	7	4	rx.operators.OperatorMapPerf	0	0	0	12	2	3			7	0
+-1	0	53	51	395	304.9231740099572	757	-1	1	129	4	4	rx.operators.OperatorRangePerf	0	0	0	12	0	2			6	0
+-1	0	65	62	402	371.78002949437933	594	-1	28	135	13	40	rx.operators.OperatorSerializePerf	0	0	0	8	0	8			48	0
+0	1	21	55	92	248.69837173769722	670	0	1	36	2	0	rx.exceptions.TestException	0	0	0	0	1	2			2	0
+-1	0	59	202	531	1267.5019282908715	749	-1	10	121	14	8	rx.exceptions.OnNextValueTest	0	0	0	8	0	5			13	0
+-1	0	95	80	678	521.5317830352317	477	-1	253	169	30	25	rx.exceptions.ExceptionsTest	0	0	0	7	0	23			48	-1
+0	1	106	127	546	800.432609919603	460	-1	25	168	17	69	rx.exceptions.CompositeExceptionTest	0	0	0	9	3	10			79	0
+0	1	22	99	188	518.4077543201649	142	0	1	58	6	1	rx.exceptions.OnErrorNotImplementedException	0	0	0	1	1	2			3	0
+0	1	11	164	296	933.2189505091459	751	0	1	58	2	0	rx.exceptions.MissingBackpressureException	0	0	0	0	1	2			2	0
+0	1	117	267	988	1841.147280298681	81	-1	13	181	28	9	rx.exceptions.Exceptions	0	0	0	4	1	6			15	0
+0	1	22	66	139	325.67527958662566	591	0	1	50	6	1	rx.exceptions.OnErrorFailedException	0	0	0	1	1	2			3	0
+0	3	108	261	930	1783.9831769844457	534	-1	0	173	16	5	rx.exceptions.OnErrorThrowable	0	0	0	2	3	6			11	-1
+0	4	170	334	1287	2391.4631153371065	37	-1	41	259	27	25	rx.exceptions.CompositeException	0	0	0	9	4	11			36	-1
+0	1	298	216	1732	1610.7189312504343	748	-1	121	427	57	114	rx.internal.util.IndexedRingBufferTest	0	0	0	14	1	22			136	-1
+-1	0	86	134	763	889.3925761921172	765	-1	15	141	26	36	rx.internal.util.RxRingBufferWithoutUnsafeTest	5	1	0	10	0	6			42	0
+-1	0	90	137	827	920.3392432182457	763	-1	15	147	26	37	rx.internal.util.RxRingBufferSpmcTest	5	1	0	10	0	6			43	0
+-1	0	87	134	814	898.0626890443403	764	-1	15	145	26	37	rx.internal.util.RxRingBufferSpscTest	5	1	0	10	0	6			43	0
+-1	0	109	80	621	514.5064865546783	762	-1	28	157	28	39	rx.internal.util.RxRingBufferBase	0	0	3	6	0	8			47	0
+-1	0	188	88	1246	627.2370455425711	692	-1	378	285	59	62	rx.internal.util.SubscriptionListTest	0	0	0	10	0	28			90	-1
+-1	0	26	30	133	146.7104738466526	817	-1	3	52	6	9	rx.internal.util.JCToolsQueueTests	0	0	0	3	0	3			12	0
+0	5	254	617	6479	5414.990338629624	730	-1	46	536	57	29	rx.internal.util.IndexedRingBuffer	0	0	0	6	7	16	realsubject	Proxy	45	-1
+0	4	88	170	583	1082.5918216795837	733	-1	7	145	29	12	rx.internal.util.SubscriptionIndexedRingBuffer	0	0	0	3	4	10	proxy	Proxy	22	-1
+-1	1	16	55	79	240.3196318856862	683	-1	0	30	0	0	rx.internal.util.PaddedAtomicInteger	0	0	0	0	3	0			0	-1
+0	2	108	148	687	966.7854752489077	734	2	0	155	26	11	rx.internal.util.SubscriptionRandomList	0	0	0	8	2	8			19	2
+0	1	39	74	204	393.540879544472	801	-1	6	65	14	6	rx.internal.util.PlatformDependent	0	0	0	2	1	4			10	-1
+0	2	85	115	408	691.2957250564785	735	9	0	156	47	23	rx.internal.util.SynchronizedQueue	0	0	0	4	2	24			47	9
+0	3	136	157	906	1069.019171048748	691	2	0	178	26	23	rx.internal.util.SubscriptionList	0	0	0	8	3	10			33	2
+1	1	12	24	48	92.90882426178939	736	1	0	35	4	2	rx.internal.util.SynchronizedSubscription	0	0	0	1	1	3	decorator	Decorator	5	1
+0	5	190	573	5391	4923.494578533806	754	-1	106	454	58	21	rx.internal.util.RxRingBuffer	0	0	0	8	9	24			45	-1
+1	1	82	129	516	805.7477727471216	732	1	0	120	9	5	rx.internal.util.ScalarSynchronousObservable	0	0	0	4	1	5			10	1
+-1	1	16	45	67	189.21116787259345	721	-1	0	31	0	0	rx.internal.util.FrontPadding	0	0	1	1	3	0			0	-1
+0	3	50	70	226	379.43744994906	722	-1	0	84	24	12	rx.internal.util.PaddedAtomicIntegerBase	13	0	1	1	3	13			25	-1
+0	2	86	133	722	875.4093434727458	796	0	21	163	14	0	rx.internal.util.UtilityFunctions	0	0	0	11	3	7			7	0
+0	5	210	280	1559	2058.5039633361775	809	-1	0	240	24	9	rx.internal.util.BackpressureDrainManager	0	0	0	3	6	8			17	2
+0	3	80	150	533	941.7782136248767	731	0	6	134	22	20	rx.internal.util.ObjectPool	0	0	0	8	3	8	abstractClass	Template Method	28	0
+0	3	13	33	59	134.55873564888876	693	0	0	37	3	2	rx.internal.util.RxThreadFactory	0	0	0	2	3	2			4	0
+-1	0	120	117	824	785.5579519994083	505	-1	6	199	7	53	rx.internal.operators.OperatorUnsubscribeOnTest	0	0	0	16	0	4			57	0
+-1	0	19	26	78	113.27442949392939	228	-1	1	56	4	19	rx.internal.operators.OperatorCastTest	0	0	0	7	0	2			21	0
+-1	0	139	128	717	841.6097075967514	483	-1	190	223	30	77	rx.internal.operators.OnSubscribeRangeTest	0	0	0	18	0	20			97	-1
+-1	0	271	169	1551	1241.584722576835	412	-1	595	419	87	202	rx.internal.operators.OperatorFlatMapTest	0	0	0	12	0	35			237	-1
+0	3	218	174	1237	1238.9573207962928	358	-1	167	362	53	116	rx.internal.operators.OnSubscribeGroupJoinTest	0	0	0	16	3	26			142	-1
+0	1	566	412	3408	3351.158925835073	618	-1	1584	890	128	326	rx.internal.operators.OnSubscribeCombineLatestTest	0	0	0	36	1	57			383	-1
+0	2	18	30	69	127.0231951379178	239	-1	4	56	6	10	rx.internal.operators.OperatorFinallyTest	0	0	0	8	2	4			14	0
+0	2	278	172	1663	1275.6170984211835	306	-1	1069	435	109	151	rx.internal.operators.OnSubscribeUsingTest	0	0	0	23	2	47			198	-1
+-1	0	49	42	208	224.17659934745535	272	-1	10	104	9	54	rx.internal.operators.OperatorToObservableListTest	0	0	0	11	0	5			59	0
+-1	0	97	94	673	612.1040609866044	812	-1	153	160	31	85	rx.internal.operators.OperatorSwitchIfEmptyTest	0	0	0	9	0	18			103	-1
+0	4	166	113	932	772.6186080594717	335	-1	95	272	56	112	rx.internal.operators.OperatorToMultimapTest	0	0	0	23	4	18			130	1
+0	1	232	205	1639	1517.3775236424851	251	-1	229	347	69	120	rx.internal.operators.OperatorOnErrorResumeNextViaFunctionTest	0	0	0	18	1	22			142	-1
+-1	0	23	30	92	135.65365731147122	729	-1	1	55	4	16	rx.internal.operators.NotificationLiteTest	0	0	0	3	0	2			18	0
+-1	0	38	50	202	265.41338487006027	293	-1	10	84	8	18	rx.internal.operators.BlockingOperatorToIteratorTest	0	0	0	8	0	5			23	0
+0	2	386	286	2432	2229.7902035226125	245	-1	188	549	53	172	rx.internal.operators.OperatorMergeDelayErrorTest	0	0	0	21	2	25			197	-1
+0	8	874	617	5146	5272.866570583322	275	-1	3896	1316	202	477	rx.internal.operators.OperatorZipTest	0	0	0	38	9	96			573	-1
+0	1	178	177	1150	1247.4105481802414	795	-1	229	262	37	107	rx.internal.operators.OperatorPublishTest	0	0	0	13	1	22			129	-1
+0	3	181	110	844	741.1967744055553	242	-1	0	295	29	102	rx.internal.operators.OnSubscribeTimerTest	0	0	0	19	3	15			117	-1
+-1	0	466	459	3196	3703.97178586075	250	-1	1596	727	125	323	rx.internal.operators.OperatorObserveOnTest	0	0	0	37	0	57			380	-1
+0	1	92	49	377	290.68001418495254	353	2	0	164	14	61	rx.internal.operators.OperatorSkipUntilTest	0	0	0	11	1	7			68	2
+0	4	195	112	921	764.4515240605944	257	-1	29	286	25	106	rx.internal.operators.OperatorSampleTest	0	0	0	15	4	15			121	2
+-1	0	75	55	324	317.9408933685781	550	-1	21	147	14	79	rx.internal.operators.OperatorSkipTest	0	0	0	9	0	7			86	0
+-1	0	70	67	315	385.4223668013174	364	-1	105	155	31	60	rx.internal.operators.OperatorSequenceEqualTest	0	0	0	10	0	15			75	0
+0	2	180	96	840	646.4065816163865	331	-1	46	309	37	113	rx.internal.operators.OnSubscribeJoinTest	0	0	0	13	2	17			130	-1
+-1	0	481	237	2658	1868.8230297077462	378	-1	325	742	57	209	rx.internal.operators.OperatorReplayTest	0	0	0	26	0	26			235	-1
+0	2	81	59	340	343.90779143900227	236	1	0	141	17	73	rx.internal.operators.OperatorDistinctUntilChangedTest	0	0	0	14	3	8			81	1
+0	4	439	252	3379	2047.5844418520012	264	-1	0	577	91	238	rx.internal.operators.OperatorSwitchTest	0	0	0	21	7	54			292	-1
+-1	0	90	110	490	681.3845930215139	265	-1	6	166	8	49	rx.internal.operators.SafeSubscriberTest	0	0	0	12	0	4			53	0
+-1	0	38	46	233	250.74776886402222	829	-1	36	80	9	18	rx.internal.operators.OperatorDoOnRequestTest	0	0	0	11	0	9			27	0
+0	1	205	196	1352	1413.0306902941702	491	-1	105	295	32	109	rx.internal.operators.OperatorMergeMaxConcurrentTest	0	0	0	11	1	15			124	-1
+-1	0	267	122	1572	897.9326847046765	386	-1	1176	459	79	194	rx.internal.operators.OperatorSingleTest	0	0	0	19	0	49			243	-1
+-1	0	154	71	767	471.6165628970752	297	-1	231	269	46	138	rx.internal.operators.OperatorLastTest	0	0	0	11	0	22			160	0
+0	1	125	129	818	865.1852414217543	302	-1	114	204	40	67	rx.internal.operators.OperatorDoOnEachTest	0	0	0	17	2	16			83	0
+0	3	192	147	1019	1018.2068238837405	231	-1	79	308	41	119	rx.internal.operators.OperatorDebounceTest	0	0	0	22	3	23			142	2
+0	1	141	139	982	957.6531918612708	252	-1	34	224	34	75	rx.internal.operators.OperatorOnErrorResumeNextViaObservableTest	0	0	0	15	1	9			84	0
+0	1	40	38	169	194.9361511670768	359	0	1	94	6	25	rx.internal.operators.OperatorTimestampTest	0	0	0	16	1	3			28	0
+0	9	217	145	1231	1031.7594082967457	464	-1	172	381	57	119	rx.internal.operators.OperatorZipIterableTest	0	0	0	20	10	24			143	2
+-1	0	281	133	1829	999.0327782359851	413	-1	435	438	88	146	rx.internal.operators.OperatorTimeoutWithSelectorTest	0	0	0	27	0	30			176	0
+-1	0	78	51	332	296.0618834147409	609	-1	6	159	10	47	rx.internal.operators.OperatorSkipLastTimedTest	0	0	0	13	0	4			51	0
+0	5	69	76	296	432.46731852862854	347	1	0	118	13	25	rx.internal.operators.OperatorZipCompletionTest	0	0	0	10	6	6			31	1
+-1	0	71	57	310	326.98462095631396	234	-1	21	143	14	81	rx.internal.operators.OperatorDematerializeTest	0	0	0	12	0	7			88	0
+-1	0	36	47	152	236.122384479775	233	-1	1	87	5	24	rx.internal.operators.OnSubscribeDeferTest	0	0	0	12	0	2			26	0
+-1	0	116	103	601	659.0552782571264	798	-1	120	202	21	97	rx.internal.operators.OperatorWindowWithSizeTest	0	0	0	13	0	16			113	0
+0	2	180	90	879	610.0906407916659	240	-1	264	310	54	166	rx.internal.operators.OperatorFirstTest	0	0	0	17	2	24			190	0
+0	5	232	131	1189	927.5936944664924	216	-1	0	363	41	174	rx.internal.operators.OperatorTimeoutTests	0	0	0	22	5	20			194	6
+-1	0	39	92	393	549.5904842919721	786	-1	6	85	16	35	rx.internal.operators.BufferUntilSubscriberTest	0	0	0	12	0	4			39	0
+-1	0	150	96	986	661.791010041853	797	-1	120	255	24	74	rx.internal.operators.OperatorWindowWithObservableTest	0	0	0	12	0	16			90	-1
+-1	0	29	39	145	194.0926159544024	273	-1	6	75	8	30	rx.internal.operators.OperatorToObservableSortedListTest	0	0	0	13	0	4			34	0
+-1	0	81	68	409	408.93263061091056	382	-1	21	171	10	60	rx.internal.operators.BlockingOperatorLatestTest	0	0	0	9	0	7			67	0
+0	1	135	151	938	1033.40624229994	253	-1	43	222	32	64	rx.internal.operators.OperatorOnErrorReturnTest	0	0	0	15	1	10			74	0
+-1	0	48	56	232	305.01729281331336	247	-1	6	107	5	34	rx.internal.operators.BlockingOperatorMostRecentTest	0	0	0	14	0	4			38	0
+-1	0	227	218	1455	1587.6419371540194	249	-1	136	322	45	119	rx.internal.operators.BlockingOperatorNextTest	0	0	0	22	0	17			136	0
+0	2	218	130	1102	910.6346586626718	803	-1	286	347	34	191	rx.internal.operators.OnBackpressureBlockTest	0	0	0	18	2	25			216	-1
+0	1	185	170	1138	1196.294694496667	289	-1	141	264	41	86	rx.internal.operators.OperatorTakeWhileTest	0	0	0	10	2	18			104	0
+0	1	213	160	1435	1163.0272205109954	258	-1	697	363	69	131	rx.internal.operators.OperatorScanTest	0	0	0	24	1	38			169	-1
+-1	0	64	42	272	235.44368678443192	427	-1	3	134	7	39	rx.internal.operators.OperatorTakeTimedTest	0	0	0	13	0	3			42	0
+0	3	878	652	5901	5661.235873801274	246	-1	3930	1243	191	608	rx.internal.operators.OperatorMergeTest	0	0	0	39	3	93			701	-1
+-1	0	41	48	214	257.56684872104887	620	-1	15	88	11	32	rx.internal.operators.OperatorDefaultIfEmptyTest	0	0	0	9	0	6			38	-1
+-1	0	86	48	366	283.3264000032656	260	-1	6	169	10	52	rx.internal.operators.OperatorSkipTimedTest	0	0	0	13	0	4			56	0
+0	2	115	135	718	887.8233918215102	800	-1	102	174	20	57	rx.internal.operators.OperatorWindowWithTimeTest	0	0	0	9	2	16			73	-1
+-1	0	486	396	3212	3197.5610337263943	230	-1	276	721	61	250	rx.internal.operators.OperatorConcatTest	0	0	0	27	0	24			274	0
+0	2	123	135	836	908.3648627664347	295	-1	73	222	27	80	rx.internal.operators.OnSubscribeAmbTest	0	0	0	23	2	14			94	0
+0	2	272	242	2252	1868.1369054008187	576	-1	10	404	7	38	rx.internal.operators.OperatorSerializeTest	0	0	0	19	2	5			43	0
+0	3	100	103	517	643.5484160743682	269	4	0	161	16	49	rx.internal.operators.OperatorThrottleFirstTest	0	0	0	17	3	12			61	4
+0	2	75	60	316	345.34453281521473	235	1	0	135	17	73	rx.internal.operators.OperatorDistinctTest	0	0	0	14	3	8			81	1
+0	4	144	95	783	632.9976061191263	334	-1	88	227	43	83	rx.internal.operators.OperatorToMapTest	0	0	0	16	4	16			99	0
+-1	0	25	32	107	149.53052270278098	611	-1	1	72	4	22	rx.internal.operators.OperatorAsObservableTest	0	0	0	10	0	2			24	0
+0	5	29	47	118	224.22217734988627	290	0	0	76	4	11	rx.internal.operators.OperatorTimeIntervalTest	0	0	0	13	5	2			13	0
+-1	0	77	88	406	528.5590780449525	292	-1	36	134	19	44	rx.internal.operators.BlockingOperatorToFutureTest	0	0	0	15	0	9			53	0
+-1	0	80	88	510	548.6281438632167	238	-1	66	147	23	45	rx.internal.operators.OperatorFilterTest	0	0	0	12	0	12			57	-1
+0	3	550	243	2971	1943.1868917374136	362	-1	1048	801	134	303	rx.internal.operators.OperatorDelayTest	0	0	0	32	7	49			352	1
+-1	0	381	294	2279	2273.058656598231	792	-1	946	597	70	207	rx.internal.operators.OnSubscribeRefCountTest	0	0	0	17	0	44			251	-1
+0	2	127	123	916	838.862012854918	799	-1	178	188	28	61	rx.internal.operators.OperatorWindowWithStartEndObservableTest	0	0	0	16	2	20			81	-1
+0	1	176	148	1207	1050.1921967224346	254	-1	26	268	29	97	rx.internal.operators.OperatorOnExceptionResumeNextViaObservableTest	0	0	0	15	1	8			105	0
+-1	0	78	66	443	402.1756048229789	602	-1	78	131	30	54	rx.internal.operators.OperatorAllTest	0	0	0	7	0	13			67	0
+0	1	84	104	538	653.9372902568256	761	-1	89	150	26	48	rx.internal.operators.OperatorOnBackpressureDropTest	0	0	0	11	1	14			62	-1
+-1	0	67	56	356	328.9961209277137	783	-1	36	118	14	30	rx.internal.operators.OperatorDoOnSubscribeTest	0	0	0	8	0	9			39	0
+0	3	686	355	3983	2942.8756570294836	226	-1	2374	1018	125	495	rx.internal.operators.OperatorBufferTest	0	0	0	32	3	80			575	-1
+-1	0	86	109	564	690.5209134132884	585	-1	91	164	21	63	rx.internal.operators.OnSubscribeCacheTest	0	0	0	23	0	14			77	-1
+0	3	226	229	1437	1664.9016509120968	243	-1	514	342	78	113	rx.internal.operators.OperatorMapTest	0	0	0	20	4	33			146	0
+-1	0	187	128	888	868.9883831029978	268	-1	45	289	15	107	rx.internal.operators.OperatorTakeUntilTest	0	0	0	11	0	10			117	0
+-1	0	59	51	257	283.00288032965625	248	-1	3	129	6	29	rx.internal.operators.OperatorMulticastTest	0	0	0	12	0	3			32	0
+0	1	81	94	460	576.3352900114153	760	-1	72	151	18	45	rx.internal.operators.OperatorOnBackpressureBufferTest	0	0	0	14	1	13			58	-1
+-1	0	86	81	548	510.8082982427893	784	-1	28	156	12	37	rx.internal.operators.OperatorDoOnUnsubscribeTest	0	0	0	12	0	8			45	0
+-1	0	97	114	653	738.8997927375132	244	-1	3	157	11	34	rx.internal.operators.OperatorMaterializeTest	0	0	0	10	0	3			37	0
+0	1	170	107	808	716.3181402617572	828	-1	10	298	15	116	rx.internal.operators.OperatorWithLatestFromTest	0	0	0	12	2	12			128	2
+-1	0	167	201	1290	1439.6418969684994	468	-1	153	271	37	87	rx.internal.operators.OperatorSubscribeOnTest	0	0	0	20	0	18			105	-1
+-1	0	141	67	697	438.63462252095513	224	-1	153	223	40	128	rx.internal.operators.OperatorAnyTest	0	0	0	8	0	18			146	0
+-1	0	73	59	339	343.73400633544657	815	-1	45	135	20	78	rx.internal.operators.OperatorTakeUntilPredicateTest	0	0	0	9	0	10			88	0
+0	3	648	555	4733	4696.584564097968	256	-1	1256	897	131	393	rx.internal.operators.OperatorRetryTest	0	0	0	19	3	53			446	-1
+-1	0	113	124	597	792.5977220606827	417	-1	105	202	27	132	rx.internal.operators.OperatorRepeatTest	0	0	0	16	0	15			147	0
+0	2	209	167	1231	1188.3022150728038	688	-1	118	308	49	121	rx.internal.operators.OperatorRetryWithPredicateTest	0	0	0	15	6	20			141	1
+-1	0	60	55	255	304.7694949837134	259	-1	21	122	12	71	rx.internal.operators.OperatorSkipLastTest	0	0	0	15	0	7			78	0
+0	2	64	66	323	381.32505333269535	391	-1	19	138	22	61	rx.internal.operators.OperatorReduceTest	0	0	0	15	2	10			71	1
+0	3	83	95	408	571.0703815683953	261	-1	0	141	21	78	rx.internal.operators.OperatorSkipWhileTest	0	0	0	12	4	9			87	2
+0	1	166	105	984	723.6207191904866	662	-1	628	296	47	127	rx.internal.operators.OperatorTakeLastTest	0	0	0	19	1	36			163	-1
+-1	0	119	51	502	317.1486061042782	266	-1	15	211	11	67	rx.internal.operators.OperatorTakeLastTimedTest	0	0	0	14	0	6			73	0
+0	1	115	138	646	892.970331521999	271	-1	100	197	26	65	rx.internal.operators.OnSubscribeFromIterableTest	0	0	0	19	1	16			81	-1
+0	1	259	234	1684	1738.3689635837316	267	-1	433	391	55	185	rx.internal.operators.OperatorTakeTest	0	0	0	28	1	30			215	-1
+0	6	1006	577	7891	5177.696891696637	241	-1	11083	1457	343	569	rx.internal.operators.OperatorGroupByTest	0	0	0	38	8	150			719	-1
+-1	0	20	22	70	93.4668953250859	588	-1	15	60	6	32	rx.internal.operators.OperatorElementAtTest	0	0	0	4	0	6			38	0
+0	1	70	90	429	545.5311227035215	270	-1	20	142	24	62	rx.internal.operators.OnSubscribeToObservableFutureTest	0	0	0	20	2	9			71	-1
+0	1	34	73	251	403.3580645566202	624	-1	0	68	6	9	rx.internal.operators.OperatorFinally	0	0	0	3	1	5			14	-1
+1	1	67	120	669	780.6940872153874	428	0	0	118	4	2	rx.internal.operators.OnSubscribeFromIterable	0	0	0	5	1	2			4	0
+0	1	42	99	397	592.4096917880319	549	-1	1	83	16	11	rx.internal.operators.OperatorSkip	0	0	0	3	2	7			18	-1
+0	3	45	61	350	357.333922423491	463	-1	2	77	12	16	rx.internal.operators.OperatorZipIterable	0	0	0	5	3	5			21	-1
+0	2	106	145	759	961.6402577223664	752	1	0	163	7	3	rx.internal.operators.OperatorOnBackpressureBuffer	0	0	0	9	2	4			7	1
+1	1	63	101	407	606.890131729702	802	0	0	95	3	1	rx.internal.operators.OperatorOnBackpressureBlock	0	0	0	5	1	2			3	0
+0	3	49	77	320	444.16071667612044	649	-1	13	80	9	16	rx.internal.operators.OperatorSkipTimed	0	0	0	7	3	6	context	State	22	-1
+-1	0	33	63	184	328.5409527293661	572	-1	15	58	8	6	rx.internal.operators.OperatorSerialize	0	0	0	3	0	6			12	-1
+0	1	40	79	390	471.3255923907717	535	-1	22	84	11	21	rx.internal.operators.OperatorOnErrorFlatMap	0	0	0	6	1	8			29	-1
+0	1	37	59	244	324.3329252922989	503	-1	15	78	8	15	rx.internal.operators.OperatorUnsubscribeOn	0	0	0	5	1	7			22	-1
+0	4	26	123	224	665.6324643781699	137	1	0	76	5	5	rx.internal.operators.OnSubscribeCache	0	0	0	6	4	4			9	1
+0	1	26	74	178	383.4519827216143	127	-1	4	61	6	8	rx.internal.operators.OperatorTimestamp	0	0	0	4	1	5			13	-1
+0	2	34	71	243	390.0073624771789	622	1	0	66	10	12	rx.internal.operators.OperatorDistinct	0	0	0	5	2	5			17	1
+0	4	55	105	376	622.6068600559389	635	1	0	109	8	12	rx.internal.operators.OperatorToMap	0	0	0	6	4	7			19	1
+0	1	59	115	252	635.8843450638137	621	1	3	87	16	14	rx.internal.operators.OperatorDematerialize	0	0	0	3	1	6			20	1
+0	4	160	240	1927	1815.292720419448	613	-1	0	232	46	42	rx.internal.operators.OperatorBufferWithSize	0	0	0	8	8	13			55	-1
+0	3	276	218	2027	1659.920047926536	663	-1	0	315	8	5	rx.internal.operators.OperatorWindowWithObservable	0	0	0	10	3	4	context	State	9	-1
+0	2	54	170	609	1090.0091055106825	23	-1	5	107	19	26	rx.internal.operators.OperatorOnErrorResumeNextViaFunction	0	0	0	7	2	7			33	-1
+0	2	49	165	535	1036.574013237841	641	-1	5	104	17	22	rx.internal.operators.OperatorOnErrorResumeNextViaObservable	0	0	0	6	2	7			29	-1
+1	1	70	100	667	650.2790045915623	481	0	0	111	2	1	rx.internal.operators.OnSubscribeRange	0	0	0	4	2	2			3	0
+0	2	33	75	241	411.3597700117991	645	0	9	68	9	11	rx.internal.operators.OperatorThrottleFirst	0	0	0	3	3	6			17	0
+0	3	68	123	545	774.996652743579	827	-1	18	103	15	23	rx.internal.operators.OperatorWithLatestFrom	0	0	0	5	3	8			31	-1
+0	2	154	321	1254	2290.04408450291	584	-1	81	246	54	6	rx.internal.operators.NotificationLite	0	0	0	3	5	15	singleton	Singleton	21	-1
+0	2	146	251	1274	1794.6291258691592	614	-1	8	215	6	8	rx.internal.operators.OperatorBufferWithStartEndObservable	0	0	0	11	2	5			13	-1
+0	4	42	76	290	430.9109501465195	788	-1	9	85	8	13	rx.internal.operators.OperatorDelay	0	0	0	7	4	7	context	State	20	-1
+0	6	105	215	1075	1500.716327220779	499	-1	0	170	31	26	rx.internal.operators.OperatorScan	0	0	0	7	8	11			37	-1
+0	6	88	99	753	655.7824575521895	780	-1	0	127	17	10	rx.internal.operators.TakeLastQueueProducer	0	0	0	4	6	4			14	-1
+0	5	261	232	2228	1788.4554274429447	636	0	1	326	2	1	rx.internal.operators.OnSubscribeJoin	0	0	0	13	5	2			3	0
+0	2	57	69	466	423.9488087546695	456	1	0	88	19	12	rx.internal.operators.OperatorDoOnEach	0	0	0	5	2	5			17	1
+0	1	54	80	388	476.8804271698619	83	-1	34	97	10	16	rx.internal.operators.OperatorTakeUntil	0	0	0	4	1	9			25	-1
+-1	0	28	84	282	473.9201939588016	494	-1	10	59	8	8	rx.internal.operators.OperatorTimeout	0	0	0	5	0	5			13	0
+0	1	61	93	404	558.131583650387	816	-1	3	97	4	4	rx.internal.operators.OperatorTakeUntilPredicate	0	0	0	4	1	3			7	0
+0	5	225	227	2205	1747.5555928489748	769	-1	255	349	82	105	rx.internal.operators.OnSubscribeRedo	0	0	0	17	7	31	context	State	136	-1
+0	1	76	160	653	1037.052340684229	129	-1	43	135	33	25	rx.internal.operators.BlockingOperatorToFuture	0	0	0	10	1	11			36	0
+0	5	142	195	1038	1354.2849574265376	628	-1	0	185	10	21	rx.internal.operators.OperatorDebounceWithTime	0	0	0	8	5	7	context	State	28	1
+0	2	54	95	377	563.5632928075611	630	-1	24	95	11	18	rx.internal.operators.OperatorSampleWithObservable	0	0	0	5	2	8			26	-1
+1	1	40	88	265	491.01622468678755	810	1	0	81	4	6	rx.internal.operators.OperatorDoOnRequest	0	0	0	4	1	3			9	1
+0	2	50	159	434	965.6140809219644	429	-1	15	106	13	11	rx.internal.operators.OperatorToObservableList	0	0	0	5	2	7			18	-1
+0	3	41	82	296	466.60947525457294	207	0	4	79	13	19	rx.internal.operators.OperatorSkipLast	0	0	0	4	3	5			24	0
+1	1	20	79	152	396.88656114685585	85	0	0	52	4	3	rx.internal.operators.OnSubscribeDefer	0	0	0	4	1	2	context	State	5	0
+0	4	28	66	161	335.37268808897454	668	1	0	59	5	7	rx.internal.operators.OnSubscribeDelaySubscription	0	0	0	7	4	3	context	State	10	1
+1	3	70	137	444	835.1279650532148	631	0	0	111	3	3	rx.internal.operators.OperatorSampleWithTime	0	0	0	8	3	2	context	State	5	0
+0	2	48	83	370	490.8207494679764	610	-1	0	80	17	15	rx.internal.operators.OperatorAny	0	0	0	4	4	5			20	-1
+0	1	51	95	373	562.5499498661625	650	-1	26	92	13	21	rx.internal.operators.OperatorSkipUntil	0	0	0	5	1	8			29	-1
+1	1	179	192	1445	1396.9660033049342	478	0	0	255	5	0	rx.internal.operators.OperatorObserveOn	0	0	0	9	1	2			2	0
+0	2	63	135	616	867.1383400770251	426	2	0	117	17	17	rx.internal.operators.OperatorTake	0	0	0	3	3	7			24	2
+0	2	276	356	2410	2772.3080014285533	794	-1	0	382	15	31	rx.internal.operators.OperatorPublish	0	0	0	9	2	11			42	-1
+1	1	18	66	125	318.6687066619519	781	0	0	46	4	2	rx.internal.operators.OperatorDoOnUnsubscribe	0	0	0	4	1	2			4	0
+0	1	28	57	194	300.2679150666097	432	-1	4	57	8	11	rx.internal.operators.OperatorCast	0	0	0	3	1	5			16	-1
+0	3	58	99	505	616.2312844982606	627	-1	6	107	13	29	rx.internal.operators.OperatorDebounceWithSelector	0	0	0	7	3	9			38	-1
+1	1	563	513	4966	4365.819792592942	434	0	0	786	7	0	rx.internal.operators.OperatorMerge	0	0	0	8	1	4			4	0
+-1	0	63	108	722	710.8587150004251	496	-1	36	114	22	25	rx.internal.operators.OperatorTimeoutWithSelector	0	0	0	9	0	9			34	-1
+0	4	74	109	525	682.710410622487	643	0	0	138	10	8	rx.internal.operators.OnSubscribeUsing	0	0	0	11	4	3	context	State	11	0
+1	4	109	145	744	958.7459500507982	495	0	0	177	3	4	rx.internal.operators.OperatorTimeoutBase	0	0	0	12	4	2	context	State	6	0
+0	2	54	185	599	1183.1233956513581	647	-1	5	113	19	24	rx.internal.operators.OperatorOnExceptionResumeNextViaObservable	0	0	0	6	2	7			31	-1
+0	2	271	212	2215	1633.037628685598	219	4	0	401	37	37	rx.internal.operators.OnSubscribeAmb	0	0	0	11	2	13			50	4
+1	1	69	90	679	586.8559014802827	687	0	0	125	3	3	rx.internal.operators.OperatorRetryWithPredicate	0	0	0	8	1	2			5	0
+0	3	31	66	186	344.8992804650713	632	-1	1	58	7	9	rx.internal.operators.OnSubscribeTimerOnce	0	0	0	6	3	3	context	State	12	0
+-1	0	73	160	648	1035.8225114163638	84	-1	3	129	7	4	rx.internal.operators.BlockingOperatorMostRecent	0	0	0	5	0	3			7	0
+1	3	45	87	256	482.4304376697219	659	0	0	84	3	3	rx.internal.operators.OperatorTakeTimed	0	0	0	7	3	2	context	State	5	0
+0	3	47	87	350	509.6401844400609	562	-1	1	73	14	12	rx.internal.operators.OperatorSkipWhile	0	0	0	4	3	7			19	-1
+0	4	106	133	774	884.6590591874337	648	-1	9	168	19	44	rx.internal.operators.OnSubscribeRefCount	0	0	0	11	4	11	context	State	55	-1
+0	3	80	120	571	761.6867051587212	583	0	2	129	10	6	rx.internal.operators.OperatorSingle	0	0	0	5	3	5			11	0
+0	6	436	361	3254	2919.638143888213	666	0	0	481	5	5	rx.internal.operators.OperatorWindowWithTime	0	0	0	15	7	2	context	State	7	0
+0	2	39	79	300	450.5988154978399	561	-1	0	71	13	15	rx.internal.operators.OperatorAll	0	0	0	3	2	5			20	-1
+-1	0	119	179	928	1223.1126801687299	82	0	3	191	6	0	rx.internal.operators.BlockingOperatorNext	0	0	0	9	0	3			3	0
+0	3	41	82	317	472.229945457937	623	-1	4	70	12	12	rx.internal.operators.OperatorDistinctUntilChanged	0	0	0	3	3	5			17	-1
+-1	0	26	62	116	294.7225918485946	392	0	3	46	5	0	rx.internal.operators.OperatorAsObservable	0	0	0	2	0	3			3	0
+1	1	18	66	125	318.6687066619519	782	0	0	44	4	1	rx.internal.operators.OperatorDoOnSubscribe	0	0	0	3	1	2	context	State	3	0
+1	1	202	297	1971	2253.130003224358	461	4	0	339	11	9	rx.internal.operators.OperatorZip	0	0	0	21	1	10			19	4
+0	1	80	123	686	803.2979482102838	811	0	1	128	3	2	rx.internal.operators.OperatorSwitchIfEmpty	0	0	0	3	1	2			4	0
+0	7	94	138	829	927.3903814086707	639	-1	12	155	19	23	rx.internal.operators.OperatorMulticast	0	0	0	12	7	8	context	State	31	-1
+0	2	30	62	210	331.52066690448305	787	-1	4	65	6	6	rx.internal.operators.OnSubscribeDelaySubscriptionWithSelector	0	0	0	4	2	5	context	State	11	-1
+1	1	149	214	1128	1504.035106460413	664	0	0	231	4	0	rx.internal.operators.OperatorWindowWithSize	0	0	0	11	2	2			2	0
+0	1	29	78	236	426.17888079199764	433	-1	4	65	13	13	rx.internal.operators.OperatorMap	0	0	0	5	1	5			18	-1
+0	1	41	87	301	496.5185930331522	660	-1	9	82	13	22	rx.internal.operators.OperatorTakeLast	0	0	0	4	1	6			28	-1
+0	4	267	310	2434	2417.160294799716	435	0	0	420	6	0	rx.internal.operators.OperatorGroupBy	0	0	0	19	4	4			4	0
+-1	0	39	100	248	551.3428746164982	599	-1	15	69	12	19	rx.internal.operators.OperatorMaterialize	0	0	0	4	0	6			25	-1
+-1	0	152	205	1050	1426.0918158460715	616	0	3	230	5	2	rx.internal.operators.OperatorConcat	0	0	0	11	0	3			5	0
+0	3	56	96	446	585.6306193939262	646	-1	5	93	19	15	rx.internal.operators.OperatorTakeWhile	0	0	0	4	3	7			22	-1
+0	1	33	71	256	393.7075985580489	489	-1	4	67	12	13	rx.internal.operators.OperatorFilter	0	0	0	4	1	5			18	-1
+0	2	51	133	510	829.1766265205433	779	-1	16	95	15	18	rx.internal.operators.OperatorMapPair	0	0	0	6	2	8			26	-1
+0	2	57	152	584	968.2249493898905	642	-1	5	110	19	28	rx.internal.operators.OperatorOnErrorReturn	0	0	0	8	2	7			35	-1
+0	4	260	272	2015	2069.477857031573	615	0	0	306	6	5	rx.internal.operators.OperatorBufferWithTime	0	0	0	12	5	2	context	State	7	0
+-1	0	51	119	418	718.222290470446	69	0	3	98	6	0	rx.internal.operators.OnSubscribeToObservableFuture	0	0	0	6	0	3			3	0
+-1	0	85	157	692	1026.714995031974	381	-1	3	134	6	4	rx.internal.operators.BlockingOperatorLatest	0	0	0	8	0	3			7	0
+0	3	67	121	518	756.2470043133974	661	-1	2	110	23	35	rx.internal.operators.OperatorTakeLastTimed	0	0	0	6	3	8			43	1
+1	1	273	336	2376	2611.786356642132	638	0	0	350	3	2	rx.internal.operators.OperatorMergeMaxConcurrent	0	0	0	9	1	2			4	0
+0	5	76	136	566	862.0487946356329	634	1	0	142	11	16	rx.internal.operators.OperatorToMultimap	0	0	0	8	5	8			24	1
+-1	0	278	244	2199	1877.7649496953618	658	0	3	322	5	1	rx.internal.operators.OperatorSwitch	0	0	0	8	0	3			4	0
+0	3	51	128	464	785.9052226849607	430	-1	4	110	15	18	rx.internal.operators.OperatorToObservableSortedList	0	0	0	7	3	8			26	-1
+0	3	44	88	380	522.7350702393979	777	2	0	78	11	17	rx.internal.operators.OperatorMapNotification	0	0	0	5	3	5			22	2
+-1	0	69	129	403	773.8628164911221	377	-1	10	107	8	7	rx.internal.operators.OperatorReplay	0	0	0	5	0	5			12	-1
+0	3	52	85	379	504.69057743200625	587	-1	0	84	16	11	rx.internal.operators.OperatorElementAt	0	0	0	2	4	7			18	-1
+0	1	61	120	486	742.3450348680592	89	-1	30	110	27	25	rx.internal.operators.BlockingOperatorToIterator	0	0	0	9	1	9			34	0
+0	2	133	202	1025	1400.3544740976467	612	-1	15	191	11	10	rx.internal.operators.OperatorBufferWithSingleObservable	0	0	0	9	2	7	context	State	17	-1
+0	1	56	90	354	528.2367221820397	753	-1	30	95	15	17	rx.internal.operators.OperatorOnBackpressureDrop	0	0	0	5	1	9			26	-1
+0	3	37	70	236	382.46822635179274	633	0	0	63	5	9	rx.internal.operators.OnSubscribeTimerPeriodically	0	0	0	6	5	3	context	State	12	0
+-1	0	49	99	369	585.1688677600122	820	-1	3	85	12	4	rx.internal.operators.BackpressureUtils	0	0	0	2	0	3			7	0
+0	3	132	267	1034	1853.297744703256	498	-1	3	215	25	12	rx.internal.operators.BufferUntilSubscriber	0	0	0	7	3	10			22	-1
+0	1	45	141	400	844.7965011422255	363	-1	4	89	15	9	rx.internal.operators.OperatorSequenceEqual	0	0	0	7	1	5			14	-1
+0	2	171	198	1306	1420.5954133476025	665	-1	13	231	7	9	rx.internal.operators.OperatorWindowWithStartEndObservable	0	0	0	12	2	6			15	-1
+0	2	26	60	174	309.54331795287175	644	0	4	60	6	8	rx.internal.operators.OperatorTimeInterval	0	0	0	4	2	5			13	0
+0	3	42	79	327	457.406853500883	608	0	0	79	15	25	rx.internal.operators.OperatorSkipLastTimed	0	0	0	7	3	6			31	0
+0	5	303	292	2354	2267.050416043505	356	0	1	388	2	2	rx.internal.operators.OnSubscribeGroupJoin	0	0	0	17	5	2			4	0
+0	2	35	68	276	382.18725886876615	619	-1	0	64	11	8	rx.internal.operators.OperatorDefaultIfEmpty	0	0	0	2	2	5			13	-1
+1	2	227	313	1924	2366.956590573629	617	0	0	320	7	6	rx.internal.operators.OnSubscribeCombineLatest	0	0	0	12	2	2			8	0
+0	3	37	97	241	532.0253025485935	640	-1	1	77	5	6	rx.internal.operators.OnSubscribeMulticastSelector	0	0	0	10	3	3	context	State	9	-1
+0	1	59	81	741	535.248050648983	467	-1	64	110	23	38	rx.internal.operators.OperatorSubscribeOn	0	0	0	7	1	12	context	State	50	-1
+0	2	51	92	416	554.8230439440363	789	-1	30	96	14	22	rx.internal.operators.OperatorDelayWithSelector	0	0	0	6	2	9			31	-1
+-1	0	157	164	872	1110.4094655210727	281	-1	190	254	27	77	rx.plugins.RxJavaPluginsTest	0	0	0	17	0	20			97	0
+0	4	131	233	993	1607.8702447225253	79	-1	25	214	35	23	rx.plugins.RxJavaPlugins	0	0	0	1	5	10	singleton	Singleton	33	-1
+-1	0	45	212	555	1339.621240114244	114	0	10	121	19	0	rx.plugins.RxJavaObservableExecutionHook	0	0	1	6	0	5			5	0
+1	0	9	24	33	83.91618147519553	115	0	0	29	2	0	rx.plugins.RxJavaObservableExecutionHookDefault	1	0	0	0	1	1	singleton	Singleton	1	0
+0	1	40	213	488	1318.5371814467205	77	0	3	107	15	6	rx.plugins.RxJavaErrorHandler	0	0	0	4	1	3			9	0
+0	0	37	142	309	814.1344613194799	778	0	15	85	15	0	rx.plugins.RxJavaSchedulersHook	0	0	0	2	1	6	singleton	Singleton	6	0
+0	2	580	559	4976	4758.421333640229	579	-1	169	815	43	99	rx.observers.SerializedObserverTest	0	0	0	27	2	19			118	-1
+0	1	66	77	303	439.9574260242214	443	-1	15	128	12	62	rx.observers.TestObserverTest	0	0	0	12	1	7			69	0
+-1	0	319	166	2144	1273.291134683655	393	-1	990	465	92	131	rx.observers.SafeObserverTest	0	0	0	14	0	45			176	-1
+0	1	63	73	290	413.90130737757795	454	-1	9	124	11	60	rx.observers.TestSubscriberTest	0	0	0	12	1	6			66	0
+0	5	166	196	1229	1394.3353974749427	582	2	0	213	19	14	rx.observers.SerializedObserver	0	0	0	2	7	5	decorator	Decorator	19	2
+1	1	40	170	348	994.8744215616607	571	2	0	97	9	3	rx.observers.SerializedSubscriber	0	0	0	2	1	5	decorator	Decorator	8	2
+0	5	106	242	795	1616.1587917463482	442	-1	37	176	31	18	rx.observers.TestObserver	0	0	0	5	5	14	realsubject	Proxy	32	-1
+0	2	132	287	1224	2040.535405901742	13	1	0	235	22	19	rx.observers.SafeSubscriber	0	0	0	7	2	7			26	1
+-1	0	113	182	1075	1270.3738211822408	462	-1	153	201	37	17	rx.observers.Subscribers	0	0	0	5	0	18			35	-1
+0	1	104	162	989	1117.2644817228795	439	-1	136	191	35	9	rx.observers.Observers	0	0	0	4	1	17			26	0
+0	3	165	289	1193	2047.3414359862977	453	-1	84	264	50	22	rx.observers.TestSubscriber	0	0	0	3	3	21	proxy	Proxy	43	-1
+-1	0	14	18	48	69.68161819634204	351	-1	6	43	4	7	rx.util.AssertObservableTest	0	0	0	2	0	4			11	0
+-1	0	93	175	976	1204.6059526222912	349	-1	28	155	29	46	rx.util.AssertObservable	0	0	0	4	0	8			54	-1
+-1	0	55	121	339	704.9460129930344	818	-1	3	90	8	10	rx.test.TestObstructionDetection	0	0	0	5	0	3			13	0
+0	1	44	44	262	245.00715816548825	819	-1	9	74	11	14	rx.test.TestObstructionDetectionTest	0	0	0	6	1	6			20	0
+-1	0	24	51	110	239.72449865541324	291	0	1	60	4	0	rx.test.OperatorTester	0	0	0	1	0	2			2	0
+0	1	7	29	37	104.7166194666825	-1	0	0	229	1	0	rx.internal.util.unsafe.SpmcArrayQueueL1Pad	0	0	0	1	2	1			1	0
+-1	0	21	74	164	377.3901156589907	744	0	3	44	8	1	rx.internal.util.unsafe.Pow2	0	0	0	0	0	3			4	0
+0	3	32	76	190	398.77382948419694	739	0	6	58	7	4	rx.internal.util.unsafe.ConcurrentSequencedCircularArrayQueue	0	0	0	1	3	4			8	0
+-1	1	4	26	28	86.63731726455529	-1	-1	0	186	0	0	rx.internal.util.unsafe.ConcurrentCircularArrayQueueL0Pad	0	0	0	3	2	0			0	-1
+0	1	7	29	37	104.7166194666825	-1	0	0	254	1	0	rx.internal.util.unsafe.MpmcArrayQueueL1Pad	0	0	0	1	2	1			1	0
+0	1	46	87	305	497.6671245648448	747	2	0	87	18	7	rx.internal.util.unsafe.UnsafeAccess	0	0	0	2	1	6			13	2
+1	2	8	23	35	81.77300541425652	-1	0	0	194	1	1	rx.internal.util.unsafe.SpscArrayQueueColdField	0	0	0	1	2	1			2	0
+-1	0	33	137	306	784.1311589674762	770	0	10	74	16	0	rx.internal.util.unsafe.MessagePassingQueue	0	0	0	1	0	5			5	0
+0	4	97	175	578	1112.9254270176662	606	1	0	143	5	3	rx.internal.schedulers.EventLoopsScheduler	2	1	0	5	5	3			6	1
+0	3	143	194	896	1318.8004401171365	695	-1	0	202	17	16	rx.internal.schedulers.ScheduledAction	0	0	0	8	3	10	context	State	26	-1
+0	7	180	239	1093	1672.2068756741928	694	-1	46	220	41	50	rx.internal.schedulers.NewThreadWorker	0	0	0	10	10	13			63	-1
+-1	0	6	30	36	107.5055681536833	51	0	0	23	1	0	rx.functions.Func6	0	0	0	0	0	1			1	0
+-1	0	6	15	15	40.62075301653315	61	0	0	23	1	0	rx.functions.Action0	0	0	0	0	0	1	state	State	1	0
+-1	0	6	24	27	79.1000847841039	8	0	0	23	1	0	rx.functions.Func3	0	0	0	0	0	1			1	0
+-1	0	6	32	39	117.23397267614868	52	0	0	23	1	0	rx.functions.Func7	0	0	0	0	0	1			1	0
+-1	0	6	18	19	52.99990162499593	10	0	0	23	1	0	rx.functions.FuncN	0	0	0	0	0	1			1	0
+-1	0	5	21	22	64.91189152052463	65	-1	0	25	0	0	rx.functions.Function	0	0	0	0	0	0			0	-1
+-1	0	6	36	45	137.0398496317315	54	0	0	23	1	0	rx.functions.Func9	0	0	0	0	0	1			1	0
+-1	0	5	20	22	61.82084906716632	155	-1	0	25	0	0	rx.functions.Action	0	0	0	0	0	0			0	-1
+-1	0	6	29	36	103.92204921522719	341	0	0	23	1	0	rx.functions.Action7	0	0	0	0	0	1			1	0
+-1	0	6	20	21	60.89044875446846	6	0	0	23	1	0	rx.functions.Func1	0	0	0	0	0	1	state	State	1	0
+-1	0	6	17	18	49.136319884234794	62	0	0	23	1	0	rx.functions.Action1	0	0	0	0	0	1	state	State	1	0
+-1	0	6	34	42	127.08076702163453	53	0	0	23	1	0	rx.functions.Func8	0	0	0	0	0	1			1	0
+-1	0	6	31	39	113.57041103001903	342	0	0	23	1	0	rx.functions.Action8	0	0	0	0	0	1			1	0
+-1	0	6	25	30	85.02993454155389	339	0	0	24	1	0	rx.functions.Action5	0	0	0	0	0	1			1	0
+-1	0	6	26	30	88.43113192321604	9	0	0	23	1	0	rx.functions.Func4	0	0	0	0	0	1			1	0
+-1	0	6	22	24	69.9171842676548	7	0	0	23	1	0	rx.functions.Func2	0	0	0	0	0	1			1	0
+-1	0	6	19	21	57.845926316745036	63	0	0	23	1	0	rx.functions.Action2	0	0	0	0	0	1			1	0
+-1	0	6	17	18	49.136319884234794	344	0	0	23	1	0	rx.functions.ActionN	0	0	0	0	0	1			1	0
+-1	0	6	28	33	97.90221172106145	50	0	0	23	1	0	rx.functions.Func5	0	0	0	0	0	1			1	0
+0	1	289	189	2621	1487.6778174281237	328	-1	595	432	81	33	rx.functions.Actions	0	0	0	0	1	35			68	-1
+-1	0	6	27	33	94.40570415959496	340	0	0	24	1	0	rx.functions.Action6	0	0	0	0	0	1			1	0
+-1	0	6	23	27	75.80424791809958	338	0	0	24	1	0	rx.functions.Action4	0	0	0	0	0	1			1	0
+-1	0	6	21	24	66.73913043730686	64	0	0	23	1	0	rx.functions.Action3	0	0	0	0	0	1			1	0
+-1	0	6	20	20	59.914645471079815	5	0	0	26	1	0	rx.functions.Func0	0	0	0	1	0	1	state	State	1	0
+-1	0	6	33	42	123.34309740335115	343	0	0	23	1	0	rx.functions.Action9	0	0	0	0	0	1			1	0
+-1	0	233	162	1975	1229.308435728306	11	-1	406	333	114	28	rx.functions.Functions	0	0	0	0	0	29			57	-1

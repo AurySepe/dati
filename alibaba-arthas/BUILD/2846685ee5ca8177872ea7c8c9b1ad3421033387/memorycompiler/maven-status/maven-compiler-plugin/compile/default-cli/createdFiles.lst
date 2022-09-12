@@ -1,0 +1,9 @@
+com/taobao/arthas/compiler/PackageInternalsFinder.class
+com/taobao/arthas/compiler/DynamicCompiler.class
+com/taobao/arthas/compiler/MemoryByteCode.class
+com/taobao/arthas/compiler/DynamicCompilerException.class
+com/taobao/arthas/compiler/DynamicClassLoader.class
+com/taobao/arthas/compiler/StringSource.class
+com/taobao/arthas/compiler/DynamicCompiler$1.class
+com/taobao/arthas/compiler/DynamicJavaFileManager.class
+com/taobao/arthas/compiler/CustomJavaFileObject.class

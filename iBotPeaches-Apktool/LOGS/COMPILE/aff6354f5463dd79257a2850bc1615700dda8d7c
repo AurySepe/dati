@@ -1,0 +1,34 @@
+Building SNAPSHOT (SNAPSHOT): aff635
+:clean UP-TO-DATE
+:brut.apktool:clean UP-TO-DATE
+:brut.j.common:clean UP-TO-DATE
+:brut.j.dir:clean UP-TO-DATE
+:brut.j.util:clean UP-TO-DATE
+:brut.apktool:apktool-cli:clean UP-TO-DATE
+:brut.apktool:apktool-lib:clean UP-TO-DATE
+:compileJava NO-SOURCE
+:brut.apktool:compileJava NO-SOURCE
+:brut.j.common:compileJava
+:brut.j.common:processResources NO-SOURCE
+:brut.j.common:classes
+:brut.j.common:jar
+:brut.j.util:compileJavaNote: /results/iBotPeaches-Apktool/RELEASES/aff6354f5463dd79257a2850bc1615700dda8d7c/brut.j.util/src/main/java/brut/util/Duo.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:brut.j.util:processResources NO-SOURCE
+:brut.j.util:classes
+:brut.j.util:jar
+:brut.j.dir:compileJava
+:brut.j.dir:processResources NO-SOURCE
+:brut.j.dir:classes
+:brut.j.dir:jar
+:brut.apktool:apktool-lib:compileJavaNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:brut.apktool:apktool-lib:processResources
+:brut.apktool:apktool-lib:classes
+:brut.apktool:apktool-lib:jar
+:brut.apktool:apktool-cli:compileJava
+
+BUILD SUCCESSFUL in 7s
+17 actionable tasks: 10 executed, 7 up-to-date

@@ -1,0 +1,10 @@
+Inferred version: 1.0.15-SNAPSHOT
+[buildinfo] Properties file path was not found! (Relevant only for builds running on a CI Server)
+:clean
+:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+
+BUILD SUCCESSFUL
+
+Total time: 9.4 secs

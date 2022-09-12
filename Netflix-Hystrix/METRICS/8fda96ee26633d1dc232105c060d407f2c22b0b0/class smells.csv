@@ -1,0 +1,258 @@
+CLASSDATASHOULDBEPRIVATE	COMPLEXCLASS	FUNCTIONALDECOMPOSITION	GODCLASS	ID	NAME	PATTERNROLE	PATTERNTYPE	SPAGHETTICODE
+false	false	false	false	107	com.netflix.hystrix.dashboard.stream.ProxyStreamServlet			false
+false	false	false	false	106	com.netflix.hystrix.dashboard.stream.MockStreamServlet			false
+false	false	false	false	86	com.netflix.hystrix.examples.demo.GetUserAccountCommand			false
+false	false	false	false	88	com.netflix.hystrix.examples.demo.Order			false
+false	false	false	false	87	com.netflix.hystrix.examples.demo.HystrixCommandDemo			false
+false	false	false	false	83	com.netflix.hystrix.examples.demo.CreditCardCommand			false
+false	false	false	false	84	com.netflix.hystrix.examples.demo.GetOrderCommand			false
+false	false	false	false	90	com.netflix.hystrix.examples.demo.UserAccount			false
+false	false	false	false	85	com.netflix.hystrix.examples.demo.GetPaymentInformationCommand			false
+false	false	false	false	89	com.netflix.hystrix.examples.demo.PaymentInformation			false
+false	false	false	false	82	com.netflix.hystrix.examples.demo.CreditCardAuthorizationResult			false
+false	false	false	false	74	com.netflix.hystrix.examples.basic.CommandUsingRequestCache			false
+false	false	false	false	72	com.netflix.hystrix.examples.basic.CommandThatFailsFast			false
+false	false	false	false	299	com.netflix.hystrix.examples.basic.ObservableCommandNumbersToWords			false
+false	false	false	false	76	com.netflix.hystrix.examples.basic.CommandUsingSemaphoreIsolation			false
+false	false	false	false	68	com.netflix.hystrix.examples.basic.CommandCollapserGetValueForKey			false
+false	false	false	false	71	com.netflix.hystrix.examples.basic.CommandHelloWorld			false
+false	false	false	false	298	com.netflix.hystrix.examples.basic.ObservableCollapserGetWordForNumber			false
+false	false	false	false	70	com.netflix.hystrix.examples.basic.CommandHelloFailure			false
+false	false	false	false	73	com.netflix.hystrix.examples.basic.CommandThatFailsSilently			false
+false	false	false	false	77	com.netflix.hystrix.examples.basic.CommandWithFallbackViaNetwork			false
+false	false	false	false	75	com.netflix.hystrix.examples.basic.CommandUsingRequestCacheInvalidation			false
+false	false	false	false	78	com.netflix.hystrix.examples.basic.CommandWithStubbedFallback			false
+false	false	false	false	69	com.netflix.hystrix.examples.basic.CommandFacadeWithPrimarySecondary			false
+false	false	false	false	283	com.netflix.hystrix.perf.RollingNumberPerfTest			false
+false	false	false	false	284	com.netflix.hystrix.perf.RollingMaxPerfTest			false
+false	false	false	false	297	com.netflix.hystrix.perf.ObservableCollapserPerfTest			false
+false	false	false	false	295	com.netflix.hystrix.perf.CommandGroupKeyExecutionPerfTest			false
+false	false	false	false	296	com.netflix.hystrix.perf.CollapserPerfTest			false
+false	false	false	false	279	com.netflix.hystrix.perf.MultiThreadedMetricsTest			false
+false	false	false	false	282	com.netflix.hystrix.perf.RollingPercentilePerfTest			false
+false	false	false	false	277	com.netflix.hystrix.perf.CommandSetterExecutionPerfTest			false
+false	false	false	true	130	com.netflix.hystrix.HystrixCollapserTest			true
+false	false	false	false	137	com.netflix.hystrix.HystrixTest			false
+false	false	false	false	261	com.netflix.hystrix.TestableExecutionHook			false
+false	false	false	false	272	com.netflix.hystrix.InspectableBuilder			false
+false	false	false	false	131	com.netflix.hystrix.HystrixCommandMetricsTest			false
+false	false	false	false	135	com.netflix.hystrix.HystrixRequestCacheTest			false
+false	false	false	false	294	com.netflix.hystrix.HystrixSubclassCommandTest			false
+false	false	false	false	232	com.netflix.hystrix.HystrixThreadPoolMetricsTest			false
+false	false	false	false	274	com.netflix.hystrix.TestHystrixObservableCommand			false
+false	false	false	true	216	com.netflix.hystrix.HystrixObservableCollapserTest			false
+false	false	false	false	217	com.netflix.hystrix.HystrixCommandTimeoutConcurrencyTesting			false
+false	false	false	false	132	com.netflix.hystrix.HystrixCommandPropertiesTest			false
+false	false	false	false	136	com.netflix.hystrix.HystrixRequestLogTest			false
+false	false	false	false	138	com.netflix.hystrix.HystrixThreadPoolTest			false
+false	true	false	true	271	com.netflix.hystrix.CommonHystrixCommandTests			true
+false	false	false	false	323	com.netflix.hystrix.HystrixCommandTestWithCustomConcurrencyStrategy			false
+false	true	false	true	134	com.netflix.hystrix.HystrixObservableCommandTest			true
+false	false	false	false	270	com.netflix.hystrix.AbstractTestHystrixCommand			false
+false	false	false	false	129	com.netflix.hystrix.HystrixCircuitBreakerTest			false
+false	true	false	true	133	com.netflix.hystrix.HystrixCommandTest			true
+false	false	false	false	273	com.netflix.hystrix.TestHystrixCommand			false
+false	false	false	false	226	com.netflix.hystrix.HystrixObservable			false
+false	false	false	false	150	com.netflix.hystrix.HystrixInvokableInfo			false
+false	false	false	false	15	com.netflix.hystrix.HystrixExecutable			false
+false	false	false	false	225	com.netflix.hystrix.HystrixInvokable			false
+false	false	false	false	20	com.netflix.hystrix.HystrixThreadPoolMetrics			false
+false	false	false	false	7	com.netflix.hystrix.HystrixCollapserKey	state	State	false
+false	false	false	false	17	com.netflix.hystrix.HystrixRequestLog			false
+false	false	false	false	8	com.netflix.hystrix.HystrixCollapserProperties			false
+false	false	false	false	6	com.netflix.hystrix.HystrixCollapser	abstractClass	Template Method	false
+false	false	false	true	128	com.netflix.hystrix.AbstractCommand	abstraction	Bridge	true
+false	false	false	false	5	com.netflix.hystrix.HystrixCircuitBreaker	implementor	Bridge	false
+false	false	false	false	19	com.netflix.hystrix.HystrixThreadPoolKey	state	State	false
+false	false	false	false	149	com.netflix.hystrix.HystrixObservableCommand	abstractClass	Template Method	false
+false	false	false	false	280	com.netflix.hystrix.HystrixCounters			false
+false	false	false	false	18	com.netflix.hystrix.HystrixThreadPool	implementor	Bridge	false
+false	false	false	false	9	com.netflix.hystrix.HystrixCommand			false
+false	false	false	false	215	com.netflix.hystrix.HystrixObservableCollapser	abstractClass	Template Method	false
+false	false	false	false	111	com.netflix.hystrix.Hystrix			false
+false	false	false	false	16	com.netflix.hystrix.HystrixRequestCache	receiver	Command	false
+false	false	false	false	262	com.netflix.hystrix.HystrixCollapserMetrics			false
+false	false	false	true	13	com.netflix.hystrix.HystrixCommandProperties	receiver	Command	false
+false	false	false	false	267	com.netflix.hystrix.HystrixMetrics			false
+false	false	false	false	21	com.netflix.hystrix.HystrixThreadPoolProperties			false
+false	false	false	false	12	com.netflix.hystrix.HystrixCommandMetrics	receiver	Command	false
+false	false	false	false	10	com.netflix.hystrix.HystrixCommandGroupKey			false
+false	false	false	false	11	com.netflix.hystrix.HystrixCommandKey	implementor	Bridge	false
+false	false	false	false	222	com.netflix.hystrix.HystrixCommandMetricsSamples			false
+false	false	false	false	139	com.netflix.hystrix.collapser.CollapsedRequestObservableFunctionTest			false
+false	false	false	false	118	com.netflix.hystrix.collapser.RealCollapserTimer	adapter	(Object)Adapter	false
+false	false	false	false	116	com.netflix.hystrix.collapser.CollapserTimer	state	State	false
+false	false	false	false	121	com.netflix.hystrix.collapser.RequestCollapserFactory	context	State	false
+false	false	false	false	117	com.netflix.hystrix.collapser.HystrixCollapserBridge	state	State	false
+false	false	false	false	115	com.netflix.hystrix.collapser.CollapsedRequestObservableFunction			false
+false	false	false	false	120	com.netflix.hystrix.collapser.RequestCollapser	context	State	false
+false	false	false	false	119	com.netflix.hystrix.collapser.RequestBatch	context	State	false
+false	false	false	false	141	com.netflix.hystrix.strategy.concurrency.HystrixConcurrencyStrategyTest			false
+false	false	false	false	268	com.netflix.hystrix.strategy.concurrency.HystrixContextSchedulerTest			false
+false	false	false	false	321	com.netflix.hystrix.strategy.concurrency.HystrixLifecycleForwardingRequestVariable	context	Strategy	false
+false	false	false	false	35	com.netflix.hystrix.strategy.concurrency.HystrixRequestVariableLifecycle	strategy	Strategy	false
+false	false	false	false	34	com.netflix.hystrix.strategy.concurrency.HystrixRequestVariableHolder			false
+false	false	false	false	28	com.netflix.hystrix.strategy.concurrency.HystrixConcurrencyStrategyDefault	singleton	Singleton	false
+false	false	false	false	29	com.netflix.hystrix.strategy.concurrency.HystrixContextCallable			false
+false	false	false	false	122	com.netflix.hystrix.strategy.concurrency.HystrixContexSchedulerAction			false
+false	false	false	false	31	com.netflix.hystrix.strategy.concurrency.HystrixRequestContext			false
+false	false	false	false	123	com.netflix.hystrix.strategy.concurrency.HystrixContextScheduler			false
+false	false	false	false	32	com.netflix.hystrix.strategy.concurrency.HystrixRequestVariable			false
+false	false	false	false	30	com.netflix.hystrix.strategy.concurrency.HystrixContextRunnable			false
+false	false	false	false	33	com.netflix.hystrix.strategy.concurrency.HystrixRequestVariableDefault			false
+false	false	false	false	27	com.netflix.hystrix.strategy.concurrency.HystrixConcurrencyStrategy			false
+false	false	false	false	142	com.netflix.hystrix.strategy.metrics.HystrixMetricsPublisherFactoryTest			false
+false	false	false	false	42	com.netflix.hystrix.strategy.metrics.HystrixMetricsPublisherCommandDefault			false
+false	false	false	false	264	com.netflix.hystrix.strategy.metrics.HystrixMetricsPublisherCollapserDefault			false
+false	false	false	false	263	com.netflix.hystrix.strategy.metrics.HystrixMetricsPublisherCollapser			false
+false	false	false	false	41	com.netflix.hystrix.strategy.metrics.HystrixMetricsPublisherCommand			false
+false	false	false	false	43	com.netflix.hystrix.strategy.metrics.HystrixMetricsPublisherDefault	singleton	Singleton	false
+false	false	false	false	46	com.netflix.hystrix.strategy.metrics.HystrixMetricsPublisherThreadPoolDefault			false
+false	false	false	false	40	com.netflix.hystrix.strategy.metrics.HystrixMetricsPublisher			false
+false	false	false	false	45	com.netflix.hystrix.strategy.metrics.HystrixMetricsPublisherThreadPool			false
+false	false	false	false	44	com.netflix.hystrix.strategy.metrics.HystrixMetricsPublisherFactory	singleton	Singleton	false
+false	false	false	false	144	com.netflix.hystrix.strategy.properties.HystrixPropertyTest			false
+false	false	false	false	143	com.netflix.hystrix.strategy.properties.HystrixPropertiesChainedArchaiusPropertyTest			false
+false	false	false	false	54	com.netflix.hystrix.strategy.properties.HystrixPropertiesStrategy			false
+false	false	false	false	56	com.netflix.hystrix.strategy.properties.HystrixPropertiesThreadPoolDefault			false
+false	false	false	false	55	com.netflix.hystrix.strategy.properties.HystrixPropertiesStrategyDefault	singleton	Singleton	false
+false	false	false	false	51	com.netflix.hystrix.strategy.properties.HystrixPropertiesCollapserDefault			false
+false	false	false	false	50	com.netflix.hystrix.strategy.properties.HystrixPropertiesChainedArchaiusProperty			false
+false	false	false	false	57	com.netflix.hystrix.strategy.properties.HystrixProperty	strategy	Strategy	false
+false	false	false	false	53	com.netflix.hystrix.strategy.properties.HystrixPropertiesFactory			false
+false	false	false	false	52	com.netflix.hystrix.strategy.properties.HystrixPropertiesCommandDefault			false
+false	false	false	false	140	com.netflix.hystrix.strategy.HystrixPluginsTest			false
+false	false	false	false	26	com.netflix.hystrix.strategy.HystrixPlugins	singleton	Singleton	false
+false	false	false	false	148	com.netflix.hystrix.util.HystrixTimerTest			false
+false	false	false	false	146	com.netflix.hystrix.util.HystrixRollingNumberTest			false
+false	false	false	false	147	com.netflix.hystrix.util.HystrixRollingPercentileTest			false
+false	false	false	false	66	com.netflix.hystrix.util.Striped64	abstractClass	Template Method	false
+false	false	false	false	64	com.netflix.hystrix.util.LongAdder			false
+false	false	false	false	63	com.netflix.hystrix.util.HystrixTimer	singleton	Singleton	false
+false	false	false	false	275	com.netflix.hystrix.util.ExceptionThreadingUtility			false
+false	false	false	false	65	com.netflix.hystrix.util.LongMaxUpdater			false
+false	false	false	false	62	com.netflix.hystrix.util.HystrixRollingPercentile	context	Strategy	false
+false	false	false	false	60	com.netflix.hystrix.util.HystrixRollingNumber			false
+false	false	false	false	108	com.netflix.hystrix.strategy.executionhook.HystrixCommandExecutionHook	receiver	Command	false
+false	false	true	false	109	com.netflix.hystrix.strategy.executionhook.HystrixCommandExecutionHookDefault	singleton	Singleton	false
+false	false	false	false	38	com.netflix.hystrix.strategy.eventnotifier.HystrixEventNotifierDefault	singleton	Singleton	false
+false	false	false	false	37	com.netflix.hystrix.strategy.eventnotifier.HystrixEventNotifier			false
+false	false	false	false	23	com.netflix.hystrix.exception.HystrixRuntimeException			false
+false	false	false	false	320	com.netflix.hystrix.exception.HystrixTimeoutException			false
+false	false	false	false	22	com.netflix.hystrix.exception.HystrixBadRequestException			false
+false	false	false	false	281	com.netflix.hystrix.contrib.metrics.eventstream.HystrixMetricsStreamServletUnitTest			false
+false	false	false	false	278	com.netflix.hystrix.contrib.metrics.eventstream.HystrixMetricsPollerTest			false
+false	false	false	false	100	com.netflix.hystrix.contrib.metrics.eventstream.HystrixMetricsPoller			false
+false	false	false	false	101	com.netflix.hystrix.contrib.metrics.eventstream.HystrixMetricsStreamServlet			false
+false	false	false	false	81	com.netflix.hystrix.contrib.requestservlet.HystrixRequestLogViaResponseHeaderServletFilter			false
+false	false	false	false	80	com.netflix.hystrix.contrib.requestservlet.HystrixRequestLogViaLoggerServletFilter			false
+false	false	false	false	79	com.netflix.hystrix.contrib.requestservlet.HystrixRequestContextServletFilter			false
+false	false	false	false	223	com.netflix.hystrix.contrib.rxnetty.metricsstream.HystrixMetricsStreamHandlerTest			false
+false	false	false	false	220	com.netflix.hystrix.contrib.rxnetty.metricsstream.HystrixMetricsStreamHandler			false
+false	false	false	false	221	com.netflix.hystrix.contrib.rxnetty.metricsstream.JsonMappers			false
+false	false	false	false	99	com.netflix.hystrix.contrib.servopublisher.HystrixServoMetricsPublisherThreadPool	context	State	false
+false	false	false	false	265	com.netflix.hystrix.contrib.servopublisher.HystrixServoMetricsPublisherCollapser	context	State	false
+false	false	false	false	98	com.netflix.hystrix.contrib.servopublisher.HystrixServoMetricsPublisherCommand	context	State	false
+false	false	false	false	97	com.netflix.hystrix.contrib.servopublisher.HystrixServoMetricsPublisherAbstract	abstractClass	Template Method	false
+false	false	false	false	96	com.netflix.hystrix.contrib.servopublisher.HystrixServoMetricsPublisher	singleton	Singleton	false
+false	false	false	false	233	com.netflix.hystrix.contrib.javanica.command.ExecutionTypeTest			false
+false	false	false	false	164	com.netflix.hystrix.contrib.javanica.command.BatchHystrixCommandFactory			false
+false	false	false	false	169	com.netflix.hystrix.contrib.javanica.command.GenericHystrixCommandFactory			false
+false	false	false	false	170	com.netflix.hystrix.contrib.javanica.command.HystrixCommandFactory	state	State	false
+false	false	false	false	165	com.netflix.hystrix.contrib.javanica.command.CommandAction			false
+false	false	false	false	167	com.netflix.hystrix.contrib.javanica.command.CommandSetterBuilder			false
+false	false	false	false	193	com.netflix.hystrix.contrib.javanica.command.ClosureCommand			false
+false	false	false	false	168	com.netflix.hystrix.contrib.javanica.command.GenericCommand			false
+false	false	false	false	196	com.netflix.hystrix.contrib.javanica.command.ObservableResult			false
+false	false	true	false	194	com.netflix.hystrix.contrib.javanica.command.CommandExecutor			false
+false	false	false	false	206	com.netflix.hystrix.contrib.javanica.command.MethodExecutionAction			false
+false	false	false	false	171	com.netflix.hystrix.contrib.javanica.command.MetaHolder	receiver	Command	false
+false	false	false	false	166	com.netflix.hystrix.contrib.javanica.command.CommandExecutionAction	concreteCommand	Command	false
+false	false	false	false	161	com.netflix.hystrix.contrib.javanica.command.AbstractHystrixCommandFactory	abstractClass	Template Method	false
+false	false	false	false	163	com.netflix.hystrix.contrib.javanica.command.BatchHystrixCommand			false
+false	false	false	false	162	com.netflix.hystrix.contrib.javanica.command.AsyncResult			false
+false	false	false	false	205	com.netflix.hystrix.contrib.javanica.command.LazyCommandExecutionAction	context	State	false
+false	false	false	false	160	com.netflix.hystrix.contrib.javanica.command.AbstractHystrixCommand	receiver	Command	false
+false	false	false	false	204	com.netflix.hystrix.contrib.javanica.command.CommandActions			false
+false	false	false	false	247	com.netflix.hystrix.contrib.javanica.command.HystrixCommandBuilder			false
+false	false	false	false	260	com.netflix.hystrix.contrib.javanica.cache.HystrixCacheKeyGeneratorTest			false
+false	false	false	false	259	com.netflix.hystrix.contrib.javanica.cache.CacheInvocationParameterTest			false
+false	false	false	false	258	com.netflix.hystrix.contrib.javanica.cache.CacheInvocationContextFactoryTest			false
+false	false	false	false	250	com.netflix.hystrix.contrib.javanica.cache.CacheInvocationContext			false
+false	false	false	false	246	com.netflix.hystrix.contrib.javanica.cache.HystrixRequestCacheManager	singleton	Singleton	false
+false	false	false	false	252	com.netflix.hystrix.contrib.javanica.cache.CacheInvocationParameter			false
+false	false	false	false	238	com.netflix.hystrix.contrib.javanica.cache.HystrixCacheKeyGenerator	singleton	Singleton	false
+false	false	false	false	245	com.netflix.hystrix.contrib.javanica.cache.DefaultHystrixGeneratedCacheKey	singleton	Singleton	false
+false	false	false	false	237	com.netflix.hystrix.contrib.javanica.cache.HystrixGeneratedCacheKey			false
+false	false	false	false	251	com.netflix.hystrix.contrib.javanica.cache.CacheInvocationContextFactory			false
+false	false	false	false	208	com.netflix.hystrix.contrib.javanica.test.spring.collapser.CollapserTest			false
+false	false	false	false	327	com.netflix.hystrix.contrib.javanica.test.spring.command.jdk.CommandJdkProxyTest			false
+false	false	false	false	209	com.netflix.hystrix.contrib.javanica.test.spring.command.CommandTest			false
+false	false	false	false	326	com.netflix.hystrix.contrib.javanica.test.spring.command.cglib.CommandCGlibProxyTest			false
+false	false	false	false	176	com.netflix.hystrix.contrib.javanica.test.spring.conf.AopCglibConfig			false
+false	false	false	false	179	com.netflix.hystrix.contrib.javanica.test.spring.conf.SpringApplicationContext			false
+false	false	false	false	177	com.netflix.hystrix.contrib.javanica.test.spring.conf.AopJdkConfig			false
+false	false	false	false	178	com.netflix.hystrix.contrib.javanica.test.spring.conf.AopLoadTimeWeavingConfig			false
+false	false	false	false	207	com.netflix.hystrix.contrib.javanica.test.spring.cache.CacheTest			false
+false	false	false	false	213	com.netflix.hystrix.contrib.javanica.test.spring.fallback.CommandFallbackTest			false
+false	false	false	false	210	com.netflix.hystrix.contrib.javanica.test.spring.configuration.collapser.CollapserPropertiesTest			false
+false	false	false	false	211	com.netflix.hystrix.contrib.javanica.test.spring.configuration.command.CommandPropertiesTest			false
+false	false	false	false	212	com.netflix.hystrix.contrib.javanica.test.spring.error.ErrorPropagationTest			false
+false	false	false	false	214	com.netflix.hystrix.contrib.javanica.test.spring.observable.ObservableTest			false
+false	false	false	false	311	com.netflix.hystrix.contrib.javanica.test.common.collapser.BasicCollapserTest			false
+false	false	false	false	331	com.netflix.hystrix.contrib.javanica.test.common.domain.Domain			false
+false	false	false	false	189	com.netflix.hystrix.contrib.javanica.test.common.domain.User			false
+false	false	false	false	257	com.netflix.hystrix.contrib.javanica.test.common.domain.Profile			false
+false	false	false	false	304	com.netflix.hystrix.contrib.javanica.test.common.command.BasicCommandTest			false
+false	false	false	false	324	com.netflix.hystrix.contrib.javanica.test.common.BasicHystrixTest			false
+false	false	false	false	175	com.netflix.hystrix.contrib.javanica.test.common.CommonUtils			false
+false	false	false	false	310	com.netflix.hystrix.contrib.javanica.test.common.cache.BasicCacheTest			false
+false	false	false	false	307	com.netflix.hystrix.contrib.javanica.test.common.fallback.BasicCommandFallbackTest			false
+false	false	false	false	316	com.netflix.hystrix.contrib.javanica.test.common.configuration.collapser.BasicCollapserPropertiesTest			false
+false	false	false	false	317	com.netflix.hystrix.contrib.javanica.test.common.configuration.command.BasicCommandPropertiesTest			false
+false	false	false	false	318	com.netflix.hystrix.contrib.javanica.test.common.error.BasicErrorPropagationTest			false
+false	false	false	false	319	com.netflix.hystrix.contrib.javanica.test.common.observable.BasicObservableTest			false
+false	false	false	false	309	com.netflix.hystrix.contrib.javanica.test.aspectj.collapser.CollapserTest			false
+false	false	false	false	303	com.netflix.hystrix.contrib.javanica.test.aspectj.command.CommandTest			false
+false	false	false	false	308	com.netflix.hystrix.contrib.javanica.test.aspectj.cache.CacheTest			false
+false	false	false	false	306	com.netflix.hystrix.contrib.javanica.test.aspectj.fallback.CommandFallbackTest			false
+false	false	false	false	312	com.netflix.hystrix.contrib.javanica.test.aspectj.configuration.collapser.CollapserPropertiesTest			false
+false	false	false	false	313	com.netflix.hystrix.contrib.javanica.test.aspectj.configuration.command.CommandPropertiesTest			false
+false	false	false	false	314	com.netflix.hystrix.contrib.javanica.test.aspectj.error.ErrorPropagationTest			false
+false	false	false	false	315	com.netflix.hystrix.contrib.javanica.test.aspectj.observable.ObservableTest			false
+false	false	false	false	159	com.netflix.hystrix.contrib.javanica.collapser.CommandCollapser	concreteCommand	Command	false
+false	false	false	false	197	com.netflix.hystrix.contrib.javanica.command.closure.AbstractClosureFactory	abstractClass	Template Method	false
+false	false	false	false	202	com.netflix.hystrix.contrib.javanica.command.closure.ObservableClosureFactory			false
+false	false	false	false	200	com.netflix.hystrix.contrib.javanica.command.closure.ClosureFactory			false
+false	false	false	false	199	com.netflix.hystrix.contrib.javanica.command.closure.Closure			false
+false	false	false	false	201	com.netflix.hystrix.contrib.javanica.command.closure.ClosureFactoryRegistry			false
+false	false	false	false	198	com.netflix.hystrix.contrib.javanica.command.closure.AsyncClosureFactory			false
+true	false	false	false	172	com.netflix.hystrix.contrib.javanica.conf.HystrixPropertiesManager			false
+false	false	false	false	231	com.netflix.hystrix.contrib.javanica.exception.FallbackInvocationException			false
+false	false	true	false	229	com.netflix.hystrix.contrib.javanica.exception.CommandActionExecutionException			false
+false	false	false	false	230	com.netflix.hystrix.contrib.javanica.exception.ExceptionUtils			false
+false	false	false	false	328	com.netflix.hystrix.contrib.javanica.exception.FallbackDefinitionException			false
+false	false	false	false	256	com.netflix.hystrix.contrib.javanica.exception.HystrixCachingException			false
+false	false	false	false	322	com.netflix.hystrix.contrib.javanica.exception.HystrixPropertyException			false
+false	false	false	false	248	com.netflix.hystrix.contrib.javanica.exception.HystrixCacheKeyGenerationException			false
+false	false	false	false	330	com.netflix.hystrix.contrib.javanica.utils.FutureDecorator			false
+false	false	false	false	325	com.netflix.hystrix.contrib.javanica.utils.MethodProvider	singleton	Singleton	false
+false	false	false	false	174	com.netflix.hystrix.contrib.javanica.utils.AopUtils			false
+false	false	false	false	329	com.netflix.hystrix.contrib.javanica.utils.FallbackMethod	singleton	Singleton	false
+false	false	false	false	302	com.netflix.hystrix.contrib.javanica.utils.EnvUtils			false
+false	false	false	false	305	com.netflix.hystrix.contrib.javanica.utils.ajc.AjcUtils			false
+false	false	false	false	157	com.netflix.hystrix.contrib.javanica.aop.aspectj.HystrixCommandAspect			false
+false	false	false	false	241	com.netflix.hystrix.contrib.javanica.aop.aspectj.HystrixCacheAspect			false
+false	false	false	false	105	com.netflix.hystrix.contrib.yammermetricspublisher.HystrixYammerMetricsPublisherThreadPool			false
+false	false	false	false	103	com.netflix.hystrix.contrib.yammermetricspublisher.HystrixYammerMetricsPublisher			false
+false	false	false	false	104	com.netflix.hystrix.contrib.yammermetricspublisher.HystrixYammerMetricsPublisherCommand			false
+false	false	false	false	269	com.netflix.hystrix.contrib.yammermetricspublisher.HystrixYammerMetricsPublisherCollapser			false
+false	false	false	false	112	com.netflix.hystrix.contrib.networkauditor.HystrixNetworkAuditorAgent	context	State	false
+false	false	false	false	113	com.netflix.hystrix.contrib.networkauditor.HystrixNetworkAuditorEventListener	state	State	false
+false	false	false	false	114	com.netflix.hystrix.contrib.networkauditor.NetworkClassTransform			false
+false	false	false	false	219	com.netflix.hystrix.contrib.codahalemetricspublisher.ConfigurableCodaHaleMetricFilterTest			false
+false	false	false	false	124	com.netflix.hystrix.contrib.codahalemetricspublisher.HystrixCodaHaleMetricsPublisher			false
+false	false	false	false	126	com.netflix.hystrix.contrib.codahalemetricspublisher.HystrixCodaHaleMetricsPublisherThreadPool			false
+false	false	false	false	125	com.netflix.hystrix.contrib.codahalemetricspublisher.HystrixCodaHaleMetricsPublisherCommand			false
+false	false	false	false	218	com.netflix.hystrix.contrib.codahalemetricspublisher.ConfigurableCodaHaleMetricFilter			false
+false	false	false	false	266	com.netflix.hystrix.contrib.codahalemetricspublisher.HystrixCodaHaleMetricsPublisherCollapser			false

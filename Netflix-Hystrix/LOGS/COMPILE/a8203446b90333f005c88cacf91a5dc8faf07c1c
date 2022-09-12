@@ -1,0 +1,146 @@
+Inferred project: hystrix, version: 1.6.0-SNAPSHOT
+Gradle now uses separate output directories for each JVM language, but this build assumes a single directory for all classes from a source set. This behaviour has been deprecated and is scheduled to be removed in Gradle 5.0
+Download https://jcenter.bintray.com/org/clojure/clojure/1.2.0/clojure-1.2.0.pom
+Download https://jcenter.bintray.com/org/clojure/clojure/1.2.0/clojure-1.2.0.jar
+The setTestClassesDir(File) method has been deprecated and is scheduled to be removed in Gradle 5.0. Please use the setTestClassesDirs(FileCollection) method instead.
+	at build_b0c2t898ypex3isfmq18f6ocf$_run_closure5.doCall(/results/Netflix-Hystrix/RELEASES/a8203446b90333f005c88cacf91a5dc8faf07c1c/hystrix-contrib/hystrix-javanica/build.gradle:71)
+Publication nebula not found in project :.
+[buildinfo] Not using buildInfo properties file for this build.
+Publication named 'nebula' does not exist for project ':' in task ':artifactoryPublish'.
+'warnOnReflection' is deprecated and will go away in a future version. Please use 'clojure.warnOnReflection' instead.
+'aotCompile' is deprecated and will go away in a future version. Please use 'clojure.aotCompile' instead.
+:clean UP-TO-DATE
+:hystrix-clj:clean
+:hystrix-codahale-metrics-publisher:clean
+:hystrix-core:clean
+:hystrix-dashboard:clean
+:hystrix-examples:clean
+:hystrix-examples-webapp:clean
+:hystrix-javanica:clean
+:hystrix-junit:clean
+:hystrix-metrics-event-stream:clean
+:hystrix-metrics-event-stream-jaxrs:clean
+:hystrix-network-auditor-agent:clean
+:hystrix-request-servlet:clean
+:hystrix-rx-netty-metrics-stream:clean
+:hystrix-serialization:clean
+:hystrix-servo-metrics-publisher:clean
+:hystrix-yammer-metrics-publisher:clean
+:compileJava NO-SOURCE
+:hystrix-core:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+/results/Netflix-Hystrix/RELEASES/a8203446b90333f005c88cacf91a5dc8faf07c1c/hystrix-core/src/main/java/com/netflix/hystrix/util/Striped64.java:118: warning: Unsafe is internal proprietary API and may be removed in a future release
+        private static final sun.misc.Unsafe UNSAFE;
+                                     ^
+/results/Netflix-Hystrix/RELEASES/a8203446b90333f005c88cacf91a5dc8faf07c1c/hystrix-core/src/main/java/com/netflix/hystrix/util/Striped64.java:316: warning: Unsafe is internal proprietary API and may be removed in a future release
+    private static final sun.misc.Unsafe UNSAFE;
+                                 ^
+/results/Netflix-Hystrix/RELEASES/a8203446b90333f005c88cacf91a5dc8faf07c1c/hystrix-core/src/main/java/com/netflix/hystrix/util/Striped64.java:339: warning: Unsafe is internal proprietary API and may be removed in a future release
+    private static sun.misc.Unsafe getUnsafe() {
+                           ^
+/results/Netflix-Hystrix/RELEASES/a8203446b90333f005c88cacf91a5dc8faf07c1c/hystrix-core/src/main/java/com/netflix/hystrix/util/Striped64.java:341: warning: Unsafe is internal proprietary API and may be removed in a future release
+            return sun.misc.Unsafe.getUnsafe();
+                           ^
+/results/Netflix-Hystrix/RELEASES/a8203446b90333f005c88cacf91a5dc8faf07c1c/hystrix-core/src/main/java/com/netflix/hystrix/util/Striped64.java:346: warning: Unsafe is internal proprietary API and may be removed in a future release
+                     .PrivilegedExceptionAction<sun.misc.Unsafe>() {
+                                                        ^
+/results/Netflix-Hystrix/RELEASES/a8203446b90333f005c88cacf91a5dc8faf07c1c/hystrix-core/src/main/java/com/netflix/hystrix/util/Striped64.java:347: warning: Unsafe is internal proprietary API and may be removed in a future release
+                        public sun.misc.Unsafe run() throws Exception {
+                                       ^
+/results/Netflix-Hystrix/RELEASES/a8203446b90333f005c88cacf91a5dc8faf07c1c/hystrix-core/src/main/java/com/netflix/hystrix/util/Striped64.java:349: warning: Unsafe is internal proprietary API and may be removed in a future release
+                                .Unsafe.class.getDeclaredField("theUnsafe");
+                                ^
+/results/Netflix-Hystrix/RELEASES/a8203446b90333f005c88cacf91a5dc8faf07c1c/hystrix-core/src/main/java/com/netflix/hystrix/util/Striped64.java:351: warning: Unsafe is internal proprietary API and may be removed in a future release
+                            return (sun.misc.Unsafe) f.get(null);
+                                            ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+9 warnings
+
+:hystrix-core:processResources NO-SOURCE
+:hystrix-core:classes
+:hystrix-core:osgiClasses
+:hystrix-core:writeManifestProperties
+:hystrix-core:jar
+:hystrix-clj:compileJava NO-SOURCE
+:hystrix-codahale-metrics-publisher:compileJava
+Download https://jcenter.bintray.com/io/dropwizard/metrics/metrics-core/3.2.2/metrics-core-3.2.2.pom
+Download https://jcenter.bintray.com/io/dropwizard/metrics/metrics-parent/3.2.2/metrics-parent-3.2.2.pom
+Download https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22.pom
+Download https://jcenter.bintray.com/org/slf4j/slf4j-parent/1.7.22/slf4j-parent-1.7.22.pom
+Download https://jcenter.bintray.com/io/dropwizard/metrics/metrics-core/3.2.2/metrics-core-3.2.2.jar
+Download https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22.jar
+warning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+:hystrix-dashboard:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:hystrix-examples:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+Note: /results/Netflix-Hystrix/RELEASES/a8203446b90333f005c88cacf91a5dc8faf07c1c/hystrix-examples/src/main/java/com/netflix/hystrix/examples/demo/HystrixCommandAsyncDemo.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+1 warning
+
+:hystrix-examples:processResources NO-SOURCE
+:hystrix-examples:classes
+:hystrix-examples:osgiClasses
+:hystrix-examples:writeManifestProperties
+:hystrix-examples:jar
+:hystrix-serialization:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:hystrix-serialization:processResources NO-SOURCE
+:hystrix-serialization:classes
+:hystrix-serialization:writeManifestProperties
+:hystrix-serialization:jar
+:hystrix-metrics-event-stream:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:hystrix-metrics-event-stream:processResources NO-SOURCE
+:hystrix-metrics-event-stream:classes
+:hystrix-metrics-event-stream:writeManifestProperties
+:hystrix-metrics-event-stream:jar
+:hystrix-request-servlet:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:hystrix-request-servlet:processResources NO-SOURCE
+:hystrix-request-servlet:classes
+:hystrix-request-servlet:writeManifestProperties
+:hystrix-request-servlet:jar
+:hystrix-examples-webapp:compileJava NO-SOURCE
+:hystrix-javanica:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning
+
+:hystrix-junit:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:hystrix-metrics-event-stream-jaxrs:compileJava
+Download https://jcenter.bintray.com/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.pom
+Download https://jcenter.bintray.com/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.jar
+warning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+:hystrix-network-auditor-agent:compileJava
+Download https://jcenter.bintray.com/org/javassist/javassist/maven-metadata.xml
+warning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+:hystrix-rx-netty-metrics-stream:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:hystrix-servo-metrics-publisher:compileJava
+Download https://jcenter.bintray.com/com/netflix/servo/servo-core/0.10.1/servo-core-0.10.1.pom
+Download https://jcenter.bintray.com/com/google/guava/guava/16.0.1/guava-16.0.1.pom
+Download https://jcenter.bintray.com/com/google/guava/guava-parent/16.0.1/guava-parent-16.0.1.pom
+Download https://jcenter.bintray.com/com/netflix/servo/servo-internal/0.10.1/servo-internal-0.10.1.pom
+Download https://jcenter.bintray.com/com/google/guava/guava/16.0.1/guava-16.0.1.jar
+Download https://jcenter.bintray.com/com/netflix/servo/servo-core/0.10.1/servo-core-0.10.1.jar
+Download https://jcenter.bintray.com/com/netflix/servo/servo-internal/0.10.1/servo-internal-0.10.1.jar
+warning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+:hystrix-yammer-metrics-publisher:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+
+BUILD SUCCESSFUL in 35s
+43 actionable tasks: 42 executed, 1 up-to-date

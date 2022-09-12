@@ -1,0 +1,6 @@
+com/alibaba/arthas/spring/ArthasProperties.class
+META-INF/spring-configuration-metadata.json
+com/alibaba/arthas/spring/endpoints/ArthasEndPointAutoConfiguration.class
+com/alibaba/arthas/spring/StringUtils.class
+com/alibaba/arthas/spring/ArthasConfiguration.class
+com/alibaba/arthas/spring/endpoints/ArthasEndPoint.class

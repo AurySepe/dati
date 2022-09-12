@@ -1,0 +1,40 @@
+Downloading https://services.gradle.org/distributions/gradle-5.1.1-bin.zip
+.................................................................................
+
+Welcome to Gradle 5.1.1!
+
+Here are the highlights of this release:
+ - Control which dependencies can be retrieved from which repositories
+ - Production-ready configuration avoidance APIs
+
+For more details see https://docs.gradle.org/5.1.1/release-notes.html
+
+To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+
+> Configure project :
+Inferred project: zuul, version: 2.1.6-SNAPSHOT
+Publication nebula not found in project :.
+
+> Task :clean UP-TO-DATE
+> Task :zuul-core:clean
+> Task :zuul-sample:clean
+
+> Task :zuul-core:compileJava
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :zuul-core:compileGroovy NO-SOURCE
+> Task :zuul-core:processResources NO-SOURCE
+> Task :zuul-core:classes
+> Task :zuul-core:writeManifestProperties
+> Task :zuul-core:jar
+
+> Task :zuul-sample:compileJava
+Note: /results/Netflix-zuul/RELEASES/0a60545111a080c80453669163c85e927e6e53bc/zuul-sample/src/main/java/com/netflix/zuul/sample/push/SamplePushAuthHandler.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+BUILD SUCCESSFUL in 53s
+7 actionable tasks: 6 executed, 1 up-to-date

@@ -1,0 +1,42 @@
+Downloading https://services.gradle.org/distributions/gradle-2.12-bin.zip
+............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Unzipping /root/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12-bin.zip to /root/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r
+Set executable permissions for: /root/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/bin/gradle
+To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/2.12/userguide/gradle_daemon.html.
+Download https://plugins.gradle.org/m2/com/puppycrawl/tools/checkstyle/6.16.1/checkstyle-6.16.1.pom
+Download https://plugins.gradle.org/m2/org/kt3k/gradle/plugin/coveralls-gradle-plugin/2.6.3/coveralls-gradle-plugin-2.6.3.pom
+Download https://plugins.gradle.org/m2/com/netflix/nebula/gradle-extra-configurations-plugin/3.0.3/gradle-extra-configurations-plugin-3.0.3.pom
+Download https://plugins.gradle.org/m2/net/ltgt/gradle/gradle-errorprone-plugin/0.0.8/gradle-errorprone-plugin-0.0.8.pom
+Download https://plugins.gradle.org/m2/me/champeau/gradle/jmh-gradle-plugin/0.2.0/jmh-gradle-plugin-0.2.0.pom
+Download https://plugins.gradle.org/m2/com/github/jengelman/gradle/plugins/shadow/1.2.3/shadow-1.2.3.pom
+Download https://plugins.gradle.org/m2/org/kordamp/gradle/stats-gradle-plugin/0.1.5/stats-gradle-plugin-0.1.5.pom
+Download https://plugins.gradle.org/m2/com/github/ben-manes/gradle-versions-plugin/0.12.0/gradle-versions-plugin-0.12.0.pom
+Download https://plugins.gradle.org/m2/com/puppycrawl/tools/checkstyle/6.16.1/checkstyle-6.16.1.jar
+Download https://plugins.gradle.org/m2/org/kt3k/gradle/plugin/coveralls-gradle-plugin/2.6.3/coveralls-gradle-plugin-2.6.3.jar
+Download https://plugins.gradle.org/m2/com/netflix/nebula/gradle-extra-configurations-plugin/3.0.3/gradle-extra-configurations-plugin-3.0.3.jar
+Download https://plugins.gradle.org/m2/net/ltgt/gradle/gradle-errorprone-plugin/0.0.8/gradle-errorprone-plugin-0.0.8.jar
+Download https://plugins.gradle.org/m2/me/champeau/gradle/jmh-gradle-plugin/0.2.0/jmh-gradle-plugin-0.2.0.jar
+Download https://plugins.gradle.org/m2/com/github/jengelman/gradle/plugins/shadow/1.2.3/shadow-1.2.3.jar
+Download https://plugins.gradle.org/m2/org/kordamp/gradle/stats-gradle-plugin/0.1.5/stats-gradle-plugin-0.1.5.jar
+Download https://plugins.gradle.org/m2/com/github/ben-manes/gradle-versions-plugin/0.12.0/gradle-versions-plugin-0.12.0.jar
+:caffeine:clean UP-TO-DATE
+:guava:clean UP-TO-DATE
+:jcache:clean UP-TO-DATE
+:simulator:clean UP-TO-DATE
+:caffeine:compileJavaPoetJava
+Download https://repo1.maven.org/maven2/com/squareup/javapoet/1.6.1/javapoet-1.6.1.pom
+Download https://repo1.maven.org/maven2/com/squareup/javapoet/1.6.1/javapoet-1.6.1.jar
+:caffeine:compileJavaPoetJava FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':caffeine:compileJavaPoetJava'.
+> java.lang.ClassNotFoundException: com.google.errorprone.ErrorProneCompiler$Builder
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 52.533 secs

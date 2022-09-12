@@ -1,0 +1,39 @@
+Downloading https://services.gradle.org/distributions/gradle-6.8.3-bin.zip
+......................................................................................................
+
+Welcome to Gradle 6.8.3!
+
+Here are the highlights of this release:
+ - Faster Kotlin DSL script compilation
+ - Vendor selection for Java toolchains
+ - Convenient execution of tasks in composite builds
+ - Consistent dependency resolution
+
+For more details see https://docs.gradle.org/6.8.3/release-notes.html
+
+To honour the JVM settings for this build a single-use Daemon process will be forked. See https://docs.gradle.org/6.8.3/userguide/gradle_daemon.html#sec:disabling_the_daemon.
+Daemon will be stopped at the end of the build 
+checksum-dependency-plugin is disabled since checksumIgnore property is present
+> Task :guava:clean UP-TO-DATE
+> Task :simulator:clean UP-TO-DATE
+> Task :caffeine:clean UP-TO-DATE
+> Task :jcache:clean UP-TO-DATE
+> Task :guava:downloadCaffeineLocal UP-TO-DATE
+> Task :caffeine:downloadCaffeineLocal UP-TO-DATE
+> Task :simulator:downloadCaffeineLocal UP-TO-DATE
+> Task :jcache:downloadCaffeineLocal UP-TO-DATE
+> Task :caffeine:compileJavaPoetJava FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':caffeine:compileJavaPoetJava'.
+> Could not target platform: 'Java SE 11' using tool chain: 'JDK 8 (1.8)'.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 35s
+5 actionable tasks: 1 executed, 4 up-to-date

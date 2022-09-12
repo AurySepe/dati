@@ -1,0 +1,195 @@
+Downloading https://services.gradle.org/distributions/gradle-5.1.1-bin.zip
+.................................................................................
+
+Welcome to Gradle 5.1.1!
+
+Here are the highlights of this release:
+ - Control which dependencies can be retrieved from which repositories
+ - Production-ready configuration avoidance APIs
+
+For more details see https://docs.gradle.org/5.1.1/release-notes.html
+
+
+> Configure project :
+jadx version: dev
+
+> Task :cleanBuildDir UP-TO-DATE
+> Task :clean UP-TO-DATE
+> Task :jadx-cli:clean UP-TO-DATE
+> Task :jadx-core:clean UP-TO-DATE
+> Task :jadx-gui:clean UP-TO-DATE
+> Task :jadx-samples:cleanGeneratedFiles UP-TO-DATE
+> Task :jadx-samples:clean UP-TO-DATE
+> Task :jadx-test-app:deleteTmp UP-TO-DATE
+> Task :jadx-test-app:clean UP-TO-DATE
+> Task :compileJava NO-SOURCE
+
+> Task :jadx-core:compileJava
+/results/skylot-jadx/RELEASES/8c7140d6b816fa65a51501098e86422bfe6b1723/jadx-core/src/main/java/jadx/core/dex/attributes/AttrList.java:22: warning: [unchecked] getType() in AttrList implements <T#2>getType() in IAttribute
+	public AType<AttrList<T>> getType() {
+	                          ^
+  return type requires unchecked conversion from AType<AttrList<T#1>> to AType<T#2>
+  where T#1,T#2 are type-variables:
+    T#1 extends Object declared in class AttrList
+    T#2 extends IAttribute declared in method <T#2>getType()
+/results/skylot-jadx/RELEASES/8c7140d6b816fa65a51501098e86422bfe6b1723/jadx-core/src/main/java/jadx/core/dex/attributes/nodes/EdgeInsnAttr.java:28: warning: [unchecked] getType() in EdgeInsnAttr implements <T>getType() in IAttribute
+	public AType<AttrList<EdgeInsnAttr>> getType() {
+	                                     ^
+  return type requires unchecked conversion from AType<AttrList<EdgeInsnAttr>> to AType<T>
+  where T is a type-variable:
+    T extends IAttribute declared in method <T>getType()
+/results/skylot-jadx/RELEASES/8c7140d6b816fa65a51501098e86422bfe6b1723/jadx-core/src/main/java/jadx/core/dex/trycatch/ExcHandlerAttr.java:17: warning: [unchecked] getType() in ExcHandlerAttr implements <T>getType() in IAttribute
+	public AType<ExcHandlerAttr> getType() {
+	                             ^
+  return type requires unchecked conversion from AType<ExcHandlerAttr> to AType<T>
+  where T is a type-variable:
+    T extends IAttribute declared in method <T>getType()
+/results/skylot-jadx/RELEASES/8c7140d6b816fa65a51501098e86422bfe6b1723/jadx-core/src/main/java/jadx/core/dex/trycatch/CatchAttr.java:15: warning: [unchecked] getType() in CatchAttr implements <T>getType() in IAttribute
+	public AType<CatchAttr> getType() {
+	                        ^
+  return type requires unchecked conversion from AType<CatchAttr> to AType<T>
+  where T is a type-variable:
+    T extends IAttribute declared in method <T>getType()
+/results/skylot-jadx/RELEASES/8c7140d6b816fa65a51501098e86422bfe6b1723/jadx-core/src/main/java/jadx/core/dex/trycatch/SplitterBlockAttr.java:20: warning: [unchecked] getType() in SplitterBlockAttr implements <T>getType() in IAttribute
+	public AType<SplitterBlockAttr> getType() {
+	                                ^
+  return type requires unchecked conversion from AType<SplitterBlockAttr> to AType<T>
+  where T is a type-variable:
+    T extends IAttribute declared in method <T>getType()
+/results/skylot-jadx/RELEASES/8c7140d6b816fa65a51501098e86422bfe6b1723/jadx-core/src/main/java/jadx/core/dex/attributes/nodes/ForceReturnAttr.java:21: warning: [unchecked] getType() in ForceReturnAttr implements <T>getType() in IAttribute
+	public AType<ForceReturnAttr> getType() {
+	                              ^
+  return type requires unchecked conversion from AType<ForceReturnAttr> to AType<T>
+  where T is a type-variable:
+    T extends IAttribute declared in method <T>getType()
+/results/skylot-jadx/RELEASES/8c7140d6b816fa65a51501098e86422bfe6b1723/jadx-core/src/main/java/jadx/core/dex/nodes/parser/FieldInitAttr.java:53: warning: [unchecked] getType() in FieldInitAttr implements <T>getType() in IAttribute
+	public AType<FieldInitAttr> getType() {
+	                            ^
+  return type requires unchecked conversion from AType<FieldInitAttr> to AType<T>
+  where T is a type-variable:
+    T extends IAttribute declared in method <T>getType()
+/results/skylot-jadx/RELEASES/8c7140d6b816fa65a51501098e86422bfe6b1723/jadx-core/src/main/java/jadx/core/dex/attributes/nodes/FieldReplaceAttr.java:41: warning: [unchecked] getType() in FieldReplaceAttr implements <T>getType() in IAttribute
+	public AType<FieldReplaceAttr> getType() {
+	                               ^
+  return type requires unchecked conversion from AType<FieldReplaceAttr> to AType<T>
+  where T is a type-variable:
+    T extends IAttribute declared in method <T>getType()
+/results/skylot-jadx/RELEASES/8c7140d6b816fa65a51501098e86422bfe6b1723/jadx-core/src/main/java/jadx/core/dex/attributes/nodes/MethodInlineAttr.java:20: warning: [unchecked] getType() in MethodInlineAttr implements <T>getType() in IAttribute
+	public AType<MethodInlineAttr> getType() {
+	                               ^
+  return type requires unchecked conversion from AType<MethodInlineAttr> to AType<T>
+  where T is a type-variable:
+    T extends IAttribute declared in method <T>getType()
+/results/skylot-jadx/RELEASES/8c7140d6b816fa65a51501098e86422bfe6b1723/jadx-core/src/main/java/jadx/core/dex/attributes/nodes/EnumClassAttr.java:73: warning: [unchecked] getType() in EnumClassAttr implements <T>getType() in IAttribute
+	public AType<EnumClassAttr> getType() {
+	                            ^
+  return type requires unchecked conversion from AType<EnumClassAttr> to AType<T>
+  where T is a type-variable:
+    T extends IAttribute declared in method <T>getType()
+/results/skylot-jadx/RELEASES/8c7140d6b816fa65a51501098e86422bfe6b1723/jadx-core/src/main/java/jadx/core/dex/attributes/nodes/EnumMapAttr.java:54: warning: [unchecked] getType() in EnumMapAttr implements <T>getType() in IAttribute
+	public AType<EnumMapAttr> getType() {
+	                          ^
+  return type requires unchecked conversion from AType<EnumMapAttr> to AType<T>
+  where T is a type-variable:
+    T extends IAttribute declared in method <T>getType()
+/results/skylot-jadx/RELEASES/8c7140d6b816fa65a51501098e86422bfe6b1723/jadx-core/src/main/java/jadx/core/dex/attributes/annotations/AnnotationsList.java:43: warning: [unchecked] getType() in AnnotationsList implements <T>getType() in IAttribute
+	public AType<AnnotationsList> getType() {
+	                              ^
+  return type requires unchecked conversion from AType<AnnotationsList> to AType<T>
+  where T is a type-variable:
+    T extends IAttribute declared in method <T>getType()
+/results/skylot-jadx/RELEASES/8c7140d6b816fa65a51501098e86422bfe6b1723/jadx-core/src/main/java/jadx/core/dex/attributes/annotations/MethodParameters.java:23: warning: [unchecked] getType() in MethodParameters implements <T>getType() in IAttribute
+	public AType<MethodParameters> getType() {
+	                               ^
+  return type requires unchecked conversion from AType<MethodParameters> to AType<T>
+  where T is a type-variable:
+    T extends IAttribute declared in method <T>getType()
+/results/skylot-jadx/RELEASES/8c7140d6b816fa65a51501098e86422bfe6b1723/jadx-core/src/main/java/jadx/core/dex/attributes/nodes/PhiListAttr.java:15: warning: [unchecked] getType() in PhiListAttr implements <T>getType() in IAttribute
+	public AType<PhiListAttr> getType() {
+	                          ^
+  return type requires unchecked conversion from AType<PhiListAttr> to AType<T>
+  where T is a type-variable:
+    T extends IAttribute declared in method <T>getType()
+/results/skylot-jadx/RELEASES/8c7140d6b816fa65a51501098e86422bfe6b1723/jadx-core/src/main/java/jadx/core/dex/attributes/nodes/SourceFileAttr.java:19: warning: [unchecked] getType() in SourceFileAttr implements <T>getType() in IAttribute
+	public AType<SourceFileAttr> getType() {
+	                             ^
+  return type requires unchecked conversion from AType<SourceFileAttr> to AType<T>
+  where T is a type-variable:
+    T extends IAttribute declared in method <T>getType()
+/results/skylot-jadx/RELEASES/8c7140d6b816fa65a51501098e86422bfe6b1723/jadx-core/src/main/java/jadx/core/dex/attributes/nodes/DeclareVariablesAttr.java:27: warning: [unchecked] getType() in DeclareVariablesAttr implements <T>getType() in IAttribute
+	public AType<DeclareVariablesAttr> getType() {
+	                                   ^
+  return type requires unchecked conversion from AType<DeclareVariablesAttr> to AType<T>
+  where T is a type-variable:
+    T extends IAttribute declared in method <T>getType()
+/results/skylot-jadx/RELEASES/8c7140d6b816fa65a51501098e86422bfe6b1723/jadx-core/src/main/java/jadx/core/dex/attributes/nodes/LoopLabelAttr.java:19: warning: [unchecked] getType() in LoopLabelAttr implements <T>getType() in IAttribute
+	public AType<LoopLabelAttr> getType() {
+	                            ^
+  return type requires unchecked conversion from AType<LoopLabelAttr> to AType<T>
+  where T is a type-variable:
+    T extends IAttribute declared in method <T>getType()
+/results/skylot-jadx/RELEASES/8c7140d6b816fa65a51501098e86422bfe6b1723/jadx-core/src/main/java/jadx/core/dex/attributes/nodes/IgnoreEdgeAttr.java:24: warning: [unchecked] getType() in IgnoreEdgeAttr implements <T>getType() in IAttribute
+	public AType<IgnoreEdgeAttr> getType() {
+	                             ^
+  return type requires unchecked conversion from AType<IgnoreEdgeAttr> to AType<T>
+  where T is a type-variable:
+    T extends IAttribute declared in method <T>getType()
+/results/skylot-jadx/RELEASES/8c7140d6b816fa65a51501098e86422bfe6b1723/jadx-core/src/main/java/jadx/core/dex/instructions/args/LiteralArg.java:68: warning: [deprecation] literalToString(long,ArgType) in TypeGen has been deprecated
+			String value = TypeGen.literalToString(literal, getType());
+			                      ^
+/results/skylot-jadx/RELEASES/8c7140d6b816fa65a51501098e86422bfe6b1723/jadx-core/src/main/java/jadx/core/dex/visitors/ModVisitor.java:240: warning: [deprecation] resolveMethod(@org.jetbrains.annotations.NotNull MethodInfo) in DexNode has been deprecated
+		MethodNode callMthNode = mth.dex().resolveMethod(callMth);
+		                                  ^
+/results/skylot-jadx/RELEASES/8c7140d6b816fa65a51501098e86422bfe6b1723/jadx-core/src/main/java/jadx/core/dex/visitors/ModVisitor.java:338: warning: [deprecation] resolveMethod(@org.jetbrains.annotations.NotNull MethodInfo) in DexNode has been deprecated
+		MethodNode callMth = mth.dex().resolveMethod(co.getCallMth());
+		                              ^
+/results/skylot-jadx/RELEASES/8c7140d6b816fa65a51501098e86422bfe6b1723/jadx-core/src/main/java/jadx/core/dex/visitors/ExtractFieldInit.java:157: warning: [deprecation] resolveField(FieldInfo) in DexNode has been deprecated
+			FieldNode field = cls.dex().resolveField(fieldInfo);
+			                           ^
+/results/skylot-jadx/RELEASES/8c7140d6b816fa65a51501098e86422bfe6b1723/jadx-core/src/main/java/jadx/core/dex/visitors/ExtractFieldInit.java:173: warning: [deprecation] resolveField(FieldInfo) in DexNode has been deprecated
+			FieldNode field = cls.dex().resolveField(fieldInfo);
+			                           ^
+/results/skylot-jadx/RELEASES/8c7140d6b816fa65a51501098e86422bfe6b1723/jadx-core/src/main/java/jadx/core/dex/visitors/ReSugarCode.java:203: warning: [deprecation] resolveField(FieldInfo) in DexNode has been deprecated
+		FieldNode fieldNode = dex.resolveField((FieldInfo) index);
+		                         ^
+/results/skylot-jadx/RELEASES/8c7140d6b816fa65a51501098e86422bfe6b1723/jadx-core/src/main/java/jadx/core/dex/visitors/ReSugarCode.java:234: warning: [deprecation] resolveField(FieldInfo) in DexNode has been deprecated
+		FieldNode enumMapField = dex.resolveField((FieldInfo) index);
+		                            ^
+/results/skylot-jadx/RELEASES/8c7140d6b816fa65a51501098e86422bfe6b1723/jadx-core/src/main/java/jadx/core/dex/visitors/typeinference/PostTypeInference.java:73: warning: [deprecation] resolveMethod(@org.jetbrains.annotations.NotNull MethodInfo) in DexNode has been deprecated
+				MethodNode node = mth.dex().resolveMethod(callMth);
+				                           ^
+/results/skylot-jadx/RELEASES/8c7140d6b816fa65a51501098e86422bfe6b1723/jadx-core/src/main/java/jadx/core/codegen/InsnGen.java:575: warning: [deprecation] resolveMethod(@org.jetbrains.annotations.NotNull MethodInfo) in DexNode has been deprecated
+		MethodNode callMth = mth.dex().resolveMethod(insn.getCallMth());
+		                              ^
+/results/skylot-jadx/RELEASES/8c7140d6b816fa65a51501098e86422bfe6b1723/jadx-core/src/main/java/jadx/core/codegen/InsnGen.java:607: warning: [deprecation] resolveMethod(@org.jetbrains.annotations.NotNull MethodInfo) in DexNode has been deprecated
+		MethodNode callMth = mth.dex().resolveMethod(insn.getCallMth());
+		                              ^
+/results/skylot-jadx/RELEASES/8c7140d6b816fa65a51501098e86422bfe6b1723/jadx-core/src/main/java/jadx/core/codegen/ClassGen.java:406: warning: [deprecation] resolveMethod(@org.jetbrains.annotations.NotNull MethodInfo) in DexNode has been deprecated
+				MethodNode callMth = cls.dex().resolveMethod(constrInsn.getCallMth());
+				                              ^
+29 warnings
+
+> Task :jadx-core:compileGroovy NO-SOURCE
+> Task :jadx-core:processResources
+> Task :jadx-core:classes
+> Task :jadx-core:jar
+
+> Task :jadx-cli:compileJava
+/results/skylot-jadx/RELEASES/8c7140d6b816fa65a51501098e86422bfe6b1723/jadx-cli/src/main/java/jadx/cli/JadxCLIArgs.java:110: warning: [rawtypes] found raw type: JCommanderWrapper
+	private boolean process(JCommanderWrapper jcw) {
+	                        ^
+  missing type arguments for generic class JCommanderWrapper<T>
+  where T is a type-variable:
+    T extends Object declared in class JCommanderWrapper
+1 warning
+
+> Task :jadx-cli:compileGroovy NO-SOURCE
+> Task :jadx-cli:processResources
+> Task :jadx-cli:classes
+> Task :jadx-cli:jar
+> Task :jadx-gui:compileJava
+> Task :jadx-samples:compileJava
+> Task :jadx-test-app:compileJava NO-SOURCE
+
+BUILD SUCCESSFUL in 38s
+17 actionable tasks: 8 executed, 9 up-to-date

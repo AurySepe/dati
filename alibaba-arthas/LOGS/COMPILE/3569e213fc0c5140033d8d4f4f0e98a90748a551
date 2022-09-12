@@ -1,0 +1,184 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] arthas-all                                                         [pom]
+[INFO] arthas-spy                                                         [jar]
+[INFO] arthas-common                                                      [jar]
+[INFO] arthas-core                                                        [jar]
+[INFO] arthas-agent                                                       [jar]
+[INFO] arthas-client                                                      [jar]
+[INFO] arthas-boot                                                        [jar]
+[INFO] arthas-demo                                                        [jar]
+[INFO] arthas-testcase                                                    [jar]
+[INFO] arthas-site                                                        [jar]
+[INFO] arthas-packaging                                                   [jar]
+[INFO] 
+[INFO] --------------------< com.taobao.arthas:arthas-all >--------------------
+[INFO] Building arthas-all 3.0.5                                         [1/11]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-all ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-all ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --------------------< com.taobao.arthas:arthas-spy >--------------------
+[INFO] Building arthas-spy 3.0.5                                         [2/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-spy ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-spy ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /results/alibaba-arthas/RELEASES/3569e213fc0c5140033d8d4f4f0e98a90748a551/spy/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] ------------------< com.taobao.arthas:arthas-common >-------------------
+[INFO] Building arthas-common 3.0.5                                      [3/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-common ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-common ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /results/alibaba-arthas/RELEASES/3569e213fc0c5140033d8d4f4f0e98a90748a551/common/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] -------------------< com.taobao.arthas:arthas-core >--------------------
+[INFO] Building arthas-core 3.0.5                                        [4/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from in-project: file:///results/alibaba-arthas/RELEASES/3569e213fc0c5140033d8d4f4f0e98a90748a551/core/../lib/org/ow2/asm/asm/6.0/asm-6.0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/6.0/asm-6.0.pom
+Progress (1): 1.4/1.9 kBProgress (1): 1.9 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/6.0/asm-6.0.pom (1.9 kB at 5.2 kB/s)
+Downloading from in-project: file:///results/alibaba-arthas/RELEASES/3569e213fc0c5140033d8d4f4f0e98a90748a551/core/../lib/org/ow2/asm/asm-parent/6.0/asm-parent-6.0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-parent/6.0/asm-parent-6.0.pom
+Progress (1): 1.4/5.5 kBProgress (1): 2.7/5.5 kBProgress (1): 4.1/5.5 kBProgress (1): 5.5/5.5 kBProgress (1): 5.5 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-parent/6.0/asm-parent-6.0.pom (5.5 kB at 62 kB/s)
+Downloading from in-project: file:///results/alibaba-arthas/RELEASES/3569e213fc0c5140033d8d4f4f0e98a90748a551/core/../lib/org/ow2/asm/asm-commons/6.0/asm-commons-6.0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/6.0/asm-commons-6.0.pom
+Progress (1): 1.4/2.1 kBProgress (1): 2.1 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/6.0/asm-commons-6.0.pom (2.1 kB at 33 kB/s)
+Downloading from in-project: file:///results/alibaba-arthas/RELEASES/3569e213fc0c5140033d8d4f4f0e98a90748a551/core/../lib/org/ow2/asm/asm-tree/6.0/asm-tree-6.0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/6.0/asm-tree-6.0.pom
+Progress (1): 1.4/2.1 kBProgress (1): 2.1 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/6.0/asm-tree-6.0.pom (2.1 kB at 31 kB/s)
+Downloading from in-project: file:///results/alibaba-arthas/RELEASES/3569e213fc0c5140033d8d4f4f0e98a90748a551/core/../lib/com/alibaba/middleware/termd-core/1.1.7.1/termd-core-1.1.7.1.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/alibaba/middleware/termd-core/1.1.7.1/termd-core-1.1.7.1.pom
+Progress (1): 1.4/22 kBProgress (1): 2.7/22 kBProgress (1): 4.1/22 kBProgress (1): 5.5/22 kBProgress (1): 6.9/22 kBProgress (1): 8.2/22 kBProgress (1): 9.6/22 kBProgress (1): 11/22 kB Progress (1): 12/22 kBProgress (1): 14/22 kBProgress (1): 15/22 kBProgress (1): 16/22 kBProgress (1): 17/22 kBProgress (1): 19/22 kBProgress (1): 20/22 kBProgress (1): 21/22 kBProgress (1): 22 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/com/alibaba/middleware/termd-core/1.1.7.1/termd-core-1.1.7.1.pom (22 kB at 58 kB/s)
+Downloading from in-project: file:///results/alibaba-arthas/RELEASES/3569e213fc0c5140033d8d4f4f0e98a90748a551/core/../lib/org/ow2/asm/asm/6.0/asm-6.0.jar
+Downloading from in-project: file:///results/alibaba-arthas/RELEASES/3569e213fc0c5140033d8d4f4f0e98a90748a551/core/../lib/org/ow2/asm/asm-tree/6.0/asm-tree-6.0.jar
+Downloading from in-project: file:///results/alibaba-arthas/RELEASES/3569e213fc0c5140033d8d4f4f0e98a90748a551/core/../lib/org/ow2/asm/asm-commons/6.0/asm-commons-6.0.jar
+Downloading from in-project: file:///results/alibaba-arthas/RELEASES/3569e213fc0c5140033d8d4f4f0e98a90748a551/core/../lib/com/alibaba/middleware/termd-core/1.1.7.1/termd-core-1.1.7.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/6.0/asm-6.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/6.0/asm-commons-6.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/6.0/asm-tree-6.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/alibaba/middleware/termd-core/1.1.7.1/termd-core-1.1.7.1.jar
+Progress (1): 4.1/95 kBProgress (1): 8.2/95 kBProgress (1): 12/95 kB Progress (1): 16/95 kBProgress (1): 20/95 kBProgress (1): 25/95 kBProgress (1): 29/95 kBProgress (1): 33/95 kBProgress (1): 37/95 kBProgress (1): 41/95 kBProgress (1): 45/95 kBProgress (1): 49/95 kBProgress (1): 53/95 kBProgress (1): 57/95 kBProgress (1): 61/95 kBProgress (1): 66/95 kBProgress (1): 70/95 kBProgress (1): 74/95 kBProgress (1): 78/95 kBProgress (1): 82/95 kBProgress (1): 86/95 kBProgress (1): 90/95 kBProgress (1): 94/95 kBProgress (1): 95 kB   Progress (2): 95 kB | 1.4/48 kBProgress (2): 95 kB | 2.7/48 kBProgress (2): 95 kB | 4.1/48 kBProgress (2): 95 kB | 5.5/48 kBProgress (2): 95 kB | 6.9/48 kBProgress (3): 95 kB | 6.9/48 kB | 1.4/77 kBProgress (3): 95 kB | 8.2/48 kB | 1.4/77 kBProgress (3): 95 kB | 8.2/48 kB | 2.7/77 kBProgress (3): 95 kB | 9.6/48 kB | 2.7/77 kBProgress (3): 95 kB | 9.6/48 kB | 4.1/77 kBProgress (3): 95 kB | 11/48 kB | 4.1/77 kB Progress (3): 95 kB | 11/48 kB | 5.5/77 kBProgress (3): 95 kB | 12/48 kB | 5.5/77 kBProgress (3): 95 kB | 12/48 kB | 6.9/77 kBProgress (3): 95 kB | 14/48 kB | 6.9/77 kBProgress (3): 95 kB | 14/48 kB | 8.2/77 kBProgress (3): 95 kB | 15/48 kB | 8.2/77 kBProgress (3): 95 kB | 15/48 kB | 9.6/77 kBProgress (3): 95 kB | 16/48 kB | 9.6/77 kBProgress (3): 95 kB | 16/48 kB | 11/77 kB Progress (3): 95 kB | 18/48 kB | 11/77 kBProgress (3): 95 kB | 18/48 kB | 12/77 kBProgress (3): 95 kB | 18/48 kB | 14/77 kBProgress (3): 95 kB | 18/48 kB | 15/77 kBProgress (3): 95 kB | 18/48 kB | 16/77 kBProgress (3): 95 kB | 19/48 kB | 16/77 kBProgress (3): 95 kB | 21/48 kB | 16/77 kBProgress (3): 95 kB | 22/48 kB | 16/77 kB                                         Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/6.0/asm-6.0.jar (95 kB at 915 kB/s)
+Progress (2): 23/48 kB | 16/77 kBProgress (2): 25/48 kB | 16/77 kBProgress (2): 26/48 kB | 16/77 kBProgress (2): 26/48 kB | 20/77 kBProgress (2): 27/48 kB | 20/77 kBProgress (2): 27/48 kB | 24/77 kBProgress (2): 29/48 kB | 24/77 kBProgress (2): 29/48 kB | 28/77 kBProgress (2): 30/48 kB | 28/77 kBProgress (2): 30/48 kB | 32/77 kBProgress (2): 32/48 kB | 32/77 kBProgress (2): 33/48 kB | 32/77 kBProgress (2): 34/48 kB | 32/77 kBProgress (2): 36/48 kB | 32/77 kBProgress (2): 37/48 kB | 32/77 kBProgress (2): 38/48 kB | 32/77 kBProgress (2): 40/48 kB | 32/77 kBProgress (2): 41/48 kB | 32/77 kBProgress (2): 43/48 kB | 32/77 kBProgress (2): 44/48 kB | 32/77 kBProgress (2): 45/48 kB | 32/77 kBProgress (2): 47/48 kB | 32/77 kBProgress (2): 48/48 kB | 32/77 kBProgress (2): 48 kB | 32/77 kB   Progress (2): 48 kB | 36/77 kBProgress (2): 48 kB | 40/77 kBProgress (2): 48 kB | 45/77 kBProgress (2): 48 kB | 49/77 kBProgress (2): 48 kB | 53/77 kBProgress (2): 48 kB | 57/77 kBProgress (2): 48 kB | 61/77 kBProgress (2): 48 kB | 65/77 kBProgress (2): 48 kB | 69/77 kBProgress (2): 48 kB | 73/77 kBProgress (2): 48 kB | 77/77 kBProgress (2): 48 kB | 77 kB                              Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/6.0/asm-tree-6.0.jar (48 kB at 303 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/6.0/asm-commons-6.0.jar (77 kB at 435 kB/s)
+Progress (1): 1.4/644 kBProgress (1): 2.7/644 kBProgress (1): 4.1/644 kBProgress (1): 5.5/644 kBProgress (1): 6.9/644 kBProgress (1): 8.2/644 kBProgress (1): 9.6/644 kBProgress (1): 11/644 kB Progress (1): 12/644 kBProgress (1): 14/644 kBProgress (1): 15/644 kBProgress (1): 16/644 kBProgress (1): 20/644 kBProgress (1): 24/644 kBProgress (1): 28/644 kBProgress (1): 32/644 kBProgress (1): 36/644 kBProgress (1): 40/644 kBProgress (1): 45/644 kBProgress (1): 49/644 kBProgress (1): 53/644 kBProgress (1): 57/644 kBProgress (1): 61/644 kBProgress (1): 65/644 kBProgress (1): 69/644 kBProgress (1): 73/644 kBProgress (1): 77/644 kBProgress (1): 81/644 kBProgress (1): 85/644 kBProgress (1): 90/644 kBProgress (1): 94/644 kBProgress (1): 98/644 kBProgress (1): 102/644 kBProgress (1): 106/644 kBProgress (1): 110/644 kBProgress (1): 114/644 kBProgress (1): 118/644 kBProgress (1): 122/644 kBProgress (1): 126/644 kBProgress (1): 131/644 kBProgress (1): 135/644 kBProgress (1): 139/644 kBProgress (1): 143/644 kBProgress (1): 147/644 kBProgress (1): 151/644 kBProgress (1): 155/644 kBProgress (1): 159/644 kBProgress (1): 163/644 kBProgress (1): 167/644 kBProgress (1): 171/644 kBProgress (1): 176/644 kBProgress (1): 180/644 kBProgress (1): 184/644 kBProgress (1): 188/644 kBProgress (1): 192/644 kBProgress (1): 196/644 kBProgress (1): 200/644 kBProgress (1): 204/644 kBProgress (1): 208/644 kBProgress (1): 212/644 kBProgress (1): 217/644 kBProgress (1): 221/644 kBProgress (1): 225/644 kBProgress (1): 229/644 kBProgress (1): 233/644 kBProgress (1): 237/644 kBProgress (1): 241/644 kBProgress (1): 245/644 kBProgress (1): 249/644 kBProgress (1): 253/644 kBProgress (1): 258/644 kBProgress (1): 262/644 kBProgress (1): 266/644 kBProgress (1): 270/644 kBProgress (1): 274/644 kBProgress (1): 278/644 kBProgress (1): 282/644 kBProgress (1): 286/644 kBProgress (1): 290/644 kBProgress (1): 294/644 kBProgress (1): 298/644 kBProgress (1): 303/644 kBProgress (1): 307/644 kBProgress (1): 311/644 kBProgress (1): 315/644 kBProgress (1): 319/644 kBProgress (1): 323/644 kBProgress (1): 327/644 kBProgress (1): 331/644 kBProgress (1): 335/644 kBProgress (1): 339/644 kBProgress (1): 344/644 kBProgress (1): 348/644 kBProgress (1): 352/644 kBProgress (1): 356/644 kBProgress (1): 360/644 kBProgress (1): 364/644 kBProgress (1): 368/644 kBProgress (1): 372/644 kBProgress (1): 376/644 kBProgress (1): 380/644 kBProgress (1): 384/644 kBProgress (1): 389/644 kBProgress (1): 393/644 kBProgress (1): 397/644 kBProgress (1): 401/644 kBProgress (1): 402/644 kBProgress (1): 406/644 kBProgress (1): 410/644 kBProgress (1): 414/644 kBProgress (1): 418/644 kBProgress (1): 422/644 kBProgress (1): 427/644 kBProgress (1): 431/644 kBProgress (1): 435/644 kBProgress (1): 439/644 kBProgress (1): 443/644 kBProgress (1): 447/644 kBProgress (1): 451/644 kBProgress (1): 455/644 kBProgress (1): 459/644 kBProgress (1): 463/644 kBProgress (1): 468/644 kBProgress (1): 472/644 kBProgress (1): 476/644 kBProgress (1): 480/644 kBProgress (1): 484/644 kBProgress (1): 488/644 kBProgress (1): 492/644 kBProgress (1): 496/644 kBProgress (1): 500/644 kBProgress (1): 504/644 kBProgress (1): 508/644 kBProgress (1): 513/644 kBProgress (1): 517/644 kBProgress (1): 521/644 kBProgress (1): 525/644 kBProgress (1): 529/644 kBProgress (1): 533/644 kBProgress (1): 537/644 kBProgress (1): 541/644 kBProgress (1): 545/644 kBProgress (1): 549/644 kBProgress (1): 554/644 kBProgress (1): 558/644 kBProgress (1): 562/644 kBProgress (1): 566/644 kBProgress (1): 570/644 kBProgress (1): 574/644 kBProgress (1): 578/644 kBProgress (1): 582/644 kBProgress (1): 586/644 kBProgress (1): 590/644 kBProgress (1): 594/644 kBProgress (1): 599/644 kBProgress (1): 603/644 kBProgress (1): 607/644 kBProgress (1): 611/644 kBProgress (1): 615/644 kBProgress (1): 619/644 kBProgress (1): 623/644 kBProgress (1): 627/644 kBProgress (1): 631/644 kBProgress (1): 635/644 kBProgress (1): 640/644 kBProgress (1): 644/644 kBProgress (1): 644 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/com/alibaba/middleware/termd-core/1.1.7.1/termd-core-1.1.7.1.jar (644 kB at 901 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-core ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 191 source files to /results/alibaba-arthas/RELEASES/3569e213fc0c5140033d8d4f4f0e98a90748a551/core/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[WARNING] /results/alibaba-arthas/RELEASES/3569e213fc0c5140033d8d4f4f0e98a90748a551/core/src/main/java/com/taobao/arthas/core/util/UserStatUtil.java:[21,53] encode(java.lang.String) in java.net.URLEncoder has been deprecated
+[WARNING] /results/alibaba-arthas/RELEASES/3569e213fc0c5140033d8d4f4f0e98a90748a551/core/src/main/java/com/taobao/arthas/core/util/UserStatUtil.java:[27,57] encode(java.lang.String) in java.net.URLEncoder has been deprecated
+[WARNING] /results/alibaba-arthas/RELEASES/3569e213fc0c5140033d8d4f4f0e98a90748a551/core/src/main/java/com/taobao/arthas/core/util/UserStatUtil.java:[42,49] encode(java.lang.String) in java.net.URLEncoder has been deprecated
+[WARNING] /results/alibaba-arthas/RELEASES/3569e213fc0c5140033d8d4f4f0e98a90748a551/core/src/main/java/com/taobao/arthas/core/util/UserStatUtil.java:[44,55] encode(java.lang.String) in java.net.URLEncoder has been deprecated
+[INFO] /results/alibaba-arthas/RELEASES/3569e213fc0c5140033d8d4f4f0e98a90748a551/core/src/main/java/com/taobao/arthas/core/util/StringUtils.java: Some input files use unchecked or unsafe operations.
+[INFO] /results/alibaba-arthas/RELEASES/3569e213fc0c5140033d8d4f4f0e98a90748a551/core/src/main/java/com/taobao/arthas/core/util/StringUtils.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] -------------------< com.taobao.arthas:arthas-agent >-------------------
+[INFO] Building arthas-agent 3.0.5                                       [5/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-agent ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-agent ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /results/alibaba-arthas/RELEASES/3569e213fc0c5140033d8d4f4f0e98a90748a551/agent/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] ------------------< com.taobao.arthas:arthas-client >-------------------
+[INFO] Building arthas-client 3.0.5                                      [6/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-client ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-client ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 28 source files to /results/alibaba-arthas/RELEASES/3569e213fc0c5140033d8d4f4f0e98a90748a551/client/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] -------------------< com.taobao.arthas:arthas-boot >--------------------
+[INFO] Building arthas-boot 3.0.5                                        [7/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-boot ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-boot ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /results/alibaba-arthas/RELEASES/3569e213fc0c5140033d8d4f4f0e98a90748a551/boot/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] -------------------< com.taobao.arthas:arthas-demo >--------------------
+[INFO] Building arthas-demo 3.0.5                                        [8/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-demo ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-demo ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /results/alibaba-arthas/RELEASES/3569e213fc0c5140033d8d4f4f0e98a90748a551/demo/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] -----------------< com.taobao.arthas:arthas-testcase >------------------
+[INFO] Building arthas-testcase 3.0.5                                    [9/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-testcase ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-testcase ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /results/alibaba-arthas/RELEASES/3569e213fc0c5140033d8d4f4f0e98a90748a551/testcase/target/classes
+[INFO] /results/alibaba-arthas/RELEASES/3569e213fc0c5140033d8d4f4f0e98a90748a551/testcase/src/main/java/com/alibaba/arthas/Test.java: /results/alibaba-arthas/RELEASES/3569e213fc0c5140033d8d4f4f0e98a90748a551/testcase/src/main/java/com/alibaba/arthas/Test.java uses unchecked or unsafe operations.
+[INFO] /results/alibaba-arthas/RELEASES/3569e213fc0c5140033d8d4f4f0e98a90748a551/testcase/src/main/java/com/alibaba/arthas/Test.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] -------------------< com.taobao.arthas:arthas-site >--------------------
+[INFO] Building arthas-site 3.0.5                                       [10/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-site ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-site ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] -----------------< com.taobao.arthas:arthas-packaging >-----------------
+[INFO] Building arthas-packaging 3.0.5                                  [11/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-packaging ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-packaging ---
+[INFO] No sources to compile
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] arthas-all 3.0.5 ................................... SUCCESS [  0.302 s]
+[INFO] arthas-spy ......................................... SUCCESS [  0.333 s]
+[INFO] arthas-common ...................................... SUCCESS [  0.171 s]
+[INFO] arthas-core ........................................ SUCCESS [  3.054 s]
+[INFO] arthas-agent ....................................... SUCCESS [  0.067 s]
+[INFO] arthas-client ...................................... SUCCESS [  0.100 s]
+[INFO] arthas-boot ........................................ SUCCESS [  0.050 s]
+[INFO] arthas-demo ........................................ SUCCESS [  0.018 s]
+[INFO] arthas-testcase .................................... SUCCESS [  0.020 s]
+[INFO] arthas-site ........................................ SUCCESS [  0.007 s]
+[INFO] arthas-packaging 3.0.5 ............................. SUCCESS [  0.006 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.463 s
+[INFO] Finished at: 2022-09-10T03:46:49Z
+[INFO] ------------------------------------------------------------------------

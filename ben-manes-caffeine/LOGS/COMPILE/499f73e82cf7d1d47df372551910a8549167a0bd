@@ -1,0 +1,26 @@
+To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: http://gradle.org/docs/2.3/userguide/gradle_daemon.html.
+Incremental java compilation is an incubating feature.
+Download https://jcenter.bintray.com/com/github/jbellis/jamm/0.3.0/jamm-0.3.0.pom
+Download https://jcenter.bintray.com/com/github/jbellis/jamm/0.3.0/jamm-0.3.0.jar
+:caffeine:clean UP-TO-DATE
+:guava:clean UP-TO-DATE
+:jcache:clean UP-TO-DATE
+:simulator:clean UP-TO-DATE
+:tracing:api:clean UP-TO-DATE
+:tracing:async:clean UP-TO-DATE
+:caffeine:compileJavaPoetJava
+:caffeine:compileJavaPoetJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:caffeine:compileJavaPoetJava FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':caffeine:compileJavaPoetJava'.
+> java.lang.ClassNotFoundException: com.google.errorprone.ErrorProneCompiler$Builder
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 15.696 secs

@@ -1,0 +1,101 @@
+Downloading https://services.gradle.org/distributions/gradle-6.4-bin.zip
+.........10%..........20%..........30%..........40%.........50%..........60%..........70%..........80%.........90%..........100%
+
+Welcome to Gradle 6.4!
+
+Here are the highlights of this release:
+ - Support for building, testing and running Java Modules
+ - Precompiled script plugins for Groovy DSL
+ - Single dependency lock file per project
+
+For more details see https://docs.gradle.org/6.4/release-notes.html
+
+To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.4/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+> Task :clean UP-TO-DATE
+> Task :zuul-core:clean
+> Task :zuul-groovy:clean
+> Task :zuul-guice:clean
+> Task :zuul-processor:clean
+> Task :zuul-sample:clean
+> Task :compileJava NO-SOURCE
+
+> Task :zuul-core:compileJava
+warning: unknown enum constant DataSourceType.GAUGE
+  reason: class file for com.netflix.servo.annotations.DataSourceType not found
+warning: unknown enum constant DataSourceType.INFORMATIONAL
+warning: unknown enum constant DataSourceType.GAUGE
+warning: unknown enum constant DataSourceType.INFORMATIONAL
+warning: unknown enum constant DataSourceType.INFORMATIONAL
+warning: unknown enum constant DataSourceType.INFORMATIONAL
+warning: unknown enum constant DataSourceType.INFORMATIONAL
+warning: unknown enum constant DataSourceType.GAUGE
+warning: unknown enum constant DataSourceType.INFORMATIONAL
+warning: unknown enum constant DataSourceType.COUNTER
+warning: unknown enum constant DataSourceType.GAUGE
+warning: unknown enum constant DataSourceType.INFORMATIONAL
+warning: unknown enum constant DataSourceType.INFORMATIONAL
+warning: unknown enum constant DataSourceType.INFORMATIONAL
+warning: unknown enum constant DataSourceType.INFORMATIONAL
+warning: unknown enum constant DataSourceType.INFORMATIONAL
+warning: unknown enum constant DataSourceType.GAUGE
+warning: unknown enum constant DataSourceType.INFORMATIONAL
+warning: unknown enum constant DataSourceType.GAUGE
+warning: unknown enum constant DataSourceType.GAUGE
+warning: unknown enum constant DataSourceType.INFORMATIONAL
+warning: unknown enum constant DataSourceType.GAUGE
+warning: unknown enum constant DataSourceType.GAUGE
+warning: unknown enum constant DataSourceType.GAUGE
+warning: unknown enum constant DataSourceType.GAUGE
+warning: unknown enum constant DataSourceType.INFORMATIONAL
+warning: unknown enum constant DataSourceType.INFORMATIONAL
+warning: unknown enum constant DataSourceType.INFORMATIONAL
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+28 warnings
+
+> Task :zuul-groovy:compileJava
+> Task :zuul-guice:compileJava
+> Task :zuul-processor:compileJava
+> Task :zuul-core:processResources NO-SOURCE
+> Task :zuul-core:classes
+> Task :zuul-core:createPropertiesFileForJar
+> Task :zuul-core:writeManifestProperties
+> Task :zuul-core:jar
+> Task :zuul-groovy:processResources NO-SOURCE
+> Task :zuul-groovy:classes
+> Task :zuul-groovy:createPropertiesFileForJar
+> Task :zuul-groovy:writeManifestProperties
+> Task :zuul-groovy:jar
+> Task :zuul-guice:processResources NO-SOURCE
+> Task :zuul-guice:classes
+> Task :zuul-guice:createPropertiesFileForJar
+> Task :zuul-guice:writeManifestProperties
+> Task :zuul-guice:jar
+> Task :zuul-processor:processResources
+> Task :zuul-processor:classes
+> Task :zuul-processor:createPropertiesFileForJar
+> Task :zuul-processor:writeManifestProperties
+> Task :zuul-processor:jar
+
+> Task :zuul-sample:compileJava
+warning: unknown enum constant DataSourceType.GAUGE
+  reason: class file for com.netflix.servo.annotations.DataSourceType not found
+warning: unknown enum constant DataSourceType.GAUGE
+warning: unknown enum constant DataSourceType.GAUGE
+warning: unknown enum constant DataSourceType.GAUGE
+  reason: class file for com.netflix.servo.annotations.DataSourceType not found
+warning: unknown enum constant DataSourceType.GAUGE
+warning: unknown enum constant DataSourceType.GAUGE
+warning: unknown enum constant DataSourceType.GAUGE
+  reason: class file for com.netflix.servo.annotations.DataSourceType not found
+warning: unknown enum constant DataSourceType.GAUGE
+warning: unknown enum constant DataSourceType.GAUGE
+Note: /results/Netflix-zuul/RELEASES/97b86d453b612e5f119abecadd239409f88a9793/zuul-sample/src/main/java/com/netflix/zuul/sample/push/SamplePushAuthHandler.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+9 warnings
+
+BUILD SUCCESSFUL in 59s
+24 actionable tasks: 23 executed, 1 up-to-date

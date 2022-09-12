@@ -1,0 +1,884 @@
+COH	DAC	ELOC	HALSTEADLENGHT	HALSTEADVOCABULARY	HALSTEADVOLUME	ID	LCC	LCOM	LOC	MCCABEMETRIC	MPC	NAME	NOA	NOO	NUMBEROFCHILDREN	NUMBEROFIMPORTS	NUMBOFATTRIBUTES	NUMBOFMETHODS	PATTERNROLE	PATTERNTYPE	RFC	TCC
+0	2	104	76	635	490.4754999158446	1469	-1	63	176	34	37	org.mockitoutil.SafeJUnitRuleTest	0	0	0	7	2	15			52	-1
+-1	0	17	30	92	135.65365731147122	1389	-1	3	31	6	7	org.mockitoutil.VmArgAssumptions	0	0	0	4	0	3			10	0
+0	2	82	134	509	835.14803421777	1099	-1	37	133	29	32	org.mockitoutil.SimplePerRealmReloadingClassLoader	0	0	0	6	2	10			42	-1
+-1	0	27	62	154	312.291061349645	1521	-1	1	40	6	5	org.mockitoutil.ConcurrentTesting	0	0	0	2	0	2			7	0
+-1	0	20	44	118	209.91012347648928	1098	-1	6	38	12	8	org.mockitoutil.SimpleSerializationUtil	0	0	0	2	0	4			12	-1
+0	1	391	412	3111	3313.5921927218264	1118	-1	120	549	40	23	org.mockitoutil.ClassLoaders	0	0	0	35	1	16			39	0
+0	1	32	79	183	411.5494060744723	1506	0	0	49	14	6	org.mockitoutil.ThrowableAssert	0	0	0	1	1	4			10	0
+-1	0	10	21	41	77.98501340079046	1332	0	0	28	1	2	org.mockitoutil.TestBaseTest	1	0	0	2	0	1			3	0
+0	3	90	150	601	959.7892401802811	1468	-1	41	115	23	18	org.mockitoutil.SafeJUnitRule	0	0	0	5	3	11			29	-1
+0	1	79	121	643	782.4035116327519	1335	-1	72	126	42	52	org.mockitoutil.Conditions	0	0	0	7	1	13			65	0
+0	1	52	123	320	709.5034824826339	1317	-1	26	88	22	11	org.mockitoutil.Stopwatch	0	0	0	5	1	8			19	0
+-1	0	9	22	42	82.2287316022341	1120	0	0	28	3	4	org.mockitoutil.SimpleClassGenerator	0	0	0	2	0	1			5	0
+0	1	101	193	679	1258.4798776188284	1300	-1	0	168	44	45	org.mockitoutil.JUnitResultAssert	0	0	0	6	1	11			56	-1
+0	1	158	135	872	914.0565722277122	1119	-1	178	372	53	171	org.mockitoutil.ClassLoadersTest	0	0	0	10	2	20			191	0
+-1	0	72	160	407	961.4101096708151	235	-1	78	130	28	26	org.mockitoutil.TestBase	0	0	212	18	0	13			39	0
+0	2	21	33	89	148.12500020116062	1596	-1	1	55	3	9	org.mockitoutil.async.AsyncTestingTest	0	0	0	7	2	3			12	0
+0	4	57	164	469	1008.6988540251898	1595	1	0	86	16	16	org.mockitoutil.async.AsyncTesting	0	0	0	1	4	3			19	1
+0	1	25	52	139	256.592644522796	1648	0	1	65	7	13	org.mockitointegration.NoByteCodeDependenciesTest	0	0	0	6	1	2			15	0
+-1	0	21	45	120	215.43712842519207	1240	0	1	68	7	18	org.mockitointegration.NoJUnitDependenciesTest	0	0	0	11	0	2			20	0
+-1	0	28	38	132	185.5464730582821	442	-1	3	50	5	9	org.concurrentmockito.VerificationInOrderFromMultipleThreadsTest	3	0	0	5	0	3			12	0
+0	1	32	58	233	316.1602303068106	443	0	1	53	12	9	org.concurrentmockito.ThreadVerifiesContinuouslyInteractingMockTest	3	0	0	6	1	3			12	0
+0	1	25	47	151	235.81215233030144	380	0	1	42	9	8	org.concurrentmockito.ThreadsShareAMockTest	3	0	0	4	1	3			11	0
+0	1	35	53	272	297.1075095136879	385	0	1	62	11	8	org.concurrentmockito.ThreadsShareGenerouslyStubbedMockTest	3	0	0	5	1	3			11	0
+-1	0	46	95	336	552.6255601965044	236	-1	3	188	10	12	org.concurrentmockito.ThreadsRunAllTestsHalfManualTest	3	0	0	53	0	3			15	-1
+-1	0	16	33	68	139.24375427081154	800	0	1	33	6	5	org.mockito.ArgumentCaptorTest	0	0	0	5	0	2			7	0
+-1	0	21	36	101	166.14433860628534	1700	0	3	43	5	3	org.mockito.PrematureGarbageCollectionTest	0	0	0	1	0	3			6	0
+-1	0	67	101	466	620.5627490466902	1258	-1	45	140	28	35	org.mockito.AnnotationsAreCopiedFromMockedTypeTest	0	0	0	12	0	10			45	-1
+0	4	115	170	654	1102.1282497477239	1542	2	0	344	30	68	org.mockito.StaticMockingExperimentTest	9	0	0	20	4	9			77	2
+-1	0	10	16	34	56.421768393858585	1704	0	0	24	1	6	org.mockito.MockitoClearTest	0	0	0	2	0	1			7	0
+1	1	35	50	164	254.99332139120995	1676	0	0	58	4	14	org.mockito.DescriptionTest	0	0	0	5	1	2			16	0
+0	1	44	47	237	256.9988266333512	1566	0	9	92	18	32	org.mockito.InvocationFactoryTest	6	0	0	9	1	6			38	0
+-1	0	15	26	51	102.22746645083247	180	-1	3	28	3	7	org.mockito.StateMaster	0	0	0	2	0	3			10	0
+-1	0	38	42	146	209.31147811175012	184	-1	55	88	17	22	org.mockito.MockitoTest	0	0	0	9	0	11			33	0
+-1	0	50	293	709	1923.2096692739133	1046	0	28	134	30	0	org.mockito.MockingDetails	0	0	0	6	0	8			8	0
+-1	0	18	54	92	244.1765831606482	1684	0	3	31	8	0	org.mockito.ScopedMock	0	0	0	0	0	3			3	0
+-1	0	111	654	1933	4948.705825402249	550	0	136	371	65	0	org.mockito.MockSettings	0	0	0	12	0	17			17	0
+-1	0	44	134	283	756.4898842841939	1677	-1	28	77	14	2	org.mockito.MockedStatic	0	0	0	3	0	8			10	-1
+-1	0	28	234	479	1444.177939794154	317	-1	1	110	9	6	org.mockito.MockitoAnnotations	0	0	0	5	0	2			8	-1
+-1	0	45	317	745	2096.4427972263206	1298	0	15	147	18	0	org.mockito.MockitoFramework	0	0	0	5	0	6	creator	Factory Method	6	0
+-1	0	371	378	2149	2900.302484930869	453	-1	55	557	24	10	org.mockito.BDDMockito	11	0	0	4	0	11			21	0
+-1	0	25	367	839	2470.7213292734646	1516	0	3	145	11	0	org.mockito.MockitoSession	0	0	0	9	0	3	state	State	3	0
+-1	0	15	96	152	482.29253000124254	1683	0	0	40	1	0	org.mockito.MockedConstruction	0	0	0	2	0	1			1	0
+-1	0	228	462	2638	3639.532665974094	1063	-1	171	532	59	12	org.mockito.AdditionalAnswers	0	0	0	19	0	19			31	0
+0	2	44	312	663	2026.9937969379891	523	1	0	150	16	4	org.mockito.ArgumentCaptor	0	0	0	3	2	5			9	1
+-1	0	13	351	666	2281.9526743596766	1269	0	0	128	4	0	org.mockito.ArgumentMatcher	0	0	0	0	0	1			1	0
+-1	0	586	758	5365	6509.439954539117	1321	-1	1596	1328	174	69	org.mockito.ArgumentMatchers	0	0	2	22	0	57			126	-1
+0	2	472	3791	17210	36974.555165978374	69	-1	727	3402	207	80	org.mockito.Mockito	54	0	2	27	7	54			134	-1
+-1	0	644	252	4228	2104.070055441512	176	-1	2346	1057	206	125	org.mockito.AdditionalMatchers	0	0	0	9	0	69			194	0
+-1	0	22	133	248	733.2860232399427	315	0	3	88	10	0	org.mockito.InOrder	0	0	0	1	0	3			3	0
+-1	0	5	35	39	128.22465761453762	174	-1	0	12	0	0	org.mockito.Matchers	0	0	0	0	0	0			0	-1
+-1	0	9	31	56	124.78590241278964	842	0	0	20	1	0	org.mockito.MockitoDebugger	0	0	0	0	0	1			1	0
+-1	2	44	39	216	209.63585789968243	1655	-1	0	85	0	0	org.mockito.NestedParallelTest	0	0	0	4	2	0			0	-1
+0	2	45	44	167	225.19172774633725	1653	-1	28	83	17	10	org.mockito.ParallelBugTest	0	0	0	3	2	8			18	0
+0	1	22	33	87	147.37496791560127	336	-1	10	50	9	4	org.mockito.exceptions.base.TraceBuilder	0	0	0	3	2	5			9	-1
+-1	0	19	34	91	153.3692232215729	227	-1	3	36	6	7	org.mockito.exceptions.base.MockitoAssertionErrorTest	3	0	0	4	0	3			10	0
+0	1	17	33	76	142.91420022944894	239	-1	1	32	7	2	org.mockito.exceptions.base.StackTraceBuilder	0	0	0	2	1	3			5	-1
+-1	0	14	25	64	103.97207708399179	228	0	1	28	5	5	org.mockito.exceptions.base.MockitoExceptionTest	2	0	0	4	0	2			7	0
+-1	0	14	20	56	80.507033814703	1281	-1	1	47	2	15	org.mockito.exceptions.base.MockitoSerializationIssueTest	0	0	0	4	0	2			17	0
+0	1	9	22	39	80.59835621485222	1460	0	1	18	2	0	org.mockito.exceptions.base.MockitoInitializationException	0	0	0	0	1	2			2	0
+0	2	38	139	303	794.2088599658023	186	1	0	64	5	7	org.mockito.exceptions.base.MockitoAssertionError	0	0	8	1	2	4			11	1
+0	2	23	114	194	600.5358301332194	187	-1	4	48	5	4	org.mockito.exceptions.base.MockitoException	0	0	19	1	2	4			8	0
+0	1	20	83	133	405.89897764240555	1109	0	1	42	4	3	org.mockito.exceptions.base.MockitoSerializationIssue	0	0	0	2	1	3			6	0
+0	1	25	44	114	208.39273172935782	1305	0	4	51	6	12	org.mockito.exceptions.stacktrace.StackTraceCleanerTest	0	0	0	3	1	4			16	0
+-1	0	11	82	125	395.9217264587887	1084	0	0	28	3	0	org.mockito.exceptions.stacktrace.StackTraceCleaner	0	0	0	0	0	1	state	State	1	0
+-1	0	41	54	215	290.0144535188938	247	-1	45	122	25	28	org.mockito.internal.exceptions.ReporterTest	10	0	0	14	0	10			38	0
+-1	0	3	9	9	19.775021196025975	925	0	0	12	2	0	org.mockito.internal.exceptions.VerificationAwareInvocation	0	0	0	1	0	1			1	0
+0	1	330	1238	4600	10441.058739106757	216	-1	3474	1097	236	180	org.mockito.internal.exceptions.Reporter	0	0	0	30	1	84			264	-1
+0	1	6	19	27	62.62090045408225	869	0	0	13	2	0	org.mockito.internal.exceptions.ExceptionIncludingMockitoWarnings	0	0	0	0	1	1			1	0
+1	1	14	39	73	167.32791820478724	927	0	0	47	4	14	org.mockito.internal.exceptions.util.ScenarioPrinterTest	2	0	0	7	1	2			16	0
+-1	0	17	55	123	264.6701395454829	926	0	0	32	4	5	org.mockito.internal.exceptions.util.ScenarioPrinter	0	0	0	2	0	1			6	0
+1	1	15	25	61	102.77184660433278	513	0	0	49	2	16	org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilterTest	2	0	0	6	1	2			18	0
+1	1	52	53	231	288.448138657655	763	4	0	189	13	56	org.mockito.internal.exceptions.stacktrace.StackTraceFilterTest	10	0	0	6	1	10			66	4
+-1	0	8	23	29	77.4478040896889	1086	0	0	18	2	0	org.mockito.internal.exceptions.stacktrace.DefaultStackTraceCleanerProvider	0	0	0	2	0	1			1	0
+0	4	77	190	674	1237.5137210733383	759	1	0	133	17	9	org.mockito.internal.exceptions.stacktrace.StackTraceFilter	0	0	0	6	4	3	context	State	12	1
+0	3	12	30	58	121.81329031639257	512	0	0	25	4	4	org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilter	0	0	0	3	3	1	context	State	5	0
+-1	0	28	53	149	265.2091542151093	1085	0	10	43	12	9	org.mockito.internal.exceptions.stacktrace.DefaultStackTraceCleaner	0	0	0	1	0	5			14	0
+-1	0	106	64	681	417.50798759356877	1278	0	15	153	9	3	org.mockito.internal.hamcrest.MatcherGenericTypeExtractorTest	4	2	0	9	0	6			9	0
+-1	0	11	37	51	145.47754841080004	1276	0	0	25	3	1	org.mockito.internal.hamcrest.MatcherGenericTypeExtractor	0	0	0	3	0	1			2	0
+1	1	15	30	61	123.32621592519934	1275	1	0	32	7	2	org.mockito.internal.hamcrest.HamcrestArgumentMatcher	0	0	0	4	1	4			6	1
+0	1	80	126	383	749.4524086367613	1350	4	0	179	16	48	org.mockito.internal.framework.DefaultMockitoFrameworkTest	12	0	0	25	1	12			60	4
+-1	0	34	49	160	248.6835169464575	1338	-1	21	63	14	12	org.mockito.internal.framework.DefaultMockitoFramework	0	0	0	10	0	7			19	0
+0	3	66	86	427	520.8834251376618	1511	-1	9	109	17	16	org.mockito.internal.framework.DefaultMockitoSession	0	0	0	12	3	7	adapter	(Object)Adapter	23	-1
+0	1	41	55	177	284.6882352915606	289	2	0	95	11	30	org.mockito.internal.AllInvocationsFinderTest	6	0	0	15	2	6			36	2
+1	1	10	26	45	98.9732247340283	907	0	0	37	3	6	org.mockito.internal.InOrderImplTest	1	0	0	9	1	1			7	0
+0	1	165	137	874	927.9120114648083	232	-1	8	266	17	21	org.mockito.internal.InvalidStateDetectionTest	7	1	0	12	1	8			29	0
+0	3	29	53	135	259.97956325723675	1685	1	0	64	12	7	org.mockito.internal.MockedConstructionImpl	0	0	0	8	3	6	context	State	13	1
+0	3	96	148	517	924.7103454272475	1678	-1	10	182	30	59	org.mockito.internal.MockedStaticImpl	0	0	0	21	3	13	context	State	72	-1
+0	3	38	84	201	445.47761227696236	210	-1	7	70	20	11	org.mockito.internal.InOrderImpl	0	0	0	14	3	7	adaptee	(Object)Adapter	18	-1
+-1	0	5	62	81	272.45584758969125	846	-1	0	20	0	0	org.mockito.internal.InternalMockHandler	0	0	0	1	0	0			0	-1
+-1	0	184	216	1141	1520.5666355702083	506	-1	231	287	63	101	org.mockito.internal.MockitoCore	0	0	0	35	0	22	adaptee	(Object)Adapter	123	-1
+-1	0	11	25	56	100.63379226837874	862	0	0	27	4	3	org.mockito.internal.verification.VerificationDataImplTest	1	0	0	6	0	1			4	0
+0	1	16	34	78	148.12810010744613	1261	0	1	41	5	8	org.mockito.internal.verification.VerificationWithDescriptionTest	0	0	0	10	1	2			10	0
+1	1	14	30	60	122.83033686666302	273	0	0	36	5	8	org.mockito.internal.verification.DefaultRegisteredInvocationsTest	2	0	0	7	1	2			10	0
+0	3	32	39	128	189.22918029286507	1125	2	0	66	13	18	org.mockito.internal.verification.VerificationOverTimeImplTest	0	0	0	12	3	5			23	2
+-1	0	7	19	30	64.62275025158095	864	0	1	16	5	0	org.mockito.internal.verification.DummyVerificationMode	0	0	0	2	0	2			2	0
+-1	0	16	35	82	154.23517365424885	1650	0	0	41	3	8	org.mockito.internal.verification.NoInteractionsTest	1	0	0	11	0	1			9	0
+0	1	65	57	333	331.0641219288853	911	-1	0	123	16	38	org.mockito.internal.verification.NoMoreInteractionsTest	6	0	0	15	1	6			44	1
+0	2	45	84	294	477.42070045644925	1260	0	1	78	9	13	org.mockito.internal.verification.DescriptionTest	0	0	0	11	2	3			16	0
+0	2	39	53	217	285.13455973764434	377	-1	0	82	11	22	org.mockito.internal.verification.SmartPrinterTest	5	0	0	8	3	5			27	1
+1	1	37	50	195	263.64997792818735	929	0	0	78	5	11	org.mockito.internal.verification.OnlyTest	0	0	0	10	1	2			13	0
+-1	0	15	29	79	126.71398772154362	420	-1	1	38	6	7	org.mockito.internal.verification.NoMoreInteractions	0	0	0	10	0	2			9	0
+0	1	18	29	68	122.3657234501071	1093	1	0	36	7	1	org.mockito.internal.verification.SingleRegisteredInvocation	0	0	0	4	1	5			6	1
+0	1	31	58	164	295.79225281380354	418	1	0	62	12	10	org.mockito.internal.verification.Times	0	0	0	10	1	5			15	1
+-1	0	7	15	22	46.365636800374745	343	0	10	22	5	0	org.mockito.internal.verification.RegisteredInvocations	0	0	0	2	0	5	state	State	5	0
+-1	0	39	73	190	383.0327572677155	421	-1	45	57	27	2	org.mockito.internal.verification.VerificationModeFactory	0	0	0	1	0	10			12	-1
+0	1	24	57	158	288.56791688253713	1311	0	1	61	8	11	org.mockito.internal.verification.VerificationWrapperInOrderWrapper	0	0	0	5	1	3	decorator	Decorator	14	0
+1	1	24	52	131	253.51026080645985	430	1	0	49	9	9	org.mockito.internal.verification.AtLeast	0	0	0	7	1	4			13	1
+-1	0	15	33	84	146.21695436182935	813	0	0	36	4	10	org.mockito.internal.verification.Only	0	0	0	10	0	1			11	0
+0	2	26	39	116	185.3900174531482	425	1	0	52	12	5	org.mockito.internal.verification.VerificationDataImpl	0	0	0	8	2	5	adapter	(Object)Adapter	10	1
+1	2	13	30	59	122.3261233171716	424	0	0	34	4	4	org.mockito.internal.verification.InOrderWrapper	0	0	0	8	2	2	context	State	6	0
+0	1	31	45	133	220.06571076997892	1112	-1	43	56	27	15	org.mockito.internal.verification.VerificationWrapper	0	0	0	2	1	10	abstractClass	Template Method	25	-1
+1	2	33	82	192	431.1146205062781	1259	0	0	48	8	1	org.mockito.internal.verification.Description	0	0	0	3	2	2	decorator	Decorator	3	0
+0	1	21	60	119	286.7474095866918	1002	0	0	50	10	5	org.mockito.internal.verification.Calls	0	0	0	10	1	4			9	0
+0	4	24	33	103	152.94605661157797	1476	0	2	40	13	0	org.mockito.internal.verification.VerificationEventImpl	0	0	0	3	4	5			5	0
+1	1	9	23	38	83.66448167370687	903	0	0	22	5	2	org.mockito.internal.verification.InOrderContextImpl	0	0	0	3	1	2	adapter	(Object)Adapter	4	0
+0	4	95	220	814	1474.4312805205589	1117	2	5	147	38	8	org.mockito.internal.verification.VerificationOverTimeImpl	0	0	0	4	4	11	adapter	(Object)Adapter	19	2
+-1	0	8	20	38	72.75172319452771	1649	0	0	24	3	5	org.mockito.internal.verification.NoInteractions	0	0	0	5	0	1			6	0
+0	2	38	47	171	241.65818715562503	1091	2	0	64	8	6	org.mockito.internal.verification.DefaultRegisteredInvocations	0	0	0	7	2	5			11	2
+0	3	32	51	172	262.5222183174861	915	1	0	49	11	3	org.mockito.internal.verification.MockAwareVerificationMode	0	0	0	5	3	4	decorator	Decorator	7	1
+0	1	28	55	155	277.3883814305586	423	0	1	53	9	12	org.mockito.internal.verification.AtMost	0	0	0	10	1	3			15	0
+0	1	35	42	171	215.94986937311174	802	-1	4	88	8	30	org.mockito.internal.verification.checkers.AtLeastXNumberOfInvocationsCheckerTest	0	0	0	13	1	4			34	0
+0	4	72	123	510	766.8325192633597	280	1	3	135	14	36	org.mockito.internal.verification.checkers.MissingInvocationCheckerTest	7	0	0	17	4	7			43	1
+0	6	56	80	253	442.67115909820166	311	1	10	114	20	37	org.mockito.internal.verification.checkers.MissingInvocationInOrderCheckerTest	0	0	0	19	6	8			45	1
+0	5	104	126	572	799.9915129138545	218	3	0	180	19	55	org.mockito.internal.verification.checkers.NumberOfInvocationsCheckerTest	0	0	0	21	5	9			64	3
+0	5	136	132	708	866.242620367571	310	5	0	225	35	81	org.mockito.internal.verification.checkers.NumberOfInvocationsInOrderCheckerTest	0	0	0	19	5	14			95	5
+-1	0	20	36	121	172.6484596414827	431	-1	1	56	6	10	org.mockito.internal.verification.checkers.AtLeastXNumberOfInvocationsChecker	0	0	0	12	0	2			12	0
+-1	0	45	63	285	356.106818356925	258	-1	6	96	12	18	org.mockito.internal.verification.checkers.NumberOfInvocationsChecker	0	0	0	18	0	4			22	0
+-1	0	8	23	37	83.05111199081716	498	0	1	19	3	0	org.mockito.internal.verification.checkers.AtLeastDiscrepancy	1	1	0	1	0	2			2	0
+-1	0	34	53	189	277.81259179816107	257	-1	6	74	11	18	org.mockito.internal.verification.checkers.MissingInvocationChecker	0	0	0	15	0	4			22	-1
+-1	0	51	69	285	390.0217534385369	774	-1	21	135	10	18	org.mockito.internal.verification.argumentmatching.ArgumentMatchingToolTest	7	0	0	9	0	7			25	0
+-1	0	32	85	208	453.690736774612	773	0	6	51	11	9	org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool	0	0	0	4	0	4			13	0
+-1	0	14	29	74	124.81788770292094	804	-1	1	31	7	5	org.mockito.internal.progress.AtLeastTest	2	0	0	6	0	2			7	0
+1	1	10	19	37	68.60744034024026	278	0	0	22	6	1	org.mockito.internal.progress.VerificationModeBuilder	0	0	0	2	1	2			3	0
+1	1	8	22	36	78.83741664603441	149	0	0	24	3	3	org.mockito.internal.progress.TimesTest	0	0	0	5	1	1			4	0
+0	1	51	64	233	348.8664610282048	179	-1	9	113	15	23	org.mockito.internal.progress.MockingProgressImplTest	7	0	0	18	1	7			30	0
+-1	0	16	25	69	105.85266261493149	863	-1	3	47	7	10	org.mockito.internal.progress.ThreadSafeMockingProgressTest	3	0	0	9	0	3			13	0
+1	1	6	14	22	43.274594347016425	441	0	0	14	2	0	org.mockito.internal.progress.SequenceNumber	0	0	0	0	1	1			1	0
+0	2	58	67	268	374.5961276942274	26	-1	1	97	18	25	org.mockito.internal.progress.ArgumentMatcherStorageImpl	0	0	0	10	3	10			35	-1
+0	6	135	149	725	981.3395765733466	255	-1	178	224	55	30	org.mockito.internal.progress.MockingProgressImpl	0	0	0	19	6	24	context	Strategy	54	-1
+0	1	20	91	152	457.17312739701117	262	0	3	32	7	1	org.mockito.internal.progress.ThreadSafeMockingProgress	0	0	0	0	1	3			4	0
+-1	0	26	66	123	317.6041674545795	261	0	153	60	24	0	org.mockito.internal.progress.MockingProgress	0	0	0	7	0	18			18	0
+-1	0	9	17	29	57.24402910977006	456	0	21	28	7	0	org.mockito.internal.progress.ArgumentMatcherStorage	0	0	0	3	0	7			7	0
+0	8	99	142	562	899.0732626849041	224	-1	74	158	39	11	org.mockito.internal.invocation.InvocationBuilder	0	0	0	12	8	16			27	-1
+0	3	103	95	565	601.9984444589119	1394	-1	45	161	21	45	org.mockito.internal.invocation.TypeSafeMatchingTest	0	0	0	14	3	10			55	0
+0	4	105	109	484	673.8472548321129	290	-1	0	250	42	75	org.mockito.internal.invocation.InvocationsFinderTest	16	0	0	17	6	16			91	6
+0	2	93	118	466	725.0139048268262	164	-1	43	204	34	80	org.mockito.internal.invocation.InvocationMatcherTest	14	0	0	22	2	14			94	1
+0	5	123	115	586	732.9317758013564	1393	4	0	278	39	65	org.mockito.internal.invocation.MatcherApplicationStrategyTest	17	0	0	22	6	17			82	4
+-1	0	31	42	149	210.16574484970928	796	-1	6	70	7	21	org.mockito.internal.invocation.InvocationMarkerTest	4	0	0	8	0	4			25	0
+0	3	36	52	169	266.75473317599983	835	4	0	74	20	18	org.mockito.internal.invocation.SerializableMethodTest	9	0	0	7	3	9			27	4
+0	4	81	162	544	1020.4297779906626	1391	0	0	142	23	18	org.mockito.internal.invocation.MatcherApplicationStrategy	0	0	0	10	4	8			26	0
+-1	0	27	53	202	281.3381879622639	1548	-1	15	83	14	7	org.mockito.internal.invocation.DefaultInvocationFactory	0	0	0	10	0	6			13	-1
+-1	0	9	68	104	315.8185811416133	1390	0	0	32	5	0	org.mockito.internal.invocation.ArgumentMatcherAction	0	0	0	1	0	1			1	0
+0	9	118	136	547	857.4050371293895	1242	-1	273	204	59	17	org.mockito.internal.invocation.InterceptedInvocation	0	0	0	12	11	27	context	State	44	-1
+-1	0	20	47	124	226.55323358343674	253	0	1	42	6	8	org.mockito.internal.invocation.MatchersBinder	0	0	0	8	0	2	adaptee	(Object)Adapter	10	0
+0	2	93	164	550	1034.8265976291486	65	-1	19	158	38	32	org.mockito.internal.invocation.InvocationMatcher	0	0	1	15	2	15	context	State	47	-1
+0	6	79	126	526	789.4279528049515	825	1	17	111	27	12	org.mockito.internal.invocation.SerializableMethod	0	0	0	6	9	10			22	1
+-1	0	143	174	959	1194.6650470297184	221	-1	91	211	53	30	org.mockito.internal.invocation.InvocationsFinder	0	0	0	8	0	14			44	-1
+-1	0	43	96	277	539.9056805939845	1052	0	6	72	17	12	org.mockito.internal.invocation.ArgumentsProcessor	0	0	0	6	0	4			16	0
+0	1	14	42	57	169.80815324905112	1551	0	1	73	4	0	org.mockito.internal.invocation.RealMethod	0	0	0	5	1	2	state	State	2	0
+-1	0	8	18	24	57.20496894626302	838	0	15	22	6	0	org.mockito.internal.invocation.MockitoMethod	0	0	0	1	0	6	state	State	6	0
+0	1	43	109	275	612.2280496456563	1392	0	15	71	17	12	org.mockito.internal.invocation.TypeSafeMatching	0	0	0	2	1	6			18	0
+0	2	10	24	41	89.12572960090338	844	0	0	24	3	1	org.mockito.internal.invocation.StubInfoImpl	0	0	0	4	2	2	context	State	3	0
+-1	0	3	7	7	13.621371043387192	1123	0	0	9	1	0	org.mockito.internal.invocation.AbstractAwareMethod	0	0	0	0	0	1			1	0
+-1	0	8	26	33	90.90919659812849	1396	0	0	18	2	3	org.mockito.internal.invocation.InvocationComparator	0	0	0	2	0	1			4	0
+-1	0	18	45	119	215.06055719001884	866	0	0	35	4	5	org.mockito.internal.invocation.UnusedStubsFinder	0	0	0	5	0	1	adaptee	(Object)Adapter	6	0
+-1	0	19	35	109	164.19717587802003	794	-1	6	36	9	4	org.mockito.internal.invocation.InvocationMarker	0	0	0	4	0	4			8	-1
+-1	0	11	26	58	105.5715182742069	1585	0	0	26	2	4	org.mockito.internal.invocation.mockref.MockWeakReferenceTest	1	0	0	4	0	1			5	0
+-1	0	6	31	31	106.45360333903953	1581	0	0	15	1	0	org.mockito.internal.invocation.mockref.MockReference	0	0	0	1	0	1	state	State	1	0
+0	1	19	109	177	564.2003208505473	1583	0	1	44	9	2	org.mockito.internal.invocation.mockref.MockWeakReference	0	0	0	2	1	3			5	0
+0	2	19	33	87	147.37496791560127	1582	0	0	31	8	0	org.mockito.internal.invocation.mockref.MockStrongReference	0	0	0	1	2	3			3	0
+-1	0	21	38	108	177.92098663072036	1484	-1	3	54	8	13	org.mockito.internal.stubbing.answers.CallsRealMethodsTest	0	0	0	10	0	3			16	0
+-1	0	20	41	110	192.71969499748909	1538	-1	6	54	10	20	org.mockito.internal.stubbing.answers.AnswersWithDelayTest	0	0	0	6	0	4			24	0
+-1	0	96	98	555	619.2588751471505	1065	-1	91	234	48	80	org.mockito.internal.stubbing.answers.ReturnsArgumentAtTest	0	0	0	9	0	14			94	0
+-1	0	12	19	48	73.55281920724993	1675	-1	1	30	7	5	org.mockito.internal.stubbing.answers.ThrowsExceptionForClassTypeTest	0	0	0	3	0	2			7	0
+-1	0	27	38	142	188.3214281888479	1488	-1	15	84	17	22	org.mockito.internal.stubbing.answers.ReturnsTest	0	0	0	5	0	6			28	0
+0	2	40	50	157	252.8122902674154	1486	-1	0	75	12	19	org.mockito.internal.stubbing.answers.DoesNothingTest	0	0	0	10	4	6			25	1
+-1	0	16	44	95	200.3705832304238	1485	-1	1	40	9	10	org.mockito.internal.stubbing.answers.DefaultAnswerValidatorTest	0	0	0	5	0	2			12	0
+-1	0	67	74	322	427.31681437028624	1487	-1	78	211	28	69	org.mockito.internal.stubbing.answers.InvocationInfoTest	0	0	0	9	0	13			82	0
+-1	0	80	91	440	553.8965001490199	1489	-1	55	125	30	44	org.mockito.internal.stubbing.answers.ThrowsExceptionTest	0	0	0	11	0	11			55	0
+-1	0	72	99	353	580.7803376363963	1674	-1	78	129	34	53	org.mockito.internal.stubbing.answers.AbstractThrowsExceptionTest	0	0	0	14	0	13			66	0
+0	2	81	156	524	976.7927027540826	1064	-1	24	155	28	32	org.mockito.internal.stubbing.answers.ReturnsArgumentAt	0	0	0	9	3	9			41	0
+0	2	52	94	273	527.2903487473862	1049	4	0	86	25	23	org.mockito.internal.stubbing.answers.InvocationInfo	0	0	0	8	2	10	context	State	33	4
+0	2	23	73	132	356.44454034880505	1537	1	0	46	6	3	org.mockito.internal.stubbing.answers.AnswersWithDelay	0	0	0	5	3	3	decorator	Decorator	6	1
+1	1	10	27	46	103.37331770520557	1673	0	0	25	5	3	org.mockito.internal.stubbing.answers.ThrowsExceptionForClassType	1	1	0	3	1	2			5	0
+0	2	34	60	169	307.7939228953844	383	0	0	65	17	13	org.mockito.internal.stubbing.answers.Returns	0	0	0	6	2	7			20	0
+-1	0	25	47	209	251.0897098423461	854	0	0	42	6	12	org.mockito.internal.stubbing.answers.ClonesArguments	0	0	0	7	0	1			13	0
+0	1	17	35	81	153.80572041353537	400	0	6	38	8	2	org.mockito.internal.stubbing.answers.DoesNothing	0	0	0	5	2	4	singleton	Singleton	6	0
+0	1	31	63	192	331.2222084377502	1672	-1	3	56	8	8	org.mockito.internal.stubbing.answers.AbstractThrowsException	0	0	2	7	1	3	abstractClass	Template Method	11	0
+-1	0	8	28	48	108.39362830542095	1482	0	0	23	5	7	org.mockito.internal.stubbing.answers.DefaultAnswerValidator	0	0	0	2	0	1			8	0
+1	1	17	102	151	511.76254335512226	1069	0	0	50	8	3	org.mockito.internal.stubbing.answers.ReturnsElementsOf	0	0	0	5	1	2			5	0
+0	1	17	158	252	873.6497958268048	517	-1	1	53	7	7	org.mockito.internal.stubbing.answers.CallsRealMethods	0	0	0	7	1	2			9	0
+-1	0	221	114	1471	831.4815401485639	1312	-1	300	294	73	48	org.mockito.internal.stubbing.answers.AnswerFunctionalInterfaces	0	0	0	14	0	25			73	-1
+0	2	16	52	77	225.8778819363916	384	0	0	33	5	0	org.mockito.internal.stubbing.answers.ThrowsException	1	1	0	3	2	2			2	0
+0	3	69	106	438	644.7152044999033	932	-1	10	117	27	38	org.mockito.internal.stubbing.InvocationContainerImplTest	0	0	0	13	4	9			47	1
+0	3	67	67	337	389.94555633360824	252	-1	0	115	21	29	org.mockito.internal.stubbing.InvocationContainerImplStubbingTest	6	0	0	14	4	6			35	2
+1	1	11	24	44	90.82055121403826	542	0	0	23	3	2	org.mockito.internal.stubbing.ConsecutiveStubbing	0	0	0	2	1	2			4	0
+0	1	35	55	175	284.0632285657933	1599	-1	43	70	20	19	org.mockito.internal.stubbing.DefaultLenientStubber	0	0	0	6	1	10	adapter	(Object)Adapter	29	-1
+0	6	108	165	557	1043.223264588002	251	-1	110	178	37	28	org.mockito.internal.stubbing.InvocationContainerImpl	0	0	0	18	6	20	context	State	48	-1
+0	2	75	87	430	527.5493131558219	397	-1	23	128	33	23	org.mockito.internal.stubbing.StubberImpl	0	0	0	16	2	11			34	-1
+-1	0	21	94	176	486.02549553358625	1607	0	0	40	5	2	org.mockito.internal.stubbing.StrictnessSelector	0	0	0	3	0	1			3	0
+1	1	9	30	39	109.9068493838894	1397	0	0	22	2	2	org.mockito.internal.stubbing.StubbingComparator	0	0	0	3	1	1			3	0
+0	2	24	41	87	183.10223286483793	1604	1	0	43	8	3	org.mockito.internal.stubbing.DoAnswerStyleStubbing	0	0	0	5	2	5			8	1
+0	1	63	81	370	478.99374345669986	541	-1	43	104	30	11	org.mockito.internal.stubbing.BaseStubbing	0	0	0	8	1	10			21	-1
+0	4	33	73	167	373.6135483064231	234	1	5	64	12	8	org.mockito.internal.stubbing.StubbedInvocationMatcher	6	1	0	10	4	7			15	1
+0	2	21	39	92	176.34975450491257	543	1	0	44	8	5	org.mockito.internal.stubbing.OngoingStubbingImpl	0	0	0	6	2	4			9	1
+-1	0	11	39	56	156.98871593867085	1609	0	0	22	4	2	org.mockito.internal.stubbing.UnusedStubbingReporting	0	0	0	2	0	1			3	0
+-1	0	18	42	108	196.64951153921723	1309	-1	1	41	6	6	org.mockito.internal.stubbing.defaultanswers.ForwardsInvocationsTest	2	0	0	3	0	2			8	0
+-1	0	10	21	28	69.97629471367928	508	0	28	24	8	0	org.mockito.internal.stubbing.defaultanswers.HasPrimitiveMethods	0	0	0	0	0	8			8	0
+1	1	11	25	45	95.16656224425799	477	0	0	28	4	6	org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValuesTest	2	0	0	4	1	2			8	0
+-1	0	100	168	530	1053.8433370997561	1082	-1	45	208	20	48	org.mockito.internal.stubbing.defaultanswers.ReturnsGenericDeepStubsTest	0	0	0	12	0	10			58	0
+-1	0	182	162	952	1111.0875356362012	438	-1	253	380	71	131	org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest	23	0	0	21	0	23			154	0
+0	1	108	143	532	897.5600189758552	346	-1	80	190	62	50	org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest	17	0	0	7	1	17			67	1
+0	1	56	70	234	381.8724780750391	509	-1	0	102	27	34	org.mockito.internal.stubbing.defaultanswers.ReturnsMocksTest	7	0	0	8	1	7			41	2
+0	1	94	164	704	1075.311650409919	1633	0	6	142	17	25	org.mockito.internal.stubbing.defaultanswers.RetrieveGenericsForDefaultAnswers	0	0	0	8	1	4			29	0
+0	2	19	43	130	209.30398136959005	507	-1	1	42	7	6	org.mockito.internal.stubbing.defaultanswers.ReturnsMocks	0	0	0	5	2	2	decorator	Decorator	8	0
+0	2	36	154	363	907.738036476787	437	-1	1	85	7	4	org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls	0	0	0	8	2	2	decorator	Decorator	6	0
+0	2	40	76	220	409.9156935227795	1039	0	0	73	13	19	org.mockito.internal.stubbing.defaultanswers.ForwardsInvocations	0	0	0	10	2	4			23	0
+1	1	12	30	62	123.81403155135276	1289	0	0	28	4	8	org.mockito.internal.stubbing.defaultanswers.TriesToReturnSelf	0	0	0	4	1	1			9	0
+0	1	9	36	44	136.2308268210574	436	0	0	26	3	2	org.mockito.internal.stubbing.defaultanswers.GloballyConfiguredAnswer	0	0	0	5	1	1			3	0
+0	1	97	252	740	1664.8758469219501	860	0	45	212	28	43	org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs	0	0	0	15	1	10			53	0
+0	1	104	173	816	1159.8636834087904	40	-1	1	144	9	28	org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues	0	0	0	10	1	2			30	-1
+0	2	25	118	245	649.1484688442779	476	-1	1	74	8	7	org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValues	0	0	0	5	2	2	decorator	Decorator	9	-1
+1	1	21	47	100	216.4429987414403	876	2	0	36	10	5	org.mockito.internal.util.SimpleMockitoLogger	0	0	0	1	1	5			10	2
+0	1	23	43	104	199.70880866307903	1131	-1	6	53	10	12	org.mockito.internal.util.TimerTest	4	0	0	6	1	4			16	0
+0	4	118	126	572	799.9915129138545	1257	-1	73	230	28	93	org.mockito.internal.util.DefaultMockingDetailsTest	0	0	0	21	4	18			111	2
+-1	0	24	37	129	179.81305896138187	812	-1	1	63	4	9	org.mockito.internal.util.ObjectMethodsGuruTest	2	0	0	6	0	2			11	0
+-1	0	36	40	160	203.00695260935305	841	-1	15	69	12	14	org.mockito.internal.util.MockNameImplTest	6	0	0	3	0	6			20	0
+-1	0	52	72	293	408.9724278492289	1373	-1	10	157	12	19	org.mockito.internal.util.PlatformTest	0	0	0	4	0	5			24	0
+1	1	30	41	154	206.5150566989588	555	2	0	69	12	13	org.mockito.internal.util.MockCreationValidatorTest	0	0	0	9	1	5			18	2
+-1	0	28	50	146	249.1803310854168	1523	-1	21	61	15	21	org.mockito.internal.util.StringUtilTest	0	0	0	5	0	7			28	0
+0	1	19	32	93	145.0431837809042	1531	-1	4	39	8	10	org.mockito.internal.util.ChecksTest	0	0	0	4	1	4			14	0
+-1	0	7	18	30	61.221552869918796	877	0	0	23	2	3	org.mockito.internal.util.SimpleMockitoLoggerTest	1	0	0	3	0	1			4	0
+-1	0	65	68	259	377.8643081955685	1308	-1	15	88	18	17	org.mockito.internal.util.PrimitivesTest	0	0	0	4	0	6			23	0
+-1	0	50	57	193	299.97334076757846	146	-1	36	99	13	39	org.mockito.internal.util.MockUtilTest	9	0	0	11	0	9			48	0
+-1	0	15	26	66	108.93102329268706	1541	-1	1	43	5	14	org.mockito.internal.util.MockSettingsTest	2	0	0	8	0	2			16	0
+-1	0	11	32	63	132.58031124452904	811	-1	3	29	7	9	org.mockito.internal.util.ObjectMethodsGuru	0	0	0	3	0	3			12	0
+-1	0	5	13	19	38.277706729163725	460	0	0	17	1	1	org.mockito.internal.util.ConsoleMockitoLogger	0	0	0	1	0	1			2	0
+0	1	161	198	998	1367.3391487096699	1306	-1	105	228	51	22	org.mockito.internal.util.JavaEightUtil	0	0	0	3	6	15			37	0
+0	1	89	131	501	814.3753992421173	68	-1	64	163	39	38	org.mockito.internal.util.MockUtil	0	0	0	15	1	16	context	State	54	-1
+0	1	27	44	107	205.60446871632385	1130	0	4	43	9	3	org.mockito.internal.util.Timer	0	0	0	1	2	5	adaptee	(Object)Adapter	8	0
+-1	0	10	41	49	159.5646322225357	1493	0	0	20	1	0	org.mockito.internal.util.Supplier	0	0	0	0	0	1			1	0
+0	1	50	96	257	532.7113041499412	1060	-1	10	92	25	17	org.mockito.internal.util.DefaultMockingDetails	0	0	0	9	1	12			29	1
+-1	0	25	60	159	304.13425213321386	971	-1	3	34	9	2	org.mockito.internal.util.Checks	0	0	0	0	0	3			5	-1
+0	2	56	105	433	637.4274614402614	1372	-1	24	111	21	15	org.mockito.internal.util.Platform	0	0	0	4	10	8			23	-1
+0	2	66	139	374	823.47155584062	414	-1	4	95	15	7	org.mockito.internal.util.Primitives	0	0	0	2	2	4			11	-1
+0	1	66	118	385	702.4827134459586	1522	-1	21	90	21	17	org.mockito.internal.util.StringUtil	0	0	0	4	1	7			24	-1
+0	3	37	56	194	295.00005690754637	486	1	7	58	14	10	org.mockito.internal.util.MockNameImpl	0	0	0	2	3	6			16	1
+-1	0	39	57	243	313.1045022704113	553	-1	10	64	20	12	org.mockito.internal.util.MockCreationValidator	0	0	0	8	0	5			17	0
+0	7	42	64	168	327.93369468180856	924	0	22	70	18	11	org.mockito.internal.util.reflection.GenericMasterTest	0	0	0	5	7	8			19	0
+0	7	99	114	514	711.6134522618888	974	2	0	170	23	46	org.mockito.internal.util.reflection.ParameterizedConstructorInstantiatorTest	0	0	0	19	7	8			54	2
+0	1	74	82	363	483.34103240971774	1694	-1	35	159	22	39	org.mockito.internal.util.reflection.MemberAccessorTest	0	0	0	10	1	14			53	2
+0	8	134	130	618	835.4434994694998	938	-1	120	211	45	62	org.mockito.internal.util.reflection.FieldInitializerTest	0	0	0	10	12	16			78	0
+0	2	88	97	399	580.9292574383168	539	3	0	172	15	31	org.mockito.internal.util.reflection.LenientCopyToolTest	7	0	0	8	3	7			38	3
+0	5	69	121	372	716.1861563670507	1073	-1	30	136	24	33	org.mockito.internal.util.reflection.SuperTypesLastSorterTest	0	0	0	5	11	9			42	-1
+-1	0	206	248	1089	1734.267750487374	1083	-1	351	463	60	177	org.mockito.internal.util.reflection.GenericMetadataSupportTest	0	0	0	16	0	27			204	-1
+-1	1	3	9	9	19.775021196025975	790	-1	0	11	0	0	org.mockito.internal.util.reflection.DummyParentClassForTests	0	0	1	0	1	0			0	-1
+-1	0	2	6	6	10.75055681536833	789	-1	0	7	0	0	org.mockito.internal.util.reflection.DummyClassForTests	0	0	0	0	0	0			0	-1
+-1	0	71	74	238	404.94802985168917	1279	0	0	98	1	3	org.mockito.internal.util.reflection.GenericTypeExtractorTest	1	0	0	7	0	1			4	0
+-1	0	41	58	192	304.93473157761133	1048	-1	15	91	15	34	org.mockito.internal.util.reflection.FieldsTest	0	0	0	4	0	6			40	0
+-1	0	94	78	492	483.4813398864	948	-1	15	165	20	30	org.mockito.internal.util.reflection.BeanPropertySetterTest	0	0	0	7	0	6			36	0
+-1	0	18	25	78	108.91772066723979	1282	0	0	39	2	4	org.mockito.internal.util.reflection.GenericArrayReturnTypeTest	0	0	0	4	0	1			5	0
+-1	0	14	30	67	126.14077858172897	900	-1	1	36	4	6	org.mockito.internal.util.reflection.FieldReaderTest	2	0	0	4	0	2			8	0
+-1	0	56	161	485	995.6479714409348	1277	0	3	89	14	8	org.mockito.internal.util.reflection.GenericTypeExtractor	0	0	0	2	0	3			11	0
+1	1	26	49	164	249.89345496338575	1691	2	0	55	17	7	org.mockito.internal.util.reflection.ModuleMemberAccessor	0	0	0	6	1	6	decorator	Decorator	13	2
+0	3	204	320	1718	2383.653152814144	937	1	0	336	31	31	org.mockito.internal.util.reflection.FieldInitializer	0	0	0	13	3	10			41	1
+0	1	40	97	266	541.5991419518248	1254	0	3	63	10	9	org.mockito.internal.util.reflection.SuperTypesLastSorter	0	0	0	6	1	3			12	0
+0	4	67	169	479	1043.0174009624445	947	1	0	118	14	14	org.mockito.internal.util.reflection.BeanPropertySetter	0	0	0	6	4	5			19	1
+0	3	103	181	557	1144.3843084268385	1045	-1	0	145	37	15	org.mockito.internal.util.reflection.InstanceField	0	0	0	6	3	13			28	-1
+-1	0	19	47	124	226.55323358343674	923	0	0	32	4	3	org.mockito.internal.util.reflection.GenericMaster	0	0	0	3	0	1			4	0
+-1	0	72	86	464	528.030071491458	1692	-1	15	89	20	11	org.mockito.internal.util.reflection.ReflectionMemberAccessor	0	0	0	3	0	6			17	-1
+0	3	20	47	103	217.8322624467929	899	-1	1	36	7	2	org.mockito.internal.util.reflection.FieldReader	0	0	0	4	3	3	context	State	5	-1
+0	1	29	50	183	260.47430764207104	547	-1	6	48	8	11	org.mockito.internal.util.reflection.LenientCopyTool	0	0	0	4	1	4	context	State	15	0
+-1	0	109	154	717	1012.5616794523415	1044	-1	36	147	24	18	org.mockito.internal.util.reflection.Fields	0	0	0	7	0	9			27	0
+0	2	41	74	192	389.0546575300558	975	1	0	59	11	1	org.mockito.internal.util.reflection.FieldInitializationReport	0	0	0	0	3	5			6	1
+0	1	443	656	3328	5320.243182073361	1081	-1	108	740	57	47	org.mockito.internal.util.reflection.GenericMetadataSupport	0	0	0	19	1	16	abstractClass	Template Method	63	-1
+0	5	194	260	1462	1894.765766480528	1690	-1	0	413	37	73	org.mockito.internal.util.reflection.InstrumentationMemberAccessor	0	0	0	16	5	8			81	-1
+0	1	14	27	62	111.43262839621748	1208	0	1	38	4	7	org.mockito.internal.util.io.IOUtilTest	0	0	0	8	1	2			9	0
+-1	0	60	120	374	710.9106956897439	1207	-1	6	75	14	6	org.mockito.internal.util.io.IOUtil	0	0	0	5	0	4			10	-1
+0	2	102	107	503	665.6031482006721	1017	-1	0	180	32	74	org.mockito.internal.util.collections.HashCodeAndEqualsSafeSetTest	0	0	0	12	2	17			91	6
+1	1	21	39	100	179.60163725353559	908	0	0	47	4	9	org.mockito.internal.util.collections.IdentitySetTest	0	0	0	2	1	2			11	0
+-1	0	17	34	92	153.74081161966737	308	-1	3	42	7	7	org.mockito.internal.util.collections.ListUtilTest	3	0	0	8	0	3			10	0
+0	1	31	102	210	545.4049681331818	1014	1	0	74	14	7	org.mockito.internal.util.collections.HashCodeAndEqualsMockWrapper	0	0	0	1	1	7			14	1
+-1	0	28	71	141	351.36195221684994	1209	0	1	43	7	6	org.mockito.internal.util.collections.Iterables	0	0	0	4	0	2			8	0
+1	1	14	32	80	140.2248523095642	902	0	0	26	5	1	org.mockito.internal.util.collections.IdentitySet	0	0	0	1	1	2	adaptee	(Object)Adapter	3	0
+0	2	98	173	562	1095.3498200316085	1015	-1	74	167	50	42	org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet	0	0	0	7	2	24			66	-1
+-1	0	27	84	183	437.5968368386794	307	-1	1	44	7	4	org.mockito.internal.util.collections.ListUtil	0	0	0	2	0	2			6	0
+-1	0	14	39	82	171.86205064330588	1016	-1	3	28	8	3	org.mockito.internal.util.collections.Sets	0	0	0	3	0	3			6	0
+-1	0	25	44	117	209.53565313110127	136	-1	15	59	6	10	org.mockito.internal.matchers.ComparableMatchersTest	6	0	0	5	0	6			16	0
+-1	0	41	50	206	266.3938084394791	1334	-1	6	67	5	17	org.mockito.internal.matchers.InstanceOfTest	0	0	0	4	0	4			21	0
+-1	0	42	54	184	281.6065309108852	1313	-1	66	76	12	24	org.mockito.internal.matchers.StringMatchersTest	0	0	0	3	0	12			36	0
+-1	0	70	76	307	435.24042881662695	137	-1	171	120	23	35	org.mockito.internal.matchers.MatchersToStringTest	19	0	0	5	0	19			54	-1
+1	1	27	48	147	239.54076416537933	769	2	0	81	6	22	org.mockito.internal.matchers.MatchersPrinterTest	6	0	0	7	1	6			28	2
+-1	0	31	38	152	190.9074597921585	797	-1	6	74	9	17	org.mockito.internal.matchers.CapturingMatcherTest	4	0	0	7	0	4			21	0
+-1	0	54	68	258	377.60125177467	171	-1	66	105	18	28	org.mockito.internal.matchers.EqualsTest	12	0	0	3	0	12			40	0
+-1	0	22	50	121	239.78952727983707	840	0	0	41	2	3	org.mockito.internal.matchers.EqualityTest	1	0	0	5	0	1			4	0
+0	1	15	35	69	148.1937276609041	58	0	0	31	7	5	org.mockito.internal.matchers.Matches	0	0	0	3	1	4			9	0
+1	1	12	31	54	123.65850544349252	59	1	0	27	5	1	org.mockito.internal.matchers.Not	0	0	0	2	1	3			4	1
+1	1	14	39	71	166.2445152046113	62	1	0	28	5	1	org.mockito.internal.matchers.Or	0	0	0	2	2	3			4	1
+-1	0	11	29	51	114.02294334900544	56	0	3	24	5	0	org.mockito.internal.matchers.LessOrEqual	0	0	0	1	0	3			3	0
+1	1	12	31	57	125.33458930287105	49	1	0	26	6	1	org.mockito.internal.matchers.EndsWith	0	0	0	2	1	3			4	1
+-1	0	31	48	194	252.85719163503975	839	-1	10	42	16	11	org.mockito.internal.matchers.Equality	0	0	0	1	0	5			16	-1
+-1	0	11	29	51	114.02294334900544	57	0	3	24	5	0	org.mockito.internal.matchers.LessThan	0	0	0	1	0	3			3	0
+-1	0	68	96	459	588.3888201658124	44	-1	10	73	19	11	org.mockito.internal.matchers.ArrayEquals	3	2	0	2	0	5			16	-1
+0	3	42	56	203	297.53953482634006	524	0	4	66	11	11	org.mockito.internal.matchers.CapturingMatcher	0	0	0	8	4	5			16	0
+-1	0	11	29	51	114.02294334900544	46	0	3	24	5	0	org.mockito.internal.matchers.CompareEqual	0	0	0	1	0	3			3	0
+0	1	21	44	115	208.777013647983	47	1	4	40	8	5	org.mockito.internal.matchers.CompareTo	0	0	0	2	1	5	abstractClass	Template Method	10	1
+1	1	12	30	55	120.21999555697414	63	1	0	27	5	1	org.mockito.internal.matchers.Same	0	0	0	3	1	3			4	1
+0	0	11	27	46	103.37331770520557	61	0	3	24	5	0	org.mockito.internal.matchers.Null	0	0	0	2	1	3	singleton	Singleton	3	0
+0	0	9	24	40	88.53310689873447	43	0	1	22	4	0	org.mockito.internal.matchers.Any	0	0	0	2	1	2	singleton	Singleton	2	0
+-1	0	11	29	51	114.02294334900544	54	0	3	24	5	0	org.mockito.internal.matchers.GreaterThan	0	0	0	1	0	3			3	0
+0	2	25	47	137	231.2391035139219	55	1	0	46	7	4	org.mockito.internal.matchers.InstanceOf	0	0	0	3	2	4			8	1
+-1	0	3	9	10	20.723265836946414	795	0	0	10	1	0	org.mockito.internal.matchers.CapturesArguments	0	0	0	0	0	1			1	0
+1	1	12	31	57	125.33458930287105	48	1	0	26	6	1	org.mockito.internal.matchers.Contains	0	0	0	2	1	3			4	1
+0	2	14	22	54	87.75764902441404	494	0	0	29	5	0	org.mockito.internal.matchers.LocalizedMatcher	0	0	0	3	2	3			3	0
+0	1	34	62	182	322.6484145987613	50	2	0	58	20	9	org.mockito.internal.matchers.Equals	0	0	1	3	1	9			18	2
+1	1	12	31	57	125.33458930287105	64	1	0	26	6	1	org.mockito.internal.matchers.StartsWith	0	0	0	2	1	3			4	1
+1	1	12	31	57	125.33458930287105	52	1	0	27	6	4	org.mockito.internal.matchers.Find	0	0	0	3	1	3			7	1
+1	1	20	50	120	239.3745871391023	51	1	0	37	7	1	org.mockito.internal.matchers.EqualsWithDelta	0	0	0	2	2	3			4	1
+-1	0	11	29	51	114.02294334900544	53	0	3	24	5	0	org.mockito.internal.matchers.GreaterOrEqual	0	0	0	1	0	3			3	0
+1	1	14	38	69	160.89604717469587	42	1	0	28	6	1	org.mockito.internal.matchers.And	0	0	0	2	2	3			4	1
+0	0	11	27	46	103.37331770520557	60	0	3	24	5	0	org.mockito.internal.matchers.NotNull	0	0	0	2	1	3	singleton	Singleton	3	0
+-1	0	5	27	31	92.71765452109895	818	-1	0	13	0	0	org.mockito.internal.matchers.VarargMatcher	0	0	0	1	0	0			0	-1
+-1	0	13	79	111	372.0528859036744	1271	0	1	26	4	0	org.mockito.internal.matchers.ContainsExtraTypeInfo	0	0	0	0	0	2			2	0
+-1	0	49	71	252	392.5894652133111	1280	-1	1	74	3	9	org.mockito.internal.matchers.text.ValuePrinterTest	0	0	0	5	0	2			11	0
+-1	0	47	54	274	303.1089177449558	1273	-1	10	83	11	6	org.mockito.internal.matchers.text.MatcherToStringTest	3	2	0	4	0	5			11	0
+-1	0	31	92	213	493.2388792452671	1272	0	0	53	6	8	org.mockito.internal.matchers.text.MatcherToString	0	0	0	4	0	1			9	0
+0	1	127	197	718	1295.5645051025	1268	-1	30	157	28	34	org.mockito.internal.matchers.text.ValuePrinter	0	0	0	4	1	9			43	-1
+1	1	12	39	54	155.5703778160067	1270	0	0	22	3	0	org.mockito.internal.matchers.text.FormattedText	0	0	0	0	1	2			2	0
+-1	0	24	50	154	251.8476301206815	768	-1	3	42	10	9	org.mockito.internal.matchers.text.MatchersPrinter	0	0	0	6	0	3			12	0
+-1	0	833	556	4615	4691.009333696946	325	-1	1128	1118	62	148	org.mockito.internal.matchers.apachecommons.EqualsBuilderTest	48	0	0	5	0	48			196	0
+0	1	537	545	4246	4552.784290033445	323	9	0	803	111	49	org.mockito.internal.matchers.apachecommons.EqualsBuilder	0	0	0	7	1	28			77	9
+0	2	14	33	65	137.75477990655602	324	1	0	28	5	1	org.mockito.internal.matchers.apachecommons.ReflectionEquals	0	0	0	2	2	3			4	1
+-1	0	66	67	315	385.4223668013174	1519	-1	45	148	14	32	org.mockito.internal.session.DefaultMockitoSessionBuilderTest	0	0	0	16	0	10			42	0
+0	4	48	77	280	433.8787994440322	1517	1	3	86	17	9	org.mockito.internal.session.DefaultMockitoSessionBuilder	0	0	0	10	4	6			15	1
+1	1	9	22	37	79.44019407817294	1565	0	0	22	2	1	org.mockito.internal.session.MockitoSessionLoggerAdapter	0	0	0	2	1	2	context	State	3	0
+1	1	9	22	35	78.21765735276709	1563	0	0	22	2	2	org.mockito.internal.session.MockitoLoggerAdapter	0	0	0	2	1	2	context	State	4	0
+0	3	25	49	113	231.6420031169047	976	0	4	55	9	8	org.mockito.internal.configuration.injection.ConstructorInjectionTest	0	0	0	11	3	4			12	0
+-1	0	29	45	151	225.7775926566716	977	-1	6	68	11	15	org.mockito.internal.configuration.injection.SimpleArgumentResolverTest	0	0	0	5	0	4			19	0
+1	1	25	83	198	438.9261635476464	979	-1	0	61	7	13	org.mockito.internal.configuration.injection.SpyOnInjectedFieldsHandler	0	1	0	10	1	1	context	State	14	-1
+-1	0	62	99	388	590.1395286227041	968	0	1	96	6	0	org.mockito.internal.configuration.injection.MockInjection	0	0	0	7	0	2			2	0
+0	0	55	149	381	885.4771068938785	969	0	13	92	17	4	org.mockito.internal.configuration.injection.MockInjectionStrategy	0	0	3	2	1	6	abstractClass	Template Method	10	0
+-1	0	43	131	361	771.4430125416073	967	0	1	85	6	4	org.mockito.internal.configuration.injection.ConstructorInjection	1	1	0	10	0	2			6	0
+0	2	59	184	506	1145.6827471488937	970	0	15	152	19	27	org.mockito.internal.configuration.injection.PropertyAndSetterInjection	5	1	0	19	2	6	context	State	33	0
+-1	0	5	12	17	33.9985601286746	505	0	0	14	2	1	org.mockito.internal.configuration.ConfigurationAccess	0	0	0	1	0	1			2	0
+-1	0	25	45	134	220.402790997791	1475	-1	6	66	10	26	org.mockito.internal.configuration.GlobalConfigurationTest	0	0	0	10	0	4			30	0
+0	3	15	29	66	121.49998751876633	1680	-1	3	53	6	11	org.mockito.internal.configuration.MockAnnotationProcessorTest	0	0	0	5	3	3			14	0
+-1	0	2	3	3	3.295836866004329	-1	-1	0	55	0	0	org.mockito.internal.configuration.I	0	0	0	7	0	0			0	-1
+0	2	54	64	236	349.6852355216391	973	-1	52	114	25	45	org.mockito.internal.configuration.MockInjectionTest	0	0	0	9	2	12			57	0
+-1	0	12	24	61	98.66097274015948	1202	0	1	31	4	5	org.mockito.internal.configuration.ClassPathLoaderTest	2	0	0	7	0	2			7	0
+-1	0	51	118	364	695.8641563811353	1042	-1	3	91	11	20	org.mockito.internal.configuration.MockAnnotationProcessor	0	0	0	11	0	3			23	-1
+0	2	47	70	203	371.9244185329251	472	2	0	73	20	16	org.mockito.internal.configuration.GlobalConfiguration	0	0	0	6	2	9			25	2
+1	1	27	161	307	922.0224873615387	479	0	0	82	5	4	org.mockito.internal.configuration.ClassPathLoader	0	0	0	3	1	1			5	0
+-1	0	8	31	39	113.57041103001903	888	0	0	28	1	6	org.mockito.internal.configuration.DefaultInjectionEngine	0	0	0	3	0	1			7	0
+-1	0	13	66	95	300.5558748456357	1040	0	0	31	5	5	org.mockito.internal.configuration.CaptorAnnotationProcessor	0	0	0	5	0	1			6	0
+0	1	69	156	431	946.3128620561846	889	0	15	134	17	19	org.mockito.internal.configuration.InjectingAnnotationEngine	0	0	0	11	2	6			25	0
+-1	0	83	192	744	1269.5118786879536	890	0	21	170	31	50	org.mockito.internal.configuration.SpyAnnotationEngine	0	0	0	20	0	7			57	0
+0	1	61	130	503	808.6767221129661	483	-1	19	109	20	18	org.mockito.internal.configuration.IndependentAnnotationEngine	0	0	0	15	1	7			25	-1
+-1	0	6	20	22	61.82084906716632	1041	0	0	15	1	0	org.mockito.internal.configuration.FieldAnnotationProcessor	0	0	0	2	0	1			1	0
+0	4	43	63	186	329.2220404439317	1580	-1	0	95	7	26	org.mockito.internal.configuration.plugins.PluginLoaderTest	0	0	0	13	4	5			31	1
+0	3	60	66	295	375.3403735184281	1211	3	0	132	16	76	org.mockito.internal.configuration.plugins.PluginFinderTest	8	0	0	16	3	8			84	3
+0	1	22	49	136	240.72008940106656	480	0	1	48	6	7	org.mockito.internal.configuration.plugins.PluginFileReaderTest	3	0	0	7	1	3			10	0
+1	1	11	23	45	87.55323726471735	1546	0	0	38	2	6	org.mockito.internal.configuration.plugins.DefaultMockitoPluginsTest	1	0	0	11	1	1			7	0
+-1	0	18	34	103	157.58078559980763	1203	0	1	30	7	6	org.mockito.internal.configuration.plugins.PluginFileReader	0	0	0	2	0	2			8	0
+1	3	70	99	487	612.6381481851764	1579	1	0	93	12	27	org.mockito.internal.configuration.plugins.PluginInitializer	0	0	0	7	3	3			30	1
+0	2	67	171	583	1088.9600088659342	1200	-1	22	123	25	9	org.mockito.internal.configuration.plugins.PluginLoader	0	0	0	6	2	8			17	-1
+-1	0	5	14	19	41.22214570833016	1204	0	0	13	2	0	org.mockito.internal.configuration.plugins.DefaultPluginSwitch	0	0	0	1	0	1			1	0
+0	2	46	123	303	702.7891350776524	1544	1	0	97	14	12	org.mockito.internal.configuration.plugins.DefaultMockitoPlugins	0	0	0	4	3	4			16	1
+1	1	53	60	393	358.4285767121557	1210	1	0	74	13	9	org.mockito.internal.configuration.plugins.PluginFinder	0	0	0	7	1	3	context	State	12	1
+0	1	55	112	330	649.4983772995789	1205	2	0	91	27	7	org.mockito.internal.configuration.plugins.Plugins	0	0	0	2	1	8			15	2
+0	8	62	114	358	670.3807604496799	1201	0	26	117	28	1	org.mockito.internal.configuration.plugins.PluginRegistry	0	0	0	3	8	8			9	0
+-1	0	41	87	353	510.3827209531968	875	-1	21	135	15	28	org.mockito.internal.debugging.LoggingListenerTest	7	0	0	4	0	7			35	0
+0	4	47	66	211	353.2226368094204	984	-1	0	111	21	32	org.mockito.internal.debugging.VerboseMockInvocationLoggerTest	0	0	0	11	4	9			41	2
+0	2	23	39	103	180.7544305409558	873	1	0	75	6	23	org.mockito.internal.debugging.WarningsFinderTest	3	0	0	11	2	3			26	1
+0	1	39	72	243	395.5004239205195	843	0	3	61	8	10	org.mockito.internal.debugging.MockitoDebuggerImpl	0	0	0	6	1	3	adapter	(Object)Adapter	13	0
+1	1	12	26	48	100.65122628360517	878	0	0	31	3	3	org.mockito.internal.debugging.WarningsCollector	0	0	0	6	1	2			5	0
+-1	0	5	15	25	48.28313737302301	871	0	3	16	4	0	org.mockito.internal.debugging.FindingsListener	0	0	0	2	0	3			3	0
+-1	0	40	83	269	464.3610445069526	1398	-1	1	61	7	13	org.mockito.internal.debugging.InvocationsPrinter	0	0	0	6	0	2			15	0
+0	2	16	33	72	141.12998192752983	464	1	0	34	4	2	org.mockito.internal.debugging.WarningsPrinterImpl	0	0	0	3	2	3			5	1
+0	3	38	85	211	454.90794134546564	488	0	5	67	13	4	org.mockito.internal.debugging.LocationImpl	0	0	0	3	4	7			11	0
+0	2	14	21	53	83.37613018459456	487	0	0	26	5	0	org.mockito.internal.debugging.Localized	0	0	0	1	2	3	adaptee	(Object)Adapter	3	0
+1	2	31	50	200	264.9158683274018	872	0	0	50	5	8	org.mockito.internal.debugging.WarningsFinder	0	0	0	5	2	2			10	0
+0	2	49	102	269	570.6605607193876	982	0	16	88	14	22	org.mockito.internal.debugging.VerboseMockInvocationLogger	0	0	0	4	2	9			31	0
+0	2	57	111	376	658.1843949162783	874	-1	13	94	15	19	org.mockito.internal.debugging.LoggingListener	0	0	0	5	4	7			26	-1
+0	2	55	91	289	515.6448286182314	178	-1	22	127	18	37	org.mockito.internal.handler.MockHandlerImplTest	8	0	0	25	2	8			45	0
+0	9	60	90	311	516.5813620961311	988	2	0	149	22	29	org.mockito.internal.handler.InvocationNotifierHandlerTest	0	0	0	22	10	6			35	2
+1	1	23	44	104	204.3531995622204	1072	0	0	64	5	11	org.mockito.internal.handler.MockHandlerFactoryTest	2	0	0	12	1	2			13	0
+0	3	55	103	307	589.8653180014812	986	3	0	86	30	6	org.mockito.internal.handler.NotifiedMethodInvocationReport	0	0	0	4	3	9	context	State	15	3
+1	1	23	59	116	280.4618212752755	1071	1	0	47	10	7	org.mockito.internal.handler.NullResultGuardian	0	0	0	5	1	4	decorator	Decorator	11	1
+0	4	61	91	325	526.3280915920061	71	1	0	131	10	21	org.mockito.internal.handler.MockHandlerImpl	0	0	0	17	4	4	context	State	25	1
+-1	0	10	29	41	107.69358993442493	1070	0	0	20	3	0	org.mockito.internal.handler.MockHandlerFactory	0	0	0	2	0	1			1	0
+0	2	48	76	293	431.69311828529715	985	1	0	71	22	10	org.mockito.internal.handler.InvocationNotifierHandler	0	0	0	7	2	6	decorator	Decorator	16	1
+1	4	24	52	116	247.18668993753096	1612	0	0	70	4	14	org.mockito.internal.listeners.StubbingLookupNotifierTest	2	0	0	16	4	2			16	0
+1	1	56	88	408	528.9915113475662	1556	2	0	130	24	32	org.mockito.internal.listeners.VerificationStartedNotifierTest	6	0	0	12	1	6			38	2
+-1	0	36	56	233	305.2581533996792	1611	0	0	72	4	3	org.mockito.internal.listeners.StubbingLookupNotifier	0	0	0	8	0	1			4	0
+-1	0	9	41	52	162.00099246183854	1615	0	0	17	1	0	org.mockito.internal.listeners.AutoCleanableListener	0	0	0	0	0	1			1	0
+-1	0	46	97	377	575.427783182457	1552	0	1	97	8	9	org.mockito.internal.listeners.VerificationStartedNotifier	0	0	0	9	0	2			11	0
+1	2	58	45	256	249.5329850015803	1351	3	0	133	18	56	org.mockito.internal.junit.ArgMismatchFinderTest	8	0	0	7	3	8			64	3
+0	2	20	31	92	140.17544588852024	1138	1	0	54	9	10	org.mockito.internal.junit.JUnitRuleTest	0	0	0	11	2	4			14	1
+1	2	21	62	170	318.41950309711626	1352	1	0	86	10	18	org.mockito.internal.junit.StubbingArgMismatchesTest	3	0	0	7	2	3			21	1
+1	1	13	46	105	214.08217610724606	1354	0	0	67	6	12	org.mockito.internal.junit.UnusedStubbingsTest	2	0	0	11	1	2			14	0
+0	2	64	73	301	416.6190493266679	1530	-1	10	128	26	26	org.mockito.internal.junit.ExceptionFactoryTest	0	0	0	6	8	8			34	1
+1	1	17	45	80	197.19119856032466	1358	0	0	46	5	6	org.mockito.internal.junit.UnnecessaryStubbingsReporter	0	0	0	10	1	2			8	0
+0	1	30	101	249	557.2627425429355	1529	0	1	48	4	1	org.mockito.internal.junit.ExceptionFactory	0	0	0	1	1	2			3	0
+-1	0	6	50	55	200.36665926162357	1462	0	0	16	1	0	org.mockito.internal.junit.MockitoTestListener	0	0	0	1	0	1			1	0
+-1	0	6	18	27	59.325063588077924	1471	0	1	14	2	0	org.mockito.internal.junit.NoOpTestListener	0	0	0	1	0	2			2	0
+1	1	41	66	210	352.9090970273529	1345	2	0	65	13	13	org.mockito.internal.junit.UnusedStubbings	0	0	0	7	1	5			18	2
+0	2	20	49	93	222.09737516450957	1490	0	0	46	5	5	org.mockito.internal.junit.MismatchReportingTestListener	0	0	0	5	2	3			8	0
+0	1	22	54	106	251.8257110820516	1134	-1	0	38	7	6	org.mockito.internal.junit.JUnitRule	0	0	0	5	1	4	adapter	(Object)Adapter	10	-1
+0	3	16	31	75	133.8421315196256	1472	0	0	28	5	2	org.mockito.internal.junit.DefaultTestFinishedEvent	0	0	0	0	3	3			5	0
+1	1	18	47	83	207.68550856644012	1344	1	0	31	6	3	org.mockito.internal.junit.StubbingHint	0	0	0	0	1	3			6	1
+-1	0	19	44	130	214.1715158200456	1341	0	0	36	5	10	org.mockito.internal.junit.ArgMismatchFinder	0	0	0	3	0	1			11	0
+1	1	34	73	192	383.7971621580281	1343	1	0	56	10	12	org.mockito.internal.junit.StubbingArgMismatches	0	0	0	6	1	4			16	1
+-1	0	4	9	10	20.723265836946414	1473	0	1	12	2	0	org.mockito.internal.junit.TestFinishedEvent	0	0	0	0	0	2			2	0
+0	5	65	130	197	686.8164847359385	1503	1	0	123	18	16	org.mockito.internal.junit.UniversalTestListener	0	0	0	8	5	8	adaptee	(Object)Adapter	24	1
+0	3	47	66	346	385.8649591538098	1666	1	0	71	17	23	org.mockito.internal.junit.JUnitSessionStore	0	0	0	7	3	5	context	State	28	1
+0	3	48	102	263	568.359711282132	1502	1	2	100	13	17	org.mockito.internal.junit.DefaultStubbingLookupListener	0	0	0	12	3	5			22	1
+0	2	67	99	396	592.1600069141936	1286	-1	22	109	21	23	org.mockito.internal.junit.VerificationCollectorImpl	0	0	0	9	2	8			31	-1
+0	1	11	37	50	144.7448512008414	1504	0	1	29	2	2	org.mockito.internal.junit.StrictStubsRunnerTestListener	0	0	0	2	1	2			4	0
+-1	0	39	144	335	837.2347965828095	1346	-1	3	84	9	13	org.mockito.internal.junit.UnusedStubbingsFinder	0	0	0	12	0	3			16	0
+0	2	18	38	87	169.70450850887417	1667	-1	0	36	7	4	org.mockito.internal.junit.JUnitTestRule	0	0	0	5	2	4	adapter	(Object)Adapter	8	-1
+1	1	33	43	165	219.55565537772495	880	2	0	82	10	21	org.mockito.internal.junit.util.JUnitFailureHackerTest	5	0	0	8	1	5			26	2
+-1	0	56	121	404	726.1712002332993	879	0	15	90	22	18	org.mockito.internal.junit.util.JUnitFailureHacker	0	0	0	5	0	6			24	0
+-1	0	13	30	61	123.32621592519934	556	-1	1	28	2	4	org.mockito.internal.reporting.PluralizerTest	2	0	0	3	0	2			6	0
+0	2	35	74	196	390.58048478305824	375	1	0	69	11	9	org.mockito.internal.reporting.SmartPrinter	0	0	0	5	2	5			14	1
+-1	0	13	35	81	153.80572041353537	1057	0	1	20	6	0	org.mockito.internal.reporting.Pluralizer	0	0	0	0	0	2			2	0
+0	1	20	25	77	108.5951355463421	1056	-1	0	32	9	2	org.mockito.internal.reporting.Discrepancy	0	0	1	0	2	5			7	1
+0	3	39	66	195	348.0179708652073	766	-1	24	64	17	17	org.mockito.internal.reporting.PrintSettings	0	0	0	8	3	8			25	-1
+-1	0	14	20	53	79.40583827104244	821	0	0	29	1	3	org.mockito.internal.runners.util.TestMethodsFinderTest	1	0	0	4	0	1			4	0
+-1	0	7	19	31	65.24575688521777	534	0	0	26	2	4	org.mockito.internal.runners.util.RunnerProviderTest	1	0	0	5	0	1			5	0
+-1	0	24	45	156	227.24352032622917	532	0	0	36	6	3	org.mockito.internal.runners.util.RunnerProvider	0	0	0	3	0	1			4	0
+-1	0	13	27	69	114.32087562412602	820	0	1	24	5	2	org.mockito.internal.runners.util.TestMethodsFinder	0	0	0	2	0	2			4	0
+1	1	13	40	58	162.41772042185676	1326	0	0	26	4	0	org.mockito.internal.runners.util.FailureDetector	0	0	0	2	1	2			2	0
+0	3	51	61	232	332.2509796716449	1535	1	0	110	17	24	org.mockito.internal.runners.DefaultInternalRunnerTest	0	0	0	16	3	6			30	1
+0	3	35	68	167	348.0235792443394	1322	1	0	64	9	8	org.mockito.internal.runners.StrictRunner	0	0	0	7	3	4	decorator	Decorator	12	1
+-1	0	56	143	411	860.6588296729615	531	-1	21	102	20	8	org.mockito.internal.runners.RunnerFactory	0	0	0	10	0	7			15	-1
+0	4	69	95	719	624.8968289834995	1327	-1	0	115	33	42	org.mockito.internal.runners.DefaultInternalRunner	0	0	0	15	4	9			51	-1
+-1	0	7	41	44	155.1517749906487	536	0	1	20	3	0	org.mockito.internal.runners.InternalRunner	0	0	0	3	0	2	state	State	2	0
+0	2	30	45	145	223.95301840892583	1128	2	0	61	18	11	org.mockito.internal.creation.DelegatingMethodTest	6	0	0	6	2	6			17	2
+-1	0	10	19	36	68.08685983066609	1532	0	0	26	1	5	org.mockito.internal.creation.InterfaceOverrideTest	0	0	0	3	0	1			6	0
+0	3	130	101	637	652.1337352127885	554	13	0	275	29	77	org.mockito.internal.creation.MockSettingsImplTest	27	0	0	17	3	27			104	13
+0	2	45	77	231	419.0661637101781	837	3	0	72	22	7	org.mockito.internal.creation.DelegatingMethod	0	0	0	3	2	10			17	3
+0	1	16	59	98	270.5130812415638	1536	0	1	29	6	4	org.mockito.internal.creation.SuspendMethod	0	0	0	1	2	2			6	0
+0	4	181	228	998	1574.511746999014	551	-1	486	298	81	49	org.mockito.internal.creation.MockSettingsImpl	0	0	0	27	4	32			81	-1
+-1	0	44	67	202	355.65393572588073	1158	-1	21	101	9	22	org.mockito.internal.creation.instance.ConstructorInstantiatorTest	7	0	0	5	0	7			29	0
+0	2	124	330	1176	2333.0584623913287	1141	0	37	207	40	36	org.mockito.internal.creation.instance.ConstructorInstantiator	0	0	0	11	2	11			47	0
+1	1	6	20	26	65.16193076042964	1143	0	0	23	2	1	org.mockito.internal.creation.instance.ObjenesisInstantiator	0	0	0	3	1	1			2	0
+-1	0	9	47	57	190.02340958822387	1142	0	0	21	2	0	org.mockito.internal.creation.instance.Instantiator	0	0	0	0	0	1			1	0
+-1	0	8	46	61	189.10019775197233	1159	0	0	22	1	0	org.mockito.internal.creation.instance.InstantiationException	1	0	0	1	0	1			1	0
+1	1	11	31	61	127.43708978937265	1146	0	0	23	5	2	org.mockito.internal.creation.instance.DefaultInstantiatorProvider	0	0	1	3	1	1			3	0
+1	1	22	52	145	258.7901546058699	1572	1	0	36	9	8	org.mockito.internal.creation.instance.InstantiatorProviderAdapter	0	0	0	5	1	3			11	1
+1	1	22	51	145	253.8134208634493	1571	1	0	34	9	8	org.mockito.internal.creation.instance.InstantiatorProvider2Adapter	0	0	0	3	1	3			11	1
+1	2	18	35	76	151.5756669100216	1384	0	0	39	2	6	org.mockito.internal.creation.bytebuddy.ByteBuddyMockMakerTest	1	0	0	7	2	1			7	0
+-1	0	55	69	254	382.076064424279	1382	-1	36	118	13	46	org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMakerTest	0	0	0	8	0	9			55	0
+0	1	281	327	1487	2388.5767144924707	1381	-1	703	606	73	219	org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMakerTest	0	0	0	35	1	38			257	-1
+0	1	131	146	639	943.14605033912	1246	4	46	234	34	69	org.mockito.internal.creation.bytebuddy.AbstractByteBuddyMockMakerTest	0	0	0	21	1	17			86	4
+-1	0	61	69	288	390.7442731293803	1250	-1	21	183	20	53	org.mockito.internal.creation.bytebuddy.TypeCachingMockBytecodeGeneratorTest	0	0	0	14	0	7			60	0
+-1	0	18	72	132	351.56173842621865	1497	0	1	31	7	0	org.mockito.internal.creation.bytebuddy.SubclassLoader	0	0	0	1	0	2	state	State	2	0
+-1	0	3	11	13	28.214442932076903	1388	0	0	12	1	0	org.mockito.internal.creation.bytebuddy.ClassCreatingMockMaker	0	0	0	2	0	1			1	0
+0	4	191	614	2193	4723.517809528584	1245	-1	0	407	10	13	org.mockito.internal.creation.bytebuddy.ByteBuddyCrossClassLoaderSerializationSupport	0	0	0	16	4	4			17	-1
+-1	0	162	226	1504	1653.3896720192115	1626	0	21	336	9	0	org.mockito.internal.creation.bytebuddy.ModuleHandler	0	0	0	14	0	7	state	State	7	0
+0	2	82	153	691	1000.3353930364535	1496	1	0	137	15	12	org.mockito.internal.creation.bytebuddy.SubclassInjectionLoader	0	0	0	8	2	4	decorator	Decorator	16	1
+0	9	234	525	2244	4050.908014987358	1376	-1	38	496	56	96	org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator	0	0	0	39	9	12			108	0
+1	1	33	117	231	636.7628721310498	1383	4	0	79	16	9	org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker	0	0	0	6	1	9			18	4
+-1	0	4	10	13	25.649493574615366	1377	0	1	12	2	0	org.mockito.internal.creation.bytebuddy.MockAccess	0	0	0	0	0	2			2	0
+0	5	63	110	451	672.2614073452946	1243	-1	5	161	13	6	org.mockito.internal.creation.bytebuddy.MockMethodInterceptor	0	0	0	21	5	6	context	State	12	-1
+0	8	415	443	4054	3680.204481866292	1378	-1	44	774	48	48	org.mockito.internal.creation.bytebuddy.MockMethodAdvice	5	8	0	49	8	13	context	State	61	-1
+0	1	88	266	778	1770.689255431452	1241	-1	85	187	38	50	org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMaker	0	0	1	8	1	14	adapter	(Object)Adapter	64	-1
+1	4	15	32	77	139.0017734993179	1251	0	0	37	4	1	org.mockito.internal.creation.bytebuddy.MockFeatures	0	0	0	3	4	2			3	0
+0	8	430	812	4180	6770.5100187212665	1375	-1	89	868	73	81	org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMaker	0	0	0	35	8	18	context	State	99	-1
+-1	0	7	19	30	64.62275025158095	1374	0	6	16	4	0	org.mockito.internal.creation.bytebuddy.BytecodeGenerator	0	0	0	0	0	4	state	State	4	0
+0	4	72	127	484	785.1247831530122	1249	2	0	121	13	15	org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator	0	0	0	7	4	6	decorator	Decorator	21	2
+0	7	109	212	786	1413.3948399949918	1244	0	45	257	29	70	org.mockito.internal.creation.bytebuddy.SubclassBytecodeGenerator	0	0	0	33	11	11	context	State	81	0
+-1	0	3	14	19	41.22214570833016	1686	0	0	10	1	0	org.mockito.internal.creation.bytebuddy.ConstructionCallback	0	0	0	0	0	1	state	State	1	0
+0	4	46	51	207	271.96865845653383	919	1	0	82	10	28	org.mockito.verification.TimeoutTest	4	0	0	9	4	4			32	1
+1	1	13	24	59	97.86089865373728	1256	0	0	29	6	6	org.mockito.verification.NegativeDurationTest	0	0	0	5	1	2			8	0
+-1	0	20	53	130	257.97932587414584	1114	0	6	41	10	1	org.mockito.verification.After	0	0	0	2	0	4			5	0
+-1	0	11	36	51	141.5457227780757	1304	0	0	20	3	0	org.mockito.verification.VerificationStrategy	0	0	0	0	0	1	strategy	Strategy	1	0
+-1	0	18	92	130	447.81316944191354	75	0	1	48	6	1	org.mockito.verification.VerificationMode	0	0	0	3	0	2	decorated	Decorator	3	0
+-1	0	33	124	347	725.3162727134105	1115	0	21	67	18	0	org.mockito.verification.VerificationAfterDelay	0	0	0	1	0	7			7	0
+-1	0	22	56	99	257.32671160753705	1478	0	6	37	13	0	org.mockito.verification.VerificationEvent	0	0	0	2	0	4			4	0
+-1	0	35	64	197	338.12503863923126	918	-1	21	63	20	3	org.mockito.verification.Timeout	0	0	0	4	0	7			10	0
+-1	0	27	131	278	737.2183658934734	921	0	6	87	16	0	org.mockito.verification.VerificationWithTimeout	0	0	0	1	0	4			4	0
+0	3	38	51	171	262.22484138163566	473	0	20	67	15	0	org.mockito.configuration.MockitoConfiguration	4	4	0	2	4	8			8	0
+-1	0	6	86	107	401.8632797637239	482	-1	0	27	0	0	org.mockito.configuration.AnnotationEngine	0	0	0	1	0	0			0	-1
+-1	0	23	193	337	1123.2760055580059	478	0	6	81	10	0	org.mockito.configuration.IMockitoConfiguration	0	0	0	1	0	4	creator	Factory Method	4	0
+-1	0	17	54	87	241.1590384073475	474	0	6	44	8	0	org.mockito.configuration.DefaultMockitoConfiguration	0	0	1	3	0	4			4	0
+0	1	19	38	92	171.82796592786354	1494	1	0	45	9	5	org.mockito.junit.TestableJUnitRunner	4	0	0	8	1	4			9	1
+-1	0	32	101	202	536.1350374375218	1226	-1	3	63	10	2	org.mockito.junit.MockitoJUnit	0	0	0	7	0	3			5	0
+-1	0	20	192	359	1129.5978985897495	1285	0	1	101	9	0	org.mockito.junit.VerificationCollector	0	0	0	3	0	2			2	0
+-1	0	16	322	723	2119.8577695351223	1222	0	1	151	4	0	org.mockito.junit.MockitoRule	0	0	0	9	0	2			2	0
+0	1	48	333	764	2210.6430737924516	1457	1	0	175	10	4	org.mockito.junit.MockitoJUnitRunner	0	0	1	17	1	5	context	State	9	1
+-1	0	16	40	74	172.1626037281668	1668	0	1	33	2	0	org.mockito.junit.MockitoTestRule	0	0	0	3	0	2			2	0
+0	3	39	64	210	342.214881965918	465	-1	1	80	9	4	org.mockito.runners.ConsoleSpammingMockitoJUnitRunnerTest	3	0	0	11	3	3			7	-1
+0	2	33	96	219	517.3508860623841	788	1	3	77	14	9	org.mockito.runners.VerboseMockitoJUnitRunner	0	0	0	13	2	7	context	State	16	1
+-1	0	36	65	219	350.2896624380726	408	0	6	66	8	0	org.mockito.runners.MockitoJUnitRunner	0	0	1	5	0	4			4	0
+0	3	34	96	219	517.3508860623841	485	1	1	75	14	10	org.mockito.runners.ConsoleSpammingMockitoJUnitRunner	0	0	0	14	3	7	context	State	17	1
+1	2	13	29	62	119.68689716630766	897	0	0	33	2	1	org.mockitousage.annotation.SpyInjectionTest	1	0	0	7	2	1			2	0
+0	3	38	49	163	249.59375983953134	995	1	0	68	8	4	org.mockitousage.annotation.InjectionOfInlinedMockDeclarationTest	0	0	0	8	6	4			8	1
+0	4	119	140	632	902.84451518056	978	-1	54	220	25	39	org.mockitousage.annotation.MockInjectionUsingConstructorTest	0	0	0	27	5	13			52	0
+0	1	25	40	113	189.09551274849363	896	-1	3	63	6	4	org.mockitousage.annotation.SpyAnnotationInitializedInBaseClassTest	2	1	0	10	1	3			7	0
+0	1	14	29	68	122.3657234501071	886	0	1	42	5	4	org.mockitousage.annotation.CaptorAnnotationUnhappyPathTest	1	1	0	9	1	2			6	0
+0	3	53	45	254	249.18004201583415	898	-1	3	83	15	11	org.mockitousage.annotation.WrongSetOfAnnotationsTest	7	0	0	7	7	7			18	1
+0	5	200	195	1101	1365.7749566609225	894	-1	101	320	43	77	org.mockitousage.annotation.SpyAnnotationTest	15	0	0	24	5	15			92	0
+0	4	65	101	321	582.9155534361316	318	-1	10	128	14	21	org.mockitousage.annotation.AnnotationsTest	5	0	0	17	9	5			26	0
+0	5	79	90	380	534.6154127448389	885	-1	10	137	11	21	org.mockitousage.annotation.CaptorAnnotationTest	5	0	0	12	5	5			26	0
+-1	0	36	46	152	231.09850395892872	892	-1	3	74	5	13	org.mockitousage.annotation.DeprecatedAnnotationEngineApiTest	3	0	0	11	0	3			16	0
+0	5	52	65	243	357.0489938171356	884	-1	0	107	10	31	org.mockitousage.annotation.CaptorAnnotationBasicTest	5	0	0	11	5	5			36	0
+0	2	18	27	87	120.57951920367375	1121	0	0	43	1	1	org.mockitousage.annotation.MockInjectionUsingConstructorIssue421Test	0	0	0	8	2	1			2	0
+0	12	127	134	594	855.8418287945944	893	-1	97	208	31	41	org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest	15	0	0	17	19	15			56	0
+-1	0	236	265	1317	1903.5246009619693	1157	-1	351	455	35	161	org.mockitousage.constructor.CreatingMocksWithConstructorTest	27	0	0	15	0	27			188	0
+-1	0	80	93	365	548.6904538831717	1283	-1	15	198	15	37	org.mockitousage.CompilationWarningsTest	0	0	0	5	0	6			43	0
+0	3	111	146	780	972.256912273811	853	0	4	187	13	27	org.mockitousage.PlaygroundWithDemoOfUnclonedParametersProblemTest	5	0	0	13	3	5			32	0
+-1	0	116	167	682	1089.6799528598583	94	0	6441	241	134	0	org.mockitousage.IMethods	0	0	0	3	0	114			114	0
+-1	0	333	177	1548	1300.015272584492	810	0	6328	451	238	0	org.mockitousage.MethodsImpl	0	0	0	3	0	113			113	0
+0	2	24	36	109	168.88852376024917	433	0	1	101	2	0	org.mockitousage.PlaygroundTest	2	0	0	3	2	2			2	0
+1	1	7	14	22	43.274594347016425	1591	0	0	25	1	5	org.mockitousage.NoExtendsTest	0	0	0	5	1	1			6	0
+0	2	57	58	259	322.29602757857316	1588	-1	4	116	5	18	org.mockitousage.JunitJupiterTest	0	0	0	10	2	5			23	0
+-1	0	95	118	482	728.9974054579708	1589	-1	28	190	14	49	org.mockitousage.StrictnessTest	0	0	0	19	0	8			57	0
+-1	1	18	22	95	100.1852916152119	1652	-1	0	43	0	0	org.mockitousage.MultiLevelNestedTest	0	0	0	6	1	0			0	-1
+0	2	18	27	72	115.46998521343349	1591	-1	1	42	2	6	org.mockitousage.NoExtendsTest	0	0	0	5	2	2			8	0
+1	1	18	24	74	103.29756223690009	1605	1	0	51	5	12	org.mockitousage.strictness.StrictnessPerStubbingWithRunnerTest	0	0	0	10	1	3			15	1
+0	2	27	36	119	172.04844575201506	1619	2	0	62	9	14	org.mockitousage.strictness.PotentialStubbingSensitivityTest	0	0	0	12	2	5			19	2
+0	2	137	94	661	610.4128609460585	1603	-1	0	297	48	93	org.mockitousage.strictness.StrictnessPerStubbingTest	0	0	0	21	2	24			117	7
+0	2	16	26	67	109.3220081041651	1616	0	0	46	2	6	org.mockitousage.strictness.LenientMockAnnotationTest	0	0	0	11	3	2			8	0
+0	2	19	26	78	113.27442949392939	1606	1	0	53	5	12	org.mockitousage.strictness.StrictnessWithRulesTest	0	0	0	12	2	3			15	1
+0	2	50	60	237	328.0836084681079	1602	2	0	130	19	37	org.mockitousage.strictness.StrictnessPerMockTest	0	0	0	22	3	9			46	2
+0	2	29	30	127	145.32561259375774	1608	1	0	68	4	18	org.mockitousage.strictness.StrictnessWhenRuleStrictnessIsUpdatedTest	0	0	0	14	2	4			22	1
+-1	0	11	45	70	191.18228589222116	1620	-1	1	22	2	2	org.mockitousage.strictness.ProductionCode	0	0	0	1	0	2			4	-1
+-1	0	28	52	176	268.8651677419839	764	-1	15	63	9	12	org.mockitousage.internal.debugging.LocationImplTest	6	0	0	8	0	6			18	-1
+1	2	69	102	350	597.5091817573128	1359	4	0	151	19	69	org.mockitousage.internal.junit.UnusedStubbingsFinderTest	9	0	0	12	3	9			78	4
+-1	0	98	328	1255	2340.24419931361	1480	-1	0	271	0	0	org.mockitousage.jls.JLS_15_12_2_5Test	0	0	0	13	0	0			0	-1
+0	1	73	48	354	281.7262518304212	910	3	0	125	25	34	org.mockitousage.verification.FindingRedundantInvocationsInOrderTest	7	0	0	11	2	7			41	3
+0	1	57	40	257	221.9630433958088	814	3	0	88	18	28	org.mockitousage.verification.OnlyVerificationTest	7	0	0	10	2	7			35	3
+1	1	85	74	427	448.2020169789182	152	4	0	127	32	42	org.mockitousage.verification.ExactNumberOfTimesVerificationTest	9	0	0	9	1	9			51	4
+1	1	26	34	118	162.2032772318326	806	1	0	57	10	13	org.mockitousage.verification.AtLeastXVerificationTest	3	0	0	7	1	3			16	1
+-1	0	32	48	140	237.19883628524659	158	-1	1	64	6	19	org.mockitousage.verification.VerificationOnMultipleMocksUsingMatchersTest	2	0	0	8	0	2			21	0
+0	4	40	60	176	310.22903970228907	1593	1	0	95	9	32	org.mockitousage.verification.VerificationWithAfterAndCaptorTest	0	0	0	16	4	4			36	1
+0	4	110	89	503	553.6325251388768	402	8	0	224	40	108	org.mockitousage.verification.VerificationWithTimeoutTest	0	0	0	19	4	21			129	8
+0	2	71	54	315	310.6389224965842	197	2	0	104	14	26	org.mockitousage.verification.VerificationInOrderTest	5	0	0	10	4	5			31	2
+0	2	190	103	817	690.6808267705803	294	13	0	266	67	104	org.mockitousage.verification.RelaxedVerificationInOrderTest	28	0	0	11	4	28			132	13
+1	1	34	46	155	231.99755537828534	951	1	0	74	11	18	org.mockitousage.verification.VerificationExcludingStubsTest	4	0	0	9	1	4			22	1
+0	1	133	67	592	427.69494453722837	295	-1	0	194	39	74	org.mockitousage.verification.SelectedMocksInOrderVerificationTest	16	0	0	9	3	16			90	5
+1	1	55	51	258	283.2009388310025	170	1	0	103	10	20	org.mockitousage.verification.VerificationUsingMatchersTest	4	0	0	15	1	4			24	1
+0	3	125	98	595	626.0790177434717	1613	-1	0	225	40	108	org.mockitousage.verification.VerificationInOrderWithTimeoutTest	0	0	0	17	4	20			128	7
+1	1	78	68	405	408.2643205632446	428	3	0	121	28	42	org.mockitousage.verification.AtMostXVerificationTest	8	0	0	17	1	8			50	3
+0	1	111	67	542	421.7828220964563	156	-1	0	170	42	52	org.mockitousage.verification.NoMoreInteractionsVerificationTest	12	0	0	11	1	12			64	4
+-1	0	78	88	448	537.2218044525187	770	-1	10	142	16	36	org.mockitousage.verification.PrintingVerboseTypesWithArgumentsTest	5	0	0	11	0	5			41	0
+0	1	278	227	1664	1683.654374053522	173	-1	0	439	87	130	org.mockitousage.verification.DescriptiveMessagesWhenVerificationFailsTest	25	0	0	15	3	25			155	10
+1	1	30	39	152	195.9313403130048	293	0	0	61	8	12	org.mockitousage.verification.DescriptiveMessagesWhenTimesXVerificationFailsTest	2	0	0	10	1	2			14	0
+0	2	267	107	1130	752.2071015525833	1004	12	0	494	50	144	org.mockitousage.verification.VerificationInOrderWithCallsTest	25	0	0	11	3	25			169	12
+0	2	106	70	444	426.70771937025575	211	5	0	166	25	49	org.mockitousage.verification.VerificationInOrderMixedWithOrdiraryVerificationTest	11	0	0	10	4	11			60	5
+-1	0	20	33	104	153.2648996716653	1646	0	0	35	3	6	org.mockitousage.verification.VerifyPrintsAllInvocationsOnErrorTest	0	0	0	5	0	1			7	0
+-1	0	65	87	395	520.1630615463976	1555	-1	36	153	25	47	org.mockitousage.verification.VerificationStartedListenerTest	9	0	0	14	0	9			56	0
+0	2	104	99	620	636.5422283258746	229	3	0	189	23	44	org.mockitousage.verification.DescriptiveMessagesOnVerificationInOrderErrorsTest	8	0	0	11	4	8			52	3
+0	1	78	60	375	355.6155615582246	151	4	0	128	30	35	org.mockitousage.verification.BasicVerificationTest	9	0	0	13	2	9			44	4
+0	1	33	65	252	359.4128906882425	1406	-1	6	74	16	19	org.mockitousage.verification.CustomVerificationTest	4	0	0	11	1	4			23	-1
+0	1	45	51	227	276.67245089155153	514	1	0	79	16	25	org.mockitousage.verification.OrdinaryVerificationPrintsAllInteractionsTest	6	0	0	8	2	6			31	1
+0	5	155	99	700	648.556953169297	1594	13	0	304	54	151	org.mockitousage.verification.VerificationWithAfterTest	0	0	0	20	5	28			179	13
+0	2	211	94	944	643.911859617677	316	11	0	276	63	89	org.mockitousage.verification.BasicVerificationInOrderTest	25	0	0	12	4	25			114	11
+-1	0	13	25	63	103.57836815978831	161	0	10	22	6	0	org.mockitousage.examples.use.ArticleDatabase	0	0	0	1	0	5			5	0
+-1	0	6	16	28	53.31527216280326	160	0	6	15	4	0	org.mockitousage.examples.use.ArticleCalculator	0	0	0	0	0	4			4	0
+1	1	9	16	32	55.451774444795625	213	0	0	18	3	0	org.mockitousage.examples.use.Article	0	0	0	0	1	2			2	0
+0	4	49	55	202	291.95472335706626	163	2	0	95	10	38	org.mockitousage.examples.use.ExampleTest	0	0	0	9	4	5			43	2
+1	2	23	42	116	199.6507880264673	162	1	0	36	4	9	org.mockitousage.examples.use.ArticleManager	0	0	0	1	2	3			12	1
+1	1	18	31	72	132.5766496894977	1547	0	0	48	2	9	org.mockitousage.plugins.MockitoPluginsTest	2	0	0	14	1	2			11	0
+1	2	14	35	75	151.11208397377086	1574	0	0	34	4	8	org.mockitousage.plugins.MyDeprecatedInstantiatorProvider	0	0	0	7	2	1			9	0
+-1	0	23	32	101	147.6838565389203	1199	-1	3	46	7	13	org.mockitousage.plugins.DeprecatedInstantiatorProviderTest	0	0	0	9	0	3			16	0
+1	1	26	39	124	187.99098105859645	335	0	0	46	6	6	org.mockitousage.puzzlers.OverloadingPuzzleTest	3	0	0	6	1	3			9	0
+-1	0	33	90	212	482.0927647204811	231	-1	3	70	8	11	org.mockitousage.puzzlers.BridgeMethodPuzzleTest	3	0	0	7	0	3			14	0
+0	1	30	30	144	149.09439898728002	520	-1	1	56	7	10	org.mockitousage.misuse.ExplicitFrameworkValidationTest	3	0	0	12	1	3			13	0
+0	1	25	35	106	163.22036829392235	434	1	0	64	10	13	org.mockitousage.misuse.RestrictedObjectMethodsTest	5	0	0	11	1	5			18	1
+0	1	54	66	265	368.26216851509065	449	-1	21	100	12	23	org.mockitousage.misuse.DetectingMisusedMatchersTest	6	1	0	17	1	7			30	0
+0	1	80	96	361	565.3322839999565	154	-1	4	150	35	47	org.mockitousage.misuse.InvalidUsageTest	16	1	0	10	2	17			64	3
+1	1	28	41	142	203.1889093616517	448	0	0	48	7	12	org.mockitousage.misuse.DetectingFinalMethodsTest	2	0	0	8	1	2			14	0
+0	1	27	33	112	155.7104627527381	447	1	0	55	7	14	org.mockitousage.misuse.CleaningUpPotentialStubbingTest	4	0	0	8	1	4			18	1
+0	1	32	45	130	219.0390502705012	327	-1	16	102	13	10	org.mockitousage.misuse.DescriptiveMessagesOnMisuseTest	8	0	0	8	1	8			18	0
+-1	0	36	40	168	204.95855917613034	991	0	0	60	2	9	org.mockitousage.misuse.SpyStubbingMisuseTest	0	0	0	5	0	1			10	0
+0	3	18	34	81	149.41127125886294	1220	0	0	42	2	3	org.mockitousage.junitrule.RuleTestWithFactoryMethodTest	0	0	0	8	3	1			4	0
+0	3	18	34	81	149.41127125886294	1221	0	0	42	2	3	org.mockitousage.junitrule.RuleTestWithParameterConstructorTest	0	0	0	8	3	1			4	0
+0	3	19	35	86	155.90215536887277	1139	0	0	44	2	3	org.mockitousage.junitrule.MockitoJUnitRuleTest	0	0	0	8	4	1			4	0
+0	2	73	185	558	1170.0064080405425	1466	-1	0	188	32	56	org.mockitousage.junitrule.StrictJUnitRuleTest	0	0	0	19	3	12			68	3
+1	1	33	37	176	191.3079078164116	1501	0	0	77	4	8	org.mockitousage.junitrule.MutableStrictJUnitRuleTest	0	0	0	11	1	2			10	0
+0	3	17	31	75	133.8421315196256	1223	0	0	39	2	1	org.mockitousage.junitrule.InvalidTargetMockitoJUnitRuleTest	0	0	0	7	3	1			2	0
+0	3	36	49	188	256.58565617866753	1357	1	0	74	13	24	org.mockitousage.junitrule.StubbingWarningsMultiThreadingTest	0	0	0	13	3	6			30	1
+1	1	33	42	168	215.20648713493688	1669	0	0	104	2	7	org.mockitousage.junitrule.JUnitTestRuleIntegratesWithRuleChainTest	0	0	0	15	1	2			9	0
+1	1	33	37	176	191.3079078164116	1671	0	0	82	4	8	org.mockitousage.junitrule.MutableStrictJUnitTestRuleTest	0	0	0	11	1	2			10	0
+0	3	19	35	86	155.90215536887277	1670	0	0	44	2	3	org.mockitousage.junitrule.MockitoJUnitTestRuleTest	0	0	0	8	4	1			4	0
+0	3	22	44	109	206.4193068180823	1355	0	0	48	11	9	org.mockitousage.junitrule.LenientJUnitRuleTest	0	0	0	9	3	4			13	0
+-1	0	113	92	611	590.1889202437868	1287	-1	45	186	27	67	org.mockitousage.junitrule.VerificationCollectorImplTest	0	0	0	12	0	10			77	0
+0	3	119	90	757	596.6426928093704	1356	8	0	216	40	102	org.mockitousage.junitrule.StubbingWarningsJUnitRuleTest	0	0	0	12	3	21			123	8
+0	1	194	149	1004	1029.8503477374995	395	-1	0	272	63	120	org.mockitousage.stubbing.StubbingUsingDoReturnTest	23	0	0	15	1	23			143	7
+0	1	27	35	124	168.7098547961763	914	-1	1	65	10	14	org.mockitousage.stubbing.StubbingWithExtraAnswersTest	3	0	0	11	1	3			17	0
+0	1	101	93	518	581.2476975301319	1514	2	0	205	12	24	org.mockitousage.stubbing.StrictStubbingEndToEndTest	0	0	0	19	1	8			32	2
+-1	0	23	43	123	206.92392728101393	1310	-1	3	46	3	21	org.mockitousage.stubbing.StubbingWithDelegateVarArgsTest	0	0	0	5	0	3			24	0
+0	1	232	231	1078	1613.0412955893257	861	-1	154	379	41	140	org.mockitousage.stubbing.DeepStubbingTest	21	0	0	19	1	21			161	1
+1	1	222	79	1140	556.0638997696948	371	7	0	309	50	73	org.mockitousage.stubbing.StubbingConsecutiveAnswersTest	16	0	0	7	1	16			89	7
+0	3	267	183	1291	1310.8605475249356	157	16	0	429	68	169	org.mockitousage.stubbing.StubbingWithThrowablesTest	34	0	0	28	3	34			203	16
+1	1	51	60	230	326.28475853539175	166	1	0	88	6	31	org.mockitousage.stubbing.ReturningDefaultValuesTest	4	0	0	11	1	4			35	1
+-1	0	40	47	197	248.31057525068545	1623	-1	6	78	4	28	org.mockitousage.stubbing.SmartNullsGenericBugTest	0	0	0	5	0	4			32	0
+-1	0	125	119	666	773.6534707943064	1013	-1	78	205	30	70	org.mockitousage.stubbing.StubbingWithDelegateTest	0	0	0	16	0	13			83	-1
+0	1	79	84	461	515.2054356117185	381	-1	15	134	28	58	org.mockitousage.stubbing.StubbingWithCustomAnswerTest	10	0	0	10	1	10			68	1
+0	2	55	40	249	220.6981158585883	1512	3	0	120	22	32	org.mockitousage.stubbing.StrictStubbingTest	0	0	0	15	2	11			43	3
+0	1	164	131	1123	920.112423070736	1314	-1	138	350	72	163	org.mockitousage.stubbing.StubbingWithAdditionalAnswersTest	0	0	0	35	1	28			191	-1
+0	4	50	65	246	357.8465498356036	1513	2	0	135	20	35	org.mockitousage.stubbing.StubbingWarningsTest	0	0	0	15	4	8			43	2
+-1	0	91	80	447	488.20468756908554	1290	-1	36	154	17	38	org.mockitousage.stubbing.StubbingReturnsSelfTest	0	0	0	5	0	9			47	0
+1	1	115	116	583	738.709713616657	150	6	0	184	40	73	org.mockitousage.stubbing.BasicStubbingTest	14	0	0	11	1	14			87	6
+1	1	106	156	622	1003.538654467312	440	5	0	152	27	46	org.mockitousage.stubbing.SmartNullsStubbingTest	11	0	0	11	1	11			57	5
+1	1	39	41	165	209.3437644299238	518	2	0	75	5	24	org.mockitousage.stubbing.CallingRealMethodTest	5	0	0	5	1	5			29	2
+1	1	14	26	61	106.8827204685061	1621	0	0	40	2	9	org.mockitousage.stubbing.StubbingWithBadThrowablesTest	2	0	0	8	1	2			11	0
+-1	0	10	15	36	53.75278407684165	1651	-1	1	33	2	4	org.mockitousage.stubbing.MisusingStubbingTest	2	0	0	5	0	2			6	0
+-1	0	69	108	504	672.0382369517079	855	-1	10	130	12	19	org.mockitousage.stubbing.CloningParameterTest	5	0	0	7	0	5			24	0
+1	1	17	31	72	132.5766496894977	1631	0	0	48	3	8	org.mockitousage.serialization.StrictStubsSerializableTest	0	0	0	8	1	1			9	0
+0	1	47	67	254	371.00139589024195	1102	0	15	102	17	17	org.mockitousage.serialization.AcrossClassLoaderSerializationTest	0	0	0	12	1	6			23	0
+-1	0	63	72	347	421.1513841561739	1124	-1	3	130	6	36	org.mockitousage.serialization.DeepStubsSerializableTest	0	0	0	10	0	3			39	0
+-1	0	68	79	306	452.1632230542381	1103	-1	6	110	17	29	org.mockitousage.serialization.ParallelSerializationTest	0	0	0	10	0	4			33	0
+-1	0	2	3	3	3.295836866004329	392	-1	0	7	0	0	org.mockitousage.packageprotected.PackageProtected	0	0	0	0	0	0			0	-1
+-1	0	11	20	35	71.10696122978827	391	0	0	25	1	1	org.mockitousage.packageprotected.MockingPackageProtectedTest	1	0	0	3	0	1			2	0
+0	1	266	183	1296	1311.5679314749361	454	-1	0	398	90	174	org.mockitousage.customization.BDDMockitoTest	37	0	0	16	1	37			211	12
+1	1	36	45	140	222.37390901741867	493	2	0	79	17	38	org.mockitousage.matchers.NewMatchersTest	6	0	0	10	1	6			44	2
+0	1	70	77	368	454.9223862390077	172	-1	0	125	15	50	org.mockitousage.matchers.InvalidUseOfMatchersTest	0	0	0	16	1	7			57	2
+0	1	107	128	567	811.5659908771522	312	2	0	164	17	39	org.mockitousage.matchers.CustomMatchersTest	8	1	0	12	1	9			48	2
+0	1	21	37	111	174.25261744855635	515	0	3	44	7	7	org.mockitousage.matchers.CustomMatcherDoesYieldCCETest	2	1	0	9	1	3			10	0
+1	1	418	379	1775	2835.509611023707	169	18	0	624	57	220	org.mockitousage.matchers.MatchersTest	37	0	0	53	1	37			257	18
+0	3	159	148	737	977.1830080440218	455	-1	50	326	67	144	org.mockitousage.matchers.CapturingArgumentsTest	20	0	0	12	3	20			164	3
+1	1	53	65	251	359.15444104356595	233	1	0	82	7	22	org.mockitousage.matchers.VerificationAndStubbingUsingMatchersTest	3	0	0	8	3	3			25	1
+1	1	12	29	56	116.73519903131934	379	0	0	37	1	6	org.mockitousage.matchers.GenericMatchersTest	1	0	0	8	1	1			7	0
+1	1	8	31	43	116.59720358650043	361	0	0	45	2	4	org.mockitousage.matchers.MatchersMixedWithRawArgumentsTest	1	0	0	8	1	1			5	0
+1	1	61	71	322	409.993159733653	326	4	0	106	26	26	org.mockitousage.matchers.ReflectionMatchersTest	9	0	0	7	1	9			35	4
+1	1	63	64	264	356.8607426013642	481	5	0	130	16	58	org.mockitousage.matchers.MoreMatchersTest	11	0	0	13	1	11			69	5
+0	1	77	90	387	536.2582223726804	328	2	0	124	14	38	org.mockitousage.matchers.HamcrestMatchersTest	7	1	0	15	1	8			46	2
+0	5	179	204	804	1364.6782509125092	1395	15	0	340	71	130	org.mockitousage.matchers.VarargsTest	0	0	0	23	5	35			165	15
+1	1	45	52	174	268.2708755591555	374	2	0	77	10	45	org.mockitousage.matchers.AnyXMatchersAcceptNullsTest	5	0	0	8	1	5			50	2
+0	2	68	71	392	423.9595906251228	1495	1	0	150	6	15	org.mockitousage.junitrunner.StubbingWarningsJUnitRunnerTest	4	0	0	14	2	4			19	1
+1	2	20	30	75	129.5246434060893	1459	0	0	44	1	1	org.mockitousage.junitrunner.DeepStubbingWithJUnitRunnerTest	0	0	0	5	2	1			2	0
+1	1	99	80	498	496.8480061619722	1330	2	0	204	9	15	org.mockitousage.junitrunner.StrictRunnerTest	5	0	0	17	1	5			20	2
+1	1	69	81	332	470.21593248223553	1324	2	0	140	5	15	org.mockitousage.junitrunner.SilentRunnerTest	5	0	0	17	1	5			20	2
+1	1	37	38	182	197.7522541089182	1505	0	0	84	2	8	org.mockitousage.junitrunner.StrictStubsRunnerTest	2	0	0	13	1	2			10	0
+-1	0	13	25	80	109.55066586684703	865	-1	3	24	6	4	org.mockitousage.junitrunner.Filters	0	0	0	2	0	3			7	0
+0	2	23	36	97	164.68959522612178	410	0	1	53	5	10	org.mockitousage.junitrunner.JUnit45RunnerTest	0	0	0	9	2	3			13	0
+0	1	41	58	212	310.6820039309767	881	-1	3	90	5	15	org.mockitousage.junitrunner.VerboseMockitoRunnerTest	3	0	0	14	1	3			18	0
+0	1	19	34	81	149.41127125886294	511	0	1	58	7	11	org.mockitousage.junitrunner.ModellingVerboseMockitoTest	3	0	0	12	1	3			14	0
+-1	0	20	75	151	376.2959877611193	1328	0	0	61	2	7	org.mockitousage.junitrunner.UnusedStubsExceptionMessageTest	1	0	0	11	0	1			8	0
+0	1	109	74	543	465.9860896751112	193	-1	0	170	31	63	org.mockitousage.stacktrace.StackTraceFilteringTest	11	1	0	20	1	12			75	3
+0	2	87	59	400	353.49640827937094	320	3	0	128	24	51	org.mockitousage.stacktrace.PointingStackTraceToActualInvocationInOrderTest	11	0	0	12	3	11			62	3
+0	1	19	34	91	153.3692232215729	491	0	1	42	6	9	org.mockitousage.stacktrace.ClickableStackTracesTest	3	0	0	9	1	3			12	0
+0	1	111	85	433	516.0127068802116	492	-1	0	206	43	78	org.mockitousage.stacktrace.ModellingDescriptiveMessagesTest	26	0	0	13	1	26			104	9
+0	2	71	54	316	310.8100795336933	319	2	0	108	18	39	org.mockitousage.stacktrace.PointingStackTraceToActualInvocationChunkInOrderTest	9	0	0	12	3	9			48	2
+0	1	40	42	172	216.194768026165	299	0	7	71	12	21	org.mockitousage.stacktrace.PointingStackTraceToActualInvocationTest	7	0	0	12	2	7			28	0
+0	1	45	48	211	256.8891904068512	495	0	1	80	15	21	org.mockitousage.stacktrace.ClickableStackTracesWhenFrameworkMisusedTest	6	1	0	11	1	7			28	0
+1	1	146	100	723	658.3409222158765	1520	4	0	309	9	28	org.mockitousage.session.MockitoSessionTest	9	0	0	22	1	9			37	4
+-1	0	20	33	80	144.60687894423808	1140	0	0	37	1	4	org.mockitousage.bugs.deepstubs.DeepStubsWronglyReportsSerializationProblemsTest	0	0	0	4	0	1			5	0
+-1	0	15	27	52	106.68358040169855	1239	0	0	30	2	5	org.mockitousage.bugs.deepstubs.DeepStubFailingWhenGenericNestedAsRawTypeTest	0	0	0	2	0	1			6	0
+-1	0	14	32	75	138.15961963316192	990	0	0	40	3	11	org.mockitousage.bugs.IOOBExceptionShouldNotBeThrownWhenNotCodingFluentlyTest	0	0	0	9	0	1			12	0
+1	1	9	19	34	67.00084996770707	930	0	0	34	3	7	org.mockitousage.bugs.ShouldOnlyModeAllowCapturingArgumentsTest	1	0	0	8	1	1			8	0
+-1	0	23	32	106	149.23005101158614	1079	-1	10	44	10	16	org.mockitousage.bugs.EqualsWithDeltaTest	0	0	0	4	0	5			21	-1
+0	3	43	72	240	394.6060024806234	1011	0	0	82	8	10	org.mockitousage.bugs.ConcurrentModificationExceptionOnMultiThreadedVerificationTest	0	0	0	8	5	3			13	0
+1	2	16	30	72	128.29998357048166	503	0	0	34	2	4	org.mockitousage.bugs.NPEWhenMockingThrowablesTest	1	0	0	6	2	1			5	0
+-1	0	10	17	38	61.83896471534855	859	-1	1	27	2	8	org.mockitousage.bugs.StubbingMocksThatAreConfiguredToReturnMocksTest	2	0	0	4	0	2			10	0
+-1	0	17	29	78	126.34455597399815	783	0	0	37	4	7	org.mockitousage.bugs.ActualInvocationHasNullArgumentNPEBugTest	1	0	0	4	0	1			8	0
+0	3	17	32	72	136.85331580851377	922	0	0	45	4	10	org.mockitousage.bugs.CaptorAnnotationAutoboxingTest	2	0	0	8	3	2			12	0
+-1	0	29	47	188	246.11277225300762	786	0	0	59	3	10	org.mockitousage.bugs.MockitoRunnerBreaksWhenNoTestMethodsTest	1	0	0	13	0	1			11	0
+0	2	37	46	155	231.99755537828534	960	0	1	67	4	11	org.mockitousage.bugs.BridgeMethodsHitAgainTest	3	0	0	8	2	3			14	0
+-1	0	15	29	75	125.207155292553	803	0	0	34	3	8	org.mockitousage.bugs.AIOOBExceptionWithAtLeastTest	1	0	0	3	0	1			9	0
+0	2	67	64	359	376.53263286324983	1562	4	0	118	27	27	org.mockitousage.bugs.MockitoStubbedCallInAnswerTest	9	0	0	7	2	9			36	4
+-1	0	15	22	60	90.07558036888621	805	0	0	31	2	6	org.mockitousage.bugs.AtLeastMarksAllInvocationsVerified	1	0	0	3	0	1			7	0
+-1	0	29	30	113	141.82163456137022	785	-1	6	55	9	18	org.mockitousage.bugs.CovariantOverrideTest	4	0	0	4	0	4			22	0
+0	1	30	33	115	156.58276023598725	782	2	0	67	13	20	org.mockitousage.bugs.NPEWithCertainMatchersTest	7	0	0	8	1	7			27	2
+-1	0	12	22	36	78.83741664603441	1534	0	0	24	2	4	org.mockitousage.bugs.EnabledMockingInterfaceCloneMethodTest	0	0	0	2	0	1			5	0
+1	1	38	84	217	451.9113776973986	1508	0	0	65	5	8	org.mockitousage.bugs.FillInStackTraceScenariosTest	2	0	0	6	1	2			10	0
+1	1	15	26	66	108.93102329268706	916	0	0	38	3	7	org.mockitousage.bugs.VerifyingWithAnExtraCallToADifferentMockTest	1	0	0	7	2	1			8	0
+-1	0	16	24	63	99.43523343339677	909	0	0	38	2	5	org.mockitousage.bugs.MultipleInOrdersTest	0	0	0	6	0	1			6	0
+-1	0	17	34	95	154.83181431441838	1509	0	0	34	1	4	org.mockitousage.bugs.ImplementationOfGenericAbstractMethodNotInvokedOnSpyTest	0	0	0	3	0	1			5	0
+-1	0	29	34	122	163.33671552093074	940	-1	6	72	5	20	org.mockitousage.bugs.ShouldMocksCompareToBeConsistentWithEqualsTest	4	0	0	7	0	4			24	0
+-1	0	10	20	40	73.77758908227872	936	0	0	25	2	4	org.mockitousage.bugs.NPEOnAnyClassMatcherAutounboxTest	1	0	0	3	0	1			5	0
+-1	0	24	34	111	160.12402684461935	1336	0	0	49	1	5	org.mockitousage.bugs.DiamondInheritanceIsConfusingMockitoTest	0	0	0	3	0	1			6	0
+-1	0	13	19	49	73.94458566410191	1481	0	0	32	3	9	org.mockitousage.bugs.ArgumentCaptorDontCapturePreviouslyVerifiedTest	0	0	0	7	0	1			10	0
+0	3	15	26	65	108.53406901728655	1018	0	0	32	2	1	org.mockitousage.bugs.FinalHashCodeAndEqualsRaiseNPEInInitMocksTest	0	0	0	5	3	1			2	0
+0	1	17	43	75	185.65198888206135	1558	0	1	42	5	4	org.mockitousage.bugs.GenericsMockitoAnnotationsTest	0	0	0	8	1	2			6	0
+-1	0	56	79	298	450.07038543392696	928	-1	1	113	6	18	org.mockitousage.bugs.ShouldNotDeadlockAnswerExecutionTest	0	0	0	9	0	2			20	0
+1	1	13	25	61	102.77184660433278	935	0	0	35	3	6	org.mockitousage.bugs.SpyShouldHaveNiceNameTest	1	0	0	8	1	1			7	0
+-1	0	9	18	36	64.50334089220998	992	0	0	28	3	8	org.mockitousage.bugs.ListenersLostOnResetMockTest	0	0	0	5	0	1			9	0
+-1	0	24	32	129	155.5139969395735	1255	-1	6	48	13	5	org.mockitousage.bugs.ClassCastExOnVerifyZeroInteractionsTest	0	0	0	7	0	4			9	0
+0	3	74	82	403	491.912798079628	1319	3	0	132	25	47	org.mockitousage.bugs.CompareMatcherTest	0	0	0	14	3	8			55	3
+0	2	34	58	170	297.8763093489152	931	-1	0	80	9	15	org.mockitousage.bugs.InheritedGenericsPolimorphicCallTest	4	0	0	12	2	4			19	0
+0	2	60	113	421	682.8175102061091	933	-1	4	99	16	19	org.mockitousage.bugs.MultithreadedStubbingHalfManualTest	0	0	0	12	2	4			23	0
+-1	0	24	34	111	160.12402684461935	1337	0	0	50	2	6	org.mockitousage.bugs.ConfusedSignatureTest	0	0	0	4	0	1			7	0
+1	2	26	28	111	131.86684563674535	996	0	0	51	2	2	org.mockitousage.bugs.injection.ChildWithSameParentFieldInjectionTest	0	0	0	6	2	2			4	0
+1	3	14	27	54	107.70256925723541	1074	0	0	41	1	4	org.mockitousage.bugs.injection.Issue353InjectionMightNotHappenInCertainConfigurationTest	0	0	0	9	3	1			5	0
+0	5	38	49	158	248.06715661832138	956	0	0	73	5	7	org.mockitousage.bugs.injection.InjectionByTypeShouldFirstLookForExactTypeThenAncestorTest	0	0	0	7	5	4			11	0
+0	2	22	46	101	212.29554377469793	949	0	0	47	2	2	org.mockitousage.bugs.injection.InjectMocksShouldTryPropertySettersFirstBeforeFieldAccessTest	0	0	0	8	3	2			4	0
+0	3	14	33	65	137.75477990655602	989	0	1	39	3	1	org.mockitousage.bugs.injection.ShouldNotTryToInjectInFinalOrStaticFieldsTest	0	0	0	8	3	2			3	0
+-1	0	39	50	189	262.0873507529821	952	0	0	69	1	2	org.mockitousage.bugs.injection.ParentTestMockInjectionTest	0	0	0	7	0	1			3	0
+1	1	22	32	91	144.3475042085392	776	1	0	52	6	14	org.mockitousage.bugs.varargs.VarargsAndAnyObjectPicksUpExtraInvocationsTest	3	0	0	6	1	3			17	1
+1	1	22	31	85	137.72218895119983	504	1	0	54	5	15	org.mockitousage.bugs.varargs.VarargsNotPlayingWithAnyObjectTest	3	0	0	11	1	3			18	1
+-1	0	12	28	64	116.4487263340708	822	0	0	29	2	6	org.mockitousage.bugs.varargs.VarargsErrorWhenCallingRealMethodTest	1	0	0	4	0	1			7	0
+1	1	9	19	37	68.60744034024026	1262	0	0	25	4	1	org.mockitousage.bugs.creation.PublicMethodInParentWithNonPublicTypeInSignatureTest	0	0	0	3	1	2			3	0
+1	1	7	18	27	59.325063588077924	939	0	0	28	1	5	org.mockitousage.bugs.creation.ShouldAllowInlineMockCreationTest	1	0	0	8	1	1			6	0
+-1	0	45	38	264	211.88606591956	1265	-1	0	76	0	0	org.mockitousage.bugs.creation.ConstructorInvokingMethodShouldNotRaiseExceptionTest	0	0	0	6	0	0			0	-1
+-1	0	6	11	18	31.79408933685781	1264	0	0	11	1	0	org.mockitousage.bugs.creation.otherpackage.PublicParentClass	0	0	1	0	0	1			1	0
+-1	0	2	6	6	10.75055681536833	1263	-1	0	9	0	0	org.mockitousage.bugs.creation.api.PublicClass	0	0	0	1	0	0			0	-1
+-1	0	5	15	16	41.58883083359672	997	-1	0	10	0	0	org.mockitousage.configuration.ClassToBeMocked	0	0	0	0	0	0			0	-1
+0	1	43	58	238	317.3916990729455	993	0	19	81	20	9	org.mockitousage.configuration.ClassCacheVersusClassReloadingTest	0	0	0	5	1	7			16	0
+1	1	25	69	207	367.95759673531046	777	0	0	65	3	3	org.mockitousage.configuration.CustomizedAnnotationForSmartMockTest	1	0	0	15	1	1			4	0
+-1	0	113	115	605	736.6012726735468	1479	-1	36	190	25	63	org.mockitousage.debugging.VerificationListenerCallBackTest	8	1	0	17	0	9			72	0
+-1	0	4	10	15	27.0805020110221	848	0	1	11	2	0	org.mockitousage.debugging.Foo	0	0	0	0	0	2			2	0
+-1	0	5	14	19	41.22214570833016	901	0	0	17	2	0	org.mockitousage.debugging.NewMockito	0	1	0	3	0	1			1	0
+-1	0	83	120	456	734.6991371417264	965	-1	21	150	21	53	org.mockitousage.debugging.InvocationListenerCallbackTest	0	0	0	17	0	7			60	0
+0	2	99	104	526	651.5913261247218	1632	-1	0	206	28	119	org.mockitousage.debugging.StubbingLookupListenerCallbackTest	10	2	0	16	3	12			131	3
+1	1	33	68	235	371.2518149618028	1399	2	0	98	8	32	org.mockitousage.debugging.InvocationsPrinterTest	7	0	0	7	1	7			39	2
+0	3	80	148	414	891.8281641261465	966	-1	41	180	14	69	org.mockitousage.debugging.VerboseLoggingOfInvocationsOnMockTest	0	0	0	13	3	10			79	0
+-1	0	16	40	98	183.39869914682288	489	0	0	39	3	8	org.mockitousage.performance.LoadsOfMocksTest	1	0	0	8	0	1			9	0
+-1	0	16	35	91	157.88008272808975	1107	-1	1	34	5	11	org.mockitousage.performance.StubOnlyAvoidMemoryConsumptionTest	0	0	0	3	0	2			13	0
+1	1	120	123	598	786.4116627359276	167	4	0	183	21	45	org.mockitousage.basicapi.UsingVarargsTest	10	0	0	10	1	10			55	4
+-1	0	64	69	325	399.08393758075186	552	-1	21	124	14	52	org.mockitousage.basicapi.MockingMultipleInterfacesTest	0	0	0	9	0	7			59	0
+0	1	209	185	1017	1281.0532932689837	807	-1	253	418	56	185	org.mockitousage.basicapi.MocksSerializationTest	23	0	0	22	1	23			208	0
+0	1	82	78	364	459.9780016756658	490	-1	0	133	28	55	org.mockitousage.basicapi.ResetTest	13	0	0	10	2	13			68	4
+-1	0	12	20	51	78.63651265448651	961	-1	1	33	6	12	org.mockitousage.basicapi.MockAccessTest	0	0	0	5	0	2			14	0
+-1	0	17	31	76	134.25273354887625	828	0	0	49	2	2	org.mockitousage.basicapi.ObjectsSerializationTest	1	0	0	5	0	1			3	0
+0	1	24	32	91	144.3475042085392	1288	-1	4	54	7	12	org.mockitousage.basicapi.ResetInvocationsTest	4	0	0	7	2	4			16	0
+-1	0	41	61	214	327.32453691633293	148	-1	3	73	6	18	org.mockitousage.basicapi.ReplacingObjectMethodsTest	3	0	0	5	0	3			21	0
+-1	0	54	58	242	318.3583881170878	388	-1	28	131	11	44	org.mockitousage.basicapi.MocksCreationTest	8	0	0	20	0	8			52	0
+0	5	178	162	844	1091.580704124545	1097	-1	58	368	49	111	org.mockitousage.basicapi.MocksSerializationForAnnotationTest	20	0	0	19	8	20			131	3
+-1	0	42	62	239	339.5407402197537	836	-1	10	116	16	53	org.mockitousage.spies.SpyingOnInterfacesTest	5	0	0	18	0	5			58	0
+-1	0	22	37	117	176.20043558751698	429	0	0	43	2	8	org.mockitousage.spies.StubbingSpiesDoesNotYieldNPETest	1	0	0	6	0	1			9	0
+0	1	79	83	376	492.15589890136124	540	3	0	150	16	29	org.mockitousage.spies.PartialMockingWithSpiesTest	9	0	0	11	1	9			38	3
+0	1	122	113	565	716.0613076195478	390	-1	0	195	30	67	org.mockitousage.spies.SpyingOnRealObjectsTest	15	0	0	15	2	15			82	-1
+-1	0	5	12	18	34.68446109475397	1133	0	0	13	1	0	org.mockito.exceptions.misusing.CannotStubVoidMethodWithReturnValue	1	0	0	1	0	1			1	0
+-1	0	9	67	87	299.2158439498571	1507	0	0	25	1	0	org.mockito.exceptions.misusing.RedundantListenerException	1	0	0	2	0	1			1	0
+0	1	6	17	24	54.02691511591508	369	0	0	16	1	0	org.mockito.exceptions.misusing.NullInsteadOfMockException	1	0	0	1	1	1			1	0
+0	1	6	17	24	54.02691511591508	81	0	0	16	1	0	org.mockito.exceptions.misusing.UnfinishedStubbingException	1	0	0	1	1	1			1	0
+-1	0	8	167	283	942.7896319064207	1301	0	0	53	1	0	org.mockito.exceptions.misusing.UnnecessaryStubbingException	1	0	0	3	0	1			1	0
+0	1	6	17	24	54.02691511591508	78	0	0	16	1	0	org.mockito.exceptions.misusing.NotAMockException	1	0	0	1	1	1			1	0
+-1	0	5	12	18	34.68446109475397	1094	0	0	14	2	0	org.mockito.exceptions.misusing.CannotVerifyStubOnlyMock	1	0	0	1	0	1			1	0
+0	1	6	17	24	54.02691511591508	413	0	0	16	1	0	org.mockito.exceptions.misusing.WrongTypeOfReturnValue	1	0	0	1	1	1			1	0
+-1	0	9	262	473	1613.6829917848863	1470	0	0	70	1	0	org.mockito.exceptions.misusing.PotentialStubbingProblem	1	0	0	3	0	1			1	0
+-1	0	8	28	34	98.73809468925252	1614	0	0	16	1	0	org.mockito.exceptions.misusing.InjectMocksException	1	0	0	1	0	1			1	0
+0	1	6	17	24	54.02691511591508	957	0	0	16	1	0	org.mockito.exceptions.misusing.FriendlyReminderException	1	0	0	1	1	1			1	0
+-1	0	9	50	74	215.2032546602085	1515	0	0	25	1	0	org.mockito.exceptions.misusing.UnfinishedMockingSessionException	1	0	0	3	0	1			1	0
+0	1	9	22	39	80.59835621485222	475	0	1	20	2	0	org.mockito.exceptions.misusing.MockitoConfigurationException	2	0	0	1	1	2			2	0
+0	1	6	17	24	54.02691511591508	79	0	0	16	1	0	org.mockito.exceptions.misusing.MissingMethodInvocationException	1	0	0	1	1	1			1	0
+0	1	6	17	24	54.02691511591508	183	0	0	16	2	0	org.mockito.exceptions.misusing.UnfinishedVerificationException	1	0	0	1	1	1			1	0
+0	1	9	20	33	69.93015122932961	168	0	1	20	2	0	org.mockito.exceptions.misusing.InvalidUseOfMatchersException	2	0	0	1	1	2			2	0
+-1	0	9	26	33	90.90919659812849	1592	0	0	19	1	0	org.mockito.exceptions.verification.MoreThanAllowedActualInvocations	1	0	0	1	0	1			1	0
+0	1	10	32	40	118.04414253164596	250	0	0	21	1	0	org.mockito.exceptions.verification.TooLittleActualInvocations	1	0	1	1	1	1			1	0
+0	1	6	17	24	54.02691511591508	303	0	0	16	2	0	org.mockito.exceptions.verification.VerificationInOrderFailure	1	0	0	1	1	1			1	0
+0	1	6	17	24	54.02691511591508	435	0	0	16	1	0	org.mockito.exceptions.verification.SmartNullPointerException	1	0	0	1	1	1			1	0
+0	1	9	32	38	116.40275711124434	282	0	0	19	1	0	org.mockito.exceptions.verification.NoInteractionsWanted	1	0	0	1	1	1			1	0
+0	1	18	53	88	237.29885116734496	248	0	3	36	7	1	org.mockito.exceptions.verification.ArgumentsAreDifferent	3	0	0	2	1	3			4	0
+0	1	9	23	29	77.4478040896889	1647	0	0	17	1	0	org.mockito.exceptions.verification.TooFewActualInvocations	1	0	0	0	1	1			1	0
+0	1	6	17	24	54.02691511591508	188	0	0	16	1	0	org.mockito.exceptions.verification.TooManyActualInvocations	1	0	0	1	1	1			1	0
+0	1	6	17	24	54.02691511591508	330	0	0	16	1	0	org.mockito.exceptions.verification.NeverWantedButInvoked	1	0	0	1	1	1			1	0
+0	1	9	22	36	78.83741664603441	300	0	1	23	3	1	org.mockito.exceptions.verification.WantedButNotInvoked	2	0	0	2	1	2			3	0
+0	3	21	35	93	158.64098226036396	1639	0	2	40	8	3	org.mockito.exceptions.verification.opentest4j.ArgumentsAreDifferent	0	0	0	3	3	4			7	0
+0	3	21	35	93	158.64098226036396	404	0	2	40	8	3	org.mockito.exceptions.verification.junit.ArgumentsAreDifferent	0	0	0	3	3	4			7	0
+0	3	19	28	80	122.69674577086867	906	0	0	36	8	0	org.mockito.internal.verification.api.VerificationDataInOrderImpl	0	0	0	3	3	4			4	0
+-1	0	5	11	13	28.214442932076903	905	0	3	19	3	0	org.mockito.internal.verification.api.VerificationDataInOrder	0	0	0	3	0	3			3	0
+-1	0	18	106	160	537.9684244147857	1404	0	3	51	8	0	org.mockito.internal.verification.api.VerificationData	0	0	0	4	0	3			3	0
+-1	0	4	12	16	33.27106466687737	904	0	1	14	4	0	org.mockito.internal.verification.api.InOrderContext	0	0	0	1	0	2	decorated	Decorator	2	0
+-1	0	3	9	10	20.723265836946414	427	0	0	10	2	0	org.mockito.internal.verification.api.VerificationInOrderMode	0	0	0	0	0	1	state	State	1	0
+-1	0	33	69	186	360.57652048621094	220	-1	3	58	8	4	org.mockito.internal.invocation.finder.AllInvocationsFinder	0	0	0	6	0	3			7	0
+-1	0	16	37	69	156.6619406700986	981	0	1	30	5	2	org.mockito.internal.invocation.finder.VerifiableInvocationsFinder	0	0	0	4	0	2			4	0
+0	3	240	307	1620	2268.785698465514	1386	4	0	368	36	19	org.mockito.internal.util.concurrent.WeakConcurrentMap	0	0	0	9	3	12	adaptee	(Object)Adapter	31	4
+0	2	92	188	356	1104.4869774001818	1387	4	0	134	24	9	org.mockito.internal.util.concurrent.WeakConcurrentSet	0	0	0	2	2	10			19	4
+0	2	109	166	410	998.6820885099268	1385	4	0	142	34	19	org.mockito.internal.util.concurrent.DetachedThreadLocal	0	0	0	0	2	15	adaptee	(Object)Adapter	34	4
+0	1	42	89	242	488.5154576279451	998	0	4	70	11	9	org.mockito.internal.configuration.injection.scanner.InjectMocksScanner	0	0	0	8	1	4			13	0
+0	2	54	111	310	636.7595250201904	999	0	3	85	14	14	org.mockito.internal.configuration.injection.scanner.MockScanner	0	0	0	7	2	6			20	0
+-1	0	3	15	19	44.1665846874966	943	0	0	17	1	0	org.mockito.internal.configuration.injection.filter.MockCandidateFilter	0	0	0	3	0	1	state	State	1	0
+-1	0	13	69	118	329.1772390881309	941	0	0	50	3	4	org.mockito.internal.configuration.injection.filter.TerminalMockCandidateFilter	0	0	0	7	0	1			5	0
+0	1	33	67	225	362.8787269476961	944	0	4	78	16	18	org.mockito.internal.configuration.injection.filter.NameBasedCandidateFilter	0	0	0	5	1	5	decorator	Decorator	23	0
+1	1	15	38	95	173.04732188082056	945	0	0	35	5	5	org.mockito.internal.configuration.injection.filter.TypeBasedCandidateFilter	0	0	0	4	1	2	decorator	Decorator	7	0
+0	0	19	51	85	226.57521408100615	946	0	1	32	4	0	org.mockito.internal.configuration.injection.filter.OngoingInjector	0	0	0	0	1	2	singleton	Singleton	2	0
+0	1	42	123	364	725.3499257193191	1379	-1	58	90	26	8	org.mockito.internal.creation.bytebuddy.inject.MockMethodDispatcher	0	0	1	4	1	13	abstractClass	Template Method	21	-1
+0	13	106	109	434	661.9618542169442	1068	1	199	175	46	3	org.mockito.internal.creation.settings.CreationSettings	0	0	0	14	17	23			26	1
+-1	0	3	10	13	25.649493574615366	824	0	0	10	1	0	org.mockito.internal.creation.util.MockitoMethodProxy	0	0	0	0	0	1			1	0
+-1	0	8	52	69	220.1735382390575	1590	-1	0	16	2	0	org.mockito.codegen.InjectionBase	0	0	0	0	0	1			1	-1
+-1	0	91	222	828	1491.6209202735276	1274	-1	45	182	28	15	org.mockito.hamcrest.MockitoHamcrest	0	0	0	6	0	10			25	0
+-1	0	6	56	75	241.77933435803337	1540	-1	0	21	0	0	org.mockito.invocation.InvocationContainer	0	0	0	2	0	0			0	-1
+-1	0	35	158	385	940.61244681747	1549	0	1	87	7	0	org.mockito.invocation.InvocationFactory	0	0	0	6	0	2			2	0
+-1	0	56	192	407	1153.6921316049782	1050	0	55	103	30	0	org.mockito.invocation.Invocation	0	0	0	3	0	11	state	State	11	0
+-1	0	9	26	33	90.90919659812849	1054	0	0	16	2	0	org.mockito.invocation.StubInfo	0	0	0	0	0	1			1	0
+-1	0	24	171	314	983.1462005903113	1059	0	3	65	10	0	org.mockito.invocation.MockHandler	0	0	0	4	0	3	state	State	3	0
+-1	0	15	40	67	168.18770477563862	1058	0	1	25	4	0	org.mockito.invocation.DescribedInvocation	0	0	0	0	0	2	state	State	2	0
+-1	0	37	127	248	700.2054507629528	1403	0	15	74	8	0	org.mockito.invocation.MatchableInvocation	0	0	0	2	0	6	state	State	6	0
+-1	0	16	35	59	142.71381053670018	1053	0	1	29	4	0	org.mockito.invocation.Location	0	0	0	1	0	2	state	State	2	0
+-1	0	40	162	344	946.1839484944906	349	0	15	89	16	0	org.mockito.invocation.InvocationOnMock	0	0	0	3	0	6	state	State	6	0
+-1	0	6	260	426	1574.1542300300364	1349	-1	0	78	0	0	org.mockito.quality.MockitoHint	0	0	0	2	0	0			0	-1
+-1	0	11	57	89	255.85227307473195	1087	0	0	28	2	0	org.mockito.plugins.StackTraceCleanerProvider	0	0	0	1	0	1			1	0
+-1	0	10	159	240	871.4215888113766	1284	0	0	71	1	0	org.mockito.plugins.InstantiatorProvider	0	0	0	2	0	1	creator	Factory Method	1	0
+-1	0	17	139	246	765.2410834945983	1634	0	1	50	5	0	org.mockito.plugins.InlineMockMaker	0	0	0	2	0	2			2	0
+-1	0	11	128	187	669.5819029573871	1570	0	0	58	1	0	org.mockito.plugins.InstantiatorProvider2	0	0	0	2	0	1	creator	Factory Method	1	0
+-1	0	11	109	142	540.1851492785374	1628	0	0	47	2	0	org.mockito.plugins.MockitoLogger	0	0	0	1	0	1	state	State	1	0
+-1	0	103	423	1276	3025.078351231703	1005	-1	28	246	29	7	org.mockito.plugins.MockMaker	0	0	0	9	0	8	state	State	15	0
+-1	0	15	97	131	472.8941403505117	1461	0	0	35	2	0	org.mockito.plugins.AnnotationEngine	0	0	0	0	0	1			1	0
+-1	0	11	149	243	818.4661550577417	1197	0	0	56	2	0	org.mockito.plugins.PluginSwitch	0	0	0	1	0	1	state	State	1	0
+-1	0	19	123	219	662.8558227674296	1545	0	1	44	6	0	org.mockito.plugins.MockitoPlugins	0	0	0	2	0	2			2	0
+-1	0	11	66	106	307.78698021139644	1701	0	0	22	2	0	org.mockito.plugins.MockResolver	0	0	0	0	0	1			1	0
+-1	0	18	57	139	281.2650141884494	1693	-1	10	48	11	1	org.mockito.plugins.MemberAccessor	0	0	0	5	0	5	state	State	6	-1
+-1	0	16	103	157	520.7933179508757	1362	0	0	46	3	0	org.mockito.stubbing.Answer2	0	0	0	1	0	1			1	0
+-1	0	12	150	306	858.5377652928571	1483	0	0	91	4	0	org.mockito.stubbing.ValidableAnswer	0	0	0	2	0	1			1	0
+-1	0	12	89	121	426.82535855811	1366	0	0	41	2	0	org.mockito.stubbing.VoidAnswer1	0	0	0	1	0	1			1	0
+-1	0	16	112	173	577.1686585837513	1368	0	0	45	2	0	org.mockito.stubbing.VoidAnswer3	0	0	0	1	0	1			1	0
+-1	0	18	121	198	639.8803107140387	1369	0	0	47	2	0	org.mockito.stubbing.VoidAnswer4	0	0	0	1	0	1			1	0
+-1	0	20	122	209	651.7647787397069	1364	0	0	50	3	0	org.mockito.stubbing.Answer4	0	0	0	1	0	1			1	0
+-1	0	14	102	148	509.7156519239397	1367	0	0	43	2	0	org.mockito.stubbing.VoidAnswer2	0	0	0	1	0	1			1	0
+-1	0	22	141	253	780.2079179105804	1642	0	0	52	3	0	org.mockito.stubbing.VoidAnswer6	0	0	0	1	0	1			1	0
+-1	0	56	109	492	675.6341800976616	1600	0	28	127	27	0	org.mockito.stubbing.BaseStubber	0	0	0	2	0	8			8	0
+-1	0	18	111	181	577.0331704705067	1363	0	0	48	3	0	org.mockito.stubbing.Answer3	0	0	0	1	0	1			1	0
+-1	0	12	89	127	431.13265069481463	389	0	0	40	3	0	org.mockito.stubbing.Answer	0	0	0	1	0	1	decorated	Decorator	1	0
+-1	0	21	138	260	767.3740650801428	1340	0	3	65	7	0	org.mockito.stubbing.Stubbing	0	0	0	6	0	3			3	0
+-1	0	65	390	1112	2735.4270351761056	407	0	36	242	39	0	org.mockito.stubbing.OngoingStubbing	0	0	0	2	0	9			9	0
+-1	0	21	131	223	708.3395020612755	1365	0	0	51	4	0	org.mockito.stubbing.Answer5	0	0	0	1	0	1			1	0
+-1	0	24	136	258	755.20250354934	1641	0	0	55	4	0	org.mockito.stubbing.Answer6	0	0	0	1	0	1			1	0
+-1	0	20	130	225	704.0930522865746	1370	0	0	50	3	0	org.mockito.stubbing.VoidAnswer5	0	0	0	1	0	1			1	0
+-1	0	11	38	53	150.87109271498065	1601	0	0	27	2	0	org.mockito.stubbing.LenientStubber	0	0	0	3	0	1			1	0
+-1	0	14	92	132	449.2177768779461	1361	0	0	44	3	0	org.mockito.stubbing.Answer1	0	0	0	1	0	1			1	0
+-1	0	11	70	137	344.39866480796877	399	0	0	75	4	0	org.mockito.stubbing.Stubber	0	0	0	2	0	1			1	0
+-1	0	51	288	779	1917.5071812107756	1518	0	15	141	20	0	org.mockito.session.MockitoSessionBuilder	0	0	0	6	0	6	creator	Factory Method	6	0
+-1	0	11	60	72	256.5999671409633	1564	0	0	31	1	0	org.mockito.session.MockitoSessionLogger	0	0	0	3	0	1	state	State	1	0
+-1	0	13	37	55	148.27132785360143	1067	0	1	21	2	0	org.mockito.mock.MockName	0	0	0	0	0	2			2	0
+-1	0	77	194	443	1182.1525353887564	1007	0	120	133	31	0	org.mockito.mock.MockCreationSettings	0	0	0	10	0	16	state	State	16	0
+-1	0	11	62	80	271.68565134978064	963	0	0	28	4	0	org.mockito.listeners.InvocationListener	0	0	0	1	0	1			1	0
+-1	0	10	54	68	227.85341607950977	1477	0	0	24	2	0	org.mockito.listeners.VerificationListener	0	0	0	2	0	1			1	0
+-1	0	17	98	182	509.99265533352593	1553	0	1	42	7	0	org.mockito.listeners.VerificationStartedEvent	0	0	0	1	0	2			2	0
+-1	0	5	21	22	64.91189152052463	1348	-1	0	11	0	0	org.mockito.listeners.MockitoListener	0	0	0	0	0	0			0	-1
+-1	0	18	52	95	236.80159836322812	1347	0	1	30	4	0	org.mockito.listeners.MockCreationListener	0	0	0	1	0	2			2	0
+-1	0	25	72	133	352.1051372319663	987	0	10	43	13	0	org.mockito.listeners.MethodInvocationReport	0	0	0	1	0	5			5	0
+-1	0	12	100	185	522.0355825078325	1467	0	0	36	2	0	org.mockito.listeners.StubbingLookupListener	0	0	0	2	0	1			1	0
+-1	0	12	198	377	1174.584547114706	1554	0	0	69	3	0	org.mockito.listeners.VerificationStartedListener	0	0	0	1	0	1			1	0
+-1	0	26	56	107	261.67841472986674	1610	0	6	43	8	0	org.mockito.listeners.StubbingLookupEvent	0	0	0	4	0	4			4	0
+-1	0	11	34	45	129.42652465219086	1568	0	0	21	2	0	org.mockito.creation.instance.Instantiator	0	0	0	0	0	1			1	0
+-1	0	18	31	60	126.92468142888511	1567	0	1	29	2	0	org.mockito.creation.instance.InstantiationException	2	0	0	1	0	2			2	0
+0	2	32	54	166	276.04734057125336	1643	0	1	60	6	11	org.mockito.memorytest.ShouldNotStarveMemoryOnLargeStackTraceInvocationsTest	0	0	0	6	3	2			13	0
+1	1	9	27	46	103.37331770520557	1575	0	0	22	4	2	org.mockitousage.plugins.instantiator.MyInstantiatorProvider2	0	1	0	4	1	1			3	0
+-1	0	16	22	71	93.77895729490893	1576	0	0	36	2	7	org.mockitousage.plugins.instantiator.InstantiatorProviderTest	0	0	0	5	0	1			8	0
+-1	0	5	25	31	85.84968011212865	1577	0	0	17	2	0	org.mockitousage.plugins.instantiator.MyInstantiatorProvider	0	0	0	3	0	1			1	0
+-1	0	24	38	110	178.61825390011182	1702	0	0	51	2	8	org.mockitousage.plugins.resolver.MockResolverTest	0	0	0	7	0	1			9	0
+-1	0	8	20	40	73.77758908227872	1703	0	0	18	3	1	org.mockitousage.plugins.resolver.MyMockResolver	0	0	0	1	0	1			2	0
+0	3	33	46	140	227.31555144002797	1630	1	5	50	11	6	org.mockitousage.plugins.logger.MyMockitoLogger	0	0	0	4	3	6			12	1
+-1	0	17	28	60	114.64164774221881	1629	0	3	50	4	12	org.mockitousage.plugins.logger.MockitoLoggerTest	0	0	0	11	0	3			15	0
+0	1	37	40	171	205.6665422601064	1090	-1	15	68	13	14	org.mockitousage.plugins.stacktrace.PluginStackTraceFilteringTest	5	1	0	10	1	6			20	0
+1	1	17	39	101	179.98970015680914	1089	0	0	28	8	6	org.mockitousage.plugins.stacktrace.MyStackTraceCleanerProvider	0	0	0	2	1	2			8	0
+1	1	7	19	29	63.97862076974301	1198	0	0	20	2	1	org.mockitousage.plugins.switcher.MyPluginSwitch	0	0	0	3	1	1			2	0
+-1	0	19	25	83	110.47101519491495	1578	-1	1	48	3	11	org.mockitousage.plugins.switcher.PluginSwitchTest	0	0	0	10	0	2			13	0
+0	1	18	45	96	205.39566861605263	1206	0	6	34	9	2	org.mockitousage.plugins.switcher.MyMockMaker	0	4	0	3	1	4			6	0
+1	1	27	90	180	467.36611658011896	1498	2	0	61	12	10	org.mockito.android.internal.creation.AndroidByteBuddyMockMaker	0	0	0	7	1	6	decorator	Decorator	16	2
+0	1	88	106	596	677.3655107089271	1500	-1	10	105	16	25	org.mockito.android.internal.creation.AndroidTempFileLocator	0	0	0	4	1	5			30	-1
+-1	0	12	63	104	292.59662664590644	1499	0	1	41	7	1	org.mockito.android.internal.creation.AndroidLoadingStrategy	0	0	0	6	0	2			3	0
+-1	0	39	67	329	388.3358693012799	1625	0	3	56	12	11	org.mockito.moduletest.ReplicatingClassLoader	0	0	0	8	0	3			14	0
+-1	0	41	42	225	227.47621689258565	1695	-1	1	71	5	31	org.mockito.moduletest.ModuleAccessTest	0	0	0	11	0	2			33	0
+0	1	190	98	1031	679.951879433662	1624	4	0	279	28	166	org.mockito.moduletest.ModuleHandlingTest	0	0	0	21	1	11			177	4
+-1	0	79	116	526	726.7749406775744	1696	-1	55	147	26	53	org.mockito.moduletest.ModuleUtil	0	0	0	20	0	11			64	0
+0	3	57	215	558	1359.7371769119818	1586	0	13	208	19	35	org.mockito.junit.jupiter.MockitoExtension	0	0	0	23	3	7			42	0
+1	1	19	97	299	552.9430266188966	1645	1	0	105	5	8	org.mockito.errorprone.bugpatterns.MockitoInternalUsageTest	0	0	0	5	1	4			12	1
+0	2	24	91	565	576.6511415343261	1659	-1	0	177	10	11	org.mockito.errorprone.bugpatterns.MockitoAnyClassWithPrimitiveTypeTest	0	0	0	6	2	5			16	1
+0	2	24	90	541	566.4077350961833	1660	-1	0	175	10	11	org.mockito.errorprone.bugpatterns.MockitoAnyIncorrectPrimitiveTypeTest	0	0	0	6	2	5			16	1
+1	1	18	61	136	299.67194802989917	1638	1	0	69	5	8	org.mockito.errorprone.bugpatterns.MockitoNotExtensibleTest	0	0	0	5	1	4			12	1
+0	2	13	125	188	654.5552453537437	1657	-1	1	60	5	1	org.mockito.errorprone.bugpatterns.MockitoAnyClassWithPrimitiveType	0	2	0	10	2	2			3	-1
+0	3	14	140	235	764.3419719801823	1658	-1	1	67	5	1	org.mockito.errorprone.bugpatterns.MockitoAnyIncorrectPrimitiveType	0	2	0	11	3	2			3	-1
+1	1	16	117	189	613.2844007619782	1644	0	0	58	4	6	org.mockito.errorprone.bugpatterns.MockitoInternalUsage	0	0	0	14	1	1			7	0
+-1	0	74	175	517	1093.4075030389752	1656	0	6	129	17	34	org.mockito.errorprone.bugpatterns.AbstractMockitoAnyForPrimitiveType	0	0	2	19	0	4	abstractClass	Template Method	38	0
+-1	0	11	70	121	335.7053381917719	1637	0	0	44	3	4	org.mockito.errorprone.bugpatterns.MockitoNotExtensible	0	0	0	10	0	1			5	0
+-1	0	20	40	116	190.1436076442546	1584	0	0	38	3	8	org.mockitoinline.StressTest	0	0	0	5	0	1			9	0
+1	1	7	18	28	59.979681183153666	1682	0	0	28	1	4	org.mockitoinline.StaticRunnerTest	0	0	0	7	1	1			5	0
+-1	0	87	73	474	449.7681344837406	1688	-1	45	144	14	46	org.mockitoinline.ConstructionMockTest	0	0	0	8	0	10			56	0
+-1	0	15	23	67	96.70793024599222	1561	0	0	33	2	5	org.mockitoinline.SuperCallTest	0	0	0	4	0	1			6	0
+0	2	8	20	32	69.31471805599453	1681	0	0	31	1	4	org.mockitoinline.StaticRuleTest	0	0	0	8	2	1			5	0
+-1	0	8	18	36	64.50334089220998	1524	-1	1	26	4	4	org.mockitoinline.PluginTest	0	0	0	5	0	2			6	0
+1	1	10	18	32	62.383246250395075	1699	0	0	25	1	4	org.mockitoinline.InitializationTest	0	0	0	3	1	1			5	0
+1	1	18	27	79	117.97509201660958	1698	0	0	41	3	6	org.mockitoinline.SpyWithConstructorTest	0	0	0	4	1	2			8	0
+0	2	17	30	67	126.14077858172897	1689	-1	1	42	3	7	org.mockitoinline.StaticMockRuleTest	0	0	0	7	2	2			9	0
+0	2	18	32	73	137.2947021167485	1687	0	1	43	2	7	org.mockitoinline.ConstructionMockRuleTest	0	0	0	7	2	2			9	0
+-1	0	17	32	79	139.8223312789447	1533	0	0	38	1	15	org.mockitoinline.StubbingLocationTest	0	0	0	8	0	1			16	0
+-1	0	22	39	114	184.71173948738533	1618	0	1	41	6	9	org.mockitoinline.OneLinerStubStressTest	0	0	0	4	0	2			11	0
+-1	0	7	17	26	55.3876411463652	1525	0	0	22	3	1	org.mockitoinline.FinalClassMockingTest	0	0	0	2	0	1			2	0
+-1	0	130	77	689	503.21357786805174	1679	-1	105	192	29	85	org.mockitoinline.StaticMockTest	0	0	0	11	0	15			100	0
+-1	0	6	13	21	39.5787916904045	1560	0	0	21	1	2	org.mockitoinline.RecursionTest	0	0	0	4	0	1			3	0
+1	1	22	39	121	187.03583127827292	1635	0	0	38	2	4	org.mockitoinline.bugs.CyclicMockMethodArgumentMemoryLeakTest	0	0	0	3	1	1			5	0
+0	1	17	39	98	178.81373166815231	1636	0	0	34	2	4	org.mockitoinline.bugs.SelfSpyReferenceMemoryLeakTest	0	0	0	3	1	1			5	0
+-1	0	5	10	15	27.0805020110221	1661	0	0	12	2	0	org.mockito.osgitest.otherbundle.Methods	0	0	0	0	0	1			1	0
+0	8	81	124	539	779.9247307927156	1662	-1	32	129	28	31	org.mockito.osgitest.OsgiTest	0	0	0	19	9	9			40	0
+-1	0	7	13	21	39.5787916904045	1664	0	0	21	1	1	org.mockito.osgitest.testbundle.MockNonPublicClassFailsTest	0	0	0	3	0	1			2	0
+-1	0	7	13	24	41.31469979452329	1663	0	0	22	1	5	org.mockito.osgitest.testbundle.MockClassInOtherBundleTest	0	0	0	5	0	1			6	0
+-1	0	7	13	24	41.31469979452329	1665	0	0	23	1	5	org.mockito.osgitest.testbundle.SimpleMockTest	0	0	0	5	0	1			6	0

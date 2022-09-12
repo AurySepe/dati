@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<pattern name="Factory Method">
+		<instance>
+			<role name="Creator" element="org.datatransferproject.api.launcher.MonitorExtension" />
+			<role name="FactoryMethod()" element="org.datatransferproject.api.launcher.MonitorExtension::getMonitor():org.datatransferproject.api.launcher.Monitor" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.datatransferproject.spi.cloud.types.PortabilityJob$Builder" />
+			<role name="FactoryMethod()" element="org.datatransferproject.spi.cloud.types.PortabilityJob$Builder::build():org.datatransferproject.spi.cloud.types.PortabilityJob" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.datatransferproject.spi.cloud.types.JobAuthorization" />
+			<role name="FactoryMethod()" element="org.datatransferproject.spi.cloud.types.JobAuthorization::toBuilder():org.datatransferproject.spi.cloud.types.JobAuthorization$Builder" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.datatransferproject.spi.cloud.types.JobAuthorization$Builder" />
+			<role name="FactoryMethod()" element="org.datatransferproject.spi.cloud.types.JobAuthorization$Builder::build():org.datatransferproject.spi.cloud.types.JobAuthorization" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.datatransferproject.spi.cloud.types.PortabilityJob" />
+			<role name="FactoryMethod()" element="org.datatransferproject.spi.cloud.types.PortabilityJob::toBuilder():org.datatransferproject.spi.cloud.types.PortabilityJob$Builder" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.datatransferproject.spi.cloud.extension.CloudExtension" />
+			<role name="FactoryMethod()" element="org.datatransferproject.spi.cloud.extension.CloudExtension::getJobStore():org.datatransferproject.spi.cloud.storage.JobStore" />
+			<role name="FactoryMethod()" element="org.datatransferproject.spi.cloud.extension.CloudExtension::getAppCredentialStore():org.datatransferproject.spi.cloud.storage.AppCredentialStore" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.datatransferproject.types.transfer.errors.ErrorDetail$Builder" />
+			<role name="FactoryMethod()" element="org.datatransferproject.types.transfer.errors.ErrorDetail$Builder::build():org.datatransferproject.types.transfer.errors.ErrorDetail" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.datatransferproject.spi.transfer.idempotentexecutor.IdempotentImportExecutorExtension" />
+			<role name="FactoryMethod()" element="org.datatransferproject.spi.transfer.idempotentexecutor.IdempotentImportExecutorExtension::getIdempotentImportExecutor(org.datatransferproject.api.launcher.Monitor):org.datatransferproject.spi.transfer.idempotentexecutor.IdempotentImportExecutor" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.datatransferproject.spi.transfer.security.SecurityExtension" />
+			<role name="FactoryMethod()" element="org.datatransferproject.spi.transfer.security.SecurityExtension::getPublicKeySerializer():org.datatransferproject.spi.transfer.security.PublicKeySerializer" />
+			<role name="FactoryMethod()" element="org.datatransferproject.spi.transfer.security.SecurityExtension::getDecryptService():org.datatransferproject.spi.transfer.security.AuthDataDecryptService" />
+			<role name="FactoryMethod()" element="org.datatransferproject.spi.transfer.security.SecurityExtension::getTransferKeyGenerator():org.datatransferproject.spi.transfer.security.TransferKeyGenerator" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.datatransferproject.spi.transfer.security.TransferKeyGenerator" />
+			<role name="FactoryMethod()" element="org.datatransferproject.spi.transfer.security.TransferKeyGenerator::generate():org.datatransferproject.spi.transfer.security.TransferKeyGenerator$WorkerKeyPair" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.datatransferproject.spi.transfer.extension.TransferExtension" />
+			<role name="FactoryMethod()" element="org.datatransferproject.spi.transfer.extension.TransferExtension::getImporter(java.lang.String):org.datatransferproject.spi.transfer.provider.Importer" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.datatransferproject.types.common.models.calendar.RecurrenceRule$ExDate$Builder" />
+			<role name="FactoryMethod()" element="org.datatransferproject.types.common.models.calendar.RecurrenceRule$ExDate$Builder::build():org.datatransferproject.types.common.models.calendar.RecurrenceRule$ExDate" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.datatransferproject.types.common.models.calendar.RecurrenceRule$RRule$Builder" />
+			<role name="FactoryMethod()" element="org.datatransferproject.types.common.models.calendar.RecurrenceRule$RRule$Builder::build():org.datatransferproject.types.common.models.calendar.RecurrenceRule$RRule" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.datatransferproject.types.common.models.calendar.RecurrenceRule$RDate$Builder" />
+			<role name="FactoryMethod()" element="org.datatransferproject.types.common.models.calendar.RecurrenceRule$RDate$Builder::build():org.datatransferproject.types.common.models.calendar.RecurrenceRule$RDate" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.datatransferproject.spi.api.auth.extension.AuthServiceExtension" />
+			<role name="FactoryMethod()" element="org.datatransferproject.spi.api.auth.extension.AuthServiceExtension::getAuthDataGenerator(java.lang.String, org.datatransferproject.spi.api.auth.AuthServiceProviderRegistry$AuthMode):org.datatransferproject.spi.api.auth.AuthDataGenerator" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.datatransferproject.spi.api.auth.AuthDataGenerator" />
+			<role name="FactoryMethod()" element="org.datatransferproject.spi.api.auth.AuthDataGenerator::generateConfiguration(java.lang.String, java.lang.String):org.datatransferproject.spi.api.types.AuthFlowConfiguration" />
+			<role name="FactoryMethod()" element="org.datatransferproject.spi.api.auth.AuthDataGenerator::generateAuthData(java.lang.String, java.lang.String, java.lang.String, org.datatransferproject.types.transfer.auth.AuthData, java.lang.String):org.datatransferproject.types.transfer.auth.AuthData" />
+		</instance>
+	</pattern>
+	<pattern name="Prototype" />
+	<pattern name="Singleton">
+		<instance>
+			<role name="Singleton" element="org.datatransferproject.cloud.google.GoogleDtpInternalMetricRecorder" />
+			<role name="uniqueInstance" element="org.datatransferproject.cloud.google.GoogleDtpInternalMetricRecorder::INSTANCE:org.datatransferproject.cloud.google.GoogleDtpInternalMetricRecorder" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.datatransferproject.spi.transfer.types.FailureReasons" />
+			<role name="uniqueInstance" element="org.datatransferproject.spi.transfer.types.FailureReasons::DESTINATION_FULL:org.datatransferproject.spi.transfer.types.FailureReasons" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.datatransferproject.spi.transfer.provider.ImportResult" />
+			<role name="uniqueInstance" element="org.datatransferproject.spi.transfer.provider.ImportResult::OK:org.datatransferproject.spi.transfer.provider.ImportResult" />
+		</instance>
+	</pattern>
+	<pattern name="(Object)Adapter">
+		<instance>
+			<role name="Adaptee" element="org.datatransferproject.cloud.microsoft.cosmos.TableStoreConfiguration" />
+			<role name="Adapter" element="org.datatransferproject.cloud.microsoft.cosmos.AzureTableStore" />
+			<role name="adaptee" element="org.datatransferproject.cloud.microsoft.cosmos.AzureTableStore::configuration:org.datatransferproject.cloud.microsoft.cosmos.TableStoreConfiguration" />
+			<role name="Request()" element="org.datatransferproject.cloud.microsoft.cosmos.AzureTableStore::updateJob(java.util.UUID, org.datatransferproject.spi.cloud.types.PortabilityJob, org.datatransferproject.spi.cloud.storage.JobStoreWithValidator$JobUpdateValidator):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.datatransferproject.auth.OAuth2Config" />
+			<role name="Adapter" element="org.datatransferproject.auth.OAuth2ServiceExtension" />
+			<role name="adaptee" element="org.datatransferproject.auth.OAuth2ServiceExtension::oAuth2Config:org.datatransferproject.auth.OAuth2Config" />
+			<role name="Request()" element="org.datatransferproject.auth.OAuth2ServiceExtension::getServiceId():java.lang.String" />
+			<role name="Request()" element="org.datatransferproject.auth.OAuth2ServiceExtension::getImportTypes():java.util.List" />
+			<role name="Request()" element="org.datatransferproject.auth.OAuth2ServiceExtension::getExportTypes():java.util.List" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.datatransferproject.auth.OAuth1Config" />
+			<role name="Adapter" element="org.datatransferproject.auth.OAuth1DataGenerator" />
+			<role name="adaptee" element="org.datatransferproject.auth.OAuth1DataGenerator::config:org.datatransferproject.auth.OAuth1Config" />
+			<role name="Request()" element="org.datatransferproject.auth.OAuth1DataGenerator::generateConfiguration(java.lang.String, java.lang.String):org.datatransferproject.spi.api.types.AuthFlowConfiguration" />
+			<role name="Request()" element="org.datatransferproject.auth.OAuth1DataGenerator::generateAuthData(java.lang.String, java.lang.String, java.lang.String, org.datatransferproject.types.transfer.auth.AuthData, java.lang.String):org.datatransferproject.types.transfer.auth.AuthData" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="org.datatransferproject.auth.rememberthemilk.RememberTheMilkAuthDataGenerator" />
+			<role name="Adaptee" element="org.datatransferproject.auth.rememberthemilk.RememberTheMilkSignatureGenerator" />
+			<role name="adaptee" element="org.datatransferproject.auth.rememberthemilk.RememberTheMilkAuthDataGenerator::signatureGenerator:org.datatransferproject.auth.rememberthemilk.RememberTheMilkSignatureGenerator" />
+			<role name="Request()" element="org.datatransferproject.auth.rememberthemilk.RememberTheMilkAuthDataGenerator::generateConfiguration(java.lang.String, java.lang.String):org.datatransferproject.spi.api.types.AuthFlowConfiguration" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.datatransferproject.auth.OAuth2Config" />
+			<role name="Adapter" element="org.datatransferproject.auth.OAuth2DataGenerator" />
+			<role name="adaptee" element="org.datatransferproject.auth.OAuth2DataGenerator::config:org.datatransferproject.auth.OAuth2Config" />
+			<role name="Request()" element="org.datatransferproject.auth.OAuth2DataGenerator::generateConfiguration(java.lang.String, java.lang.String):org.datatransferproject.spi.api.types.AuthFlowConfiguration" />
+			<role name="Request()" element="org.datatransferproject.auth.OAuth2DataGenerator::generateAuthData(java.lang.String, java.lang.String, java.lang.String, org.datatransferproject.types.transfer.auth.AuthData, java.lang.String):org.datatransferproject.types.transfer.auth.AuthData" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.datatransferproject.auth.OAuth1Config" />
+			<role name="Adapter" element="org.datatransferproject.auth.OAuth1ServiceExtension" />
+			<role name="adaptee" element="org.datatransferproject.auth.OAuth1ServiceExtension::oAuth1Config:org.datatransferproject.auth.OAuth1Config" />
+			<role name="Request()" element="org.datatransferproject.auth.OAuth1ServiceExtension::getServiceId():java.lang.String" />
+			<role name="Request()" element="org.datatransferproject.auth.OAuth1ServiceExtension::getImportTypes():java.util.List" />
+			<role name="Request()" element="org.datatransferproject.auth.OAuth1ServiceExtension::getExportTypes():java.util.List" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.datatransferproject.api.launcher.DtpInternalMetricRecorder" />
+			<role name="Adapter" element="org.datatransferproject.launcher.metrics.ServiceAwareMetricRecorder" />
+			<role name="adaptee" element="org.datatransferproject.launcher.metrics.ServiceAwareMetricRecorder::metricRecorder:org.datatransferproject.api.launcher.DtpInternalMetricRecorder" />
+			<role name="Request()" element="org.datatransferproject.launcher.metrics.ServiceAwareMetricRecorder::recordMetric(java.lang.String, java.lang.String):void" />
+			<role name="Request()" element="org.datatransferproject.launcher.metrics.ServiceAwareMetricRecorder::recordMetric(java.lang.String, java.lang.String, boolean):void" />
+			<role name="Request()" element="org.datatransferproject.launcher.metrics.ServiceAwareMetricRecorder::recordMetric(java.lang.String, java.lang.String, java.time.Duration):void" />
+			<role name="Request()" element="org.datatransferproject.launcher.metrics.ServiceAwareMetricRecorder::recordMetric(java.lang.String, java.lang.String, int):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.datatransferproject.api.launcher.Monitor" />
+			<role name="Adapter" element="org.datatransferproject.cloud.google.GoogleCloudIdempotentImportExecutor" />
+			<role name="adaptee" element="org.datatransferproject.cloud.google.GoogleCloudIdempotentImportExecutor::monitor:org.datatransferproject.api.launcher.Monitor" />
+			<role name="Request()" element="org.datatransferproject.cloud.google.GoogleCloudIdempotentImportExecutor::executeOrThrowException(, java.lang.String, java.util.concurrent.Callable):java.io.Serializable" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.datatransferproject.api.launcher.Monitor" />
+			<role name="Adapter" element="org.datatransferproject.spi.transfer.idempotentexecutor.InMemoryIdempotentImportExecutor" />
+			<role name="adaptee" element="org.datatransferproject.spi.transfer.idempotentexecutor.InMemoryIdempotentImportExecutor::monitor:org.datatransferproject.api.launcher.Monitor" />
+			<role name="Request()" element="org.datatransferproject.spi.transfer.idempotentexecutor.InMemoryIdempotentImportExecutor::executeOrThrowException(, java.lang.String, java.util.concurrent.Callable):java.io.Serializable" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.datatransferproject.api.launcher.Monitor" />
+			<role name="Adapter" element="org.datatransferproject.security.cleartext.ClearTextKeyGenerator" />
+			<role name="adaptee" element="org.datatransferproject.security.cleartext.ClearTextKeyGenerator::monitor:org.datatransferproject.api.launcher.Monitor" />
+			<role name="Request()" element="org.datatransferproject.security.cleartext.ClearTextKeyGenerator::generate():org.datatransferproject.spi.transfer.security.TransferKeyGenerator$WorkerKeyPair" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.datatransferproject.api.launcher.Monitor" />
+			<role name="Adapter" element="org.datatransferproject.security.jwe.JWEKeyGenerator" />
+			<role name="adaptee" element="org.datatransferproject.security.jwe.JWEKeyGenerator::monitor:org.datatransferproject.api.launcher.Monitor" />
+			<role name="Request()" element="org.datatransferproject.security.jwe.JWEKeyGenerator::generate():org.datatransferproject.spi.transfer.security.TransferKeyGenerator$WorkerKeyPair" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.datatransferproject.api.launcher.Monitor" />
+			<role name="Adapter" element="org.datatransferproject.cloud.microsoft.cosmos.AzureDtpInternalMetricRecorder" />
+			<role name="adaptee" element="org.datatransferproject.cloud.microsoft.cosmos.AzureDtpInternalMetricRecorder::monitor:org.datatransferproject.api.launcher.Monitor" />
+			<role name="Request()" element="org.datatransferproject.cloud.microsoft.cosmos.AzureDtpInternalMetricRecorder::startedJob(java.lang.String, java.lang.String, java.lang.String):void" />
+			<role name="Request()" element="org.datatransferproject.cloud.microsoft.cosmos.AzureDtpInternalMetricRecorder::exportPageAttemptFinished(java.lang.String, java.lang.String, boolean, java.time.Duration):void" />
+			<role name="Request()" element="org.datatransferproject.cloud.microsoft.cosmos.AzureDtpInternalMetricRecorder::exportPageFinished(java.lang.String, java.lang.String, boolean, java.time.Duration):void" />
+			<role name="Request()" element="org.datatransferproject.cloud.microsoft.cosmos.AzureDtpInternalMetricRecorder::importPageAttemptFinished(java.lang.String, java.lang.String, boolean, java.time.Duration):void" />
+			<role name="Request()" element="org.datatransferproject.cloud.microsoft.cosmos.AzureDtpInternalMetricRecorder::importPageFinished(java.lang.String, java.lang.String, boolean, java.time.Duration):void" />
+			<role name="Request()" element="org.datatransferproject.cloud.microsoft.cosmos.AzureDtpInternalMetricRecorder::finishedJob(java.lang.String, java.lang.String, java.lang.String, boolean, java.time.Duration):void" />
+			<role name="Request()" element="org.datatransferproject.cloud.microsoft.cosmos.AzureDtpInternalMetricRecorder::recordGenericMetric(java.lang.String, java.lang.String, java.lang.String):void" />
+			<role name="Request()" element="org.datatransferproject.cloud.microsoft.cosmos.AzureDtpInternalMetricRecorder::recordGenericMetric(java.lang.String, java.lang.String, java.lang.String, boolean):void" />
+			<role name="Request()" element="org.datatransferproject.cloud.microsoft.cosmos.AzureDtpInternalMetricRecorder::recordGenericMetric(java.lang.String, java.lang.String, java.lang.String, java.time.Duration):void" />
+			<role name="Request()" element="org.datatransferproject.cloud.microsoft.cosmos.AzureDtpInternalMetricRecorder::recordGenericMetric(java.lang.String, java.lang.String, java.lang.String, int):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.datatransferproject.api.launcher.Monitor" />
+			<role name="Adapter" element="org.datatransferproject.launcher.metrics.LoggingDtpInternalMetricRecorder" />
+			<role name="adaptee" element="org.datatransferproject.launcher.metrics.LoggingDtpInternalMetricRecorder::monitor:org.datatransferproject.api.launcher.Monitor" />
+			<role name="Request()" element="org.datatransferproject.launcher.metrics.LoggingDtpInternalMetricRecorder::startedJob(java.lang.String, java.lang.String, java.lang.String):void" />
+			<role name="Request()" element="org.datatransferproject.launcher.metrics.LoggingDtpInternalMetricRecorder::exportPageAttemptFinished(java.lang.String, java.lang.String, boolean, java.time.Duration):void" />
+			<role name="Request()" element="org.datatransferproject.launcher.metrics.LoggingDtpInternalMetricRecorder::exportPageFinished(java.lang.String, java.lang.String, boolean, java.time.Duration):void" />
+			<role name="Request()" element="org.datatransferproject.launcher.metrics.LoggingDtpInternalMetricRecorder::importPageAttemptFinished(java.lang.String, java.lang.String, boolean, java.time.Duration):void" />
+			<role name="Request()" element="org.datatransferproject.launcher.metrics.LoggingDtpInternalMetricRecorder::importPageFinished(java.lang.String, java.lang.String, boolean, java.time.Duration):void" />
+			<role name="Request()" element="org.datatransferproject.launcher.metrics.LoggingDtpInternalMetricRecorder::finishedJob(java.lang.String, java.lang.String, java.lang.String, boolean, java.time.Duration):void" />
+			<role name="Request()" element="org.datatransferproject.launcher.metrics.LoggingDtpInternalMetricRecorder::recordGenericMetric(java.lang.String, java.lang.String, java.lang.String):void" />
+			<role name="Request()" element="org.datatransferproject.launcher.metrics.LoggingDtpInternalMetricRecorder::recordGenericMetric(java.lang.String, java.lang.String, java.lang.String, boolean):void" />
+			<role name="Request()" element="org.datatransferproject.launcher.metrics.LoggingDtpInternalMetricRecorder::recordGenericMetric(java.lang.String, java.lang.String, java.lang.String, java.time.Duration):void" />
+			<role name="Request()" element="org.datatransferproject.launcher.metrics.LoggingDtpInternalMetricRecorder::recordGenericMetric(java.lang.String, java.lang.String, java.lang.String, int):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.datatransferproject.config.extension.SettingsExtension" />
+			<role name="Adapter" element="org.datatransferproject.api.ApiExtensionContext" />
+			<role name="adaptee" element="org.datatransferproject.api.ApiExtensionContext::settingsExtension:org.datatransferproject.config.extension.SettingsExtension" />
+			<role name="Request()" element="org.datatransferproject.api.ApiExtensionContext::getSetting(, T):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.datatransferproject.config.extension.SettingsExtension" />
+			<role name="Adapter" element="org.datatransferproject.transfer.WorkerExtensionContext" />
+			<role name="adaptee" element="org.datatransferproject.transfer.WorkerExtensionContext::settingsExtension:org.datatransferproject.config.extension.SettingsExtension" />
+			<role name="Request()" element="org.datatransferproject.transfer.WorkerExtensionContext::getSetting(, T):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.datatransferproject.api.launcher.Monitor" />
+			<role name="Adapter" element="org.datatransferproject.auth.OAuth1DataGenerator" />
+			<role name="adaptee" element="org.datatransferproject.auth.OAuth1DataGenerator::monitor:org.datatransferproject.api.launcher.Monitor" />
+			<role name="Request()" element="org.datatransferproject.auth.OAuth1DataGenerator::generateConfiguration(java.lang.String, java.lang.String):org.datatransferproject.spi.api.types.AuthFlowConfiguration" />
+			<role name="Request()" element="org.datatransferproject.auth.OAuth1DataGenerator::generateAuthData(java.lang.String, java.lang.String, java.lang.String, org.datatransferproject.types.transfer.auth.AuthData, java.lang.String):org.datatransferproject.types.transfer.auth.AuthData" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.datatransferproject.api.launcher.Monitor" />
+			<role name="Adapter" element="org.datatransferproject.auth.rememberthemilk.RememberTheMilkAuthDataGenerator" />
+			<role name="adaptee" element="org.datatransferproject.auth.rememberthemilk.RememberTheMilkAuthDataGenerator::monitor:org.datatransferproject.api.launcher.Monitor" />
+			<role name="Request()" element="org.datatransferproject.auth.rememberthemilk.RememberTheMilkAuthDataGenerator::generateConfiguration(java.lang.String, java.lang.String):org.datatransferproject.spi.api.types.AuthFlowConfiguration" />
+			<role name="Request()" element="org.datatransferproject.auth.rememberthemilk.RememberTheMilkAuthDataGenerator::generateAuthData(java.lang.String, java.lang.String, java.lang.String, org.datatransferproject.types.transfer.auth.AuthData, java.lang.String):org.datatransferproject.types.transfer.auth.AuthData" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.datatransferproject.spi.transfer.idempotentexecutor.IdempotentImportExecutor" />
+			<role name="Adapter" element="org.datatransferproject.transfer.PortabilityInMemoryDataCopier" />
+			<role name="adaptee" element="org.datatransferproject.transfer.PortabilityInMemoryDataCopier::idempotentImportExecutor:org.datatransferproject.spi.transfer.idempotentexecutor.IdempotentImportExecutor" />
+			<role name="Request()" element="org.datatransferproject.transfer.PortabilityInMemoryDataCopier::copy(org.datatransferproject.types.transfer.auth.AuthData, org.datatransferproject.types.transfer.auth.AuthData, java.util.UUID, java.util.Optional):java.util.Collection" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.datatransferproject.api.launcher.TypeManager" />
+			<role name="Adapter" element="org.datatransferproject.security.cleartext.ClearTextSecurityExtension" />
+			<role name="adaptee" element="org.datatransferproject.security.cleartext.ClearTextSecurityExtension::typeManager:org.datatransferproject.api.launcher.TypeManager" />
+			<role name="Request()" element="org.datatransferproject.security.cleartext.ClearTextSecurityExtension::getDecryptService():org.datatransferproject.spi.transfer.security.AuthDataDecryptService" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.datatransferproject.api.launcher.TypeManager" />
+			<role name="Adapter" element="org.datatransferproject.security.jwe.JWESecurityExtension" />
+			<role name="adaptee" element="org.datatransferproject.security.jwe.JWESecurityExtension::typeManager:org.datatransferproject.api.launcher.TypeManager" />
+			<role name="Request()" element="org.datatransferproject.security.jwe.JWESecurityExtension::getDecryptService():org.datatransferproject.spi.transfer.security.AuthDataDecryptService" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.datatransferproject.api.launcher.Monitor" />
+			<role name="Adapter" element="org.datatransferproject.security.DecrypterImpl" />
+			<role name="adaptee" element="org.datatransferproject.security.DecrypterImpl::monitor:org.datatransferproject.api.launcher.Monitor" />
+			<role name="Request()" element="org.datatransferproject.security.DecrypterImpl::decrypt(java.lang.String):java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.datatransferproject.api.launcher.Monitor" />
+			<role name="Adapter" element="org.datatransferproject.security.EncrypterImpl" />
+			<role name="adaptee" element="org.datatransferproject.security.EncrypterImpl::monitor:org.datatransferproject.api.launcher.Monitor" />
+			<role name="Request()" element="org.datatransferproject.security.EncrypterImpl::encrypt(java.lang.String):java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.datatransferproject.api.launcher.Monitor" />
+			<role name="Adapter" element="org.datatransferproject.security.AesSymmetricKeyGenerator" />
+			<role name="adaptee" element="org.datatransferproject.security.AesSymmetricKeyGenerator::monitor:org.datatransferproject.api.launcher.Monitor" />
+			<role name="Request()" element="org.datatransferproject.security.AesSymmetricKeyGenerator::generate():javax.crypto.SecretKey" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.datatransferproject.api.launcher.Monitor" />
+			<role name="Adapter" element="org.datatransferproject.api.token.JWTTokenManager" />
+			<role name="adaptee" element="org.datatransferproject.api.token.JWTTokenManager::monitor:org.datatransferproject.api.launcher.Monitor" />
+			<role name="Request()" element="org.datatransferproject.api.token.JWTTokenManager::verifyToken(java.lang.String):boolean" />
+			<role name="Request()" element="org.datatransferproject.api.token.JWTTokenManager::getJobIdFromToken(java.lang.String):java.util.UUID" />
+		</instance>
+	</pattern>
+	<pattern name="Command" />
+	<pattern name="Composite" />
+	<pattern name="Decorator">
+		<instance>
+			<role name="Component" element="org.datatransferproject.api.launcher.ExtensionContext" />
+			<role name="Decorator" element="org.datatransferproject.api.launcher.DelegatingExtensionContext" />
+			<role name="component" element="org.datatransferproject.api.launcher.DelegatingExtensionContext::baseExtensionContext:org.datatransferproject.api.launcher.ExtensionContext" />
+			<role name="Operation()" element="org.datatransferproject.api.launcher.DelegatingExtensionContext::getTypeManager():org.datatransferproject.api.launcher.TypeManager" />
+			<role name="Operation()" element="org.datatransferproject.api.launcher.DelegatingExtensionContext::getMonitor():org.datatransferproject.api.launcher.Monitor" />
+			<role name="Operation()" element="org.datatransferproject.api.launcher.DelegatingExtensionContext::cloud():java.lang.String" />
+			<role name="Operation()" element="org.datatransferproject.api.launcher.DelegatingExtensionContext::environment():org.datatransferproject.api.launcher.Constants$Environment" />
+		</instance>
+	</pattern>
+	<pattern name="Observer" />
+	<pattern name="State">
+		<instance>
+			<role name="Context" element="org.datatransferproject.transfer.JobCancelWatchingService" />
+			<role name="State" element="org.datatransferproject.spi.cloud.storage.JobStore" />
+			<role name="state" element="org.datatransferproject.transfer.JobCancelWatchingService::store:org.datatransferproject.spi.cloud.storage.JobStore" />
+			<role name="Request()" element="org.datatransferproject.transfer.JobCancelWatchingService::runOneIteration():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.datatransferproject.transfer.JobPollingService" />
+			<role name="State" element="org.datatransferproject.spi.cloud.storage.JobStore" />
+			<role name="state" element="org.datatransferproject.transfer.JobPollingService::store:org.datatransferproject.spi.cloud.storage.JobStore" />
+			<role name="Request()" element="org.datatransferproject.transfer.JobPollingService::markJobTimedOut(java.util.UUID):void" />
+			<role name="Request()" element="org.datatransferproject.transfer.JobPollingService::pollForUnassignedJob():void" />
+			<role name="Request()" element="org.datatransferproject.transfer.JobPollingService::tryToClaimJob(java.util.UUID, org.datatransferproject.spi.transfer.security.TransferKeyGenerator$WorkerKeyPair):boolean" />
+			<role name="Request()" element="org.datatransferproject.transfer.JobPollingService::pollUntilJobIsReady():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.datatransferproject.transfer.JobProcessor" />
+			<role name="State" element="org.datatransferproject.spi.cloud.storage.JobStore" />
+			<role name="state" element="org.datatransferproject.transfer.JobProcessor::store:org.datatransferproject.spi.cloud.storage.JobStore" />
+			<role name="Request()" element="org.datatransferproject.transfer.JobProcessor::processJob():void" />
+			<role name="Request()" element="org.datatransferproject.transfer.JobProcessor::addErrorsAndMarkJobFinished(java.util.UUID, boolean, java.util.Collection):void" />
+			<role name="Request()" element="org.datatransferproject.transfer.JobProcessor::addFailureReasonToJob(java.util.UUID, java.lang.String):void" />
+			<role name="Request()" element="org.datatransferproject.transfer.JobProcessor::markJobStarted(java.util.UUID):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.datatransferproject.transfer.JobProcessor" />
+			<role name="State" element="org.datatransferproject.transfer.InMemoryDataCopier" />
+			<role name="state" element="org.datatransferproject.transfer.JobProcessor::copier:org.datatransferproject.transfer.InMemoryDataCopier" />
+			<role name="Request()" element="org.datatransferproject.transfer.JobProcessor::processJob():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.datatransferproject.auth.OAuth2ServiceExtension" />
+			<role name="State" element="org.datatransferproject.auth.OAuth2Config" />
+			<role name="state" element="org.datatransferproject.auth.OAuth2ServiceExtension::oAuth2Config:org.datatransferproject.auth.OAuth2Config" />
+			<role name="Request()" element="org.datatransferproject.auth.OAuth2ServiceExtension::getServiceId():java.lang.String" />
+			<role name="Request()" element="org.datatransferproject.auth.OAuth2ServiceExtension::getImportTypes():java.util.List" />
+			<role name="Request()" element="org.datatransferproject.auth.OAuth2ServiceExtension::getExportTypes():java.util.List" />
+			<role name="Request()" element="org.datatransferproject.auth.OAuth2ServiceExtension::initialize(org.datatransferproject.api.launcher.ExtensionContext):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.datatransferproject.auth.OAuth1DataGenerator" />
+			<role name="State" element="org.datatransferproject.auth.OAuth1Config" />
+			<role name="state" element="org.datatransferproject.auth.OAuth1DataGenerator::config:org.datatransferproject.auth.OAuth1Config" />
+			<role name="Request()" element="org.datatransferproject.auth.OAuth1DataGenerator::generateConfiguration(java.lang.String, java.lang.String):org.datatransferproject.spi.api.types.AuthFlowConfiguration" />
+			<role name="Request()" element="org.datatransferproject.auth.OAuth1DataGenerator::generateAuthData(java.lang.String, java.lang.String, java.lang.String, org.datatransferproject.types.transfer.auth.AuthData, java.lang.String):org.datatransferproject.types.transfer.auth.AuthData" />
+			<role name="Request()" element="org.datatransferproject.auth.OAuth1DataGenerator::validateConfig():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.datatransferproject.api.ApiServicesModule" />
+			<role name="State" element="org.datatransferproject.api.launcher.ExtensionContext" />
+			<role name="state" element="org.datatransferproject.api.ApiServicesModule::context:org.datatransferproject.api.launcher.ExtensionContext" />
+			<role name="Request()" element="org.datatransferproject.api.ApiServicesModule::getMonitor():org.datatransferproject.api.launcher.Monitor" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.datatransferproject.transfer.WorkerModule" />
+			<role name="State" element="org.datatransferproject.api.launcher.ExtensionContext" />
+			<role name="state" element="org.datatransferproject.transfer.WorkerModule::context:org.datatransferproject.api.launcher.ExtensionContext" />
+			<role name="Request()" element="org.datatransferproject.transfer.WorkerModule::configure():void" />
+			<role name="Request()" element="org.datatransferproject.transfer.WorkerModule::getMonitor():org.datatransferproject.api.launcher.Monitor" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.datatransferproject.auth.OAuth2DataGenerator" />
+			<role name="State" element="org.datatransferproject.auth.OAuth2Config" />
+			<role name="state" element="org.datatransferproject.auth.OAuth2DataGenerator::config:org.datatransferproject.auth.OAuth2Config" />
+			<role name="Request()" element="org.datatransferproject.auth.OAuth2DataGenerator::generateConfiguration(java.lang.String, java.lang.String):org.datatransferproject.spi.api.types.AuthFlowConfiguration" />
+			<role name="Request()" element="org.datatransferproject.auth.OAuth2DataGenerator::generateAuthData(java.lang.String, java.lang.String, java.lang.String, org.datatransferproject.types.transfer.auth.AuthData, java.lang.String):org.datatransferproject.types.transfer.auth.AuthData" />
+			<role name="Request()" element="org.datatransferproject.auth.OAuth2DataGenerator::validateConfig():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.datatransferproject.api.action.transfer.CreateTransferJobAction" />
+			<role name="State" element="org.datatransferproject.spi.cloud.storage.JobStore" />
+			<role name="state" element="org.datatransferproject.api.action.transfer.CreateTransferJobAction::jobStore:org.datatransferproject.spi.cloud.storage.JobStore" />
+			<role name="Request()" element="org.datatransferproject.api.action.transfer.CreateTransferJobAction::handle(org.datatransferproject.types.client.transfer.CreateTransferJob):org.datatransferproject.types.client.transfer.TransferJob" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.datatransferproject.api.action.transfer.GenerateServiceAuthDataAction" />
+			<role name="State" element="org.datatransferproject.spi.cloud.storage.JobStore" />
+			<role name="state" element="org.datatransferproject.api.action.transfer.GenerateServiceAuthDataAction::jobStore:org.datatransferproject.spi.cloud.storage.JobStore" />
+			<role name="Request()" element="org.datatransferproject.api.action.transfer.GenerateServiceAuthDataAction::handle(org.datatransferproject.types.client.transfer.GenerateServiceAuthData):org.datatransferproject.types.client.transfer.ServiceAuthData" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.datatransferproject.api.action.transfer.GetReservedWorkerAction" />
+			<role name="State" element="org.datatransferproject.spi.cloud.storage.JobStore" />
+			<role name="state" element="org.datatransferproject.api.action.transfer.GetReservedWorkerAction::jobStore:org.datatransferproject.spi.cloud.storage.JobStore" />
+			<role name="Request()" element="org.datatransferproject.api.action.transfer.GetReservedWorkerAction::handle(org.datatransferproject.types.client.transfer.GetReservedWorker):org.datatransferproject.types.client.transfer.ReservedWorker" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.datatransferproject.api.action.transfer.GetTransferJobAction" />
+			<role name="State" element="org.datatransferproject.spi.cloud.storage.JobStore" />
+			<role name="state" element="org.datatransferproject.api.action.transfer.GetTransferJobAction::jobStore:org.datatransferproject.spi.cloud.storage.JobStore" />
+			<role name="Request()" element="org.datatransferproject.api.action.transfer.GetTransferJobAction::handle(org.datatransferproject.types.client.transfer.GetTransferJob):org.datatransferproject.types.client.transfer.TransferJob" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.datatransferproject.api.action.transfer.ReserveWorkerAction" />
+			<role name="State" element="org.datatransferproject.spi.cloud.storage.JobStore" />
+			<role name="state" element="org.datatransferproject.api.action.transfer.ReserveWorkerAction::jobStore:org.datatransferproject.spi.cloud.storage.JobStore" />
+			<role name="Request()" element="org.datatransferproject.api.action.transfer.ReserveWorkerAction::updateStateToCredsAvailable(java.util.UUID):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.datatransferproject.api.action.transfer.StartTransferJobAction" />
+			<role name="State" element="org.datatransferproject.spi.cloud.storage.JobStore" />
+			<role name="state" element="org.datatransferproject.api.action.transfer.StartTransferJobAction::jobStore:org.datatransferproject.spi.cloud.storage.JobStore" />
+			<role name="Request()" element="org.datatransferproject.api.action.transfer.StartTransferJobAction::handle(org.datatransferproject.types.client.transfer.StartTransferJob):org.datatransferproject.types.client.transfer.TransferJob" />
+			<role name="Request()" element="org.datatransferproject.api.action.transfer.StartTransferJobAction::updateJobWithCredentials(java.util.UUID, org.datatransferproject.spi.cloud.types.PortabilityJob, java.lang.String):org.datatransferproject.spi.cloud.types.PortabilityJob" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.datatransferproject.auth.OAuth1ServiceExtension" />
+			<role name="State" element="org.datatransferproject.auth.OAuth1Config" />
+			<role name="state" element="org.datatransferproject.auth.OAuth1ServiceExtension::oAuth1Config:org.datatransferproject.auth.OAuth1Config" />
+			<role name="Request()" element="org.datatransferproject.auth.OAuth1ServiceExtension::getServiceId():java.lang.String" />
+			<role name="Request()" element="org.datatransferproject.auth.OAuth1ServiceExtension::getImportTypes():java.util.List" />
+			<role name="Request()" element="org.datatransferproject.auth.OAuth1ServiceExtension::getExportTypes():java.util.List" />
+			<role name="Request()" element="org.datatransferproject.auth.OAuth1ServiceExtension::initialize(org.datatransferproject.api.launcher.ExtensionContext):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.datatransferproject.transfer.CallableExporter" />
+			<role name="State" element="org.datatransferproject.api.launcher.DtpInternalMetricRecorder" />
+			<role name="state" element="org.datatransferproject.transfer.CallableExporter::metricRecorder:org.datatransferproject.api.launcher.DtpInternalMetricRecorder" />
+			<role name="Request()" element="org.datatransferproject.transfer.CallableExporter::call():org.datatransferproject.spi.transfer.provider.ExportResult" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.datatransferproject.transfer.CallableImporter" />
+			<role name="State" element="org.datatransferproject.api.launcher.DtpInternalMetricRecorder" />
+			<role name="state" element="org.datatransferproject.transfer.CallableImporter::metricRecorder:org.datatransferproject.api.launcher.DtpInternalMetricRecorder" />
+			<role name="Request()" element="org.datatransferproject.transfer.CallableImporter::call():org.datatransferproject.spi.transfer.provider.ImportResult" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.datatransferproject.transfer.JobProcessor" />
+			<role name="State" element="org.datatransferproject.api.launcher.DtpInternalMetricRecorder" />
+			<role name="state" element="org.datatransferproject.transfer.JobProcessor::dtpInternalMetricRecorder:org.datatransferproject.api.launcher.DtpInternalMetricRecorder" />
+			<role name="Request()" element="org.datatransferproject.transfer.JobProcessor::processJob():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.datatransferproject.api.action.datatype.DataTypesAction" />
+			<role name="State" element="org.datatransferproject.spi.api.auth.AuthServiceProviderRegistry" />
+			<role name="state" element="org.datatransferproject.api.action.datatype.DataTypesAction::registry:org.datatransferproject.spi.api.auth.AuthServiceProviderRegistry" />
+			<role name="Request()" element="org.datatransferproject.api.action.datatype.DataTypesAction::handle(org.datatransferproject.types.client.datatype.GetDataTypes):org.datatransferproject.types.client.datatype.DataTypes" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.datatransferproject.api.action.transfer.CreateTransferJobAction" />
+			<role name="State" element="org.datatransferproject.spi.api.auth.AuthServiceProviderRegistry" />
+			<role name="state" element="org.datatransferproject.api.action.transfer.CreateTransferJobAction::registry:org.datatransferproject.spi.api.auth.AuthServiceProviderRegistry" />
+			<role name="Request()" element="org.datatransferproject.api.action.transfer.CreateTransferJobAction::handle(org.datatransferproject.types.client.transfer.CreateTransferJob):org.datatransferproject.types.client.transfer.TransferJob" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.datatransferproject.api.action.transfer.GenerateServiceAuthDataAction" />
+			<role name="State" element="org.datatransferproject.spi.api.auth.AuthServiceProviderRegistry" />
+			<role name="state" element="org.datatransferproject.api.action.transfer.GenerateServiceAuthDataAction::registry:org.datatransferproject.spi.api.auth.AuthServiceProviderRegistry" />
+			<role name="Request()" element="org.datatransferproject.api.action.transfer.GenerateServiceAuthDataAction::handle(org.datatransferproject.types.client.transfer.GenerateServiceAuthData):org.datatransferproject.types.client.transfer.ServiceAuthData" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.datatransferproject.api.action.transfer.GetTransferServicesAction" />
+			<role name="State" element="org.datatransferproject.spi.api.auth.AuthServiceProviderRegistry" />
+			<role name="state" element="org.datatransferproject.api.action.transfer.GetTransferServicesAction::registry:org.datatransferproject.spi.api.auth.AuthServiceProviderRegistry" />
+			<role name="Request()" element="org.datatransferproject.api.action.transfer.GetTransferServicesAction::handle(org.datatransferproject.types.client.transfer.GetTransferServices):org.datatransferproject.types.client.transfer.TransferServices" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.datatransferproject.launcher.metrics.ServiceAwareMetricRecorder" />
+			<role name="State" element="org.datatransferproject.api.launcher.DtpInternalMetricRecorder" />
+			<role name="state" element="org.datatransferproject.launcher.metrics.ServiceAwareMetricRecorder::metricRecorder:org.datatransferproject.api.launcher.DtpInternalMetricRecorder" />
+			<role name="Request()" element="org.datatransferproject.launcher.metrics.ServiceAwareMetricRecorder::recordMetric(java.lang.String, java.lang.String):void" />
+			<role name="Request()" element="org.datatransferproject.launcher.metrics.ServiceAwareMetricRecorder::recordMetric(java.lang.String, java.lang.String, boolean):void" />
+			<role name="Request()" element="org.datatransferproject.launcher.metrics.ServiceAwareMetricRecorder::recordMetric(java.lang.String, java.lang.String, java.time.Duration):void" />
+			<role name="Request()" element="org.datatransferproject.launcher.metrics.ServiceAwareMetricRecorder::recordMetric(java.lang.String, java.lang.String, int):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.datatransferproject.transfer.WorkerModule" />
+			<role name="State" element="org.datatransferproject.spi.transfer.security.SecurityExtension" />
+			<role name="state" element="org.datatransferproject.transfer.WorkerModule::securityExtension:org.datatransferproject.spi.transfer.security.SecurityExtension" />
+			<role name="Request()" element="org.datatransferproject.transfer.WorkerModule::getPublicKeySerializer():org.datatransferproject.spi.transfer.security.PublicKeySerializer" />
+			<role name="Request()" element="org.datatransferproject.transfer.WorkerModule::getAuthDataDecryptService():org.datatransferproject.spi.transfer.security.AuthDataDecryptService" />
+			<role name="Request()" element="org.datatransferproject.transfer.WorkerModule::getTransferKeyGenerator():org.datatransferproject.spi.transfer.security.TransferKeyGenerator" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.datatransferproject.transfer.CallableImporter" />
+			<role name="State" element="org.datatransferproject.spi.transfer.idempotentexecutor.IdempotentImportExecutor" />
+			<role name="state" element="org.datatransferproject.transfer.CallableImporter::idempotentImportExecutor:org.datatransferproject.spi.transfer.idempotentexecutor.IdempotentImportExecutor" />
+			<role name="Request()" element="org.datatransferproject.transfer.CallableImporter::call():org.datatransferproject.spi.transfer.provider.ImportResult" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.datatransferproject.transfer.PortabilityInMemoryDataCopier" />
+			<role name="State" element="org.datatransferproject.api.launcher.DtpInternalMetricRecorder" />
+			<role name="state" element="org.datatransferproject.transfer.PortabilityInMemoryDataCopier::metricRecorder:org.datatransferproject.api.launcher.DtpInternalMetricRecorder" />
+			<role name="Request()" element="org.datatransferproject.transfer.PortabilityInMemoryDataCopier::copyHelper(java.util.UUID, org.datatransferproject.types.transfer.auth.AuthData, org.datatransferproject.types.transfer.auth.AuthData, java.util.Optional):java.util.Collection" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.datatransferproject.transfer.WorkerModule" />
+			<role name="State" element="org.datatransferproject.spi.cloud.extension.CloudExtension" />
+			<role name="state" element="org.datatransferproject.transfer.WorkerModule::cloudExtension:org.datatransferproject.spi.cloud.extension.CloudExtension" />
+			<role name="Request()" element="org.datatransferproject.transfer.WorkerModule::getJobStore():org.datatransferproject.spi.cloud.storage.JobStore" />
+			<role name="Request()" element="org.datatransferproject.transfer.WorkerModule::getBucketStore():org.datatransferproject.spi.cloud.storage.AppCredentialStore" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.datatransferproject.api.action.transfer.CreateTransferJobAction" />
+			<role name="State" element="org.datatransferproject.security.SymmetricKeyGenerator" />
+			<role name="state" element="org.datatransferproject.api.action.transfer.CreateTransferJobAction::symmetricKeyGenerator:org.datatransferproject.security.SymmetricKeyGenerator" />
+			<role name="Request()" element="org.datatransferproject.api.action.transfer.CreateTransferJobAction::handle(org.datatransferproject.types.client.transfer.CreateTransferJob):org.datatransferproject.types.client.transfer.TransferJob" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.datatransferproject.api.action.transfer.GenerateServiceAuthDataAction" />
+			<role name="State" element="org.datatransferproject.security.SymmetricKeyGenerator" />
+			<role name="state" element="org.datatransferproject.api.action.transfer.GenerateServiceAuthDataAction::symmetricKeyGenerator:org.datatransferproject.security.SymmetricKeyGenerator" />
+			<role name="Request()" element="org.datatransferproject.api.action.transfer.GenerateServiceAuthDataAction::handle(org.datatransferproject.types.client.transfer.GenerateServiceAuthData):org.datatransferproject.types.client.transfer.ServiceAuthData" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.datatransferproject.transfer.PortabilityInMemoryDataCopier" />
+			<role name="State" element="org.datatransferproject.spi.transfer.idempotentexecutor.IdempotentImportExecutor" />
+			<role name="state" element="org.datatransferproject.transfer.PortabilityInMemoryDataCopier::idempotentImportExecutor:org.datatransferproject.spi.transfer.idempotentexecutor.IdempotentImportExecutor" />
+			<role name="Request()" element="org.datatransferproject.transfer.PortabilityInMemoryDataCopier::copy(org.datatransferproject.types.transfer.auth.AuthData, org.datatransferproject.types.transfer.auth.AuthData, java.util.UUID, java.util.Optional):java.util.Collection" />
+			<role name="Request()" element="org.datatransferproject.transfer.PortabilityInMemoryDataCopier::copyHelper(java.util.UUID, org.datatransferproject.types.transfer.auth.AuthData, org.datatransferproject.types.transfer.auth.AuthData, java.util.Optional):java.util.Collection" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.datatransferproject.transfer.JobProcessor" />
+			<role name="State" element="org.datatransferproject.spi.transfer.security.AuthDataDecryptService" />
+			<role name="state" element="org.datatransferproject.transfer.JobProcessor::decryptService:org.datatransferproject.spi.transfer.security.AuthDataDecryptService" />
+			<role name="Request()" element="org.datatransferproject.transfer.JobProcessor::getAuthDecryptService(java.lang.String):org.datatransferproject.spi.transfer.security.AuthDataDecryptService" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.datatransferproject.security.cleartext.ClearTextSecurityExtension" />
+			<role name="State" element="org.datatransferproject.api.launcher.TypeManager" />
+			<role name="state" element="org.datatransferproject.security.cleartext.ClearTextSecurityExtension::typeManager:org.datatransferproject.api.launcher.TypeManager" />
+			<role name="Request()" element="org.datatransferproject.security.cleartext.ClearTextSecurityExtension::getDecryptService():org.datatransferproject.spi.transfer.security.AuthDataDecryptService" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.datatransferproject.security.jwe.JWESecurityExtension" />
+			<role name="State" element="org.datatransferproject.api.launcher.TypeManager" />
+			<role name="state" element="org.datatransferproject.security.jwe.JWESecurityExtension::typeManager:org.datatransferproject.api.launcher.TypeManager" />
+			<role name="Request()" element="org.datatransferproject.security.jwe.JWESecurityExtension::getDecryptService():org.datatransferproject.spi.transfer.security.AuthDataDecryptService" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.datatransferproject.transfer.JobPollingService" />
+			<role name="State" element="org.datatransferproject.spi.transfer.security.PublicKeySerializer" />
+			<role name="state" element="org.datatransferproject.transfer.JobPollingService::publicKeySerializer:org.datatransferproject.spi.transfer.security.PublicKeySerializer" />
+			<role name="Request()" element="org.datatransferproject.transfer.JobPollingService::tryToClaimJob(java.util.UUID, org.datatransferproject.spi.transfer.security.TransferKeyGenerator$WorkerKeyPair):boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.datatransferproject.transfer.JobPollingService" />
+			<role name="State" element="org.datatransferproject.spi.transfer.security.TransferKeyGenerator" />
+			<role name="state" element="org.datatransferproject.transfer.JobPollingService::transferKeyGenerator:org.datatransferproject.spi.transfer.security.TransferKeyGenerator" />
+			<role name="Request()" element="org.datatransferproject.transfer.JobPollingService::pollForUnassignedJob():void" />
+		</instance>
+	</pattern>
+	<pattern name="Strategy" />
+	<pattern name="Bridge" />
+	<pattern name="Template Method">
+		<instance>
+			<role name="AbstractClass" element="org.datatransferproject.spi.cloud.storage.JobStoreWithValidator" />
+			<role name="TemplateMethod()" element="org.datatransferproject.spi.cloud.storage.JobStoreWithValidator::claimJob(java.util.UUID, org.datatransferproject.spi.cloud.types.PortabilityJob):void" />
+			<role name="TemplateMethod()" element="org.datatransferproject.spi.cloud.storage.JobStoreWithValidator::updateJobAuthStateToCredsAvailable(java.util.UUID):void" />
+			<role name="TemplateMethod()" element="org.datatransferproject.spi.cloud.storage.JobStoreWithValidator::updateJobWithCredentials(java.util.UUID, org.datatransferproject.spi.cloud.types.PortabilityJob):void" />
+			<role name="TemplateMethod()" element="org.datatransferproject.spi.cloud.storage.JobStoreWithValidator::markJobAsTimedOut(java.util.UUID):void" />
+			<role name="TemplateMethod()" element="org.datatransferproject.spi.cloud.storage.JobStoreWithValidator::updateJobState(java.util.UUID, org.datatransferproject.spi.cloud.types.PortabilityJob$State, org.datatransferproject.spi.cloud.types.PortabilityJob$State, org.datatransferproject.spi.cloud.types.JobAuthorization$State):void" />
+			<role name="TemplateMethod()" element="org.datatransferproject.spi.cloud.storage.JobStoreWithValidator::addFailureReasonToJob(java.util.UUID, java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.datatransferproject.spi.cloud.types.PortabilityJob$Builder" />
+			<role name="TemplateMethod()" element="org.datatransferproject.spi.cloud.types.PortabilityJob$Builder::setAndValidateJobAuthorization(org.datatransferproject.spi.cloud.types.JobAuthorization):org.datatransferproject.spi.cloud.types.PortabilityJob$Builder" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.datatransferproject.spi.cloud.types.PortabilityJob" />
+			<role name="TemplateMethod()" element="org.datatransferproject.spi.cloud.types.PortabilityJob::toMap():java.util.Map" />
+			<role name="TemplateMethod()" element="org.datatransferproject.spi.cloud.types.PortabilityJob::equals(java.lang.Object):boolean" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.datatransferproject.types.common.models.calendar.RecurrenceRule$ExDate" />
+			<role name="TemplateMethod()" element="org.datatransferproject.types.common.models.calendar.RecurrenceRule$ExDate::toString():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.datatransferproject.types.common.models.calendar.RecurrenceRule$RRule" />
+			<role name="TemplateMethod()" element="org.datatransferproject.types.common.models.calendar.RecurrenceRule$RRule::toString():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.datatransferproject.types.common.models.calendar.RecurrenceRule$RDate" />
+			<role name="TemplateMethod()" element="org.datatransferproject.types.common.models.calendar.RecurrenceRule$RDate::toString():java.lang.String" />
+		</instance>
+	</pattern>
+	<pattern name="Visitor" />
+	<pattern name="Proxy" />
+	<pattern name="Proxy2" />
+	<pattern name="Chain of Responsibility" />
+</system>
+

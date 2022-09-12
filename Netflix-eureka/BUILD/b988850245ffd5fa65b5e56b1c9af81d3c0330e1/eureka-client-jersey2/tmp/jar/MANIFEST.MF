@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Build-Time-ISO-8601: 2022-09-11T01:51:51+0000
+Implementation-Title: com.netflix.eureka#eureka-client-jersey2;1.9.3-S
+ NAPSHOT
+Implementation-Version: 1.9.3-SNAPSHOT
+Built-Status: integration
+Built-By: root
+Built-OS: Linux
+Build-Date: 2022-09-11_01:51:51
+Gradle-Version: 2.10
+Module-Owner: netflixoss@netflix.com
+Module-Email: netflixoss@netflix.com
+Module-Source: /eureka-client-jersey2
+Module-Origin: https://github.com/Netflix/eureka.git
+Change: b988850
+Branch: b988850245ffd5fa65b5e56b1c9af81d3c0330e1
+Build-Host: de53700f5cfb
+Build-Job: LOCAL
+Build-Number: LOCAL
+Build-Id: LOCAL
+Created-By: 1.8.0_342-b07 (Oracle Corporation)
+Build-Java-Version: 1.8.0_342
+X-Compile-Target-JDK: 1.8
+X-Compile-Source-JDK: 1.8
+

@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Build-Time-ISO-8601: 2022-09-11T01:59:07+0000
+Implementation-Title: com.netflix.eureka#eureka-core;1.8.4-SNAPSHOT
+Implementation-Version: 1.8.4-SNAPSHOT
+Built-Status: integration
+Built-By: root
+Built-OS: Linux
+Build-Date: 2022-09-11_01:59:07
+Gradle-Version: 2.10
+Module-Owner: netflixoss@netflix.com
+Module-Email: netflixoss@netflix.com
+Module-Source: /eureka-core
+Module-Origin: https://github.com/Netflix/eureka.git
+Change: d2dbee8
+Branch: d2dbee8a79b3c6dd9b553eb3f702f7721797bcd6
+Build-Host: de53700f5cfb
+Build-Job: LOCAL
+Build-Number: LOCAL
+Build-Id: LOCAL
+Created-By: 1.8.0_342-b07 (Oracle Corporation)
+Build-Java-Version: 1.8.0_342
+X-Compile-Target-JDK: 1.8
+X-Compile-Source-JDK: 1.8
+

@@ -1,0 +1,111 @@
+Downloading https://services.gradle.org/distributions/gradle-3.5-bin.zip
+..................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Unzipping /root/.gradle/wrapper/dists/gradle-3.5-bin/daoimhu7k5rlo48ntmxw2ok3e/gradle-3.5-bin.zip to /root/.gradle/wrapper/dists/gradle-3.5-bin/daoimhu7k5rlo48ntmxw2ok3e
+Set executable permissions for: /root/.gradle/wrapper/dists/gradle-3.5-bin/daoimhu7k5rlo48ntmxw2ok3e/gradle-3.5/bin/gradle
+To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/3.5/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+Download https://plugins.gradle.org/m2/com/gradle/build-scan-plugin/1.7.1/build-scan-plugin-1.7.1.pom
+Download https://plugins.gradle.org/m2/com/puppycrawl/tools/checkstyle/7.7/checkstyle-7.7.pom
+Download https://plugins.gradle.org/m2/com/netflix/nebula/gradle-extra-configurations-plugin/3.1.0/gradle-extra-configurations-plugin-3.1.0.pom
+Download https://plugins.gradle.org/m2/one/util/huntbugs/0.0.11/huntbugs-0.0.11.pom
+Download https://plugins.gradle.org/m2/one/util/huntbugs-all/0.0.11/huntbugs-all-0.0.11.pom
+Download https://plugins.gradle.org/m2/gradle/plugin/one/util/huntbugs/huntbugs-gradle-plugin/0.3.5/huntbugs-gradle-plugin-0.3.5.pom
+Download https://plugins.gradle.org/m2/me/champeau/gradle/jmh-gradle-plugin/0.3.1/jmh-gradle-plugin-0.3.1.pom
+Download https://plugins.gradle.org/m2/gradle/plugin/io/morethan/jmhreport/gradle-jmh-report/0.2.0/gradle-jmh-report-0.2.0.pom
+Download https://plugins.gradle.org/m2/com/github/jengelman/gradle/plugins/shadow/1.2.4/shadow-1.2.4.pom
+Download https://plugins.gradle.org/m2/com/github/ben-manes/gradle-versions-plugin/0.14.0/gradle-versions-plugin-0.14.0.pom
+Download https://plugins.gradle.org/m2/org/bitbucket/mstrobel/procyon-compilertools/0.5.32/procyon-compilertools-0.5.32.pom
+Download https://plugins.gradle.org/m2/org/jdom/jdom2/2.0.5/jdom2-2.0.5.pom
+Download https://plugins.gradle.org/m2/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3.pom
+Download https://plugins.gradle.org/m2/org/apache/ant/ant/1.9.4/ant-1.9.4.pom
+Download https://plugins.gradle.org/m2/org/apache/ant/ant-parent/1.9.4/ant-parent-1.9.4.pom
+Download https://plugins.gradle.org/m2/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.pom
+Download https://plugins.gradle.org/m2/org/apache/ant/ant-launcher/1.9.4/ant-launcher-1.9.4.pom
+Download https://plugins.gradle.org/m2/org/bitbucket/mstrobel/procyon-core/0.5.32/procyon-core-0.5.32.pom
+Download https://plugins.gradle.org/m2/com/gradle/build-scan-plugin/1.7.1/build-scan-plugin-1.7.1.jar
+Download https://plugins.gradle.org/m2/me/champeau/gradle/buildscan-recipes-plugin/0.2.0/buildscan-recipes-plugin-0.2.0.jar
+Download https://plugins.gradle.org/m2/com/puppycrawl/tools/checkstyle/7.7/checkstyle-7.7.jar
+Download https://plugins.gradle.org/m2/org/kt3k/gradle/plugin/coveralls-gradle-plugin/2.8.1/coveralls-gradle-plugin-2.8.1.jar
+Download https://plugins.gradle.org/m2/com/netflix/nebula/gradle-extra-configurations-plugin/3.1.0/gradle-extra-configurations-plugin-3.1.0.jar
+Download https://plugins.gradle.org/m2/net/ltgt/gradle/gradle-errorprone-plugin/0.0.10/gradle-errorprone-plugin-0.0.10.jar
+Download https://plugins.gradle.org/m2/one/util/huntbugs/0.0.11/huntbugs-0.0.11.jar
+Download https://plugins.gradle.org/m2/gradle/plugin/one/util/huntbugs/huntbugs-gradle-plugin/0.3.5/huntbugs-gradle-plugin-0.3.5.jar
+Download https://plugins.gradle.org/m2/me/champeau/gradle/jmh-gradle-plugin/0.3.1/jmh-gradle-plugin-0.3.1.jar
+Download https://plugins.gradle.org/m2/gradle/plugin/io/morethan/jmhreport/gradle-jmh-report/0.2.0/gradle-jmh-report-0.2.0.jar
+Download https://plugins.gradle.org/m2/com/github/jengelman/gradle/plugins/shadow/1.2.4/shadow-1.2.4.jar
+Download https://plugins.gradle.org/m2/org/kordamp/gradle/stats-gradle-plugin/0.2.0/stats-gradle-plugin-0.2.0.jar
+Download https://plugins.gradle.org/m2/com/github/ben-manes/gradle-versions-plugin/0.14.0/gradle-versions-plugin-0.14.0.jar
+Download https://plugins.gradle.org/m2/org/bitbucket/mstrobel/procyon-compilertools/0.5.32/procyon-compilertools-0.5.32.jar
+Download https://plugins.gradle.org/m2/org/jdom/jdom2/2.0.5/jdom2-2.0.5.jar
+Download https://plugins.gradle.org/m2/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar
+Download https://plugins.gradle.org/m2/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3.jar
+Download https://plugins.gradle.org/m2/org/apache/ant/ant/1.9.4/ant-1.9.4.jar
+Download https://plugins.gradle.org/m2/org/codehaus/groovy/groovy-backports-compat23/2.4.4/groovy-backports-compat23-2.4.4.jar
+Download https://plugins.gradle.org/m2/com/thoughtworks/xstream/xstream/1.4.7/xstream-1.4.7.jar
+Download https://plugins.gradle.org/m2/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar
+Download https://plugins.gradle.org/m2/org/apache/ant/ant-launcher/1.9.4/ant-launcher-1.9.4.jar
+Download https://plugins.gradle.org/m2/com/google/guava/guava/17.0/guava-17.0.jar
+Download https://plugins.gradle.org/m2/org/ow2/asm/asm-analysis/4.0/asm-analysis-4.0.jar
+Download https://plugins.gradle.org/m2/org/bitbucket/mstrobel/procyon-core/0.5.32/procyon-core-0.5.32.jar
+Download https://repo1.maven.org/maven2/com/github/jbellis/jamm/0.3.1/jamm-0.3.1.pom
+Download https://repo1.maven.org/maven2/com/github/jbellis/jamm/0.3.1/jamm-0.3.1.jar
+Download https://repo1.maven.org/maven2/javax/cache/cache-api/1.0.0/cache-api-1.0.0-javadoc.jar
+Download https://repo1.maven.org/maven2/javax/cache/cache-tests/1.0.1/cache-tests-1.0.1.pom
+Download https://repo1.maven.org/maven2/javax/cache/tck-parent/1.0.1/tck-parent-1.0.1.pom
+Download https://repo1.maven.org/maven2/javax/cache/cache-tests/1.0.1/cache-tests-1.0.1-tests.jar
+:caffeine:clean UP-TO-DATE
+:guava:clean UP-TO-DATE
+:jcache:clean UP-TO-DATE
+:simulator:clean UP-TO-DATE
+:caffeine:compileJavaPoetJava
+Download https://repo1.maven.org/maven2/com/squareup/javapoet/1.9.0/javapoet-1.9.0.pom
+Download https://repo1.maven.org/maven2/com/google/guava/guava/21.0/guava-21.0.jar
+Download https://repo1.maven.org/maven2/com/squareup/javapoet/1.9.0/javapoet-1.9.0.jar
+Download https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar
+Download https://repo1.maven.org/maven2/com/google/errorprone/error_prone_core/2.15.0/error_prone_core-2.15.0.pom
+Download https://repo1.maven.org/maven2/com/google/errorprone/error_prone_parent/2.15.0/error_prone_parent-2.15.0.pom
+Download https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotation/2.15.0/error_prone_annotation-2.15.0.pom
+Download https://repo1.maven.org/maven2/com/google/errorprone/error_prone_type_annotations/2.15.0/error_prone_type_annotations-2.15.0.pom
+Download https://repo1.maven.org/maven2/com/google/errorprone/error_prone_check_api/2.15.0/error_prone_check_api-2.15.0.pom
+Download https://repo1.maven.org/maven2/org/pcollections/pcollections/3.1.4/pcollections-3.1.4.pom
+Download https://repo1.maven.org/maven2/com/google/auto/auto-common/1.2.1/auto-common-1.2.1.pom
+Download https://repo1.maven.org/maven2/org/checkerframework/dataflow-errorprone/3.21.1/dataflow-errorprone-3.21.1.pom
+Download https://repo1.maven.org/maven2/com/google/auto/value/auto-value-annotations/1.9/auto-value-annotations-1.9.pom
+Download https://repo1.maven.org/maven2/com/google/auto/value/auto-value-parent/1.9/auto-value-parent-1.9.pom
+Download https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.15.0/error_prone_annotations-2.15.0.pom
+Download https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.19.2/protobuf-java-3.19.2.pom
+Download https://repo1.maven.org/maven2/com/google/protobuf/protobuf-parent/3.19.2/protobuf-parent-3.19.2.pom
+Download https://repo1.maven.org/maven2/com/google/protobuf/protobuf-bom/3.19.2/protobuf-bom-3.19.2.pom
+Download https://repo1.maven.org/maven2/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.pom
+Download https://repo1.maven.org/maven2/com/google/auto/service/auto-service-aggregator/1.0.1/auto-service-aggregator-1.0.1.pom
+Download https://repo1.maven.org/maven2/io/github/java-diff-utils/java-diff-utils/4.0/java-diff-utils-4.0.pom
+Download https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/3.0.5/caffeine-3.0.5.pom
+Download https://repo1.maven.org/maven2/com/google/errorprone/error_prone_core/2.15.0/error_prone_core-2.15.0.jar
+Download https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotation/2.15.0/error_prone_annotation-2.15.0.jar
+Download https://repo1.maven.org/maven2/com/google/errorprone/error_prone_type_annotations/2.15.0/error_prone_type_annotations-2.15.0.jar
+Download https://repo1.maven.org/maven2/com/google/errorprone/error_prone_check_api/2.15.0/error_prone_check_api-2.15.0.jar
+Download https://repo1.maven.org/maven2/org/pcollections/pcollections/3.1.4/pcollections-3.1.4.jar
+Download https://repo1.maven.org/maven2/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar
+Download https://repo1.maven.org/maven2/com/google/auto/auto-common/1.2.1/auto-common-1.2.1.jar
+Download https://repo1.maven.org/maven2/org/checkerframework/dataflow-errorprone/3.21.1/dataflow-errorprone-3.21.1.jar
+Download https://repo1.maven.org/maven2/com/google/auto/value/auto-value-annotations/1.9/auto-value-annotations-1.9.jar
+Download https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.15.0/error_prone_annotations-2.15.0.jar
+Download https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.19.2/protobuf-java-3.19.2.jar
+Download https://repo1.maven.org/maven2/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar
+Download https://repo1.maven.org/maven2/io/github/java-diff-utils/java-diff-utils/4.0/java-diff-utils-4.0.jar
+Download https://repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/4.4.1.201607150455-r/org.eclipse.jgit-4.4.1.201607150455-r.jar
+Download https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/3.0.5/caffeine-3.0.5.jar
+:caffeine:compileJavaPoetJava FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':caffeine:compileJavaPoetJava'.
+> java.lang.ClassNotFoundException: com.google.errorprone.ErrorProneCompiler$Builder
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 1 mins 33.164 secs

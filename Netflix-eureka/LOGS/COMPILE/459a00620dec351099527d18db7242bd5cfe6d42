@@ -1,0 +1,113 @@
+Downloading https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+..................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Unzipping /root/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1-all.zip to /root/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53
+Set executable permissions for: /root/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/bin/gradle
+Inferred version: 1.2.1-SNAPSHOT
+Inferred version: 1.2.1-SNAPSHOT
+Inferred version: 1.2.1-SNAPSHOT
+Inferred version: 1.2.1-SNAPSHOT
+Inferred version: 1.2.1-SNAPSHOT
+Inferred version: 1.2.1-SNAPSHOT
+Inferred version: 1.2.1-SNAPSHOT
+Publication mavenNebula not found in project :.
+[buildinfo] Properties file path was not found! (Relevant only for builds running on a CI Server)
+Publication named 'mavenNebula' does not exist for project ':' in task ':artifactoryPublish'.
+None of the specified publications matched for project ':' - nothing to publish.
+:clean
+:eureka-client:clean
+:eureka-core:clean
+:eureka-examples:clean
+:eureka-resources:clean
+:eureka-server:clean
+:eureka-test-utils:clean
+:eureka-client:compileJava
+Download https://jcenter.bintray.com/com/netflix/servo/servo-core/0.9.4/servo-core-0.9.4.pom
+Download https://jcenter.bintray.com/com/sun/jersey/jersey-core/1.19/jersey-core-1.19.pom
+Download https://jcenter.bintray.com/com/sun/jersey/jersey-project/1.19/jersey-project-1.19.pom
+Download https://jcenter.bintray.com/com/sun/jersey/jersey-client/1.19/jersey-client-1.19.pom
+Download https://jcenter.bintray.com/com/sun/jersey/contribs/jersey-apache-client4/1.19/jersey-apache-client4-1.19.pom
+Download https://jcenter.bintray.com/com/sun/jersey/contribs/jersey-contribs/1.19/jersey-contribs-1.19.pom
+Download https://jcenter.bintray.com/com/google/inject/guice/4.0/guice-4.0.pom
+Download https://jcenter.bintray.com/com/netflix/governator/governator-annotations/1.7.5/governator-annotations-1.7.5.pom
+Download https://jcenter.bintray.com/com/google/guava/guava/16.0.1/guava-16.0.1.pom
+Download https://jcenter.bintray.com/com/google/guava/guava-parent/16.0.1/guava-parent-16.0.1.pom
+Download https://jcenter.bintray.com/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.pom
+Download https://jcenter.bintray.com/com/netflix/servo/servo-internal/0.9.4/servo-internal-0.9.4.pom
+Download https://jcenter.bintray.com/com/netflix/servo/servo-core/0.9.4/servo-core-0.9.4.jar
+Download https://jcenter.bintray.com/com/sun/jersey/jersey-core/1.19/jersey-core-1.19.jar
+Download https://jcenter.bintray.com/com/sun/jersey/jersey-client/1.19/jersey-client-1.19.jar
+Download https://jcenter.bintray.com/com/sun/jersey/contribs/jersey-apache-client4/1.19/jersey-apache-client4-1.19.jar
+Download https://jcenter.bintray.com/com/google/inject/guice/4.0/guice-4.0.jar
+Download https://jcenter.bintray.com/com/netflix/governator/governator-annotations/1.7.5/governator-annotations-1.7.5.jar
+Download https://jcenter.bintray.com/com/google/guava/guava/16.0.1/guava-16.0.1.jar
+Download https://jcenter.bintray.com/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.jar
+Download https://jcenter.bintray.com/com/netflix/servo/servo-internal/0.9.4/servo-internal-0.9.4.jar
+warning: [options] bootstrap class path not set in conjunction with -source 1.7
+/results/Netflix-eureka/RELEASES/459a00620dec351099527d18db7242bd5cfe6d42/eureka-client/src/main/java/com/netflix/discovery/DiscoveryClient.java:1397: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+                        new String[]{serviceUrl, urlPath, String.valueOf(response.getStatus())});
+                        ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2 warnings
+:eureka-client:processResources UP-TO-DATE
+:eureka-client:classes
+:eureka-client:writeManifestProperties
+:eureka-client:jar
+:eureka-core:compileJava
+Download https://jcenter.bintray.com/com/netflix/governator/governator/1.7.5/governator-1.7.5.pom
+Download https://jcenter.bintray.com/org/slf4j/slf4j-api/1.6.3/slf4j-api-1.6.3.pom
+Download https://jcenter.bintray.com/org/slf4j/slf4j-parent/1.6.3/slf4j-parent-1.6.3.pom
+Download https://jcenter.bintray.com/org/ow2/asm/asm-all/5.0/asm-all-5.0.pom
+Download https://jcenter.bintray.com/org/ow2/asm/asm-parent/5.0/asm-parent-5.0.pom
+Download https://jcenter.bintray.com/org/apache/xbean/xbean-finder/4.2/xbean-finder-4.2.pom
+Download https://jcenter.bintray.com/org/apache/xbean/xbean/4.2/xbean-4.2.pom
+Download https://jcenter.bintray.com/org/apache/geronimo/genesis/genesis-java5-flava/2.1/genesis-java5-flava-2.1.pom
+Download https://jcenter.bintray.com/org/apache/geronimo/genesis/genesis-default-flava/2.1/genesis-default-flava-2.1.pom
+Download https://jcenter.bintray.com/org/apache/geronimo/genesis/genesis/2.1/genesis-2.1.pom
+Download https://jcenter.bintray.com/org/apache/xbean/xbean-bundleutils/4.2/xbean-bundleutils-4.2.pom
+Download https://jcenter.bintray.com/org/apache/xbean/xbean-asm-util/4.2/xbean-asm-util-4.2.pom
+Download https://jcenter.bintray.com/com/netflix/governator/governator/1.7.5/governator-1.7.5.jar
+Download https://jcenter.bintray.com/org/ow2/asm/asm-all/5.0/asm-all-5.0.jar
+Download https://jcenter.bintray.com/org/apache/xbean/xbean-finder/4.2/xbean-finder-4.2.jar
+Download https://jcenter.bintray.com/org/apache/xbean/xbean-bundleutils/4.2/xbean-bundleutils-4.2.jar
+Download https://jcenter.bintray.com/org/apache/xbean/xbean-asm-util/4.2/xbean-asm-util-4.2.jar
+warning: [options] bootstrap class path not set in conjunction with -source 1.7
+/results/Netflix-eureka/RELEASES/459a00620dec351099527d18db7242bd5cfe6d42/eureka-core/src/main/java/com/netflix/eureka/DefaultEurekaServerConfig.java:482: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+                        new String[]{propName, remoteRegionUrlWithNamePair, pairSplitChar});
+                        ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /results/Netflix-eureka/RELEASES/459a00620dec351099527d18db7242bd5cfe6d42/eureka-core/src/main/java/com/netflix/eureka/util/batcher/MessageBatcher.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2 warnings
+:eureka-examples:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+1 warning
+
+:eureka-resources:compileJava UP-TO-DATE
+:eureka-core:processResources UP-TO-DATE
+:eureka-core:classes
+:eureka-core:writeManifestProperties
+:eureka-core:jar
+:eureka-server:compileJava UP-TO-DATE
+:eureka-test-utils:compileJava
+Download https://jcenter.bintray.com/junit/junit/4.10/junit-4.10.pom
+Download https://jcenter.bintray.com/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom
+Download https://jcenter.bintray.com/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom
+Download https://jcenter.bintray.com/junit/junit/4.10/junit-4.10.jar
+Download https://jcenter.bintray.com/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar
+warning: [options] bootstrap class path not set in conjunction with -source 1.7
+Note: /results/Netflix-eureka/RELEASES/459a00620dec351099527d18db7242bd5cfe6d42/eureka-test-utils/src/main/java/com/netflix/discovery/util/ApplicationFunctions.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+1 warning
+
+BUILD SUCCESSFUL
+
+Total time: 40.843 secs

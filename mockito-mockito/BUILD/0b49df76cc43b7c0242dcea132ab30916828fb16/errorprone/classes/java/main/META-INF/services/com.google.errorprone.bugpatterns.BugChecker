@@ -1,0 +1,4 @@
+org.mockito.errorprone.bugpatterns.MockitoAnyClassWithPrimitiveType
+org.mockito.errorprone.bugpatterns.MockitoAnyIncorrectPrimitiveType
+org.mockito.errorprone.bugpatterns.MockitoInternalUsage
+org.mockito.errorprone.bugpatterns.MockitoNotExtensible

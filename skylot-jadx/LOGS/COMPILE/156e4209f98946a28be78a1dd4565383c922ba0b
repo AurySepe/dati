@@ -1,0 +1,118 @@
+Downloading https://services.gradle.org/distributions/gradle-4.9-bin.zip
+........................................................................
+
+Welcome to Gradle 4.9!
+
+Here are the highlights of this release:
+ - Experimental APIs for creating and configuring tasks lazily
+ - Pass arguments to JavaExec via CLI
+ - Auxiliary publication dependency support for multi-project builds
+ - Improved dependency insight report
+
+For more details see https://docs.gradle.org/4.9/release-notes.html
+
+Download https://plugins.gradle.org/m2/com/github/ksoichiro/console/reporter/com.github.ksoichiro.console.reporter.gradle.plugin/0.5.0/com.github.ksoichiro.console.reporter.gradle.plugin-0.5.0.pom
+Download https://plugins.gradle.org/m2/org/sonarqube/org.sonarqube.gradle.plugin/2.6.2/org.sonarqube.gradle.plugin-2.6.2.pom
+Download https://plugins.gradle.org/m2/gradle/plugin/com/github/ksoichiro/gradle-console-reporter/0.5.0/gradle-console-reporter-0.5.0.pom
+Download https://plugins.gradle.org/m2/org/sonarsource/scanner/gradle/sonarqube-gradle-plugin/2.6.2/sonarqube-gradle-plugin-2.6.2.pom
+Download https://plugins.gradle.org/m2/org/sonarsource/scanner/api/sonar-scanner-api/2.9.0.887/sonar-scanner-api-2.9.0.887.pom
+Download https://plugins.gradle.org/m2/org/sonarsource/scanner/api/sonar-scanner-api-parent/2.9.0.887/sonar-scanner-api-parent-2.9.0.887.pom
+Download https://plugins.gradle.org/m2/org/sonarsource/parent/parent/40/parent-40.pom
+Download https://plugins.gradle.org/m2/org/sonarsource/scanner/api/sonar-scanner-api/2.9.0.887/sonar-scanner-api-2.9.0.887.jar
+Download https://plugins.gradle.org/m2/org/sonarsource/scanner/gradle/sonarqube-gradle-plugin/2.6.2/sonarqube-gradle-plugin-2.6.2.jar
+Download https://plugins.gradle.org/m2/gradle/plugin/com/github/ksoichiro/gradle-console-reporter/0.5.0/gradle-console-reporter-0.5.0.jar
+
+> Configure project :
+jadx version: dev
+
+Download https://plugins.gradle.org/m2/com/github/johnrengelman/shadow/com.github.johnrengelman.shadow.gradle.plugin/2.0.4/com.github.johnrengelman.shadow.gradle.plugin-2.0.4.pom
+Download https://plugins.gradle.org/m2/com/github/jengelman/gradle/plugins/shadow/2.0.4/shadow-2.0.4.pom
+Download https://plugins.gradle.org/m2/org/codehaus/groovy/groovy-backports-compat23/2.4.4/groovy-backports-compat23-2.4.4.pom
+Download https://plugins.gradle.org/m2/org/codehaus/groovy/groovy-backports-compat23/2.4.4/groovy-backports-compat23-2.4.4.jar
+Download https://plugins.gradle.org/m2/com/github/jengelman/gradle/plugins/shadow/2.0.4/shadow-2.0.4.jar
+Download https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.pom
+Download https://repo.maven.apache.org/maven2/com/github/akarnokd/rxjava2-swing/0.2.16/rxjava2-swing-0.2.16.pom
+Download https://repo.maven.apache.org/maven2/io/reactivex/rxjava2/rxjava/2.1.17/rxjava-2.1.17.pom
+Download https://repo.maven.apache.org/maven2/com/fifesoft/rsyntaxtextarea/2.6.1/rsyntaxtextarea-2.6.1.pom
+Download https://repo.maven.apache.org/maven2/uk/com/robust-it/cloning/1.9.10/cloning-1.9.10.pom
+Download https://repo.maven.apache.org/maven2/org/ow2/asm/asm/6.2/asm-6.2.pom
+Download https://repo.maven.apache.org/maven2/org/jetbrains/annotations/16.0.2/annotations-16.0.2.pom
+Download https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar
+Download https://repo.maven.apache.org/maven2/com/fifesoft/rsyntaxtextarea/2.6.1/rsyntaxtextarea-2.6.1.jar
+Download https://repo.maven.apache.org/maven2/uk/com/robust-it/cloning/1.9.10/cloning-1.9.10.jar
+Download https://repo.maven.apache.org/maven2/org/ow2/asm/asm/6.2/asm-6.2.jar
+Download https://repo.maven.apache.org/maven2/com/github/akarnokd/rxjava2-swing/0.2.16/rxjava2-swing-0.2.16.jar
+Download https://repo.maven.apache.org/maven2/org/jetbrains/annotations/16.0.2/annotations-16.0.2.jar
+Download https://repo.maven.apache.org/maven2/io/reactivex/rxjava2/rxjava/2.1.17/rxjava-2.1.17.jar
+
+> Task :cleanBuildDir UP-TO-DATE
+> Task :clean UP-TO-DATE
+> Task :jadx-cli:clean UP-TO-DATE
+> Task :jadx-core:clean UP-TO-DATE
+> Task :jadx-gui:clean UP-TO-DATE
+> Task :jadx-samples:cleanGeneratedFiles UP-TO-DATE
+> Task :jadx-samples:clean UP-TO-DATE
+> Task :jadx-test-app:deleteTmp UP-TO-DATE
+> Task :jadx-test-app:clean UP-TO-DATE
+> Task :compileJava NO-SOURCE
+
+> Task :jadx-core:compileJava
+/results/skylot-jadx/RELEASES/156e4209f98946a28be78a1dd4565383c922ba0b/jadx-core/src/main/java/jadx/core/dex/instructions/args/LiteralArg.java:68: warning: [deprecation] literalToString(long,ArgType) in TypeGen has been deprecated
+			String value = TypeGen.literalToString(literal, getType());
+			                      ^
+/results/skylot-jadx/RELEASES/156e4209f98946a28be78a1dd4565383c922ba0b/jadx-core/src/main/java/jadx/core/dex/visitors/ModVisitor.java:240: warning: [deprecation] resolveMethod(@org.jetbrains.annotations.NotNull MethodInfo) in DexNode has been deprecated
+		MethodNode callMthNode = mth.dex().resolveMethod(callMth);
+		                                  ^
+/results/skylot-jadx/RELEASES/156e4209f98946a28be78a1dd4565383c922ba0b/jadx-core/src/main/java/jadx/core/dex/visitors/ModVisitor.java:338: warning: [deprecation] resolveMethod(@org.jetbrains.annotations.NotNull MethodInfo) in DexNode has been deprecated
+		MethodNode callMth = mth.dex().resolveMethod(co.getCallMth());
+		                              ^
+/results/skylot-jadx/RELEASES/156e4209f98946a28be78a1dd4565383c922ba0b/jadx-core/src/main/java/jadx/core/dex/visitors/ExtractFieldInit.java:157: warning: [deprecation] resolveField(FieldInfo) in DexNode has been deprecated
+			FieldNode field = cls.dex().resolveField(fieldInfo);
+			                           ^
+/results/skylot-jadx/RELEASES/156e4209f98946a28be78a1dd4565383c922ba0b/jadx-core/src/main/java/jadx/core/dex/visitors/ExtractFieldInit.java:173: warning: [deprecation] resolveField(FieldInfo) in DexNode has been deprecated
+			FieldNode field = cls.dex().resolveField(fieldInfo);
+			                           ^
+/results/skylot-jadx/RELEASES/156e4209f98946a28be78a1dd4565383c922ba0b/jadx-core/src/main/java/jadx/core/dex/visitors/ReSugarCode.java:203: warning: [deprecation] resolveField(FieldInfo) in DexNode has been deprecated
+		FieldNode fieldNode = dex.resolveField((FieldInfo) index);
+		                         ^
+/results/skylot-jadx/RELEASES/156e4209f98946a28be78a1dd4565383c922ba0b/jadx-core/src/main/java/jadx/core/dex/visitors/ReSugarCode.java:234: warning: [deprecation] resolveField(FieldInfo) in DexNode has been deprecated
+		FieldNode enumMapField = dex.resolveField((FieldInfo) index);
+		                            ^
+/results/skylot-jadx/RELEASES/156e4209f98946a28be78a1dd4565383c922ba0b/jadx-core/src/main/java/jadx/core/dex/visitors/typeinference/PostTypeInference.java:73: warning: [deprecation] resolveMethod(@org.jetbrains.annotations.NotNull MethodInfo) in DexNode has been deprecated
+				MethodNode node = mth.dex().resolveMethod(callMth);
+				                           ^
+/results/skylot-jadx/RELEASES/156e4209f98946a28be78a1dd4565383c922ba0b/jadx-core/src/main/java/jadx/core/codegen/InsnGen.java:575: warning: [deprecation] resolveMethod(@org.jetbrains.annotations.NotNull MethodInfo) in DexNode has been deprecated
+		MethodNode callMth = mth.dex().resolveMethod(insn.getCallMth());
+		                              ^
+/results/skylot-jadx/RELEASES/156e4209f98946a28be78a1dd4565383c922ba0b/jadx-core/src/main/java/jadx/core/codegen/InsnGen.java:607: warning: [deprecation] resolveMethod(@org.jetbrains.annotations.NotNull MethodInfo) in DexNode has been deprecated
+		MethodNode callMth = mth.dex().resolveMethod(insn.getCallMth());
+		                              ^
+/results/skylot-jadx/RELEASES/156e4209f98946a28be78a1dd4565383c922ba0b/jadx-core/src/main/java/jadx/core/codegen/ClassGen.java:407: warning: [deprecation] resolveMethod(@org.jetbrains.annotations.NotNull MethodInfo) in DexNode has been deprecated
+				MethodNode callMth = cls.dex().resolveMethod(constrInsn.getCallMth());
+				                              ^
+11 warnings
+
+> Task :jadx-core:compileGroovy NO-SOURCE
+> Task :jadx-core:processResources
+> Task :jadx-core:classes
+> Task :jadx-core:jar
+> Task :jadx-cli:compileJava
+> Task :jadx-cli:compileGroovy NO-SOURCE
+> Task :jadx-cli:processResources
+> Task :jadx-cli:classes
+> Task :jadx-cli:jar
+
+> Task :jadx-gui:compileJava
+/results/skylot-jadx/RELEASES/156e4209f98946a28be78a1dd4565383c922ba0b/jadx-gui/src/main/java/jadx/gui/treemodel/JCertificate.java:12: warning: [serial] serializable class JCertificate has no definition of serialVersionUID
+public class JCertificate extends JNode {
+       ^
+/results/skylot-jadx/RELEASES/156e4209f98946a28be78a1dd4565383c922ba0b/jadx-gui/src/main/java/jadx/gui/ui/CertificatePanel.java:8: warning: [serial] serializable class CertificatePanel has no definition of serialVersionUID
+public class CertificatePanel extends ContentPanel {
+       ^
+2 warnings
+
+> Task :jadx-samples:compileJava
+> Task :jadx-test-app:compileJava NO-SOURCE
+
+BUILD SUCCESSFUL in 33s
+17 actionable tasks: 8 executed, 9 up-to-date

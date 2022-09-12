@@ -1,0 +1,62 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. See https://docs.gradle.org/7.4.2/userguide/gradle_daemon.html#sec:disabling_the_daemon.
+Daemon will be stopped at the end of the build 
+> Task :buildSrc:extractPluginRequests
+> Task :buildSrc:generatePluginAdapters
+> Task :buildSrc:compileJava
+> Task :buildSrc:compileGroovy NO-SOURCE
+> Task :buildSrc:compileGroovyPlugins
+> Task :buildSrc:pluginDescriptors
+> Task :buildSrc:processResources
+> Task :buildSrc:classes
+> Task :buildSrc:jar
+> Task :buildSrc:assemble
+> Task :buildSrc:pluginUnderTestMetadata
+> Task :buildSrc:compileTestJava NO-SOURCE
+> Task :buildSrc:compileTestGroovy NO-SOURCE
+> Task :buildSrc:processTestResources NO-SOURCE
+> Task :buildSrc:testClasses UP-TO-DATE
+> Task :buildSrc:test NO-SOURCE
+> Task :buildSrc:validatePlugins
+> Task :buildSrc:check
+> Task :buildSrc:build
+
+> Configure project :
+jadx version: dev
+The CreateStartScripts.mainClassName property has been deprecated. This is scheduled to be removed in Gradle 8.0. Please use the mainClass property instead. See https://docs.gradle.org/7.4.2/dsl/org.gradle.jvm.application.tasks.CreateStartScripts.html#org.gradle.jvm.application.tasks.CreateStartScripts:mainClassName for more details.
+
+> Task :jadx-plugins:jadx-java-input:clean UP-TO-DATE
+> Task :jadx-plugins:jadx-smali-input:clean UP-TO-DATE
+> Task :jadx-plugins:jadx-dex-input:clean UP-TO-DATE
+> Task :jadx-gui:clean UP-TO-DATE
+> Task :jadx-core:clean UP-TO-DATE
+> Task :jadx-cli:clean UP-TO-DATE
+> Task :jadx-plugins:clean UP-TO-DATE
+> Task :jadx-plugins:jadx-raung-input:clean UP-TO-DATE
+> Task :jadx-plugins:jadx-java-convert:clean UP-TO-DATE
+> Task :jadx-plugins:jadx-plugins-api:clean UP-TO-DATE
+> Task :cleanBuildDir UP-TO-DATE
+> Task :clean
+> Task :jadx-plugins:compileJava NO-SOURCE
+> Task :compileJava NO-SOURCE
+> Task :jadx-cli:processResources
+> Task :jadx-plugins:jadx-plugins-api:compileJava
+> Task :jadx-plugins:jadx-dex-input:compileJava
+> Task :jadx-plugins:jadx-java-input:compileJava
+> Task :jadx-plugins:jadx-smali-input:compileJava
+> Task :jadx-plugins:jadx-raung-input:compileJava
+> Task :jadx-plugins:jadx-java-convert:compileJava
+
+> Task :jadx-core:compileJava
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :jadx-cli:compileJava
+> Task :jadx-cli:classes
+> Task :jadx-cli:jar
+
+> Task :jadx-gui:compileJava
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+BUILD SUCCESSFUL in 20s
+32 actionable tasks: 21 executed, 11 up-to-date

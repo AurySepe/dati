@@ -1,0 +1,191 @@
+COH	DAC	ELOC	HALSTEADLENGHT	HALSTEADVOCABULARY	HALSTEADVOLUME	ID	LCC	LCOM	LOC	MCCABEMETRIC	MPC	NAME	NOA	NOO	NUMBEROFCHILDREN	NUMBEROFIMPORTS	NUMBOFATTRIBUTES	NUMBOFMETHODS	PATTERNROLE	PATTERNTYPE	RFC	TCC
+0	5	51	147	445	896.4169194784373	236	0	4	147	12	14	com.lmax.disruptor.translator.OneToOneTranslatorThroughputTest	3	2	0	13	6	5			19	0
+0	1	18	40	94	181.73179129080015	245	1	0	28	5	0	com.lmax.disruptor.immutable.SimpleEvent	0	0	0	0	4	3			3	1
+0	3	41	77	216	413.8964373916807	247	-1	8	75	11	13	com.lmax.disruptor.immutable.SimplePerformanceTest	0	0	0	5	3	5			18	-1
+1	1	10	29	50	113.44866715741624	244	0	0	20	3	1	com.lmax.disruptor.immutable.EventHolderHandler	0	0	0	1	1	2			3	0
+-1	0	3	9	10	20.723265836946414	242	0	0	6	1	0	com.lmax.disruptor.immutable.EventAccessor	0	0	0	0	0	1			1	0
+0	1	32	62	162	315.4309727844078	240	-1	4	59	10	11	com.lmax.disruptor.immutable.CustomPerformanceTest	0	0	0	4	1	4			15	-1
+0	2	9	19	36	68.08685983066609	243	0	0	18	2	0	com.lmax.disruptor.immutable.EventHolder	0	0	0	1	2	1			1	0
+1	1	6	21	33	73.42665879079608	246	0	0	14	2	1	com.lmax.disruptor.immutable.SimpleEventHandler	0	0	0	1	1	1			2	0
+-1	2	4	16	22	49.45667925373306	239	-1	0	7	0	0	com.lmax.disruptor.immutable.Constants	0	0	0	0	2	0			0	-1
+0	3	53	88	315	506.2263922166557	241	1	3	99	10	8	com.lmax.disruptor.immutable.CustomRingBuffer	0	0	0	5	3	6			14	1
+0	1	24	77	180	399.8576775185462	228	0	4	56	9	11	com.lmax.disruptor.AbstractPerfTestDisruptor	0	0	18	0	1	4			15	0
+0	1	24	77	180	399.8576775185462	229	0	4	59	9	11	com.lmax.disruptor.AbstractPerfTestQueue	0	0	6	0	1	4			15	0
+0	5	152	180	802	1203.6795494159726	213	8	0	280	47	75	com.lmax.disruptor.SequencerTest	0	0	0	14	5	21			96	8
+-1	0	8	20	36	71.6703787691222	28	0	0	32	1	1	com.lmax.disruptor.IgnoreExceptionHandlerTest	0	0	0	2	0	1			2	0
+0	3	809	426	4455	3579.1592767994916	30	-1	0	1484	164	348	com.lmax.disruptor.RingBufferTest	0	0	0	21	3	79			427	-1
+-1	0	18	23	76	99.60686682658562	164	-1	6	52	8	12	com.lmax.disruptor.PhasedBackoffWaitStrategyTest	0	0	0	3	0	4			16	0
+0	3	49	88	294	500.15501952580394	217	1	0	100	5	6	com.lmax.disruptor.ShutdownOnFatalExceptionTest	0	0	0	7	3	3			9	1
+-1	0	19	44	103	203.92807548210396	281	0	0	40	3	4	com.lmax.disruptor.LiteTimeoutBlockingWaitStrategyTest	0	0	0	5	0	1			5	0
+0	1	45	63	264	351.2847934982179	134	-1	9	101	14	15	com.lmax.disruptor.AggregateEventHandlerTest	0	0	0	4	3	7			22	0
+-1	0	54	89	355	522.618483263312	258	-1	15	92	17	20	com.lmax.disruptor.EventPollerTest	0	0	0	5	0	6			26	-1
+0	2	88	102	575	648.1457441613297	288	2	0	176	9	8	com.lmax.disruptor.RingBufferWithAssertingStubTest	0	0	0	6	2	5			13	2
+-1	0	5	13	19	38.277706729163725	168	0	0	29	2	1	com.lmax.disruptor.SleepingWaitStrategyTest	0	0	0	2	0	1			2	0
+-1	0	5	13	19	38.277706729163725	170	0	0	30	2	1	com.lmax.disruptor.YieldingWaitStrategyTest	0	0	0	2	0	1			2	0
+0	1	122	143	769	950.2480086393072	32	-1	0	215	22	54	com.lmax.disruptor.SequenceBarrierTest	0	0	0	9	1	10			64	2
+-1	0	79	62	387	369.4223309678465	125	-1	36	147	12	37	com.lmax.disruptor.SequenceGroupTest	0	0	0	4	0	9			46	0
+1	1	35	62	204	329.7234396183414	57	0	0	81	2	14	com.lmax.disruptor.SequenceReportingCallbackTest	0	0	0	5	2	1			15	0
+0	2	24	48	130	233.64165362186793	116	0	1	66	5	14	com.lmax.disruptor.EventPublisherTest	0	0	0	5	2	3			17	0
+-1	0	19	44	103	203.92807548210396	206	0	0	40	3	4	com.lmax.disruptor.TimeoutBlockingWaitStrategyTest	0	0	0	5	0	1			5	0
+1	2	87	96	562	607.8241775897943	25	1	0	190	9	28	com.lmax.disruptor.BatchEventProcessorTest	0	0	0	10	2	4			32	1
+-1	0	5	13	19	38.277706729163725	165	0	0	30	2	1	com.lmax.disruptor.BusySpinWaitStrategyTest	0	0	0	2	0	1			2	0
+0	1	97	151	661	980.5568298176046	285	0	3	174	10	16	com.lmax.disruptor.WorkerStressTest	0	0	0	13	1	3			19	0
+0	1	104	169	736	1115.60789006518	214	0	3	187	10	16	com.lmax.disruptor.DisruptorStressTest	0	0	0	13	1	3			19	0
+-1	0	12	24	53	95.28700592525092	162	0	0	40	2	4	com.lmax.disruptor.FixedSequenceGroupTest	0	0	0	3	0	1			5	0
+-1	0	34	50	174	257.9527649607264	218	-1	1	77	4	15	com.lmax.disruptor.WorkerPoolTest	0	0	0	7	0	2			17	0
+-1	0	12	28	67	117.73139334294704	290	0	0	26	3	6	com.lmax.disruptor.SingleProducerSequencerTest	0	0	0	3	0	1			7	0
+1	1	14	26	57	105.11933296369831	193	0	0	41	3	4	com.lmax.disruptor.MultiProducerSequencerTest	0	0	0	3	1	1			5	0
+0	5	30	56	173	288.58432929187563	91	0	0	77	3	6	com.lmax.disruptor.LifecycleAwareTest	0	0	0	6	6	1			7	0
+0	1	31	65	189	340.71355597887674	255	0	4	59	11	5	com.lmax.disruptor.RingBufferEventMatcher	0	0	0	5	1	5			10	0
+0	1	62	117	411	704.1754060960594	263	-1	4	117	8	9	com.lmax.disruptor.BatchingTest	0	0	0	13	1	4			13	0
+-1	0	13	27	65	112.70845628718219	27	0	0	41	2	3	com.lmax.disruptor.FatalExceptionHandlerTest	0	0	0	3	0	1			4	0
+1	1	18	35	102	161.87404846494948	54	0	0	53	1	4	com.lmax.disruptor.EventTranslatorTest	0	0	0	3	1	1			5	0
+-1	0	289	175	2991	1400.5885352602409	267	0	435	406	105	0	com.lmax.disruptor.EventSink	0	0	0	0	0	30			30	0
+-1	0	21	131	276	736.2725134089466	49	0	1	48	7	0	com.lmax.disruptor.WaitStrategy	0	0	0	0	0	2	strategy	Strategy	2	0
+-1	0	3	9	10	20.723265836946414	209	0	0	21	1	0	com.lmax.disruptor.DataProvider	0	0	0	0	0	1	state	State	1	0
+0	8	128	218	883	1478.7648937316633	127	-1	2	219	24	21	com.lmax.disruptor.WorkProcessor	0	0	0	1	9	9	context	State	30	1
+-1	0	13	58	83	256.2927552522027	90	0	1	36	4	0	com.lmax.disruptor.LifecycleAware	0	0	0	0	0	2			2	0
+-1	0	15	75	124	361.5211174203778	150	0	0	35	2	0	com.lmax.disruptor.EventTranslatorTwoArg	0	0	0	0	0	1			1	0
+-1	0	14	71	106	331.10417568195675	148	0	0	34	2	0	com.lmax.disruptor.EventTranslatorOneArg	0	0	0	0	0	1			1	0
+-1	0	3	12	13	30.779392289538443	205	0	0	6	2	0	com.lmax.disruptor.TimeoutHandler	0	0	0	0	0	1	state	State	1	0
+-1	0	10	38	52	150.14726130609424	207	0	0	32	2	0	com.lmax.disruptor.Cursored	0	0	0	0	0	1			1	0
+0	1	23	73	142	361.77537520489204	13	2	0	59	6	3	com.lmax.disruptor.FatalExceptionHandler	0	0	0	2	2	5			8	2
+0	1	26	83	172	427.24204157551657	140	0	3	66	10	4	com.lmax.disruptor.YieldingWaitStrategy	0	0	0	0	1	3			7	0
+-1	0	37	109	239	596.9345271605347	22	0	15	66	18	0	com.lmax.disruptor.SequenceBarrier	0	0	0	0	0	6	state	State	6	0
+0	3	73	142	559	898.313225188024	154	0	9	142	17	6	com.lmax.disruptor.PhasedBackoffWaitStrategy	0	0	0	1	4	6	decorator	Decorator	12	0
+0	2	39	86	257	477.22054330098894	135	1	0	86	10	9	com.lmax.disruptor.BlockingWaitStrategy	0	0	0	4	2	3			12	1
+-1	0	3	9	10	20.723265836946414	291	0	0	6	1	0	com.lmax.disruptor.BatchStartAware	0	0	0	0	0	1	state	State	1	0
+-1	0	53	168	435	1020.658133222899	268	0	36	89	26	0	com.lmax.disruptor.Sequenced	0	0	0	0	0	9			9	0
+0	5	171	336	1151	2368.257833330553	153	-1	135	299	47	34	com.lmax.disruptor.MultiProducerSequencer	18	0	0	3	7	18			52	-1
+-1	0	3	7	7	13.621371043387192	219	0	0	21	1	0	com.lmax.disruptor.EventReleaser	0	0	0	0	0	1			1	0
+0	0	8	22	33	76.92316635226257	212	0	1	18	3	0	com.lmax.disruptor.TimeoutException	0	0	0	0	1	2	singleton	Singleton	2	0
+-1	0	12	80	119	382.3298794489224	11	0	0	36	1	0	com.lmax.disruptor.EventTranslator	0	0	0	0	0	1			1	0
+-1	1	3	14	14	36.94680261461362	-1	-1	0	1131	0	0	com.lmax.disruptor.RingBufferPad	0	0	0	3	1	0			0	-1
+-1	0	7	38	45	144.65317461127214	44	0	0	29	1	0	com.lmax.disruptor.EventFactory	0	0	0	0	0	1			1	0
+-1	0	16	79	142	391.5103375504996	149	0	0	36	2	0	com.lmax.disruptor.EventTranslatorThreeArg	0	0	0	0	0	1			1	0
+0	3	43	65	282	366.7239596109774	204	1	0	80	11	9	com.lmax.disruptor.TimeoutBlockingWaitStrategy	0	0	0	4	3	4			13	1
+0	0	21	66	109	309.62896022712346	3	0	1	48	4	0	com.lmax.disruptor.AlertException	0	0	0	0	1	2	singleton	Singleton	2	0
+0	4	50	88	339	512.6880094494796	280	1	0	91	11	11	com.lmax.disruptor.LiteTimeoutBlockingWaitStrategy	0	0	0	5	4	4			15	1
+0	5	73	166	404	996.2348697415509	208	1	2	136	19	8	com.lmax.disruptor.AbstractSequencer	0	0	2	3	5	9			17	1
+-1	0	11	95	146	473.4426290622919	62	0	0	37	2	0	com.lmax.disruptor.SequenceReportingEventHandler	0	0	0	0	0	1			1	0
+-1	0	14	69	103	319.79630018784485	151	0	0	34	1	0	com.lmax.disruptor.EventTranslatorVararg	0	0	0	0	0	1			1	0
+0	1	47	70	194	368.75007113443297	152	0	15	91	14	3	com.lmax.disruptor.FixedSequenceGroup	0	0	0	2	1	7			10	0
+0	1	22	63	127	305.18378644689125	14	2	0	57	5	3	com.lmax.disruptor.IgnoreExceptionHandler	0	0	0	2	2	5			8	2
+0	0	11	58	77	251.9407144675137	147	0	1	40	3	0	com.lmax.disruptor.InsufficientCapacityException	0	0	0	0	1	2	singleton	Singleton	2	0
+-1	0	15	68	106	317.11385839962054	61	0	3	39	7	0	com.lmax.disruptor.EventProcessor	0	0	0	0	0	3	state	State	3	0
+0	3	47	103	342	600.9855059174483	256	1	0	101	11	11	com.lmax.disruptor.LiteBlockingWaitStrategy	0	0	0	5	3	3			14	1
+0	8	132	246	972	1692.321527897268	95	1	0	219	27	21	com.lmax.disruptor.BatchEventProcessor	0	0	0	1	8	9	context	State	30	1
+-1	0	56	98	386	583.6720622075534	200	-1	3	108	13	8	com.lmax.disruptor.SequenceGroups	0	0	0	2	0	3			11	0
+-1	0	3	9	10	20.723265836946414	223	0	0	21	1	0	com.lmax.disruptor.EventReleaseAware	0	0	0	0	0	1			1	0
+-1	0	2	7	7	13.621371043387192	266	-1	0	6	0	0	com.lmax.disruptor.EventSequencer	0	0	0	0	0	0			0	-1
+-1	1	3	13	13	33.34434164699998	-1	-1	0	166	0	0	com.lmax.disruptor.LhsPadding	0	0	0	2	1	0			0	-1
+-1	0	15	75	123	360.9138266529313	136	0	1	49	5	3	com.lmax.disruptor.BusySpinWaitStrategy	0	0	0	1	0	2			5	0
+-1	0	15	87	148	434.75746781747796	43	0	0	35	3	0	com.lmax.disruptor.EventHandler	0	0	0	0	0	1	state	State	1	0
+0	2	70	166	451	1014.5035783574447	124	1	3	125	14	6	com.lmax.disruptor.SequenceGroup	0	0	0	2	2	7			13	1
+0	4	65	100	400	599.1464547107981	257	1	0	103	13	5	com.lmax.disruptor.EventPoller	0	0	0	0	5	4	context	State	9	1
+0	2	43	110	271	616.2330702967671	139	0	5	95	13	5	com.lmax.disruptor.SleepingWaitStrategy	0	0	0	1	4	6			11	0
+-1	0	22	77	170	395.4564796528702	9	0	3	48	9	0	com.lmax.disruptor.ExceptionHandler	0	0	0	0	0	3	state	State	3	0
+0	1	6	23	30	78.22753977822957	-1	0	0	233	1	0	com.lmax.disruptor.SingleProducerSequencerPad	1	0	0	2	1	1			1	0
+0	4	96	230	731	1516.715095742449	128	2	0	182	19	19	com.lmax.disruptor.WorkerPool	0	0	0	3	4	7	adaptee	(Object)Adapter	26	2
+0	1	51	192	450	1172.9755358907582	121	0	28	94	20	0	com.lmax.disruptor.Sequencer	0	0	0	0	1	8	creator	Factory Method	8	0
+1	1	33	83	235	453.1455976739652	133	1	0	72	10	3	com.lmax.disruptor.AggregateEventHandler	0	0	0	0	1	4			7	1
+0	4	47	90	245	495.11323894902546	98	-1	0	99	16	5	com.lmax.disruptor.ProcessingSequenceBarrier	0	0	0	0	5	7	context	Strategy	12	-1
+-1	0	13	67	98	307.19282107092835	126	0	0	33	3	0	com.lmax.disruptor.WorkHandler	0	0	0	0	0	1			1	0
+0	2	41	89	223	481.2382876599506	83	0	2	86	9	3	com.lmax.disruptor.NoOpEventProcessor	0	0	0	1	2	5			8	0
+0	6	67	91	350	533.0719170579947	75	1	0	115	12	5	com.lmax.disruptor.support.FunctionQueueProcessor	0	0	0	2	9	5			10	1
+-1	0	19	36	113	170.18596147364428	114	0	3	46	9	0	com.lmax.disruptor.support.PerfTestUtil	0	0	0	0	0	3			3	0
+0	3	31	38	127	184.07910928542645	78	1	7	65	11	0	com.lmax.disruptor.support.FizzBuzzEvent	0	0	0	1	4	7			7	1
+0	4	35	66	133	322.7630424626357	74	1	0	73	10	11	com.lmax.disruptor.support.FunctionEventHandler	0	0	0	3	4	4			15	1
+1	1	10	23	43	86.50760266095193	199	0	0	35	4	1	com.lmax.disruptor.support.ValueAdditionWorkHandler	0	0	0	1	1	2			3	0
+1	3	28	58	186	303.0933070753657	252	0	0	64	5	4	com.lmax.disruptor.support.LongArrayPublisher	0	0	0	2	4	2			6	0
+1	4	29	61	199	322.89159430819404	227	0	0	65	5	5	com.lmax.disruptor.support.ValueBatchPublisher	0	0	0	2	4	2			7	0
+0	3	19	45	104	208.99759046136177	65	1	0	51	6	6	com.lmax.disruptor.support.ValueAdditionEventHandler	0	0	0	3	3	3			9	1
+0	5	53	86	336	500.2715597568356	278	1	0	106	13	6	com.lmax.disruptor.support.ValueAdditionBatchQueueProcessor	0	0	0	3	7	6			12	1
+0	3	16	37	82	163.04861214877738	222	0	0	48	4	3	com.lmax.disruptor.support.EventCountingAndReleasingWorkHandler	0	0	0	4	3	3			6	0
+0	4	39	70	159	354.8232941554162	79	1	0	79	10	10	com.lmax.disruptor.support.FizzBuzzEventHandler	0	0	0	3	4	4			14	1
+0	5	42	60	236	327.82990830153665	68	1	0	82	10	4	com.lmax.disruptor.support.ValueMutationQueueProcessor	0	0	0	2	7	5			9	1
+0	4	26	45	142	223.01221759205674	130	0	0	59	6	3	com.lmax.disruptor.support.EventCountingQueueProcessor	0	0	0	2	4	3			6	0
+1	2	11	30	58	121.81329031639257	131	0	0	38	3	2	com.lmax.disruptor.support.EventCountingWorkHandler	0	0	0	2	2	2			4	0
+1	3	21	44	120	210.64963668241	70	0	0	51	5	3	com.lmax.disruptor.support.ValueQueuePublisher	0	0	0	2	3	2			5	0
+0	6	69	94	367	555.1040137171296	80	1	0	118	12	6	com.lmax.disruptor.support.FizzBuzzQueueProcessor	0	0	0	2	10	5			11	1
+1	3	24	48	146	239.21311784200014	69	0	0	56	5	5	com.lmax.disruptor.support.ValuePublisher	0	0	0	2	3	2			7	0
+0	4	23	48	120	229.7996036535382	67	1	0	57	7	7	com.lmax.disruptor.support.ValueMutationEventHandler	0	0	0	3	4	4			11	1
+0	3	21	52	121	249.38110837103056	251	1	0	54	7	5	com.lmax.disruptor.support.LongArrayEventHandler	0	0	0	3	3	3			8	1
+0	6	75	108	501	671.3934589171654	253	1	5	127	20	12	com.lmax.disruptor.support.MultiBufferBatchEventProcessor	0	0	0	2	6	7			19	1
+0	4	40	56	223	302.80161920176664	66	1	0	79	10	3	com.lmax.disruptor.support.ValueAdditionQueueProcessor	0	0	0	2	6	5			8	1
+0	2	36	39	148	194.89127867680048	73	0	28	74	14	0	com.lmax.disruptor.support.FunctionEvent	0	0	0	1	5	9			9	0
+0	2	15	24	61	98.66097274015948	59	0	1	41	5	0	com.lmax.disruptor.support.ValueEvent	0	0	0	1	2	3			3	0
+0	4	54	76	276	427.15046579450336	37	-1	13	102	16	3	com.lmax.disruptor.support.StubEvent	0	0	0	2	4	10			13	-1
+0	2	27	41	113	193.82290056720598	287	-1	9	55	11	4	com.lmax.disruptor.support.DummyEventProcessor	0	0	0	4	2	7			11	0
+0	1	9	29	50	113.44866715741624	286	0	1	22	4	0	com.lmax.disruptor.support.DummyWaitStrategy	0	0	0	1	1	2			2	0
+1	4	23	50	128	242.60151319598086	55	0	0	62	5	4	com.lmax.disruptor.support.TestWaiter	0	0	0	6	5	2			6	0
+1	1	11	33	59	134.55873564888876	169	0	0	45	2	5	com.lmax.disruptor.support.WaitStrategyTestUtil	0	0	0	9	1	1			6	0
+0	3	16	32	72	136.85331580851377	289	0	3	31	4	0	com.lmax.disruptor.support.DummyEventHandler	0	0	0	2	4	3			3	0
+0	1	11	21	45	79.93991228517672	38	0	1	35	4	0	com.lmax.disruptor.support.TestEvent	0	0	0	1	1	2			2	0
+0	4	26	47	134	230.19847059769282	167	0	0	60	6	6	com.lmax.disruptor.support.SequenceUpdater	0	0	0	4	4	3			9	0
+-1	0	17	27	73	115.84240491100655	166	0	15	56	11	0	com.lmax.disruptor.support.DummySequenceBarrier	0	0	0	2	0	6			6	0
+0	2	15	25	60	102.35861405555251	117	0	1	42	5	0	com.lmax.disruptor.support.LongEvent	0	0	0	1	2	3			3	0
+0	3	39	67	241	367.4813945438739	269	-1	2	70	9	9	com.lmax.disruptor.primitive.LongRingBuffer	0	0	0	4	3	5			14	-1
+0	5	72	167	641	1079.3259193057518	211	0	4	179	11	11	com.lmax.disruptor.raw.OneToOneRawBatchThroughputTest	2	2	0	11	5	4			15	0
+0	5	70	163	623	1048.8310825623548	210	0	4	177	11	11	com.lmax.disruptor.raw.OneToOneRawThroughputTest	2	2	0	11	5	4			15	0
+0	9	110	168	698	1100.1008092640786	237	0	6	190	11	14	com.lmax.disruptor.offheap.OneToOneOffHeapThroughputTest	3	2	0	17	10	5			19	0
+0	9	93	144	580	916.276046909827	238	0	6	162	11	18	com.lmax.disruptor.offheap.OneToOneOnHeapThroughputTest	3	2	0	14	10	5			23	0
+0	9	45	140	506	871.7151337002452	64	0	3	152	8	8	com.lmax.disruptor.sequenced.ThreeToOneSequencedThroughputTest	1	2	0	15	10	3			11	0
+0	7	59	161	725	1060.3736364316026	77	0	3	175	8	13	com.lmax.disruptor.sequenced.OneToThreeDiamondSequencedThroughputTest	1	2	0	14	14	3			16	0
+0	9	129	224	1063	1561.0224847485963	224	-1	0	267	8	14	com.lmax.disruptor.sequenced.PingPongSequencedLatencyTest	0	0	0	11	13	4			18	-1
+0	7	47	130	398	778.2387606869769	58	0	4	133	11	17	com.lmax.disruptor.sequenced.OneToOneSequencedThroughputTest	2	2	0	14	8	4			21	0
+0	7	51	140	442	852.7833834908777	249	0	4	138	11	17	com.lmax.disruptor.sequenced.OneToOneSequencedBatchThroughputTest	2	2	0	14	9	4			21	0
+0	8	56	146	459	894.8413306688396	254	0	6	144	13	16	com.lmax.disruptor.sequenced.OneToOneSequencedLongArrayThroughputTest	3	2	0	13	9	5			21	0
+0	6	87	177	700	1159.5412193026825	259	0	4	196	11	17	com.lmax.disruptor.sequenced.OneToOneSequencedPollerThroughputTest	2	2	0	14	7	4			21	0
+0	10	57	147	509	916.1698584329268	250	0	4	156	10	7	com.lmax.disruptor.sequenced.ThreeToThreeSequencedThroughputTest	2	2	0	14	12	4			11	0
+0	9	46	142	509	885.0076183501742	226	0	3	152	8	8	com.lmax.disruptor.sequenced.ThreeToOneSequencedBatchThroughputTest	1	2	0	15	10	3			11	0
+0	7	65	166	748	1098.4888943437634	71	0	3	169	8	14	com.lmax.disruptor.sequenced.OneToThreePipelineSequencedThroughputTest	1	2	0	14	16	3			17	0
+0	8	58	145	608	929.4753578850942	60	0	3	163	8	13	com.lmax.disruptor.sequenced.OneToThreeSequencedThroughputTest	1	2	0	14	9	3			16	0
+0	9	62	94	327	544.2562560643419	129	0	8	147	13	13	com.lmax.disruptor.workhandler.OneToThreeWorkerPoolThroughputTest	3	2	0	15	10	5			18	0
+0	7	56	87	295	494.76685600156435	221	0	8	137	13	14	com.lmax.disruptor.workhandler.OneToThreeReleasingWorkerPoolThroughputTest	3	2	0	12	8	5			19	0
+0	10	60	142	457	869.7050415069771	198	0	3	157	9	9	com.lmax.disruptor.workhandler.TwoToTwoWorkProcessorThroughputTest	1	2	0	17	11	3			12	0
+0	5	33	104	249	573.8151012323295	277	0	3	97	8	9	com.lmax.disruptor.queue.OneToOneQueueBatchedThroughputTest	1	2	0	5	6	3			12	0
+0	6	58	176	920	1201.0897659275831	231	0	3	190	8	10	com.lmax.disruptor.queue.OneToThreeDiamondQueueThroughputTest	1	2	0	11	12	3			13	0
+0	7	43	129	375	764.5734573501829	235	0	3	137	8	8	com.lmax.disruptor.queue.ThreeToOneQueueThroughputTest	1	2	0	11	8	3			11	0
+0	6	61	155	540	975.1932166315397	232	0	3	153	8	9	com.lmax.disruptor.queue.OneToThreePipelineQueueThroughputTest	1	2	0	11	12	3			12	0
+0	6	58	138	487	853.9804489853974	233	0	3	158	8	11	com.lmax.disruptor.queue.OneToThreeQueueThroughputTest	1	2	0	11	7	3			14	0
+0	5	33	105	251	580.1725586088372	230	0	3	97	8	9	com.lmax.disruptor.queue.OneToOneQueueThroughputTest	1	2	0	5	6	3			12	0
+0	7	114	202	1014	1398.174953198528	234	-1	0	226	8	14	com.lmax.disruptor.queue.PingPongQueueLatencyTest	0	0	0	4	9	4			18	-1
+-1	0	37	67	227	363.471651171254	271	0	3	71	9	7	com.lmax.disruptor.example.PullWithPoller	0	0	0	3	0	3			10	0
+0	1	17	36	83	159.07826188067753	264	0	2	34	5	5	com.lmax.disruptor.example.NamedEventHandler	0	0	0	2	2	4			9	0
+-1	0	53	101	378	599.4243137575784	293	0	0	100	2	6	com.lmax.disruptor.example.Pipeliner	0	0	0	5	0	1			7	0
+0	2	37	50	214	268.2988007510926	283	0	10	62	9	3	com.lmax.disruptor.example.SequentialThreeConsumers	0	0	0	4	4	5			8	0
+1	1	59	101	370	597.2638035694653	272	0	0	101	4	7	com.lmax.disruptor.example.MultiProducerWithTranslator	0	0	0	8	1	1			8	0
+0	3	22	50	117	238.10869673988782	282	0	0	42	5	5	com.lmax.disruptor.example.KeyedBatching	0	0	0	3	3	2			7	0
+-1	0	44	72	282	406.2173091075442	270	0	0	86	2	4	com.lmax.disruptor.example.ThreeToOneDisruptor	0	0	0	6	0	1			5	0
+1	1	36	74	263	412.3393983811546	279	0	0	68	8	6	com.lmax.disruptor.example.HandleExceptionOnTranslate	0	0	0	5	1	2			8	0
+-1	0	70	97	491	601.0550803960684	295	0	10	132	8	9	com.lmax.disruptor.example.ShutdownOnError	0	0	0	8	0	5			14	0
+-1	0	30	59	177	305.3928342218559	274	0	0	75	2	9	com.lmax.disruptor.example.DynamiclyAddHandler	0	0	0	7	0	1			10	0
+1	1	29	57	169	292.4042267506152	284	0	0	65	2	11	com.lmax.disruptor.example.WaitForShutdown	0	0	0	8	1	1			12	0
+-1	0	13	51	73	218.81343149856795	273	0	0	162	3	3	com.lmax.disruptor.example.PullWithBatchedPoller	0	0	0	3	0	1			4	0
+0	4	62	93	336	540.991337876578	179	3	0	130	19	26	com.lmax.disruptor.dsl.ConsumerRepositoryTest	0	0	0	11	7	7			33	3
+0	7	495	392	2828	3115.3514105904537	178	-1	0	910	132	237	com.lmax.disruptor.dsl.DisruptorTest	0	0	0	42	7	58			295	16
+0	3	30	41	123	197.2995585702691	202	1	4	60	12	4	com.lmax.disruptor.dsl.WorkerPoolInfo	0	0	0	2	3	8	adapter	(Object)Adapter	12	1
+0	2	32	69	183	359.45454454605806	275	0	2	62	9	12	com.lmax.disruptor.dsl.BasicExecutor	0	0	0	7	2	4			16	0
+1	2	26	87	163	443.1562674701883	176	0	0	64	5	4	com.lmax.disruptor.dsl.ExceptionHandlerSetting	0	0	0	4	2	2			6	0
+0	3	65	135	405	810.5247540593828	201	-1	27	123	25	26	com.lmax.disruptor.dsl.ConsumerRepository	0	0	0	2	3	11			37	-1
+0	3	94	205	988	1413.614953038313	173	-1	3	202	33	13	com.lmax.disruptor.dsl.EventHandlerGroup	0	0	0	6	3	10			23	-1
+-1	0	12	59	83	260.7115958599993	262	0	0	24	3	0	com.lmax.disruptor.dsl.EventProcessorFactory	0	0	0	3	0	1			1	0
+-1	0	9	17	27	56.029226722073595	99	0	21	23	7	0	com.lmax.disruptor.dsl.ConsumerInfo	0	0	0	3	0	7			7	0
+0	4	44	87	214	466.83991330690105	174	1	9	101	16	4	com.lmax.disruptor.dsl.EventProcessorInfo	0	0	0	5	4	10	context	State	14	1
+0	5	358	636	3086	5110.025336939096	172	-1	220	640	107	56	com.lmax.disruptor.dsl.Disruptor	0	0	0	21	5	37	context	State	93	-1
+1	1	15	34	82	149.8284544069846	276	1	0	32	4	3	com.lmax.disruptor.dsl.ExceptionHandlerWrapper	0	0	0	2	1	4	decorator	Decorator	7	1
+0	3	41	64	203	340.0451826586744	180	-1	28	93	15	8	com.lmax.disruptor.dsl.stubs.DelayedEventHandler	0	0	0	6	3	9			17	0
+1	1	9	28	50	109.53664415198809	181	0	0	36	3	1	com.lmax.disruptor.dsl.stubs.EventHandlerStub	0	0	0	2	1	2			3	0
+1	1	15	29	76	125.5912668683036	185	1	0	47	4	3	com.lmax.disruptor.dsl.stubs.StubExceptionHandler	0	0	0	2	1	4			7	1
+0	4	42	70	247	385.6571835639584	186	0	0	89	10	14	com.lmax.disruptor.dsl.stubs.StubThreadFactory	0	0	0	7	4	4			18	0
+-1	0	5	21	32	72.78045395879425	184	0	0	28	2	1	com.lmax.disruptor.dsl.stubs.SleepingEventHandler	0	0	0	2	0	1			2	0
+0	2	18	37	85	164.37809649014173	203	-1	4	37	7	6	com.lmax.disruptor.dsl.stubs.TestWorkHandler	0	0	0	3	2	4			10	0
+0	3	21	34	91	153.3692232215729	187	0	0	53	6	2	com.lmax.disruptor.dsl.stubs.StubPublisher	0	0	0	2	3	4			6	0
+1	1	9	28	51	110.09111771628112	183	0	0	35	3	0	com.lmax.disruptor.dsl.stubs.ExceptionThrowingEventHandler	0	0	0	2	1	2			2	0
+-1	0	10	30	53	119.10875740656365	182	0	3	38	6	0	com.lmax.disruptor.dsl.stubs.EvilEqualsEventHandler	0	0	0	2	0	3			3	0
+-1	0	18	27	75	116.57217906548037	33	-1	6	55	4	8	com.lmax.disruptor.util.UtilTest	0	0	0	3	0	4			12	0
+0	1	21	59	92	266.7855260458934	118	0	3	46	5	0	com.lmax.disruptor.util.PaddedLong	3	0	0	0	1	3			3	0
+0	1	38	52	131	253.51026080645985	119	1	0	69	6	0	com.lmax.disruptor.util.MutableLong	0	0	1	0	1	5			5	1
+0	1	82	185	542	1164.6242102663346	23	-1	21	144	22	8	com.lmax.disruptor.util.Util	0	0	0	6	1	7			15	-1
+0	1	30	110	234	600.0853226893472	294	0	1	77	5	1	com.lmax.disruptor.util.ThreadHints	0	0	0	3	1	2			3	0

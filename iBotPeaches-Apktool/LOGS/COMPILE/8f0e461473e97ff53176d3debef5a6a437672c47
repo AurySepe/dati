@@ -1,0 +1,52 @@
+Downloading https://services.gradle.org/distributions/gradle-7.3.2-all.zip
+...............10%...............20%...............30%...............40%...............50%...............60%................70%...............80%...............90%...............100%
+
+Welcome to Gradle 7.3.2!
+
+Here are the highlights of this release:
+ - Easily declare new test suites in Java projects
+ - Support for Java 17
+ - Support for Scala 3
+
+For more details see https://docs.gradle.org/7.3.2/release-notes.html
+
+To honour the JVM settings for this build a single-use Daemon process will be forked. See https://docs.gradle.org/7.3.2/userguide/gradle_daemon.html#sec:disabling_the_daemon.
+Daemon will be stopped at the end of the build 
+
+> Configure project :
+Building SNAPSHOT (SNAPSHOT): 8f0e46
+
+> Task :clean UP-TO-DATE
+> Task :brut.apktool:clean UP-TO-DATE
+> Task :brut.j.common:clean UP-TO-DATE
+> Task :brut.j.dir:clean UP-TO-DATE
+> Task :brut.j.util:clean UP-TO-DATE
+> Task :brut.apktool:apktool-cli:clean UP-TO-DATE
+> Task :brut.apktool:apktool-lib:clean UP-TO-DATE
+> Task :compileJava NO-SOURCE
+> Task :brut.apktool:compileJava NO-SOURCE
+> Task :brut.j.common:compileJava
+> Task :brut.j.common:processResources NO-SOURCE
+> Task :brut.j.common:classes
+> Task :brut.j.common:jar
+
+> Task :brut.j.util:compileJava
+Note: /results/iBotPeaches-Apktool/RELEASES/8f0e461473e97ff53176d3debef5a6a437672c47/brut.j.util/src/main/java/brut/util/Duo.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :brut.j.util:processResources NO-SOURCE
+> Task :brut.j.util:classes
+> Task :brut.j.util:jar
+> Task :brut.j.dir:compileJava
+> Task :brut.j.dir:processResources NO-SOURCE
+> Task :brut.j.dir:classes
+> Task :brut.j.dir:jar
+
+> Task :brut.apktool:apktool-lib:compileJava
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :brut.apktool:apktool-cli:compileJava
+
+BUILD SUCCESSFUL in 43s
+15 actionable tasks: 8 executed, 7 up-to-date

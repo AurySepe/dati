@@ -1,0 +1,282 @@
+
+
+package org.datatransferproject.spi.cloud.types;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
+import java.time.LocalDateTime;
+import javax.annotation.Generated;
+import javax.annotation.Nullable;
+import org.datatransferproject.types.common.ExportInformation;
+
+@Generated("com.google.auto.value.processor.AutoValueProcessor")
+final class AutoValue_PortabilityJob extends PortabilityJob {
+
+  private final PortabilityJob.State state;
+
+  private final String exportService;
+
+  private final String importService;
+
+  private final String transferDataType;
+
+  private final ExportInformation exportInformation;
+
+  private final LocalDateTime createdTimestamp;
+
+  private final LocalDateTime lastUpdateTimestamp;
+
+  private final JobAuthorization jobAuthorization;
+
+  private final String failureReason;
+
+  private AutoValue_PortabilityJob(
+      PortabilityJob.State state,
+      String exportService,
+      String importService,
+      String transferDataType,
+      @Nullable ExportInformation exportInformation,
+      LocalDateTime createdTimestamp,
+      LocalDateTime lastUpdateTimestamp,
+      JobAuthorization jobAuthorization,
+      @Nullable String failureReason) {
+    this.state = state;
+    this.exportService = exportService;
+    this.importService = importService;
+    this.transferDataType = transferDataType;
+    this.exportInformation = exportInformation;
+    this.createdTimestamp = createdTimestamp;
+    this.lastUpdateTimestamp = lastUpdateTimestamp;
+    this.jobAuthorization = jobAuthorization;
+    this.failureReason = failureReason;
+  }
+
+  @JsonProperty(value = "state")
+  @Override
+  public PortabilityJob.State state() {
+    return state;
+  }
+
+  @JsonProperty(value = "exportService")
+  @Override
+  public String exportService() {
+    return exportService;
+  }
+
+  @JsonProperty(value = "importService")
+  @Override
+  public String importService() {
+    return importService;
+  }
+
+  @JsonProperty(value = "transferDataType")
+  @Override
+  public String transferDataType() {
+    return transferDataType;
+  }
+
+  @Nullable
+  @JsonProperty(value = "exportInformation")
+  @Override
+  public ExportInformation exportInformation() {
+    return exportInformation;
+  }
+
+  @JsonProperty(value = "createdTimestamp")
+  @Override
+  public LocalDateTime createdTimestamp() {
+    return createdTimestamp;
+  }
+
+  @JsonProperty(value = "lastUpdateTimestamp")
+  @Override
+  public LocalDateTime lastUpdateTimestamp() {
+    return lastUpdateTimestamp;
+  }
+
+  @JsonProperty(value = "jobAuthorization")
+  @Override
+  public JobAuthorization jobAuthorization() {
+    return jobAuthorization;
+  }
+
+  @Nullable
+  @JsonProperty(value = "failureReason")
+  @Override
+  public String failureReason() {
+    return failureReason;
+  }
+
+  @Override
+  public String toString() {
+    return "PortabilityJob{"
+         + "state=" + state + ", "
+         + "exportService=" + exportService + ", "
+         + "importService=" + importService + ", "
+         + "transferDataType=" + transferDataType + ", "
+         + "exportInformation=" + exportInformation + ", "
+         + "createdTimestamp=" + createdTimestamp + ", "
+         + "lastUpdateTimestamp=" + lastUpdateTimestamp + ", "
+         + "jobAuthorization=" + jobAuthorization + ", "
+         + "failureReason=" + failureReason
+        + "}";
+  }
+
+  @Override
+  public int hashCode() {
+    int h$ = 1;
+    h$ *= 1000003;
+    h$ ^= state.hashCode();
+    h$ *= 1000003;
+    h$ ^= exportService.hashCode();
+    h$ *= 1000003;
+    h$ ^= importService.hashCode();
+    h$ *= 1000003;
+    h$ ^= transferDataType.hashCode();
+    h$ *= 1000003;
+    h$ ^= (exportInformation == null) ? 0 : exportInformation.hashCode();
+    h$ *= 1000003;
+    h$ ^= createdTimestamp.hashCode();
+    h$ *= 1000003;
+    h$ ^= lastUpdateTimestamp.hashCode();
+    h$ *= 1000003;
+    h$ ^= jobAuthorization.hashCode();
+    h$ *= 1000003;
+    h$ ^= (failureReason == null) ? 0 : failureReason.hashCode();
+    return h$;
+  }
+
+  @Override
+  public PortabilityJob.Builder toBuilder() {
+    return new Builder(this);
+  }
+
+  static final class Builder extends PortabilityJob.Builder {
+    private PortabilityJob.State state;
+    private String exportService;
+    private String importService;
+    private String transferDataType;
+    private ExportInformation exportInformation;
+    private LocalDateTime createdTimestamp;
+    private LocalDateTime lastUpdateTimestamp;
+    private JobAuthorization jobAuthorization;
+    private String failureReason;
+    Builder() {
+    }
+    private Builder(PortabilityJob source) {
+      this.state = source.state();
+      this.exportService = source.exportService();
+      this.importService = source.importService();
+      this.transferDataType = source.transferDataType();
+      this.exportInformation = source.exportInformation();
+      this.createdTimestamp = source.createdTimestamp();
+      this.lastUpdateTimestamp = source.lastUpdateTimestamp();
+      this.jobAuthorization = source.jobAuthorization();
+      this.failureReason = source.failureReason();
+    }
+    @Override
+    public PortabilityJob.Builder setState(PortabilityJob.State state) {
+      if (state == null) {
+        throw new NullPointerException("Null state");
+      }
+      this.state = state;
+      return this;
+    }
+    @Override
+    public PortabilityJob.Builder setExportService(String exportService) {
+      if (exportService == null) {
+        throw new NullPointerException("Null exportService");
+      }
+      this.exportService = exportService;
+      return this;
+    }
+    @Override
+    public PortabilityJob.Builder setImportService(String importService) {
+      if (importService == null) {
+        throw new NullPointerException("Null importService");
+      }
+      this.importService = importService;
+      return this;
+    }
+    @Override
+    public PortabilityJob.Builder setTransferDataType(String transferDataType) {
+      if (transferDataType == null) {
+        throw new NullPointerException("Null transferDataType");
+      }
+      this.transferDataType = transferDataType;
+      return this;
+    }
+    @Override
+    public PortabilityJob.Builder setExportInformation(ExportInformation exportInformation) {
+      this.exportInformation = exportInformation;
+      return this;
+    }
+    @Override
+    public PortabilityJob.Builder setCreatedTimestamp(LocalDateTime createdTimestamp) {
+      if (createdTimestamp == null) {
+        throw new NullPointerException("Null createdTimestamp");
+      }
+      this.createdTimestamp = createdTimestamp;
+      return this;
+    }
+    @Override
+    public PortabilityJob.Builder setLastUpdateTimestamp(LocalDateTime lastUpdateTimestamp) {
+      if (lastUpdateTimestamp == null) {
+        throw new NullPointerException("Null lastUpdateTimestamp");
+      }
+      this.lastUpdateTimestamp = lastUpdateTimestamp;
+      return this;
+    }
+    @Override
+    protected PortabilityJob.Builder setJobAuthorization(JobAuthorization jobAuthorization) {
+      if (jobAuthorization == null) {
+        throw new NullPointerException("Null jobAuthorization");
+      }
+      this.jobAuthorization = jobAuthorization;
+      return this;
+    }
+    @Override
+    public PortabilityJob.Builder setFailureReason(String failureReason) {
+      this.failureReason = failureReason;
+      return this;
+    }
+    @Override
+    public PortabilityJob build() {
+      String missing = "";
+      if (this.state == null) {
+        missing += " state";
+      }
+      if (this.exportService == null) {
+        missing += " exportService";
+      }
+      if (this.importService == null) {
+        missing += " importService";
+      }
+      if (this.transferDataType == null) {
+        missing += " transferDataType";
+      }
+      if (this.createdTimestamp == null) {
+        missing += " createdTimestamp";
+      }
+      if (this.lastUpdateTimestamp == null) {
+        missing += " lastUpdateTimestamp";
+      }
+      if (this.jobAuthorization == null) {
+        missing += " jobAuthorization";
+      }
+      if (!missing.isEmpty()) {
+        throw new IllegalStateException("Missing required properties:" + missing);
+      }
+      return new AutoValue_PortabilityJob(
+          this.state,
+          this.exportService,
+          this.importService,
+          this.transferDataType,
+          this.exportInformation,
+          this.createdTimestamp,
+          this.lastUpdateTimestamp,
+          this.jobAuthorization,
+          this.failureReason);
+    }
+  }
+
+}

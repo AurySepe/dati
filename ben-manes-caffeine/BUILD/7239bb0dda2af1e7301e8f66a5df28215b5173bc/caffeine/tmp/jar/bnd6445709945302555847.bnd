@@ -1,0 +1,5 @@
+Bundle-SymbolicName=com.github.ben-manes.caffeine
+Automatic-Module-Name=com.github.benmanes.caffeine
+Bundle-License=https\://www.apache.org/licenses/LICENSE-2.0
+Import-Package=sun.misc.*;resolution\:\=optional
+Export-Package=com.github.benmanes.caffeine,com.github.benmanes.caffeine.base,com.github.benmanes.caffeine.cache,com.github.benmanes.caffeine.cache.stats

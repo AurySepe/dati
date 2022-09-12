@@ -1,0 +1,92 @@
+Downloading https://services.gradle.org/distributions/gradle-2.3-all.zip
+............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Unzipping /root/.gradle/wrapper/dists/gradle-2.3-all/w01pvxy5gty3tegjrai84pm3/gradle-2.3-all.zip to /root/.gradle/wrapper/dists/gradle-2.3-all/w01pvxy5gty3tegjrai84pm3
+Set executable permissions for: /root/.gradle/wrapper/dists/gradle-2.3-all/w01pvxy5gty3tegjrai84pm3/gradle-2.3/bin/gradle
+:cleanBuildDir UP-TO-DATE
+:clean UP-TO-DATE
+:jadx-cli:clean UP-TO-DATE
+:jadx-core:clean UP-TO-DATE
+:jadx-gui:clean UP-TO-DATE
+:jadx-samples:cleanGeneratedFiles UP-TO-DATE
+:jadx-samples:clean UP-TO-DATE
+:compileJava UP-TO-DATE
+:jadx-core:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:jadx-core:compileGroovy UP-TO-DATE
+:jadx-core:processResources UP-TO-DATE
+:jadx-core:classes
+:jadx-core:jar
+:jadx-cli:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:jadx-cli:compileGroovy UP-TO-DATE
+:jadx-cli:processResources
+:jadx-cli:classes
+:jadx-cli:jar
+:jadx-gui:compileJava
+Download https://repo1.maven.org/maven2/com/fifesoft/rsyntaxtextarea/2.5.6/rsyntaxtextarea-2.5.6.pom
+Download https://repo1.maven.org/maven2/com/fifesoft/rsyntaxtextarea/2.5.6/rsyntaxtextarea-2.5.6.jar
+warning: [options] bootstrap class path not set in conjunction with -source 1.6
+/results/skylot-jadx/RELEASES/3782aa7d0abbccb27cc338def860cd5573c33b41/jadx-gui/src/main/java/jadx/gui/treemodel/JNode.java:14: warning: [serial] serializable class JNode has no definition of serialVersionUID
+public abstract class JNode extends DefaultMutableTreeNode {
+                ^
+/results/skylot-jadx/RELEASES/3782aa7d0abbccb27cc338def860cd5573c33b41/jadx-gui/src/main/java/jadx/gui/treemodel/JRoot.java:74: warning: [rawtypes] found raw type: Enumeration
+		Enumeration en = this.breadthFirstEnumeration();
+		^
+  missing type arguments for generic class Enumeration<E>
+  where E is a type-variable:
+    E extends Object declared in interface Enumeration
+/results/skylot-jadx/RELEASES/3782aa7d0abbccb27cc338def860cd5573c33b41/jadx-gui/src/main/java/jadx/gui/ui/SearchDialog.java:74: warning: [rawtypes] found raw type: JList
+	private JList resultsList;
+	        ^
+  missing type arguments for generic class JList<E>
+  where E is a type-variable:
+    E extends Object declared in class JList
+/results/skylot-jadx/RELEASES/3782aa7d0abbccb27cc338def860cd5573c33b41/jadx-gui/src/main/java/jadx/gui/ui/SearchDialog.java:174: warning: [rawtypes] found raw type: DefaultListModel
+	private static class ResultsModel extends DefaultListModel {
+	                                          ^
+  missing type arguments for generic class DefaultListModel<E>
+  where E is a type-variable:
+    E extends Object declared in class DefaultListModel
+/results/skylot-jadx/RELEASES/3782aa7d0abbccb27cc338def860cd5573c33b41/jadx-gui/src/main/java/jadx/gui/ui/SearchDialog.java:184: warning: [unchecked] unchecked call to addElement(E) as a member of the raw type DefaultListModel
+				addElement(JNode.makeFrom(results.get(i)));
+				          ^
+  where E is a type-variable:
+    E extends Object declared in class DefaultListModel
+/results/skylot-jadx/RELEASES/3782aa7d0abbccb27cc338def860cd5573c33b41/jadx-gui/src/main/java/jadx/gui/ui/SearchDialog.java:189: warning: [rawtypes] found raw type: ListCellRenderer
+	private static class ResultsCellRenderer implements ListCellRenderer {
+	                                                    ^
+  missing type arguments for generic class ListCellRenderer<E>
+  where E is a type-variable:
+    E extends Object declared in interface ListCellRenderer
+/results/skylot-jadx/RELEASES/3782aa7d0abbccb27cc338def860cd5573c33b41/jadx-gui/src/main/java/jadx/gui/ui/SearchDialog.java:200: warning: [rawtypes] found raw type: JList
+		public Component getListCellRendererComponent(JList list,
+		                                              ^
+  missing type arguments for generic class JList<E>
+  where E is a type-variable:
+    E extends Object declared in class JList
+/results/skylot-jadx/RELEASES/3782aa7d0abbccb27cc338def860cd5573c33b41/jadx-gui/src/main/java/jadx/gui/ui/SearchDialog.java:247: warning: [rawtypes] found raw type: JList
+		resultsList = new JList(resultsModel);
+		                  ^
+  missing type arguments for generic class JList<E>
+  where E is a type-variable:
+    E extends Object declared in class JList
+/results/skylot-jadx/RELEASES/3782aa7d0abbccb27cc338def860cd5573c33b41/jadx-gui/src/main/java/jadx/gui/ui/SearchDialog.java:247: warning: [unchecked] unchecked call to JList(ListModel<E>) as a member of the raw type JList
+		resultsList = new JList(resultsModel);
+		              ^
+  where E is a type-variable:
+    E extends Object declared in class JList
+/results/skylot-jadx/RELEASES/3782aa7d0abbccb27cc338def860cd5573c33b41/jadx-gui/src/main/java/jadx/gui/ui/SearchDialog.java:248: warning: [unchecked] unchecked call to setCellRenderer(ListCellRenderer<? super E>) as a member of the raw type JList
+		resultsList.setCellRenderer(new ResultsCellRenderer());
+		                           ^
+  where E is a type-variable:
+    E extends Object declared in class JList
+11 warnings
+:jadx-samples:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+
+BUILD SUCCESSFUL
+
+Total time: 25.3 secs

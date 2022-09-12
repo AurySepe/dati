@@ -1,0 +1,184 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 48337  100 48337    0     0   191k      0 --:--:-- --:--:-- --:--:--  190k
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apollo                                                             [pom]
+[INFO] Apollo BuildTools                                                  [jar]
+[INFO] Apollo Core                                                        [jar]
+[INFO] Apollo Client                                                      [jar]
+[INFO] Apollo Common                                                      [jar]
+[INFO] Apollo Biz                                                         [jar]
+[INFO] Apollo ConfigService                                               [jar]
+[INFO] Apollo AdminService                                                [jar]
+[INFO] Apollo Open Api                                                    [jar]
+[INFO] Apollo Portal                                                      [jar]
+[INFO] Apollo Assembly                                                    [jar]
+[INFO] Apollo Demo                                                        [jar]
+[INFO] Apollo Mock Server                                                 [jar]
+[INFO] 
+[INFO] -----------------< com.ctrip.framework.apollo:apollo >------------------
+[INFO] Building Apollo 1.6.0                                             [1/13]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ apollo ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-cli) @ apollo ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] ------------< com.ctrip.framework.apollo:apollo-buildtools >------------
+[INFO] Building Apollo BuildTools 1.6.0                                  [2/13]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ apollo-buildtools ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-cli) @ apollo-buildtools ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] ---------------< com.ctrip.framework.apollo:apollo-core >---------------
+[INFO] Building Apollo Core 1.6.0                                        [3/13]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ apollo-core ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-cli) @ apollo-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 57 source files to /results/apolloconfig-apollo/RELEASES/a2ae4ad8a8442c7f7842803b50b7783997d2b984/apollo-core/target/classes
+[INFO] /results/apolloconfig-apollo/RELEASES/a2ae4ad8a8442c7f7842803b50b7783997d2b984/apollo-core/src/main/java/com/ctrip/framework/apollo/tracer/internals/cat/CatTransaction.java: Some input files use unchecked or unsafe operations.
+[INFO] /results/apolloconfig-apollo/RELEASES/a2ae4ad8a8442c7f7842803b50b7783997d2b984/apollo-core/src/main/java/com/ctrip/framework/apollo/tracer/internals/cat/CatTransaction.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --------------< com.ctrip.framework.apollo:apollo-client >--------------
+[INFO] Building Apollo Client 1.6.0                                      [4/13]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ apollo-client ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-cli) @ apollo-client ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 86 source files to /results/apolloconfig-apollo/RELEASES/a2ae4ad8a8442c7f7842803b50b7783997d2b984/apollo-client/target/classes
+[INFO] 
+[INFO] --------------< com.ctrip.framework.apollo:apollo-common >--------------
+[INFO] Building Apollo Common 1.6.0                                      [5/13]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ apollo-common ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-cli) @ apollo-common ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 56 source files to /results/apolloconfig-apollo/RELEASES/a2ae4ad8a8442c7f7842803b50b7783997d2b984/apollo-common/target/classes
+[INFO] /results/apolloconfig-apollo/RELEASES/a2ae4ad8a8442c7f7842803b50b7783997d2b984/apollo-common/src/main/java/com/ctrip/framework/apollo/common/controller/CharacterEncodingFilterConfiguration.java: Some input files use unchecked or unsafe operations.
+[INFO] /results/apolloconfig-apollo/RELEASES/a2ae4ad8a8442c7f7842803b50b7783997d2b984/apollo-common/src/main/java/com/ctrip/framework/apollo/common/controller/CharacterEncodingFilterConfiguration.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] ---------------< com.ctrip.framework.apollo:apollo-biz >----------------
+[INFO] Building Apollo Biz 1.6.0                                         [6/13]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ apollo-biz ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-cli) @ apollo-biz ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 66 source files to /results/apolloconfig-apollo/RELEASES/a2ae4ad8a8442c7f7842803b50b7783997d2b984/apollo-biz/target/classes
+[INFO] /results/apolloconfig-apollo/RELEASES/a2ae4ad8a8442c7f7842803b50b7783997d2b984/apollo-biz/src/main/java/com/ctrip/framework/apollo/biz/service/ReleaseService.java: /results/apolloconfig-apollo/RELEASES/a2ae4ad8a8442c7f7842803b50b7783997d2b984/apollo-biz/src/main/java/com/ctrip/framework/apollo/biz/service/ReleaseService.java uses unchecked or unsafe operations.
+[INFO] /results/apolloconfig-apollo/RELEASES/a2ae4ad8a8442c7f7842803b50b7783997d2b984/apollo-biz/src/main/java/com/ctrip/framework/apollo/biz/service/ReleaseService.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] ----------< com.ctrip.framework.apollo:apollo-configservice >-----------
+[INFO] Building Apollo ConfigService 1.6.0                               [7/13]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ apollo-configservice ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-cli) @ apollo-configservice ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 27 source files to /results/apolloconfig-apollo/RELEASES/a2ae4ad8a8442c7f7842803b50b7783997d2b984/apollo-configservice/target/classes
+[INFO] /results/apolloconfig-apollo/RELEASES/a2ae4ad8a8442c7f7842803b50b7783997d2b984/apollo-configservice/src/main/java/com/ctrip/framework/apollo/configservice/ConfigServiceAutoConfiguration.java: /results/apolloconfig-apollo/RELEASES/a2ae4ad8a8442c7f7842803b50b7783997d2b984/apollo-configservice/src/main/java/com/ctrip/framework/apollo/configservice/ConfigServiceAutoConfiguration.java uses or overrides a deprecated API.
+[INFO] /results/apolloconfig-apollo/RELEASES/a2ae4ad8a8442c7f7842803b50b7783997d2b984/apollo-configservice/src/main/java/com/ctrip/framework/apollo/configservice/ConfigServiceAutoConfiguration.java: Recompile with -Xlint:deprecation for details.
+[INFO] /results/apolloconfig-apollo/RELEASES/a2ae4ad8a8442c7f7842803b50b7783997d2b984/apollo-configservice/src/main/java/com/ctrip/framework/apollo/configservice/ConfigServiceAutoConfiguration.java: /results/apolloconfig-apollo/RELEASES/a2ae4ad8a8442c7f7842803b50b7783997d2b984/apollo-configservice/src/main/java/com/ctrip/framework/apollo/configservice/ConfigServiceAutoConfiguration.java uses unchecked or unsafe operations.
+[INFO] /results/apolloconfig-apollo/RELEASES/a2ae4ad8a8442c7f7842803b50b7783997d2b984/apollo-configservice/src/main/java/com/ctrip/framework/apollo/configservice/ConfigServiceAutoConfiguration.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] -----------< com.ctrip.framework.apollo:apollo-adminservice >-----------
+[INFO] Building Apollo AdminService 1.6.0                                [8/13]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ apollo-adminservice ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-cli) @ apollo-adminservice ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 20 source files to /results/apolloconfig-apollo/RELEASES/a2ae4ad8a8442c7f7842803b50b7783997d2b984/apollo-adminservice/target/classes
+[INFO] 
+[INFO] -------------< com.ctrip.framework.apollo:apollo-openapi >--------------
+[INFO] Building Apollo Open Api 1.6.0                                    [9/13]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ apollo-openapi ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-cli) @ apollo-openapi ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 22 source files to /results/apolloconfig-apollo/RELEASES/a2ae4ad8a8442c7f7842803b50b7783997d2b984/apollo-openapi/target/classes
+[INFO] 
+[INFO] --------------< com.ctrip.framework.apollo:apollo-portal >--------------
+[INFO] Building Apollo Portal 1.6.0                                     [10/13]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ apollo-portal ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-cli) @ apollo-portal ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 189 source files to /results/apolloconfig-apollo/RELEASES/a2ae4ad8a8442c7f7842803b50b7783997d2b984/apollo-portal/target/classes
+[INFO] /results/apolloconfig-apollo/RELEASES/a2ae4ad8a8442c7f7842803b50b7783997d2b984/apollo-portal/src/main/java/com/ctrip/framework/apollo/portal/component/config/PortalConfig.java: Some input files use or override a deprecated API.
+[INFO] /results/apolloconfig-apollo/RELEASES/a2ae4ad8a8442c7f7842803b50b7783997d2b984/apollo-portal/src/main/java/com/ctrip/framework/apollo/portal/component/config/PortalConfig.java: Recompile with -Xlint:deprecation for details.
+[INFO] /results/apolloconfig-apollo/RELEASES/a2ae4ad8a8442c7f7842803b50b7783997d2b984/apollo-portal/src/main/java/com/ctrip/framework/apollo/portal/spi/configuration/AuthFilterConfiguration.java: Some input files use unchecked or unsafe operations.
+[INFO] /results/apolloconfig-apollo/RELEASES/a2ae4ad8a8442c7f7842803b50b7783997d2b984/apollo-portal/src/main/java/com/ctrip/framework/apollo/portal/spi/configuration/AuthFilterConfiguration.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] -------------< com.ctrip.framework.apollo:apollo-assembly >-------------
+[INFO] Building Apollo Assembly 1.6.0                                   [11/13]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ apollo-assembly ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-cli) @ apollo-assembly ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /results/apolloconfig-apollo/RELEASES/a2ae4ad8a8442c7f7842803b50b7783997d2b984/apollo-assembly/target/classes
+[INFO] 
+[INFO] ---------------< com.ctrip.framework.apollo:apollo-demo >---------------
+[INFO] Building Apollo Demo 1.6.0                                       [12/13]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ apollo-demo ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-cli) @ apollo-demo ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 11 source files to /results/apolloconfig-apollo/RELEASES/a2ae4ad8a8442c7f7842803b50b7783997d2b984/apollo-demo/target/classes
+[INFO] 
+[INFO] ------------< com.ctrip.framework.apollo:apollo-mockserver >------------
+[INFO] Building Apollo Mock Server 1.6.0                                [13/13]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ apollo-mockserver ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-cli) @ apollo-mockserver ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /results/apolloconfig-apollo/RELEASES/a2ae4ad8a8442c7f7842803b50b7783997d2b984/apollo-mockserver/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apollo 1.6.0 ....................................... SUCCESS [  0.388 s]
+[INFO] Apollo BuildTools .................................. SUCCESS [  0.013 s]
+[INFO] Apollo Core ........................................ SUCCESS [  0.849 s]
+[INFO] Apollo Client ...................................... SUCCESS [  0.588 s]
+[INFO] Apollo Common ...................................... SUCCESS [  0.526 s]
+[INFO] Apollo Biz ......................................... SUCCESS [  0.469 s]
+[INFO] Apollo ConfigService ............................... SUCCESS [  0.337 s]
+[INFO] Apollo AdminService ................................ SUCCESS [  0.197 s]
+[INFO] Apollo Open Api .................................... SUCCESS [  0.085 s]
+[INFO] Apollo Portal ...................................... SUCCESS [  0.710 s]
+[INFO] Apollo Assembly .................................... SUCCESS [  0.082 s]
+[INFO] Apollo Demo ........................................ SUCCESS [  0.122 s]
+[INFO] Apollo Mock Server 1.6.0 ........................... SUCCESS [  0.049 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.878 s
+[INFO] Finished at: 2022-09-10T03:52:42Z
+[INFO] ------------------------------------------------------------------------

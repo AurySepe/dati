@@ -1,0 +1,44 @@
+Downloading https://services.gradle.org/distributions/gradle-7.2-all.zip
+..............10%...............20%...............30%...............40%...............50%...............60%...............70%...............80%...............90%...............100%
+To honour the JVM settings for this build a single-use Daemon process will be forked. See https://docs.gradle.org/7.2/userguide/gradle_daemon.html#sec:disabling_the_daemon.
+Daemon will be stopped at the end of the build 
+
+> Configure project :
+Building SNAPSHOT (SNAPSHOT): c8f8db
+
+> Task :clean UP-TO-DATE
+> Task :brut.apktool:clean UP-TO-DATE
+> Task :brut.j.common:clean UP-TO-DATE
+> Task :brut.j.dir:clean UP-TO-DATE
+> Task :brut.j.util:clean UP-TO-DATE
+> Task :brut.apktool:apktool-cli:clean UP-TO-DATE
+> Task :brut.apktool:apktool-lib:clean UP-TO-DATE
+> Task :compileJava NO-SOURCE
+> Task :brut.apktool:compileJava NO-SOURCE
+> Task :brut.j.common:compileJava
+> Task :brut.j.common:processResources NO-SOURCE
+> Task :brut.j.common:classes
+> Task :brut.j.common:jar
+
+> Task :brut.j.util:compileJava
+Note: /results/iBotPeaches-Apktool/RELEASES/c8f8db72c56c74ff0ae5664cc91230f9ba1522fc/brut.j.util/src/main/java/brut/util/Duo.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :brut.j.util:processResources NO-SOURCE
+> Task :brut.j.util:classes
+> Task :brut.j.util:jar
+> Task :brut.j.dir:compileJava
+> Task :brut.j.dir:processResources NO-SOURCE
+> Task :brut.j.dir:classes
+> Task :brut.j.dir:jar
+
+> Task :brut.apktool:apktool-lib:compileJava
+Note: /results/iBotPeaches-Apktool/RELEASES/c8f8db72c56c74ff0ae5664cc91230f9ba1522fc/brut.apktool/apktool-lib/src/main/java/brut/androlib/meta/YamlStringEscapeUtils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :brut.apktool:apktool-cli:compileJava
+
+BUILD SUCCESSFUL in 45s
+15 actionable tasks: 8 executed, 7 up-to-date

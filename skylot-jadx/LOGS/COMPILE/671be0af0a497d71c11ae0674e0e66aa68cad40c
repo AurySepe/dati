@@ -1,0 +1,17 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'jadx'.
+> Could not resolve all dependencies for configuration ':classpath'.
+   > Could not resolve org.kt3k.gradle.plugin:coveralls-gradle-plugin:0.6.1.
+     Required by:
+         :jadx:unspecified
+      > Could not GET 'http://repo1.maven.org/maven2/org/kt3k/gradle/plugin/coveralls-gradle-plugin/0.6.1/coveralls-gradle-plugin-0.6.1.pom'. Received status code 501 from server: HTTPS Required
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 2.596 secs

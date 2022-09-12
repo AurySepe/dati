@@ -1,0 +1,47 @@
+Downloading https://services.gradle.org/distributions/gradle-2.4-bin.zip
+.............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Unzipping /root/.gradle/wrapper/dists/gradle-2.4-bin/1lebsnfoptv8qpa10w6kyy5mp/gradle-2.4-bin.zip to /root/.gradle/wrapper/dists/gradle-2.4-bin/1lebsnfoptv8qpa10w6kyy5mp
+Set executable permissions for: /root/.gradle/wrapper/dists/gradle-2.4-bin/1lebsnfoptv8qpa10w6kyy5mp/gradle-2.4/bin/gradle
+To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html.
+Download https://repo1.maven.org/maven2/org/dm/gradle/gradle-bundle-plugin/0.6.2/gradle-bundle-plugin-0.6.2.pom
+Download https://repo1.maven.org/maven2/org/kt3k/gradle/plugin/coveralls-gradle-plugin/2.3.1/coveralls-gradle-plugin-2.3.1.pom
+Download https://oss.sonatype.org/content/repositories/snapshots/net/ltgt/gradle/gradle-errorprone-plugin/0.0.7-SNAPSHOT/gradle-errorprone-plugin-0.0.7-20150423.154223-1.pom
+Download https://jcenter.bintray.com/org/kordamp/gradle/stats-gradle-plugin/0.1.3/stats-gradle-plugin-0.1.3.pom
+Download https://jcenter.bintray.com/com/github/ben-manes/gradle-versions-plugin/0.9/gradle-versions-plugin-0.9.pom
+Download https://repo1.maven.org/maven2/biz/aQute/bnd/bndlib/2.4.0/bndlib-2.4.0.pom
+Download https://repo1.maven.org/maven2/biz/aQute/bnd/parent/2.4.0/parent-2.4.0.pom
+Download https://repo1.maven.org/maven2/org/osgi/org.osgi.core/4.3.1/org.osgi.core-4.3.1.pom
+Download https://repo1.maven.org/maven2/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.pom
+Download https://repo1.maven.org/maven2/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.pom
+Download https://repo1.maven.org/maven2/org/dm/gradle/gradle-bundle-plugin/0.6.2/gradle-bundle-plugin-0.6.2.jar
+Download https://repo1.maven.org/maven2/org/kt3k/gradle/plugin/coveralls-gradle-plugin/2.3.1/coveralls-gradle-plugin-2.3.1.jar
+Download https://oss.sonatype.org/content/repositories/snapshots/net/ltgt/gradle/gradle-errorprone-plugin/0.0.7-SNAPSHOT/gradle-errorprone-plugin-0.0.7-20150423.154223-1.jar
+Download https://jcenter.bintray.com/org/kordamp/gradle/stats-gradle-plugin/0.1.3/stats-gradle-plugin-0.1.3.jar
+Download https://jcenter.bintray.com/com/github/ben-manes/gradle-versions-plugin/0.9/gradle-versions-plugin-0.9.jar
+Download https://repo1.maven.org/maven2/biz/aQute/bnd/bndlib/2.4.0/bndlib-2.4.0.jar
+Download https://repo1.maven.org/maven2/org/osgi/org.osgi.core/4.3.1/org.osgi.core-4.3.1.jar
+Download https://repo1.maven.org/maven2/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.jar
+Download https://repo1.maven.org/maven2/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar
+:caffeine:clean UP-TO-DATE
+:guava:clean UP-TO-DATE
+:jcache:clean UP-TO-DATE
+:simulator:clean UP-TO-DATE
+:tracing:api:clean UP-TO-DATE
+:tracing:async:clean UP-TO-DATE
+:caffeine:compileJavaPoetJava
+Download https://repo1.maven.org/maven2/com/squareup/javapoet/1.0.0/javapoet-1.0.0.pom
+Download https://repo1.maven.org/maven2/com/squareup/javapoet/1.0.0/javapoet-1.0.0.jar
+:caffeine:compileJavaPoetJava FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':caffeine:compileJavaPoetJava'.
+> java.lang.ClassNotFoundException: com.google.errorprone.ErrorProneCompiler$Builder
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 39.967 secs

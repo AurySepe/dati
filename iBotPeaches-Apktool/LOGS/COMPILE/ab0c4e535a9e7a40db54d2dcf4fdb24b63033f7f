@@ -1,0 +1,64 @@
+Downloading https://services.gradle.org/distributions/gradle-4.9-bin.zip
+........................................................................
+Unzipping /root/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9-bin.zip to /root/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t
+Set executable permissions for: /root/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/bin/gradle
+
+Welcome to Gradle 4.9!
+
+Here are the highlights of this release:
+ - Experimental APIs for creating and configuring tasks lazily
+ - Pass arguments to JavaExec via CLI
+ - Auxiliary publication dependency support for multi-project builds
+ - Improved dependency insight report
+
+For more details see https://docs.gradle.org/4.9/release-notes.html
+
+
+> Configure project :
+Building SNAPSHOT (SNAPSHOT): ab0c4e
+
+> Task :clean UP-TO-DATE
+> Task :brut.apktool:clean UP-TO-DATE
+> Task :brut.j.common:clean UP-TO-DATE
+> Task :brut.j.dir:clean UP-TO-DATE
+> Task :brut.j.util:clean UP-TO-DATE
+> Task :brut.apktool:apktool-cli:clean UP-TO-DATE
+> Task :brut.apktool:apktool-lib:clean UP-TO-DATE
+> Task :compileJava NO-SOURCE
+> Task :brut.apktool:compileJava NO-SOURCE
+> Task :brut.j.common:compileJava
+> Task :brut.j.common:processResources NO-SOURCE
+> Task :brut.j.common:classes
+> Task :brut.j.common:jar
+
+> Task :brut.j.util:compileJava
+Note: /results/iBotPeaches-Apktool/RELEASES/ab0c4e535a9e7a40db54d2dcf4fdb24b63033f7f/brut.j.util/src/main/java/brut/util/Duo.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :brut.j.util:processResources NO-SOURCE
+> Task :brut.j.util:classes
+> Task :brut.j.util:jar
+> Task :brut.j.dir:compileJava
+> Task :brut.j.dir:processResources NO-SOURCE
+> Task :brut.j.dir:classes
+> Task :brut.j.dir:jar
+Download https://repo.maven.apache.org/maven2/org/smali/baksmali/2.2.2/baksmali-2.2.2.pom
+Download https://repo.maven.apache.org/maven2/org/smali/smali/2.2.2/smali-2.2.2.pom
+Download https://repo.maven.apache.org/maven2/org/smali/util/2.2.2/util-2.2.2.pom
+Download https://repo.maven.apache.org/maven2/org/smali/dexlib2/2.2.2/dexlib2-2.2.2.pom
+Download https://repo.maven.apache.org/maven2/org/smali/smali/2.2.2/smali-2.2.2.jar
+Download https://repo.maven.apache.org/maven2/org/smali/util/2.2.2/util-2.2.2.jar
+Download https://repo.maven.apache.org/maven2/org/smali/baksmali/2.2.2/baksmali-2.2.2.jar
+Download https://repo.maven.apache.org/maven2/org/smali/dexlib2/2.2.2/dexlib2-2.2.2.jar
+
+> Task :brut.apktool:apktool-lib:compileJava
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :brut.apktool:apktool-lib:processResources
+> Task :brut.apktool:apktool-lib:classes
+> Task :brut.apktool:apktool-lib:jar
+> Task :brut.apktool:apktool-cli:compileJava
+
+BUILD SUCCESSFUL in 27s
+17 actionable tasks: 10 executed, 7 up-to-date

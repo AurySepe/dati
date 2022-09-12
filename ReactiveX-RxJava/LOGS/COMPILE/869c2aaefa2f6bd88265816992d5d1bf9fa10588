@@ -1,0 +1,8 @@
+JMH: [.*me.champeau.gradle.JMHPluginExtension_Decorated@4a944af9.*]
+:clean UP-TO-DATE
+:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+
+BUILD SUCCESSFUL in 9s
+2 actionable tasks: 1 executed, 1 up-to-date

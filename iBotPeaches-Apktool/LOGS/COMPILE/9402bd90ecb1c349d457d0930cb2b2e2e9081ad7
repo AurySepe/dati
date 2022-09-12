@@ -1,0 +1,343 @@
+Download https://plugins.gradle.org/m2/gradle/plugin/net/minecrell/gitpatcher/0.7.1/gitpatcher-0.7.1.pom
+Download https://plugins.gradle.org/m2/gradle/plugin/net/minecrell/gitpatcher/0.7.1/gitpatcher-0.7.1.jar
+Building SNAPSHOT (SNAPSHOT): 9402bd
+:clean
+deleting /results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool.smali in favor of smali
+You will need to run applyPatches again, as they have been wiped.
+:clean UP-TO-DATE
+:brut.apktool:clean UP-TO-DATE
+:brut.apktool.smali:clean UP-TO-DATE
+:brut.j.common:clean UP-TO-DATE
+:brut.j.dir:clean UP-TO-DATE
+:brut.j.util:clean UP-TO-DATE
+:brut.apktool.smali:baksmali:clean UP-TO-DATE
+:brut.apktool.smali:dexlib2:clean UP-TO-DATE
+:brut.apktool.smali:smali:clean UP-TO-DATE
+:brut.apktool.smali:util:clean UP-TO-DATE
+:brut.apktool:apktool-cli:clean UP-TO-DATE
+:brut.apktool:apktool-lib:clean UP-TO-DATE
+:brut.apktool.smali:dexlib2:accessorTestGenerator:clean UP-TO-DATE
+:compileJava UP-TO-DATE
+:brut.apktool:compileJava UP-TO-DATE
+:brut.apktool.smali:compileJava UP-TO-DATE
+:brut.j.common:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+
+:brut.j.common:processResources UP-TO-DATE
+:brut.j.common:classes
+:brut.j.common:jar
+:brut.j.util:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+Note: /results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.j.util/src/main/java/brut/util/Duo.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning
+
+:brut.j.util:processResources UP-TO-DATE
+:brut.j.util:classes
+:brut.j.util:jar
+:brut.j.dir:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+
+:brut.apktool.smali:baksmali:compileJava UP-TO-DATE
+:brut.apktool.smali:dexlib2:compileJava UP-TO-DATE
+:brut.apktool.smali:smali:compileJava UP-TO-DATE
+:brut.apktool.smali:util:compileJava UP-TO-DATE
+:brut.j.dir:processResources UP-TO-DATE
+:brut.j.dir:classes
+:brut.j.dir:jar
+:brut.apktool.smali:baksmali:processResources UP-TO-DATE
+:brut.apktool.smali:baksmali:classes UP-TO-DATE
+:brut.apktool.smali:baksmali:jar
+:brut.apktool.smali:dexlib2:processResources UP-TO-DATE
+:brut.apktool.smali:dexlib2:classes UP-TO-DATE
+:brut.apktool.smali:dexlib2:jar
+:brut.apktool.smali:smali:processResources UP-TO-DATE
+:brut.apktool.smali:smali:classes UP-TO-DATE
+:brut.apktool.smali:smali:jar
+:brut.apktool.smali:util:processResources UP-TO-DATE
+:brut.apktool.smali:util:classes UP-TO-DATE
+:brut.apktool.smali:util:jar
+:brut.apktool:apktool-lib:compileJava
+Download https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.12/snakeyaml-1.12.pom
+Download https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.12/snakeyaml-1.12.jar
+Download https://repo1.maven.org/maven2/com/google/guava/guava/14.0/guava-14.0.jar
+warning: [options] bootstrap class path not set in conjunction with -source 1.7
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/ApktoolProperties.java:19: error: package org.jf.baksmali does not exist
+import org.jf.baksmali.baksmali;
+                      ^
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/ApktoolProperties.java:20: error: package org.jf.smali does not exist
+import org.jf.smali.main;
+                   ^
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/src/SmaliBuilder.java:29: error: package org.antlr.runtime does not exist
+import org.antlr.runtime.RecognitionException;
+                        ^
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/src/SmaliBuilder.java:31: error: package org.jf.dexlib2.writer.builder does not exist
+import org.jf.dexlib2.writer.builder.DexBuilder;
+                                    ^
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/src/SmaliBuilder.java:32: error: package org.jf.dexlib2.writer.io does not exist
+import org.jf.dexlib2.writer.io.FileDataStore;
+                               ^
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/src/SmaliBuilder.java:63: error: cannot find symbol
+    private void buildFile(String fileName, DexBuilder dexBuilder)
+                                            ^
+  symbol:   class DexBuilder
+  location: class SmaliBuilder
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/src/SmaliDecoder.java:20: error: package org.jf.baksmali does not exist
+import org.jf.baksmali.baksmali;
+                      ^
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/src/SmaliDecoder.java:21: error: package org.jf.baksmali does not exist
+import org.jf.baksmali.baksmaliOptions;
+                      ^
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/src/SmaliDecoder.java:22: error: package org.jf.dexlib2 does not exist
+import org.jf.dexlib2.DexFileFactory;
+                     ^
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/src/SmaliDecoder.java:23: error: package org.jf.dexlib2.analysis does not exist
+import org.jf.dexlib2.analysis.ClassPath;
+                              ^
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/src/SmaliDecoder.java:24: error: package org.jf.dexlib2.dexbacked does not exist
+import org.jf.dexlib2.dexbacked.DexBackedDexFile;
+                               ^
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/src/SmaliDecoder.java:25: error: package org.jf.dexlib2.dexbacked does not exist
+import org.jf.dexlib2.dexbacked.DexBackedOdexFile;
+                               ^
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/src/SmaliDecoder.java:26: error: package org.jf.dexlib2.analysis does not exist
+import org.jf.dexlib2.analysis.InlineMethodResolver;
+                              ^
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/mod/IndentingWriter.java:24: error: package org.jf.util does not exist
+public class IndentingWriter extends org.jf.util.IndentingWriter {
+                                                ^
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/mod/SmaliMod.java:20: error: package org.antlr.runtime does not exist
+import org.antlr.runtime.*;
+^
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/mod/SmaliMod.java:21: error: package org.antlr.runtime.tree does not exist
+import org.antlr.runtime.tree.CommonTree;
+                             ^
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/mod/SmaliMod.java:22: error: package org.antlr.runtime.tree does not exist
+import org.antlr.runtime.tree.CommonTreeNodeStream;
+                             ^
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/mod/SmaliMod.java:24: error: package org.jf.dexlib2.writer.builder does not exist
+import org.jf.dexlib2.writer.builder.DexBuilder;
+                                    ^
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/mod/SmaliMod.java:25: error: package org.jf.smali does not exist
+import org.jf.smali.*;
+^
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/mod/SmaliMod.java:32: error: cannot find symbol
+    public static boolean assembleSmaliFile(String smali, DexBuilder dexBuilder, boolean verboseErrors,
+                                                          ^
+  symbol:   class DexBuilder
+  location: class SmaliMod
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/mod/SmaliMod.java:33: error: cannot find symbol
+                                            boolean printTokens, File smaliFile) throws IOException, RuntimeException, RecognitionException {
+                                                                                                                       ^
+  symbol:   class RecognitionException
+  location: class SmaliMod
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/mod/SmaliMod.java:39: error: cannot find symbol
+    public static boolean assembleSmaliFile(InputStream is,DexBuilder dexBuilder, boolean verboseErrors,
+                                                           ^
+  symbol:   class DexBuilder
+  location: class SmaliMod
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/mod/SmaliMod.java:40: error: cannot find symbol
+                                            boolean printTokens, File smaliFile) throws IOException, RecognitionException {
+                                                                                                     ^
+  symbol:   class RecognitionException
+  location: class SmaliMod
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/mod/SmaliMod.java:53: error: cannot find symbol
+    public static boolean assembleSmaliFile(File smaliFile,DexBuilder dexBuilder, boolean verboseErrors,
+                                                           ^
+  symbol:   class DexBuilder
+  location: class SmaliMod
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/mod/SmaliMod.java:54: error: cannot find symbol
+                                            boolean printTokens) throws IOException, RecognitionException {
+                                                                                     ^
+  symbol:   class RecognitionException
+  location: class SmaliMod
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/ApktoolProperties.java:54: error: cannot find symbol
+            templateStream = baksmali.class.getClassLoader().getResourceAsStream("baksmali.properties");
+                             ^
+  symbol:   class baksmali
+  location: class ApktoolProperties
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/ApktoolProperties.java:72: error: cannot find symbol
+            templateStream = main.class.getClassLoader().getResourceAsStream("smali.properties");
+                             ^
+  symbol:   class main
+  location: class ApktoolProperties
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/src/SmaliBuilder.java:52: error: cannot find symbol
+            DexBuilder dexBuilder = DexBuilder.makeDexBuilder();
+            ^
+  symbol:   class DexBuilder
+  location: class SmaliBuilder
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/src/SmaliBuilder.java:52: error: cannot find symbol
+            DexBuilder dexBuilder = DexBuilder.makeDexBuilder();
+                                    ^
+  symbol:   variable DexBuilder
+  location: class SmaliBuilder
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/src/SmaliBuilder.java:57: error: cannot find symbol
+            dexBuilder.writeTo(new FileDataStore( new File(mDexFile.getAbsolutePath())));
+                                   ^
+  symbol:   class FileDataStore
+  location: class SmaliBuilder
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/src/SmaliBuilder.java:73: error: cannot find symbol
+            } catch (IOException | RecognitionException ex) {
+                                   ^
+  symbol:   class RecognitionException
+  location: class SmaliBuilder
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/src/SmaliBuilder.java:115: error: cannot find symbol
+        } catch (IOException | RecognitionException ex) {
+                               ^
+  symbol:   class RecognitionException
+  location: class SmaliBuilder
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/src/SmaliDecoder.java:62: error: cannot find symbol
+            ClassPath.dontLoadClassPath = mDebug;
+            ^
+  symbol:   variable ClassPath
+  location: class SmaliDecoder
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/src/SmaliDecoder.java:64: error: cannot find symbol
+            baksmaliOptions options = new baksmaliOptions();
+            ^
+  symbol:   class baksmaliOptions
+  location: class SmaliDecoder
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/src/SmaliDecoder.java:64: error: cannot find symbol
+            baksmaliOptions options = new baksmaliOptions();
+                                          ^
+  symbol:   class baksmaliOptions
+  location: class SmaliDecoder
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/src/SmaliDecoder.java:76: error: cannot find symbol
+            options.registerInfo = (mDebug ? baksmaliOptions.DIFFPRE : 0);
+                                             ^
+  symbol:   variable baksmaliOptions
+  location: class SmaliDecoder
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/src/SmaliDecoder.java:94: error: cannot find symbol
+            DexBackedDexFile dexFile = DexFileFactory.loadDexFile(mApkFile, mDexFile, mApi, false);
+            ^
+  symbol:   class DexBackedDexFile
+  location: class SmaliDecoder
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/src/SmaliDecoder.java:94: error: cannot find symbol
+            DexBackedDexFile dexFile = DexFileFactory.loadDexFile(mApkFile, mDexFile, mApi, false);
+                                       ^
+  symbol:   variable DexFileFactory
+  location: class SmaliDecoder
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/src/SmaliDecoder.java:100: error: cannot find symbol
+            if (dexFile instanceof DexBackedOdexFile) {
+                                   ^
+  symbol:   class DexBackedOdexFile
+  location: class SmaliDecoder
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/src/SmaliDecoder.java:102: error: cannot find symbol
+                        InlineMethodResolver.createInlineMethodResolver(((DexBackedOdexFile)dexFile).getOdexVersion());
+                                                                          ^
+  symbol:   class DexBackedOdexFile
+  location: class SmaliDecoder
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/src/SmaliDecoder.java:102: error: cannot find symbol
+                        InlineMethodResolver.createInlineMethodResolver(((DexBackedOdexFile)dexFile).getOdexVersion());
+                        ^
+  symbol:   variable InlineMethodResolver
+  location: class SmaliDecoder
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/src/SmaliDecoder.java:105: error: cannot find symbol
+            baksmali.disassembleDexFile(dexFile,options);
+            ^
+  symbol:   variable baksmali
+  location: class SmaliDecoder
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/mod/SmaliMod.java:56: error: cannot find symbol
+        CommonTokenStream tokens;
+        ^
+  symbol:   class CommonTokenStream
+  location: class SmaliMod
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/mod/SmaliMod.java:57: error: cannot find symbol
+        LexerErrorInterface lexer;
+        ^
+  symbol:   class LexerErrorInterface
+  location: class SmaliMod
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/mod/SmaliMod.java:62: error: cannot find symbol
+        lexer = new smaliFlexLexer(reader);
+                    ^
+  symbol:   class smaliFlexLexer
+  location: class SmaliMod
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/mod/SmaliMod.java:63: error: cannot find symbol
+        ((smaliFlexLexer)lexer).setSourceFile(smaliFile);
+          ^
+  symbol:   class smaliFlexLexer
+  location: class SmaliMod
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/mod/SmaliMod.java:64: error: cannot find symbol
+        tokens = new CommonTokenStream((TokenSource) lexer);
+                     ^
+  symbol:   class CommonTokenStream
+  location: class SmaliMod
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/mod/SmaliMod.java:64: error: cannot find symbol
+        tokens = new CommonTokenStream((TokenSource) lexer);
+                                        ^
+  symbol:   class TokenSource
+  location: class SmaliMod
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/mod/SmaliMod.java:70: error: cannot find symbol
+                Token token = tokens.get(i);
+                ^
+  symbol:   class Token
+  location: class SmaliMod
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/mod/SmaliMod.java:71: error: cannot find symbol
+                if (token.getChannel() == smaliParser.HIDDEN) {
+                                          ^
+  symbol:   variable smaliParser
+  location: class SmaliMod
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/mod/SmaliMod.java:75: error: cannot find symbol
+                System.out.println(smaliParser.tokenNames[token.getType()] + ": " + token.getText());
+                                   ^
+  symbol:   variable smaliParser
+  location: class SmaliMod
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/mod/SmaliMod.java:79: error: cannot find symbol
+        smaliParser parser = new smaliParser(tokens);
+        ^
+  symbol:   class smaliParser
+  location: class SmaliMod
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/mod/SmaliMod.java:79: error: cannot find symbol
+        smaliParser parser = new smaliParser(tokens);
+                                 ^
+  symbol:   class smaliParser
+  location: class SmaliMod
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/mod/SmaliMod.java:82: error: package smaliParser does not exist
+        smaliParser.smali_file_return result = parser.smali_file();
+                   ^
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/mod/SmaliMod.java:88: error: cannot find symbol
+        CommonTree t = (CommonTree) result.getTree();
+        ^
+  symbol:   class CommonTree
+  location: class SmaliMod
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/mod/SmaliMod.java:88: error: cannot find symbol
+        CommonTree t = (CommonTree) result.getTree();
+                        ^
+  symbol:   class CommonTree
+  location: class SmaliMod
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/mod/SmaliMod.java:90: error: cannot find symbol
+        CommonTreeNodeStream treeStream = new CommonTreeNodeStream(t);
+        ^
+  symbol:   class CommonTreeNodeStream
+  location: class SmaliMod
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/mod/SmaliMod.java:90: error: cannot find symbol
+        CommonTreeNodeStream treeStream = new CommonTreeNodeStream(t);
+                                              ^
+  symbol:   class CommonTreeNodeStream
+  location: class SmaliMod
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/mod/SmaliMod.java:93: error: cannot find symbol
+        smaliTreeWalker dexGen = new smaliTreeWalker(treeStream);
+        ^
+  symbol:   class smaliTreeWalker
+  location: class SmaliMod
+/results/iBotPeaches-Apktool/RELEASES/9402bd90ecb1c349d457d0930cb2b2e2e9081ad7/brut.apktool/apktool-lib/src/main/java/brut/androlib/mod/SmaliMod.java:93: error: cannot find symbol
+        smaliTreeWalker dexGen = new smaliTreeWalker(treeStream);
+                                     ^
+  symbol:   class smaliTreeWalker
+  location: class SmaliMod
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+60 errors
+1 warning
+:brut.apktool:apktool-lib:compileJava FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':brut.apktool:apktool-lib:compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 10.209 secs

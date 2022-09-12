@@ -1,0 +1,9 @@
+jadx/plugins/input/javaconvert/JavaConvertPlugin.java
+ jadx.plugins.input.javaconvert.JavaConvertPlugin
+jadx/plugins/input/javaconvert/DxConverter.java
+ jadx.plugins.input.javaconvert.DxConverter
+ jadx.plugins.input.javaconvert.DxConverter$DxArgs
+jadx/plugins/input/javaconvert/JavaConvertLoader.java
+ jadx.plugins.input.javaconvert.JavaConvertLoader
+jadx/plugins/input/javaconvert/ConvertResult.java
+ jadx.plugins.input.javaconvert.ConvertResult

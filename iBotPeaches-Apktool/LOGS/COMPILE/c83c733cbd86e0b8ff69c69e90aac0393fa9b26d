@@ -1,0 +1,52 @@
+Downloading https://services.gradle.org/distributions/gradle-6.5.1-all.zip
+...........................................................................................................................................
+
+Welcome to Gradle 6.5.1!
+
+Here are the highlights of this release:
+ - Experimental file-system watching
+ - Improved version ordering
+ - New samples
+
+For more details see https://docs.gradle.org/6.5.1/release-notes.html
+
+To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.5.1/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+
+> Configure project :
+Building SNAPSHOT (SNAPSHOT): c83c73
+
+> Task :clean UP-TO-DATE
+> Task :brut.apktool:clean UP-TO-DATE
+> Task :brut.j.common:clean UP-TO-DATE
+> Task :brut.j.dir:clean UP-TO-DATE
+> Task :brut.j.util:clean UP-TO-DATE
+> Task :brut.apktool:apktool-cli:clean UP-TO-DATE
+> Task :brut.apktool:apktool-lib:clean UP-TO-DATE
+> Task :compileJava NO-SOURCE
+> Task :brut.apktool:compileJava NO-SOURCE
+> Task :brut.j.common:compileJava
+> Task :brut.j.common:processResources NO-SOURCE
+> Task :brut.j.common:classes
+> Task :brut.j.common:jar
+
+> Task :brut.j.util:compileJava
+Note: /results/iBotPeaches-Apktool/RELEASES/c83c733cbd86e0b8ff69c69e90aac0393fa9b26d/brut.j.util/src/main/java/brut/util/Duo.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :brut.j.util:processResources NO-SOURCE
+> Task :brut.j.util:classes
+> Task :brut.j.util:jar
+> Task :brut.j.dir:compileJava
+> Task :brut.j.dir:processResources NO-SOURCE
+> Task :brut.j.dir:classes
+> Task :brut.j.dir:jar
+
+> Task :brut.apktool:apktool-lib:compileJava
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :brut.apktool:apktool-cli:compileJava
+
+BUILD SUCCESSFUL in 41s
+15 actionable tasks: 8 executed, 7 up-to-date

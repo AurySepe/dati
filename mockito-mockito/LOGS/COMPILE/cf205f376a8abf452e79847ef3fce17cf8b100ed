@@ -1,0 +1,24 @@
+Parallel execution is an incubating feature.
+
+> Configure project :
+  Building version '2.24.6' (value loaded from 'version.properties' file).
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':kotlinReleaseCoroutinesTest'.
+> Could not resolve all artifacts for configuration ':kotlinReleaseCoroutinesTest:classpath'.
+   > Could not resolve org.jetbrains.kotlin:kotlin-gradle-plugin:1.3.0-rc-57.
+     Required by:
+         project :kotlinReleaseCoroutinesTest
+      > Could not resolve org.jetbrains.kotlin:kotlin-gradle-plugin:1.3.0-rc-57.
+         > Could not get resource 'https://dl.bintray.com/kotlin/kotlin-eap/org/jetbrains/kotlin/kotlin-gradle-plugin/1.3.0-rc-57/kotlin-gradle-plugin-1.3.0-rc-57.pom'.
+            > Could not GET 'https://dl.bintray.com/kotlin/kotlin-eap/org/jetbrains/kotlin/kotlin-gradle-plugin/1.3.0-rc-57/kotlin-gradle-plugin-1.3.0-rc-57.pom'.
+               > Remote host terminated the handshake
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 4s

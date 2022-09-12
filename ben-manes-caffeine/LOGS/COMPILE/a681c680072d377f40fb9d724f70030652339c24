@@ -1,0 +1,37 @@
+Downloading https://services.gradle.org/distributions/gradle-7.3.1-bin.zip
+..............................................................................................................
+
+Welcome to Gradle 7.3.1!
+
+Here are the highlights of this release:
+ - Easily declare new test suites in Java projects
+ - Support for Java 17
+ - Support for Scala 3
+
+For more details see https://docs.gradle.org/7.3.1/release-notes.html
+
+To honour the JVM settings for this build a single-use Daemon process will be forked. See https://docs.gradle.org/7.3.1/userguide/gradle_daemon.html#sec:disabling_the_daemon.
+Daemon will be stopped at the end of the build 
+Configuration on demand is an incubating feature.
+checksum-dependency-plugin is disabled since checksumIgnore property is present
+
+> Configure project :
+Kordamp Gradle plugins 0.47.0. Consider becoming a patron at https://www.patreon.com/aalmiray
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/results/ben-manes-caffeine/RELEASES/a681c680072d377f40fb9d724f70030652339c24/build.gradle' line: 56
+
+* What went wrong:
+A problem occurred evaluating root project 'caffeine'.
+> For input string: "8u342"
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 44s

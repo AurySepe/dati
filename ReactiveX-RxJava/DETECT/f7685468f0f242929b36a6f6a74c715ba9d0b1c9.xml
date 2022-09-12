@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<pattern name="Factory Method">
+		<instance>
+			<role name="Creator" element="rx.Scheduler" />
+			<role name="FactoryMethod()" element="rx.Scheduler::createWorker():rx.Scheduler$Worker" />
+		</instance>
+		<instance>
+			<role name="Creator" element="rx.Scheduler$Worker" />
+			<role name="FactoryMethod()" element="rx.Scheduler$Worker::schedule(rx.functions.Action0):rx.Subscription" />
+			<role name="FactoryMethod()" element="rx.Scheduler$Worker::schedule(rx.functions.Action0, long, java.util.concurrent.TimeUnit):rx.Subscription" />
+		</instance>
+	</pattern>
+	<pattern name="Prototype" />
+	<pattern name="Singleton">
+		<instance>
+			<role name="Singleton" element="rx.internal.util.UtilityFunctions$AlwaysTrue" />
+			<role name="uniqueInstance" element="rx.internal.util.UtilityFunctions$AlwaysTrue::INSTANCE:rx.internal.util.UtilityFunctions$AlwaysTrue" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="rx.internal.util.UtilityFunctions$AlwaysFalse" />
+			<role name="uniqueInstance" element="rx.internal.util.UtilityFunctions$AlwaysFalse::INSTANCE:rx.internal.util.UtilityFunctions$AlwaysFalse" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="rx.internal.operators.NotificationLite" />
+			<role name="uniqueInstance" element="rx.internal.operators.NotificationLite::INSTANCE:rx.internal.operators.NotificationLite" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="rx.internal.operators.OperatorWindowWithTime$State" />
+			<role name="uniqueInstance" element="rx.internal.operators.OperatorWindowWithTime$State::EMPTY:rx.internal.operators.OperatorWindowWithTime$State" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="rx.Notification" />
+			<role name="uniqueInstance" element="rx.Notification::ON_COMPLETED:rx.Notification" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="rx.plugins.RxJavaPlugins" />
+			<role name="uniqueInstance" element="rx.plugins.RxJavaPlugins::INSTANCE:rx.plugins.RxJavaPlugins" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="rx.plugins.RxJavaSchedulersHook" />
+			<role name="uniqueInstance" element="rx.plugins.RxJavaSchedulersHook::DEFAULT_INSTANCE:rx.plugins.RxJavaSchedulersHook" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="rx.plugins.RxJavaObservableExecutionHookDefault" />
+			<role name="uniqueInstance" element="rx.plugins.RxJavaObservableExecutionHookDefault::INSTANCE:rx.plugins.RxJavaObservableExecutionHookDefault" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="rx.Observable" />
+			<role name="uniqueInstance" element="rx.Observable::EMPTY:rx.Observable" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="rx.schedulers.NewThreadScheduler" />
+			<role name="uniqueInstance" element="rx.schedulers.NewThreadScheduler::INSTANCE:rx.schedulers.NewThreadScheduler" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="rx.schedulers.ImmediateScheduler" />
+			<role name="uniqueInstance" element="rx.schedulers.ImmediateScheduler::INSTANCE:rx.schedulers.ImmediateScheduler" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="rx.schedulers.GenericScheduledExecutorService" />
+			<role name="uniqueInstance" element="rx.schedulers.GenericScheduledExecutorService::INSTANCE:rx.schedulers.GenericScheduledExecutorService" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="rx.schedulers.TrampolineScheduler" />
+			<role name="uniqueInstance" element="rx.schedulers.TrampolineScheduler::INSTANCE:rx.schedulers.TrampolineScheduler" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="rx.schedulers.Schedulers" />
+			<role name="uniqueInstance" element="rx.schedulers.Schedulers::INSTANCE:rx.schedulers.Schedulers" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="rx.schedulers.CachedThreadScheduler$CachedWorkerPool" />
+			<role name="uniqueInstance" element="rx.schedulers.CachedThreadScheduler$CachedWorkerPool::INSTANCE:rx.schedulers.CachedThreadScheduler$CachedWorkerPool" />
+		</instance>
+	</pattern>
+	<pattern name="(Object)Adapter">
+		<instance>
+			<role name="Adapter" element="rx.internal.operators.OperatorOnBackpressureBlock$BlockingSubscriber" />
+			<role name="Adaptee" element="rx.internal.operators.NotificationLite" />
+			<role name="adaptee" element="rx.internal.operators.OperatorOnBackpressureBlock$BlockingSubscriber::nl:rx.internal.operators.NotificationLite" />
+			<role name="Request()" element="rx.internal.operators.OperatorOnBackpressureBlock$BlockingSubscriber::accept(java.lang.Object):boolean" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="rx.internal.operators.OperatorOnBackpressureBuffer$BufferSubscriber" />
+			<role name="Adaptee" element="rx.internal.operators.NotificationLite" />
+			<role name="adaptee" element="rx.internal.operators.OperatorOnBackpressureBuffer$BufferSubscriber::on:rx.internal.operators.NotificationLite" />
+			<role name="Request()" element="rx.internal.operators.OperatorOnBackpressureBuffer$BufferSubscriber::accept(java.lang.Object):boolean" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="rx.observables.AbstractOnSubscribe$SubscriptionCompleter" />
+			<role name="Adaptee" element="rx.observables.AbstractOnSubscribe$SubscriptionState" />
+			<role name="adaptee" element="rx.observables.AbstractOnSubscribe$SubscriptionCompleter::state:rx.observables.AbstractOnSubscribe$SubscriptionState" />
+			<role name="Request()" element="rx.observables.AbstractOnSubscribe$SubscriptionCompleter::unsubscribe():void" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="rx.subscriptions.MultipleAssignmentSubscription" />
+			<role name="Adaptee" element="rx.subscriptions.MultipleAssignmentSubscription$State" />
+			<role name="adaptee" element="rx.subscriptions.MultipleAssignmentSubscription::state:rx.subscriptions.MultipleAssignmentSubscription$State" />
+			<role name="Request()" element="rx.subscriptions.MultipleAssignmentSubscription::unsubscribe():void" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="rx.subscriptions.SerialSubscription" />
+			<role name="Adaptee" element="rx.subscriptions.SerialSubscription$State" />
+			<role name="adaptee" element="rx.subscriptions.SerialSubscription::state:rx.subscriptions.SerialSubscription$State" />
+			<role name="Request()" element="rx.subscriptions.SerialSubscription::unsubscribe():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="rx.Subscriber" />
+			<role name="Adapter" element="rx.internal.operators.OnSubscribeFromIterable$IterableProducer" />
+			<role name="adaptee" element="rx.internal.operators.OnSubscribeFromIterable$IterableProducer::o:rx.Subscriber" />
+			<role name="Request()" element="rx.internal.operators.OnSubscribeFromIterable$IterableProducer::request(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="rx.Subscriber" />
+			<role name="Adapter" element="rx.internal.operators.OnSubscribeRange$RangeProducer" />
+			<role name="adaptee" element="rx.internal.operators.OnSubscribeRange$RangeProducer::o:rx.Subscriber" />
+			<role name="Request()" element="rx.internal.operators.OnSubscribeRange$RangeProducer::request(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="rx.Subscriber" />
+			<role name="Adapter" element="rx.internal.producers.SingleProducer" />
+			<role name="adaptee" element="rx.internal.producers.SingleProducer::child:rx.Subscriber" />
+			<role name="Request()" element="rx.internal.producers.SingleProducer::request(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="rx.internal.operators.OperatorMergeMaxConcurrent$SourceSubscriber" />
+			<role name="Adapter" element="rx.internal.operators.OperatorMergeMaxConcurrent$MergeMaxConcurrentProducer" />
+			<role name="adaptee" element="rx.internal.operators.OperatorMergeMaxConcurrent$MergeMaxConcurrentProducer::ssub:rx.internal.operators.OperatorMergeMaxConcurrent$SourceSubscriber" />
+			<role name="Request()" element="rx.internal.operators.OperatorMergeMaxConcurrent$MergeMaxConcurrentProducer::request(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="rx.subjects.SubjectSubscriptionManager" />
+			<role name="Adapter" element="rx.subjects.AsyncSubject" />
+			<role name="adaptee" element="rx.subjects.AsyncSubject::state:rx.subjects.SubjectSubscriptionManager" />
+			<role name="Request()" element="rx.subjects.AsyncSubject::hasObservers():boolean" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="rx.subjects.SubjectSubscriptionManager" />
+			<role name="Adapter" element="rx.subjects.BehaviorSubject" />
+			<role name="adaptee" element="rx.subjects.BehaviorSubject::state:rx.subjects.SubjectSubscriptionManager" />
+			<role name="Request()" element="rx.subjects.BehaviorSubject::hasObservers():boolean" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="rx.subjects.SubjectSubscriptionManager" />
+			<role name="Adapter" element="rx.subjects.PublishSubject" />
+			<role name="adaptee" element="rx.subjects.PublishSubject::state:rx.subjects.SubjectSubscriptionManager" />
+			<role name="Request()" element="rx.subjects.PublishSubject::hasObservers():boolean" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="rx.subjects.SubjectSubscriptionManager" />
+			<role name="Adapter" element="rx.subjects.ReplaySubject" />
+			<role name="adaptee" element="rx.subjects.ReplaySubject::ssm:rx.subjects.SubjectSubscriptionManager" />
+			<role name="Request()" element="rx.subjects.ReplaySubject::hasObservers():boolean" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="rx.subjects.SubjectSubscriptionManager" />
+			<role name="Adapter" element="rx.subjects.TestSubject" />
+			<role name="adaptee" element="rx.subjects.TestSubject::state:rx.subjects.SubjectSubscriptionManager" />
+			<role name="Request()" element="rx.subjects.TestSubject::hasObservers():boolean" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="rx.Subscriber" />
+			<role name="Adapter" element="rx.internal.util.ScalarSynchronousObservable$ScalarSynchronousAction" />
+			<role name="adaptee" element="rx.internal.util.ScalarSynchronousObservable$ScalarSynchronousAction::subscriber:rx.Subscriber" />
+			<role name="Request()" element="rx.internal.util.ScalarSynchronousObservable$ScalarSynchronousAction::call():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="rx.Scheduler$Worker" />
+			<role name="Adapter" element="rx.schedulers.SleepingAction" />
+			<role name="adaptee" element="rx.schedulers.SleepingAction::innerScheduler:rx.Scheduler$Worker" />
+			<role name="Request()" element="rx.schedulers.SleepingAction::call():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="rx.functions.Action0" />
+			<role name="Adapter" element="rx.subscriptions.BooleanSubscription" />
+			<role name="adaptee" element="rx.subscriptions.BooleanSubscription::action:rx.functions.Action0" />
+			<role name="Request()" element="rx.subscriptions.BooleanSubscription::unsubscribe():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="rx.internal.operators.OperatorZip$Zip" />
+			<role name="Adapter" element="rx.internal.operators.OperatorZip$ZipProducer" />
+			<role name="adaptee" element="rx.internal.operators.OperatorZip$ZipProducer::zipper:rx.internal.operators.OperatorZip$Zip" />
+			<role name="Request()" element="rx.internal.operators.OperatorZip$ZipProducer::request(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="rx.observables.AbstractOnSubscribe$SubscriptionState" />
+			<role name="Adapter" element="rx.observables.AbstractOnSubscribe$SubscriptionProducer" />
+			<role name="adaptee" element="rx.observables.AbstractOnSubscribe$SubscriptionProducer::state:rx.observables.AbstractOnSubscribe$SubscriptionState" />
+			<role name="Request()" element="rx.observables.AbstractOnSubscribe$SubscriptionProducer::request(long):void" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="rx.internal.operators.OperatorMulticast" />
+			<role name="Adaptee" element="rx.functions.Func0" />
+			<role name="adaptee" element="rx.internal.operators.OperatorMulticast::subjectFactory:rx.functions.Func0" />
+			<role name="Request()" element="rx.internal.operators.OperatorMulticast::connect(rx.functions.Action1):void" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="rx.internal.schedulers.EventLoopsScheduler" />
+			<role name="Adaptee" element="rx.internal.schedulers.EventLoopsScheduler$FixedSchedulerPool" />
+			<role name="adaptee" element="rx.internal.schedulers.EventLoopsScheduler::pool:rx.internal.schedulers.EventLoopsScheduler$FixedSchedulerPool" />
+			<role name="Request()" element="rx.internal.schedulers.EventLoopsScheduler::createWorker():rx.Scheduler$Worker" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="rx.subjects.ReplaySubject$BoundedState" />
+			<role name="Adaptee" element="rx.internal.operators.NotificationLite" />
+			<role name="adaptee" element="rx.subjects.ReplaySubject$BoundedState::nl:rx.internal.operators.NotificationLite" />
+			<role name="Request()" element="rx.subjects.ReplaySubject$BoundedState::next(T):void" />
+			<role name="Request()" element="rx.subjects.ReplaySubject$BoundedState::complete():void" />
+			<role name="Request()" element="rx.subjects.ReplaySubject$BoundedState::error(java.lang.Throwable):void" />
+			<role name="Request()" element="rx.subjects.ReplaySubject$BoundedState::size():int" />
+			<role name="Request()" element="rx.subjects.ReplaySubject$BoundedState::isEmpty():boolean" />
+			<role name="Request()" element="rx.subjects.ReplaySubject$BoundedState::toArray(T[]):java.lang.Object[]" />
+			<role name="Request()" element="rx.subjects.ReplaySubject$BoundedState::latest():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="rx.subjects.ReplaySubject$BoundedState" />
+			<role name="Adaptee" element="rx.subjects.ReplaySubject$NodeList" />
+			<role name="adaptee" element="rx.subjects.ReplaySubject$BoundedState::list:rx.subjects.ReplaySubject$NodeList" />
+			<role name="Request()" element="rx.subjects.ReplaySubject$BoundedState::next(T):void" />
+			<role name="Request()" element="rx.subjects.ReplaySubject$BoundedState::complete():void" />
+			<role name="Request()" element="rx.subjects.ReplaySubject$BoundedState::error(java.lang.Throwable):void" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="rx.subjects.ReplaySubject$UnboundedReplayState" />
+			<role name="Adaptee" element="rx.internal.operators.NotificationLite" />
+			<role name="adaptee" element="rx.subjects.ReplaySubject$UnboundedReplayState::nl:rx.internal.operators.NotificationLite" />
+			<role name="Request()" element="rx.subjects.ReplaySubject$UnboundedReplayState::next(T):void" />
+			<role name="Request()" element="rx.subjects.ReplaySubject$UnboundedReplayState::complete():void" />
+			<role name="Request()" element="rx.subjects.ReplaySubject$UnboundedReplayState::error(java.lang.Throwable):void" />
+			<role name="Request()" element="rx.subjects.ReplaySubject$UnboundedReplayState::size():int" />
+			<role name="Request()" element="rx.subjects.ReplaySubject$UnboundedReplayState::latest():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="rx.functions.Action1" />
+			<role name="Adapter" element="rx.internal.operators.OnSubscribeUsing$DisposeAction" />
+			<role name="adaptee" element="rx.internal.operators.OnSubscribeUsing$DisposeAction::dispose:rx.functions.Action1" />
+			<role name="Request()" element="rx.internal.operators.OnSubscribeUsing$DisposeAction::call():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="rx.functions.Action1" />
+			<role name="Adapter" element="rx.observables.AbstractOnSubscribe$LambdaOnSubscribe" />
+			<role name="adaptee" element="rx.observables.AbstractOnSubscribe$LambdaOnSubscribe::next:rx.functions.Action1" />
+			<role name="Request()" element="rx.observables.AbstractOnSubscribe$LambdaOnSubscribe::next(rx.observables.AbstractOnSubscribe$SubscriptionState):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="rx.subjects.ReplaySubject$EvictionPolicy" />
+			<role name="Adapter" element="rx.subjects.ReplaySubject$BoundedState" />
+			<role name="adaptee" element="rx.subjects.ReplaySubject$BoundedState::evictionPolicy:rx.subjects.ReplaySubject$EvictionPolicy" />
+			<role name="Request()" element="rx.subjects.ReplaySubject$BoundedState::next(T):void" />
+			<role name="Request()" element="rx.subjects.ReplaySubject$BoundedState::complete():void" />
+			<role name="Request()" element="rx.subjects.ReplaySubject$BoundedState::error(java.lang.Throwable):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="rx.Observable" />
+			<role name="Adapter" element="rx.internal.operators.OnSubscribeCombineLatest$SingleSourceProducer" />
+			<role name="adaptee" element="rx.internal.operators.OnSubscribeCombineLatest$SingleSourceProducer::source:rx.Observable" />
+			<role name="Request()" element="rx.internal.operators.OnSubscribeCombineLatest$SingleSourceProducer::request(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="rx.Scheduler" />
+			<role name="Adapter" element="rx.subjects.ReplaySubject$TimeEvictionPolicy" />
+			<role name="adaptee" element="rx.subjects.ReplaySubject$TimeEvictionPolicy::scheduler:rx.Scheduler" />
+			<role name="Request()" element="rx.subjects.ReplaySubject$TimeEvictionPolicy::evict(rx.subjects.ReplaySubject$NodeList):void" />
+			<role name="Request()" element="rx.subjects.ReplaySubject$TimeEvictionPolicy::evictFinal(rx.subjects.ReplaySubject$NodeList):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="rx.functions.Func1" />
+			<role name="Adapter" element="rx.subjects.ReplaySubject$BoundedState" />
+			<role name="adaptee" element="rx.subjects.ReplaySubject$BoundedState::enterTransform:rx.functions.Func1" />
+			<role name="adaptee" element="rx.subjects.ReplaySubject$BoundedState::leaveTransform:rx.functions.Func1" />
+			<role name="Request()" element="rx.subjects.ReplaySubject$BoundedState::next(T):void" />
+			<role name="Request()" element="rx.subjects.ReplaySubject$BoundedState::complete():void" />
+			<role name="Request()" element="rx.subjects.ReplaySubject$BoundedState::error(java.lang.Throwable):void" />
+			<role name="Request()" element="rx.subjects.ReplaySubject$BoundedState::size():int" />
+			<role name="Request()" element="rx.subjects.ReplaySubject$BoundedState::isEmpty():boolean" />
+			<role name="Request()" element="rx.subjects.ReplaySubject$BoundedState::toArray(T[]):java.lang.Object[]" />
+			<role name="Request()" element="rx.subjects.ReplaySubject$BoundedState::latest():java.lang.Object" />
+		</instance>
+	</pattern>
+	<pattern name="Command" />
+	<pattern name="Composite" />
+	<pattern name="Decorator">
+		<instance>
+			<role name="Component" element="rx.subjects.Subject" />
+			<role name="Decorator" element="rx.internal.operators.OperatorReplay$SubjectWrapper" />
+			<role name="component" element="rx.internal.operators.OperatorReplay$SubjectWrapper::subject:rx.subjects.Subject" />
+			<role name="Operation()" element="rx.internal.operators.OperatorReplay$SubjectWrapper::hasObservers():boolean" />
+		</instance>
+		<instance>
+			<role name="Component" element="rx.subjects.Subject" />
+			<role name="Decorator" element="rx.subjects.SerializedSubject" />
+			<role name="component" element="rx.subjects.SerializedSubject::actual:rx.subjects.Subject" />
+			<role name="Operation()" element="rx.subjects.SerializedSubject::hasObservers():boolean" />
+		</instance>
+		<instance>
+			<role name="Component" element="rx.Observer" />
+			<role name="Decorator" element="rx.observers.SerializedObserver" />
+			<role name="component" element="rx.observers.SerializedObserver::actual:rx.Observer" />
+			<role name="Operation()" element="rx.observers.SerializedObserver::onCompleted():void" />
+			<role name="Operation()" element="rx.observers.SerializedObserver::onError(java.lang.Throwable):void" />
+			<role name="Operation()" element="rx.observers.SerializedObserver::onNext(T):void" />
+		</instance>
+		<instance>
+			<role name="Component" element="rx.Observer" />
+			<role name="Decorator" element="rx.observers.SerializedSubscriber" />
+			<role name="component" element="rx.observers.SerializedSubscriber::s:rx.Observer" />
+			<role name="Operation()" element="rx.observers.SerializedSubscriber::onCompleted():void" />
+			<role name="Operation()" element="rx.observers.SerializedSubscriber::onError(java.lang.Throwable):void" />
+			<role name="Operation()" element="rx.observers.SerializedSubscriber::onNext(T):void" />
+		</instance>
+		<instance>
+			<role name="Component" element="rx.Observer" />
+			<role name="Decorator" element="rx.observers.TestObserver" />
+			<role name="component" element="rx.observers.TestObserver::delegate:rx.Observer" />
+			<role name="Operation()" element="rx.observers.TestObserver::onCompleted():void" />
+			<role name="Operation()" element="rx.observers.TestObserver::onError(java.lang.Throwable):void" />
+			<role name="Operation()" element="rx.observers.TestObserver::onNext(T):void" />
+		</instance>
+		<instance>
+			<role name="Component" element="rx.Observer" />
+			<role name="Decorator" element="rx.subjects.SubjectSubscriptionManager$SubjectObserver" />
+			<role name="component" element="rx.subjects.SubjectSubscriptionManager$SubjectObserver::actual:rx.Observer" />
+			<role name="Operation()" element="rx.subjects.SubjectSubscriptionManager$SubjectObserver::onNext(T):void" />
+			<role name="Operation()" element="rx.subjects.SubjectSubscriptionManager$SubjectObserver::onError(java.lang.Throwable):void" />
+			<role name="Operation()" element="rx.subjects.SubjectSubscriptionManager$SubjectObserver::onCompleted():void" />
+		</instance>
+		<instance>
+			<role name="Component" element="rx.Subscription" />
+			<role name="Decorator" element="rx.internal.util.SynchronizedSubscription" />
+			<role name="component" element="rx.internal.util.SynchronizedSubscription::s:rx.Subscription" />
+			<role name="Operation()" element="rx.internal.util.SynchronizedSubscription::unsubscribe():void" />
+			<role name="Operation()" element="rx.internal.util.SynchronizedSubscription::isUnsubscribed():boolean" />
+		</instance>
+		<instance>
+			<role name="Component" element="rx.functions.Action0" />
+			<role name="Decorator" element="rx.schedulers.SleepingAction" />
+			<role name="component" element="rx.schedulers.SleepingAction::underlying:rx.functions.Action0" />
+			<role name="Operation()" element="rx.schedulers.SleepingAction::call():void" />
+		</instance>
+		<instance>
+			<role name="Component" element="rx.Producer" />
+			<role name="Decorator" element="rx.internal.producers.ProducerArbiter" />
+			<role name="component" element="rx.internal.producers.ProducerArbiter::currentProducer:rx.Producer" />
+			<role name="component" element="rx.internal.producers.ProducerArbiter::missedProducer:rx.Producer" />
+			<role name="Operation()" element="rx.internal.producers.ProducerArbiter::request(long):void" />
+		</instance>
+		<instance>
+			<role name="Component" element="rx.Producer" />
+			<role name="Decorator" element="rx.internal.producers.ProducerObserverArbiter" />
+			<role name="component" element="rx.internal.producers.ProducerObserverArbiter::currentProducer:rx.Producer" />
+			<role name="component" element="rx.internal.producers.ProducerObserverArbiter::missedProducer:rx.Producer" />
+			<role name="Operation()" element="rx.internal.producers.ProducerObserverArbiter::request(long):void" />
+		</instance>
+		<instance>
+			<role name="Component" element="rx.subjects.ReplaySubject$EvictionPolicy" />
+			<role name="Decorator" element="rx.subjects.ReplaySubject$PairEvictionPolicy" />
+			<role name="component" element="rx.subjects.ReplaySubject$PairEvictionPolicy::first:rx.subjects.ReplaySubject$EvictionPolicy" />
+			<role name="component" element="rx.subjects.ReplaySubject$PairEvictionPolicy::second:rx.subjects.ReplaySubject$EvictionPolicy" />
+			<role name="Operation()" element="rx.subjects.ReplaySubject$PairEvictionPolicy::evict(rx.subjects.ReplaySubject$NodeList):void" />
+			<role name="Operation()" element="rx.subjects.ReplaySubject$PairEvictionPolicy::evictFinal(rx.subjects.ReplaySubject$NodeList):void" />
+			<role name="Operation()" element="rx.subjects.ReplaySubject$PairEvictionPolicy::test(java.lang.Object, long):boolean" />
+		</instance>
+	</pattern>
+	<pattern name="Observer" />
+	<pattern name="State">
+		<instance>
+			<role name="State" element="rx.Scheduler$Worker" />
+			<role name="Context" element="rx.subjects.TestSubject" />
+			<role name="state" element="rx.subjects.TestSubject::innerScheduler:rx.Scheduler$Worker" />
+			<role name="Request()" element="rx.subjects.TestSubject::onCompleted(long):void" />
+			<role name="Request()" element="rx.subjects.TestSubject::onError(java.lang.Throwable, long):void" />
+			<role name="Request()" element="rx.subjects.TestSubject::onNext(T, long):void" />
+		</instance>
+		<instance>
+			<role name="State" element="rx.Observer" />
+			<role name="Context" element="rx.internal.operators.OperatorZip$Zip" />
+			<role name="state" element="rx.internal.operators.OperatorZip$Zip::child:rx.Observer" />
+			<role name="Request()" element="rx.internal.operators.OperatorZip$Zip::tick():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="rx.internal.operators.OnSubscribeRefCount" />
+			<role name="State" element="rx.observables.ConnectableObservable" />
+			<role name="state" element="rx.internal.operators.OnSubscribeRefCount::source:rx.observables.ConnectableObservable" />
+			<role name="Request()" element="rx.internal.operators.OnSubscribeRefCount::call(rx.Subscriber):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="rx.internal.operators.OperatorOnBackpressureBuffer$BufferSubscriber" />
+			<role name="State" element="rx.functions.Action0" />
+			<role name="state" element="rx.internal.operators.OperatorOnBackpressureBuffer$BufferSubscriber::onOverflow:rx.functions.Action0" />
+			<role name="Request()" element="rx.internal.operators.OperatorOnBackpressureBuffer$BufferSubscriber::assertCapacity():boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="rx.internal.schedulers.ScheduledAction" />
+			<role name="State" element="rx.functions.Action0" />
+			<role name="state" element="rx.internal.schedulers.ScheduledAction::action:rx.functions.Action0" />
+			<role name="Request()" element="rx.internal.schedulers.ScheduledAction::run():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="rx.subscriptions.BooleanSubscription" />
+			<role name="State" element="rx.functions.Action0" />
+			<role name="state" element="rx.subscriptions.BooleanSubscription::action:rx.functions.Action0" />
+			<role name="Request()" element="rx.subscriptions.BooleanSubscription::unsubscribe():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="rx.internal.operators.OperatorGroupBy$GroupBySubscriber" />
+			<role name="State" element="rx.functions.Func1" />
+			<role name="state" element="rx.internal.operators.OperatorGroupBy$GroupBySubscriber::keySelector:rx.functions.Func1" />
+			<role name="Request()" element="rx.internal.operators.OperatorGroupBy$GroupBySubscriber::onNext(T):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="rx.internal.operators.OperatorMulticast" />
+			<role name="State" element="rx.functions.Func0" />
+			<role name="state" element="rx.internal.operators.OperatorMulticast::subjectFactory:rx.functions.Func0" />
+			<role name="Request()" element="rx.internal.operators.OperatorMulticast::connect(rx.functions.Action1):void" />
+		</instance>
+		<instance>
+			<role name="State" element="rx.functions.FuncN" />
+			<role name="Context" element="rx.internal.operators.OperatorZip$Zip" />
+			<role name="state" element="rx.internal.operators.OperatorZip$Zip::zipFunction:rx.functions.FuncN" />
+			<role name="Request()" element="rx.internal.operators.OperatorZip$Zip::tick():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="rx.subjects.ReplaySubject" />
+			<role name="State" element="rx.subjects.ReplaySubject$ReplayState" />
+			<role name="state" element="rx.subjects.ReplaySubject::state:rx.subjects.ReplaySubject$ReplayState" />
+			<role name="Request()" element="rx.subjects.ReplaySubject::onNext(T):void" />
+			<role name="Request()" element="rx.subjects.ReplaySubject::onError(java.lang.Throwable):void" />
+			<role name="Request()" element="rx.subjects.ReplaySubject::onCompleted():void" />
+			<role name="Request()" element="rx.subjects.ReplaySubject::caughtUp(rx.subjects.SubjectSubscriptionManager$SubjectObserver):boolean" />
+			<role name="Request()" element="rx.subjects.ReplaySubject::size():int" />
+			<role name="Request()" element="rx.subjects.ReplaySubject::hasAnyValue():boolean" />
+			<role name="Request()" element="rx.subjects.ReplaySubject::getValue():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="rx.internal.operators.OnSubscribeUsing$DisposeAction" />
+			<role name="State" element="rx.functions.Action1" />
+			<role name="state" element="rx.internal.operators.OnSubscribeUsing$DisposeAction::dispose:rx.functions.Action1" />
+			<role name="Request()" element="rx.internal.operators.OnSubscribeUsing$DisposeAction::call():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="rx.observables.AbstractOnSubscribe$LambdaOnSubscribe" />
+			<role name="State" element="rx.functions.Action1" />
+			<role name="state" element="rx.observables.AbstractOnSubscribe$LambdaOnSubscribe::onTerminated:rx.functions.Action1" />
+			<role name="state" element="rx.observables.AbstractOnSubscribe$LambdaOnSubscribe::next:rx.functions.Action1" />
+			<role name="Request()" element="rx.observables.AbstractOnSubscribe$LambdaOnSubscribe::onTerminated(S):void" />
+			<role name="Request()" element="rx.observables.AbstractOnSubscribe$LambdaOnSubscribe::next(rx.observables.AbstractOnSubscribe$SubscriptionState):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="rx.subjects.SubjectSubscriptionManager" />
+			<role name="State" element="rx.functions.Action1" />
+			<role name="state" element="rx.subjects.SubjectSubscriptionManager::onStart:rx.functions.Action1" />
+			<role name="state" element="rx.subjects.SubjectSubscriptionManager::onTerminated:rx.functions.Action1" />
+			<role name="state" element="rx.subjects.SubjectSubscriptionManager::onAdded:rx.functions.Action1" />
+			<role name="Request()" element="rx.subjects.SubjectSubscriptionManager::call(rx.Subscriber):void" />
+			<role name="Request()" element="rx.subjects.SubjectSubscriptionManager::add(rx.subjects.SubjectSubscriptionManager$SubjectObserver):boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="rx.internal.util.BackpressureDrainManager" />
+			<role name="State" element="rx.internal.util.BackpressureDrainManager$BackpressureQueueCallback" />
+			<role name="state" element="rx.internal.util.BackpressureDrainManager::actual:rx.internal.util.BackpressureDrainManager$BackpressureQueueCallback" />
+			<role name="Request()" element="rx.internal.util.BackpressureDrainManager::drain():void" />
+		</instance>
+		<instance>
+			<role name="State" element="rx.Scheduler" />
+			<role name="Context" element="rx.internal.operators.OperatorBufferWithTime" />
+			<role name="state" element="rx.internal.operators.OperatorBufferWithTime::scheduler:rx.Scheduler" />
+			<role name="Request()" element="rx.internal.operators.OperatorBufferWithTime::call(rx.Subscriber):rx.Subscriber" />
+		</instance>
+		<instance>
+			<role name="State" element="rx.Scheduler" />
+			<role name="Context" element="rx.internal.operators.OperatorDebounceWithTime" />
+			<role name="state" element="rx.internal.operators.OperatorDebounceWithTime::scheduler:rx.Scheduler" />
+			<role name="Request()" element="rx.internal.operators.OperatorDebounceWithTime::call(rx.Subscriber):rx.Subscriber" />
+		</instance>
+		<instance>
+			<role name="State" element="rx.Scheduler" />
+			<role name="Context" element="rx.internal.operators.OperatorDelay" />
+			<role name="state" element="rx.internal.operators.OperatorDelay::scheduler:rx.Scheduler" />
+			<role name="Request()" element="rx.internal.operators.OperatorDelay::call(rx.Subscriber):rx.Subscriber" />
+		</instance>
+		<instance>
+			<role name="State" element="rx.Scheduler" />
+			<role name="Context" element="rx.internal.operators.OperatorSampleWithTime" />
+			<role name="state" element="rx.internal.operators.OperatorSampleWithTime::scheduler:rx.Scheduler" />
+			<role name="Request()" element="rx.internal.operators.OperatorSampleWithTime::call(rx.Subscriber):rx.Subscriber" />
+		</instance>
+		<instance>
+			<role name="State" element="rx.Scheduler" />
+			<role name="Context" element="rx.internal.operators.OperatorSkipTimed" />
+			<role name="state" element="rx.internal.operators.OperatorSkipTimed::scheduler:rx.Scheduler" />
+			<role name="Request()" element="rx.internal.operators.OperatorSkipTimed::call(rx.Subscriber):rx.Subscriber" />
+		</instance>
+		<instance>
+			<role name="State" element="rx.Scheduler" />
+			<role name="Context" element="rx.internal.operators.OperatorSubscribeOn" />
+			<role name="state" element="rx.internal.operators.OperatorSubscribeOn::scheduler:rx.Scheduler" />
+			<role name="Request()" element="rx.internal.operators.OperatorSubscribeOn::call(rx.Subscriber):rx.Subscriber" />
+		</instance>
+		<instance>
+			<role name="State" element="rx.Scheduler" />
+			<role name="Context" element="rx.internal.operators.OperatorTakeTimed" />
+			<role name="state" element="rx.internal.operators.OperatorTakeTimed::scheduler:rx.Scheduler" />
+			<role name="Request()" element="rx.internal.operators.OperatorTakeTimed::call(rx.Subscriber):rx.Subscriber" />
+		</instance>
+		<instance>
+			<role name="State" element="rx.Scheduler" />
+			<role name="Context" element="rx.internal.operators.OperatorTimeoutBase" />
+			<role name="state" element="rx.internal.operators.OperatorTimeoutBase::scheduler:rx.Scheduler" />
+			<role name="Request()" element="rx.internal.operators.OperatorTimeoutBase::call(rx.Subscriber):rx.Subscriber" />
+		</instance>
+		<instance>
+			<role name="State" element="rx.Scheduler" />
+			<role name="Context" element="rx.internal.operators.OperatorWindowWithTime" />
+			<role name="state" element="rx.internal.operators.OperatorWindowWithTime::scheduler:rx.Scheduler" />
+			<role name="Request()" element="rx.internal.operators.OperatorWindowWithTime::call(rx.Subscriber):rx.Subscriber" />
+		</instance>
+		<instance>
+			<role name="State" element="rx.functions.Func1" />
+			<role name="Context" element="rx.internal.operators.OnSubscribeMulticastSelector" />
+			<role name="state" element="rx.internal.operators.OnSubscribeMulticastSelector::resultSelector:rx.functions.Func1" />
+			<role name="Request()" element="rx.internal.operators.OnSubscribeMulticastSelector::call(rx.Subscriber):void" />
+		</instance>
+		<instance>
+			<role name="State" element="rx.functions.Func1" />
+			<role name="Context" element="rx.internal.operators.OnSubscribeRedo" />
+			<role name="state" element="rx.internal.operators.OnSubscribeRedo::controlHandlerFunction:rx.functions.Func1" />
+			<role name="Request()" element="rx.internal.operators.OnSubscribeRedo::call(rx.Subscriber):void" />
+		</instance>
+		<instance>
+			<role name="State" element="rx.functions.Func1" />
+			<role name="Context" element="rx.internal.operators.OnSubscribeUsing" />
+			<role name="state" element="rx.internal.operators.OnSubscribeUsing::observableFactory:rx.functions.Func1" />
+			<role name="Request()" element="rx.internal.operators.OnSubscribeUsing::call(rx.Subscriber):void" />
+		</instance>
+		<instance>
+			<role name="State" element="rx.functions.Func1" />
+			<role name="Context" element="rx.observables.AbstractOnSubscribe$LambdaOnSubscribe" />
+			<role name="state" element="rx.observables.AbstractOnSubscribe$LambdaOnSubscribe::onSubscribe:rx.functions.Func1" />
+			<role name="Request()" element="rx.observables.AbstractOnSubscribe$LambdaOnSubscribe::onSubscribe(rx.Subscriber):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="State" element="rx.functions.Func0" />
+			<role name="Context" element="rx.internal.operators.OperatorBufferWithSingleObservable" />
+			<role name="state" element="rx.internal.operators.OperatorBufferWithSingleObservable::bufferClosingSelector:rx.functions.Func0" />
+			<role name="Request()" element="rx.internal.operators.OperatorBufferWithSingleObservable::call(rx.Subscriber):rx.Subscriber" />
+		</instance>
+		<instance>
+			<role name="State" element="rx.functions.Func0" />
+			<role name="Context" element="rx.internal.operators.OperatorWindowWithObservable" />
+			<role name="state" element="rx.internal.operators.OperatorWindowWithObservable::otherFactory:rx.functions.Func0" />
+			<role name="Request()" element="rx.internal.operators.OperatorWindowWithObservable::call(rx.Subscriber):rx.Subscriber" />
+		</instance>
+		<instance>
+			<role name="Context" element="rx.internal.operators.OnSubscribeDelaySubscription" />
+			<role name="State" element="rx.Scheduler" />
+			<role name="state" element="rx.internal.operators.OnSubscribeDelaySubscription::scheduler:rx.Scheduler" />
+			<role name="Request()" element="rx.internal.operators.OnSubscribeDelaySubscription::call(rx.Subscriber):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="rx.internal.operators.OnSubscribeRedo" />
+			<role name="State" element="rx.Scheduler" />
+			<role name="state" element="rx.internal.operators.OnSubscribeRedo::scheduler:rx.Scheduler" />
+			<role name="Request()" element="rx.internal.operators.OnSubscribeRedo::call(rx.Subscriber):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="rx.internal.operators.OnSubscribeTimerOnce" />
+			<role name="State" element="rx.Scheduler" />
+			<role name="state" element="rx.internal.operators.OnSubscribeTimerOnce::scheduler:rx.Scheduler" />
+			<role name="Request()" element="rx.internal.operators.OnSubscribeTimerOnce::call(rx.Subscriber):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="rx.internal.operators.OnSubscribeTimerPeriodically" />
+			<role name="State" element="rx.Scheduler" />
+			<role name="state" element="rx.internal.operators.OnSubscribeTimerPeriodically::scheduler:rx.Scheduler" />
+			<role name="Request()" element="rx.internal.operators.OnSubscribeTimerPeriodically::call(rx.Subscriber):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="rx.internal.util.ScalarSynchronousObservable$NormalScheduledEmission" />
+			<role name="State" element="rx.Scheduler" />
+			<role name="state" element="rx.internal.util.ScalarSynchronousObservable$NormalScheduledEmission::scheduler:rx.Scheduler" />
+			<role name="Request()" element="rx.internal.util.ScalarSynchronousObservable$NormalScheduledEmission::call(rx.Subscriber):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="rx.internal.operators.OperatorDoOnSubscribe" />
+			<role name="State" element="rx.functions.Action0" />
+			<role name="state" element="rx.internal.operators.OperatorDoOnSubscribe::subscribe:rx.functions.Action0" />
+			<role name="Request()" element="rx.internal.operators.OperatorDoOnSubscribe::call(rx.Subscriber):rx.Subscriber" />
+		</instance>
+		<instance>
+			<role name="Context" element="rx.internal.operators.OnSubscribeDefer" />
+			<role name="State" element="rx.functions.Func0" />
+			<role name="state" element="rx.internal.operators.OnSubscribeDefer::observableFactory:rx.functions.Func0" />
+			<role name="Request()" element="rx.internal.operators.OnSubscribeDefer::call(rx.Subscriber):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="rx.internal.operators.OnSubscribeDelaySubscriptionWithSelector" />
+			<role name="State" element="rx.functions.Func0" />
+			<role name="state" element="rx.internal.operators.OnSubscribeDelaySubscriptionWithSelector::subscriptionDelay:rx.functions.Func0" />
+			<role name="Request()" element="rx.internal.operators.OnSubscribeDelaySubscriptionWithSelector::call(rx.Subscriber):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="rx.internal.operators.OnSubscribeUsing" />
+			<role name="State" element="rx.functions.Func0" />
+			<role name="state" element="rx.internal.operators.OnSubscribeUsing::resourceFactory:rx.functions.Func0" />
+			<role name="Request()" element="rx.internal.operators.OnSubscribeUsing::call(rx.Subscriber):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="rx.subjects.ReplaySubject$BoundedState" />
+			<role name="State" element="rx.subjects.ReplaySubject$EvictionPolicy" />
+			<role name="state" element="rx.subjects.ReplaySubject$BoundedState::evictionPolicy:rx.subjects.ReplaySubject$EvictionPolicy" />
+			<role name="Request()" element="rx.subjects.ReplaySubject$BoundedState::next(T):void" />
+			<role name="Request()" element="rx.subjects.ReplaySubject$BoundedState::complete():void" />
+			<role name="Request()" element="rx.subjects.ReplaySubject$BoundedState::error(java.lang.Throwable):void" />
+			<role name="Request()" element="rx.subjects.ReplaySubject$BoundedState::acceptTest(rx.Observer, rx.subjects.ReplaySubject$NodeList$Node, long):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="rx.internal.operators.OnSubscribeCombineLatest$SingleSourceRequestableSubscriber" />
+			<role name="State" element="rx.functions.FuncN" />
+			<role name="state" element="rx.internal.operators.OnSubscribeCombineLatest$SingleSourceRequestableSubscriber::combinator:rx.functions.FuncN" />
+			<role name="Request()" element="rx.internal.operators.OnSubscribeCombineLatest$SingleSourceRequestableSubscriber::onNext(T):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="rx.internal.operators.OnSubscribeCombineLatest$MultiSourceProducer" />
+			<role name="State" element="rx.functions.FuncN" />
+			<role name="state" element="rx.internal.operators.OnSubscribeCombineLatest$MultiSourceProducer::combinator:rx.functions.FuncN" />
+			<role name="Request()" element="rx.internal.operators.OnSubscribeCombineLatest$MultiSourceProducer::onNext(int, T):boolean" />
+		</instance>
+		<instance>
+			<role name="State" element="rx.functions.Func1" />
+			<role name="Context" element="rx.subjects.ReplaySubject$BoundedState" />
+			<role name="state" element="rx.subjects.ReplaySubject$BoundedState::enterTransform:rx.functions.Func1" />
+			<role name="state" element="rx.subjects.ReplaySubject$BoundedState::leaveTransform:rx.functions.Func1" />
+			<role name="Request()" element="rx.subjects.ReplaySubject$BoundedState::next(T):void" />
+			<role name="Request()" element="rx.subjects.ReplaySubject$BoundedState::complete():void" />
+			<role name="Request()" element="rx.subjects.ReplaySubject$BoundedState::error(java.lang.Throwable):void" />
+			<role name="Request()" element="rx.subjects.ReplaySubject$BoundedState::accept(rx.Observer, rx.subjects.ReplaySubject$NodeList$Node):void" />
+			<role name="Request()" element="rx.subjects.ReplaySubject$BoundedState::acceptTest(rx.Observer, rx.subjects.ReplaySubject$NodeList$Node, long):void" />
+			<role name="Request()" element="rx.subjects.ReplaySubject$BoundedState::size():int" />
+			<role name="Request()" element="rx.subjects.ReplaySubject$BoundedState::isEmpty():boolean" />
+			<role name="Request()" element="rx.subjects.ReplaySubject$BoundedState::toArray(T[]):java.lang.Object[]" />
+			<role name="Request()" element="rx.subjects.ReplaySubject$BoundedState::latest():java.lang.Object" />
+		</instance>
+	</pattern>
+	<pattern name="Strategy" />
+	<pattern name="Bridge">
+		<instance>
+			<role name="Implementor" element="rx.Producer" />
+			<role name="Abstraction" element="rx.Subscriber" />
+			<role name="implementor" element="rx.Subscriber::p:rx.Producer" />
+			<role name="Operation()" element="rx.Subscriber::request(long):void" />
+			<role name="Operation()" element="rx.Subscriber::setProducer(rx.Producer):void" />
+		</instance>
+	</pattern>
+	<pattern name="Template Method">
+		<instance>
+			<role name="AbstractClass" element="rx.internal.util.ObjectPool" />
+			<role name="TemplateMethod()" element="rx.internal.util.ObjectPool::borrowObject():java.lang.Object" />
+			<role name="TemplateMethod()" element="rx.internal.util.ObjectPool::initialize(int):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="rx.Scheduler$Worker" />
+			<role name="TemplateMethod()" element="rx.Scheduler$Worker::schedulePeriodically(rx.functions.Action0, long, long, java.util.concurrent.TimeUnit):rx.Subscription" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="rx.observables.ConnectableObservable" />
+			<role name="TemplateMethod()" element="rx.observables.ConnectableObservable::connect():rx.Subscription" />
+		</instance>
+	</pattern>
+	<pattern name="Visitor" />
+	<pattern name="Proxy">
+		<instance>
+			<role name="Proxy" element="rx.internal.operators.OperatorDebounceWithSelector$1" />
+			<role name="RealSubject" element="rx.observers.SerializedSubscriber" />
+			<role name="Request()" element="rx.internal.operators.OperatorDebounceWithSelector$1::onError(java.lang.Throwable):void" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="rx.internal.operators.OperatorDebounceWithTime$1" />
+			<role name="RealSubject" element="rx.observers.SerializedSubscriber" />
+			<role name="Request()" element="rx.internal.operators.OperatorDebounceWithTime$1::onError(java.lang.Throwable):void" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="rx.internal.operators.OperatorDelayWithSelector$1" />
+			<role name="RealSubject" element="rx.observers.SerializedSubscriber" />
+			<role name="Request()" element="rx.internal.operators.OperatorDelayWithSelector$1::onError(java.lang.Throwable):void" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="rx.internal.operators.OperatorBufferWithStartEndObservable$1" />
+			<role name="RealSubject" element="rx.internal.operators.OperatorBufferWithStartEndObservable$BufferingSubscriber" />
+			<role name="Request()" element="rx.internal.operators.OperatorBufferWithStartEndObservable$1::onError(java.lang.Throwable):void" />
+			<role name="Request()" element="rx.internal.operators.OperatorBufferWithStartEndObservable$1::onCompleted():void" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="rx.internal.operators.OperatorBufferWithStartEndObservable$BufferingSubscriber$1" />
+			<role name="RealSubject" element="rx.internal.operators.OperatorBufferWithStartEndObservable$BufferingSubscriber" />
+			<role name="Request()" element="rx.internal.operators.OperatorBufferWithStartEndObservable$BufferingSubscriber$1::onError(java.lang.Throwable):void" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="rx.internal.operators.OperatorTimeoutWithSelector$1$1" />
+			<role name="RealSubject" element="rx.internal.operators.OperatorTimeoutBase$TimeoutSubscriber" />
+			<role name="Request()" element="rx.internal.operators.OperatorTimeoutWithSelector$1$1::onError(java.lang.Throwable):void" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="rx.internal.operators.OperatorTimeoutWithSelector$2$1" />
+			<role name="RealSubject" element="rx.internal.operators.OperatorTimeoutBase$TimeoutSubscriber" />
+			<role name="Request()" element="rx.internal.operators.OperatorTimeoutWithSelector$2$1::onError(java.lang.Throwable):void" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="rx.internal.operators.OnSubscribeJoin$ResultSink$LeftSubscriber$LeftDurationSubscriber" />
+			<role name="RealSubject" element="rx.internal.operators.OnSubscribeJoin$ResultSink$LeftSubscriber" />
+			<role name="Request()" element="rx.internal.operators.OnSubscribeJoin$ResultSink$LeftSubscriber$LeftDurationSubscriber::onError(java.lang.Throwable):void" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="rx.internal.operators.OnSubscribeJoin$ResultSink$RightSubscriber$RightDurationSubscriber" />
+			<role name="RealSubject" element="rx.internal.operators.OnSubscribeJoin$ResultSink$RightSubscriber" />
+			<role name="Request()" element="rx.internal.operators.OnSubscribeJoin$ResultSink$RightSubscriber$RightDurationSubscriber::onError(java.lang.Throwable):void" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="rx.internal.operators.OperatorBufferWithSingleObservable$2" />
+			<role name="RealSubject" element="rx.internal.operators.OperatorBufferWithSingleObservable$BufferingSubscriber" />
+			<role name="Request()" element="rx.internal.operators.OperatorBufferWithSingleObservable$2::onError(java.lang.Throwable):void" />
+			<role name="Request()" element="rx.internal.operators.OperatorBufferWithSingleObservable$2::onCompleted():void" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="rx.internal.operators.OperatorMergeMaxConcurrent$SourceSubscriber$MergeItemSubscriber" />
+			<role name="RealSubject" element="rx.internal.operators.OperatorMergeMaxConcurrent$SourceSubscriber" />
+			<role name="Request()" element="rx.internal.operators.OperatorMergeMaxConcurrent$SourceSubscriber$MergeItemSubscriber::onError(java.lang.Throwable):void" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="rx.internal.operators.OperatorOnBackpressureLatest$LatestSubscriber" />
+			<role name="RealSubject" element="rx.internal.operators.OperatorOnBackpressureLatest$LatestEmitter" />
+			<role name="Request()" element="rx.internal.operators.OperatorOnBackpressureLatest$LatestSubscriber::onError(java.lang.Throwable):void" />
+			<role name="Request()" element="rx.internal.operators.OperatorOnBackpressureLatest$LatestSubscriber::onCompleted():void" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="rx.internal.operators.OperatorWindowWithObservable$BoundarySubscriber" />
+			<role name="RealSubject" element="rx.internal.operators.OperatorWindowWithObservable$SourceSubscriber" />
+			<role name="Request()" element="rx.internal.operators.OperatorWindowWithObservable$BoundarySubscriber::onError(java.lang.Throwable):void" />
+			<role name="Request()" element="rx.internal.operators.OperatorWindowWithObservable$BoundarySubscriber::onCompleted():void" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="rx.internal.operators.OperatorWindowWithStartEndObservable$1" />
+			<role name="RealSubject" element="rx.internal.operators.OperatorWindowWithStartEndObservable$SourceSubscriber" />
+			<role name="Request()" element="rx.internal.operators.OperatorWindowWithStartEndObservable$1::onError(java.lang.Throwable):void" />
+			<role name="Request()" element="rx.internal.operators.OperatorWindowWithStartEndObservable$1::onCompleted():void" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="rx.internal.operators.OperatorTimeoutBase$TimeoutSubscriber" />
+			<role name="RealSubject" element="rx.observers.SerializedSubscriber" />
+			<role name="Request()" element="rx.internal.operators.OperatorTimeoutBase$TimeoutSubscriber::onError(java.lang.Throwable):void" />
+			<role name="Request()" element="rx.internal.operators.OperatorTimeoutBase$TimeoutSubscriber::onCompleted():void" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="rx.internal.operators.OperatorSwitch$SwitchSubscriber" />
+			<role name="RealSubject" element="rx.observers.SerializedSubscriber" />
+			<role name="Request()" element="rx.internal.operators.OperatorSwitch$SwitchSubscriber::onError(java.lang.Throwable):void" />
+			<role name="Request()" element="rx.internal.operators.OperatorSwitch$SwitchSubscriber::onCompleted():void" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="rx.internal.operators.OperatorSampleWithObservable$1" />
+			<role name="RealSubject" element="rx.observers.SerializedSubscriber" />
+			<role name="Request()" element="rx.internal.operators.OperatorSampleWithObservable$1::onError(java.lang.Throwable):void" />
+			<role name="Request()" element="rx.internal.operators.OperatorSampleWithObservable$1::onCompleted():void" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="rx.internal.operators.OperatorSampleWithObservable$2" />
+			<role name="RealSubject" element="rx.observers.SerializedSubscriber" />
+			<role name="Request()" element="rx.internal.operators.OperatorSampleWithObservable$2::onError(java.lang.Throwable):void" />
+			<role name="Request()" element="rx.internal.operators.OperatorSampleWithObservable$2::onCompleted():void" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="rx.internal.operators.OperatorSkipUntil$1" />
+			<role name="RealSubject" element="rx.observers.SerializedSubscriber" />
+			<role name="Request()" element="rx.internal.operators.OperatorSkipUntil$1::onError(java.lang.Throwable):void" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="rx.internal.operators.OperatorSkipUntil$2" />
+			<role name="RealSubject" element="rx.observers.SerializedSubscriber" />
+			<role name="Request()" element="rx.internal.operators.OperatorSkipUntil$2::onError(java.lang.Throwable):void" />
+			<role name="Request()" element="rx.internal.operators.OperatorSkipUntil$2::onCompleted():void" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="rx.internal.operators.OperatorWithLatestFrom$1" />
+			<role name="RealSubject" element="rx.observers.SerializedSubscriber" />
+			<role name="Request()" element="rx.internal.operators.OperatorWithLatestFrom$1::onError(java.lang.Throwable):void" />
+			<role name="Request()" element="rx.internal.operators.OperatorWithLatestFrom$1::onCompleted():void" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="rx.internal.operators.OperatorWithLatestFrom$2" />
+			<role name="RealSubject" element="rx.observers.SerializedSubscriber" />
+			<role name="Request()" element="rx.internal.operators.OperatorWithLatestFrom$2::onError(java.lang.Throwable):void" />
+			<role name="Request()" element="rx.internal.operators.OperatorWithLatestFrom$2::onCompleted():void" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="rx.schedulers.ImmediateScheduler$InnerImmediateScheduler" />
+			<role name="RealSubject" element="rx.subscriptions.BooleanSubscription" />
+			<role name="Request()" element="rx.schedulers.ImmediateScheduler$InnerImmediateScheduler::unsubscribe():void" />
+			<role name="Request()" element="rx.schedulers.ImmediateScheduler$InnerImmediateScheduler::isUnsubscribed():boolean" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="rx.schedulers.TestScheduler$InnerTestScheduler" />
+			<role name="RealSubject" element="rx.subscriptions.BooleanSubscription" />
+			<role name="Request()" element="rx.schedulers.TestScheduler$InnerTestScheduler::unsubscribe():void" />
+			<role name="Request()" element="rx.schedulers.TestScheduler$InnerTestScheduler::isUnsubscribed():boolean" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="rx.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler" />
+			<role name="RealSubject" element="rx.subscriptions.BooleanSubscription" />
+			<role name="Request()" element="rx.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler::unsubscribe():void" />
+			<role name="Request()" element="rx.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler::isUnsubscribed():boolean" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="rx.internal.util.SubscriptionIndexedRingBuffer" />
+			<role name="RealSubject" element="rx.internal.util.IndexedRingBuffer" />
+			<role name="Request()" element="rx.internal.util.SubscriptionIndexedRingBuffer::unsubscribe():void" />
+		</instance>
+	</pattern>
+	<pattern name="Proxy2">
+		<instance>
+			<role name="RealSubject" element="rx.observers.SerializedSubscriber" />
+			<role name="Subject" element="rx.Observer" />
+			<role name="subject" element="rx.observers.SerializedSubscriber::s:rx.Observer" />
+			<role name="Request()" element="rx.observers.SerializedSubscriber::onCompleted():void" />
+			<role name="Request()" element="rx.observers.SerializedSubscriber::onError(java.lang.Throwable):void" />
+			<role name="Request()" element="rx.observers.SerializedSubscriber::onNext(T):void" />
+		</instance>
+	</pattern>
+	<pattern name="Chain of Responsibility">
+		<instance>
+			<role name="Handler" element="rx.Subscriber" />
+			<role name="successor" element="rx.Subscriber::op:rx.Subscriber" />
+		</instance>
+	</pattern>
+</system>
+

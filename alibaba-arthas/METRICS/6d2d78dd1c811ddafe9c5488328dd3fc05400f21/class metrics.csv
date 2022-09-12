@@ -1,0 +1,577 @@
+COH	DAC	ELOC	HALSTEADLENGHT	HALSTEADVOCABULARY	HALSTEADVOLUME	ID	LCC	LCOM	LOC	MCCABEMETRIC	MPC	NAME	NOA	NOO	NUMBEROFCHILDREN	NUMBEROFIMPORTS	NUMBOFATTRIBUTES	NUMBOFMETHODS	PATTERNROLE	PATTERNTYPE	RFC	TCC
+-1	0	27	55	151	275.9503910248208	566	0	1	38	7	6	com.taobao.arthas.agent.attach.AttachArthasClassloader	0	0	0	2	0	2			8	0
+0	5	110	177	682	1154.9302494382928	565	-1	27	157	24	25	com.taobao.arthas.agent.attach.ArthasAgent	0	0	0	8	10	11			36	-1
+0	2	50	95	318	547.3948813641168	254	-1	4	63	16	14	demo.MathGame	0	0	0	4	2	4			18	-1
+-1	0	27	56	152	281.3373091673915	2	0	1	36	7	6	com.taobao.arthas.agent.ArthasClassloader	0	0	0	2	0	2			8	0
+0	3	154	192	1137	1350.9405108001029	1	-1	28	199	27	33	com.taobao.arthas.agent334.AgentBootstrap	0	0	0	10	6	9			42	0
+0	1	91	152	745	1005.2344011936931	678	0	3	157	9	23	com.alibaba.arthas.tunnel.client.ProxyClient	0	0	0	36	1	3			26	0
+0	2	82	130	574	825.8418215215437	277	-1	24	136	19	35	com.alibaba.arthas.tunnel.client.ForwardClientSocketClientHandler	0	0	0	26	2	9			44	0
+0	2	34	45	173	231.89812175240007	279	-1	0	52	9	9	com.alibaba.arthas.tunnel.client.RelayHandler	0	0	0	7	2	5			14	1
+0	2	75	124	508	772.5796994997318	276	0	4	118	13	30	com.alibaba.arthas.tunnel.client.ForwardClient	0	0	0	24	2	4			34	0
+0	3	109	170	845	1145.6872266507196	281	-1	0	173	22	38	com.alibaba.arthas.tunnel.client.TunnelClientSocketClientHandler	0	0	0	23	3	8			46	1
+0	2	29	50	154	251.8476301206815	278	1	3	51	11	7	com.alibaba.arthas.tunnel.client.LocalFrameHandler	0	0	0	7	2	6			13	1
+-1	0	12	33	52	130.39104271318712	275	0	1	20	3	3	com.alibaba.arthas.tunnel.client.ChannelUtils	0	0	0	3	0	2			5	0
+0	5	126	180	703	1179.9642405259196	280	0	100	205	34	36	com.alibaba.arthas.tunnel.client.TunnelClient	0	0	0	29	8	17			53	0
+-1	0	113	166	722	1092.6161730562092	718	-1	28	185	16	54	arthas.VmToolTest	0	0	0	7	0	8			62	0
+0	1	77	100	344	584.0641657373399	-1	-1	114	106	31	10	arthas.VmTool	0	0	0	0	2	16	singleton	Singleton	26	-1
+-1	0	35	62	126	299.8494782309916	-1	0	21	53	9	0	arthas.VmToolMXBean	0	0	0	0	0	7			7	0
+-1	0	46	107	294	608.1430351052389	263	-1	1	77	9	19	com.taobao.arthas.compiler.DynamicCompilerTest	0	0	0	11	0	2			21	-1
+-1	0	15	36	72	153.959980284578	728	-1	1	33	4	10	com.taobao.arthas.compiler.PackageInternalsFinderTest	0	0	0	5	0	2			12	0
+0	2	43	78	299	444.63459872447356	258	0	4	81	13	12	com.taobao.arthas.compiler.DynamicCompilerException	0	0	0	3	2	5			17	0
+1	1	10	29	52	114.5860678388614	262	0	0	40	4	2	com.taobao.arthas.compiler.StringSource	0	0	0	3	1	2			4	0
+0	3	28	50	135	245.2637389219215	260	0	2	68	11	7	com.taobao.arthas.compiler.MemoryByteCode	0	0	0	6	4	5			12	0
+0	6	115	150	404	900.2122316941726	257	-1	12	171	30	27	com.taobao.arthas.compiler.DynamicCompiler	0	0	0	12	7	9			36	-1
+0	2	56	78	258	433.13084762388615	255	-1	110	103	36	11	com.taobao.arthas.compiler.CustomJavaFileObject	0	0	0	5	3	16			27	-1
+0	2	74	114	523	713.5922869034013	261	0	11	124	23	36	com.taobao.arthas.compiler.PackageInternalsFinder	0	0	0	12	2	6			42	0
+0	4	76	117	504	728.0414233643502	259	-1	2	127	18	9	com.taobao.arthas.compiler.DynamicJavaFileManager	0	0	0	10	4	5			14	0
+0	1	30	58	162	295.08058744347824	256	0	0	63	13	14	com.taobao.arthas.compiler.DynamicClassLoader	0	0	0	3	1	5			19	0
+-1	0	135	43	878	291.43880352631004	264	0	1830	319	72	0	com.test.TestLogger1	0	0	1	1	0	61			61	0
+-1	0	2	6	6	10.75055681536833	265	-1	0	7	0	0	com.hello.TestLogger2	0	0	0	1	0	0			0	-1
+0	4	64	86	336	500.2715597568356	679	-1	26	89	19	7	com.alibaba.arthas.tunnel.common.SimpleHttpResponse	0	0	0	9	4	9			16	0
+-1	1	26	51	112	240.6434424360498	676	-1	0	60	0	0	com.alibaba.arthas.tunnel.common.MethodConstants	0	0	0	0	5	0			0	-1
+-1	1	33	38	113	179.64073711106894	677	-1	0	46	0	0	com.alibaba.arthas.tunnel.common.URIConstans	0	0	0	0	9	0			0	-1
+-1	0	17	90	168	461.15675814629327	11	0	1	58	2	0	org.apache.commons.net.ProtocolCommandListener	0	0	0	1	0	2			2	0
+0	10	587	764	4257	6384.228453892709	13	-1	759	886	167	60	org.apache.commons.net.SocketClient	0	0	1	12	18	50			110	-1
+0	5	166	340	1343	2448.904806817901	4	3	6	316	46	12	org.apache.commons.net.DatagramSocketClient	0	0	0	4	6	16	abstraction	Bridge	28	3
+0	3	133	166	921	1133.026366018381	9	0	47	199	28	15	org.apache.commons.net.PrintCommandListener	0	0	0	2	4	11			26	0
+0	1	19	94	159	476.47699500870175	8	0	1	56	5	0	org.apache.commons.net.MalformedServerReplyException	0	0	0	1	1	2			2	0
+0	3	63	162	426	980.8191740956381	12	2	0	134	10	5	org.apache.commons.net.ProtocolCommandSupport	0	0	0	3	3	6			11	2
+-1	0	35	76	223	410.945054630969	6	0	3	79	13	0	org.apache.commons.net.DefaultDatagramSocketFactory	0	0	0	3	0	3			3	0
+0	4	72	186	597	1188.896583091024	10	-1	7	148	18	1	org.apache.commons.net.ProtocolCommandEvent	0	0	0	1	4	7			8	-1
+0	1	136	163	1051	1134.0720714529432	7	1	15	230	45	6	org.apache.commons.net.DefaultSocketFactory	0	0	0	8	1	10			16	1
+-1	0	26	86	214	461.4739372918792	5	0	3	69	13	0	org.apache.commons.net.DatagramSocketFactory	0	0	0	3	0	3	implementor	Bridge	3	0
+0	2	119	167	684	1090.168972242966	20	0	1	131	7	0	org.apache.commons.net.telnet.TelnetCommand	0	0	0	0	25	3			3	0
+0	2	162	226	1184	1599.323762290333	25	0	106	283	51	0	org.apache.commons.net.telnet.TelnetOptionHandler	0	0	5	0	7	17			17	0
+0	3	30	73	137	359.1586075854531	15	0	0	62	4	0	org.apache.commons.net.telnet.InvalidTelnetOptionException	0	0	0	0	3	2			2	0
+0	9	767	546	2660	4305.800445369557	18	-1	859	1265	158	135	org.apache.commons.net.telnet.Telnet	46	1	1	6	22	47	context	State	182	-1
+0	6	426	384	1123	2697.123438619562	22	-1	4	680	58	33	org.apache.commons.net.telnet.TelnetInputStream	0	0	0	4	14	12			45	-1
+1	1	78	160	486	989.793379824079	28	1	0	162	10	0	org.apache.commons.net.telnet.WindowSizeOptionHandler	2	1	0	0	3	3			3	1
+-1	0	21	75	154	377.7714451810222	17	0	1	52	6	0	org.apache.commons.net.telnet.SuppressGAOptionHandler	2	0	0	0	0	2			2	0
+-1	0	12	41	56	165.03941932014112	21	0	0	37	1	0	org.apache.commons.net.telnet.TelnetInputListener	0	0	0	0	0	1	state	State	1	0
+0	4	204	471	1504	3445.7811306241088	19	-1	236	414	64	12	org.apache.commons.net.telnet.TelnetClient	19	5	0	4	4	24	context	State	36	0
+0	2	98	145	493	899.07383023619	26	-1	0	165	19	6	org.apache.commons.net.telnet.TelnetOutputStream	0	0	0	2	3	6			12	-1
+-1	0	21	73	152	366.74327802177817	14	0	1	52	6	0	org.apache.commons.net.telnet.EchoOptionHandler	2	0	0	0	0	2			2	0
+0	2	61	151	412	909.1745257517786	27	1	0	112	11	2	org.apache.commons.net.telnet.TerminalTypeOptionHandler	2	1	0	0	4	3			5	1
+0	2	78	161	507	1002.7902715781805	24	0	3	193	8	1	org.apache.commons.net.telnet.TelnetOption	0	0	0	0	45	3			4	0
+0	1	32	88	197	464.92192812894297	23	0	0	68	1	0	org.apache.commons.net.telnet.TelnetNotificationHandler	0	0	0	0	5	1	state	State	1	0
+-1	0	23	82	177	424.444278071054	16	0	1	59	6	0	org.apache.commons.net.telnet.SimpleOptionHandler	2	0	0	0	0	2			2	0
+0	2	26	60	115	284.69592770179503	29	2	0	66	8	4	org.apache.commons.net.util.ListenerList	0	0	0	4	2	5			9	2
+0	5	327	373	2272	2882.6990858807085	3	-1	273	453	64	101	com.taobao.arthas.client.TelnetConsole	0	0	0	35	15	26			127	-1
+-1	0	51	113	479	697.4021675074334	239	-1	3	74	15	20	com.taobao.arthas.client.IOUtil	0	0	0	5	0	3			23	0
+-1	0	8	18	23	56.438895886724694	724	0	0	22	1	1	com.alibaba.arthas.tunnel.server.app.ArthasTunnelApplicationTest	0	0	0	4	0	1			2	0
+1	1	12	31	50	121.27271316827253	294	-1	0	30	4	12	com.alibaba.arthas.tunnel.server.app.WebSecurityConfig	0	0	0	6	1	1			13	-1
+-1	0	5	14	20	41.94025182975587	290	0	0	16	1	1	com.alibaba.arthas.tunnel.server.app.ArthasTunnelApplication	0	0	0	3	0	1			2	0
+-1	0	23	29	86	129.1760715913517	704	-1	3	47	3	21	com.alibaba.arthas.tunnel.server.utils.HttpUtilsTest	0	0	0	4	0	3			24	0
+-1	0	23	39	111	183.67167785118102	703	-1	1	31	6	5	com.alibaba.arthas.tunnel.server.utils.HttpUtils	0	0	0	1	0	2			7	0
+0	1	34	67	224	362.5802854742877	686	-1	1	51	8	13	com.alibaba.arthas.tunnel.server.utils.InetAddressUtil	0	0	0	5	1	2			15	-1
+-1	0	28	47	141	232.59171484777391	681	-1	3	67	6	29	com.alibaba.arthas.tunnel.server.URITest	0	0	0	7	0	3			32	0
+1	2	22	47	101	216.9106642915392	288	0	0	43	4	5	com.alibaba.arthas.tunnel.server.TunnelSocketServerInitializer	0	0	0	9	2	2			7	0
+0	2	201	288	1539	2113.5997825455975	287	0	0	310	32	114	com.alibaba.arthas.tunnel.server.TunnelSocketFrameHandler	0	0	0	34	2	9			123	0
+0	4	36	47	133	229.84640902642244	284	0	20	58	12	0	com.alibaba.arthas.tunnel.server.ClientConnectionInfo	0	0	0	4	4	8			8	0
+0	3	33	41	123	197.2995585702691	282	0	20	52	12	0	com.alibaba.arthas.tunnel.server.AgentInfo	0	0	0	2	4	8			8	0
+0	2	27	41	132	200.1948788260412	285	-1	4	49	8	9	com.alibaba.arthas.tunnel.server.RelayHandler	0	0	0	8	2	5			14	0
+0	10	163	205	846	1381.8064687192757	286	-1	256	239	56	46	com.alibaba.arthas.tunnel.server.TunnelServer	0	0	0	23	13	29	context	State	75	-1
+0	2	47	54	172	277.9647017479264	687	1	21	63	14	3	com.alibaba.arthas.tunnel.server.AgentClusterInfo	0	0	0	0	4	10			13	1
+-1	0	12	33	52	130.39104271318712	283	0	1	20	3	3	com.alibaba.arthas.tunnel.server.ChannelUtils	0	0	0	3	0	2			5	0
+0	4	82	128	548	807.203236729346	682	3	0	125	23	31	com.alibaba.arthas.tunnel.server.cluster.RedisTunnelClusterStore	0	0	0	15	4	7			38	3
+-1	0	11	33	55	132.24199511267156	683	0	10	25	5	0	com.alibaba.arthas.tunnel.server.cluster.TunnelClusterStore	0	0	0	4	0	5	state	State	5	0
+0	2	46	80	238	437.781653893718	693	3	0	87	14	13	com.alibaba.arthas.tunnel.server.cluster.InMemoryClusterStore	0	0	0	12	2	7			20	3
+0	3	64	113	396	675.8998058717563	690	1	0	114	17	14	com.alibaba.arthas.tunnel.server.app.web.DetailAPIController	0	0	0	18	3	4	context	State	18	1
+1	2	34	87	219	468.8492404940356	680	0	0	92	6	32	com.alibaba.arthas.tunnel.server.app.web.ProxyController	0	0	0	28	2	1			33	0
+1	1	13	46	72	196.72664147473856	305	0	0	37	2	2	com.alibaba.arthas.tunnel.server.app.web.StatController	0	0	0	8	1	1			3	0
+1	2	20	50	101	230.756025842063	685	0	0	46	3	4	com.alibaba.arthas.tunnel.server.app.web.ClusterController	0	0	0	10	2	1			5	0
+-1	0	14	36	67	151.36893429807478	689	0	0	37	3	9	com.alibaba.arthas.tunnel.server.app.configuration.EmbeddedRedisConfiguration	0	0	0	8	0	1			10	0
+-1	0	18	43	92	194.43690881310874	688	0	0	55	2	2	com.alibaba.arthas.tunnel.server.app.configuration.TunnelClusterStoreConfiguration	0	0	0	17	0	1			3	0
+0	3	113	103	571	653.781088594569	289	0	20	165	12	0	com.alibaba.arthas.tunnel.server.app.configuration.ArthasProperties	0	0	0	6	4	8			8	0
+1	1	18	39	77	169.40841145229368	684	0	0	41	3	12	com.alibaba.arthas.tunnel.server.app.configuration.TunnelServerConfiguration	0	0	0	8	1	1			13	0
+-1	0	5	16	21	48.71235900357477	292	0	0	21	2	0	com.alibaba.arthas.tunnel.server.endpoint.ArthasEndPointAutoconfiguration	0	0	0	6	0	1			1	0
+1	2	12	23	47	88.55339483933135	293	0	0	34	2	6	com.alibaba.arthas.tunnel.server.endpoint.ArthasEndpoint	0	0	0	7	2	1			7	0
+0	2	23	26	85	115.50893266874823	215	0	9	31	9	0	com.alibaba.arthas.Pojo	0	0	0	0	3	6			6	0
+0	1	37	69	192	362.7671806699169	216	-1	3	57	6	10	com.alibaba.arthas.Test	0	0	0	5	3	3			13	-1
+0	2	71	105	653	680.5655985740252	499	-1	0	133	20	8	java.arthas.SpyAPI	0	0	0	0	3	13			21	-1
+0	2	38	51	199	269.9585460609491	271	0	6	56	7	0	com.taobao.arthas.common.PidUtils	0	0	0	2	3	4			4	0
+0	2	111	162	806	1084.1175662860737	245	-1	28	151	30	22	com.taobao.arthas.common.SocketUtils	0	0	0	5	3	8			30	-1
+0	2	11	26	47	100.10383764446152	297	0	0	16	3	3	com.taobao.arthas.common.ReflectException	0	0	0	0	2	2			5	0
+-1	0	30	48	195	253.10397881105985	253	0	1	33	7	9	com.taobao.arthas.common.UsageRender	0	0	0	0	0	2			11	0
+1	1	26	33	124	159.06929166496622	722	0	0	30	2	0	com.taobao.arthas.common.VmToolUtils	0	0	0	0	1	1			1	0
+0	2	117	108	602	691.2278040933527	247	-1	33	136	26	11	com.taobao.arthas.common.OSUtils	0	0	0	1	5	10			21	-1
+0	2	43	58	182	301.8323878504541	252	1	26	61	23	5	com.taobao.arthas.common.JavaVersionUtils	0	0	0	1	3	12			17	1
+0	2	44	72	283	406.47217663031313	701	2	0	64	16	2	com.taobao.arthas.common.Pair	0	0	0	0	2	7			9	2
+-1	0	108	193	968	1326.9197928443793	486	-1	21	150	29	14	com.taobao.arthas.common.FileUtils	0	0	0	5	0	7			21	-1
+-1	2	28	45	128	218.34136187638276	673	-1	0	41	0	0	com.taobao.arthas.common.ArthasConstants	0	0	0	0	15	0			0	-1
+0	4	245	181	1396	1310.6872972813396	218	-1	247	292	88	47	com.taobao.arthas.common.AnsiLog	0	0	0	2	22	30			77	-1
+-1	0	82	142	528	890.2116722862891	246	-1	10	110	17	17	com.taobao.arthas.common.ExecutingCommand	0	0	0	6	0	5			22	-1
+-1	0	116	153	810	1024.646239892972	243	-1	78	165	39	30	com.taobao.arthas.common.IOUtils	0	0	0	14	0	13			43	-1
+0	8	433	408	3028	3270.3883067393945	298	-1	557	511	126	99	com.taobao.arthas.common.ReflectUtils	0	0	0	20	11	34			133	-1
+-1	0	3	9	9	19.775021196025975	502	0	0	22	1	0	com.taobao.arthas.common.concurrent.ReusableIterator	0	0	0	1	0	1			1	0
+0	6	988	1137	8534	10291.911908281414	501	-1	322	1471	109	42	com.taobao.arthas.common.concurrent.ConcurrentWeakKeyHashMap	0	0	0	18	12	28			70	-1
+-1	0	4	9	10	20.723265836946414	596	0	0	13	1	0	com.example.arthasspringbootstarterexample.ArthasSpringBootStarterExampleApplicationTests	0	0	0	2	0	1			1	0
+-1	0	8	18	34	63.47448944309091	595	0	0	18	2	4	com.example.arthasspringbootstarterexample.ArthasSpringBootStarterExampleApplication	0	0	0	3	0	1			5	0
+-1	0	21	34	79	148.56122698387873	572	0	0	41	1	4	com.alibaba.arthas.spring.StringUtilsTest	0	0	0	4	0	1			5	0
+0	2	29	82	159	415.650144582059	567	0	1	74	8	13	com.alibaba.arthas.spring.ArthasConfiguration	0	0	0	14	2	2			15	0
+-1	0	27	59	211	315.7596298750879	569	0	0	41	6	12	com.alibaba.arthas.spring.StringUtils	0	0	0	3	0	1			13	0
+0	4	117	120	456	734.6991371417264	568	0	325	160	41	2	com.alibaba.arthas.spring.ArthasProperties	0	0	0	2	14	27			29	0
+1	2	18	36	80	157.7529588482597	570	0	0	42	3	2	com.alibaba.arthas.spring.endpoints.ArthasEndPoint	0	0	0	6	2	1			3	0
+-1	0	8	21	26	68.42002729845113	571	0	0	22	2	0	com.alibaba.arthas.spring.endpoints.ArthasEndPointAutoConfiguration	0	0	0	4	0	1			1	0
+1	1	45	47	212	251.75955490958458	309	1	0	69	12	16	com.taobao.arthas.core.command.basic1000.GrepCommandTest	0	0	0	8	1	4			20	1
+0	5	331	466	2870	3710.3233658792087	736	-1	318	413	70	81	com.taobao.arthas.core.command.basic1000.JFRCommand	27	2	0	20	13	29	concreteCommand	Command	110	-1
+0	2	163	226	1000	1561.1526930499629	61	0	65	232	48	68	com.taobao.arthas.core.command.basic1000.OptionsCommand	12	2	0	31	3	14			82	0
+-1	0	25	50	126	241.8140953475739	51	0	0	49	2	17	com.taobao.arthas.core.command.basic1000.SessionCommand	0	1	0	9	0	1			18	0
+1	1	15	49	81	215.32800857894952	373	0	0	40	3	2	com.taobao.arthas.core.command.basic1000.EchoCommand	1	1	0	8	1	2			4	0
+0	4	106	201	718	1321.870383378693	694	0	10	175	17	20	com.taobao.arthas.core.command.basic1000.Base64Command	6	2	0	24	7	8			28	0
+0	1	26	69	156	348.44006450021806	274	0	1	42	3	7	com.taobao.arthas.core.command.basic1000.StopCommand	1	1	0	11	1	2			9	0
+0	1	63	128	442	779.6876649059453	49	0	1	94	11	26	com.taobao.arthas.core.command.basic1000.KeymapCommand	1	1	0	18	1	2			28	0
+0	2	57	128	414	771.3108446496402	296	0	0	110	12	18	com.taobao.arthas.core.command.basic1000.VMOptionCommand	3	2	0	21	3	5			23	0
+0	2	22	66	126	319.19460585879756	327	0	6	47	8	1	com.taobao.arthas.core.command.basic1000.TeeCommand	4	1	0	4	2	5			6	0
+0	1	115	168	763	1115.0593492557887	48	-1	53	162	31	60	com.taobao.arthas.core.command.basic1000.HelpCommand	9	2	0	20	1	11			71	-1
+-1	0	7	24	36	86.00445452294665	268	0	0	20	1	3	com.taobao.arthas.core.command.basic1000.PwdCommand	0	1	0	6	0	1			4	0
+0	3	99	173	515	1080.2408738148265	306	0	207	173	37	1	com.taobao.arthas.core.command.basic1000.GrepCommand	21	1	0	9	10	22			23	0
+0	1	33	84	203	446.30930223951015	249	-1	1	63	6	10	com.taobao.arthas.core.command.basic1000.SystemEnvCommand	1	2	0	11	1	3			13	0
+-1	0	12	29	45	110.39321220333927	54	0	0	28	1	4	com.taobao.arthas.core.command.basic1000.VersionCommand	0	1	0	6	0	1			5	0
+0	2	26	78	154	392.8823029882631	50	0	0	60	5	6	com.taobao.arthas.core.command.basic1000.ResetCommand	2	1	0	15	2	3			9	0
+0	5	66	145	515	905.4042005962418	269	0	5	109	15	15	com.taobao.arthas.core.command.basic1000.CatCommand	4	2	0	17	5	6			21	0
+-1	0	10	30	56	120.76055072205449	47	0	0	21	3	5	com.taobao.arthas.core.command.basic1000.ClsCommand	0	1	0	5	0	1			6	0
+0	1	46	109	328	631.4384833138718	53	-1	2	77	9	10	com.taobao.arthas.core.command.basic1000.SystemPropertyCommand	2	2	0	12	2	4			14	0
+0	2	50	104	359	611.865528402781	251	0	0	89	6	16	com.taobao.arthas.core.command.basic1000.HistoryCommand	2	1	0	17	2	3			19	0
+0	3	62	122	484	754.2143586194292	705	0	2	109	10	8	com.taobao.arthas.core.command.basic1000.AuthCommand	2	2	0	20	4	4	context	State	12	0
+-1	0	56	70	252	387.0600361257996	692	-1	15	103	13	32	com.taobao.arthas.core.server.ArthasBootstrapTest	0	0	0	12	0	6			38	0
+0	21	463	498	2747	3943.2958136754464	96	-1	449	675	102	153	com.taobao.arthas.core.server.ArthasBootstrap	0	0	0	78	27	35	context	State	188	-1
+-1	0	36	52	158	263.2549417174023	369	-1	1	76	3	24	com.taobao.arthas.core.config.ServerPropertiesTest	0	0	0	8	0	2			26	0
+0	3	31	55	116	261.44746051085	365	1	0	62	8	0	com.taobao.arthas.core.config.ErrorProperties	0	0	0	0	3	5			5	1
+0	5	56	72	218	387.68364452081437	368	0	54	81	18	0	com.taobao.arthas.core.config.ServerProperties	0	0	0	1	6	12			12	0
+0	6	47	63	198	333.1608229337557	370	1	42	72	20	1	com.taobao.arthas.core.config.Ssl	0	0	0	1	6	13			14	1
+0	2	23	27	86	120.2673769988447	371	0	9	34	9	0	com.taobao.arthas.core.config.SystemObject	0	0	0	0	3	6			6	0
+-1	0	31	48	132	234.3744922841458	366	0	0	66	2	22	com.taobao.arthas.core.config.PropertiesInjectUtilTest	0	0	0	8	0	1			23	0
+0	6	35	57	153	286.7349615193688	367	1	12	59	14	0	com.taobao.arthas.core.config.Server	0	0	0	1	6	9			9	1
+0	4	185	202	803	1351.0476522172457	94	-1	596	263	63	18	com.taobao.arthas.core.config.Configure	0	0	0	6	17	36			54	0
+0	1	148	179	889	1215.427405156989	95	1	0	245	28	35	com.taobao.arthas.core.config.FeatureCodec	0	0	0	7	4	6	singleton	Singleton	41	1
+-1	0	83	130	707	852.9339865665545	351	-1	6	107	11	24	com.taobao.arthas.core.config.BinderUtils	0	0	0	3	0	4			28	-1
+0	3	56	89	303	508.5222196903338	510	0	9	103	15	15	com.taobao.arthas.core.bytecode.TestHelper	0	0	0	16	4	6			21	0
+-1	0	31	55	135	269.7901128141136	509	0	0	95	3	19	com.taobao.arthas.core.advisor.EnhancerTest	0	0	0	15	0	1			20	0
+-1	0	13	24	46	91.88739351573828	725	-1	1	30	4	6	com.taobao.arthas.core.advisor.SpyImplTest	0	0	0	3	0	2			8	0
+0	3	145	216	1467	1574.850552078884	503	1	1	235	18	28	com.taobao.arthas.core.advisor.AdviceListenerManager	0	0	0	12	3	7			35	1
+0	2	42	60	166	306.7192673013926	36	2	0	78	8	10	com.taobao.arthas.core.advisor.AdviceWeaver	0	0	0	4	2	5			15	2
+-1	0	32	46	158	232.87937151924046	41	0	3	60	7	0	com.taobao.arthas.core.advisor.InvokeTraceable	0	0	0	0	0	3			3	0
+-1	0	46	63	259	350.08016788707084	34	0	15	73	11	0	com.taobao.arthas.core.advisor.AdviceListener	0	0	0	0	0	6			6	0
+0	1	143	113	1187	799.9478365908925	504	2	0	188	30	48	com.taobao.arthas.core.advisor.SpyImpl	0	0	0	7	1	7			55	2
+0	9	366	445	2912	3549.5849571458766	40	1	52	518	52	102	com.taobao.arthas.core.advisor.Enhancer	0	0	0	58	12	13	context	State	115	1
+0	4	100	163	637	1052.4534538582625	511	-1	128	157	35	15	com.taobao.arthas.core.advisor.AdviceListenerAdapter	0	0	6	8	4	17	abstractClass	Template Method	32	-1
+0	7	77	106	403	635.8872755663483	33	1	25	146	34	4	com.taobao.arthas.core.advisor.Advice	0	0	0	0	10	14			18	1
+0	4	152	140	367	826.7506587276399	37	1	10	167	34	23	com.taobao.arthas.core.advisor.ArthasMethod	0	0	0	5	5	9			32	1
+-1	0	50	69	430	418.4011793994449	561	-1	0	114	0	0	com.taobao.arthas.core.advisor.SpyInterceptors	0	0	0	7	0	0			0	-1
+0	3	65	97	469	596.6084685392891	505	-1	0	98	20	8	com.taobao.arthas.core.advisor.TransformerManager	0	0	0	6	5	6			14	2
+-1	0	11	20	36	71.6703787691222	228	0	0	19	1	2	com.taobao.arthas.core.util.matcher.TrueMatcherTest	0	0	0	2	0	1			3	0
+-1	0	23	33	96	150.6234903184386	229	0	0	36	1	3	com.taobao.arthas.core.util.matcher.WildcardMatcherTest	0	0	0	2	0	1			4	0
+-1	0	11	20	36	71.6703787691222	226	0	0	19	1	2	com.taobao.arthas.core.util.matcher.FalseMatcherTest	0	0	0	2	0	1			3	0
+-1	0	12	22	41	81.69858546749478	225	0	0	20	1	3	com.taobao.arthas.core.util.matcher.EqualsMatcherTest	0	0	0	2	0	1			4	0
+-1	0	46	69	213	369.92915943395036	227	-1	3	63	3	9	com.taobao.arthas.core.util.matcher.RegexMatcherTest	0	0	0	2	0	3			12	0
+-1	0	13	30	42	112.13008854850105	197	0	0	18	2	0	com.taobao.arthas.core.util.matcher.TrueMatcher	0	0	0	0	0	1			1	0
+-1	0	66	71	375	420.8117478438991	194	0	0	97	1	0	com.taobao.arthas.core.util.matcher.GroupMatcher	0	0	0	3	0	1			1	0
+1	1	13	37	56	148.93801255720052	196	0	0	21	4	1	com.taobao.arthas.core.util.matcher.RegexMatcher	0	0	0	0	1	2			3	0
+-1	0	11	25	32	86.64339756999317	195	0	0	17	2	0	com.taobao.arthas.core.util.matcher.Matcher	0	0	0	0	0	1	state	State	1	0
+-1	0	13	30	42	112.13008854850105	193	0	0	17	2	0	com.taobao.arthas.core.util.matcher.FalseMatcher	0	0	0	0	0	1			1	0
+1	1	13	31	47	119.3545756530118	192	0	0	21	3	1	com.taobao.arthas.core.util.matcher.EqualsMatcher	0	0	0	1	1	2			3	0
+0	2	84	106	666	689.1367050772812	198	0	0	114	10	4	com.taobao.arthas.core.util.matcher.WildcardMatcher	0	0	0	0	4	3			7	0
+0	3	101	83	552	524.0244878409989	374	2	0	168	19	61	com.taobao.arthas.core.util.LogUtilTest	0	0	0	18	3	6			67	2
+-1	0	76	78	356	458.2445970064584	232	-1	55	127	23	56	com.taobao.arthas.core.util.TypeRenderUtilsTest	0	0	0	7	0	11			67	0
+0	1	16	30	59	122.3261233171716	223	-1	1	40	3	4	com.taobao.arthas.core.util.ArrayUtilsTest	0	0	0	4	1	2			6	0
+-1	0	22	30	75	129.5246434060893	224	-1	1	32	2	6	com.taobao.arthas.core.util.ArthasCheckUtilsTest	0	0	0	2	0	2			8	0
+-1	0	59	39	231	212.25429071034995	323	-1	10	89	5	15	com.taobao.arthas.core.util.LongStackTest	0	0	0	3	0	5			20	0
+0	1	293	321	1311	2304.313100288148	222	-1	990	415	51	112	com.taobao.arthas.core.util.StringUtilsTest	0	0	0	9	1	45			157	0
+-1	0	18	41	96	187.1382758501813	702	-1	1	37	3	13	com.taobao.arthas.core.util.DecompilerTest	0	0	0	3	0	2			15	0
+0	2	60	69	290	391.22178368565585	234	-1	0	115	19	45	com.taobao.arthas.core.util.FileUtilsTest	0	0	0	14	2	10			55	2
+-1	0	54	61	251	337.05262928703877	230	-1	6	126	6	11	com.taobao.arthas.core.util.TokenUtilsTest	0	0	0	7	0	4			15	0
+-1	0	15	27	57	109.16238423153285	235	-1	1	30	4	6	com.taobao.arthas.core.util.DateUtilsTest	0	0	0	4	0	2			8	0
+0	3	111	156	677	1016.7567185743148	169	-1	41	163	25	28	com.taobao.arthas.core.util.ArthasBanner	0	0	0	18	11	10			38	-1
+0	2	79	87	473	535.8412987987981	546	1	0	93	9	14	com.taobao.arthas.core.util.JsonUtils	0	0	0	4	4	3			17	1
+-1	0	47	84	237	459.31705185535105	545	-1	6	60	10	15	com.taobao.arthas.core.util.HttpUtils	0	0	0	5	0	4			19	0
+-1	0	153	198	860	1337.8726130710156	236	-1	153	237	48	182	com.taobao.arthas.core.util.ClassUtils	0	0	0	18	0	18			200	-1
+0	1	95	163	623	1048.8310825623548	176	-1	4	136	18	33	com.taobao.arthas.core.util.LogUtil	0	0	0	11	7	5			38	-1
+-1	0	115	129	780	859.0489156391892	179	-1	55	145	34	35	com.taobao.arthas.core.util.SearchUtils	0	0	0	8	0	11			46	-1
+-1	0	18	44	81	193.35576280558732	626	0	0	24	3	3	com.taobao.arthas.core.util.CommandUtils	0	0	0	2	0	1			4	0
+-1	0	96	143	835	962.0227366536723	250	-1	28	142	29	47	com.taobao.arthas.core.util.Decompiler	0	0	0	13	0	8			55	-1
+-1	0	39	66	180	342.73515215875386	627	0	0	50	3	4	com.taobao.arthas.core.util.ResultUtils	0	0	0	3	0	1			5	0
+0	1	53	83	402	497.7055233553788	175	-1	1	68	10	13	com.taobao.arthas.core.util.IPUtils	0	0	0	3	2	2			15	-1
+1	1	28	79	172	406.65206366826277	168	0	0	34	6	1	com.taobao.arthas.core.util.ArrayUtils	0	0	0	0	1	1			2	0
+0	1	209	249	1654	1845.3270170203255	173	-1	45	249	44	36	com.taobao.arthas.core.util.FileUtils	0	0	0	7	1	10			46	-1
+1	1	40	67	325	387.5162872160924	513	0	0	55	8	12	com.taobao.arthas.core.util.InstrumentationUtils	0	0	0	6	1	2			14	0
+0	1	32	48	110	225.623057558036	171	-1	0	49	1	0	com.taobao.arthas.core.util.Constants	0	0	0	3	7	1			1	-1
+-1	0	155	179	956	1228.4336664362008	184	-1	190	203	57	74	com.taobao.arthas.core.util.TypeRenderUtils	0	0	0	16	0	20			94	-1
+-1	0	76	87	467	534.7306454171941	183	-1	10	87	26	16	com.taobao.arthas.core.util.TokenUtils	0	0	0	2	0	5			21	0
+0	2	582	249	4452	2091.8760693864633	178	-1	703	654	153	57	com.taobao.arthas.core.util.ObjectUtils	0	0	0	2	8	38			95	-1
+-1	0	64	81	384	482.0020467596059	267	-1	6	79	16	18	com.taobao.arthas.core.util.ClassLoaderUtils	0	0	0	5	0	4			22	-1
+0	4	400	425	1453	3094.5889070173703	182	-1	105	496	59	144	com.taobao.arthas.core.util.ThreadUtil	0	0	0	10	5	15			159	-1
+0	1	17	38	68	160.34129279669207	172	0	1	26	8	4	com.taobao.arthas.core.util.DateUtils	0	0	0	2	1	3			7	0
+0	2	180	240	1291	1719.1613738031942	177	-1	6	214	21	40	com.taobao.arthas.core.util.NetUtils	0	0	0	11	6	4			44	0
+0	3	784	810	5066	6909.548532754913	180	-1	2080	984	249	211	com.taobao.arthas.core.util.StringUtils	0	0	0	14	4	65			276	-1
+0	4	103	133	677	866.8502792973326	185	-1	13	135	13	10	com.taobao.arthas.core.util.UserStatUtil	0	0	0	9	6	7			17	-1
+0	4	178	350	1352	2523.2690898110186	221	-1	85	271	49	21	com.taobao.arthas.core.util.ThreadLocalRandom	0	0	0	6	10	14			35	-1
+-1	0	32	83	277	466.7934530135491	170	-1	1	57	7	2	com.taobao.arthas.core.util.ArthasCheckUtils	0	0	0	0	0	2			4	-1
+0	1	94	178	762	1181.1984869122232	174	-1	10	152	25	10	com.taobao.arthas.core.util.IOUtils	0	0	0	6	2	5			15	-1
+0	1	60	81	316	466.21511930053987	181	1	0	80	8	9	com.taobao.arthas.core.util.ThreadLocalWatch	0	0	0	0	1	4	receiver	Command	13	1
+-1	0	39	102	260	567.1895263635838	233	0	1	71	9	4	com.taobao.arthas.core.testtool.TestUtils	0	0	0	8	0	2			6	0
+-1	0	20	34	82	149.8284544069846	715	-1	1	40	3	8	com.taobao.arthas.core.security.SecurityAuthenticatorImplTest	0	0	0	5	0	2			10	0
+-1	0	38	130	266	725.8545201416209	707	0	21	71	18	0	com.taobao.arthas.core.security.SecurityAuthenticator	0	0	0	3	0	7	state	State	7	0
+0	1	22	42	112	198.17695259439395	726	-1	1	37	7	7	com.taobao.arthas.core.security.AuthUtils	0	0	0	6	1	2			9	-1
+-1	0	17	28	57	113.20543549936741	727	0	6	27	7	0	com.taobao.arthas.core.security.LocalConnectionPrincipal	0	0	0	1	0	4			4	0
+0	3	52	79	289	447.6477083608822	708	-1	12	93	19	5	com.taobao.arthas.core.security.SecurityAuthenticatorImpl	0	0	0	7	4	8			13	-1
+0	1	46	76	291	431.17256830503345	706	2	0	69	15	3	com.taobao.arthas.core.security.BasicPrincipal	0	0	0	1	2	7			10	2
+-1	0	26	44	118	209.91012347648928	350	-1	1	54	2	12	com.taobao.arthas.core.env.ArthasEnvironmentTest	0	0	0	3	0	2			14	0
+0	1	65	165	538	1037.4966624266945	345	-1	15	129	19	11	com.taobao.arthas.core.env.PropertySourcesPropertyResolver	2	5	0	0	1	7			18	-1
+0	3	170	307	1416	2227.466521195875	341	-1	16	243	29	20	com.taobao.arthas.core.env.PropertyPlaceholderHelper	0	0	0	5	6	8			28	-1
+0	2	178	470	1508	3439.7135878269137	343	-1	0	325	39	10	com.taobao.arthas.core.env.PropertySource	0	0	0	1	2	12	abstractClass	Template Method	22	-1
+-1	0	19	85	129	413.08405437074214	340	0	3	56	4	0	com.taobao.arthas.core.env.PropertiesPropertySource	2	1	0	2	0	3			3	0
+0	3	94	109	587	694.8777053612625	330	3	42	129	36	19	com.taobao.arthas.core.env.ArthasEnvironment	0	0	0	2	4	16			35	3
+0	2	204	315	1291	2256.3993031166924	339	-1	54	304	48	42	com.taobao.arthas.core.env.MutablePropertySources	0	0	0	2	3	21			63	-1
+-1	0	71	260	646	1682.4078709834764	347	-1	21	157	21	13	com.taobao.arthas.core.env.SystemEnvironmentPropertySource	5	2	0	1	0	7			20	-1
+-1	0	25	143	285	808.305952778417	333	0	1	63	10	0	com.taobao.arthas.core.env.ConversionService	0	0	0	0	0	2			2	0
+-1	0	2	6	6	10.75055681536833	336	-1	0	5	0	0	com.taobao.arthas.core.env.Environment	0	0	0	0	0	0			0	-1
+0	1	25	66	113	312.0075960350145	338	-1	1	57	5	2	com.taobao.arthas.core.env.MissingRequiredPropertiesException	0	0	0	2	1	3			5	-1
+-1	0	21	53	93	240.2277731371226	337	0	6	52	7	4	com.taobao.arthas.core.env.MapPropertySource	0	0	2	2	0	4			8	0
+-1	0	72	132	547	832.1872419197015	342	0	36	123	27	0	com.taobao.arthas.core.env.PropertyResolver	0	0	0	0	0	9			9	0
+0	5	129	275	864	1859.4325114211151	329	-1	198	228	51	21	com.taobao.arthas.core.env.AbstractPropertyResolver	0	0	1	5	8	21			42	-1
+0	2	72	184	523	1151.762989387946	348	-1	1	116	8	2	com.taobao.arthas.core.env.SystemPropertyUtils	0	0	0	0	5	2			4	-1
+-1	0	35	165	352	967.4991439736859	335	-1	6	85	7	2	com.taobao.arthas.core.env.EnumerablePropertySource	0	0	0	0	0	4	abstractClass	Template Method	6	-1
+-1	0	19	59	103	273.44901030554854	344	0	1	45	3	0	com.taobao.arthas.core.env.PropertySources	0	0	0	0	0	2			2	0
+-1	0	56	160	374	947.8809275863251	346	-1	78	123	29	7	com.taobao.arthas.core.env.ReadOnlySystemAttributesMap	0	0	0	4	0	13	abstractClass	Template Method	20	-1
+-1	0	46	205	406	1231.3023977183552	332	0	28	113	17	0	com.taobao.arthas.core.env.ConfigurablePropertyResolver	0	0	0	1	0	8			8	0
+-1	0	56	100	430	606.3785208687608	496	-1	10	110	11	15	com.taobao.arthas.core.shell.cli.impl.CliTokenImplTest	0	0	0	5	0	5			20	0
+0	2	125	189	595	1207.438105648124	104	2	27	171	43	34	com.taobao.arthas.core.shell.cli.impl.CliTokenImpl	0	0	0	5	3	15			49	2
+-1	0	63	59	438	358.85091571221034	308	-1	10	97	10	20	com.taobao.arthas.core.shell.command.internal.GrepHandlerTest	0	0	0	2	0	5			25	0
+0	3	35	71	180	368.69993641320497	120	0	0	58	11	12	com.taobao.arthas.core.shell.command.internal.WordCountHandler	2	2	0	6	4	4			16	0
+0	3	59	92	329	533.2373130704142	328	0	0	80	14	14	com.taobao.arthas.core.shell.command.internal.TeeHandler	2	2	0	8	3	4			18	0
+-1	0	6	16	16	44.3614195558365	113	0	0	11	1	0	com.taobao.arthas.core.shell.command.internal.CloseFunction	0	0	0	1	0	1			1	0
+0	1	39	70	201	371.2313435641353	116	0	0	58	10	9	com.taobao.arthas.core.shell.command.internal.RedirectHandler	3	1	0	6	1	4			13	0
+0	1	12	30	49	116.7546089433188	115	0	1	22	4	1	com.taobao.arthas.core.shell.command.internal.PlainTextHandler	0	2	1	3	1	2			3	0
+1	1	14	31	50	121.27271316827253	119	0	0	22	3	1	com.taobao.arthas.core.shell.command.internal.TermHandler	1	1	0	1	1	2	context	State	3	0
+0	5	144	209	1037	1451.3142265199713	114	1	0	174	19	27	com.taobao.arthas.core.shell.command.internal.GrepHandler	2	2	0	8	11	4			31	1
+-1	0	7	17	18	49.136319884234794	117	0	0	13	1	0	com.taobao.arthas.core.shell.command.internal.StatisticsFunction	0	0	0	1	0	1			1	0
+-1	0	48	67	293	380.5715648041435	118	-1	3	57	14	8	com.taobao.arthas.core.shell.command.internal.StdoutHandler	0	0	5	4	0	3			11	0
+-1	0	154	216	1278	1545.0591531464956	213	-1	210	306	24	51	com.taobao.arthas.core.view.ObjectViewTest	0	0	0	8	0	21			72	0
+0	3	126	149	912	1015.5303585210753	205	0	0	193	35	69	com.taobao.arthas.core.view.ClassInfoView	0	0	0	6	3	9			78	0
+1	1	30	66	158	334.13127217977984	206	1	0	57	8	12	com.taobao.arthas.core.view.KVView	0	0	0	2	1	4	proxy	Proxy	16	1
+0	3	32	63	160	319.7359503597311	207	0	0	65	7	4	com.taobao.arthas.core.view.LadderView	0	0	0	3	4	2			6	0
+0	3	240	243	1344	1750.4275416231922	211	-1	6	316	30	33	com.taobao.arthas.core.view.TreeView	0	0	0	5	9	8			41	1
+0	2	56	87	331	504.78429865780447	208	0	0	91	19	32	com.taobao.arthas.core.view.MethodInfoView	0	0	0	4	2	6			38	0
+0	4	261	290	1264	2071.190606664973	210	1	56	374	48	32	com.taobao.arthas.core.view.TableView	0	0	0	9	7	16	realsubject	Proxy	48	1
+0	8	511	307	2494	2401.2444397556746	204	-1	2969	726	208	118	com.taobao.arthas.core.view.Ansi	0	0	0	2	16	102			220	-1
+-1	0	9	18	22	55.63876416044969	212	0	0	14	1	0	com.taobao.arthas.core.view.View	0	0	0	0	0	1			1	0
+0	5	458	366	1868	2756.9402444766965	209	1	0	681	24	38	com.taobao.arthas.core.view.ObjectView	0	0	0	13	8	8			46	1
+-1	1	10	25	46	95.71603491222737	320	-1	0	28	0	0	one.profiler.Events	0	0	0	0	5	0			0	-1
+-1	0	14	49	89	219.94318211687485	318	0	36	43	13	0	one.profiler.AsyncProfilerMXBean	0	0	0	0	0	9			9	0
+0	0	155	265	973	1823.3017817792913	317	-1	171	215	53	18	one.profiler.AsyncProfiler	0	0	0	1	1	19	singleton	Singleton	37	-1
+-1	0	9	41	49	159.5646322225357	62	0	0	24	1	3	com.taobao.arthas.core.command.hidden.ThanksCommand	0	1	0	6	0	1			4	0
+-1	0	11	35	46	134.00244887711833	60	0	1	105	3	3	com.taobao.arthas.core.command.hidden.JulyCommand	1	1	0	5	0	2			5	0
+1	1	22	41	75	177.01701265498872	57	0	0	30	3	0	com.taobao.arthas.core.command.express.ExpressException	0	0	0	0	1	2			2	0
+0	1	27	53	109	248.6414377581446	58	0	3	32	7	4	com.taobao.arthas.core.command.express.ExpressFactory	0	0	0	0	1	3			7	0
+-1	0	11	34	57	137.46374310637472	732	0	0	25	4	0	com.taobao.arthas.core.command.express.ArthasObjectPropertyAccessor	0	0	0	4	0	1			1	0
+0	1	32	62	208	330.9273609414817	55	0	1	43	8	7	com.taobao.arthas.core.command.express.CustomClassResolver	0	0	0	3	2	2	singleton	Singleton	9	0
+-1	0	37	49	123	235.79703341324844	56	0	10	52	12	0	com.taobao.arthas.core.command.express.Express	0	0	0	0	0	5			5	0
+0	2	30	59	187	308.6354083944206	237	0	0	45	7	5	com.taobao.arthas.core.command.express.ClassLoaderClassResolver	0	0	0	3	2	2			7	0
+0	5	47	83	232	452.07920184830374	59	-1	7	73	16	10	com.taobao.arthas.core.command.express.OgnlExpress	0	0	0	8	5	7			17	-1
+0	3	76	74	295	420.8361763691467	608	0	170	99	33	0	com.taobao.arthas.core.command.model.MethodVO	0	0	0	0	10	20			20	0
+0	1	19	34	69	143.95962115630684	537	0	0	28	6	0	com.taobao.arthas.core.command.model.InputStatusModel	3	1	0	0	1	4			4	0
+0	1	35	54	146	269.11475757225014	563	1	10	49	13	1	com.taobao.arthas.core.command.model.CatModel	7	1	0	0	2	8			9	1
+0	2	30	37	109	173.5798716424783	578	0	16	43	11	0	com.taobao.arthas.core.command.model.OptionsModel	7	1	0	1	2	8			8	0
+0	6	81	78	326	451.3779957466032	660	0	153	122	38	0	com.taobao.arthas.core.command.model.TimeTunnelModel	18	1	0	2	9	19			19	0
+0	5	62	66	239	361.44659442747974	606	0	106	86	26	0	com.taobao.arthas.core.command.model.JadModel	15	1	0	2	7	16			16	0
+0	3	55	60	215	322.23828168765976	599	0	75	74	21	1	com.taobao.arthas.core.command.model.ClassLoaderVO	0	0	0	2	6	14			15	0
+0	2	47	57	171	293.07482272065164	527	0	28	62	13	0	com.taobao.arthas.core.command.model.CommandOptionVO	0	0	0	0	4	9			9	0
+0	5	60	67	230	364.3513136978541	664	0	106	84	24	0	com.taobao.arthas.core.command.model.WatchModel	15	1	0	1	7	16			16	0
+0	3	51	59	197	311.7090199955413	581	0	66	70	20	0	com.taobao.arthas.core.command.model.SessionModel	12	1	0	0	6	13			13	0
+0	3	59	68	215	365.20338591268103	662	-1	52	79	18	2	com.taobao.arthas.core.command.model.TraceNode	0	0	3	2	5	12			14	-1
+0	2	33	38	125	183.47592201748745	526	1	10	43	11	0	com.taobao.arthas.core.command.model.ArgumentVO	0	0	0	0	3	8			8	1
+0	6	65	70	259	388.9779643189676	613	0	94	88	26	0	com.taobao.arthas.core.command.model.SearchClassModel	15	1	0	2	7	16			16	0
+0	1	17	28	56	112.70984734058419	516	0	4	24	6	0	com.taobao.arthas.core.command.model.MessageModel	3	1	0	0	1	4			4	0
+0	1	15	29	52	114.5860678388614	737	0	1	22	5	0	com.taobao.arthas.core.command.model.JFRModel	2	1	0	0	1	3	receiver	Command	3	0
+0	1	20	30	69	127.0231951379178	698	0	4	31	7	0	com.taobao.arthas.core.command.model.Base64Model	4	1	0	0	1	5			5	0
+0	2	29	41	109	192.3452631713949	642	0	9	42	10	0	com.taobao.arthas.core.command.model.HeapDumpModel	6	1	0	0	2	7			7	0
+0	1	20	30	69	127.0231951379178	579	0	4	28	7	0	com.taobao.arthas.core.command.model.PwdModel	4	1	0	0	1	5			5	0
+0	4	55	65	219	350.2896624380726	605	0	69	75	22	0	com.taobao.arthas.core.command.model.GetStaticModel	13	1	0	1	5	14			14	0
+0	1	12	21	46	80.401469326271	532	0	1	20	5	0	com.taobao.arthas.core.command.model.VersionModel	2	1	0	0	1	3			3	0
+0	2	20	32	73	137.2947021167485	582	0	2	29	7	0	com.taobao.arthas.core.command.model.ShutdownModel	3	1	0	0	2	4			4	0
+0	5	75	78	305	446.18431857537814	657	1	107	99	26	0	com.taobao.arthas.core.command.model.ThreadNode	18	0	0	1	8	18			18	1
+0	1	22	33	83	145.82174005728774	580	1	0	33	8	0	com.taobao.arthas.core.command.model.ResetModel	4	1	0	1	1	5			5	1
+0	2	29	41	108	191.967380312093	643	0	9	42	10	0	com.taobao.arthas.core.command.model.PerfCounterModel	6	1	0	1	2	7			7	0
+0	2	30	44	112	207.61395033698415	658	0	15	40	11	0	com.taobao.arthas.core.command.model.ThrowNode	7	0	0	0	3	7			7	0
+0	5	44	57	169	292.4042267506152	631	0	45	61	17	0	com.taobao.arthas.core.command.model.DashboardModel	10	1	0	2	5	11			11	0
+0	3	32	40	123	192.48737421489668	733	0	15	48	14	0	com.taobao.arthas.core.command.model.VmToolModel	6	1	0	1	3	7			7	0
+0	1	21	35	74	150.64227826214596	654	0	4	34	7	0	com.taobao.arthas.core.command.model.MonitorModel	4	1	0	2	1	5			5	0
+0	3	36	43	135	210.92681547285247	607	0	26	53	15	0	com.taobao.arthas.core.command.model.MemoryCompilerModel	8	1	0	2	3	9			9	0
+0	6	61	70	243	384.51430103383836	696	0	85	95	38	1	com.taobao.arthas.core.command.model.RetransformModel	14	1	0	4	6	15			16	0
+0	3	33	44	128	213.48933161246313	610	0	15	47	14	0	com.taobao.arthas.core.command.model.OgnlModel	6	1	0	1	3	7			7	0
+0	1	27	45	106	209.85475923504302	584	-1	9	41	10	4	com.taobao.arthas.core.command.model.SystemPropertyModel	6	1	0	2	1	7			11	-1
+0	9	89	83	354	487.15164379010326	598	0	211	128	42	0	com.taobao.arthas.core.command.model.ClassLoaderModel	21	1	0	5	10	22			22	0
+0	3	37	47	140	232.25719386263728	628	0	26	55	15	0	com.taobao.arthas.core.command.model.LoggerModel	8	1	0	2	3	9			9	0
+0	2	109	150	628	966.3810249702298	663	2	28	132	27	31	com.taobao.arthas.core.command.model.TraceTree	0	0	0	2	3	12			43	2
+0	4	45	54	173	278.2777461028801	611	1	33	66	18	1	com.taobao.arthas.core.command.model.RedefineModel	10	1	0	3	4	11			12	1
+0	2	96	86	536	540.4355378520889	638	0	6	129	7	0	com.taobao.arthas.core.command.model.TomcatInfoVO	0	0	0	1	2	5			5	0
+0	4	125	111	492	688.0311375306462	597	0	527	163	53	0	com.taobao.arthas.core.command.model.ClassDetailVO	34	0	0	0	17	34			34	0
+0	4	42	47	161	238.82600515426978	602	0	37	61	19	0	com.taobao.arthas.core.command.model.DumpClassModel	9	1	0	2	4	10			10	0
+0	7	96	83	382	493.46991051434577	659	0	231	123	47	0	com.taobao.arthas.core.command.model.TimeFragmentVO	0	0	0	1	11	23			23	0
+1	1	13	27	44	102.17312011579305	603	0	0	17	3	0	com.taobao.arthas.core.command.model.DumpClassVO	2	0	0	0	1	2			2	0
+0	1	20	32	67	134.5501638205109	612	0	4	30	8	1	com.taobao.arthas.core.command.model.RowAffectModel	4	1	0	1	1	5			6	0
+0	2	33	38	125	183.47592201748745	575	1	10	43	14	0	com.taobao.arthas.core.command.model.ChangeResultVO	0	0	0	0	3	8			8	1
+0	1	18	33	58	133.99461934803182	517	0	1	27	5	0	com.taobao.arthas.core.command.model.ResultModel	0	0	47	0	1	3			3	0
+0	2	36	38	141	188.0528758343704	646	1	0	46	11	0	com.taobao.arthas.core.command.model.JvmItemVO	0	0	0	0	3	8			8	1
+0	2	47	49	178	253.90739396431218	577	0	54	61	18	0	com.taobao.arthas.core.command.model.OptionVO	0	0	0	0	6	12			12	0
+0	5	115	115	449	702.3076320903592	653	-1	220	148	38	3	com.taobao.arthas.core.command.model.MethodNode	22	2	0	0	12	24			27	1
+0	4	68	73	269	408.41393071093427	528	-1	123	94	27	2	com.taobao.arthas.core.command.model.CommandVO	0	0	0	3	7	18			20	0
+-1	0	11	36	49	140.10553073198255	562	0	0	15	2	0	com.taobao.arthas.core.command.model.Countable	0	0	0	0	0	1			1	0
+0	4	66	79	295	449.2710531508458	576	1	30	90	24	10	com.taobao.arthas.core.command.model.EnhancerAffectVO	0	0	0	5	7	12			22	1
+0	3	35	53	152	266.26566760485264	652	1	3	47	12	0	com.taobao.arthas.core.command.model.EnhancerModel	5	1	0	1	3	6			6	1
+0	4	64	65	243	357.0489938171356	634	0	120	84	25	0	com.taobao.arthas.core.command.model.RuntimeInfoVO	0	0	0	0	8	17			17	0
+0	6	90	118	409	709.6183884130506	637	0	215	122	36	3	com.taobao.arthas.core.command.model.ThreadVO	0	0	1	1	10	23			26	0
+0	1	52	54	197	285.2930013518514	538	0	79	70	21	0	com.taobao.arthas.core.command.model.WelcomeModel	13	1	0	0	6	14			14	0
+0	2	20	26	79	113.60564416414256	518	0	2	31	8	0	com.taobao.arthas.core.command.model.StatusModel	4	1	0	0	2	5			5	0
+0	2	36	39	142	193.2772552464492	649	1	0	47	11	0	com.taobao.arthas.core.command.model.MBeanAttributeVO	0	0	0	0	3	8			8	1
+0	2	53	60	219	323.34430378899003	633	1	36	70	17	0	com.taobao.arthas.core.command.model.MemoryEntryVO	0	0	0	0	8	12			12	1
+0	2	29	42	109	197.03661105362403	661	0	9	39	10	0	com.taobao.arthas.core.command.model.TraceModel	6	1	0	0	2	7			7	0
+0	1	17	29	56	116.73519903131934	557	0	4	27	6	0	com.taobao.arthas.core.command.model.HistoryModel	3	1	0	1	1	4			4	0
+0	2	46	47	183	244.84584918354682	644	1	21	62	15	0	com.taobao.arthas.core.command.model.PerfCounterVO	0	0	0	0	4	11			11	1
+0	3	56	61	214	327.32453691633293	655	0	89	77	22	0	com.taobao.arthas.core.command.model.ProfilerModel	14	1	0	1	6	15			15	0
+0	2	40	66	183	343.8260860875338	609	2	0	55	16	0	com.taobao.arthas.core.command.model.ObjectVO	0	0	0	0	2	8			8	2
+0	1	27	45	106	209.85475923504302	583	-1	9	41	10	4	com.taobao.arthas.core.command.model.SystemEnvModel	6	1	0	2	1	7			11	-1
+0	4	45	53	174	273.42993085837	614	0	39	62	18	0	com.taobao.arthas.core.command.model.SearchMethodModel	10	1	0	1	4	11			11	0
+0	1	16	33	57	133.42069183854017	729	0	1	25	5	0	com.taobao.arthas.core.command.model.MemoryModel	2	1	0	2	1	3			3	0
+0	6	79	81	308	464.1380824208595	656	0	190	107	32	0	com.taobao.arthas.core.command.model.StackModel	20	1	0	1	10	21			21	0
+0	3	37	50	155	252.17125584596235	600	2	0	51	13	1	com.taobao.arthas.core.command.model.ClassSetVO	0	0	0	1	3	9			10	2
+0	6	67	67	264	373.5885899108032	636	1	117	101	25	0	com.taobao.arthas.core.command.model.ThreadModel	17	1	0	3	6	18			18	1
+0	2	33	45	128	218.34136187638276	529	0	14	51	12	1	com.taobao.arthas.core.command.model.HelpModel	7	1	0	2	2	8			9	0
+0	4	47	51	178	264.2709610648963	604	0	54	62	20	0	com.taobao.arthas.core.command.model.FieldVO	0	0	0	0	6	12			12	0
+0	7	124	127	524	795.2094439087723	675	-1	325	163	41	46	com.taobao.arthas.core.command.model.BusyThreadInfo	27	0	0	3	13	27			73	-1
+0	3	35	46	129	223.55137060063691	650	0	26	55	13	0	com.taobao.arthas.core.command.model.MBeanModel	8	1	0	3	3	9			9	0
+0	2	30	37	109	173.5798716424783	585	0	16	47	11	0	com.taobao.arthas.core.command.model.VMOptionModel	7	1	0	2	2	8			8	0
+0	2	39	51	164	260.09318781903414	535	1	8	54	13	0	com.taobao.arthas.core.command.model.CommandRequestModel	8	1	0	1	3	9			9	1
+0	1	20	30	69	127.0231951379178	531	0	4	29	7	0	com.taobao.arthas.core.command.model.EchoModel	4	1	0	0	1	5			5	0
+0	1	34	56	168	286.9419828465825	647	-1	9	48	12	6	com.taobao.arthas.core.command.model.JvmModel	5	1	0	1	1	6			12	-1
+0	2	29	45	107	210.27729755078576	630	0	15	45	10	0	com.taobao.arthas.core.command.model.BlockingLockInfo	0	0	0	1	3	7			7	0
+0	2	26	34	94	154.47202259718014	601	0	9	35	9	0	com.taobao.arthas.core.command.model.ClassVO	0	0	2	0	3	6			6	0
+0	2	32	41	125	197.96086322939436	632	1	3	41	10	0	com.taobao.arthas.core.command.model.GcInfoVO	0	0	0	0	3	7			7	1
+0	2	150	158	983	1088.7162409832522	303	-1	34	194	32	57	com.taobao.arthas.core.command.logger.Log4j2Helper	0	0	0	17	2	9			66	0
+0	3	120	142	892	964.6721908263613	300	0	4	165	19	35	com.taobao.arthas.core.command.logger.LogbackHelper	0	0	0	18	3	4			39	0
+-1	1	19	29	94	131.75554868583012	302	-1	0	33	0	0	com.taobao.arthas.core.command.logger.LoggerHelper	0	0	0	0	14	0			0	-1
+-1	0	14	36	68	151.90227738633985	304	0	0	42	2	3	com.taobao.arthas.core.command.logger.AsmRenameUtil	0	0	0	5	0	1			4	0
+0	6	233	330	1645	2443.813568855826	301	-1	44	335	37	61	com.taobao.arthas.core.command.logger.LoggerCommand	12	1	0	29	13	13			74	-1
+0	1	132	135	975	929.1290585847094	299	0	4	168	19	43	com.taobao.arthas.core.command.logger.Log4jHelper	0	0	0	13	1	4			47	0
+-1	1	15	97	284	547.950501101637	45	-1	0	49	0	0	com.taobao.arthas.core.command.Constants	0	0	0	0	6	0			0	-1
+-1	0	75	61	343	356.1015572771223	46	-1	0	118	0	0	com.taobao.arthas.core.command.ScriptSupportCommand	0	0	0	1	0	0			0	-1
+0	2	80	125	395	747.3607206126403	44	0	1	126	8	9	com.taobao.arthas.core.command.BuiltinCommandPack	0	0	0	36	2	3			12	0
+0	5	154	173	1163	1221.165160385729	639	-1	22	197	25	30	com.taobao.arthas.core.command.monitor200.ThreadSampler	0	0	0	12	6	8			38	0
+0	3	63	129	345	753.8172297970455	83	0	63	117	27	9	com.taobao.arthas.core.command.monitor200.StackCommand	10	4	0	11	5	14			23	0
+1	1	14	34	55	136.24932829790401	74	0	0	25	2	1	com.taobao.arthas.core.command.monitor200.DashboardInterruptHandler	1	1	0	3	1	2			3	0
+0	4	47	105	346	613.8760713810611	82	-1	6	77	13	25	com.taobao.arthas.core.command.monitor200.StackAdviceListener	2	3	0	11	4	5	context	State	30	0
+0	2	19	35	68	147.68276968116373	91	0	1	29	5	6	com.taobao.arthas.core.command.monitor200.TraceEntity	0	0	0	3	2	3			9	0
+0	4	110	233	663	1513.748572713306	93	0	364	203	55	11	com.taobao.arthas.core.command.monitor200.WatchCommand	24	5	0	16	12	29	receiver	Command	40	0
+0	3	48	52	181	270.32184562582296	665	0	54	63	18	0	com.taobao.arthas.core.command.monitor200.MonitorData	0	0	0	0	6	12			12	0
+0	4	79	136	576	864.4306418546413	92	1	0	117	23	52	com.taobao.arthas.core.command.monitor200.WatchAdviceListener	4	3	0	12	4	7	context	State	59	1
+0	2	130	179	862	1209.906693448801	88	-1	91	214	41	79	com.taobao.arthas.core.command.monitor200.TimeTunnelTable	0	0	0	16	2	14			93	-1
+0	3	22	30	81	131.83347464017316	85	0	0	33	7	0	com.taobao.arthas.core.command.monitor200.TimeFragment	0	0	0	2	3	4			4	0
+0	7	160	251	1174	1774.1111720973986	79	-1	14	264	26	35	com.taobao.arthas.core.command.monitor200.MonitorAdviceListener	3	5	0	14	7	8	context	State	43	0
+0	7	386	525	2960	4196.295887342006	316	-1	220	549	67	80	com.taobao.arthas.core.command.monitor200.ProfilerCommand	23	2	0	34	17	25			105	0
+0	7	146	267	1018	1849.1339176284948	75	0	74	223	28	37	com.taobao.arthas.core.command.monitor200.EnhancerCommand	11	2	6	24	9	13	abstractClass	Template Method	50	0
+-1	0	69	111	458	680.0824794366746	730	-1	10	112	13	28	com.taobao.arthas.core.command.monitor200.MemoryCommand	4	1	0	21	0	5			33	-1
+0	3	40	119	292	675.5337024699255	295	0	0	83	10	12	com.taobao.arthas.core.command.monitor200.HeapDumpCommand	3	1	0	18	3	4			16	0
+0	6	369	441	2773	3496.109105116558	273	-1	303	498	71	95	com.taobao.arthas.core.command.monitor200.MBeanCommand	25	2	0	41	9	27			122	-1
+0	6	219	331	1833	2487.0377610349424	723	-1	98	330	34	47	com.taobao.arthas.core.command.monitor200.VmToolCommand	12	4	0	35	12	16			63	-1
+0	6	173	271	1199	1921.1848950124563	73	-1	56	272	23	64	com.taobao.arthas.core.command.monitor200.DashboardCommand	11	1	0	31	9	12			76	-1
+0	4	55	129	385	767.9683901231242	372	0	1	112	9	22	com.taobao.arthas.core.command.monitor200.PerfCounterCommand	2	1	0	20	4	3			25	0
+-1	0	8	22	28	73.30849922385448	81	0	0	13	1	0	com.taobao.arthas.core.command.monitor200.PathTraceAdviceListener	1	0	0	1	0	1			1	0
+0	4	112	197	672	1282.5208930830604	90	0	132	191	44	19	com.taobao.arthas.core.command.monitor200.TraceCommand	16	4	0	18	7	20			39	0
+0	3	89	169	504	1051.6153893040614	80	0	158	154	37	15	com.taobao.arthas.core.command.monitor200.MonitorCommand	16	4	0	12	7	20	receiver	Command	35	0
+0	7	156	292	1057	2033.2514758741095	84	0	51	241	34	47	com.taobao.arthas.core.command.monitor200.ThreadCommand	13	1	0	28	10	14			61	0
+0	8	343	480	2290	3713.4274063431767	87	1	603	553	94	152	com.taobao.arthas.core.command.monitor200.TimeTunnelCommand	38	5	0	35	20	43			195	1
+0	6	103	165	642	1066.6570701088435	86	0	5	159	16	33	com.taobao.arthas.core.command.monitor200.TimeTunnelAdviceListener	3	3	0	13	6	6	context	State	39	0
+0	5	81	138	538	867.7244813023262	71	-1	14	115	20	36	com.taobao.arthas.core.command.monitor200.AbstractTraceAdviceListener	4	4	2	8	5	8	context	State	44	0
+0	2	46	117	277	658.0100482239186	77	0	58	96	20	0	com.taobao.arthas.core.command.monitor200.GroovyScriptCommand	8	4	0	10	4	12			12	0
+1	2	45	87	288	492.6775617718273	76	2	0	76	11	8	com.taobao.arthas.core.command.monitor200.GroovyAdviceListener	1	5	0	5	2	6			14	2
+-1	0	24	50	137	245.99904629140624	89	-1	6	41	8	6	com.taobao.arthas.core.command.monitor200.TraceAdviceListener	4	0	0	2	0	4			10	0
+0	8	140	186	725	1225.0279278029695	78	0	72	201	27	74	com.taobao.arthas.core.command.monitor200.JvmCommand	12	1	0	14	8	13			87	0
+0	4	113	243	910	1655.6670376811476	70	0	27	195	21	27	com.taobao.arthas.core.command.klass100.SearchMethodCommand	8	2	0	30	8	10			37	0
+0	3	64	170	501	1056.823037184427	238	0	2	116	10	16	com.taobao.arthas.core.command.klass100.OgnlCommand	4	1	0	21	5	5			21	0
+0	3	100	213	820	1429.0818244750176	266	0	11	168	15	35	com.taobao.arthas.core.command.klass100.MemoryCompilerCommand	5	2	0	28	6	7			42	0
+0	3	551	607	4062	5043.824460479181	64	-1	364	729	85	156	com.taobao.arthas.core.command.klass100.ClassLoaderCommand	28	1	0	40	11	29			185	0
+0	7	352	463	2789	3673.1819734715273	695	-1	108	502	47	58	com.taobao.arthas.core.command.klass100.RetransformCommand	15	2	0	39	12	17			75	-1
+0	4	120	238	1039	1653.1513298816162	68	0	9	182	14	37	com.taobao.arthas.core.command.klass100.RedefineCommand	4	2	0	27	5	6			43	0
+0	4	59	107	316	615.8644168537996	63	1	0	90	17	15	com.taobao.arthas.core.command.klass100.ClassDumpTransformer	0	0	0	12	5	5			20	1
+0	4	94	229	735	1511.3703443197396	69	-1	50	168	20	23	com.taobao.arthas.core.command.klass100.SearchClassCommand	10	2	0	26	8	12			35	0
+0	4	151	291	1082	2033.09083968727	67	0	48	243	31	56	com.taobao.arthas.core.command.klass100.JadCommand	11	2	0	36	10	13			69	0
+0	4	124	274	976	1886.0687486771872	66	0	27	208	25	39	com.taobao.arthas.core.command.klass100.GetStaticCommand	10	1	0	33	8	11			50	0
+0	4	124	269	974	1851.099640679842	65	0	36	204	32	44	com.taobao.arthas.core.command.klass100.DumpClassCommand	10	2	0	34	7	12			56	0
+-1	0	22	55	134	269.3811889973001	617	0	0	34	4	12	com.taobao.arthas.core.command.view.GetStaticView	0	0	0	8	0	1			13	0
+-1	0	8	23	29	77.4478040896889	738	0	0	14	1	2	com.taobao.arthas.core.command.view.JFRView	0	0	0	2	0	1			3	0
+-1	0	21	66	127	319.716347706267	667	0	1	58	5	18	com.taobao.arthas.core.command.view.MonitorView	0	0	0	10	0	2			20	0
+-1	0	8	23	29	77.4478040896889	592	0	0	16	1	4	com.taobao.arthas.core.command.view.SystemPropertyView	0	0	0	2	0	1			5	0
+-1	0	12	31	52	122.48855527602426	699	0	0	22	2	2	com.taobao.arthas.core.command.view.Base64View	0	0	0	2	0	1			3	0
+-1	0	20	57	115	270.46113131670523	669	0	0	41	2	12	com.taobao.arthas.core.command.view.StackView	0	0	0	4	0	1			13	0
+-1	0	17	45	94	204.44826520215017	619	0	0	23	4	4	com.taobao.arthas.core.command.view.MemoryCompilerView	0	0	0	2	0	1			5	0
+-1	0	22	52	121	249.38110837103056	589	0	0	37	2	15	com.taobao.arthas.core.command.view.SessionView	0	0	0	6	0	1			16	0
+-1	0	8	23	29	77.4478040896889	533	0	0	14	1	2	com.taobao.arthas.core.command.view.EchoView	0	0	0	2	0	1			3	0
+-1	0	28	59	160	299.4352550987958	616	0	1	57	6	21	com.taobao.arthas.core.command.view.DumpClassView	0	0	0	13	0	2			23	0
+0	1	128	189	759	1253.4483359277742	594	-1	15	195	26	52	com.taobao.arthas.core.command.view.ViewRenderUtil	0	0	0	17	1	6			58	0
+-1	0	16	43	82	189.4889276323629	734	0	0	28	3	8	com.taobao.arthas.core.command.view.VmToolView	0	0	0	5	0	1			9	0
+0	2	105	153	596	977.7068220609985	521	-1	19	140	20	16	com.taobao.arthas.core.command.view.ResultViewResolver	0	0	0	7	2	7	adaptee	(Object)Adapter	23	-1
+-1	0	8	23	29	77.4478040896889	534	0	0	16	1	2	com.taobao.arthas.core.command.view.VersionView	0	0	0	2	0	1			3	0
+-1	0	19	55	87	245.6249465260021	520	0	1	30	3	1	com.taobao.arthas.core.command.view.ResultView	0	0	0	2	0	2			3	0
+-1	0	18	50	102	231.24864066421353	621	0	0	28	4	7	com.taobao.arthas.core.command.view.RedefineView	0	0	0	2	0	1			8	0
+-1	0	10	28	43	105.31360323941975	522	0	0	18	2	2	com.taobao.arthas.core.command.view.StatusView	0	0	0	2	0	1			3	0
+-1	0	22	53	120	253.73706236744843	586	0	1	50	6	19	com.taobao.arthas.core.command.view.OptionsView	0	0	0	9	0	2			21	0
+-1	0	8	25	31	85.84968011212865	622	0	0	14	1	2	com.taobao.arthas.core.command.view.RowAffectView	0	0	0	2	0	1			3	0
+-1	0	28	50	146	249.1803310854168	645	0	0	46	4	16	com.taobao.arthas.core.command.view.PerfCounterView	0	0	0	8	0	1			17	0
+-1	0	8	23	29	77.4478040896889	588	0	0	16	1	3	com.taobao.arthas.core.command.view.ResetView	0	0	0	2	0	1			4	0
+-1	0	25	60	138	295.6352211094323	530	0	3	48	8	17	com.taobao.arthas.core.command.view.HelpView	0	0	0	15	0	3			20	0
+-1	0	51	70	313	402.2342233378107	670	0	0	76	4	35	com.taobao.arthas.core.command.view.TimeTunnelView	0	0	0	12	0	1			36	0
+-1	0	8	23	29	77.4478040896889	519	0	0	14	1	2	com.taobao.arthas.core.command.view.MessageView	0	0	0	2	0	1			3	0
+-1	0	58	101	442	615.2222980898475	641	0	0	81	4	20	com.taobao.arthas.core.command.view.ThreadView	0	0	0	9	0	1			21	0
+-1	0	12	52	72	222.38663818883487	672	0	0	25	2	13	com.taobao.arthas.core.command.view.WatchView	0	0	0	6	0	1			14	0
+-1	0	22	44	130	214.1715158200456	623	0	0	33	5	10	com.taobao.arthas.core.command.view.SearchClassView	0	0	0	5	0	1			11	0
+-1	0	17	47	87	209.89768157676542	620	0	0	27	3	8	com.taobao.arthas.core.command.view.OgnlView	0	0	0	5	0	1			9	0
+-1	0	128	190	809	1272.2017942411132	640	-1	28	170	27	72	com.taobao.arthas.core.command.view.DashboardView	0	0	0	10	0	8			80	-1
+-1	0	135	177	877	1199.4417376498764	615	-1	91	180	34	100	com.taobao.arthas.core.command.view.ClassLoaderView	0	0	0	15	0	14			114	-1
+-1	0	30	62	196	327.24310887229205	668	0	1	42	7	13	com.taobao.arthas.core.command.view.ProfilerView	0	0	0	3	0	2			15	0
+0	4	152	213	1043	1480.3194249151645	671	-1	37	219	31	65	com.taobao.arthas.core.command.view.TraceView	0	0	0	11	8	10			75	-1
+-1	0	8	23	29	77.4478040896889	591	0	0	16	1	4	com.taobao.arthas.core.command.view.SystemEnvView	0	0	0	2	0	1			5	0
+-1	0	27	49	142	242.8355258224618	624	0	0	46	4	13	com.taobao.arthas.core.command.view.SearchMethodView	0	0	0	5	0	1			14	0
+-1	0	8	23	29	77.4478040896889	587	0	0	14	1	2	com.taobao.arthas.core.command.view.PwdView	0	0	0	2	0	1			3	0
+-1	0	22	56	125	270.3855692889289	593	0	1	42	6	18	com.taobao.arthas.core.command.view.VMOptionView	0	0	0	8	0	2			20	0
+-1	0	95	133	640	859.3752674550444	648	0	28	120	31	38	com.taobao.arthas.core.command.view.JvmView	0	0	0	11	0	8			46	0
+-1	0	176	221	1006	1527.9359544957904	651	0	66	211	36	91	com.taobao.arthas.core.command.view.MBeanView	0	0	0	15	0	12			103	0
+-1	0	11	32	48	123.87843234905252	666	0	0	18	2	3	com.taobao.arthas.core.command.view.EnhancerView	0	0	0	2	0	1			4	0
+-1	0	32	54	201	286.37846503519006	618	0	0	49	4	13	com.taobao.arthas.core.command.view.JadView	0	0	0	11	0	1			14	0
+-1	0	57	113	500	702.2507151217077	629	0	1	103	8	20	com.taobao.arthas.core.command.view.LoggerView	0	0	0	9	0	2			22	0
+-1	0	8	23	29	77.4478040896889	590	0	0	14	1	2	com.taobao.arthas.core.command.view.ShutdownView	0	0	0	2	0	1			3	0
+-1	0	9	27	34	95.21173416463637	564	0	0	17	1	2	com.taobao.arthas.core.command.view.CatView	0	0	0	2	0	1			3	0
+-1	0	34	74	244	406.79044867169694	697	0	0	63	4	20	com.taobao.arthas.core.command.view.RetransformView	0	0	0	7	0	1			21	0
+-1	0	89	131	640	846.452331102337	731	-1	1	123	6	15	com.taobao.arthas.core.command.view.MemoryView	0	0	0	12	0	2			17	-1
+-1	0	16	35	79	152.93067483634576	691	0	0	24	4	5	com.taobao.arthas.core.server.instrument.ClassLoader_Instrument	0	0	0	2	0	1			6	0
+0	6	102	152	460	931.9464264014374	187	-1	78	152	35	17	com.taobao.arthas.core.util.affect.EnhancerAffect	15	1	0	9	7	16			33	1
+0	1	17	41	61	168.54582843110578	186	-1	1	27	5	3	com.taobao.arthas.core.util.affect.Affect	0	0	2	1	1	2			5	-1
+0	1	29	52	102	240.49858629078207	188	1	0	45	9	6	com.taobao.arthas.core.util.affect.RowAffect	4	1	0	1	1	5			11	1
+0	3	65	109	363	642.4899089348687	191	1	0	94	18	13	com.taobao.arthas.core.util.collection.ThreadUnsafeGaStack	0	0	0	4	5	8			21	1
+-1	0	10	25	33	87.412689036662	189	0	6	18	4	0	com.taobao.arthas.core.util.collection.GaStack	0	0	0	0	0	4			4	0
+0	2	39	65	172	334.5871409928744	190	1	0	60	14	4	com.taobao.arthas.core.util.collection.ThreadUnsafeFixGaStack	0	0	0	1	4	7			11	1
+0	1	294	417	2463	3256.4094610162642	202	-1	171	450	96	66	com.taobao.arthas.core.util.reflect.FieldUtils	0	0	0	10	1	19			85	-1
+-1	0	216	247	1552	1814.7830260835617	201	-1	36	323	37	58	com.taobao.arthas.core.util.reflect.ArthasReflectUtils	0	0	0	16	0	9			67	-1
+0	2	28	65	128	315.3819671547751	200	2	0	45	9	3	com.taobao.arthas.core.util.metrics.SumRateCounter	0	0	0	0	2	5			8	2
+0	3	68	128	371	757.2738640137517	199	1	3	92	19	12	com.taobao.arthas.core.util.metrics.RateCounter	0	0	0	3	4	6			18	1
+0	1	99	126	685	822.7067736210404	203	-1	13	143	18	40	com.taobao.arthas.core.util.usage.StyledUsageFormatter	0	0	0	12	1	6			46	-1
+-1	0	10	34	46	130.17380748062922	358	0	0	31	2	1	com.taobao.arthas.core.env.convert.ObjectToStringConverter	0	0	0	0	0	1			2	0
+-1	0	5	18	24	57.20496894626302	364	0	0	9	2	1	com.taobao.arthas.core.env.convert.StringToLongConverter	0	0	0	0	0	1			2	0
+-1	0	5	18	24	57.20496894626302	363	0	0	9	2	1	com.taobao.arthas.core.env.convert.StringToIntegerConverter	0	0	0	0	0	1			2	0
+-1	0	5	22	28	73.30849922385448	361	0	0	12	2	1	com.taobao.arthas.core.env.convert.StringToEnumConverter	0	0	0	0	0	1			2	0
+1	1	15	39	80	170.89903875228137	359	0	0	33	4	4	com.taobao.arthas.core.env.convert.StringToArrayConverter	0	0	0	3	1	2			6	0
+1	1	36	66	169	338.5733151849229	360	0	0	64	5	4	com.taobao.arthas.core.env.convert.StringToBooleanConverter	0	0	0	2	2	1			5	0
+0	1	38	74	185	386.306331055796	357	2	0	52	13	4	com.taobao.arthas.core.env.convert.ConvertiblePair	0	0	0	0	2	6			10	2
+-1	0	16	71	134	347.7466257965147	356	0	0	40	4	0	com.taobao.arthas.core.env.convert.Converter	0	0	0	0	0	1			1	0
+0	1	81	132	579	839.6919270396354	334	-1	9	123	15	21	com.taobao.arthas.core.env.convert.DefaultConversionService	0	0	0	4	1	6			27	-1
+-1	0	10	31	62	127.94116593639784	362	0	0	17	4	1	com.taobao.arthas.core.env.convert.StringToInetAddressConverter	0	0	0	2	0	1			2	0
+-1	0	10	65	82	286.4367510721765	331	-1	0	39	0	0	com.taobao.arthas.core.env.convert.ConfigurableConversionService	0	0	0	1	0	0			0	-1
+-1	0	127	205	907	1396.079202273603	30	0	10	168	18	47	com.taobao.arthas.core.Arthas	0	0	0	16	0	5			52	0
+-1	2	51	189	410	1137.0537031829888	31	-1	0	139	0	0	com.taobao.arthas.core.GlobalOptions	0	0	0	1	12	0			0	-1
+-1	0	23	38	79	166.03901839374683	552	0	6	31	6	0	com.taobao.arthas.core.distribution.SharingResultDistributor	0	0	0	1	0	4			4	0
+-1	0	6	17	18	49.136319884234794	549	0	0	14	1	0	com.taobao.arthas.core.distribution.PackingResultDistributor	0	0	0	2	0	1			1	0
+-1	1	10	18	23	56.438895886724694	548	-1	0	14	0	0	com.taobao.arthas.core.distribution.DistributorOptions	0	0	0	0	1	0			0	-1
+1	2	64	106	496	657.8970482328424	551	0	0	94	6	15	com.taobao.arthas.core.distribution.ResultConsumerHelper	0	0	0	12	2	1			16	0
+-1	0	15	41	63	169.86852378205285	523	0	1	21	2	0	com.taobao.arthas.core.distribution.ResultDistributor	0	0	0	1	0	2	state	State	2	0
+-1	0	8	19	26	61.90383422240816	547	0	1	12	2	0	com.taobao.arthas.core.distribution.CompositeResultDistributor	0	0	0	0	0	2			2	0
+-1	0	28	62	111	291.9908724813647	550	0	36	43	12	0	com.taobao.arthas.core.distribution.ResultConsumer	0	0	0	2	0	9	observer	Observer	9	0
+0	8	150	172	1049	1196.361928644163	556	-1	2	220	20	31	com.taobao.arthas.core.distribution.impl.SharingResultDistributorImpl	0	0	0	18	8	9	subject	Observer	40	-1
+0	7	111	145	702	950.3203435837426	555	-1	42	167	29	19	com.taobao.arthas.core.distribution.impl.ResultConsumerImpl	0	0	0	14	11	13			32	-1
+0	1	30	45	146	224.26229797687515	553	1	0	52	9	5	com.taobao.arthas.core.distribution.impl.CompositeResultDistributorImpl	0	0	0	6	1	6			11	1
+0	3	20	47	97	215.01141598965899	554	0	4	43	6	6	com.taobao.arthas.core.distribution.impl.PackingResultDistributorImpl	0	0	0	10	3	4			10	0
+0	2	20	43	85	191.0340040290836	524	0	1	36	4	2	com.taobao.arthas.core.distribution.impl.TermResultDistributorImpl	0	0	0	5	2	3	adapter	(Object)Adapter	5	0
+-1	0	29	89	165	454.42914717715166	102	0	10	44	11	0	com.taobao.arthas.core.shell.cli.Completion	0	0	0	2	0	5	decorated	Decorator	5	0
+-1	0	321	278	2083	2124.35491467055	103	-1	78	403	51	125	com.taobao.arthas.core.shell.cli.CompletionUtils	0	0	0	19	0	13			138	-1
+-1	0	18	37	68	156.12178509151596	100	0	6	23	9	0	com.taobao.arthas.core.shell.cli.CliToken	0	0	0	0	0	4			4	0
+-1	0	7	18	22	55.63876416044969	720	0	1	12	2	0	com.taobao.arthas.core.shell.cli.OptionCompleteHandler	0	0	0	0	0	2			2	0
+-1	0	29	53	121	254.1768989166273	101	0	3	40	6	1	com.taobao.arthas.core.shell.cli.CliTokens	0	0	0	2	0	3			4	0
+0	4	94	96	441	584.5483080428972	121	-1	185	121	45	21	com.taobao.arthas.core.shell.future.Future	0	0	0	1	5	23	context	State	44	-1
+-1	0	39	96	230	522.0556136566267	107	0	10	61	12	1	com.taobao.arthas.core.shell.command.CommandBuilder	0	0	1	4	0	5	creator	Factory Method	6	0
+0	2	51	64	192	336.479703809778	625	-1	5	64	15	1	com.taobao.arthas.core.shell.command.ExitStatus	0	0	0	0	3	7	singleton	Singleton	8	-1
+-1	0	10	28	34	98.73809468925252	110	0	0	15	2	0	com.taobao.arthas.core.shell.command.CommandResolver	0	0	0	1	0	1			1	0
+0	1	51	93	255	515.3375096997336	109	-1	9	73	13	8	com.taobao.arthas.core.shell.command.CommandRegistry	0	0	0	4	1	6			14	-1
+-1	0	34	78	169	400.13209976399975	106	0	10	53	10	2	com.taobao.arthas.core.shell.command.Command	0	0	1	6	0	5	adaptee	(Object)Adapter	7	0
+-1	0	30	73	152	366.74327802177817	105	0	6	47	7	2	com.taobao.arthas.core.shell.command.AnnotatedCommand	0	0	43	4	0	4			6	0
+-1	0	125	172	594	1098.543242930375	108	0	325	185	48	0	com.taobao.arthas.core.shell.command.CommandProcess	0	0	0	10	0	26	state	State	26	0
+0	4	48	66	268	369.0051407137165	112	0	6	73	7	0	com.taobao.arthas.core.shell.command.impl.CommandBuilderImpl	1	3	0	7	4	4			4	0
+0	3	88	86	471	529.3177960854119	111	1	0	115	23	28	com.taobao.arthas.core.shell.command.impl.AnnotatedCommandImpl	4	4	0	10	3	8			36	1
+-1	0	28	61	117	290.49261002266314	97	0	10	44	8	0	com.taobao.arthas.core.shell.Shell	0	0	0	5	0	5			5	0
+0	3	97	138	461	846.4089299335375	99	1	50	126	25	0	com.taobao.arthas.core.shell.ShellServerOptions	0	0	0	2	11	13			13	1
+-1	0	74	151	460	925.8151999119543	98	-1	66	115	28	2	com.taobao.arthas.core.shell.ShellServer	0	0	1	9	0	12	abstractClass	Template Method	14	-1
+-1	0	10	20	37	72.21835825288449	525	0	6	16	4	0	com.taobao.arthas.core.shell.system.JobListener	0	0	0	0	0	4	state	State	4	0
+-1	0	130	125	505	778.06980365942	151	0	351	177	45	0	com.taobao.arthas.core.shell.system.Process	0	0	0	4	0	27	state	State	27	0
+-1	0	7	17	21	51.75688144129819	506	0	1	14	2	0	com.taobao.arthas.core.shell.system.ProcessAware	0	0	0	0	0	2			2	0
+-1	0	82	115	356	675.6170340479835	149	0	136	118	37	0	com.taobao.arthas.core.shell.system.Job	0	0	0	3	0	17			17	0
+-1	0	35	94	192	494.20456497061144	150	0	10	56	8	0	com.taobao.arthas.core.shell.system.JobController	0	0	0	8	0	5	creator	Factory Method	5	0
+0	1	117	158	826	1061.2219742163145	154	1	6	147	33	47	com.taobao.arthas.core.shell.system.impl.InternalCommandManager	0	0	0	12	1	9			56	1
+0	3	198	276	1426	2004.4854938688907	155	-1	75	254	53	67	com.taobao.arthas.core.shell.system.impl.JobControllerImpl	0	0	1	33	3	15	adaptee	(Object)Adapter	82	-1
+0	12	177	158	939	1081.4808457149056	156	-1	49	287	49	38	com.taobao.arthas.core.shell.system.impl.JobImpl	0	0	0	9	12	19	context	State	57	-1
+0	17	502	443	3390	3600.963243765902	157	-1	317	687	76	45	com.taobao.arthas.core.shell.system.impl.ProcessImpl	0	0	0	29	24	31	context	State	76	-1
+0	3	28	46	120	220.2246201679741	152	1	0	47	9	3	com.taobao.arthas.core.shell.system.impl.CommandCompletion	0	0	0	4	3	6	decorator	Decorator	9	1
+0	2	94	146	323	843.5372391905079	153	0	4	135	15	22	com.taobao.arthas.core.shell.system.impl.GlobalJobControllerImpl	1	4	0	16	2	5			27	0
+-1	0	36	89	192	467.91708811047255	161	0	15	52	15	0	com.taobao.arthas.core.shell.term.Tty	0	0	0	1	0	6	state	State	6	0
+-1	0	6	16	17	45.33141350489946	158	0	0	8	1	0	com.taobao.arthas.core.shell.term.SignalHandler	0	0	0	0	0	1	state	State	1	0
+-1	0	61	115	357	675.9396149046585	159	0	78	92	20	0	com.taobao.arthas.core.shell.term.Term	0	0	0	4	0	13	state	State	13	0
+-1	0	55	148	348	866.1259670066222	160	-1	28	86	21	4	com.taobao.arthas.core.shell.term.TermServer	0	0	3	6	0	8	abstractClass	Template Method	12	-1
+1	4	26	56	122	269.0251785050624	325	0	0	50	3	2	com.taobao.arthas.core.shell.term.impl.http.TtyServerInitializer	0	0	0	14	4	2			4	0
+0	4	45	74	246	407.3945336589948	322	1	0	83	12	10	com.taobao.arthas.core.shell.term.impl.http.TtyWebSocketFrameHandler	0	0	0	10	4	5			15	1
+1	1	46	69	267	385.5201574296172	710	2	0	76	12	12	com.taobao.arthas.core.shell.term.impl.http.ExtHttpTtyConnection	0	0	0	12	1	6			18	2
+0	7	95	119	604	762.025329554243	324	-1	34	138	30	28	com.taobao.arthas.core.shell.term.impl.http.NettyWebsocketTtyBootstrap	0	0	0	23	7	12	adaptee	(Object)Adapter	40	-1
+0	3	178	292	1624	2158.653076050714	314	-1	22	286	24	65	com.taobao.arthas.core.shell.term.impl.http.DirectoryBrowser	0	0	0	36	8	8			73	-1
+1	3	23	50	105	232.69801750787616	674	0	0	48	3	2	com.taobao.arthas.core.shell.term.impl.http.LocalTtyServerInitializer	0	0	0	13	3	2			4	0
+0	4	135	179	1090	1251.9140025649508	315	0	18	185	24	46	com.taobao.arthas.core.shell.term.impl.http.HttpRequestHandler	0	0	0	20	4	8			54	0
+0	3	113	187	846	1260.4771202463637	709	-1	6	184	17	37	com.taobao.arthas.core.shell.term.impl.http.BasicHttpAuthenticatorHandler	0	0	0	29	3	5	context	State	42	0
+-1	0	71	239	806	1599.4080144590841	711	0	55	156	30	0	com.taobao.arthas.core.shell.term.impl.http.session.HttpSession	0	0	0	1	0	11			11	0
+0	2	58	82	285	463.5041127820294	712	0	20	95	16	23	com.taobao.arthas.core.shell.term.impl.http.session.HttpSessionManager	0	0	0	12	2	8			31	0
+0	4	59	170	447	1037.4349610843067	713	2	0	100	14	8	com.taobao.arthas.core.shell.term.impl.http.session.LRUCache	0	0	0	4	4	7			15	2
+0	2	41	53	165	270.61511011673076	714	0	52	79	19	6	com.taobao.arthas.core.shell.term.impl.http.session.SimpleHttpSession	0	0	0	5	2	12			18	0
+-1	0	13	38	71	161.98183532757	735	0	0	25	3	3	com.taobao.arthas.core.shell.term.impl.http.api.ObjectVOFilter	0	0	0	4	0	1			4	0
+0	3	62	58	245	319.0729762115942	542	0	77	79	28	0	com.taobao.arthas.core.shell.term.impl.http.api.ApiResponse	0	0	0	0	7	14			14	0
+0	11	546	527	1876	3971.9447872813716	544	1	162	754	78	189	com.taobao.arthas.core.shell.term.impl.http.api.HttpApiHandler	0	0	0	49	13	21	context	State	210	1
+-1	0	12	27	43	101.55240312372618	540	0	1	16	2	0	com.taobao.arthas.core.shell.term.impl.http.api.ApiException	0	0	0	0	0	2			2	0
+0	2	51	71	220	382.9475557910177	541	1	42	75	20	0	com.taobao.arthas.core.shell.term.impl.http.api.ApiRequest	0	0	0	0	6	13			13	1
+0	9	193	195	1092	1364.174400479446	167	-1	65	250	66	45	com.taobao.arthas.core.shell.term.impl.TermImpl	0	0	0	22	10	26	context	State	71	-1
+0	6	57	97	316	558.3069947179305	166	-1	7	84	13	17	com.taobao.arthas.core.shell.term.impl.TelnetTermServer	2	5	0	10	6	7			24	-1
+0	4	55	80	338	465.8436716386415	162	1	1	79	13	16	com.taobao.arthas.core.shell.term.impl.CompletionAdaptor	0	0	0	7	4	6			22	1
+0	1	30	60	168	307.43783876419553	164	-1	1	80	7	5	com.taobao.arthas.core.shell.term.impl.Helper	0	0	0	7	1	2			7	-1
+0	3	23	50	116	237.67950955531822	163	0	0	41	4	6	com.taobao.arthas.core.shell.term.impl.CompletionHandler	0	0	0	10	3	2	context	State	8	0
+0	8	60	101	333	586.6223914880248	165	-1	7	89	13	17	com.taobao.arthas.core.shell.term.impl.HttpTermServer	2	5	0	12	8	7	adapter	(Object)Adapter	24	-1
+0	8	61	103	336	599.16244947621	310	-1	7	93	13	17	com.taobao.arthas.core.shell.term.impl.httptelnet.HttpTelnetTermServer	2	5	0	13	8	7	adapter	(Object)Adapter	24	-1
+0	4	58	94	356	552.2434887000909	311	-1	18	98	20	27	com.taobao.arthas.core.shell.term.impl.httptelnet.NettyHttpTelnetBootstrap	0	0	0	22	4	9			36	1
+0	6	63	99	358	582.1727656536693	313	1	0	106	10	26	com.taobao.arthas.core.shell.term.impl.httptelnet.ProtocolDetectHandler	0	0	0	23	6	4			30	1
+0	3	78	108	351	632.9649121343134	312	-1	46	113	29	10	com.taobao.arthas.core.shell.term.impl.httptelnet.NettyHttpTelnetTtyBootstrap	0	0	0	10	4	16	adaptee	(Object)Adapter	26	-1
+0	9	178	254	1213	1803.6163848717888	144	-1	48	278	37	51	com.taobao.arthas.core.shell.impl.ShellImpl	0	0	0	41	11	17	context	State	68	-1
+1	1	12	27	38	98.21482631261242	143	0	0	39	3	4	com.taobao.arthas.core.shell.impl.BuiltinCommandResolver	0	0	0	11	1	2			6	0
+0	12	189	256	1163	1807.042087044778	145	-1	54	263	46	65	com.taobao.arthas.core.shell.impl.ShellServerImpl	9	8	0	36	14	17	adapter	(Object)Adapter	82	-1
+-1	0	11	22	34	77.57993154155555	558	0	15	21	6	0	com.taobao.arthas.core.shell.history.HistoryManager	0	0	0	1	0	6	state	State	6	0
+0	3	45	77	218	414.60611983475985	559	2	0	71	11	8	com.taobao.arthas.core.shell.history.impl.HistoryManagerImpl	0	0	0	8	3	7			15	2
+1	1	13	30	47	115.50442805130176	125	0	0	22	2	3	com.taobao.arthas.core.shell.handlers.command.CommandInterruptHandler	0	0	1	2	1	2	context	State	5	0
+1	2	16	37	70	157.1943239558263	127	0	0	26	3	3	com.taobao.arthas.core.shell.handlers.server.SessionsClosedHandler	0	0	0	3	2	2			5	0
+1	5	35	63	200	333.7939940925263	128	0	0	49	5	12	com.taobao.arthas.core.shell.handlers.server.TermServerListenHandler	0	0	0	7	5	2			14	0
+1	2	14	34	55	136.24932829790401	126	0	0	24	2	1	com.taobao.arthas.core.shell.handlers.server.SessionClosedHandler	0	0	0	4	2	2			3	0
+1	1	12	29	43	109.0748033551133	129	0	0	21	2	1	com.taobao.arthas.core.shell.handlers.server.TermServerTermHandler	0	0	0	3	1	2			3	0
+0	2	16	39	70	165.691314439925	122	0	0	29	3	4	com.taobao.arthas.core.shell.handlers.BindHandler	0	0	0	4	2	2			6	0
+1	1	11	37	52	146.1960175875128	124	0	0	20	3	3	com.taobao.arthas.core.shell.handlers.NoOpHandler	0	0	0	3	1	1			4	0
+-1	0	7	24	28	79.97290824420489	123	0	0	10	1	0	com.taobao.arthas.core.shell.handlers.Handler	0	0	0	0	0	1	state	State	1	0
+1	1	12	30	44	113.52568901754783	137	0	0	20	2	1	com.taobao.arthas.core.shell.handlers.term.CloseHandlerWrapper	0	0	0	2	1	2	context	State	3	0
+1	1	12	30	44	113.52568901754783	141	0	0	21	2	1	com.taobao.arthas.core.shell.handlers.term.SizeHandlerWrapper	0	0	0	3	1	2	context	State	3	0
+1	1	22	37	57	149.59289690987836	139	0	0	31	4	3	com.taobao.arthas.core.shell.handlers.term.EventHandler	0	0	0	3	1	2			5	0
+1	2	15	35	59	142.71381053670018	140	0	0	24	2	2	com.taobao.arthas.core.shell.handlers.term.RequestHandler	0	0	0	3	2	2	context	State	4	0
+1	1	12	30	44	113.52568901754783	142	0	0	21	2	2	com.taobao.arthas.core.shell.handlers.term.StdinHandlerWrapper	0	0	0	3	1	2	context	State	4	0
+1	1	13	30	47	115.50442805130176	138	0	0	22	2	3	com.taobao.arthas.core.shell.handlers.term.DefaultTermStdinHandler	0	0	0	2	1	2			5	0
+1	1	18	40	78	174.26835306758366	136	0	0	32	4	5	com.taobao.arthas.core.shell.handlers.shell.SuspendHandler	0	0	0	5	1	2	adapter	(Object)Adapter	7	0
+1	1	12	29	43	109.0748033551133	131	0	0	21	2	1	com.taobao.arthas.core.shell.handlers.shell.CommandManagerCompletionHandler	0	0	0	3	1	2			3	0
+1	1	14	33	57	133.42069183854017	134	0	0	23	3	1	com.taobao.arthas.core.shell.handlers.shell.ShellForegroundUpdateHandler	0	0	0	3	1	2			3	0
+1	1	15	35	63	145.00971542370365	133	0	0	24	4	2	com.taobao.arthas.core.shell.handlers.shell.InterruptHandler	0	0	0	2	1	2	adapter	(Object)Adapter	4	0
+1	1	12	29	43	109.0748033551133	130	0	0	20	2	3	com.taobao.arthas.core.shell.handlers.shell.CloseHandler	0	0	0	2	1	2			5	0
+1	1	14	30	54	119.66952139692823	270	0	0	24	3	2	com.taobao.arthas.core.shell.handlers.shell.QExitHandler	0	0	0	2	1	2	context	State	4	0
+1	1	12	29	43	109.0748033551133	132	0	0	20	2	1	com.taobao.arthas.core.shell.handlers.shell.FutureHandler	0	0	0	2	1	2			3	0
+0	2	157	138	942	945.0247278915381	135	0	0	171	26	60	com.taobao.arthas.core.shell.handlers.shell.ShellLineHandler	0	0	0	9	2	9	context	State	69	0
+0	1	127	154	470	947.5208349844321	146	0	171	171	37	0	com.taobao.arthas.core.shell.session.Session	0	0	0	5	10	19	state	State	19	0
+-1	0	14	29	47	111.6542804495917	514	0	28	29	8	0	com.taobao.arthas.core.shell.session.SessionManager	0	0	0	3	0	8	creator	Factory Method	8	0
+0	3	81	106	358	623.3364965584742	147	-1	0	135	39	26	com.taobao.arthas.core.shell.session.impl.SessionImpl	0	0	0	10	4	20			46	-1
+0	9	147	210	930	1435.3887630909333	515	-1	39	207	33	53	com.taobao.arthas.core.shell.session.impl.SessionManagerImpl	0	0	0	14	11	14	context	State	67	-1
+0	1	31	48	164	244.79358853556153	272	-1	4	56	7	24	com.taobao.arthas.boot.DownloadUtilsTest	0	0	0	9	1	4			28	0
+0	2	342	407	2659	3209.4820942359092	244	-1	78	465	57	107	com.taobao.arthas.boot.ProcessUtils	0	0	0	23	5	13			120	-1
+0	7	608	806	4201	6724.520764162523	241	-1	1688	880	123	120	com.taobao.arthas.boot.Bootstrap	0	0	0	34	29	60			180	-1
+0	2	155	243	1066	1694.115470948367	242	-1	21	195	30	49	com.taobao.arthas.boot.DownloadUtils	0	0	0	14	4	7			56	0

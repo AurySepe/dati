@@ -1,0 +1,8 @@
+/results/alibaba-arthas/RELEASES/931ce392fdc6bf675bbc3997917079c9ce3c9cb2/memorycompiler/src/main/java/com/taobao/arthas/compiler/CustomJavaFileObject.java
+/results/alibaba-arthas/RELEASES/931ce392fdc6bf675bbc3997917079c9ce3c9cb2/memorycompiler/src/main/java/com/taobao/arthas/compiler/DynamicClassLoader.java
+/results/alibaba-arthas/RELEASES/931ce392fdc6bf675bbc3997917079c9ce3c9cb2/memorycompiler/src/main/java/com/taobao/arthas/compiler/DynamicCompilerException.java
+/results/alibaba-arthas/RELEASES/931ce392fdc6bf675bbc3997917079c9ce3c9cb2/memorycompiler/src/main/java/com/taobao/arthas/compiler/PackageInternalsFinder.java
+/results/alibaba-arthas/RELEASES/931ce392fdc6bf675bbc3997917079c9ce3c9cb2/memorycompiler/src/main/java/com/taobao/arthas/compiler/MemoryByteCode.java
+/results/alibaba-arthas/RELEASES/931ce392fdc6bf675bbc3997917079c9ce3c9cb2/memorycompiler/src/main/java/com/taobao/arthas/compiler/DynamicJavaFileManager.java
+/results/alibaba-arthas/RELEASES/931ce392fdc6bf675bbc3997917079c9ce3c9cb2/memorycompiler/src/main/java/com/taobao/arthas/compiler/StringSource.java
+/results/alibaba-arthas/RELEASES/931ce392fdc6bf675bbc3997917079c9ce3c9cb2/memorycompiler/src/main/java/com/taobao/arthas/compiler/DynamicCompiler.java

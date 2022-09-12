@@ -1,0 +1,101 @@
+{
+  "groups": [
+    {
+      "name": "arthas",
+      "type": "com.alibaba.arthas.spring.ArthasProperties",
+      "sourceType": "com.alibaba.arthas.spring.ArthasProperties"
+    },
+    {
+      "name": "arthas",
+      "type": "java.util.HashMap",
+      "sourceType": "com.alibaba.arthas.spring.ArthasConfiguration",
+      "sourceMethod": "arthasConfigMap()"
+    },
+    {
+      "name": "management.endpoint.arthas",
+      "type": "com.alibaba.arthas.spring.endpoints.ArthasEndPoint",
+      "sourceType": "com.alibaba.arthas.spring.endpoints.ArthasEndPoint"
+    }
+  ],
+  "properties": [
+    {
+      "name": "arthas.agent-id",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.arthas.spring.ArthasProperties"
+    },
+    {
+      "name": "arthas.app-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.arthas.spring.ArthasProperties"
+    },
+    {
+      "name": "arthas.disabled-commands",
+      "type": "java.lang.String",
+      "description": "disabled commands，default disable stop command",
+      "sourceType": "com.alibaba.arthas.spring.ArthasProperties",
+      "defaultValue": "stop"
+    },
+    {
+      "name": "arthas.home",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.arthas.spring.ArthasProperties"
+    },
+    {
+      "name": "arthas.http-port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.arthas.spring.ArthasProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "arthas.ip",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.arthas.spring.ArthasProperties"
+    },
+    {
+      "name": "arthas.session-timeout",
+      "type": "java.lang.Long",
+      "description": "session timeout seconds",
+      "sourceType": "com.alibaba.arthas.spring.ArthasProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "arthas.slient-init",
+      "type": "java.lang.Boolean",
+      "description": "when arthas agent init error will throw exception by default.",
+      "sourceType": "com.alibaba.arthas.spring.ArthasProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "arthas.stat-url",
+      "type": "java.lang.String",
+      "description": "report executed command",
+      "sourceType": "com.alibaba.arthas.spring.ArthasProperties"
+    },
+    {
+      "name": "arthas.telnet-port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.arthas.spring.ArthasProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "arthas.tunnel-server",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.arthas.spring.ArthasProperties"
+    },
+    {
+      "name": "management.endpoint.arthas.cache.time-to-live",
+      "type": "java.time.Duration",
+      "description": "Maximum time that a response can be cached.",
+      "sourceType": "com.alibaba.arthas.spring.endpoints.ArthasEndPoint",
+      "defaultValue": "0ms"
+    },
+    {
+      "name": "management.endpoint.arthas.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Whether to enable the arthas endpoint.",
+      "sourceType": "com.alibaba.arthas.spring.endpoints.ArthasEndPoint",
+      "defaultValue": true
+    }
+  ],
+  "hints": []
+}

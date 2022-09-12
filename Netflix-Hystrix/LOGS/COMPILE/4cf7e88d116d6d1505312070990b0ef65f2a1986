@@ -1,0 +1,120 @@
+Inferred project: hystrix, version: 1.6.0-SNAPSHOT
+Publication nebula not found in project :.
+[buildinfo] Not using buildInfo properties file for this build.
+Publication named 'nebula' does not exist for project ':' in task ':artifactoryPublish'.
+'warnOnReflection' is deprecated and will go away in a future version. Please use 'clojure.warnOnReflection' instead.
+'aotCompile' is deprecated and will go away in a future version. Please use 'clojure.aotCompile' instead.
+:clean UP-TO-DATE
+:hystrix-clj:clean
+:hystrix-codahale-metrics-publisher:clean
+:hystrix-core:clean
+:hystrix-dashboard:clean
+:hystrix-examples:clean
+:hystrix-examples-webapp:clean
+:hystrix-javanica:clean
+:hystrix-junit:clean
+:hystrix-metrics-event-stream:clean
+:hystrix-network-auditor-agent:clean
+:hystrix-request-servlet:clean
+:hystrix-rx-netty-metrics-stream:clean
+:hystrix-serialization:clean
+:hystrix-servo-metrics-publisher:clean
+:hystrix-yammer-metrics-publisher:clean
+:compileJava UP-TO-DATE
+:hystrix-core:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+/results/Netflix-Hystrix/RELEASES/4cf7e88d116d6d1505312070990b0ef65f2a1986/hystrix-core/src/main/java/com/netflix/hystrix/util/Striped64.java:118: warning: Unsafe is internal proprietary API and may be removed in a future release
+        private static final sun.misc.Unsafe UNSAFE;
+                                     ^
+/results/Netflix-Hystrix/RELEASES/4cf7e88d116d6d1505312070990b0ef65f2a1986/hystrix-core/src/main/java/com/netflix/hystrix/util/Striped64.java:316: warning: Unsafe is internal proprietary API and may be removed in a future release
+    private static final sun.misc.Unsafe UNSAFE;
+                                 ^
+/results/Netflix-Hystrix/RELEASES/4cf7e88d116d6d1505312070990b0ef65f2a1986/hystrix-core/src/main/java/com/netflix/hystrix/util/Striped64.java:339: warning: Unsafe is internal proprietary API and may be removed in a future release
+    private static sun.misc.Unsafe getUnsafe() {
+                           ^
+/results/Netflix-Hystrix/RELEASES/4cf7e88d116d6d1505312070990b0ef65f2a1986/hystrix-core/src/main/java/com/netflix/hystrix/util/Striped64.java:341: warning: Unsafe is internal proprietary API and may be removed in a future release
+            return sun.misc.Unsafe.getUnsafe();
+                           ^
+/results/Netflix-Hystrix/RELEASES/4cf7e88d116d6d1505312070990b0ef65f2a1986/hystrix-core/src/main/java/com/netflix/hystrix/util/Striped64.java:346: warning: Unsafe is internal proprietary API and may be removed in a future release
+                     .PrivilegedExceptionAction<sun.misc.Unsafe>() {
+                                                        ^
+/results/Netflix-Hystrix/RELEASES/4cf7e88d116d6d1505312070990b0ef65f2a1986/hystrix-core/src/main/java/com/netflix/hystrix/util/Striped64.java:347: warning: Unsafe is internal proprietary API and may be removed in a future release
+                        public sun.misc.Unsafe run() throws Exception {
+                                       ^
+/results/Netflix-Hystrix/RELEASES/4cf7e88d116d6d1505312070990b0ef65f2a1986/hystrix-core/src/main/java/com/netflix/hystrix/util/Striped64.java:349: warning: Unsafe is internal proprietary API and may be removed in a future release
+                                .Unsafe.class.getDeclaredField("theUnsafe");
+                                ^
+/results/Netflix-Hystrix/RELEASES/4cf7e88d116d6d1505312070990b0ef65f2a1986/hystrix-core/src/main/java/com/netflix/hystrix/util/Striped64.java:351: warning: Unsafe is internal proprietary API and may be removed in a future release
+                            return (sun.misc.Unsafe) f.get(null);
+                                            ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+9 warnings
+
+:hystrix-core:processResources UP-TO-DATE
+:hystrix-core:classes
+:hystrix-core:writeManifestProperties
+:hystrix-core:jar
+:hystrix-clj:compileJava UP-TO-DATE
+:hystrix-codahale-metrics-publisher:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:hystrix-dashboard:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:hystrix-examples:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+Note: /results/Netflix-Hystrix/RELEASES/4cf7e88d116d6d1505312070990b0ef65f2a1986/hystrix-examples/src/main/java/com/netflix/hystrix/examples/demo/HystrixCommandAsyncDemo.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+1 warning
+
+:hystrix-examples:processResources UP-TO-DATE
+:hystrix-examples:classes
+:hystrix-examples:writeManifestProperties
+:hystrix-examples:jar
+:hystrix-serialization:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:hystrix-serialization:processResources UP-TO-DATE
+:hystrix-serialization:classes
+:hystrix-serialization:writeManifestProperties
+:hystrix-serialization:jar
+:hystrix-metrics-event-stream:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:hystrix-metrics-event-stream:processResources UP-TO-DATE
+:hystrix-metrics-event-stream:classes
+:hystrix-metrics-event-stream:writeManifestProperties
+:hystrix-metrics-event-stream:jar
+:hystrix-request-servlet:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:hystrix-request-servlet:processResources UP-TO-DATE
+:hystrix-request-servlet:classes
+:hystrix-request-servlet:writeManifestProperties
+:hystrix-request-servlet:jar
+:hystrix-examples-webapp:compileJava UP-TO-DATE
+:hystrix-javanica:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning
+
+:hystrix-junit:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:hystrix-network-auditor-agent:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:hystrix-rx-netty-metrics-stream:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:hystrix-servo-metrics-publisher:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:hystrix-yammer-metrics-publisher:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+
+BUILD SUCCESSFUL
+
+Total time: 10.014 secs

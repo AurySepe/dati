@@ -1,0 +1,577 @@
+CLASSDATASHOULDBEPRIVATE	COMPLEXCLASS	FUNCTIONALDECOMPOSITION	GODCLASS	ID	NAME	PATTERNROLE	PATTERNTYPE	SPAGHETTICODE
+false	false	false	false	925	org.datatransferproject.auth.daybook.DaybookOAuthConfig			false
+false	false	false	false	924	org.datatransferproject.auth.daybook.DaybookAuthServiceExtension			false
+false	false	false	false	532	org.datatransferproject.auth.rememberthemilk.RememberTheMilkAuthServiceExtension			false
+false	false	false	false	533	org.datatransferproject.auth.rememberthemilk.RememberTheMilkSignatureGenerator	adaptee	(Object)Adapter	false
+false	false	false	false	531	org.datatransferproject.auth.rememberthemilk.RememberTheMilkAuthDataGenerator	adapter	(Object)Adapter	false
+false	false	false	false	535	org.datatransferproject.auth.rememberthemilk.model.RememberTheMilkResponse			false
+false	false	false	false	534	org.datatransferproject.auth.rememberthemilk.model.AuthElement			false
+false	false	false	false	684	org.datatransferproject.auth.smugmug.SmugMugOAuthConfig			false
+false	false	false	false	565	org.datatransferproject.auth.smugmug.SmugMugAuthServiceExtension			false
+false	false	false	false	773	org.datatransferproject.auth.imgur.ImgurOAuthConfig			false
+false	false	false	false	772	org.datatransferproject.auth.imgur.ImgurAuthServiceExtension			false
+false	false	false	false	733	org.datatransferproject.auth.google.BloggerOAuthConfig			false
+false	false	false	false	670	org.datatransferproject.auth.google.GoogleOAuthConfig			false
+false	false	false	false	732	org.datatransferproject.auth.google.BloggerAuthServiceExtension			false
+false	false	false	false	460	org.datatransferproject.auth.google.GoogleAuthServiceExtension			false
+false	false	false	false	554	org.datatransferproject.auth.instagram.InstagramAuthServiceExtension			false
+false	false	false	false	671	org.datatransferproject.auth.instagram.InstagramOAuthConfig			false
+false	false	false	false	299	org.datatransferproject.auth.microsoft.harness.AuthTestDriver			false
+false	false	false	false	300	org.datatransferproject.auth.microsoft.harness.TestHelper			false
+false	false	false	false	869	org.datatransferproject.auth.koofr.KoofrOAuthConfig			false
+false	false	false	false	868	org.datatransferproject.auth.koofr.KoofrAuthServiceExtension			false
+false	false	false	false	486	org.datatransferproject.auth.flickr.FlickrAuthDataGeneratorTest			false
+false	false	false	false	485	org.datatransferproject.auth.flickr.FlickrAuthServiceExtension			false
+false	false	false	false	683	org.datatransferproject.auth.flickr.FlickrOAuthConfig			false
+false	false	false	false	660	org.datatransferproject.auth.facebook.FacebookAuthServiceExtension			false
+false	false	false	false	695	org.datatransferproject.auth.facebook.FacebookOAuthConfig			false
+false	false	false	false	602	org.datatransferproject.auth.offline.OfflineDemoAuthDataGenerator			false
+false	false	false	false	603	org.datatransferproject.auth.offline.OfflineDemoAuthServiceExtension			false
+false	false	false	false	736	org.datatransferproject.auth.spotify.SpotifyAuthServiceExtension			false
+false	false	false	false	737	org.datatransferproject.auth.spotify.SpotifyOAuthConfig			false
+false	false	false	false	686	org.datatransferproject.auth.microsoft.MicrosoftOAuthConfig			false
+false	false	false	false	302	org.datatransferproject.auth.microsoft.MicrosoftAuthServiceExtension			false
+false	false	false	false	749	org.datatransferproject.auth.deezer.DeezerOAuthConfig			false
+false	false	false	false	748	org.datatransferproject.auth.deezer.DeezerAuthServiceExtension			false
+false	false	false	false	685	org.datatransferproject.auth.twitter.TwitterOAuthConfig			false
+false	false	false	false	575	org.datatransferproject.auth.twitter.TwitterAuthServiceExtension			false
+false	false	false	false	568	org.datatransferproject.cloud.google.GoogleJobStoreTest			false
+false	false	false	false	831	org.datatransferproject.cloud.google.GoogleCloudIdempotentImportExecutorTest			false
+false	false	false	false	416	org.datatransferproject.cloud.google.GoogleCloudModuleTest			false
+false	false	false	false	830	org.datatransferproject.cloud.google.GoogleCloudUtils			false
+false	false	false	false	451	org.datatransferproject.cloud.google.GoogleAppCredentialStore			false
+false	false	false	false	795	org.datatransferproject.cloud.google.GoogleDtpInternalMetricRecorder	singleton	Singleton	false
+false	false	false	false	439	org.datatransferproject.cloud.google.GoogleCloudExtension			false
+false	false	false	false	645	org.datatransferproject.cloud.google.GoogleTempFileStore			false
+false	false	false	false	788	org.datatransferproject.cloud.google.StackdriverMonitor			false
+false	false	false	false	208	org.datatransferproject.cloud.google.GoogleCloudExtensionModule			false
+false	false	false	false	632	org.datatransferproject.cloud.google.GoogleCredentialException			false
+false	false	false	false	413	org.datatransferproject.cloud.google.GoogleAppSecretDecrypter			false
+false	false	false	false	789	org.datatransferproject.cloud.google.StackdriverMonitorExtension			false
+false	false	false	false	142	org.datatransferproject.cloud.google.GoogleJobStore			false
+false	false	false	false	829	org.datatransferproject.cloud.google.GoogleCloudIdempotentImportExecutorExtension			false
+false	false	false	false	794	org.datatransferproject.cloud.google.GoogleDtpInternalMetricExtension			false
+false	false	false	false	828	org.datatransferproject.cloud.google.GoogleCloudIdempotentImportExecutor	adapter	(Object)Adapter	false
+false	false	false	false	488	org.datatransferproject.cloud.microsoft.cosmos.MicrosoftCloudExtension			false
+false	false	false	false	799	org.datatransferproject.cloud.microsoft.cosmos.AzureDtpInternalMetricRecorder	adapter	(Object)Adapter	false
+false	false	false	false	540	org.datatransferproject.cloud.microsoft.cosmos.DataWrapper			false
+false	false	false	false	310	org.datatransferproject.cloud.microsoft.cosmos.MicrosoftStorageException			false
+false	false	false	false	798	org.datatransferproject.cloud.microsoft.cosmos.AzureDtpInternalMetricExtension			false
+false	false	false	false	487	org.datatransferproject.cloud.microsoft.cosmos.AzureKeyVaultStore			false
+false	false	false	false	539	org.datatransferproject.cloud.microsoft.cosmos.AzureTableStore	adapter	(Object)Adapter	false
+false	false	false	false	541	org.datatransferproject.cloud.microsoft.cosmos.TableStoreConfiguration	adaptee	(Object)Adapter	false
+false	false	false	false	826	org.datatransferproject.cloud.local.LocalJobStoreTest			false
+false	false	false	false	452	org.datatransferproject.cloud.local.LocalAppCredentialStore			false
+false	false	false	false	449	org.datatransferproject.cloud.local.LocalCloudExtension			false
+false	false	false	false	657	org.datatransferproject.cloud.local.LocalTempFileStore			false
+false	false	false	false	110	org.datatransferproject.cloud.local.LocalJobStore			false
+false	false	false	false	52	org.datatransferproject.transfer.rememberthemilk.tasks.RememberTheMilkSignatureGeneratorTest			false
+false	false	false	false	528	org.datatransferproject.transfer.rememberthemilk.tasks.RememberTheMilkTasksExporter			false
+false	false	false	false	527	org.datatransferproject.transfer.rememberthemilk.tasks.RememberTheMilkService			false
+false	false	false	false	511	org.datatransferproject.transfer.rememberthemilk.tasks.RememberTheMilkSignatureGenerator			false
+false	false	false	false	529	org.datatransferproject.transfer.rememberthemilk.tasks.RememberTheMilkTasksImporter			false
+false	false	false	false	538	org.datatransferproject.transfer.rememberthemilk.model.tasks.ModelTest			false
+false	false	false	false	516	org.datatransferproject.transfer.rememberthemilk.model.tasks.ListAddResponse			false
+false	false	false	false	525	org.datatransferproject.transfer.rememberthemilk.model.tasks.Tasks			false
+false	false	false	false	519	org.datatransferproject.transfer.rememberthemilk.model.tasks.Notes			false
+false	false	false	false	537	org.datatransferproject.transfer.rememberthemilk.model.tasks.Transaction			false
+false	false	false	false	520	org.datatransferproject.transfer.rememberthemilk.model.tasks.RememberTheMilkResponse			false
+false	false	false	false	522	org.datatransferproject.transfer.rememberthemilk.model.tasks.TaskUpdateResponse			false
+false	false	false	false	526	org.datatransferproject.transfer.rememberthemilk.model.tasks.TimelineCreateResponse			false
+false	false	false	false	523	org.datatransferproject.transfer.rememberthemilk.model.tasks.TaskList			false
+false	false	false	false	517	org.datatransferproject.transfer.rememberthemilk.model.tasks.ListInfo			false
+false	false	false	false	515	org.datatransferproject.transfer.rememberthemilk.model.tasks.GetListsResponse			false
+false	false	false	false	521	org.datatransferproject.transfer.rememberthemilk.model.tasks.Task			false
+false	false	false	false	513	org.datatransferproject.transfer.rememberthemilk.model.tasks.Error			false
+true	false	false	false	524	org.datatransferproject.transfer.rememberthemilk.model.tasks.TaskSeries			false
+false	false	false	false	514	org.datatransferproject.transfer.rememberthemilk.model.tasks.GetListResponse			false
+false	false	false	false	512	org.datatransferproject.transfer.rememberthemilk.RememberTheMilkTransferExtension			false
+false	false	false	false	725	org.datatransferproject.transfer.mastodon.contacts.ManualTest			false
+false	false	false	false	724	org.datatransferproject.transfer.mastodon.social.MastodonHttpUtilities			false
+false	false	false	false	722	org.datatransferproject.transfer.mastodon.social.MastodonActivityExport			false
+false	false	false	false	723	org.datatransferproject.transfer.mastodon.social.MastodonActivityImport			false
+false	false	false	false	721	org.datatransferproject.transfer.mastodon.model.Status			false
+false	false	false	false	720	org.datatransferproject.transfer.mastodon.model.Account			false
+false	false	false	false	551	org.datatransferproject.transfer.instagram.photos.InstagramPhotoExporterTest			false
+false	false	false	false	549	org.datatransferproject.transfer.instagram.photos.InstagramPhotoExporter			false
+false	false	false	false	548	org.datatransferproject.transfer.instagram.InstagramTransferExtension			false
+false	false	false	false	559	org.datatransferproject.transfer.instagram.photos.model.MediaFeedData			false
+false	false	false	false	557	org.datatransferproject.transfer.instagram.photos.model.ImageData			false
+false	false	false	false	556	org.datatransferproject.transfer.instagram.photos.model.Caption			false
+false	false	false	false	560	org.datatransferproject.transfer.instagram.photos.model.MediaResponse			false
+false	false	false	false	561	org.datatransferproject.transfer.instagram.photos.model.Meta			false
+false	false	false	false	558	org.datatransferproject.transfer.instagram.photos.model.ImageObject			false
+false	false	false	false	604	org.datatransferproject.transfer.offline.OfflineDemoImporter			false
+false	false	false	false	605	org.datatransferproject.transfer.offline.OfflineDemoTransferExtension			false
+false	false	false	false	923	org.datatransferproject.datatransfer.backblaze.videos.BackblazeVideosImporterTest			false
+false	false	false	false	908	org.datatransferproject.datatransfer.backblaze.videos.BackblazeVideosImporter			false
+false	false	false	false	922	org.datatransferproject.datatransfer.backblaze.photos.BackblazePhotosImporterTest			false
+false	false	false	false	907	org.datatransferproject.datatransfer.backblaze.photos.BackblazePhotosImporter			false
+false	false	false	false	921	org.datatransferproject.datatransfer.backblaze.common.BackblazeDataTransferClientTest			false
+false	false	false	false	903	org.datatransferproject.datatransfer.backblaze.common.BackblazeDataTransferClient	context	State	false
+false	false	false	false	920	org.datatransferproject.datatransfer.backblaze.common.BaseBackblazeS3ClientFactory			false
+false	false	false	false	919	org.datatransferproject.datatransfer.backblaze.common.BackblazeS3ClientFactory	state	State	false
+false	false	false	false	904	org.datatransferproject.datatransfer.backblaze.common.BackblazeDataTransferClientFactory			false
+false	false	false	false	905	org.datatransferproject.datatransfer.backblaze.exception.BackblazeCredentialsException			false
+false	false	false	false	902	org.datatransferproject.datatransfer.backblaze.BackblazeTransferExtension			false
+false	false	false	false	880	org.datatransferproject.transfer.koofr.videos.KoofrVideosImporterTest			false
+false	false	false	false	899	org.datatransferproject.transfer.koofr.videos.KoofrVideosExporterTest			false
+false	false	false	false	896	org.datatransferproject.transfer.koofr.videos.KoofrVideosExporter			false
+false	false	false	false	879	org.datatransferproject.transfer.koofr.videos.KoofrVideosImporter			false
+false	false	false	false	876	org.datatransferproject.transfer.koofr.KoofrTransmogrificationConfigTest			false
+false	false	false	false	875	org.datatransferproject.transfer.koofr.KoofrTransmogrificationConfig			false
+false	false	false	false	881	org.datatransferproject.transfer.koofr.KoofrTransferExtension			false
+false	false	false	false	898	org.datatransferproject.transfer.koofr.photos.KoofrPhotosExporterTest			false
+false	false	false	false	878	org.datatransferproject.transfer.koofr.photos.KoofrPhotosImporterTest			false
+false	false	false	false	895	org.datatransferproject.transfer.koofr.photos.KoofrPhotosExporter			false
+false	false	false	false	877	org.datatransferproject.transfer.koofr.photos.KoofrPhotosImporter	context	State	false
+false	false	false	false	874	org.datatransferproject.transfer.koofr.common.KoofrClientTest			false
+false	false	false	false	897	org.datatransferproject.transfer.koofr.common.Fixtures			false
+false	false	false	false	894	org.datatransferproject.transfer.koofr.common.KoofrMediaExport			false
+false	false	false	false	892	org.datatransferproject.transfer.koofr.common.FilesFile			false
+false	false	false	false	872	org.datatransferproject.transfer.koofr.common.KoofrClient			false
+false	false	false	false	893	org.datatransferproject.transfer.koofr.common.FilesListRecursiveItem			false
+false	false	false	false	871	org.datatransferproject.transfer.koofr.common.InputStreamRequestBody			false
+false	false	false	false	891	org.datatransferproject.transfer.koofr.common.ApiErrorDetails			false
+false	false	false	false	873	org.datatransferproject.transfer.koofr.common.KoofrCredentialFactory			false
+false	false	false	false	883	org.datatransferproject.transfer.koofr.common.KoofrClientFactory			false
+false	false	false	false	576	org.datatransferproject.transfer.twitter.TwitterApiWrapper			false
+false	false	false	false	578	org.datatransferproject.transfer.twitter.TwitterPhotosImporter			false
+false	false	false	false	579	org.datatransferproject.transfer.twitter.TwitterTransferExtension			false
+false	false	false	false	577	org.datatransferproject.transfer.twitter.TwitterPhotosExporter			false
+false	false	false	false	758	org.datatransferproject.transfer.deezer.model.PlaylistSummary			false
+false	false	false	false	759	org.datatransferproject.transfer.deezer.model.PlaylistsResponse			false
+false	false	false	false	760	org.datatransferproject.transfer.deezer.model.Track			false
+false	false	false	false	756	org.datatransferproject.transfer.deezer.model.InsertResponse			false
+false	false	false	false	753	org.datatransferproject.transfer.deezer.model.Album			false
+false	false	false	false	755	org.datatransferproject.transfer.deezer.model.Error			false
+false	false	false	false	761	org.datatransferproject.transfer.deezer.model.TrackCollection			false
+false	false	false	false	754	org.datatransferproject.transfer.deezer.model.Artist			false
+false	false	false	false	757	org.datatransferproject.transfer.deezer.model.PlaylistDetails			false
+false	false	false	false	762	org.datatransferproject.transfer.deezer.model.User			false
+false	false	false	false	751	org.datatransferproject.transfer.deezer.DeezerApi			false
+false	false	false	false	752	org.datatransferproject.transfer.deezer.DeezerTransferExtension			false
+false	false	false	false	764	org.datatransferproject.transfer.deezer.playlists.DeezerPlaylistImporter			false
+false	false	false	false	763	org.datatransferproject.transfer.deezer.playlists.DeezerPlaylistExporter			false
+false	false	false	false	780	org.datatransferproject.datatransfer.google.videos.GoogleVideosExporterTest			false
+false	false	false	false	843	org.datatransferproject.datatransfer.google.videos.VideoResultSerializationTest			false
+false	false	false	false	781	org.datatransferproject.datatransfer.google.videos.GoogleVideosImporterTest			false
+false	false	false	false	779	org.datatransferproject.datatransfer.google.videos.GoogleVideosInterface			false
+false	false	false	false	841	org.datatransferproject.datatransfer.google.videos.VideoResult			false
+false	false	false	false	778	org.datatransferproject.datatransfer.google.videos.GoogleVideosImporter			false
+false	false	false	false	777	org.datatransferproject.datatransfer.google.videos.GoogleVideosExporter			false
+false	false	false	false	482	org.datatransferproject.datatransfer.google.tasks.GoogleTasksExporterTest			false
+false	false	false	false	480	org.datatransferproject.datatransfer.google.tasks.GoogleTasksExporter			false
+false	false	false	false	481	org.datatransferproject.datatransfer.google.tasks.GoogleTasksImporter			false
+false	false	false	false	464	org.datatransferproject.datatransfer.google.calendar.GoogleCalendarExporterTest			false
+false	false	false	false	465	org.datatransferproject.datatransfer.google.calendar.GoogleCalendarImporterTest			false
+false	false	false	false	424	org.datatransferproject.datatransfer.google.calendar.GoogleCalendarImporter			false
+false	false	false	false	423	org.datatransferproject.datatransfer.google.calendar.GoogleCalendarExporter			false
+false	false	false	false	842	org.datatransferproject.datatransfer.google.photos.PhotoResultSerializationTest			false
+false	false	false	false	477	org.datatransferproject.datatransfer.google.photos.GooglePhotosExporterTest			false
+false	false	false	false	478	org.datatransferproject.datatransfer.google.photos.GooglePhotosImporterTest			false
+false	false	false	false	475	org.datatransferproject.datatransfer.google.photos.GooglePhotosExporter			false
+false	false	false	false	840	org.datatransferproject.datatransfer.google.photos.PhotoResult			false
+false	false	false	false	476	org.datatransferproject.datatransfer.google.photos.GooglePhotosImporter	context	State	false
+false	false	false	false	608	org.datatransferproject.datatransfer.google.photos.GooglePhotosInterface			false
+false	false	false	false	454	org.datatransferproject.datatransfer.google.contacts.GoogleContactsExportConversionTest			false
+false	false	false	false	455	org.datatransferproject.datatransfer.google.contacts.GoogleContactsExporterTest			false
+false	false	false	false	457	org.datatransferproject.datatransfer.google.contacts.GoogleContactsImporterTest			false
+false	false	false	false	456	org.datatransferproject.datatransfer.google.contacts.GoogleContactsImportConversionTest			false
+false	false	false	false	447	org.datatransferproject.datatransfer.google.contacts.GoogleContactsExporter			false
+false	false	false	false	448	org.datatransferproject.datatransfer.google.contacts.GoogleContactsImporter			false
+false	false	false	false	545	org.datatransferproject.datatransfer.google.mail.GoogleMailExporterTest			false
+false	false	false	false	546	org.datatransferproject.datatransfer.google.mail.GoogleMailImporterTest			false
+false	false	false	false	544	org.datatransferproject.datatransfer.google.mail.GoogleMailImporter			false
+false	false	false	false	543	org.datatransferproject.datatransfer.google.mail.GoogleMailExporter			false
+false	false	false	false	692	org.datatransferproject.datatransfer.google.drive.DriveImporter			false
+false	false	false	false	690	org.datatransferproject.datatransfer.google.drive.DriveExporter			false
+false	false	false	false	691	org.datatransferproject.datatransfer.google.drive.DriveFolderMapping			false
+false	false	false	false	453	org.datatransferproject.datatransfer.google.GoogleTransferExtension			false
+false	false	false	false	734	org.datatransferproject.datatransfer.google.BloggerTransferExtension			false
+false	false	false	false	730	org.datatransferproject.datatransfer.google.gplus.GooglePlusExporter			false
+false	false	false	false	735	org.datatransferproject.datatransfer.google.blogger.GoogleBloggerImporter			false
+false	false	false	false	612	org.datatransferproject.datatransfer.google.mediaModels.GoogleAlbum			false
+false	false	false	false	609	org.datatransferproject.datatransfer.google.mediaModels.AlbumListResponse			false
+false	false	false	false	667	org.datatransferproject.datatransfer.google.mediaModels.NewMediaItem			false
+false	false	false	false	618	org.datatransferproject.datatransfer.google.mediaModels.Photo			false
+false	false	false	false	611	org.datatransferproject.datatransfer.google.mediaModels.Status			false
+false	false	false	false	619	org.datatransferproject.datatransfer.google.mediaModels.NewMediaItemResult			false
+false	false	false	false	668	org.datatransferproject.datatransfer.google.mediaModels.NewMediaItemUpload			false
+false	false	false	false	614	org.datatransferproject.datatransfer.google.mediaModels.SimpleMediaItem			false
+false	false	false	false	613	org.datatransferproject.datatransfer.google.mediaModels.GoogleMediaItem			false
+false	false	false	false	616	org.datatransferproject.datatransfer.google.mediaModels.MediaMetadata			false
+false	false	false	false	621	org.datatransferproject.datatransfer.google.mediaModels.Video			false
+false	false	false	false	615	org.datatransferproject.datatransfer.google.mediaModels.MediaItemSearchResponse			false
+false	false	false	false	731	org.datatransferproject.datatransfer.google.mediaModels.BatchMediaItemResponse			false
+false	false	false	false	425	org.datatransferproject.datatransfer.google.common.GoogleStaticObjects			false
+false	false	false	false	542	org.datatransferproject.datatransfer.google.common.GoogleCredentialFactory			false
+false	false	false	false	410	org.datatransferproject.transfer.microsoft.transformer.calendar.ToCalendarEventTimeTransformerTest			false
+false	false	false	false	408	org.datatransferproject.transfer.microsoft.transformer.calendar.ToCalendarAttendeeModelTransformerTest			false
+false	false	false	false	409	org.datatransferproject.transfer.microsoft.transformer.calendar.ToCalendarEventModelTransformerTest			false
+false	false	false	false	411	org.datatransferproject.transfer.microsoft.transformer.calendar.ToCalendarModelTransformerTest			false
+false	false	false	false	397	org.datatransferproject.transfer.microsoft.transformer.calendar.ToCalendarAttendeeModelTransformer			false
+false	false	false	false	399	org.datatransferproject.transfer.microsoft.transformer.calendar.ToCalendarEventTimeTransformer			false
+false	false	false	false	402	org.datatransferproject.transfer.microsoft.transformer.calendar.ToGraphEventTransformer			false
+false	false	false	false	401	org.datatransferproject.transfer.microsoft.transformer.calendar.ToGraphCalendarTransformer			false
+false	false	false	false	400	org.datatransferproject.transfer.microsoft.transformer.calendar.ToCalendarModelTransformer			false
+false	false	false	false	398	org.datatransferproject.transfer.microsoft.transformer.calendar.ToCalendarEventModelTransformer			false
+false	false	false	false	327	org.datatransferproject.transfer.microsoft.integration.LocalExportTestRunner			false
+false	false	false	false	328	org.datatransferproject.transfer.microsoft.integration.LocalImportTestRunner			false
+false	false	false	false	406	org.datatransferproject.transfer.microsoft.integration.MicrosoftCalendarExportTest			false
+false	false	false	false	407	org.datatransferproject.transfer.microsoft.integration.MicrosoftCalendarImportTest			false
+false	false	false	false	822	org.datatransferproject.transfer.microsoft.photos.MicrosoftPhotosExporterTest			false
+false	false	false	false	838	org.datatransferproject.transfer.microsoft.photos.MicrosoftPhotosImporterTest			false
+false	false	false	false	837	org.datatransferproject.transfer.microsoft.photos.DataChunkTest			false
+false	false	false	false	570	org.datatransferproject.transfer.microsoft.photos.MicrosoftPhotosImporter			false
+false	false	false	false	821	org.datatransferproject.transfer.microsoft.photos.MicrosoftPhotosInterface			false
+false	false	false	false	569	org.datatransferproject.transfer.microsoft.photos.MicrosoftPhotosExporter			false
+false	false	false	false	404	org.datatransferproject.transfer.microsoft.helper.MockJobStore			false
+false	false	false	false	405	org.datatransferproject.transfer.microsoft.helper.TestTransformerContext			false
+false	false	false	false	833	org.datatransferproject.transfer.microsoft.MicrosoftTransmogrificationConfig			false
+false	false	false	false	419	org.datatransferproject.transfer.microsoft.MicrosoftTransferExtension			false
+false	false	false	false	836	org.datatransferproject.transfer.microsoft.DataChunk			false
+false	false	false	false	326	org.datatransferproject.transfer.microsoft.types.GraphPagination			false
+false	false	false	false	820	org.datatransferproject.transfer.microsoft.driveModels.MicrosoftSpecialFolder			false
+false	false	false	false	816	org.datatransferproject.transfer.microsoft.driveModels.MicrosoftDriveItem			false
+false	false	false	false	819	org.datatransferproject.transfer.microsoft.driveModels.MicrosoftPhotoMetadata			false
+false	false	false	false	818	org.datatransferproject.transfer.microsoft.driveModels.MicrosoftFileMetadata			false
+false	false	false	false	817	org.datatransferproject.transfer.microsoft.driveModels.MicrosoftDriveItemsResponse			false
+false	false	false	false	815	org.datatransferproject.transfer.microsoft.driveModels.MicrosoftDriveFolder			false
+false	false	false	false	393	org.datatransferproject.transfer.microsoft.calendar.MicrosoftCalendarExporter			false
+false	false	false	false	394	org.datatransferproject.transfer.microsoft.calendar.MicrosoftCalendarImporter			false
+false	false	false	false	319	org.datatransferproject.transfer.microsoft.transformer.TransformerService			false
+false	false	false	false	317	org.datatransferproject.transfer.microsoft.transformer.TransformResult			false
+false	false	false	false	318	org.datatransferproject.transfer.microsoft.transformer.TransformerContext			false
+false	false	false	false	320	org.datatransferproject.transfer.microsoft.transformer.TransformerServiceImpl			false
+false	false	false	false	396	org.datatransferproject.transfer.microsoft.transformer.TransformConstants			false
+false	false	false	false	322	org.datatransferproject.transfer.microsoft.transformer.contacts.ToGraphAddressTransformer			false
+false	false	false	false	323	org.datatransferproject.transfer.microsoft.transformer.contacts.ToGraphContactTransformer			false
+false	false	false	false	325	org.datatransferproject.transfer.microsoft.transformer.contacts.ToVCardTransformer			false
+false	false	false	false	324	org.datatransferproject.transfer.microsoft.transformer.contacts.ToVCardAddressTransformer			false
+false	false	false	false	321	org.datatransferproject.transfer.microsoft.transformer.common.TransformerHelper			false
+false	false	false	false	314	org.datatransferproject.transfer.microsoft.contacts.MicrosoftContactsImporter			false
+false	false	false	false	313	org.datatransferproject.transfer.microsoft.contacts.MicrosoftContactsExporter			false
+false	false	false	false	814	org.datatransferproject.transfer.microsoft.common.MicrosoftCredentialFactory			false
+false	false	false	false	395	org.datatransferproject.transfer.microsoft.common.RequestHelper			false
+false	false	false	false	606	org.datatransferproject.transfer.microsoft.offline.MicrosoftOfflineDataExporter			false
+false	false	false	false	607	org.datatransferproject.transfer.microsoft.spi.types.MicrosoftOfflineData			false
+false	false	false	false	715	org.datatransferproject.transfer.solid.contacts.ManualTest			false
+false	false	false	false	716	org.datatransferproject.transfer.solid.contacts.RoundTripToRdfTest			false
+false	false	false	false	717	org.datatransferproject.transfer.solid.contacts.TestData			false
+false	false	false	false	714	org.datatransferproject.transfer.solid.contacts.SolidContactsImport			false
+false	false	false	false	713	org.datatransferproject.transfer.solid.contacts.SolidContactsExport			false
+false	false	false	false	712	org.datatransferproject.transfer.solid.SslHelper			false
+false	false	false	false	711	org.datatransferproject.transfer.solid.SolidUtilities			false
+false	false	false	false	859	org.datatransferproject.transfer.facebook.videos.FacebookVideosImporterTest			false
+false	false	false	false	858	org.datatransferproject.transfer.facebook.videos.FacebookVideosExporterTest			false
+false	false	false	false	857	org.datatransferproject.transfer.facebook.videos.RestFbFacebookVideos			false
+false	false	false	false	854	org.datatransferproject.transfer.facebook.videos.FacebookVideosExporter			false
+false	false	false	false	855	org.datatransferproject.transfer.facebook.videos.FacebookVideosImporter			false
+false	false	false	false	856	org.datatransferproject.transfer.facebook.videos.FacebookVideosInterface			false
+false	false	false	false	666	org.datatransferproject.transfer.facebook.photos.FacebookPhotosExporterTest			false
+false	false	false	false	663	org.datatransferproject.transfer.facebook.photos.FacebookPhotosExporter			false
+false	false	false	false	665	org.datatransferproject.transfer.facebook.photos.RestFbFacebookPhotos			false
+false	false	false	false	664	org.datatransferproject.transfer.facebook.photos.FacebookPhotosInterface			false
+false	false	false	false	853	org.datatransferproject.transfer.facebook.utils.FacebookTransferUtils			false
+false	false	false	false	662	org.datatransferproject.transfer.facebook.FacebookTransferExtension			false
+false	false	false	false	473	org.datatransferproject.datatransfer.flickr.photos.FlickrTestUtils			false
+false	false	false	false	468	org.datatransferproject.datatransfer.flickr.photos.FlickrPhotosExporterTest			false
+false	false	false	false	472	org.datatransferproject.datatransfer.flickr.photos.FlickrPhotosImporterTest			false
+false	false	false	false	471	org.datatransferproject.datatransfer.flickr.photos.FlickrUtils			false
+false	false	false	false	467	org.datatransferproject.datatransfer.flickr.photos.FlickrPhotosExporter			false
+false	false	false	false	784	org.datatransferproject.datatransfer.flickr.photos.FlickrTempPhotoData			false
+false	false	false	false	470	org.datatransferproject.datatransfer.flickr.photos.FlickrPhotosImporter			false
+false	false	false	false	479	org.datatransferproject.datatransfer.flickr.FlickrTransferExtension			false
+false	false	false	false	827	org.datatransferproject.transfer.smugmug.photos.SmugMugInterfaceTest			false
+false	false	false	false	847	org.datatransferproject.transfer.smugmug.photos.SmugMugPhotosImporterTest			false
+false	false	false	false	839	org.datatransferproject.transfer.smugmug.photos.SmugMugPhotoTempData			false
+false	false	false	false	497	org.datatransferproject.transfer.smugmug.photos.SmugMugInterface			false
+false	false	false	false	499	org.datatransferproject.transfer.smugmug.photos.SmugMugPhotosImporter			false
+false	false	false	false	563	org.datatransferproject.transfer.smugmug.photos.SmugMugOauthApi			false
+false	false	false	false	498	org.datatransferproject.transfer.smugmug.photos.SmugMugPhotosExporter			false
+false	false	false	false	506	org.datatransferproject.transfer.smugmug.photos.model.SmugMugPageInfo			false
+false	false	false	false	505	org.datatransferproject.transfer.smugmug.photos.model.SmugMugAlbumsResponse			false
+false	false	false	false	500	org.datatransferproject.transfer.smugmug.photos.model.SmugMugImageUploadResponse			false
+false	false	false	false	501	org.datatransferproject.transfer.smugmug.photos.model.SmugMugAlbum			false
+false	false	false	false	507	org.datatransferproject.transfer.smugmug.photos.model.SmugMugResponse			false
+false	false	false	false	503	org.datatransferproject.transfer.smugmug.photos.model.SmugMugAlbumInfoResponse			false
+false	false	false	false	502	org.datatransferproject.transfer.smugmug.photos.model.SmugMugImage			false
+false	false	false	false	508	org.datatransferproject.transfer.smugmug.photos.model.SmugMugUrl			false
+false	false	false	false	504	org.datatransferproject.transfer.smugmug.photos.model.SmugMugAlbumResponse			false
+false	false	false	false	658	org.datatransferproject.transfer.smugmug.photos.model.SmugMugAlbumImageResponse			false
+false	false	false	false	509	org.datatransferproject.transfer.smugmug.photos.model.SmugMugUser			false
+false	false	false	false	510	org.datatransferproject.transfer.smugmug.photos.model.SmugMugUserResponse			false
+false	false	false	false	834	org.datatransferproject.transfer.smugmug.SmugMugTransmogrificationConfig			false
+false	false	false	false	496	org.datatransferproject.transfer.smugmug.SmugMugTransferExtension			false
+false	false	false	false	793	org.datatransferproject.transfer.imgur.photos.ImgurPhotoExporterTest			false
+false	false	false	false	783	org.datatransferproject.datatransfer.imgur.photos.ImgurPhotosImporter			false
+false	false	false	false	776	org.datatransferproject.datatransfer.imgur.photos.ImgurPhotosExporter			false
+false	false	false	false	775	org.datatransferproject.datatransfer.imgur.ImgurTransferExtension			false
+false	false	false	false	933	org.datatransferproject.transfer.daybook.photos.DaybookPhotosImporterTest			false
+false	false	false	false	929	org.datatransferproject.transfer.daybook.photos.DaybookPhotosImporter			false
+false	false	false	false	934	org.datatransferproject.transfer.daybook.social.DaybookPostsImporterTest			false
+false	false	false	false	930	org.datatransferproject.transfer.daybook.social.DaybookPostsImporter			false
+false	false	false	false	927	org.datatransferproject.transfer.daybook.DaybookTransferExtension			false
+false	false	false	false	739	org.datatransferproject.transfer.spotify.SpotifyTransferExtension			false
+false	false	false	false	740	org.datatransferproject.transfer.spotify.playlists.SpotifyPlaylistExporter			false
+false	false	false	false	741	org.datatransferproject.transfer.spotify.playlists.SpotifyPlaylistImporter			false
+false	false	false	false	861	org.datatransferproject.copier.stack.PortabilityStackInMemoryDataCopier			false
+false	false	false	false	863	org.datatransferproject.copier.stack.PortabilityStackInMemoryDataCopierExtension			false
+false	false	false	false	582	org.datatransferproject.transport.jettyrest.http.JettyMonitor			false
+false	false	false	false	583	org.datatransferproject.transport.jettyrest.http.JettyTransport			false
+false	false	false	false	581	org.datatransferproject.transport.jettyrest.JettyRestExtension			false
+false	false	false	false	588	org.datatransferproject.transport.jettyrest.rest.TransferServicesController			false
+false	false	false	false	584	org.datatransferproject.transport.jettyrest.rest.DataTypesController			false
+false	false	false	false	587	org.datatransferproject.transport.jettyrest.rest.TransferController			false
+false	false	false	false	585	org.datatransferproject.transport.jettyrest.rest.JerseyTransportBinder			false
+false	false	false	false	586	org.datatransferproject.transport.jettyrest.rest.RESTConstants			false
+false	false	false	false	491	org.datatransferproject.config.yaml.YamlSettingsExtensionTest			false
+false	false	false	false	489	org.datatransferproject.config.yaml.YamlSettingsExtension			false
+false	false	false	false	650	org.datatransferproject.security.jwe.JWEAuthDataDecryptService			false
+false	false	false	false	651	org.datatransferproject.security.jwe.JWEPublicKeySerializer			false
+false	false	false	false	652	org.datatransferproject.security.jwe.JWESecurityExtension	context	State	false
+false	false	false	false	810	org.datatransferproject.security.jwe.JWEKeyGenerator	adapter	(Object)Adapter	false
+false	false	false	false	647	org.datatransferproject.security.cleartext.ClearTextAuthDataDecryptService			false
+false	false	false	false	649	org.datatransferproject.security.cleartext.ClearTextSecurityExtension	context	State	false
+false	false	false	false	809	org.datatransferproject.security.cleartext.ClearTextKeyGenerator	adapter	(Object)Adapter	false
+false	false	false	false	648	org.datatransferproject.security.cleartext.ClearTextPublicKeySerializer			false
+false	false	false	false	707	org.datatransferproject.launcher.monitor.MonitorLoader			false
+false	false	false	false	706	org.datatransferproject.launcher.monitor.ConsoleMonitor			false
+false	false	false	false	708	org.datatransferproject.launcher.monitor.MultiplexMonitor			false
+true	false	false	false	782	org.datatransferproject.launcher.monitor.events.EventCode			false
+false	false	false	false	230	org.datatransferproject.launcher.types.TypeManagerImpl			false
+false	false	false	false	797	org.datatransferproject.launcher.metrics.LoggingDtpInternalMetricRecorder	adapter	(Object)Adapter	false
+false	false	false	false	803	org.datatransferproject.launcher.metrics.ServiceAwareMetricRecorder	context	State	false
+false	false	false	false	703	org.datatransferproject.api.launcher.BootExtension			false
+false	false	false	false	801	org.datatransferproject.api.launcher.DtpInternalMetricRecorder	implementor	Bridge	false
+false	false	false	false	331	org.datatransferproject.api.launcher.AbstractExtension			false
+false	false	false	false	332	org.datatransferproject.api.launcher.ExtensionContext	state	State	false
+false	false	false	false	800	org.datatransferproject.api.launcher.DelegatingExtensionContext	decorator	Decorator	false
+false	false	false	false	333	org.datatransferproject.api.launcher.Monitor	adaptee	(Object)Adapter	false
+false	false	false	false	705	org.datatransferproject.api.launcher.SystemExtension			false
+false	false	false	false	802	org.datatransferproject.api.launcher.MetricRecorder			false
+false	false	false	false	790	org.datatransferproject.api.launcher.JobAwareMonitor			false
+false	false	false	false	494	org.datatransferproject.api.launcher.Constants			false
+false	false	false	false	704	org.datatransferproject.api.launcher.MonitorExtension	creator	Factory Method	false
+false	false	false	false	792	org.datatransferproject.api.launcher.Version			false
+false	false	false	false	235	org.datatransferproject.api.launcher.TypeManager	state	State	false
+false	false	false	false	273	org.datatransferproject.types.client.transfer.TransferJobTest			false
+false	false	true	false	266	org.datatransferproject.types.client.transfer.CreateTransferJobTest			false
+false	false	false	false	641	org.datatransferproject.types.client.transfer.ReserveWorker			false
+false	false	false	false	276	org.datatransferproject.types.client.transfer.TransferServices			false
+false	false	false	false	640	org.datatransferproject.types.client.transfer.CreateTransferJob			false
+false	false	false	false	241	org.datatransferproject.types.client.transfer.ServiceAuthData			false
+false	false	false	false	642	org.datatransferproject.types.client.transfer.TransferJob			false
+false	false	false	false	598	org.datatransferproject.types.client.transfer.GenerateServiceAuthData			false
+false	false	false	false	264	org.datatransferproject.types.client.transfer.ReservedWorker			false
+false	false	false	false	600	org.datatransferproject.types.client.transfer.StartTransferJob			false
+false	false	false	false	599	org.datatransferproject.types.client.transfer.GetReservedWorker			false
+false	false	false	false	275	org.datatransferproject.types.client.transfer.GetTransferJob			false
+false	false	false	false	369	org.datatransferproject.types.client.transfer.GetTransferServices			false
+false	false	false	false	365	org.datatransferproject.types.client.datatype.GetDataTypes			false
+false	false	false	false	596	org.datatransferproject.types.client.datatype.DataTypes			false
+false	false	false	false	355	org.datatransferproject.spi.cloud.types.PortabilityJobTest			false
+false	false	false	false	234	org.datatransferproject.spi.cloud.types.PortabilityJob	abstractClass	Template Method	false
+false	false	false	false	342	org.datatransferproject.spi.cloud.types.JobAuthorization	creator	Factory Method	false
+false	false	false	false	-1	org.datatransferproject.spi.cloud.types.AutoValue_PortabilityJob			false
+false	false	false	false	-1	org.datatransferproject.spi.cloud.types.AutoValue_JobAuthorization			false
+false	false	false	false	813	org.datatransferproject.spi.cloud.storage.JobStoreWithValidator	abstractClass	Template Method	false
+false	false	false	false	791	org.datatransferproject.spi.cloud.storage.TemporaryPerJobDataStore			false
+false	false	false	false	415	org.datatransferproject.spi.cloud.storage.CryptoKeyStore			false
+false	false	false	false	233	org.datatransferproject.spi.cloud.storage.JobStore	state	State	false
+false	false	false	false	414	org.datatransferproject.spi.cloud.storage.AppCredentialStore			false
+false	false	false	false	709	org.datatransferproject.spi.cloud.extension.CloudExtensionLoader			false
+false	false	false	false	440	org.datatransferproject.spi.cloud.extension.CloudExtensionModule			false
+false	false	false	false	334	org.datatransferproject.spi.cloud.extension.CloudExtension	creator	Factory Method	false
+false	false	false	false	832	org.datatransferproject.types.transfer.auth.AuthDataSerializationTest			false
+false	false	false	false	295	org.datatransferproject.types.transfer.auth.AppCredentials			false
+false	false	false	false	718	org.datatransferproject.types.transfer.auth.CookiesAndUrlAuthData			false
+false	false	false	false	329	org.datatransferproject.types.transfer.auth.TokenAuthData			false
+false	false	false	false	463	org.datatransferproject.types.transfer.auth.TokensAndUrlAuthData			false
+false	false	false	false	270	org.datatransferproject.types.transfer.auth.AuthData			false
+false	false	false	false	469	org.datatransferproject.types.transfer.auth.TokenSecretAuthData			false
+false	false	false	false	646	org.datatransferproject.types.transfer.auth.AuthDataPair			false
+false	false	false	false	808	org.datatransferproject.types.transfer.errors.ErrorDetail			false
+false	false	false	false	-1	org.datatransferproject.types.transfer.errors.AutoValue_ErrorDetail			false
+false	false	false	false	629	org.datatransferproject.types.transfer.retry.UniformRetryStrategy			false
+false	false	false	false	630	org.datatransferproject.types.transfer.retry.NoRetryStrategy			false
+false	false	false	false	628	org.datatransferproject.types.transfer.retry.RetryingCallable			false
+false	false	false	false	631	org.datatransferproject.types.transfer.retry.RetryMapping			false
+false	false	false	false	627	org.datatransferproject.types.transfer.retry.RetryStrategyLibrary			false
+false	false	false	false	626	org.datatransferproject.types.transfer.retry.RetryStrategy			false
+false	false	false	false	625	org.datatransferproject.types.transfer.retry.RetryException			false
+false	false	false	false	624	org.datatransferproject.types.transfer.retry.ExponentialBackoffStrategy			false
+false	false	false	false	805	org.datatransferproject.types.transfer.serviceconfig.TransferServiceConfigSpecification			false
+false	false	false	false	804	org.datatransferproject.types.transfer.serviceconfig.TransferServiceConfig			false
+false	false	false	false	257	org.datatransferproject.spi.transfer.types.ContinuationDataTest			false
+false	false	false	false	474	org.datatransferproject.spi.transfer.types.TempPhotosData			false
+false	false	false	false	825	org.datatransferproject.spi.transfer.types.DestinationMemoryFullException			false
+false	false	false	false	844	org.datatransferproject.spi.transfer.types.CopyExceptionWithFailureReason			false
+false	false	false	false	426	org.datatransferproject.spi.transfer.types.IdOnlyResource			false
+false	false	false	false	909	org.datatransferproject.spi.transfer.types.SessionInvalidatedException			false
+false	false	false	false	701	org.datatransferproject.spi.transfer.types.CopyException			false
+false	false	false	false	911	org.datatransferproject.spi.transfer.types.UserCheckpointedException			false
+false	false	false	false	849	org.datatransferproject.spi.transfer.types.UploadErrorException			false
+false	false	false	false	253	org.datatransferproject.spi.transfer.types.ContinuationData			false
+false	false	false	false	910	org.datatransferproject.spi.transfer.types.UnconfirmedUserException			false
+false	false	false	false	848	org.datatransferproject.spi.transfer.types.PermissionDeniedException			false
+false	false	false	false	846	org.datatransferproject.spi.transfer.types.InvalidTokenException			false
+false	false	false	false	916	org.datatransferproject.spi.transfer.i18n.MultilingualDictionaryTest			false
+false	false	false	false	913	org.datatransferproject.spi.transfer.i18n.BaseMultilingualDictionary			false
+false	false	false	false	915	org.datatransferproject.spi.transfer.i18n.MultilingualString			false
+false	false	false	false	912	org.datatransferproject.spi.transfer.i18n.AbstractMultilingualDictionary			false
+false	false	false	false	787	org.datatransferproject.spi.transfer.idempotentexecutor.InMemoryIdempotentImportExecutor	adapter	(Object)Adapter	false
+false	false	true	false	931	org.datatransferproject.spi.transfer.idempotentexecutor.IdempotentImportExecutorHelper			false
+false	false	false	false	785	org.datatransferproject.spi.transfer.idempotentexecutor.IdempotentImportExecutor			false
+false	false	true	false	823	org.datatransferproject.spi.transfer.idempotentexecutor.IdempotentImportExecutorExtension	creator	Factory Method	false
+false	false	true	false	824	org.datatransferproject.spi.transfer.idempotentexecutor.IdempotentImportExecutorLoader			false
+false	false	false	false	251	org.datatransferproject.spi.transfer.store.TransferStore			false
+false	false	false	false	729	org.datatransferproject.spi.transfer.hooks.MultiplexJobHooks			false
+false	false	false	false	728	org.datatransferproject.spi.transfer.hooks.JobHooksLoader			false
+false	false	false	false	700	org.datatransferproject.spi.transfer.hooks.DefaultJobHooks			false
+false	false	false	false	710	org.datatransferproject.spi.transfer.hooks.JobHooks			false
+false	false	false	false	727	org.datatransferproject.spi.transfer.hooks.JobHooksExtension			false
+false	false	false	false	654	org.datatransferproject.spi.transfer.security.PublicKeySerializer	state	State	false
+false	false	false	false	812	org.datatransferproject.spi.transfer.security.TransferKeyGenerator	creator	Factory Method	false
+false	false	false	false	655	org.datatransferproject.spi.transfer.security.SecurityException			false
+false	false	false	false	811	org.datatransferproject.spi.transfer.security.SecurityExtensionLoader			false
+false	false	false	false	653	org.datatransferproject.spi.transfer.security.AuthDataDecryptService	state	State	false
+false	false	false	false	656	org.datatransferproject.spi.transfer.security.SecurityExtension	creator	Factory Method	false
+false	false	false	false	336	org.datatransferproject.spi.transfer.extension.TransferExtension	creator	Factory Method	false
+false	false	false	false	245	org.datatransferproject.spi.transfer.provider.ExportResult			false
+false	false	false	false	248	org.datatransferproject.spi.transfer.provider.Importer			false
+false	false	false	false	247	org.datatransferproject.spi.transfer.provider.ImportResult	singleton	Singleton	false
+false	false	false	false	246	org.datatransferproject.spi.transfer.provider.Exporter			false
+false	false	false	false	450	org.datatransferproject.bootstrap.vm.SingleVMMain			false
+false	false	false	false	688	org.datatransferproject.auth.OAuthUtils			false
+false	false	false	false	675	org.datatransferproject.auth.OAuth2ServiceExtension	context	State	false
+false	false	false	false	673	org.datatransferproject.auth.OAuth2Config	state	State	false
+false	false	false	false	680	org.datatransferproject.auth.OAuth1Config	state	State	false
+false	false	false	false	681	org.datatransferproject.auth.OAuth1DataGenerator	context	State	false
+false	false	false	false	682	org.datatransferproject.auth.OAuth1ServiceExtension	context	State	false
+false	false	false	false	687	org.datatransferproject.auth.OAuth2TokenResponse			false
+false	false	false	false	674	org.datatransferproject.auth.OAuth2DataGenerator	context	State	false
+false	false	false	false	492	org.datatransferproject.config.FlagBindingModule			false
+false	false	false	false	445	org.datatransferproject.config.ConfigUtils			false
+false	false	false	false	702	org.datatransferproject.config.extension.SettingsExtensionLoader			false
+false	false	false	false	493	org.datatransferproject.config.extension.SettingsExtension	adaptee	(Object)Adapter	false
+false	false	false	false	373	org.datatransferproject.security.Encrypter			false
+false	false	false	false	388	org.datatransferproject.security.DecrypterImpl	adapter	(Object)Adapter	false
+false	false	false	false	374	org.datatransferproject.security.EncrypterImpl	adapter	(Object)Adapter	false
+false	false	false	false	387	org.datatransferproject.security.DecrypterFactory			false
+false	false	false	false	389	org.datatransferproject.security.EncrypterFactory			false
+false	false	false	false	371	org.datatransferproject.security.AesSymmetricKeyGenerator	adapter	(Object)Adapter	false
+false	false	false	false	376	org.datatransferproject.security.SymmetricKeyGenerator	state	State	false
+false	false	false	false	386	org.datatransferproject.security.Decrypter			false
+false	false	false	false	567	org.datatransferproject.transfer.ImageStreamProvider			false
+false	false	false	false	177	org.datatransferproject.transfer.JobPollingServiceTest			false
+false	false	false	false	643	org.datatransferproject.transfer.WorkerModuleTest			false
+false	false	false	false	219	org.datatransferproject.transfer.JobProcessor	context	State	false
+false	false	false	false	806	org.datatransferproject.transfer.Annotations			false
+false	false	false	false	622	org.datatransferproject.transfer.CallableExporter	context	State	false
+false	false	false	false	421	org.datatransferproject.transfer.Worker			false
+false	false	false	false	719	org.datatransferproject.transfer.CredsTimeoutException			false
+false	false	false	false	151	org.datatransferproject.transfer.WorkerMain			false
+false	false	false	false	441	org.datatransferproject.transfer.WorkerExtensionContext	adapter	(Object)Adapter	false
+false	false	false	false	420	org.datatransferproject.transfer.JobPoller			false
+false	false	false	false	220	org.datatransferproject.transfer.WorkerModule	context	State	false
+false	false	false	false	807	org.datatransferproject.transfer.JobCancelWatchingService	context	State	false
+false	false	false	false	623	org.datatransferproject.transfer.CallableImporter	context	State	false
+false	false	false	false	157	org.datatransferproject.transfer.JobMetadata			false
+false	false	false	false	156	org.datatransferproject.transfer.JobPollingService	context	State	false
+false	false	false	false	350	org.datatransferproject.api.auth.PortabilityAuthServiceExtensionRegistryTest			false
+false	false	false	false	349	org.datatransferproject.api.auth.PortabilityAuthServiceProviderRegistry			false
+false	false	false	false	635	org.datatransferproject.api.action.datatype.DataTypesActionTest			false
+false	false	false	false	363	org.datatransferproject.api.action.datatype.DataTypesAction	context	State	false
+false	false	false	false	435	org.datatransferproject.api.token.JWTTokenManager	adapter	(Object)Adapter	false
+false	false	false	false	458	org.datatransferproject.api.ApiExtensionContext	adapter	(Object)Adapter	false
+false	false	false	false	589	org.datatransferproject.api.ApiServicesModule	context	State	false
+false	false	false	false	356	org.datatransferproject.api.ApiMain			false
+false	false	false	false	358	org.datatransferproject.api.action.ActionUtils			false
+false	false	false	false	385	org.datatransferproject.api.action.Action			false
+false	false	false	false	367	org.datatransferproject.api.action.transfer.GetTransferServicesAction	context	State	false
+false	false	false	false	592	org.datatransferproject.api.action.transfer.GetTransferJobAction	context	State	false
+false	false	false	false	591	org.datatransferproject.api.action.transfer.GenerateServiceAuthDataAction	context	State	false
+false	false	false	false	637	org.datatransferproject.api.action.transfer.GetReservedWorkerAction	context	State	false
+false	false	false	false	636	org.datatransferproject.api.action.transfer.CreateTransferJobAction	context	State	false
+false	false	false	false	639	org.datatransferproject.api.action.transfer.StartTransferJobAction	context	State	false
+false	false	false	false	364	org.datatransferproject.api.action.transfer.TransferServicesActionModule			false
+false	false	false	false	638	org.datatransferproject.api.action.transfer.ReserveWorkerAction	context	State	false
+false	false	false	false	442	org.datatransferproject.spi.service.extension.ServiceExtension			false
+false	false	false	false	771	org.datatransferproject.types.common.models.videos.VideosContainerResourceTest			false
+false	false	false	false	769	org.datatransferproject.types.common.models.videos.VideoModel			false
+false	false	false	false	768	org.datatransferproject.types.common.models.videos.VideoAlbum			false
+false	false	false	false	770	org.datatransferproject.types.common.models.videos.VideosContainerResource			false
+false	false	false	false	293	org.datatransferproject.types.common.models.tasks.TaskContainerResourceTest			false
+false	false	false	false	289	org.datatransferproject.types.common.models.tasks.TaskModel			false
+false	false	false	false	287	org.datatransferproject.types.common.models.tasks.TaskContainerResource			false
+false	false	false	false	288	org.datatransferproject.types.common.models.tasks.TaskListModel			false
+false	false	false	false	290	org.datatransferproject.types.common.models.calendar.CalendarContainerResourceTest			false
+false	false	false	false	573	org.datatransferproject.types.common.models.calendar.RecurrenceRule			false
+false	false	false	false	280	org.datatransferproject.types.common.models.calendar.CalendarModel			false
+false	false	false	false	279	org.datatransferproject.types.common.models.calendar.CalendarEventModel			false
+false	false	false	false	277	org.datatransferproject.types.common.models.calendar.CalendarAttendeeModel			false
+false	false	false	false	417	org.datatransferproject.types.common.models.calendar.Property			false
+false	false	false	false	278	org.datatransferproject.types.common.models.calendar.CalendarContainerResource			false
+false	false	false	false	-1	org.datatransferproject.types.common.models.calendar.AutoValue_RecurrenceRule_RDate			false
+false	false	false	false	-1	org.datatransferproject.types.common.models.calendar.AutoValue_RecurrenceRule_RRule			false
+false	false	false	false	-1	org.datatransferproject.types.common.models.calendar.AutoValue_RecurrenceRule_ExDate			false
+false	false	false	false	935	org.datatransferproject.types.common.models.photos.PhotoAlbumTest			false
+false	false	false	false	292	org.datatransferproject.types.common.models.photos.PhotosContainerResourceTest			false
+false	false	false	false	285	org.datatransferproject.types.common.models.photos.PhotoModel			false
+false	false	false	false	286	org.datatransferproject.types.common.models.photos.PhotosContainerResource			false
+false	false	false	false	284	org.datatransferproject.types.common.models.photos.PhotoAlbum			false
+false	false	false	false	890	org.datatransferproject.types.common.models.social.SocialActivityContainerResourceTest			false
+false	false	false	false	885	org.datatransferproject.types.common.models.social.SocialActivityAttachment			false
+false	false	false	false	726	org.datatransferproject.types.common.models.social.SocialActivityContainerResource			false
+false	false	false	false	888	org.datatransferproject.types.common.models.social.SocialActivityModel			false
+false	false	false	false	887	org.datatransferproject.types.common.models.social.SocialActivityLocation			false
+false	false	false	false	884	org.datatransferproject.types.common.models.social.SocialActivityActor			false
+false	false	false	false	932	org.datatransferproject.types.common.models.media.MediaContainerResourceTest			false
+false	false	false	false	917	org.datatransferproject.types.common.models.media.MediaAlbum			false
+false	false	false	false	918	org.datatransferproject.types.common.models.media.MediaContainerResource			false
+false	false	false	false	901	org.datatransferproject.types.common.models.DateRangeContainerResourceTest			false
+false	false	false	false	835	org.datatransferproject.types.common.models.TransmogrificationConfig			false
+false	false	false	false	765	org.datatransferproject.types.common.models.CreativeWork			false
+false	false	false	false	900	org.datatransferproject.types.common.models.DateRangeContainerResource			false
+false	false	false	false	252	org.datatransferproject.types.common.models.ContainerResource			false
+false	false	false	false	271	org.datatransferproject.types.common.models.DataModel			false
+false	false	false	false	766	org.datatransferproject.types.common.models.MediaObject			false
+false	false	false	false	767	org.datatransferproject.types.common.models.Thing			false
+false	false	false	false	254	org.datatransferproject.types.common.models.IdOnlyContainerResource			false
+false	false	false	false	291	org.datatransferproject.types.common.models.mail.MailContainerResourceTest			false
+false	false	false	false	281	org.datatransferproject.types.common.models.mail.MailContainerModel			false
+false	false	false	false	283	org.datatransferproject.types.common.models.mail.MailMessageModel			false
+false	false	false	false	282	org.datatransferproject.types.common.models.mail.MailContainerResource			false
+false	false	false	false	255	org.datatransferproject.types.common.IntPaginationToken			false
+false	false	false	false	644	org.datatransferproject.types.common.PortabilityCommon			false
+false	false	false	false	297	org.datatransferproject.types.common.ExportInformation			false
+false	false	false	false	689	org.datatransferproject.types.common.PaginationData			false
+false	false	false	false	427	org.datatransferproject.types.common.StringPaginationToken			false
+false	false	false	false	269	org.datatransferproject.types.common.PortableType			false
+false	false	false	false	428	org.datatransferproject.types.transfer.models.ItemResource			false
+false	false	false	false	330	org.datatransferproject.types.common.models.contacts.ContactsModelWrapper			false
+false	false	false	false	698	org.datatransferproject.types.common.models.blob.DtpDigitalDocument			false
+false	false	false	false	697	org.datatransferproject.types.common.models.blob.DigitalDocumentWrapper			false
+false	false	false	false	693	org.datatransferproject.types.common.models.blob.BlobbyStorageContainerResource			false
+false	false	false	false	744	org.datatransferproject.types.common.models.playlists.MusicGroup			false
+false	false	false	false	742	org.datatransferproject.types.common.models.playlists.CreativeWork			false
+false	false	false	false	746	org.datatransferproject.types.common.models.playlists.MusicRecording			false
+false	false	false	false	745	org.datatransferproject.types.common.models.playlists.MusicPlaylist			false
+false	false	false	false	747	org.datatransferproject.types.common.models.playlists.PlaylistContainerResource			false
+false	false	false	false	743	org.datatransferproject.types.common.models.playlists.MusicAlbum			false
+false	false	false	false	243	org.datatransferproject.spi.api.types.AuthFlowConfiguration			false
+false	false	false	false	239	org.datatransferproject.spi.api.auth.AuthServiceProviderRegistry	state	State	false
+false	false	false	false	237	org.datatransferproject.spi.api.auth.AuthDataGenerator	creator	Factory Method	false
+false	false	false	false	238	org.datatransferproject.spi.api.auth.extension.AuthServiceExtension	creator	Factory Method	false
+false	false	false	false	595	org.datatransferproject.spi.api.transport.TransportBinder			false
+false	false	false	false	438	org.datatransferproject.spi.api.token.TokenManager			false
+false	false	false	false	786	org.datatransferproject.test.types.FakeIdempotentImportExecutor			false
+false	false	false	false	258	org.datatransferproject.test.types.ObjectMapperFactory			false
+false	false	false	false	862	org.datatransferproject.transfer.copier.PortabilityInMemoryDataCopierTest			false
+false	false	false	false	860	org.datatransferproject.transfer.copier.PortabilityAbstractInMemoryDataCopier	abstraction	Bridge	false
+false	false	false	false	866	org.datatransferproject.transfer.copier.InMemoryDataCopierExtension			false
+false	false	false	false	337	org.datatransferproject.transfer.copier.InMemoryDataCopier	state	State	false
+false	false	false	false	865	org.datatransferproject.transfer.copier.InMemoryDataCopierClassLoader			false
+false	false	false	false	338	org.datatransferproject.transfer.copier.PortabilityInMemoryDataCopier			false

@@ -1,0 +1,9 @@
+-noextraheaders=true
+Import-Package=net.bytebuddy.*;version\="[1.6.0,2.0)",junit.*;resolution\:\=optional,org.junit.*;resolution\:\=optional,org.hamcrest;resolution\:\=optional,org.objenesis;version\="[3.1,4.0)",org.opentest4j.*;resolution\:\=optional,org.mockito.*
+-versionpolicy=[${version;\=\=;${@}},${version;+;${@}})
+-removeheaders=Private-Package
+Bundle-Name=Mockito Mock Library for Java. Core bundle requires Byte Buddy and Objenesis.
+Export-Package=org.mockito.internal.*;status\=INTERNAL;mandatory\:\=status;version\=0.0.1-SNAPSHOT,org.mockito.*;version\=0.0.1-SNAPSHOT
+Bundle-Version=${version_cleanup;0.0.1-SNAPSHOT}
+Automatic-Module-Name=org.mockito
+Bundle-SymbolicName=org.mockito.mockito-core

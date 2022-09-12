@@ -1,0 +1,11 @@
+[buildinfo] Not using buildInfo properties file for this build.
+:clean
+:compileJava
+Download https://jcenter.bintray.com/org/reactivestreams/reactive-streams/1.0.1/reactive-streams-1.0.1.pom
+Download https://jcenter.bintray.com/org/reactivestreams/reactive-streams/1.0.1/reactive-streams-1.0.1.jar
+warning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+BUILD SUCCESSFUL
+
+Total time: 10.304 secs

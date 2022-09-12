@@ -1,0 +1,99 @@
+Downloading https://services.gradle.org/distributions/gradle-4.2-bin.zip
+..................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Unzipping /root/.gradle/wrapper/dists/gradle-4.2-bin/cl9xe1l8k8ophj72k8rv6xbu7/gradle-4.2-bin.zip to /root/.gradle/wrapper/dists/gradle-4.2-bin/cl9xe1l8k8ophj72k8rv6xbu7
+Set executable permissions for: /root/.gradle/wrapper/dists/gradle-4.2-bin/cl9xe1l8k8ophj72k8rv6xbu7/gradle-4.2/bin/gradle
+To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/4.2/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+Download http://repo.spring.io/plugins-release/net/ltgt/gradle/gradle-errorprone-plugin/0.0.10/gradle-errorprone-plugin-0.0.10.pom
+Download http://repo.spring.io/plugins-release/com/github/jengelman/gradle/plugins/shadow/2.0.1/shadow-2.0.1.pom
+Download http://repo.spring.io/plugins-release/me/champeau/gradle/jmh-gradle-plugin/0.4.2/jmh-gradle-plugin-0.4.2.pom
+Download http://repo.spring.io/plugins-release/me/champeau/gradle/buildscan-recipes-plugin/0.2.0/buildscan-recipes-plugin-0.2.0.pom
+Download http://repo.spring.io/plugins-release/com/puppycrawl/tools/checkstyle/8.2/checkstyle-8.2.pom
+Download http://repo.spring.io/plugins-release/gradle/plugin/io/morethan/jmhreport/gradle-jmh-report/0.5.0/gradle-jmh-report-0.5.0.pom
+Download http://repo.spring.io/plugins-release/com/gradle/build-scan-plugin/1.8/build-scan-plugin-1.8.pom
+Download http://repo.spring.io/plugins-release/org/kt3k/gradle/plugin/coveralls-gradle-plugin/2.8.1/coveralls-gradle-plugin-2.8.1.pom
+[Fatal Error] jmh-gradle-plugin-0.4.2.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] shadow-2.0.1.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] buildscan-recipes-plugin-0.2.0.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] checkstyle-8.2.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] build-scan-plugin-1.8.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] gradle-errorprone-plugin-0.0.10.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] gradle-jmh-report-0.5.0.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] coveralls-gradle-plugin-2.8.1.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+Download http://repo.spring.io/plugins-release/org/sonarsource/scanner/gradle/sonarqube-gradle-plugin/2.5/sonarqube-gradle-plugin-2.5.pom
+[Fatal Error] sonarqube-gradle-plugin-2.5.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+Download http://repo.spring.io/plugins-release/gradle/plugin/com/github/spotbugs/gradlePlugin/1.2/gradlePlugin-1.2.pom
+[Fatal Error] gradlePlugin-1.2.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+Download http://repo.spring.io/plugins-release/org/kordamp/gradle/stats-gradle-plugin/0.2.0/stats-gradle-plugin-0.2.0.pom
+[Fatal Error] stats-gradle-plugin-0.2.0.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+Download https://plugins.gradle.org/m2/com/puppycrawl/tools/checkstyle/8.2/checkstyle-8.2.pom
+Download https://plugins.gradle.org/m2/com/gradle/build-scan-plugin/1.8/build-scan-plugin-1.8.pom
+Download http://repo.spring.io/plugins-release/com/github/ben-manes/gradle-versions-plugin/0.15.0/gradle-versions-plugin-0.15.0.pom
+[Fatal Error] gradle-versions-plugin-0.15.0.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+Download https://plugins.gradle.org/m2/net/ltgt/gradle/gradle-errorprone-plugin/0.0.10/gradle-errorprone-plugin-0.0.10.pom
+Download https://plugins.gradle.org/m2/me/champeau/gradle/buildscan-recipes-plugin/0.2.0/buildscan-recipes-plugin-0.2.0.pom
+Download https://plugins.gradle.org/m2/com/github/jengelman/gradle/plugins/shadow/2.0.1/shadow-2.0.1.pom
+Download https://plugins.gradle.org/m2/me/champeau/gradle/jmh-gradle-plugin/0.4.2/jmh-gradle-plugin-0.4.2.pom
+Download https://plugins.gradle.org/m2/gradle/plugin/io/morethan/jmhreport/gradle-jmh-report/0.5.0/gradle-jmh-report-0.5.0.pom
+Download https://plugins.gradle.org/m2/org/kt3k/gradle/plugin/coveralls-gradle-plugin/2.8.1/coveralls-gradle-plugin-2.8.1.pom
+Download https://plugins.gradle.org/m2/gradle/plugin/com/github/spotbugs/gradlePlugin/1.2/gradlePlugin-1.2.pom
+Download https://plugins.gradle.org/m2/org/sonarsource/scanner/gradle/sonarqube-gradle-plugin/2.5/sonarqube-gradle-plugin-2.5.pom
+Download https://plugins.gradle.org/m2/org/kordamp/gradle/stats-gradle-plugin/0.2.0/stats-gradle-plugin-0.2.0.pom
+Download https://plugins.gradle.org/m2/com/github/ben-manes/gradle-versions-plugin/0.15.0/gradle-versions-plugin-0.15.0.pom
+Download http://repo.spring.io/plugins-release/org/codehaus/groovy/groovy-backports-compat23/2.4.4/groovy-backports-compat23-2.4.4.pom
+[Fatal Error] groovy-backports-compat23-2.4.4.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+Download https://plugins.gradle.org/m2/org/codehaus/groovy/groovy-backports-compat23/2.4.4/groovy-backports-compat23-2.4.4.pom
+Download http://repo.spring.io/plugins-release/com/github/spotbugs/spotbugs/3.1.0-RC4/spotbugs-3.1.0-RC4.pom
+Download http://repo.spring.io/plugins-release/com/google/guava/guava/21.0/guava-21.0.pom
+[Fatal Error] guava-21.0.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] spotbugs-3.1.0-RC4.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+Download https://plugins.gradle.org/m2/com/google/guava/guava/21.0/guava-21.0.pom
+Download https://plugins.gradle.org/m2/com/github/spotbugs/spotbugs/3.1.0-RC4/spotbugs-3.1.0-RC4.pom
+Download http://repo.spring.io/plugins-release/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+[Fatal Error] guava-parent-21.0.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+Download https://plugins.gradle.org/m2/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+Download http://repo.spring.io/plugins-release/com/thoughtworks/xstream/xstream/1.4.7/xstream-1.4.7.pom
+[Fatal Error] xstream-1.4.7.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+Download https://plugins.gradle.org/m2/com/thoughtworks/xstream/xstream/1.4.7/xstream-1.4.7.pom
+Download http://repo.spring.io/plugins-release/com/thoughtworks/xstream/xstream-parent/1.4.7/xstream-parent-1.4.7.pom
+[Fatal Error] xstream-parent-1.4.7.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+Download https://plugins.gradle.org/m2/com/thoughtworks/xstream/xstream-parent/1.4.7/xstream-parent-1.4.7.pom
+Download http://repo.spring.io/plugins-release/org/ow2/asm/asm-debug-all/6.0_ALPHA/asm-debug-all-6.0_ALPHA.pom
+[Fatal Error] asm-debug-all-6.0_ALPHA.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+Download http://repo.spring.io/plugins-release/com/github/spotbugs/spotbugs-annotations/3.1.0-RC4/spotbugs-annotations-3.1.0-RC4.pom
+[Fatal Error] spotbugs-annotations-3.1.0-RC4.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+Download https://plugins.gradle.org/m2/org/ow2/asm/asm-debug-all/6.0_ALPHA/asm-debug-all-6.0_ALPHA.pom
+Download https://plugins.gradle.org/m2/com/github/spotbugs/spotbugs-annotations/3.1.0-RC4/spotbugs-annotations-3.1.0-RC4.pom
+Download http://repo.spring.io/plugins-release/org/ow2/asm/asm-analysis/4.0/asm-analysis-4.0.pom
+[Fatal Error] asm-analysis-4.0.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+Download https://plugins.gradle.org/m2/org/ow2/asm/asm-analysis/4.0/asm-analysis-4.0.pom
+Download http://repo.spring.io/plugins-release/org/ow2/asm/asm-parent/4.0/asm-parent-4.0.pom
+[Fatal Error] asm-parent-4.0.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+Download https://plugins.gradle.org/m2/org/ow2/asm/asm-parent/4.0/asm-parent-4.0.pom
+Download http://repo.spring.io/plugins-release/org/ow2/asm/asm-tree/4.0/asm-tree-4.0.pom
+Download http://repo.spring.io/plugins-release/org/ow2/asm/asm/4.0/asm-4.0.pom
+[Fatal Error] asm-tree-4.0.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] asm-4.0.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+Download https://plugins.gradle.org/m2/org/ow2/asm/asm/4.0/asm-4.0.pom
+[Fatal Error] asm-parent-4.0.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+Download https://plugins.gradle.org/m2/org/ow2/asm/asm-tree/4.0/asm-tree-4.0.pom
+[Fatal Error] asm-parent-4.0.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'caffeine'.
+> Could not resolve all files for configuration ':classpath'.
+   > Could not resolve io.spring.gradle:propdeps-plugin:0.0.10.RELEASE.
+     Required by:
+         project :
+      > Could not resolve io.spring.gradle:propdeps-plugin:0.0.10.RELEASE.
+         > Failed to download SHA1 for resource 'http://repo.spring.io/plugins-release/io/spring/gradle/propdeps-plugin/0.0.10.RELEASE/propdeps-plugin-0.0.10.RELEASE.pom'.
+            > For input string: "<ht"
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 46s

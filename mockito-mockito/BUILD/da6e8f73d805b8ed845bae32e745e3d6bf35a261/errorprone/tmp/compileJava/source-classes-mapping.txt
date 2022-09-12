@@ -1,0 +1,10 @@
+org/mockito/errorprone/bugpatterns/MockitoAnyClassWithPrimitiveType.java
+ org.mockito.errorprone.bugpatterns.MockitoAnyClassWithPrimitiveType
+org/mockito/errorprone/bugpatterns/MockitoInternalUsage.java
+ org.mockito.errorprone.bugpatterns.MockitoInternalUsage
+org/mockito/errorprone/bugpatterns/MockitoNotExtensible.java
+ org.mockito.errorprone.bugpatterns.MockitoNotExtensible
+org/mockito/errorprone/bugpatterns/AbstractMockitoAnyForPrimitiveType.java
+ org.mockito.errorprone.bugpatterns.AbstractMockitoAnyForPrimitiveType
+org/mockito/errorprone/bugpatterns/MockitoAnyIncorrectPrimitiveType.java
+ org.mockito.errorprone.bugpatterns.MockitoAnyIncorrectPrimitiveType

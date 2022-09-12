@@ -1,0 +1,62 @@
+jadx/api/plugins/input/insns/InsnData.java
+ jadx.api.plugins.input.insns.InsnData
+jadx/api/plugins/input/data/ICatch.java
+ jadx.api.plugins.input.data.ICatch
+jadx/api/plugins/input/data/annotations/EncodedType.java
+ jadx.api.plugins.input.data.annotations.EncodedType
+jadx/api/plugins/input/data/AccessFlagsScope.java
+ jadx.api.plugins.input.data.AccessFlagsScope
+jadx/api/plugins/input/data/annotations/AnnotationVisibility.java
+ jadx.api.plugins.input.data.annotations.AnnotationVisibility
+jadx/api/plugins/input/data/AccessFlags.java
+ jadx.api.plugins.input.data.AccessFlags
+ jadx.api.plugins.input.data.AccessFlags$1
+jadx/api/plugins/JadxPlugin.java
+ jadx.api.plugins.JadxPlugin
+jadx/api/plugins/input/data/IResourceData.java
+ jadx.api.plugins.input.data.IResourceData
+jadx/api/plugins/input/insns/custom/IArrayPayload.java
+ jadx.api.plugins.input.insns.custom.IArrayPayload
+jadx/api/plugins/input/data/ILoadResult.java
+ jadx.api.plugins.input.data.ILoadResult
+jadx/api/plugins/input/data/ICodeReader.java
+ jadx.api.plugins.input.data.ICodeReader
+jadx/api/plugins/input/insns/Opcode.java
+ jadx.api.plugins.input.insns.Opcode
+jadx/api/plugins/JadxPluginManager.java
+ jadx.api.plugins.JadxPluginManager
+jadx/api/plugins/input/data/IMethodData.java
+ jadx.api.plugins.input.data.IMethodData
+jadx/api/plugins/input/data/annotations/IAnnotation.java
+ jadx.api.plugins.input.data.annotations.IAnnotation
+jadx/api/plugins/utils/LimitedInputStream.java
+ jadx.api.plugins.utils.LimitedInputStream
+jadx/api/plugins/input/data/impl/EmptyLoadResult.java
+ jadx.api.plugins.input.data.impl.EmptyLoadResult
+jadx/api/plugins/input/data/ILocalVar.java
+ jadx.api.plugins.input.data.ILocalVar
+jadx/api/plugins/input/insns/custom/ICustomPayload.java
+ jadx.api.plugins.input.insns.custom.ICustomPayload
+jadx/api/plugins/input/data/IDebugInfo.java
+ jadx.api.plugins.input.data.IDebugInfo
+jadx/api/plugins/input/data/IFieldData.java
+ jadx.api.plugins.input.data.IFieldData
+jadx/api/plugins/input/data/ITry.java
+ jadx.api.plugins.input.data.ITry
+jadx/api/plugins/input/insns/custom/ISwitchPayload.java
+ jadx.api.plugins.input.insns.custom.ISwitchPayload
+jadx/api/plugins/input/data/IMethodRef.java
+ jadx.api.plugins.input.data.IMethodRef
+jadx/api/plugins/input/data/IClassData.java
+ jadx.api.plugins.input.data.IClassData
+jadx/api/plugins/utils/ZipSecurity.java
+ jadx.api.plugins.utils.ZipSecurity
+jadx/api/plugins/input/data/annotations/EncodedValue.java
+ jadx.api.plugins.input.data.annotations.EncodedValue
+ jadx.api.plugins.input.data.annotations.EncodedValue$1
+jadx/api/plugins/JadxPluginInfo.java
+ jadx.api.plugins.JadxPluginInfo
+jadx/api/plugins/input/insns/InsnIndexType.java
+ jadx.api.plugins.input.insns.InsnIndexType
+jadx/api/plugins/input/JadxInputPlugin.java
+ jadx.api.plugins.input.JadxInputPlugin

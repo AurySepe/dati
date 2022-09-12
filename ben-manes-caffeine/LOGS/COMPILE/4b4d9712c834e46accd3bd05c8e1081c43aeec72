@@ -1,0 +1,52 @@
+Downloading https://services.gradle.org/distributions/gradle-3.2-rc-1-bin.zip
+.................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Unzipping /root/.gradle/wrapper/dists/gradle-3.2-rc-1-bin/4hwriibljlpe6hf6g9xif08ba/gradle-3.2-rc-1-bin.zip to /root/.gradle/wrapper/dists/gradle-3.2-rc-1-bin/4hwriibljlpe6hf6g9xif08ba
+Set executable permissions for: /root/.gradle/wrapper/dists/gradle-3.2-rc-1-bin/4hwriibljlpe6hf6g9xif08ba/gradle-3.2-rc-1/bin/gradle
+To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/3.2-rc-1/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+Download https://plugins.gradle.org/m2/com/puppycrawl/tools/checkstyle/7.1.2/checkstyle-7.1.2.pom
+Download https://plugins.gradle.org/m2/gradle/plugin/me/champeau/gradle/jmh-gradle-plugin/0.3.0/jmh-gradle-plugin-0.3.0.pom
+Download https://plugins.gradle.org/m2/com/github/ben-manes/gradle-versions-plugin/0.13.0/gradle-versions-plugin-0.13.0.pom
+Download https://plugins.gradle.org/m2/com/puppycrawl/tools/checkstyle/7.1.2/checkstyle-7.1.2.jar
+Download https://plugins.gradle.org/m2/gradle/plugin/me/champeau/gradle/jmh-gradle-plugin/0.3.0/jmh-gradle-plugin-0.3.0.jar
+Download https://plugins.gradle.org/m2/com/github/ben-manes/gradle-versions-plugin/0.13.0/gradle-versions-plugin-0.13.0.jar
+:caffeine:clean UP-TO-DATE
+:guava:clean UP-TO-DATE
+:jcache:clean UP-TO-DATE
+:simulator:clean UP-TO-DATE
+:caffeine:compileJavaPoetJava
+Download https://repo1.maven.org/maven2/com/google/guava/guava/20.0/guava-20.0.pom
+Download https://repo1.maven.org/maven2/com/google/guava/guava-parent/20.0/guava-parent-20.0.pom
+Download https://repo1.maven.org/maven2/com/squareup/javapoet/1.7.0/javapoet-1.7.0.pom
+Download https://repo1.maven.org/maven2/com/google/guava/guava/20.0/guava-20.0.jar
+Download https://repo1.maven.org/maven2/com/squareup/javapoet/1.7.0/javapoet-1.7.0.jar
+Download https://oss.sonatype.org/content/repositories/snapshots/com/google/errorprone/error_prone_core/2.4.1-SNAPSHOT/error_prone_core-2.4.1-20210112.194003-263.pom
+Download https://oss.sonatype.org/content/repositories/snapshots/com/google/errorprone/error_prone_parent/2.4.1-SNAPSHOT/error_prone_parent-2.4.1-20210112.193908-282.pom
+Download https://oss.sonatype.org/content/repositories/snapshots/com/google/errorprone/error_prone_core/2.3.5-SNAPSHOT/error_prone_core-2.3.5-20200527.194941-95.pom
+Download https://oss.sonatype.org/content/repositories/snapshots/com/google/errorprone/error_prone_parent/2.3.5-SNAPSHOT/error_prone_parent-2.3.5-20200527.194905-95.pom
+Download https://oss.sonatype.org/content/repositories/snapshots/com/google/errorprone/error_prone_core/2.2.1-SNAPSHOT/error_prone_core-2.2.1-20180511.141040-47.pom
+Download https://oss.sonatype.org/content/repositories/snapshots/com/google/errorprone/error_prone_parent/2.2.1-SNAPSHOT/error_prone_parent-2.2.1-20180511.141009-47.pom
+Download https://oss.sonatype.org/content/repositories/snapshots/com/google/errorprone/error_prone_core/2.1.4-SNAPSHOT/error_prone_core-2.1.4-20180108.232933-19.pom
+Download https://oss.sonatype.org/content/repositories/snapshots/com/google/errorprone/error_prone_parent/2.1.4-SNAPSHOT/error_prone_parent-2.1.4-20180108.232858-19.pom
+Download https://oss.sonatype.org/content/repositories/snapshots/com/google/errorprone/error_prone_core/2.0.22-SNAPSHOT/error_prone_core-2.0.22-20170821.201406-18.pom
+Download https://oss.sonatype.org/content/repositories/snapshots/com/google/errorprone/error_prone_parent/2.0.22-SNAPSHOT/error_prone_parent-2.0.22-20170821.201341-18.pom
+Download https://oss.sonatype.org/content/repositories/snapshots/com/google/errorprone/error_prone_core/1.1.3-SNAPSHOT/error_prone_core-1.1.3-20150122.025642-19.pom
+Download https://oss.sonatype.org/content/repositories/snapshots/com/google/errorprone/error_prone_parent/1.1.3-SNAPSHOT/error_prone_parent-1.1.3-20150122.025622-19.pom
+Download https://oss.sonatype.org/content/repositories/snapshots/com/google/errorprone/error_prone_core/0.10-SNAPSHOT/error_prone_core-0.10-20120625.233103-1.pom
+Download https://oss.sonatype.org/content/repositories/snapshots/com/google/errorprone/error_prone_parent/0.10-SNAPSHOT/error_prone_parent-0.10-20120625.233041-1.pom
+Download https://oss.sonatype.org/content/repositories/snapshots/com/google/errorprone/error_prone_core/HEAD-SNAPSHOT/error_prone_core-HEAD-20220908.215857-862.pom
+Download https://oss.sonatype.org/content/repositories/snapshots/com/google/errorprone/error_prone_parent/HEAD-SNAPSHOT/error_prone_parent-HEAD-20220908.215857-864.pom
+:caffeine:compileJavaPoetJava FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':caffeine:compileJavaPoetJava'.
+> java.lang.ClassNotFoundException: com.google.errorprone.ErrorProneCompiler$Builder
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 42.075 secs

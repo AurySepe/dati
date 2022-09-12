@@ -1,0 +1,3 @@
+com/taobao/arthas/agent/AgentBootstrap.class
+com/taobao/arthas/agent/AgentBootstrap$1.class
+com/taobao/arthas/agent/ArthasClassloader.class

@@ -1,0 +1,104 @@
+Downloading https://services.gradle.org/distributions/gradle-4.0-bin.zip
+................................................................
+Unzipping /root/.gradle/wrapper/dists/gradle-4.0-bin/3p92xsbhik5vmig8i90n16yxc/gradle-4.0-bin.zip to /root/.gradle/wrapper/dists/gradle-4.0-bin/3p92xsbhik5vmig8i90n16yxc
+Set executable permissions for: /root/.gradle/wrapper/dists/gradle-4.0-bin/3p92xsbhik5vmig8i90n16yxc/gradle-4.0/bin/gradle
+Download https://jcenter.bintray.com/com/github/jengelman/gradle/plugins/shadow/1.2.4/shadow-1.2.4.pom
+Download https://plugins.gradle.org/m2/gradle/plugin/nl/javadude/gradle/plugins/license-gradle-plugin/0.14.0/license-gradle-plugin-0.14.0.pom
+Download https://jcenter.bintray.com/org/codehaus/plexus/plexus-utils/2.0.6/plexus-utils-2.0.6.pom
+Download https://jcenter.bintray.com/org/codehaus/groovy/groovy-backports-compat23/2.4.4/groovy-backports-compat23-2.4.4.pom
+Download https://jcenter.bintray.com/org/apache/ant/ant/1.9.4/ant-1.9.4.pom
+Download https://jcenter.bintray.com/org/jdom/jdom2/2.0.5/jdom2-2.0.5.pom
+Download https://jcenter.bintray.com/org/apache/ant/ant-parent/1.9.4/ant-parent-1.9.4.pom
+Download https://jcenter.bintray.com/com/mycila/xmltool/xmltool/3.3/xmltool-3.3.pom
+Download https://jcenter.bintray.com/com/mycila/license-maven-plugin/3.0/license-maven-plugin-3.0.pom
+Download https://jcenter.bintray.com/com/mycila/license-maven-plugin-parent/3.0/license-maven-plugin-parent-3.0.pom
+Download https://jcenter.bintray.com/com/mycila/mycila-pom/3/mycila-pom-3.pom
+Download https://jcenter.bintray.com/org/apache/ant/ant-launcher/1.9.4/ant-launcher-1.9.4.pom
+Download https://jcenter.bintray.com/org/springframework/spring-core/3.1.3.RELEASE/spring-core-3.1.3.RELEASE.pom
+Download https://jcenter.bintray.com/org/apache/maven/maven-settings/3.0.4/maven-settings-3.0.4.pom
+Download https://jcenter.bintray.com/org/springframework/spring-parent/3.1.3.RELEASE/spring-parent-3.1.3.RELEASE.pom
+Download https://jcenter.bintray.com/com/mycila/mycila-xmltool/4.4.ga/mycila-xmltool-4.4.ga.pom
+Download https://jcenter.bintray.com/org/apache/maven/maven-settings-builder/3.0.4/maven-settings-builder-3.0.4.pom
+Download https://jcenter.bintray.com/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.pom
+Download https://jcenter.bintray.com/org/sonatype/spice/spice-parent/12/spice-parent-12.pom
+Download https://jcenter.bintray.com/org/sonatype/forge/forge-parent/4/forge-parent-4.pom
+Download https://jcenter.bintray.com/org/springframework/spring-asm/3.1.3.RELEASE/spring-asm-3.1.3.RELEASE.pom
+Download https://jcenter.bintray.com/org/apache/commons/commons-pool2/2.2/commons-pool2-2.2.pom
+Download https://jcenter.bintray.com/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.pom
+Download https://jcenter.bintray.com/org/apache/maven/maven-settings/3.0.4/maven-settings-3.0.4.jar
+Download https://jcenter.bintray.com/com/mycila/xmltool/xmltool/3.3/xmltool-3.3.jar
+Download https://jcenter.bintray.com/org/jdom/jdom2/2.0.5/jdom2-2.0.5.jar
+Download https://jcenter.bintray.com/com/github/jengelman/gradle/plugins/shadow/1.2.4/shadow-1.2.4.jar
+Download https://jcenter.bintray.com/org/springframework/spring-core/3.1.3.RELEASE/spring-core-3.1.3.RELEASE.jar
+Download https://jcenter.bintray.com/org/codehaus/plexus/plexus-utils/2.0.6/plexus-utils-2.0.6.jar
+Download https://jcenter.bintray.com/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar
+Download https://jcenter.bintray.com/com/mycila/license-maven-plugin/3.0/license-maven-plugin-3.0.jar
+Download https://jcenter.bintray.com/org/codehaus/groovy/groovy-backports-compat23/2.4.4/groovy-backports-compat23-2.4.4.jar
+Download https://jcenter.bintray.com/org/apache/ant/ant/1.9.4/ant-1.9.4.jar
+Download https://jcenter.bintray.com/org/apache/ant/ant-launcher/1.9.4/ant-launcher-1.9.4.jar
+Download https://jcenter.bintray.com/org/apache/maven/maven-settings-builder/3.0.4/maven-settings-builder-3.0.4.jar
+Download https://jcenter.bintray.com/org/springframework/spring-asm/3.1.3.RELEASE/spring-asm-3.1.3.RELEASE.jar
+Download https://jcenter.bintray.com/org/apache/commons/commons-pool2/2.2/commons-pool2-2.2.jar
+Download https://jcenter.bintray.com/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar
+Download https://jcenter.bintray.com/com/mycila/mycila-xmltool/4.4.ga/mycila-xmltool-4.4.ga.jar
+Download https://plugins.gradle.org/m2/gradle/plugin/nl/javadude/gradle/plugins/license-gradle-plugin/0.14.0/license-gradle-plugin-0.14.0.jar
+Building SNAPSHOT (SNAPSHOT): 045b7e
+:clean UP-TO-DATE
+:brut.apktool:clean UP-TO-DATE
+:brut.j.common:clean UP-TO-DATE
+:brut.j.dir:clean UP-TO-DATE
+:brut.j.util:clean UP-TO-DATE
+:brut.apktool:apktool-cli:clean UP-TO-DATE
+:brut.apktool:apktool-lib:clean UP-TO-DATE
+:compileJava NO-SOURCE
+:brut.apktool:compileJava NO-SOURCE
+:brut.j.common:compileJava
+:brut.j.common:processResources NO-SOURCE
+:brut.j.common:classes
+:brut.j.common:jar
+:brut.j.util:compileJavaNote: /results/iBotPeaches-Apktool/RELEASES/045b7e7cc9ad3e2bc4fefc4cc43063dba019cc71/brut.j.util/src/main/java/brut/util/Duo.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:brut.j.util:processResources NO-SOURCE
+:brut.j.util:classes
+:brut.j.util:jar
+:brut.j.dir:compileJava
+:brut.j.dir:processResources NO-SOURCE
+:brut.j.dir:classes
+:brut.j.dir:jar
+:brut.apktool:apktool-lib:compileJava
+Download https://repo1.maven.org/maven2/com/google/guava/guava/14.0/guava-14.0.pom
+Download https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.pom
+Download https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.18/snakeyaml-1.18.pom
+Download https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.pom
+Download https://repo1.maven.org/maven2/xpp3/xpp3/1.1.4c/xpp3-1.1.4c.pom
+Download https://repo1.maven.org/maven2/com/google/guava/guava-parent/14.0/guava-parent-14.0.pom
+Download https://repo1.maven.org/maven2/org/smali/smali/2.2.1/smali-2.2.1.pom
+Download https://repo1.maven.org/maven2/org/smali/baksmali/2.2.1/baksmali-2.2.1.pom
+Download https://repo1.maven.org/maven2/com/beust/jcommander/1.64/jcommander-1.64.pom
+Download https://repo1.maven.org/maven2/org/smali/dexlib2/2.2.1/dexlib2-2.2.1.pom
+Download https://repo1.maven.org/maven2/org/smali/util/2.2.1/util-2.2.1.pom
+Download https://repo1.maven.org/maven2/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.pom
+Download https://repo1.maven.org/maven2/antlr/antlr/2.7.7/antlr-2.7.7.pom
+Download https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.jar
+Download https://repo1.maven.org/maven2/xpp3/xpp3/1.1.4c/xpp3-1.1.4c.jar
+Download https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar
+Download https://repo1.maven.org/maven2/com/beust/jcommander/1.64/jcommander-1.64.jar
+Download https://repo1.maven.org/maven2/org/smali/smali/2.2.1/smali-2.2.1.jar
+Download https://repo1.maven.org/maven2/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.jar
+Download https://repo1.maven.org/maven2/org/smali/baksmali/2.2.1/baksmali-2.2.1.jar
+Download https://repo1.maven.org/maven2/org/smali/dexlib2/2.2.1/dexlib2-2.2.1.jar
+Download https://repo1.maven.org/maven2/antlr/antlr/2.7.7/antlr-2.7.7.jar
+Download https://repo1.maven.org/maven2/org/smali/util/2.2.1/util-2.2.1.jar
+Download https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.18/snakeyaml-1.18-android.jar
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:brut.apktool:apktool-lib:processResources
+:brut.apktool:apktool-lib:classes
+:brut.apktool:apktool-lib:jar
+:brut.apktool:apktool-cli:compileJavaNote: /results/iBotPeaches-Apktool/RELEASES/045b7e7cc9ad3e2bc4fefc4cc43063dba019cc71/brut.apktool/apktool-cli/src/main/java/brut/apktool/Main.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+
+BUILD SUCCESSFUL in 22s
+17 actionable tasks: 10 executed, 7 up-to-date

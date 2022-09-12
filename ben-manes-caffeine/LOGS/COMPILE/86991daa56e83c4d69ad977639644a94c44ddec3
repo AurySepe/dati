@@ -1,0 +1,34 @@
+Downloading https://services.gradle.org/distributions/gradle-7.2-bin.zip
+.............................................................................................................
+
+Welcome to Gradle 7.2!
+
+Here are the highlights of this release:
+ - Toolchain support for Scala
+ - More cache hits when Java source files have platform-specific line endings
+ - More resilient remote HTTP build cache behavior
+
+For more details see https://docs.gradle.org/7.2/release-notes.html
+
+To honour the JVM settings for this build a single-use Daemon process will be forked. See https://docs.gradle.org/7.2/userguide/gradle_daemon.html#sec:disabling_the_daemon.
+Daemon will be stopped at the end of the build 
+checksum-dependency-plugin is disabled since checksumIgnore property is present
+
+> Configure project :
+Kordamp Gradle plugins 0.46.0. Consider becoming a patron at https://www.patreon.com/aalmiray
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/results/ben-manes-caffeine/RELEASES/86991daa56e83c4d69ad977639644a94c44ddec3/build.gradle' line: 60
+
+* What went wrong:
+A problem occurred evaluating root project 'caffeine'.
+> For input string: "8u342"
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 36s

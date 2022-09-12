@@ -1,0 +1,56 @@
+Downloading https://services.gradle.org/distributions/gradle-5.2.1-bin.zip
+...................................................................................
+
+Welcome to Gradle 5.2.1!
+
+Here are the highlights of this release:
+ - Define sets of dependencies that work together with Java Platform plugin
+ - New C++ plugins with dependency management built-in
+ - New C++ project types for gradle init
+ - Service injection into plugins and project extensions
+
+For more details see https://docs.gradle.org/5.2.1/release-notes.html
+
+
+> Configure project :
+jadx version: dev
+
+> Task :cleanBuildDir UP-TO-DATE
+> Task :clean
+> Task :jadx-cli:clean UP-TO-DATE
+> Task :jadx-core:clean UP-TO-DATE
+> Task :jadx-gui:clean UP-TO-DATE
+> Task :jadx-samples:cleanGeneratedFiles UP-TO-DATE
+> Task :jadx-samples:clean UP-TO-DATE
+> Task :jadx-test-app:deleteTmp UP-TO-DATE
+> Task :jadx-test-app:clean UP-TO-DATE
+> Task :compileJava NO-SOURCE
+> Task :jadx-core:compileJava
+> Task :jadx-core:processResources
+> Task :jadx-core:classes
+> Task :jadx-core:jar
+> Task :jadx-cli:compileJava
+> Task :jadx-cli:processResources
+> Task :jadx-cli:classes
+> Task :jadx-cli:jar
+
+> Task :jadx-gui:compileJava
+/results/skylot-jadx/RELEASES/f02a33ace3b451420c2a7113840c2a514133644d/jadx-gui/src/main/java/jadx/gui/ui/codearea/AbstractCodeContentPanel.java:10: warning: [serial] serializable class AbstractCodeContentPanel has no definition of serialVersionUID
+public abstract class AbstractCodeContentPanel extends ContentPanel {
+                ^
+/results/skylot-jadx/RELEASES/f02a33ace3b451420c2a7113840c2a514133644d/jadx-gui/src/main/java/jadx/gui/ui/codearea/CodePanel.java:36: warning: [serial] serializable class <anonymous jadx.gui.ui.codearea.CodePanel$1> has no definition of serialVersionUID
+		UiUtils.addKeyBinding(codeArea, key, "SearchAction", new AbstractAction() {
+		                                                                          ^
+/results/skylot-jadx/RELEASES/f02a33ace3b451420c2a7113840c2a514133644d/jadx-gui/src/main/java/jadx/gui/ui/codearea/CodePanel.java:19: warning: [serial] serializable class CodePanel has no definition of serialVersionUID
+public class CodePanel extends JPanel {
+       ^
+/results/skylot-jadx/RELEASES/f02a33ace3b451420c2a7113840c2a514133644d/jadx-gui/src/main/java/jadx/gui/ui/codearea/AbstractCodeArea.java:22: warning: [serial] serializable class AbstractCodeArea has no definition of serialVersionUID
+public abstract class AbstractCodeArea extends RSyntaxTextArea {
+                ^
+4 warnings
+
+> Task :jadx-samples:compileJava
+> Task :jadx-test-app:compileJava NO-SOURCE
+
+BUILD SUCCESSFUL in 43s
+17 actionable tasks: 9 executed, 8 up-to-date

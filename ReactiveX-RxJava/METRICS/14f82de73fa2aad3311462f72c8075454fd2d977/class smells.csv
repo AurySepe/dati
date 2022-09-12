@@ -1,0 +1,436 @@
+CLASSDATASHOULDBEPRIVATE	COMPLEXCLASS	FUNCTIONALDECOMPOSITION	GODCLASS	ID	NAME	PATTERNROLE	PATTERNTYPE	SPAGHETTICODE
+false	false	false	false	671	rx.jmh.InputWithIncrementingInteger			false
+false	false	false	false	724	rx.jmh.LatchedObserver			false
+false	false	false	false	806	rx.internal.AtomicPerf			false
+false	false	false	false	755	rx.internal.IndexedRingBufferPerf			false
+false	false	false	false	756	rx.internal.RxRingBufferPerf			false
+false	false	false	false	723	rx.ObservablePerfBaseline			false
+false	false	false	false	856	rx.SinglePerfBaseline			false
+false	false	false	false	857	rx.SingleTest			false
+false	false	false	false	166	rx.ObservableWindowTests			false
+false	false	false	false	758	rx.BackpressureTests			false
+false	false	false	false	759	rx.SubscriberTest			false
+false	false	false	false	173	rx.StartWithTests			false
+false	false	false	false	379	rx.ErrorHandlingTests			false
+false	false	false	false	175	rx.MergeTests			false
+false	false	false	false	162	rx.CovarianceTest			false
+false	false	false	false	308	rx.ObservableDoOnTest			false
+false	false	false	false	189	rx.EventStream			false
+false	false	false	false	185	rx.IntervalDemo			false
+false	false	false	false	191	rx.ScanTests			false
+false	false	false	true	160	rx.ObservableTests			true
+false	false	false	false	177	rx.ZipTests			false
+false	false	false	false	179	rx.ThrottleWithTimeoutTests			false
+false	false	false	false	172	rx.ConcatTests			false
+false	false	false	false	174	rx.CombineLatestTests			false
+false	false	false	false	176	rx.ReduceTests			false
+false	false	false	false	190	rx.GroupByTests			false
+false	false	false	false	294	rx.ThrottleLastTests			false
+false	false	false	false	855	rx.SingleSubscriber			false
+false	true	false	true	854	rx.Single			true
+false	true	false	true	43	rx.Observable			true
+false	false	false	false	38	rx.Subscription	decorated	Decorator	false
+false	false	false	false	750	rx.Producer	implementor	Bridge	false
+false	false	false	false	42	rx.Notification	singleton	Singleton	false
+false	false	false	false	451	rx.Observer	decorated	Decorator	false
+false	false	false	false	93	rx.Scheduler	creator	Factory Method	false
+false	false	false	false	44	rx.Subscriber	abstraction	Bridge	false
+false	false	false	false	824	rx.subscriptions.SerialSubscriptionPerf			false
+false	false	false	false	825	rx.subscriptions.SubscriptionListConcurrentPerf			false
+false	false	false	false	823	rx.subscriptions.MultipleAssignmentSubscriptionPerf			false
+false	false	false	false	826	rx.subscriptions.SubscriptionListPerf			false
+false	false	false	false	821	rx.subscriptions.CompositeSubscriptionConcurrentPerf			false
+false	false	false	false	822	rx.subscriptions.CompositeSubscriptionPerf			false
+false	false	false	false	215	rx.subscriptions.SerialSubscriptionTests			false
+false	false	false	false	287	rx.subscriptions.SubscriptionsTest			false
+false	false	false	false	286	rx.subscriptions.CompositeSubscriptionTest			false
+false	false	false	false	365	rx.subscriptions.MultipleAssignmentSubscriptionTest			false
+false	false	false	false	366	rx.subscriptions.RefCountSubscriptionTest			false
+false	false	false	false	91	rx.subscriptions.Subscriptions			false
+false	false	false	false	214	rx.subscriptions.SerialSubscription			false
+false	false	false	false	124	rx.subscriptions.CompositeSubscription			false
+false	false	false	false	90	rx.subscriptions.BooleanSubscription	context	State	false
+false	false	false	false	194	rx.subscriptions.MultipleAssignmentSubscription			false
+false	false	false	false	357	rx.subscriptions.RefCountSubscription			false
+false	false	false	false	601	rx.subjects.ReplaySubjectPerf			false
+false	false	false	false	679	rx.subjects.ReplaySubjectBoundedConcurrencyTest			false
+false	false	false	false	791	rx.subjects.SerializedSubjectTest			false
+false	false	false	false	839	rx.subjects.TestSubjectTest			false
+false	false	false	false	283	rx.subjects.BehaviorSubjectTest			false
+false	false	false	false	388	rx.subjects.ReplaySubjectConcurrencyTest			false
+false	false	false	true	285	rx.subjects.ReplaySubjectTest			false
+false	false	false	false	284	rx.subjects.PublishSubjectTest			false
+false	false	false	false	282	rx.subjects.AsyncSubjectTest			false
+false	false	false	false	128	rx.subjects.AsyncSubject	adapter	(Object)Adapter	false
+false	false	false	false	111	rx.subjects.Subject	decorated	Decorator	false
+false	false	false	false	790	rx.subjects.SerializedSubject	decorator	Decorator	false
+false	false	false	true	147	rx.subjects.ReplaySubject	adapter	(Object)Adapter	true
+false	false	false	false	133	rx.subjects.BehaviorSubject	adapter	(Object)Adapter	false
+false	false	false	false	586	rx.subjects.TestSubject	adapter	(Object)Adapter	false
+false	false	false	false	123	rx.subjects.PublishSubject	adapter	(Object)Adapter	false
+false	false	false	false	387	rx.subjects.SubjectSubscriptionManager	context	State	false
+false	false	false	false	785	rx.observables.BlockingObservablePerf			false
+false	false	false	false	808	rx.observables.AbstractOnSubscribeTest			false
+false	false	false	false	222	rx.observables.BlockingObservableTest			false
+false	false	false	false	863	rx.observables.ConnectableObservableTest			false
+false	false	false	false	139	rx.observables.BlockingObservable			false
+false	false	false	false	87	rx.observables.GroupedObservable			false
+false	false	false	false	807	rx.observables.AbstractOnSubscribe			false
+false	false	false	false	121	rx.observables.ConnectableObservable	abstractClass	Template Method	false
+false	false	false	false	672	rx.schedulers.ComputationSchedulerPerf			false
+false	false	false	false	728	rx.schedulers.IOSchedulerPerf			false
+false	false	false	false	220	rx.schedulers.TrampolineSchedulerTest			false
+false	false	false	false	405	rx.schedulers.NewThreadSchedulerTest			false
+false	false	false	false	681	rx.schedulers.CachedThreadSchedulerTest			false
+false	false	false	false	407	rx.schedulers.AbstractSchedulerConcurrencyTests			false
+false	false	false	false	408	rx.schedulers.TestSchedulerTest			false
+false	false	false	false	690	rx.schedulers.ExecutorSchedulerTest			false
+false	false	false	false	221	rx.schedulers.ImmediateSchedulerTest			false
+false	false	false	false	404	rx.schedulers.AbstractSchedulerTests			false
+false	false	false	false	380	rx.schedulers.ComputationSchedulerTests			false
+false	false	false	false	793	rx.schedulers.SchedulerTests			false
+false	false	false	false	126	rx.schedulers.Timestamped			false
+false	false	false	false	101	rx.schedulers.Schedulers	singleton	Singleton	false
+false	false	false	false	96	rx.schedulers.SleepingAction	decorator	Decorator	false
+false	false	false	false	99	rx.schedulers.ImmediateScheduler	singleton	Singleton	false
+false	false	false	false	458	rx.schedulers.TrampolineScheduler	singleton	Singleton	false
+false	false	false	false	100	rx.schedulers.NewThreadScheduler	singleton	Singleton	false
+false	false	true	false	125	rx.schedulers.GenericScheduledExecutorService	singleton	Singleton	false
+false	false	false	false	218	rx.schedulers.TimeInterval			false
+false	false	false	false	118	rx.schedulers.TestScheduler			false
+false	false	false	false	689	rx.schedulers.ExecutorScheduler			false
+false	false	false	false	680	rx.schedulers.CachedThreadScheduler			false
+false	false	false	false	725	rx.operators.OperatorFlatMapPerf			false
+false	false	false	false	727	rx.operators.OperatorObserveOnPerf			false
+false	false	false	false	726	rx.operators.OperatorMergePerf			false
+false	false	false	false	831	rx.operators.OperatorPublishPerf			false
+false	false	false	false	455	rx.operators.OperatorMapPerf			false
+false	false	false	false	757	rx.operators.OperatorRangePerf			false
+false	false	false	false	833	rx.operators.OperatorTakeLastOnePerf			false
+false	false	false	false	594	rx.operators.OperatorSerializePerf			false
+false	false	false	false	670	rx.exceptions.TestException			false
+false	false	false	false	749	rx.exceptions.OnNextValueTest			false
+false	false	false	false	477	rx.exceptions.ExceptionsTest			false
+false	false	false	false	460	rx.exceptions.CompositeExceptionTest			false
+false	false	false	false	142	rx.exceptions.OnErrorNotImplementedException			false
+false	false	false	false	751	rx.exceptions.MissingBackpressureException			false
+false	false	false	false	81	rx.exceptions.Exceptions			false
+false	false	false	false	591	rx.exceptions.OnErrorFailedException			false
+false	false	false	false	534	rx.exceptions.OnErrorThrowable			false
+false	false	false	false	37	rx.exceptions.CompositeException			false
+false	false	false	false	853	rx.internal.producers.ProducersTest			false
+false	false	false	false	843	rx.internal.producers.QueuedValueProducer			false
+false	false	false	false	845	rx.internal.producers.SingleProducer	adapter	(Object)Adapter	false
+false	false	false	false	842	rx.internal.producers.QueuedProducer			false
+false	false	false	false	841	rx.internal.producers.ProducerObserverArbiter	decorator	Decorator	false
+false	false	false	false	840	rx.internal.producers.ProducerArbiter	decorator	Decorator	false
+false	false	false	false	844	rx.internal.producers.SingleDelayedProducer			false
+false	false	false	false	748	rx.internal.util.IndexedRingBufferTest			false
+false	false	false	false	765	rx.internal.util.RxRingBufferWithoutUnsafeTest			false
+false	false	false	false	763	rx.internal.util.RxRingBufferSpmcTest			false
+false	false	false	false	764	rx.internal.util.RxRingBufferSpscTest			false
+false	false	false	false	762	rx.internal.util.RxRingBufferBase			false
+false	false	false	false	692	rx.internal.util.SubscriptionListTest			false
+false	false	false	false	817	rx.internal.util.JCToolsQueueTests			false
+false	false	false	false	730	rx.internal.util.IndexedRingBuffer	realsubject	Proxy	false
+false	false	false	false	733	rx.internal.util.SubscriptionIndexedRingBuffer	proxy	Proxy	false
+false	false	false	false	683	rx.internal.util.PaddedAtomicInteger			false
+false	false	false	false	734	rx.internal.util.SubscriptionRandomList			false
+false	false	false	false	801	rx.internal.util.PlatformDependent			false
+false	false	false	false	735	rx.internal.util.SynchronizedQueue			false
+false	false	false	false	691	rx.internal.util.SubscriptionList			false
+false	false	false	false	736	rx.internal.util.SynchronizedSubscription	decorator	Decorator	false
+false	false	false	false	754	rx.internal.util.RxRingBuffer			false
+false	false	false	false	732	rx.internal.util.ScalarSynchronousObservable			false
+false	false	false	false	721	rx.internal.util.FrontPadding			false
+false	false	false	false	722	rx.internal.util.PaddedAtomicIntegerBase			false
+false	false	false	false	796	rx.internal.util.UtilityFunctions			false
+false	false	false	false	809	rx.internal.util.BackpressureDrainManager			false
+false	false	false	false	731	rx.internal.util.ObjectPool	abstractClass	Template Method	false
+false	false	false	false	693	rx.internal.util.RxThreadFactory			false
+false	false	false	false	505	rx.internal.operators.OperatorUnsubscribeOnTest			false
+false	false	false	false	228	rx.internal.operators.OperatorCastTest			false
+false	false	false	false	483	rx.internal.operators.OnSubscribeRangeTest			false
+false	false	false	false	412	rx.internal.operators.OperatorFlatMapTest			false
+false	false	false	false	358	rx.internal.operators.OnSubscribeGroupJoinTest			false
+false	false	false	false	866	rx.internal.operators.OnSubscribeSingleTest			false
+false	false	false	true	618	rx.internal.operators.OnSubscribeCombineLatestTest			false
+false	false	false	false	239	rx.internal.operators.OperatorFinallyTest			false
+false	false	false	false	306	rx.internal.operators.OnSubscribeUsingTest			false
+false	false	false	false	838	rx.internal.operators.OperatorOnBackpressureLatestTest			false
+false	false	false	false	272	rx.internal.operators.OperatorToObservableListTest			false
+false	false	false	false	812	rx.internal.operators.OperatorSwitchIfEmptyTest			false
+false	false	false	false	836	rx.internal.operators.OperatorIgnoreElementsTest			false
+false	false	false	false	335	rx.internal.operators.OperatorToMultimapTest			false
+false	false	false	false	251	rx.internal.operators.OperatorOnErrorResumeNextViaFunctionTest			false
+false	false	false	false	729	rx.internal.operators.NotificationLiteTest			false
+false	false	false	false	293	rx.internal.operators.BlockingOperatorToIteratorTest			false
+false	false	false	false	245	rx.internal.operators.OperatorMergeDelayErrorTest			false
+false	true	false	true	275	rx.internal.operators.OperatorZipTest			true
+false	false	false	false	795	rx.internal.operators.OperatorPublishTest			false
+false	false	false	false	242	rx.internal.operators.OnSubscribeTimerTest			false
+false	false	false	true	250	rx.internal.operators.OperatorObserveOnTest			false
+false	false	false	false	353	rx.internal.operators.OperatorSkipUntilTest			false
+false	false	false	false	257	rx.internal.operators.OperatorSampleTest			false
+false	false	false	false	550	rx.internal.operators.OperatorSkipTest			false
+false	false	false	false	364	rx.internal.operators.OperatorSequenceEqualTest			false
+false	false	false	false	331	rx.internal.operators.OnSubscribeJoinTest			false
+false	false	false	false	378	rx.internal.operators.OperatorReplayTest			false
+false	false	false	false	236	rx.internal.operators.OperatorDistinctUntilChangedTest			false
+false	false	false	true	264	rx.internal.operators.OperatorSwitchTest			false
+false	false	false	false	265	rx.internal.operators.SafeSubscriberTest			false
+false	false	false	false	829	rx.internal.operators.OperatorDoOnRequestTest			false
+false	false	false	false	491	rx.internal.operators.OperatorMergeMaxConcurrentTest			false
+false	false	false	false	386	rx.internal.operators.OperatorSingleTest			false
+false	false	false	false	297	rx.internal.operators.OperatorLastTest			false
+false	false	false	false	302	rx.internal.operators.OperatorDoOnEachTest			false
+false	false	false	false	231	rx.internal.operators.OperatorDebounceTest			false
+false	false	false	false	252	rx.internal.operators.OperatorOnErrorResumeNextViaObservableTest			false
+false	false	false	false	359	rx.internal.operators.OperatorTimestampTest			false
+false	false	false	false	464	rx.internal.operators.OperatorZipIterableTest			false
+false	false	false	false	413	rx.internal.operators.OperatorTimeoutWithSelectorTest			false
+false	false	false	false	609	rx.internal.operators.OperatorSkipLastTimedTest			false
+false	false	false	false	347	rx.internal.operators.OperatorZipCompletionTest			false
+false	false	false	false	234	rx.internal.operators.OperatorDematerializeTest			false
+false	false	false	false	233	rx.internal.operators.OnSubscribeDeferTest			false
+false	false	false	false	798	rx.internal.operators.OperatorWindowWithSizeTest			false
+false	false	false	false	240	rx.internal.operators.OperatorFirstTest			false
+false	false	false	false	216	rx.internal.operators.OperatorTimeoutTests			false
+false	false	false	false	786	rx.internal.operators.BufferUntilSubscriberTest			false
+false	false	false	false	797	rx.internal.operators.OperatorWindowWithObservableTest			false
+false	false	false	false	273	rx.internal.operators.OperatorToObservableSortedListTest			false
+false	false	false	false	382	rx.internal.operators.BlockingOperatorLatestTest			false
+false	false	false	false	253	rx.internal.operators.OperatorOnErrorReturnTest			false
+false	false	false	false	247	rx.internal.operators.BlockingOperatorMostRecentTest			false
+false	false	false	false	249	rx.internal.operators.BlockingOperatorNextTest			false
+false	false	false	false	803	rx.internal.operators.OnBackpressureBlockTest			false
+false	false	false	false	289	rx.internal.operators.OperatorTakeWhileTest			false
+false	false	false	false	258	rx.internal.operators.OperatorScanTest			false
+false	false	false	false	427	rx.internal.operators.OperatorTakeTimedTest			false
+false	true	false	true	246	rx.internal.operators.OperatorMergeTest			true
+false	false	false	false	620	rx.internal.operators.OperatorDefaultIfEmptyTest			false
+false	false	false	false	260	rx.internal.operators.OperatorSkipTimedTest			false
+false	false	false	false	800	rx.internal.operators.OperatorWindowWithTimeTest			false
+false	false	false	true	230	rx.internal.operators.OperatorConcatTest			false
+false	false	false	false	295	rx.internal.operators.OnSubscribeAmbTest			false
+false	false	false	false	576	rx.internal.operators.OperatorSerializeTest			false
+false	false	false	false	269	rx.internal.operators.OperatorThrottleFirstTest			false
+false	false	false	false	235	rx.internal.operators.OperatorDistinctTest			false
+false	false	false	false	334	rx.internal.operators.OperatorToMapTest			false
+false	false	false	false	611	rx.internal.operators.OperatorAsObservableTest			false
+false	false	false	false	290	rx.internal.operators.OperatorTimeIntervalTest			false
+false	false	false	false	292	rx.internal.operators.BlockingOperatorToFutureTest			false
+false	false	false	false	238	rx.internal.operators.OperatorFilterTest			false
+false	false	false	true	362	rx.internal.operators.OperatorDelayTest			false
+false	false	false	false	792	rx.internal.operators.OnSubscribeRefCountTest			false
+false	false	false	false	799	rx.internal.operators.OperatorWindowWithStartEndObservableTest			false
+false	false	false	false	254	rx.internal.operators.OperatorOnExceptionResumeNextViaObservableTest			false
+false	false	false	false	602	rx.internal.operators.OperatorAllTest			false
+false	false	false	false	761	rx.internal.operators.OperatorOnBackpressureDropTest			false
+false	false	false	false	783	rx.internal.operators.OperatorDoOnSubscribeTest			false
+false	false	false	true	226	rx.internal.operators.OperatorBufferTest			true
+false	false	false	false	868	rx.internal.operators.OnSubscribeCacheTest			false
+false	false	false	false	243	rx.internal.operators.OperatorMapTest			false
+false	false	false	false	268	rx.internal.operators.OperatorTakeUntilTest			false
+false	false	false	false	248	rx.internal.operators.OperatorMulticastTest			false
+false	false	false	false	760	rx.internal.operators.OperatorOnBackpressureBufferTest			false
+false	false	false	false	784	rx.internal.operators.OperatorDoOnUnsubscribeTest			false
+false	false	false	false	244	rx.internal.operators.OperatorMaterializeTest			false
+false	false	false	false	828	rx.internal.operators.OperatorWithLatestFromTest			false
+false	false	false	false	468	rx.internal.operators.OperatorSubscribeOnTest			false
+false	false	false	false	224	rx.internal.operators.OperatorAnyTest			false
+false	false	false	false	815	rx.internal.operators.OperatorTakeUntilPredicateTest			false
+false	false	false	true	256	rx.internal.operators.OperatorRetryTest			true
+false	false	false	false	417	rx.internal.operators.OperatorRepeatTest			false
+false	false	false	false	688	rx.internal.operators.OperatorRetryWithPredicateTest			false
+false	false	false	false	259	rx.internal.operators.OperatorSkipLastTest			false
+false	false	false	false	391	rx.internal.operators.OperatorReduceTest			false
+false	false	false	false	261	rx.internal.operators.OperatorSkipWhileTest			false
+false	false	false	false	662	rx.internal.operators.OperatorTakeLastTest			false
+false	false	false	false	266	rx.internal.operators.OperatorTakeLastTimedTest			false
+false	false	false	false	271	rx.internal.operators.OnSubscribeFromIterableTest			false
+false	false	false	false	267	rx.internal.operators.OperatorTakeTest			false
+false	true	false	true	241	rx.internal.operators.OperatorGroupByTest			true
+false	false	false	false	834	rx.internal.operators.OperatorTakeLastOneTest			false
+false	false	false	false	588	rx.internal.operators.OperatorElementAtTest			false
+false	false	false	false	270	rx.internal.operators.OnSubscribeToObservableFutureTest			false
+false	false	false	false	624	rx.internal.operators.OperatorFinally			false
+false	false	false	false	428	rx.internal.operators.OnSubscribeFromIterable			false
+false	false	false	false	549	rx.internal.operators.OperatorSkip			false
+false	false	false	false	463	rx.internal.operators.OperatorZipIterable			false
+false	false	false	false	752	rx.internal.operators.OperatorOnBackpressureBuffer			false
+false	false	false	false	802	rx.internal.operators.OperatorOnBackpressureBlock			false
+false	false	false	false	649	rx.internal.operators.OperatorSkipTimed	context	State	false
+false	false	false	false	572	rx.internal.operators.OperatorSerialize			false
+false	false	false	false	535	rx.internal.operators.OperatorOnErrorFlatMap			false
+false	false	false	false	503	rx.internal.operators.OperatorUnsubscribeOn			false
+false	false	false	false	867	rx.internal.operators.OnSubscribeCache			false
+false	false	false	false	127	rx.internal.operators.OperatorTimestamp			false
+false	false	false	false	622	rx.internal.operators.OperatorDistinct			false
+false	false	false	false	635	rx.internal.operators.OperatorToMap			false
+false	false	false	false	621	rx.internal.operators.OperatorDematerialize			false
+false	false	false	false	613	rx.internal.operators.OperatorBufferWithSize			false
+false	false	false	false	663	rx.internal.operators.OperatorWindowWithObservable			false
+false	false	false	false	23	rx.internal.operators.OperatorOnErrorResumeNextViaFunction			false
+false	false	false	false	641	rx.internal.operators.OperatorOnErrorResumeNextViaObservable			false
+false	false	false	false	481	rx.internal.operators.OnSubscribeRange			false
+false	false	false	false	645	rx.internal.operators.OperatorThrottleFirst			false
+false	false	false	false	827	rx.internal.operators.OperatorWithLatestFrom			false
+false	false	false	false	584	rx.internal.operators.NotificationLite	singleton	Singleton	false
+false	false	false	false	614	rx.internal.operators.OperatorBufferWithStartEndObservable			false
+false	false	false	false	788	rx.internal.operators.OperatorDelay	context	State	false
+false	false	false	false	499	rx.internal.operators.OperatorScan			false
+false	false	false	false	780	rx.internal.operators.TakeLastQueueProducer			false
+false	false	false	false	636	rx.internal.operators.OnSubscribeJoin			false
+false	false	false	false	456	rx.internal.operators.OperatorDoOnEach			false
+false	false	false	false	83	rx.internal.operators.OperatorTakeUntil			false
+false	false	false	false	494	rx.internal.operators.OperatorTimeout			false
+false	false	false	false	816	rx.internal.operators.OperatorTakeUntilPredicate			false
+false	false	false	false	769	rx.internal.operators.OnSubscribeRedo	context	State	false
+false	false	false	false	129	rx.internal.operators.BlockingOperatorToFuture			false
+false	false	false	false	628	rx.internal.operators.OperatorDebounceWithTime	context	State	false
+false	false	false	false	630	rx.internal.operators.OperatorSampleWithObservable			false
+false	false	false	false	810	rx.internal.operators.OperatorDoOnRequest			false
+false	false	false	false	837	rx.internal.operators.OperatorOnBackpressureLatest			false
+false	false	false	false	429	rx.internal.operators.OperatorToObservableList			false
+false	false	false	false	832	rx.internal.operators.OperatorTakeLastOne			false
+false	false	false	false	207	rx.internal.operators.OperatorSkipLast			false
+false	false	false	false	85	rx.internal.operators.OnSubscribeDefer	context	State	false
+false	false	false	false	668	rx.internal.operators.OnSubscribeDelaySubscription	context	State	false
+false	false	false	false	631	rx.internal.operators.OperatorSampleWithTime	context	State	false
+false	false	false	false	835	rx.internal.operators.OperatorIgnoreElements			false
+false	false	false	false	610	rx.internal.operators.OperatorAny			false
+false	false	false	false	650	rx.internal.operators.OperatorSkipUntil			false
+false	false	false	false	478	rx.internal.operators.OperatorObserveOn			false
+false	false	false	false	426	rx.internal.operators.OperatorTake			false
+false	false	false	false	794	rx.internal.operators.OperatorPublish			false
+false	false	false	false	781	rx.internal.operators.OperatorDoOnUnsubscribe			false
+false	false	false	false	432	rx.internal.operators.OperatorCast			false
+false	false	false	false	864	rx.internal.operators.OperatorWindowWithObservableFactory			false
+false	false	false	false	627	rx.internal.operators.OperatorDebounceWithSelector			false
+false	false	false	false	434	rx.internal.operators.OperatorMerge			false
+false	false	false	false	496	rx.internal.operators.OperatorTimeoutWithSelector			false
+false	false	false	false	643	rx.internal.operators.OnSubscribeUsing	context	State	false
+false	false	false	false	495	rx.internal.operators.OperatorTimeoutBase	context	State	false
+false	false	false	false	647	rx.internal.operators.OperatorOnExceptionResumeNextViaObservable			false
+false	false	false	false	219	rx.internal.operators.OnSubscribeAmb			false
+false	false	false	false	687	rx.internal.operators.OperatorRetryWithPredicate			false
+false	false	false	false	632	rx.internal.operators.OnSubscribeTimerOnce	context	State	false
+false	false	false	false	84	rx.internal.operators.BlockingOperatorMostRecent			false
+false	false	false	false	659	rx.internal.operators.OperatorTakeTimed	context	State	false
+false	false	false	false	562	rx.internal.operators.OperatorSkipWhile			false
+false	false	false	false	648	rx.internal.operators.OnSubscribeRefCount	context	State	false
+false	false	false	false	583	rx.internal.operators.OperatorSingle			false
+false	false	false	false	666	rx.internal.operators.OperatorWindowWithTime	context	State	false
+false	false	false	false	561	rx.internal.operators.OperatorAll			false
+false	false	false	false	82	rx.internal.operators.BlockingOperatorNext			false
+false	false	false	false	623	rx.internal.operators.OperatorDistinctUntilChanged			false
+false	false	false	false	392	rx.internal.operators.OperatorAsObservable			false
+false	false	false	false	782	rx.internal.operators.OperatorDoOnSubscribe	context	State	false
+false	false	false	false	461	rx.internal.operators.OperatorZip			false
+false	false	false	false	811	rx.internal.operators.OperatorSwitchIfEmpty			false
+false	false	false	false	639	rx.internal.operators.OperatorMulticast	context	State	false
+false	false	false	false	787	rx.internal.operators.OnSubscribeDelaySubscriptionWithSelector	context	State	false
+false	false	false	false	664	rx.internal.operators.OperatorWindowWithSize			false
+false	false	false	false	433	rx.internal.operators.OperatorMap			false
+false	false	false	false	660	rx.internal.operators.OperatorTakeLast			false
+false	false	false	false	435	rx.internal.operators.OperatorGroupBy			false
+false	false	false	false	599	rx.internal.operators.OperatorMaterialize			false
+false	false	false	false	616	rx.internal.operators.OperatorConcat			false
+false	false	false	false	646	rx.internal.operators.OperatorTakeWhile			false
+false	false	false	false	489	rx.internal.operators.OperatorFilter			false
+false	false	false	false	779	rx.internal.operators.OperatorMapPair			false
+false	false	false	false	642	rx.internal.operators.OperatorOnErrorReturn			false
+false	false	false	false	615	rx.internal.operators.OperatorBufferWithTime	context	State	false
+false	false	false	false	69	rx.internal.operators.OnSubscribeToObservableFuture			false
+false	false	false	false	381	rx.internal.operators.BlockingOperatorLatest			false
+false	false	false	false	661	rx.internal.operators.OperatorTakeLastTimed			false
+false	false	false	false	634	rx.internal.operators.OperatorToMultimap			false
+false	false	false	false	658	rx.internal.operators.OperatorSwitch			false
+false	false	false	false	430	rx.internal.operators.OperatorToObservableSortedList			false
+false	false	false	false	777	rx.internal.operators.OperatorMapNotification			false
+false	false	false	false	377	rx.internal.operators.OperatorReplay			false
+false	false	false	false	587	rx.internal.operators.OperatorElementAt			false
+false	false	false	false	89	rx.internal.operators.BlockingOperatorToIterator			false
+false	false	false	false	612	rx.internal.operators.OperatorBufferWithSingleObservable	context	State	false
+false	false	false	false	753	rx.internal.operators.OperatorOnBackpressureDrop			false
+false	false	false	false	633	rx.internal.operators.OnSubscribeTimerPeriodically	context	State	false
+false	false	false	false	820	rx.internal.operators.BackpressureUtils			false
+false	false	false	false	865	rx.internal.operators.OnSubscribeSingle			false
+false	false	false	false	498	rx.internal.operators.BufferUntilSubscriber			false
+false	false	false	false	363	rx.internal.operators.OperatorSequenceEqual			false
+false	false	false	false	665	rx.internal.operators.OperatorWindowWithStartEndObservable			false
+false	false	false	false	644	rx.internal.operators.OperatorTimeInterval			false
+false	false	false	false	608	rx.internal.operators.OperatorSkipLastTimed			false
+false	false	false	false	356	rx.internal.operators.OnSubscribeGroupJoin			false
+false	false	false	false	862	rx.internal.operators.OnSubscribeAutoConnect	context	State	false
+false	false	false	false	617	rx.internal.operators.OnSubscribeCombineLatest			false
+false	false	false	false	640	rx.internal.operators.OnSubscribeMulticastSelector	context	State	false
+false	false	false	false	467	rx.internal.operators.OperatorSubscribeOn	context	State	false
+false	false	false	false	789	rx.internal.operators.OperatorDelayWithSelector			false
+false	false	false	false	281	rx.plugins.RxJavaPluginsTest			false
+false	false	false	false	79	rx.plugins.RxJavaPlugins	singleton	Singleton	false
+false	false	false	false	114	rx.plugins.RxJavaObservableExecutionHook			false
+false	false	true	false	115	rx.plugins.RxJavaObservableExecutionHookDefault	singleton	Singleton	false
+false	false	false	false	77	rx.plugins.RxJavaErrorHandler			false
+false	false	false	false	778	rx.plugins.RxJavaSchedulersHook	singleton	Singleton	false
+false	false	false	true	579	rx.observers.SerializedObserverTest			false
+false	false	false	false	443	rx.observers.TestObserverTest			false
+false	false	false	false	393	rx.observers.SafeObserverTest			false
+false	false	false	false	454	rx.observers.TestSubscriberTest			false
+false	false	false	false	582	rx.observers.SerializedObserver	decorator	Decorator	false
+false	false	false	false	571	rx.observers.SerializedSubscriber	decorator	Decorator	false
+false	false	false	false	442	rx.observers.TestObserver	decorator	Decorator	false
+false	false	false	false	13	rx.observers.SafeSubscriber			false
+false	false	false	false	462	rx.observers.Subscribers			false
+false	false	false	false	439	rx.observers.Observers			false
+false	false	false	false	453	rx.observers.TestSubscriber			false
+false	false	false	false	351	rx.util.AssertObservableTest			false
+false	false	false	false	349	rx.util.AssertObservable			false
+false	false	false	false	818	rx.test.TestObstructionDetection			false
+false	false	false	false	819	rx.test.TestObstructionDetectionTest			false
+false	false	false	false	291	rx.test.OperatorTester			false
+false	false	false	false	-1	rx.internal.util.unsafe.BaseLinkedQueuePad0			false
+false	false	false	false	-1	rx.internal.util.unsafe.SpmcArrayQueueL1Pad			false
+false	false	false	false	744	rx.internal.util.unsafe.Pow2			false
+false	false	false	false	851	rx.internal.util.unsafe.MpscLinkedQueue			false
+false	false	false	false	739	rx.internal.util.unsafe.ConcurrentSequencedCircularArrayQueue			false
+false	false	false	false	-1	rx.internal.util.unsafe.ConcurrentCircularArrayQueueL0Pad			false
+false	false	false	false	-1	rx.internal.util.unsafe.MpmcArrayQueueL1Pad			false
+false	false	false	false	747	rx.internal.util.unsafe.UnsafeAccess			false
+false	false	false	false	-1	rx.internal.util.unsafe.SpscArrayQueueColdField			false
+false	false	false	false	852	rx.internal.util.unsafe.SpscLinkedQueue			false
+false	false	false	false	770	rx.internal.util.unsafe.MessagePassingQueue			false
+false	false	false	false	848	rx.internal.util.atomic.MpscLinkedAtomicQueue			false
+false	false	false	false	847	rx.internal.util.atomic.LinkedQueueNode			false
+false	false	false	false	846	rx.internal.util.atomic.BaseLinkedAtomicQueue			false
+false	false	false	false	849	rx.internal.util.atomic.SpscLinkedAtomicQueue			false
+false	false	false	false	606	rx.internal.schedulers.EventLoopsScheduler			false
+false	false	false	false	695	rx.internal.schedulers.ScheduledAction	context	State	false
+false	false	false	false	694	rx.internal.schedulers.NewThreadWorker			false
+false	false	false	false	51	rx.functions.Func6			false
+false	false	false	false	61	rx.functions.Action0	state	State	false
+false	false	false	false	8	rx.functions.Func3			false
+false	false	false	false	52	rx.functions.Func7			false
+false	false	false	false	10	rx.functions.FuncN			false
+false	false	false	false	65	rx.functions.Function			false
+false	false	false	false	54	rx.functions.Func9			false
+false	false	false	false	155	rx.functions.Action			false
+false	false	false	false	341	rx.functions.Action7			false
+false	false	false	false	6	rx.functions.Func1	state	State	false
+false	false	false	false	62	rx.functions.Action1	state	State	false
+false	false	false	false	53	rx.functions.Func8			false
+false	false	false	false	342	rx.functions.Action8			false
+false	false	false	false	339	rx.functions.Action5			false
+false	false	false	false	9	rx.functions.Func4			false
+false	false	false	false	7	rx.functions.Func2			false
+false	false	false	false	63	rx.functions.Action2			false
+false	false	false	false	344	rx.functions.ActionN			false
+false	false	false	false	50	rx.functions.Func5			false
+false	false	false	false	328	rx.functions.Actions			false
+false	false	false	false	340	rx.functions.Action6			false
+false	false	false	false	338	rx.functions.Action4			false
+false	false	false	false	64	rx.functions.Action3			false
+false	false	false	false	5	rx.functions.Func0	state	State	false
+false	false	false	false	343	rx.functions.Action9			false
+false	false	false	false	11	rx.functions.Functions			false

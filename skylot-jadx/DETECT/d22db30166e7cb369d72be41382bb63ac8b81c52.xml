@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<pattern name="Factory Method">
+		<instance>
+			<role name="Creator" element="jadx.api.plugins.input.data.IMethodData" />
+			<role name="FactoryMethod()" element="jadx.api.plugins.input.data.IMethodData::getCodeReader():jadx.api.plugins.input.data.ICodeReader" />
+		</instance>
+		<instance>
+			<role name="Creator" element="jadx.api.plugins.input.data.ICodeReader" />
+			<role name="FactoryMethod()" element="jadx.api.plugins.input.data.ICodeReader::getDebugInfo():jadx.api.plugins.input.data.IDebugInfo" />
+		</instance>
+		<instance>
+			<role name="Creator" element="jadx.api.plugins.input.data.IClassData" />
+			<role name="FactoryMethod()" element="jadx.api.plugins.input.data.IClassData::copy():jadx.api.plugins.input.data.IClassData" />
+		</instance>
+		<instance>
+			<role name="Creator" element="jadx.api.ICodeWriter" />
+			<role name="FactoryMethod()" element="jadx.api.ICodeWriter::finish():jadx.api.ICodeInfo" />
+		</instance>
+	</pattern>
+	<pattern name="Prototype" />
+	<pattern name="Singleton">
+		<instance>
+			<role name="Singleton" element="jadx.api.plugins.input.data.impl.EmptyLoadResult" />
+			<role name="uniqueInstance" element="jadx.api.plugins.input.data.impl.EmptyLoadResult::INSTANCE:jadx.api.plugins.input.data.impl.EmptyLoadResult" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="jadx.api.plugins.input.data.annotations.EncodedValue" />
+			<role name="uniqueInstance" element="jadx.api.plugins.input.data.annotations.EncodedValue::NULL:jadx.api.plugins.input.data.annotations.EncodedValue" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="jadx.gui.ui.TabbedPane$FocusManager" />
+			<role name="uniqueInstance" element="jadx.gui.ui.TabbedPane$FocusManager::listener:jadx.gui.ui.TabbedPane$FocusManager" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="jadx.gui.utils.logs.LogCollector" />
+			<role name="uniqueInstance" element="jadx.gui.utils.logs.LogCollector::INSTANCE:jadx.gui.utils.logs.LogCollector" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="jadx.plugins.input.dex.smali.SmaliInsnFormat" />
+			<role name="uniqueInstance" element="jadx.plugins.input.dex.smali.SmaliInsnFormat::instance:jadx.plugins.input.dex.smali.SmaliInsnFormat" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="jadx.core.dex.attributes.nodes.MethodTypeVarsAttr" />
+			<role name="uniqueInstance" element="jadx.core.dex.attributes.nodes.MethodTypeVarsAttr::EMPTY:jadx.core.dex.attributes.nodes.MethodTypeVarsAttr" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="jadx.core.dex.attributes.nodes.ClassTypeVarsAttr" />
+			<role name="uniqueInstance" element="jadx.core.dex.attributes.nodes.ClassTypeVarsAttr::EMPTY:jadx.core.dex.attributes.nodes.ClassTypeVarsAttr" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="jadx.core.dex.attributes.nodes.MethodInlineAttr" />
+			<role name="uniqueInstance" element="jadx.core.dex.attributes.nodes.MethodInlineAttr::INLINE_NOT_NEEDED:jadx.core.dex.attributes.nodes.MethodInlineAttr" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="jadx.core.xmlgen.ManifestAttributes" />
+			<role name="uniqueInstance" element="jadx.core.xmlgen.ManifestAttributes::instance:jadx.core.xmlgen.ManifestAttributes" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="jadx.core.utils.StringUtils" />
+			<role name="uniqueInstance" element="jadx.core.utils.StringUtils::DEFAULT_INSTANCE:jadx.core.utils.StringUtils" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="jadx.api.ICodeInfo" />
+			<role name="uniqueInstance" element="jadx.api.ICodeInfo::EMPTY:jadx.api.ICodeInfo" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="jadx.plugins.input.java.data.attributes.JavaAttrStorage" />
+			<role name="uniqueInstance" element="jadx.plugins.input.java.data.attributes.JavaAttrStorage::EMPTY:jadx.plugins.input.java.data.attributes.JavaAttrStorage" />
+		</instance>
+	</pattern>
+	<pattern name="(Object)Adapter">
+		<instance>
+			<role name="Adapter" element="jadx.core.dex.nodes.MethodNode" />
+			<role name="Adaptee" element="jadx.core.dex.info.AccessInfo" />
+			<role name="adaptee" element="jadx.core.dex.nodes.MethodNode::accFlags:jadx.core.dex.info.AccessInfo" />
+			<role name="Request()" element="jadx.core.dex.nodes.MethodNode::getRawAccessFlags():int" />
+			<role name="Request()" element="jadx.core.dex.nodes.MethodNode::isVarArg():boolean" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="jadx.core.dex.instructions.args.RegisterArg" />
+			<role name="Adaptee" element="jadx.core.dex.instructions.args.SSAVar" />
+			<role name="adaptee" element="jadx.core.dex.instructions.args.RegisterArg::sVar:jadx.core.dex.instructions.args.SSAVar" />
+			<role name="Request()" element="jadx.core.dex.instructions.args.RegisterArg::getName():java.lang.String" />
+			<role name="Request()" element="jadx.core.dex.instructions.args.RegisterArg::setName(java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="jadx.core.dex.info.MethodInfo" />
+			<role name="Adapter" element="jadx.core.clsp.SimpleMethodDetails" />
+			<role name="adaptee" element="jadx.core.clsp.SimpleMethodDetails::methodInfo:jadx.core.dex.info.MethodInfo" />
+			<role name="Request()" element="jadx.core.clsp.SimpleMethodDetails::getReturnType():jadx.core.dex.instructions.args.ArgType" />
+			<role name="Request()" element="jadx.core.clsp.SimpleMethodDetails::getArgTypes():java.util.List" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="jadx.gui.JadxWrapper" />
+			<role name="Adapter" element="jadx.gui.treemodel.JRoot" />
+			<role name="adaptee" element="jadx.gui.treemodel.JRoot::wrapper:jadx.gui.JadxWrapper" />
+			<role name="Request()" element="jadx.gui.treemodel.JRoot::makeString():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="jadx.gui.ui.panel.JDebuggerPanel" />
+			<role name="Adapter" element="jadx.gui.device.debugger.DebugController" />
+			<role name="adaptee" element="jadx.gui.device.debugger.DebugController::debuggerPanel:jadx.gui.ui.panel.JDebuggerPanel" />
+			<role name="Request()" element="jadx.gui.device.debugger.DebugController::onSuspendEvent(jadx.gui.device.debugger.SmaliDebugger$SuspendInfo):void" />
+			<role name="Request()" element="jadx.gui.device.debugger.DebugController::startDebugger(jadx.gui.ui.panel.JDebuggerPanel, java.lang.String[]):boolean" />
+			<role name="Request()" element="jadx.gui.device.debugger.DebugController::exit():boolean" />
+			<role name="Request()" element="jadx.gui.device.debugger.DebugController::getProcessName():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="jadx.gui.device.debugger.DebugController$BreakpointStore" />
+			<role name="Adapter" element="jadx.gui.device.debugger.DebugController" />
+			<role name="adaptee" element="jadx.gui.device.debugger.DebugController::bpStore:jadx.gui.device.debugger.DebugController$BreakpointStore" />
+			<role name="Request()" element="jadx.gui.device.debugger.DebugController::startDebugger(jadx.gui.ui.panel.JDebuggerPanel, java.lang.String[]):boolean" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="jadx.gui.device.debugger.SmaliDebugger" />
+			<role name="Adapter" element="jadx.gui.device.debugger.DebugController" />
+			<role name="adaptee" element="jadx.gui.device.debugger.DebugController::debugger:jadx.gui.device.debugger.SmaliDebugger" />
+			<role name="Request()" element="jadx.gui.device.debugger.DebugController::startDebugger(jadx.gui.ui.panel.JDebuggerPanel, java.lang.String[]):boolean" />
+			<role name="Request()" element="jadx.gui.device.debugger.DebugController::pause():boolean" />
+			<role name="Request()" element="jadx.gui.device.debugger.DebugController::stop():boolean" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="jadx.gui.ui.dialog.SearchDialog$SearchEventEmitter" />
+			<role name="Adapter" element="jadx.gui.ui.dialog.SearchDialog" />
+			<role name="adaptee" element="jadx.gui.ui.dialog.SearchDialog::searchEmitter:jadx.gui.ui.dialog.SearchDialog$SearchEventEmitter" />
+			<role name="Request()" element="jadx.gui.ui.dialog.SearchDialog::openInit():void" />
+			<role name="Request()" element="jadx.gui.ui.dialog.SearchDialog::loadFinished():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="jadx.plugins.input.dex.sections.SectionReader" />
+			<role name="Adapter" element="jadx.plugins.input.dex.insns.DexInsnData" />
+			<role name="adaptee" element="jadx.plugins.input.dex.insns.DexInsnData::externalReader:jadx.plugins.input.dex.sections.SectionReader" />
+			<role name="adaptee" element="jadx.plugins.input.dex.insns.DexInsnData::secondExtReader:jadx.plugins.input.dex.sections.SectionReader" />
+			<role name="Request()" element="jadx.plugins.input.dex.insns.DexInsnData::getByteCode():byte[]" />
+			<role name="Request()" element="jadx.plugins.input.dex.insns.DexInsnData::getIndexAsString():java.lang.String" />
+			<role name="Request()" element="jadx.plugins.input.dex.insns.DexInsnData::getIndexAsType():java.lang.String" />
+			<role name="Request()" element="jadx.plugins.input.dex.insns.DexInsnData::getIndexAsField():jadx.api.plugins.input.data.IFieldRef" />
+			<role name="Request()" element="jadx.plugins.input.dex.insns.DexInsnData::getIndexAsMethod():jadx.api.plugins.input.data.IMethodRef" />
+			<role name="Request()" element="jadx.plugins.input.dex.insns.DexInsnData::getIndexAsCallSite():jadx.api.plugins.input.data.ICallSite" />
+			<role name="Request()" element="jadx.plugins.input.dex.insns.DexInsnData::getIndexAsProto(int):jadx.api.plugins.input.data.IMethodProto" />
+			<role name="Request()" element="jadx.plugins.input.dex.insns.DexInsnData::getIndexAsMethodHandle():jadx.api.plugins.input.data.IMethodHandle" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="jadx.plugins.input.java.data.code.JavaInsnInfo" />
+			<role name="Adapter" element="jadx.plugins.input.java.data.code.JavaInsnData" />
+			<role name="adaptee" element="jadx.plugins.input.java.data.code.JavaInsnData::insnInfo:jadx.plugins.input.java.data.code.JavaInsnInfo" />
+			<role name="Request()" element="jadx.plugins.input.java.data.code.JavaInsnData::decode():void" />
+			<role name="Request()" element="jadx.plugins.input.java.data.code.JavaInsnData::getOpcodeMnemonic():java.lang.String" />
+			<role name="Request()" element="jadx.plugins.input.java.data.code.JavaInsnData::getIndexType():jadx.api.plugins.input.insns.InsnIndexType" />
+			<role name="Request()" element="jadx.plugins.input.java.data.code.JavaInsnData::getIndexAsType():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="jadx.plugins.input.java.data.code.CodeDecodeState" />
+			<role name="Adapter" element="jadx.plugins.input.java.data.code.JavaInsnData" />
+			<role name="adaptee" element="jadx.plugins.input.java.data.code.JavaInsnData::state:jadx.plugins.input.java.data.code.CodeDecodeState" />
+			<role name="Request()" element="jadx.plugins.input.java.data.code.JavaInsnData::decode():void" />
+			<role name="Request()" element="jadx.plugins.input.java.data.code.JavaInsnData::getByteCode():byte[]" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="jadx.plugins.input.dex.insns.DexInsnInfo" />
+			<role name="Adapter" element="jadx.plugins.input.dex.insns.DexInsnData" />
+			<role name="adaptee" element="jadx.plugins.input.dex.insns.DexInsnData::insnInfo:jadx.plugins.input.dex.insns.DexInsnInfo" />
+			<role name="Request()" element="jadx.plugins.input.dex.insns.DexInsnData::getOpcode():jadx.api.plugins.input.insns.Opcode" />
+			<role name="Request()" element="jadx.plugins.input.dex.insns.DexInsnData::getIndexType():jadx.api.plugins.input.insns.InsnIndexType" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="jadx.gui.ui.codearea.CodePanel" />
+			<role name="Adapter" element="jadx.gui.ui.codearea.ClassCodeContentPanel" />
+			<role name="adaptee" element="jadx.gui.ui.codearea.ClassCodeContentPanel::javaCodePanel:jadx.gui.ui.codearea.CodePanel" />
+			<role name="adaptee" element="jadx.gui.ui.codearea.ClassCodeContentPanel::smaliCodePanel:jadx.gui.ui.codearea.CodePanel" />
+			<role name="Request()" element="jadx.gui.ui.codearea.ClassCodeContentPanel::getEditorViewState():jadx.gui.ui.codearea.EditorViewState" />
+			<role name="Request()" element="jadx.gui.ui.codearea.ClassCodeContentPanel::restoreEditorViewState(jadx.gui.ui.codearea.EditorViewState):void" />
+			<role name="Request()" element="jadx.gui.ui.codearea.ClassCodeContentPanel::getCodeArea():jadx.gui.ui.codearea.AbstractCodeArea" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="jadx.gui.ui.codearea.CodePanel" />
+			<role name="Adapter" element="jadx.gui.ui.codearea.CodeContentPanel" />
+			<role name="adaptee" element="jadx.gui.ui.codearea.CodeContentPanel::codePanel:jadx.gui.ui.codearea.CodePanel" />
+			<role name="Request()" element="jadx.gui.ui.codearea.CodeContentPanel::getEditorViewState():jadx.gui.ui.codearea.EditorViewState" />
+			<role name="Request()" element="jadx.gui.ui.codearea.CodeContentPanel::restoreEditorViewState(jadx.gui.ui.codearea.EditorViewState):void" />
+			<role name="Request()" element="jadx.gui.ui.codearea.CodeContentPanel::getCodeArea():jadx.gui.ui.codearea.AbstractCodeArea" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="jadx.gui.ui.panel.HtmlPanel$JHtmlPane" />
+			<role name="Adapter" element="jadx.gui.ui.panel.HtmlPanel" />
+			<role name="adaptee" element="jadx.gui.ui.panel.HtmlPanel::textArea:jadx.gui.ui.panel.HtmlPanel$JHtmlPane" />
+			<role name="Request()" element="jadx.gui.ui.panel.HtmlPanel::loadSettings():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="jadx.plugins.input.dex.sections.SectionReader" />
+			<role name="Adapter" element="jadx.plugins.input.dex.sections.DexClassData" />
+			<role name="adaptee" element="jadx.plugins.input.dex.sections.DexClassData::in:jadx.plugins.input.dex.sections.SectionReader" />
+			<role name="Request()" element="jadx.plugins.input.dex.sections.DexClassData::copy():jadx.api.plugins.input.data.IClassData" />
+			<role name="Request()" element="jadx.plugins.input.dex.sections.DexClassData::getType():java.lang.String" />
+			<role name="Request()" element="jadx.plugins.input.dex.sections.DexClassData::getAccessFlags():int" />
+			<role name="Request()" element="jadx.plugins.input.dex.sections.DexClassData::getSuperType():java.lang.String" />
+			<role name="Request()" element="jadx.plugins.input.dex.sections.DexClassData::getInterfacesTypes():java.util.List" />
+			<role name="Request()" element="jadx.plugins.input.dex.sections.DexClassData::getInputFileName():java.lang.String" />
+			<role name="Request()" element="jadx.plugins.input.dex.sections.DexClassData::visitFieldsAndMethods(jadx.api.plugins.input.data.ISeqConsumer, jadx.api.plugins.input.data.ISeqConsumer):void" />
+			<role name="Request()" element="jadx.plugins.input.dex.sections.DexClassData::getDisassembledCode():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="jadx.plugins.input.java.data.DataReader" />
+			<role name="Adapter" element="jadx.plugins.input.java.data.JavaClassData" />
+			<role name="adaptee" element="jadx.plugins.input.java.data.JavaClassData::data:jadx.plugins.input.java.data.DataReader" />
+			<role name="Request()" element="jadx.plugins.input.java.data.JavaClassData::getAccessFlags():int" />
+			<role name="Request()" element="jadx.plugins.input.java.data.JavaClassData::getType():java.lang.String" />
+			<role name="Request()" element="jadx.plugins.input.java.data.JavaClassData::getSuperType():java.lang.String" />
+			<role name="Request()" element="jadx.plugins.input.java.data.JavaClassData::getInterfacesTypes():java.util.List" />
+			<role name="Request()" element="jadx.plugins.input.java.data.JavaClassData::visitFieldsAndMethods(jadx.api.plugins.input.data.ISeqConsumer, jadx.api.plugins.input.data.ISeqConsumer):void" />
+			<role name="Request()" element="jadx.plugins.input.java.data.JavaClassData::getAttributes():java.util.List" />
+			<role name="Request()" element="jadx.plugins.input.java.data.JavaClassData::getDisassembledCode():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="jadx.plugins.input.java.JavaClassReader" />
+			<role name="Adapter" element="jadx.plugins.input.java.data.JavaClassData" />
+			<role name="adaptee" element="jadx.plugins.input.java.data.JavaClassData::clsReader:jadx.plugins.input.java.JavaClassReader" />
+			<role name="Request()" element="jadx.plugins.input.java.data.JavaClassData::getInputFileName():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="jadx.plugins.input.java.data.ClassOffsets" />
+			<role name="Adapter" element="jadx.plugins.input.java.data.JavaClassData" />
+			<role name="adaptee" element="jadx.plugins.input.java.data.JavaClassData::offsets:jadx.plugins.input.java.data.ClassOffsets" />
+			<role name="Request()" element="jadx.plugins.input.java.data.JavaClassData::getAccessFlags():int" />
+			<role name="Request()" element="jadx.plugins.input.java.data.JavaClassData::getType():java.lang.String" />
+			<role name="Request()" element="jadx.plugins.input.java.data.JavaClassData::getSuperType():java.lang.String" />
+			<role name="Request()" element="jadx.plugins.input.java.data.JavaClassData::getInterfacesTypes():java.util.List" />
+			<role name="Request()" element="jadx.plugins.input.java.data.JavaClassData::visitFieldsAndMethods(jadx.api.plugins.input.data.ISeqConsumer, jadx.api.plugins.input.data.ISeqConsumer):void" />
+			<role name="Request()" element="jadx.plugins.input.java.data.JavaClassData::getAttributes():java.util.List" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="jadx.plugins.input.java.data.ConstPoolReader" />
+			<role name="Adapter" element="jadx.plugins.input.java.data.JavaClassData" />
+			<role name="adaptee" element="jadx.plugins.input.java.data.JavaClassData::constPoolReader:jadx.plugins.input.java.data.ConstPoolReader" />
+			<role name="Request()" element="jadx.plugins.input.java.data.JavaClassData::getType():java.lang.String" />
+			<role name="Request()" element="jadx.plugins.input.java.data.JavaClassData::getSuperType():java.lang.String" />
+			<role name="Request()" element="jadx.plugins.input.java.data.JavaClassData::visitFieldsAndMethods(jadx.api.plugins.input.data.ISeqConsumer, jadx.api.plugins.input.data.ISeqConsumer):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="jadx.plugins.input.java.data.attributes.AttributesReader" />
+			<role name="Adapter" element="jadx.plugins.input.java.data.JavaClassData" />
+			<role name="adaptee" element="jadx.plugins.input.java.data.JavaClassData::attributesReader:jadx.plugins.input.java.data.attributes.AttributesReader" />
+			<role name="Request()" element="jadx.plugins.input.java.data.JavaClassData::getAttributes():java.util.List" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="jadx.gui.ui.dialog.ADBDialog" />
+			<role name="Adaptee" element="jadx.gui.ui.dialog.ADBDialog$DebugSetting" />
+			<role name="adaptee" element="jadx.gui.ui.dialog.ADBDialog::debugSetter:jadx.gui.ui.dialog.ADBDialog$DebugSetting" />
+			<role name="Request()" element="jadx.gui.ui.dialog.ADBDialog::jdwpProcessOccurred(jadx.gui.device.protocol.ADB$Device, java.util.Set):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="jadx.core.dex.nodes.ClassNode" />
+			<role name="Adapter" element="jadx.api.JavaClass" />
+			<role name="adaptee" element="jadx.api.JavaClass::cls:jadx.core.dex.nodes.ClassNode" />
+			<role name="Request()" element="jadx.api.JavaClass::getUseIn():java.util.List" />
+			<role name="Request()" element="jadx.api.JavaClass::getName():java.lang.String" />
+			<role name="Request()" element="jadx.api.JavaClass::getFullName():java.lang.String" />
+			<role name="Request()" element="jadx.api.JavaClass::getTopParentClass():jadx.api.JavaClass" />
+			<role name="Request()" element="jadx.api.JavaClass::getDecompiledLine():int" />
+			<role name="Request()" element="jadx.api.JavaClass::getDefPos():int" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="jadx.core.dex.nodes.FieldNode" />
+			<role name="Adapter" element="jadx.api.JavaField" />
+			<role name="adaptee" element="jadx.api.JavaField::field:jadx.core.dex.nodes.FieldNode" />
+			<role name="Request()" element="jadx.api.JavaField::getName():java.lang.String" />
+			<role name="Request()" element="jadx.api.JavaField::getDecompiledLine():int" />
+			<role name="Request()" element="jadx.api.JavaField::getDefPos():int" />
+			<role name="Request()" element="jadx.api.JavaField::getUseIn():java.util.List" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="jadx.core.dex.nodes.MethodNode" />
+			<role name="Adapter" element="jadx.api.JavaMethod" />
+			<role name="adaptee" element="jadx.api.JavaMethod::mth:jadx.core.dex.nodes.MethodNode" />
+			<role name="Request()" element="jadx.api.JavaMethod::getName():java.lang.String" />
+			<role name="Request()" element="jadx.api.JavaMethod::getFullName():java.lang.String" />
+			<role name="Request()" element="jadx.api.JavaMethod::getUseIn():java.util.List" />
+			<role name="Request()" element="jadx.api.JavaMethod::getDecompiledLine():int" />
+			<role name="Request()" element="jadx.api.JavaMethod::getDefPos():int" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="jadx.api.JavaVariable" />
+			<role name="Adapter" element="jadx.gui.treemodel.JVariable" />
+			<role name="adaptee" element="jadx.gui.treemodel.JVariable::var:jadx.api.JavaVariable" />
+			<role name="Request()" element="jadx.gui.treemodel.JVariable::makeString():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="jadx.api.JavaMethod" />
+			<role name="Adapter" element="jadx.gui.treemodel.JMethod" />
+			<role name="adaptee" element="jadx.gui.treemodel.JMethod::mth:jadx.api.JavaMethod" />
+			<role name="Request()" element="jadx.gui.treemodel.JMethod::getIcon():javax.swing.Icon" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="jadx.api.JavaField" />
+			<role name="Adapter" element="jadx.gui.treemodel.JField" />
+			<role name="adaptee" element="jadx.gui.treemodel.JField::field:jadx.api.JavaField" />
+			<role name="Request()" element="jadx.gui.treemodel.JField::getIcon():javax.swing.Icon" />
+			<role name="Request()" element="jadx.gui.treemodel.JField::makeString():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="jadx.plugins.input.dex.sections.SectionReader" />
+			<role name="Adapter" element="jadx.plugins.input.dex.sections.DexCodeReader" />
+			<role name="adaptee" element="jadx.plugins.input.dex.sections.DexCodeReader::in:jadx.plugins.input.dex.sections.SectionReader" />
+			<role name="Request()" element="jadx.plugins.input.dex.sections.DexCodeReader::getRegistersCount():int" />
+			<role name="Request()" element="jadx.plugins.input.dex.sections.DexCodeReader::getUnitsCount():int" />
+			<role name="Request()" element="jadx.plugins.input.dex.sections.DexCodeReader::visitInstructions(java.util.function.Consumer):void" />
+			<role name="Request()" element="jadx.plugins.input.dex.sections.DexCodeReader::getDebugInfo():jadx.api.plugins.input.data.IDebugInfo" />
+			<role name="Request()" element="jadx.plugins.input.dex.sections.DexCodeReader::getTries():java.util.List" />
+			<role name="Request()" element="jadx.plugins.input.dex.sections.DexCodeReader::getCodeOffset():int" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="jadx.plugins.input.java.data.DataReader" />
+			<role name="Adapter" element="jadx.plugins.input.java.data.code.JavaCodeReader" />
+			<role name="adaptee" element="jadx.plugins.input.java.data.code.JavaCodeReader::reader:jadx.plugins.input.java.data.DataReader" />
+			<role name="Request()" element="jadx.plugins.input.java.data.code.JavaCodeReader::visitInstructions(java.util.function.Consumer):void" />
+			<role name="Request()" element="jadx.plugins.input.java.data.code.JavaCodeReader::getRegistersCount():int" />
+			<role name="Request()" element="jadx.plugins.input.java.data.code.JavaCodeReader::getUnitsCount():int" />
+			<role name="Request()" element="jadx.plugins.input.java.data.code.JavaCodeReader::getDebugInfo():jadx.api.plugins.input.data.IDebugInfo" />
+			<role name="Request()" element="jadx.plugins.input.java.data.code.JavaCodeReader::getTries():java.util.List" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="jadx.plugins.input.dex.sections.SectionReader" />
+			<role name="Adapter" element="jadx.plugins.input.dex.sections.DexMethodRef" />
+			<role name="adaptee" element="jadx.plugins.input.dex.sections.DexMethodRef::sectionReader:jadx.plugins.input.dex.sections.SectionReader" />
+			<role name="Request()" element="jadx.plugins.input.dex.sections.DexMethodRef::load():void" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="jadx.gui.jobs.DecompileTask" />
+			<role name="Adaptee" element="jadx.gui.ui.MainWindow" />
+			<role name="adaptee" element="jadx.gui.jobs.DecompileTask::mainWindow:jadx.gui.ui.MainWindow" />
+			<role name="Request()" element="jadx.gui.jobs.DecompileTask::scheduleJobs():java.util.List" />
+			<role name="Request()" element="jadx.gui.jobs.DecompileTask::onFinish(jadx.gui.jobs.TaskStatus, long):void" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="jadx.gui.jobs.DecompileTask" />
+			<role name="Adaptee" element="jadx.gui.JadxWrapper" />
+			<role name="adaptee" element="jadx.gui.jobs.DecompileTask::wrapper:jadx.gui.JadxWrapper" />
+			<role name="Request()" element="jadx.gui.jobs.DecompileTask::scheduleJobs():java.util.List" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="jadx.gui.jobs.ExportTask" />
+			<role name="Adaptee" element="jadx.gui.JadxWrapper" />
+			<role name="adaptee" element="jadx.gui.jobs.ExportTask::wrapper:jadx.gui.JadxWrapper" />
+			<role name="Request()" element="jadx.gui.jobs.ExportTask::scheduleJobs():java.util.List" />
+			<role name="Request()" element="jadx.gui.jobs.ExportTask::onFinish(jadx.gui.jobs.TaskStatus, long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="jadx.plugins.input.dex.sections.DexCodeReader" />
+			<role name="Adapter" element="jadx.plugins.input.dex.insns.DexInsnData" />
+			<role name="adaptee" element="jadx.plugins.input.dex.insns.DexInsnData::codeData:jadx.plugins.input.dex.sections.DexCodeReader" />
+			<role name="Request()" element="jadx.plugins.input.dex.insns.DexInsnData::decode():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="jadx.plugins.input.java.data.attributes.JavaAttrStorage" />
+			<role name="Adapter" element="jadx.plugins.input.java.data.JavaFieldData" />
+			<role name="adaptee" element="jadx.plugins.input.java.data.JavaFieldData::attributes:jadx.plugins.input.java.data.attributes.JavaAttrStorage" />
+			<role name="Request()" element="jadx.plugins.input.java.data.JavaFieldData::getAttributes():java.util.List" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="jadx.gui.ui.codearea.SmaliArea$SmaliModel" />
+			<role name="Adapter" element="jadx.gui.ui.codearea.SmaliArea" />
+			<role name="adaptee" element="jadx.gui.ui.codearea.SmaliArea::model:jadx.gui.ui.codearea.SmaliArea$SmaliModel" />
+			<role name="Request()" element="jadx.gui.ui.codearea.SmaliArea::load():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="jadx.core.dex.instructions.IndexInsnNode" />
+			<role name="Adapter" element="jadx.core.dex.visitors.typeinference.TypeBoundCheckCastAssign" />
+			<role name="adaptee" element="jadx.core.dex.visitors.typeinference.TypeBoundCheckCastAssign::insn:jadx.core.dex.instructions.IndexInsnNode" />
+			<role name="Request()" element="jadx.core.dex.visitors.typeinference.TypeBoundCheckCastAssign::getType(jadx.core.dex.visitors.typeinference.TypeUpdateInfo):jadx.core.dex.instructions.args.ArgType" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="jadx.core.dex.instructions.BaseInvokeNode" />
+			<role name="Adapter" element="jadx.core.dex.visitors.typeinference.TypeBoundInvokeUse" />
+			<role name="adaptee" element="jadx.core.dex.visitors.typeinference.TypeBoundInvokeUse::invokeNode:jadx.core.dex.instructions.BaseInvokeNode" />
+			<role name="Request()" element="jadx.core.dex.visitors.typeinference.TypeBoundInvokeUse::getType(jadx.core.dex.visitors.typeinference.TypeUpdateInfo):jadx.core.dex.instructions.args.ArgType" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="jadx.core.dex.attributes.AttributeStorage" />
+			<role name="Adapter" element="jadx.core.dex.attributes.AttrNode" />
+			<role name="adaptee" element="jadx.core.dex.attributes.AttrNode::storage:jadx.core.dex.attributes.AttributeStorage" />
+			<role name="Request()" element="jadx.core.dex.attributes.AttrNode::copyAttributesFrom(jadx.core.dex.attributes.AttrNode):void" />
+			<role name="Request()" element="jadx.core.dex.attributes.AttrNode::contains(jadx.core.dex.attributes.AFlag):boolean" />
+			<role name="Request()" element="jadx.core.dex.attributes.AttrNode::contains():boolean" />
+			<role name="Request()" element="jadx.core.dex.attributes.AttrNode::get():jadx.api.plugins.input.data.attributes.IJadxAttribute" />
+			<role name="Request()" element="jadx.core.dex.attributes.AttrNode::getAnnotation(java.lang.String):jadx.api.plugins.input.data.annotations.IAnnotation" />
+			<role name="Request()" element="jadx.core.dex.attributes.AttrNode::getAll():java.util.List" />
+			<role name="Request()" element="jadx.core.dex.attributes.AttrNode::remove(jadx.core.dex.attributes.AFlag):void" />
+			<role name="Request()" element="jadx.core.dex.attributes.AttrNode::remove():void" />
+			<role name="Request()" element="jadx.core.dex.attributes.AttrNode::removeAttr(jadx.api.plugins.input.data.attributes.IJadxAttribute):void" />
+			<role name="Request()" element="jadx.core.dex.attributes.AttrNode::clearAttributes():void" />
+			<role name="Request()" element="jadx.core.dex.attributes.AttrNode::getAttributesStringsList():java.util.List" />
+			<role name="Request()" element="jadx.core.dex.attributes.AttrNode::getAttributesString():java.lang.String" />
+			<role name="Request()" element="jadx.core.dex.attributes.AttrNode::isAttrStorageEmpty():boolean" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="jadx.plugins.input.java.data.attributes.JavaAttrStorage" />
+			<role name="Adapter" element="jadx.plugins.input.java.data.JavaMethodData" />
+			<role name="adaptee" element="jadx.plugins.input.java.data.JavaMethodData::attributes:jadx.plugins.input.java.data.attributes.JavaAttrStorage" />
+			<role name="Request()" element="jadx.plugins.input.java.data.JavaMethodData::getCodeReader():jadx.api.plugins.input.data.ICodeReader" />
+			<role name="Request()" element="jadx.plugins.input.java.data.JavaMethodData::getAttributes():java.util.List" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="jadx.api.data.annotations.VarRef" />
+			<role name="Adapter" element="jadx.api.JavaVariable" />
+			<role name="adaptee" element="jadx.api.JavaVariable::varRef:jadx.api.data.annotations.VarRef" />
+			<role name="Request()" element="jadx.api.JavaVariable::getName():java.lang.String" />
+			<role name="Request()" element="jadx.api.JavaVariable::getFullName():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="jadx.plugins.input.java.data.JavaClassData" />
+			<role name="Adapter" element="jadx.plugins.input.java.data.code.JavaCodeReader" />
+			<role name="adaptee" element="jadx.plugins.input.java.data.code.JavaCodeReader::clsData:jadx.plugins.input.java.data.JavaClassData" />
+			<role name="Request()" element="jadx.plugins.input.java.data.code.JavaCodeReader::getDebugInfo():jadx.api.plugins.input.data.IDebugInfo" />
+			<role name="Request()" element="jadx.plugins.input.java.data.code.JavaCodeReader::getTries():java.util.List" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="jadx.core.dex.nodes.MethodNode" />
+			<role name="Adaptee" element="jadx.api.plugins.input.data.ICodeReader" />
+			<role name="adaptee" element="jadx.core.dex.nodes.MethodNode::codeReader:jadx.api.plugins.input.data.ICodeReader" />
+			<role name="Request()" element="jadx.core.dex.nodes.MethodNode::load():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="jadx.api.plugins.input.data.IMethodRef" />
+			<role name="Adapter" element="jadx.api.plugins.input.data.impl.MethodRefHandle" />
+			<role name="adaptee" element="jadx.api.plugins.input.data.impl.MethodRefHandle::methodRef:jadx.api.plugins.input.data.IMethodRef" />
+			<role name="Request()" element="jadx.api.plugins.input.data.impl.MethodRefHandle::load():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="jadx.api.JavaMethod" />
+			<role name="Adapter" element="jadx.gui.plugins.quark.QuarkReportPanel$MethodTreeNode" />
+			<role name="adaptee" element="jadx.gui.plugins.quark.QuarkReportPanel$MethodTreeNode::mth:jadx.api.JavaMethod" />
+			<role name="Request()" element="jadx.gui.plugins.quark.QuarkReportPanel$MethodTreeNode::render():java.awt.Component" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="jadx.gui.treemodel.JMethod" />
+			<role name="Adapter" element="jadx.gui.plugins.quark.QuarkReportPanel$MethodTreeNode" />
+			<role name="adaptee" element="jadx.gui.plugins.quark.QuarkReportPanel$MethodTreeNode::jnode:jadx.gui.treemodel.JMethod" />
+			<role name="Request()" element="jadx.gui.plugins.quark.QuarkReportPanel$MethodTreeNode::render():java.awt.Component" />
+		</instance>
+	</pattern>
+	<pattern name="Command" />
+	<pattern name="Composite" />
+	<pattern name="Decorator">
+		<instance>
+			<role name="Component" element="jadx.gui.treemodel.JNode" />
+			<role name="Decorator" element="jadx.gui.treemodel.CodeNode" />
+			<role name="component" element="jadx.gui.treemodel.CodeNode::jNode:jadx.gui.treemodel.JNode" />
+			<role name="Operation()" element="jadx.gui.treemodel.CodeNode::getIcon():javax.swing.Icon" />
+		</instance>
+		<instance>
+			<role name="Component" element="jadx.gui.treemodel.JNode" />
+			<role name="Decorator" element="jadx.gui.utils.search.CommentsIndex$RefCommentNode" />
+			<role name="component" element="jadx.gui.utils.search.CommentsIndex$RefCommentNode::node:jadx.gui.treemodel.JNode" />
+			<role name="Operation()" element="jadx.gui.utils.search.CommentsIndex$RefCommentNode::getJParent():jadx.gui.treemodel.JClass" />
+			<role name="Operation()" element="jadx.gui.utils.search.CommentsIndex$RefCommentNode::getIcon():javax.swing.Icon" />
+			<role name="Operation()" element="jadx.gui.utils.search.CommentsIndex$RefCommentNode::makeString():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Component" element="jadx.core.dex.instructions.args.ArgType" />
+			<role name="Decorator" element="jadx.core.dex.instructions.args.ArgType$ArrayArg" />
+			<role name="component" element="jadx.core.dex.instructions.args.ArgType$ArrayArg::arrayElement:jadx.core.dex.instructions.args.ArgType" />
+			<role name="Operation()" element="jadx.core.dex.instructions.args.ArgType$ArrayArg::selectFirst():jadx.core.dex.instructions.args.ArgType" />
+		</instance>
+		<instance>
+			<role name="Component" element="jadx.api.ICodeCache" />
+			<role name="Decorator" element="jadx.gui.utils.FixedCodeCache" />
+			<role name="component" element="jadx.gui.utils.FixedCodeCache::codeCache:jadx.api.ICodeCache" />
+			<role name="Operation()" element="jadx.gui.utils.FixedCodeCache::get(java.lang.String):jadx.api.ICodeInfo" />
+		</instance>
+	</pattern>
+	<pattern name="Observer" />
+	<pattern name="State">
+		<instance>
+			<role name="Context" element="jadx.gui.device.debugger.SmaliDebugger" />
+			<role name="State" element="jadx.gui.device.debugger.SmaliDebugger$ICommandResult" />
+			<role name="state" element="jadx.gui.device.debugger.SmaliDebugger::SKIP_RESULT:jadx.gui.device.debugger.SmaliDebugger$ICommandResult" />
+			<role name="Request()" element="jadx.gui.device.debugger.SmaliDebugger::lambda$decodingLoop$7():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="jadx.gui.utils.ObjectPool" />
+			<role name="State" element="jadx.gui.utils.ObjectPool$Creator" />
+			<role name="state" element="jadx.gui.utils.ObjectPool::creator:jadx.gui.utils.ObjectPool$Creator" />
+			<role name="Request()" element="jadx.gui.utils.ObjectPool::get():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="jadx.gui.utils.logs.LogCollector" />
+			<role name="State" element="jadx.gui.utils.logs.ILogIssuesListener" />
+			<role name="state" element="jadx.gui.utils.logs.LogCollector::issuesListener:jadx.gui.utils.logs.ILogIssuesListener" />
+			<role name="Request()" element="jadx.gui.utils.logs.LogCollector::issuesUpdated():void" />
+			<role name="Request()" element="jadx.gui.utils.logs.LogCollector::registerIssueListener(jadx.gui.utils.logs.ILogIssuesListener):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="jadx.gui.ui.dialog.RenameDialog" />
+			<role name="State" element="jadx.gui.treemodel.JNode" />
+			<role name="state" element="jadx.gui.ui.dialog.RenameDialog::node:jadx.gui.treemodel.JNode" />
+			<role name="Request()" element="jadx.gui.ui.dialog.RenameDialog::initUI():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="jadx.gui.ui.panel.JDebuggerPanel" />
+			<role name="State" element="jadx.gui.ui.panel.IDebugController" />
+			<role name="state" element="jadx.gui.ui.panel.JDebuggerPanel::controller:jadx.gui.ui.panel.IDebugController" />
+			<role name="Request()" element="jadx.gui.ui.panel.JDebuggerPanel::initToolBar():javax.swing.JToolBar" />
+			<role name="Request()" element="jadx.gui.ui.panel.JDebuggerPanel::showDebugger(java.lang.String, java.lang.String, int, java.lang.String):boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="jadx.gui.device.debugger.DebugController" />
+			<role name="State" element="jadx.gui.device.debugger.DebugController$ResumeCmd" />
+			<role name="state" element="jadx.gui.device.debugger.DebugController::run:jadx.gui.device.debugger.DebugController$ResumeCmd" />
+			<role name="Request()" element="jadx.gui.device.debugger.DebugController::execResumeCmd(jadx.gui.device.debugger.DebugController$ResumeCmd):boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="jadx.gui.ui.codearea.CodePanel" />
+			<role name="State" element="jadx.gui.ui.codearea.AbstractCodeArea" />
+			<role name="state" element="jadx.gui.ui.codearea.CodePanel::codeArea:jadx.gui.ui.codearea.AbstractCodeArea" />
+			<role name="Request()" element="jadx.gui.ui.codearea.CodePanel::load():void" />
+			<role name="Request()" element="jadx.gui.ui.codearea.CodePanel::refresh(jadx.gui.utils.CaretPositionFix):void" />
+		</instance>
+		<instance>
+			<role name="State" element="jadx.api.ICodeWriter" />
+			<role name="Context" element="jadx.core.xmlgen.ProtoXMLParser" />
+			<role name="state" element="jadx.core.xmlgen.ProtoXMLParser::writer:jadx.api.ICodeWriter" />
+			<role name="Request()" element="jadx.core.xmlgen.ProtoXMLParser::parse(java.io.InputStream):jadx.api.ICodeInfo" />
+			<role name="Request()" element="jadx.core.xmlgen.ProtoXMLParser::decode(com.android.aapt.Resources$XmlNode):void" />
+			<role name="Request()" element="jadx.core.xmlgen.ProtoXMLParser::decode(com.android.aapt.Resources$XmlElement):void" />
+			<role name="Request()" element="jadx.core.xmlgen.ProtoXMLParser::decode(com.android.aapt.Resources$XmlAttribute):void" />
+			<role name="Request()" element="jadx.core.xmlgen.ProtoXMLParser::decode(com.android.aapt.Resources$XmlNamespace):void" />
+		</instance>
+		<instance>
+			<role name="State" element="jadx.api.ICodeWriter" />
+			<role name="Context" element="jadx.core.dex.visitors.DotGraphVisitor$DumpDotGraph" />
+			<role name="state" element="jadx.core.dex.visitors.DotGraphVisitor$DumpDotGraph::dot:jadx.api.ICodeWriter" />
+			<role name="state" element="jadx.core.dex.visitors.DotGraphVisitor$DumpDotGraph::conn:jadx.api.ICodeWriter" />
+			<role name="Request()" element="jadx.core.dex.visitors.DotGraphVisitor$DumpDotGraph::process(jadx.core.dex.nodes.MethodNode):void" />
+			<role name="Request()" element="jadx.core.dex.visitors.DotGraphVisitor$DumpDotGraph::processRegion(jadx.core.dex.nodes.MethodNode, jadx.core.dex.nodes.IContainer):void" />
+			<role name="Request()" element="jadx.core.dex.visitors.DotGraphVisitor$DumpDotGraph::processBlock(jadx.core.dex.nodes.MethodNode, jadx.core.dex.nodes.BlockNode, boolean):void" />
+			<role name="Request()" element="jadx.core.dex.visitors.DotGraphVisitor$DumpDotGraph::processIBlock(jadx.core.dex.nodes.MethodNode, jadx.core.dex.nodes.IBlock, boolean):void" />
+			<role name="Request()" element="jadx.core.dex.visitors.DotGraphVisitor$DumpDotGraph::addEdge(jadx.core.dex.nodes.BlockNode, jadx.core.dex.nodes.BlockNode, java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="jadx.gui.device.debugger.SmaliDebugger" />
+			<role name="State" element="jadx.gui.device.debugger.SmaliDebugger$SuspendListener" />
+			<role name="state" element="jadx.gui.device.debugger.SmaliDebugger::suspendListener:jadx.gui.device.debugger.SmaliDebugger$SuspendListener" />
+			<role name="Request()" element="jadx.gui.device.debugger.SmaliDebugger::lambda$decodingLoop$7():void" />
+			<role name="Request()" element="jadx.gui.device.debugger.SmaliDebugger::lambda$onSuspended$1():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="jadx.gui.jobs.BackgroundExecutor$TaskWorker" />
+			<role name="State" element="jadx.gui.jobs.IBackgroundTask" />
+			<role name="state" element="jadx.gui.jobs.BackgroundExecutor$TaskWorker::task:jadx.gui.jobs.IBackgroundTask" />
+			<role name="Request()" element="jadx.gui.jobs.BackgroundExecutor$TaskWorker::doInBackground():jadx.gui.jobs.TaskStatus" />
+			<role name="Request()" element="jadx.gui.jobs.BackgroundExecutor$TaskWorker::runJobs():void" />
+			<role name="Request()" element="jadx.gui.jobs.BackgroundExecutor$TaskWorker::performCancel(java.util.concurrent.ThreadPoolExecutor):void" />
+			<role name="Request()" element="jadx.gui.jobs.BackgroundExecutor$TaskWorker::done():void" />
+			<role name="Request()" element="jadx.gui.jobs.BackgroundExecutor$TaskWorker::lambda$buildCancelCheck$0(long, boolean):jadx.gui.jobs.TaskStatus" />
+		</instance>
+		<instance>
+			<role name="Context" element="jadx.gui.ui.codearea.SmaliArea" />
+			<role name="State" element="jadx.gui.ui.codearea.SmaliArea$SmaliModel" />
+			<role name="state" element="jadx.gui.ui.codearea.SmaliArea::model:jadx.gui.ui.codearea.SmaliArea$SmaliModel" />
+			<role name="Request()" element="jadx.gui.ui.codearea.SmaliArea::load():void" />
+			<role name="Request()" element="jadx.gui.ui.codearea.SmaliArea::switchModel():void" />
+		</instance>
+		<instance>
+			<role name="State" element="jadx.core.dex.instructions.BaseInvokeNode" />
+			<role name="Context" element="jadx.core.dex.visitors.typeinference.TypeBoundInvokeUse" />
+			<role name="state" element="jadx.core.dex.visitors.typeinference.TypeBoundInvokeUse::invokeNode:jadx.core.dex.instructions.BaseInvokeNode" />
+			<role name="Request()" element="jadx.core.dex.visitors.typeinference.TypeBoundInvokeUse::getType(jadx.core.dex.visitors.typeinference.TypeUpdateInfo):jadx.core.dex.instructions.args.ArgType" />
+			<role name="Request()" element="jadx.core.dex.visitors.typeinference.TypeBoundInvokeUse::getType():jadx.core.dex.instructions.args.ArgType" />
+			<role name="Request()" element="jadx.core.dex.visitors.typeinference.TypeBoundInvokeUse::toString():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Context" element="jadx.gui.device.debugger.smali.Smali" />
+			<role name="State" element="jadx.api.ICodeInfo" />
+			<role name="state" element="jadx.gui.device.debugger.smali.Smali::codeInfo:jadx.api.ICodeInfo" />
+			<role name="Request()" element="jadx.gui.device.debugger.smali.Smali::getCode():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Context" element="jadx.gui.ui.codearea.LineNumbers" />
+			<role name="State" element="jadx.api.ICodeInfo" />
+			<role name="state" element="jadx.gui.ui.codearea.LineNumbers::codeInfo:jadx.api.ICodeInfo" />
+			<role name="Request()" element="jadx.gui.ui.codearea.LineNumbers::getTextLineNumber(int):java.lang.String" />
+			<role name="Request()" element="jadx.gui.ui.codearea.LineNumbers::getMaxDebugLine():int" />
+		</instance>
+		<instance>
+			<role name="Context" element="jadx.core.xmlgen.BinaryXMLParser" />
+			<role name="State" element="jadx.api.ICodeWriter" />
+			<role name="state" element="jadx.core.xmlgen.BinaryXMLParser::writer:jadx.api.ICodeWriter" />
+			<role name="Request()" element="jadx.core.xmlgen.BinaryXMLParser::parse(java.io.InputStream):jadx.api.ICodeInfo" />
+			<role name="Request()" element="jadx.core.xmlgen.BinaryXMLParser::parseCData():void" />
+			<role name="Request()" element="jadx.core.xmlgen.BinaryXMLParser::parseElement():void" />
+			<role name="Request()" element="jadx.core.xmlgen.BinaryXMLParser::parseAttribute(int, boolean):void" />
+			<role name="Request()" element="jadx.core.xmlgen.BinaryXMLParser::generateNameForNS(java.lang.String):java.lang.String" />
+			<role name="Request()" element="jadx.core.xmlgen.BinaryXMLParser::decodeAttribute(int, int, int, java.lang.String, java.lang.String):void" />
+			<role name="Request()" element="jadx.core.xmlgen.BinaryXMLParser::parseElementEnd():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="jadx.core.dex.nodes.ClassNode" />
+			<role name="State" element="jadx.api.plugins.input.data.IClassData" />
+			<role name="state" element="jadx.core.dex.nodes.ClassNode::clsData:jadx.api.plugins.input.data.IClassData" />
+			<role name="Request()" element="jadx.core.dex.nodes.ClassNode::getDisassembledCode(java.lang.StringBuilder):void" />
+			<role name="Request()" element="jadx.core.dex.nodes.ClassNode::getInputFileName():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Context" element="jadx.api.JadxDecompiler" />
+			<role name="State" element="jadx.api.IDecompileScheduler" />
+			<role name="state" element="jadx.api.JadxDecompiler::decompileScheduler:jadx.api.IDecompileScheduler" />
+			<role name="Request()" element="jadx.api.JadxDecompiler::appendSourcesSave(java.util.List, java.io.File):void" />
+		</instance>
+		<instance>
+			<role name="State" element="jadx.gui.treemodel.JNode" />
+			<role name="Context" element="jadx.gui.ui.dialog.UsageDialog" />
+			<role name="state" element="jadx.gui.ui.dialog.UsageDialog::node:jadx.gui.treemodel.JNode" />
+			<role name="Request()" element="jadx.gui.ui.dialog.UsageDialog::initUI():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="jadx.gui.ui.dialog.CommentDialog" />
+			<role name="State" element="jadx.api.data.ICodeComment" />
+			<role name="state" element="jadx.gui.ui.dialog.CommentDialog::comment:jadx.api.data.ICodeComment" />
+			<role name="Request()" element="jadx.gui.ui.dialog.CommentDialog::apply():void" />
+			<role name="Request()" element="jadx.gui.ui.dialog.CommentDialog::initUI():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="jadx.core.dex.nodes.MethodNode" />
+			<role name="State" element="jadx.api.plugins.input.data.ICodeReader" />
+			<role name="state" element="jadx.core.dex.nodes.MethodNode::codeReader:jadx.api.plugins.input.data.ICodeReader" />
+			<role name="Request()" element="jadx.core.dex.nodes.MethodNode::load():void" />
+			<role name="Request()" element="jadx.core.dex.nodes.MethodNode::getMethodCodeOffset():long" />
+			<role name="Request()" element="jadx.core.dex.nodes.MethodNode::getDebugInfo():jadx.api.plugins.input.data.IDebugInfo" />
+		</instance>
+		<instance>
+			<role name="Context" element="jadx.gui.utils.logs.LogCollector" />
+			<role name="State" element="jadx.gui.utils.logs.ILogListener" />
+			<role name="state" element="jadx.gui.utils.logs.LogCollector::listener:jadx.gui.utils.logs.ILogListener" />
+			<role name="Request()" element="jadx.gui.utils.logs.LogCollector::append(ch.qos.logback.classic.spi.ILoggingEvent):void" />
+			<role name="Request()" element="jadx.gui.utils.logs.LogCollector::registerListener(jadx.gui.utils.logs.ILogListener):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="jadx.gui.treemodel.JResource" />
+			<role name="State" element="jadx.api.ICodeInfo" />
+			<role name="state" element="jadx.gui.treemodel.JResource::content:jadx.api.ICodeInfo" />
+			<role name="Request()" element="jadx.gui.treemodel.JResource::getContent():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Context" element="jadx.gui.device.debugger.DebugController" />
+			<role name="State" element="jadx.gui.device.debugger.ArtAdapter$Debugger" />
+			<role name="state" element="jadx.gui.device.debugger.DebugController::art:jadx.gui.device.debugger.ArtAdapter$Debugger" />
+			<role name="Request()" element="jadx.gui.device.debugger.DebugController::decodeObject(jadx.gui.device.debugger.DebugController$RuntimeValueTreeNode):boolean" />
+			<role name="Request()" element="jadx.gui.device.debugger.DebugController::getRegisterList():java.util.List" />
+		</instance>
+		<instance>
+			<role name="Context" element="jadx.api.plugins.input.data.impl.MethodRefHandle" />
+			<role name="State" element="jadx.api.plugins.input.data.IMethodRef" />
+			<role name="state" element="jadx.api.plugins.input.data.impl.MethodRefHandle::methodRef:jadx.api.plugins.input.data.IMethodRef" />
+			<role name="Request()" element="jadx.api.plugins.input.data.impl.MethodRefHandle::load():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="jadx.gui.device.debugger.DebugController" />
+			<role name="State" element="jadx.gui.ui.panel.IDebugController$StateListener" />
+			<role name="state" element="jadx.gui.device.debugger.DebugController::stateListener:jadx.gui.ui.panel.IDebugController$StateListener" />
+			<role name="Request()" element="jadx.gui.device.debugger.DebugController::setDebuggerState(boolean, boolean):void" />
+		</instance>
+	</pattern>
+	<pattern name="Strategy" />
+	<pattern name="Bridge" />
+	<pattern name="Template Method">
+		<instance>
+			<role name="AbstractClass" element="jadx.gui.treemodel.JNode" />
+			<role name="TemplateMethod()" element="jadx.gui.treemodel.JNode::makeStringHtml():java.lang.String" />
+			<role name="TemplateMethod()" element="jadx.gui.treemodel.JNode::makeLongString():java.lang.String" />
+			<role name="TemplateMethod()" element="jadx.gui.treemodel.JNode::toString():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="jadx.gui.ui.panel.JDebuggerPanel$ValueTreeNode" />
+			<role name="TemplateMethod()" element="jadx.gui.ui.panel.JDebuggerPanel$ValueTreeNode::toString():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="jadx.gui.ui.dialog.CommonSearchDialog" />
+			<role name="TemplateMethod()" element="jadx.gui.ui.dialog.CommonSearchDialog::prepare():void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="jadx.gui.ui.codearea.JNodeMenuAction" />
+			<role name="TemplateMethod()" element="jadx.gui.ui.codearea.JNodeMenuAction::getNode():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="jadx.core.dex.visitors.regions.TracedRegionVisitor" />
+			<role name="TemplateMethod()" element="jadx.core.dex.visitors.regions.TracedRegionVisitor::processBlock(jadx.core.dex.nodes.MethodNode, jadx.core.dex.nodes.IBlock):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="jadx.core.dex.instructions.args.ArgType" />
+			<role name="TemplateMethod()" element="jadx.core.dex.instructions.args.ArgType::canBeObject():boolean" />
+			<role name="TemplateMethod()" element="jadx.core.dex.instructions.args.ArgType::canBeArray():boolean" />
+			<role name="TemplateMethod()" element="jadx.core.dex.instructions.args.ArgType::canBePrimitive(jadx.core.dex.instructions.args.PrimitiveType):boolean" />
+			<role name="TemplateMethod()" element="jadx.core.dex.instructions.args.ArgType::canBeAnyNumber():boolean" />
+			<role name="TemplateMethod()" element="jadx.core.dex.instructions.args.ArgType::equals(java.lang.Object):boolean" />
+		</instance>
+	</pattern>
+	<pattern name="Visitor" />
+	<pattern name="Proxy">
+		<instance>
+			<role name="Proxy" element="jadx.gui.treemodel.JResSearchNode" />
+			<role name="RealSubject" element="jadx.gui.treemodel.JResource" />
+			<role name="Request()" element="jadx.gui.treemodel.JResSearchNode::getJParent():jadx.gui.treemodel.JClass" />
+			<role name="Request()" element="jadx.gui.treemodel.JResSearchNode::getIcon():javax.swing.Icon" />
+			<role name="Request()" element="jadx.gui.treemodel.JResSearchNode::makeString():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="jadx.gui.treemodel.JVariable" />
+			<role name="RealSubject" element="jadx.gui.treemodel.JMethod" />
+			<role name="Request()" element="jadx.gui.treemodel.JVariable::getJParent():jadx.gui.treemodel.JClass" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="jadx.core.dex.nodes.MethodNode" />
+			<role name="RealSubject" element="jadx.core.dex.nodes.ClassNode" />
+			<role name="Request()" element="jadx.core.dex.nodes.MethodNode::root():jadx.core.dex.nodes.RootNode" />
+			<role name="Request()" element="jadx.core.dex.nodes.MethodNode::getInputFileName():java.lang.String" />
+			<role name="Request()" element="jadx.core.dex.nodes.ClassNode::load():void" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="jadx.core.dex.nodes.FieldNode" />
+			<role name="RealSubject" element="jadx.core.dex.nodes.ClassNode" />
+			<role name="Request()" element="jadx.core.dex.nodes.FieldNode::getInputFileName():java.lang.String" />
+			<role name="Request()" element="jadx.core.dex.nodes.FieldNode::root():jadx.core.dex.nodes.RootNode" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="jadx.core.dex.regions.SynchronizedRegion" />
+			<role name="RealSubject" element="jadx.core.dex.regions.Region" />
+			<role name="Request()" element="jadx.core.dex.regions.SynchronizedRegion::getSubBlocks():java.util.List" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="jadx.api.JavaField" />
+			<role name="RealSubject" element="jadx.api.JavaClass" />
+			<role name="Request()" element="jadx.api.JavaField::getFullName():java.lang.String" />
+			<role name="Request()" element="jadx.api.JavaField::getTopParentClass():jadx.api.JavaClass" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="jadx.api.JavaMethod" />
+			<role name="RealSubject" element="jadx.api.JavaClass" />
+			<role name="Request()" element="jadx.api.JavaMethod::getTopParentClass():jadx.api.JavaClass" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="jadx.api.JavaVariable" />
+			<role name="RealSubject" element="jadx.api.JavaMethod" />
+			<role name="Request()" element="jadx.api.JavaVariable::getDeclaringClass():jadx.api.JavaClass" />
+			<role name="Request()" element="jadx.api.JavaVariable::getTopParentClass():jadx.api.JavaClass" />
+		</instance>
+	</pattern>
+	<pattern name="Proxy2" />
+	<pattern name="Chain of Responsibility" />
+</system>
+

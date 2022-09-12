@@ -1,0 +1,52 @@
+Downloading https://services.gradle.org/distributions/gradle-6.6.1-bin.zip
+.........10%..........20%..........30%..........40%.........50%..........60%..........70%..........80%..........90%.........100%
+
+Welcome to Gradle 6.6.1!
+
+Here are the highlights of this release:
+ - Experimental build configuration caching
+ - Built-in conventions for handling credentials
+ - Java compilation supports --release flag
+
+For more details see https://docs.gradle.org/6.6.1/release-notes.html
+
+To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.6.1/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+
+> Configure project :
+jadx version: dev
+
+> Task :cleanBuildDir UP-TO-DATE
+> Task :clean
+> Task :jadx-cli:clean UP-TO-DATE
+> Task :jadx-core:clean UP-TO-DATE
+> Task :jadx-gui:clean UP-TO-DATE
+> Task :jadx-plugins:clean UP-TO-DATE
+> Task :jadx-samples:cleanGeneratedFiles UP-TO-DATE
+> Task :jadx-samples:clean UP-TO-DATE
+> Task :jadx-plugins:jadx-dex-input:clean UP-TO-DATE
+> Task :jadx-plugins:jadx-java-convert:clean UP-TO-DATE
+> Task :jadx-plugins:jadx-plugins-api:clean UP-TO-DATE
+> Task :jadx-plugins:jadx-smali-input:clean UP-TO-DATE
+> Task :compileJava NO-SOURCE
+> Task :jadx-plugins:jadx-plugins-api:compileJava
+> Task :jadx-core:compileJava
+> Task :jadx-cli:compileJava
+> Task :jadx-cli:processResources
+> Task :jadx-cli:classes
+> Task :jadx-cli:jar
+
+> Task :jadx-gui:compileJava
+/results/skylot-jadx/RELEASES/381afa27410249aae4a99a3f88bb65ecce548f6c/jadx-gui/src/main/java/jadx/gui/settings/JadxSettingsWindow.java:161: warning: [serial] serializable class <anonymous jadx.gui.settings.JadxSettingsWindow$1> has no definition of serialVersionUID
+		getRootPane().getActionMap().put("ESCAPE", new AbstractAction() {
+		                                                                ^
+1 warning
+
+> Task :jadx-plugins:compileJava NO-SOURCE
+> Task :jadx-samples:compileJava
+> Task :jadx-plugins:jadx-dex-input:compileJava
+> Task :jadx-plugins:jadx-java-convert:compileJava
+> Task :jadx-plugins:jadx-smali-input:compileJava
+
+BUILD SUCCESSFUL in 53s
+22 actionable tasks: 11 executed, 11 up-to-date

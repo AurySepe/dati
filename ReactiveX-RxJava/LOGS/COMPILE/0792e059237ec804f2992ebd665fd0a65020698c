@@ -1,0 +1,10 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. See https://docs.gradle.org/6.8.3/userguide/gradle_daemon.html#sec:disabling_the_daemon.
+Daemon will be stopped at the end of the build 
+> Task :clean UP-TO-DATE
+
+> Task :compileJava
+Note: /results/ReactiveX-RxJava/RELEASES/0792e059237ec804f2992ebd665fd0a65020698c/src/main/java/io/reactivex/rxjava3/plugins/RxJavaPlugins.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+BUILD SUCCESSFUL in 18s
+2 actionable tasks: 1 executed, 1 up-to-date

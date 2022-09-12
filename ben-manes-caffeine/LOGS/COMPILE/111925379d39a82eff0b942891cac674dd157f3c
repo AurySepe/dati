@@ -1,0 +1,43 @@
+Downloading https://services.gradle.org/distributions/gradle-4.5.1-bin.zip
+.....................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Unzipping /root/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1-bin.zip to /root/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k
+Set executable permissions for: /root/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/bin/gradle
+To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/4.5.1/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+Download http://repo.spring.io/plugins-release/com/gradle/build-scan-plugin/1.12.1/build-scan-plugin-1.12.1.pom
+Download http://repo.spring.io/plugins-release/net/ltgt/gradle/gradle-apt-plugin/0.14/gradle-apt-plugin-0.14.pom
+Download http://repo.spring.io/plugins-release/com/puppycrawl/tools/checkstyle/8.8/checkstyle-8.8.pom
+Download http://repo.spring.io/plugins-release/org/openjdk/jmh/jmh-core/1.20/jmh-core-1.20.pom
+[Fatal Error] build-scan-plugin-1.12.1.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] checkstyle-8.8.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] jmh-core-1.20.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] gradle-apt-plugin-0.14.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+Download https://plugins.gradle.org/m2/com/puppycrawl/tools/checkstyle/8.8/checkstyle-8.8.pom
+Download http://repo.spring.io/plugins-release/org/sonarsource/scanner/gradle/sonarqube-gradle-plugin/2.6.2/sonarqube-gradle-plugin-2.6.2.pom
+[Fatal Error] sonarqube-gradle-plugin-2.6.2.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+Download https://plugins.gradle.org/m2/org/openjdk/jmh/jmh-core/1.20/jmh-core-1.20.pom
+Download http://repo.spring.io/plugins-release/org/openjdk/jmh/jmh-parent/1.20/jmh-parent-1.20.pom
+[Fatal Error] jmh-parent-1.20.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+Download https://plugins.gradle.org/m2/com/gradle/build-scan-plugin/1.12.1/build-scan-plugin-1.12.1.pom
+Download https://plugins.gradle.org/m2/net/ltgt/gradle/gradle-apt-plugin/0.14/gradle-apt-plugin-0.14.pom
+Download https://plugins.gradle.org/m2/org/sonarsource/scanner/gradle/sonarqube-gradle-plugin/2.6.2/sonarqube-gradle-plugin-2.6.2.pom
+Download https://plugins.gradle.org/m2/org/openjdk/jmh/jmh-parent/1.20/jmh-parent-1.20.pom
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'caffeine'.
+> Could not resolve all files for configuration ':classpath'.
+   > Could not resolve io.spring.gradle:propdeps-plugin:0.0.10.RELEASE.
+     Required by:
+         project :
+      > Could not resolve io.spring.gradle:propdeps-plugin:0.0.10.RELEASE.
+         > Failed to download SHA1 for resource 'http://repo.spring.io/plugins-release/io/spring/gradle/propdeps-plugin/0.0.10.RELEASE/propdeps-plugin-0.0.10.RELEASE.pom'.
+            > For input string: "<ht"
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 44s

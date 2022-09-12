@@ -1,0 +1,712 @@
+CLASSDATASHOULDBEPRIVATE	COMPLEXCLASS	FUNCTIONALDECOMPOSITION	GODCLASS	ID	NAME	PATTERNROLE	PATTERNTYPE	SPAGHETTICODE
+false	false	false	false	358	com.ctrip.framework.apollo.assembly.LocalApolloApplication			false
+false	false	false	false	354	com.ctrip.framework.apollo.assembly.ApolloApplication			false
+false	false	false	false	667	com.ctrip.framework.apollo.demo.spring.javaConfigDemo.AnnotationApplication			false
+false	false	false	false	727	com.ctrip.framework.apollo.demo.spring.springBootDemo.refresh.SpringBootApolloRefreshConfig			false
+false	false	false	false	683	com.ctrip.framework.apollo.demo.spring.springBootDemo.config.SampleRedisConfig			false
+false	false	false	false	682	com.ctrip.framework.apollo.demo.spring.springBootDemo.SpringBootSampleApplication			false
+false	false	false	false	728	com.ctrip.framework.apollo.demo.spring.xmlConfigDemo.bean.XmlBean			false
+false	false	false	false	668	com.ctrip.framework.apollo.demo.spring.xmlConfigDemo.XmlApplication			false
+false	false	false	false	669	com.ctrip.framework.apollo.demo.spring.common.bean.AnnotatedBean			false
+false	false	false	false	673	com.ctrip.framework.apollo.demo.spring.common.config.AppConfig			false
+false	false	false	false	672	com.ctrip.framework.apollo.demo.spring.common.config.AnotherAppConfig			false
+false	false	false	false	134	com.ctrip.framework.apollo.demo.api.ApolloConfigDemo	context	State	false
+false	false	false	false	551	com.ctrip.framework.apollo.demo.api.SimpleApolloConfigDemo	context	State	false
+false	false	false	false	280	com.ctrip.framework.apollo.LocalPortalApplication			false
+false	false	false	false	841	com.ctrip.framework.apollo.SkipAuthorizationConfiguration			false
+false	false	false	false	264	com.ctrip.framework.apollo.BaseIntegrationTest			false
+false	false	false	false	272	com.ctrip.framework.apollo.Apollo			false
+false	false	false	false	205	com.ctrip.framework.apollo.ConfigServiceTest			false
+false	false	false	false	264	com.ctrip.framework.apollo.BaseIntegrationTest			false
+false	false	false	false	177	com.ctrip.framework.apollo.ConfigService	singleton	Singleton	false
+false	false	false	false	240	com.ctrip.framework.apollo.ConfigChangeListener			false
+false	false	false	false	849	com.ctrip.framework.apollo.PropertiesCompatibleConfigFile	state	State	false
+false	false	false	false	713	com.ctrip.framework.apollo.ConfigFileChangeListener			false
+false	false	false	false	176	com.ctrip.framework.apollo.Config	state	State	false
+false	false	false	false	448	com.ctrip.framework.apollo.ConfigFile			false
+false	false	false	false	175	com.ctrip.framework.apollo.LocalAdminServiceApplication			false
+false	false	false	false	229	com.ctrip.framework.apollo.AdminServiceTestConfiguration			false
+false	false	false	false	252	com.ctrip.framework.apollo.ConfigServiceTestConfiguration			false
+false	false	false	false	173	com.ctrip.framework.apollo.LocalConfigServiceApplication			false
+false	false	false	false	844	com.ctrip.framework.apollo.portal.controller.CommitControllerTest			false
+false	false	false	false	926	com.ctrip.framework.apollo.portal.controller.ItemControllerTest			false
+false	false	false	false	845	com.ctrip.framework.apollo.portal.controller.ServerConfigControllerTest			false
+false	false	false	false	342	com.ctrip.framework.apollo.portal.controller.NamespaceController			false
+false	false	false	false	436	com.ctrip.framework.apollo.portal.controller.SsoHeartbeatController	context	State	false
+false	false	false	false	901	com.ctrip.framework.apollo.portal.controller.AccessKeyController			false
+false	false	false	false	417	com.ctrip.framework.apollo.portal.controller.OrganizationController			false
+false	false	false	false	838	com.ctrip.framework.apollo.portal.controller.ConfigsExportController			false
+false	false	false	false	444	com.ctrip.framework.apollo.portal.controller.NamespaceLockController			false
+false	false	false	false	552	com.ctrip.framework.apollo.portal.controller.FavoriteController			false
+false	false	false	false	207	com.ctrip.framework.apollo.portal.controller.AppController			false
+false	false	false	false	883	com.ctrip.framework.apollo.portal.controller.PrefixPathController			false
+false	false	false	false	744	com.ctrip.framework.apollo.portal.controller.SignInController			false
+false	false	false	false	581	com.ctrip.framework.apollo.portal.controller.NamespaceBranchController			false
+false	false	false	false	678	com.ctrip.framework.apollo.portal.controller.PageSettingController			false
+false	false	false	false	426	com.ctrip.framework.apollo.portal.controller.CommitController			false
+false	false	false	false	517	com.ctrip.framework.apollo.portal.controller.ConsumerController			false
+false	false	false	false	369	com.ctrip.framework.apollo.portal.controller.ServerConfigController	context	State	false
+false	false	false	false	109	com.ctrip.framework.apollo.portal.controller.ItemController			false
+false	false	false	false	802	com.ctrip.framework.apollo.portal.controller.SystemInfoController			false
+false	false	false	false	432	com.ctrip.framework.apollo.portal.controller.ClusterController			false
+false	false	false	false	582	com.ctrip.framework.apollo.portal.controller.ReleaseHistoryController			false
+false	false	false	false	310	com.ctrip.framework.apollo.portal.controller.EnvController			false
+false	false	false	false	461	com.ctrip.framework.apollo.portal.controller.ReleaseController			false
+false	false	false	false	403	com.ctrip.framework.apollo.portal.controller.PermissionController			false
+false	false	false	false	927	com.ctrip.framework.apollo.portal.controller.ConfigsImportController			false
+false	false	false	false	542	com.ctrip.framework.apollo.portal.controller.InstanceController			false
+false	false	false	false	375	com.ctrip.framework.apollo.portal.controller.UserInfoController	context	State	false
+false	false	false	false	291	com.ctrip.framework.apollo.portal.ServiceExceptionTest			false
+false	false	false	false	14	com.ctrip.framework.apollo.portal.AbstractIntegrationTest			false
+false	false	false	false	483	com.ctrip.framework.apollo.portal.RetryableRestTemplateTest			false
+false	false	false	false	470	com.ctrip.framework.apollo.portal.AbstractUnitTest			false
+false	false	false	false	3	com.ctrip.framework.apollo.portal.PortalApplication			false
+false	false	false	false	848	com.ctrip.framework.apollo.portal.ServletInitializer			false
+false	false	false	false	274	com.ctrip.framework.apollo.portal.service.ConfigServiceTest			false
+false	false	false	false	556	com.ctrip.framework.apollo.portal.service.FavoriteServiceTest			false
+false	false	false	false	344	com.ctrip.framework.apollo.portal.service.NamespaceServiceTest			false
+false	false	false	false	471	com.ctrip.framework.apollo.portal.service.AppNamespaceServiceTest			false
+false	false	false	false	902	com.ctrip.framework.apollo.portal.service.AccessKeyService			false
+false	false	false	false	458	com.ctrip.framework.apollo.portal.service.AppNamespaceService			false
+false	false	false	false	544	com.ctrip.framework.apollo.portal.service.InstanceService			false
+false	false	false	false	636	com.ctrip.framework.apollo.portal.service.PortalDBPropertySource	adapter	(Object)Adapter	false
+false	false	false	false	555	com.ctrip.framework.apollo.portal.service.FavoriteService	context	State	false
+false	false	false	false	929	com.ctrip.framework.apollo.portal.service.ConfigsExportService			false
+false	false	false	false	584	com.ctrip.framework.apollo.portal.service.NamespaceBranchService			false
+false	false	false	false	411	com.ctrip.framework.apollo.portal.service.AppService			false
+false	false	false	false	343	com.ctrip.framework.apollo.portal.service.NamespaceService			false
+false	false	false	false	396	com.ctrip.framework.apollo.portal.service.RolePermissionService	implementor	Bridge	false
+false	false	false	false	445	com.ctrip.framework.apollo.portal.service.NamespaceLockService			false
+false	false	false	false	113	com.ctrip.framework.apollo.portal.service.ItemService	context	State	false
+false	false	false	false	427	com.ctrip.framework.apollo.portal.service.CommitService			false
+false	false	false	false	412	com.ctrip.framework.apollo.portal.service.RoleInitializationService			false
+false	false	false	false	873	com.ctrip.framework.apollo.portal.service.SystemRoleManagerService			false
+false	false	false	false	585	com.ctrip.framework.apollo.portal.service.ReleaseHistoryService			false
+false	false	false	false	930	com.ctrip.framework.apollo.portal.service.ConfigsImportService			false
+false	false	false	false	463	com.ctrip.framework.apollo.portal.service.ReleaseService			false
+false	false	false	false	211	com.ctrip.framework.apollo.portal.service.ClusterService			false
+false	false	false	false	275	com.ctrip.framework.apollo.portal.component.txtresolver.PropertyResolverTest			false
+false	false	false	false	473	com.ctrip.framework.apollo.portal.component.txtresolver.FileTextResolverTest			false
+false	false	false	false	459	com.ctrip.framework.apollo.portal.component.txtresolver.FileTextResolver			false
+false	false	false	false	247	com.ctrip.framework.apollo.portal.component.txtresolver.PropertyResolver			false
+false	false	false	false	234	com.ctrip.framework.apollo.portal.component.txtresolver.ConfigTextResolver	creator	Factory Method	false
+false	false	false	false	637	com.ctrip.framework.apollo.portal.config.ConfigTest			false
+false	false	false	false	836	com.ctrip.framework.apollo.portal.util.RoleUtilsTest			false
+false	false	false	false	911	com.ctrip.framework.apollo.portal.util.KeyValueUtilsTest			false
+false	false	false	false	933	com.ctrip.framework.apollo.portal.util.ConfigFileUtilsTest			false
+false	false	false	false	586	com.ctrip.framework.apollo.portal.util.RelativeDateFormat			false
+false	false	false	false	932	com.ctrip.framework.apollo.portal.util.NamespaceBOUtils			false
+false	false	false	false	931	com.ctrip.framework.apollo.portal.util.ConfigFileUtils			false
+false	false	false	false	906	com.ctrip.framework.apollo.portal.util.KeyValueUtils			false
+false	false	false	false	839	com.ctrip.framework.apollo.portal.util.ConfigToFileUtils			false
+false	false	false	false	414	com.ctrip.framework.apollo.portal.util.RoleUtils			false
+false	false	false	false	918	com.ctrip.framework.apollo.portal.environment.DatabasePortalMetaServerProviderTest			false
+false	false	false	false	908	com.ctrip.framework.apollo.portal.environment.EnvTest			false
+false	false	false	false	907	com.ctrip.framework.apollo.portal.environment.BaseIntegrationTest			false
+false	false	false	false	910	com.ctrip.framework.apollo.portal.environment.DefaultPortalMetaServerProviderTest			false
+false	false	false	false	909	com.ctrip.framework.apollo.portal.environment.PortalMetaDomainServiceTest			false
+false	false	false	false	905	com.ctrip.framework.apollo.portal.environment.PortalMetaServerProvider			false
+false	false	false	false	903	com.ctrip.framework.apollo.portal.environment.Env			false
+false	false	false	false	916	com.ctrip.framework.apollo.portal.environment.DatabasePortalMetaServerProvider	adapter	(Object)Adapter	false
+false	false	false	false	904	com.ctrip.framework.apollo.portal.environment.PortalMetaDomainService			false
+false	false	false	false	917	com.ctrip.framework.apollo.portal.environment.DefaultPortalMetaServerProvider			false
+false	false	false	false	472	com.ctrip.framework.apollo.portal.spi.defaultImpl.RoleInitializationServiceTest			false
+false	false	false	false	397	com.ctrip.framework.apollo.portal.spi.defaultImpl.RolePermissionServiceTest			false
+false	false	false	false	431	com.ctrip.framework.apollo.portal.spi.ctrip.CtripUserServiceTest			false
+false	false	false	false	433	com.ctrip.framework.apollo.portal.spi.ctrip.CtripSsoHeartbeatHandler			false
+false	false	false	false	624	com.ctrip.framework.apollo.portal.spi.ctrip.CtripEmailRequestBuilder	adaptee	(Object)Adapter	false
+false	false	false	false	374	com.ctrip.framework.apollo.portal.spi.ctrip.WebContextConfiguration			false
+false	false	false	false	370	com.ctrip.framework.apollo.portal.spi.ctrip.CtripUserInfoHolder			false
+false	false	false	false	386	com.ctrip.framework.apollo.portal.spi.ctrip.BizLoggingCustomizer	adapter	(Object)Adapter	false
+false	false	false	false	377	com.ctrip.framework.apollo.portal.spi.ctrip.CtripLogoutHandler	adapter	(Object)Adapter	false
+false	false	false	false	428	com.ctrip.framework.apollo.portal.spi.ctrip.CtripUserService	adapter	(Object)Adapter	false
+false	false	false	false	676	com.ctrip.framework.apollo.portal.spi.ctrip.CtripMQService	adapter	(Object)Adapter	false
+false	false	false	false	625	com.ctrip.framework.apollo.portal.spi.ctrip.CtripEmailService	adapter	(Object)Adapter	false
+false	false	false	false	843	com.ctrip.framework.apollo.openapi.v1.controller.NamespaceControllerTest			false
+false	false	false	false	842	com.ctrip.framework.apollo.openapi.v1.controller.AbstractControllerTest			false
+false	false	false	false	515	com.ctrip.framework.apollo.openapi.v1.controller.NamespaceController			false
+false	false	false	false	528	com.ctrip.framework.apollo.openapi.v1.controller.AppController			false
+false	false	false	false	834	com.ctrip.framework.apollo.openapi.v1.controller.NamespaceBranchController			false
+false	false	false	false	514	com.ctrip.framework.apollo.openapi.v1.controller.ItemController			false
+false	false	false	false	878	com.ctrip.framework.apollo.openapi.v1.controller.ClusterController			false
+false	false	false	false	516	com.ctrip.framework.apollo.openapi.v1.controller.ReleaseController			false
+false	false	false	false	519	com.ctrip.framework.apollo.openapi.service.ConsumerRolePermissionServiceTest			false
+false	false	false	false	520	com.ctrip.framework.apollo.openapi.service.ConsumerServiceTest			false
+false	false	false	false	511	com.ctrip.framework.apollo.openapi.service.ConsumerService			false
+false	false	false	false	510	com.ctrip.framework.apollo.openapi.service.ConsumerRolePermissionService			false
+false	false	false	false	526	com.ctrip.framework.apollo.openapi.util.ConsumerAuditUtilTest			false
+false	false	false	false	521	com.ctrip.framework.apollo.openapi.util.ConsumerAuthUtilTest			false
+false	false	false	false	525	com.ctrip.framework.apollo.openapi.util.ConsumerAuditUtil			false
+false	false	false	false	512	com.ctrip.framework.apollo.openapi.util.ConsumerAuthUtil			false
+false	false	false	false	513	com.ctrip.framework.apollo.openapi.util.OpenApiBeanUtils			false
+false	false	false	false	518	com.ctrip.framework.apollo.openapi.filter.ConsumerAuthenticationFilterTest			false
+false	false	false	false	506	com.ctrip.framework.apollo.openapi.filter.ConsumerAuthenticationFilter			false
+false	false	false	false	553	com.ctrip.framework.apollo.portal.entity.po.Favorite			false
+false	false	false	false	745	com.ctrip.framework.apollo.portal.entity.po.UserPO			false
+false	false	false	false	365	com.ctrip.framework.apollo.portal.entity.po.ServerConfig			false
+false	false	false	false	390	com.ctrip.framework.apollo.portal.entity.po.RolePermission			false
+false	false	false	false	389	com.ctrip.framework.apollo.portal.entity.po.Role			false
+false	false	false	false	391	com.ctrip.framework.apollo.portal.entity.po.UserRole			false
+false	false	false	false	388	com.ctrip.framework.apollo.portal.entity.po.Permission			false
+false	false	false	false	628	com.ctrip.framework.apollo.portal.entity.bo.ItemBO			false
+false	false	false	false	488	com.ctrip.framework.apollo.portal.entity.bo.KVEntity			false
+false	false	false	false	376	com.ctrip.framework.apollo.portal.entity.bo.UserInfo			false
+false	false	false	false	462	com.ctrip.framework.apollo.portal.entity.bo.ReleaseBO			false
+false	false	false	false	209	com.ctrip.framework.apollo.portal.entity.bo.NamespaceBO			false
+false	false	false	false	928	com.ctrip.framework.apollo.portal.entity.bo.ConfigBO			false
+false	false	false	false	583	com.ctrip.framework.apollo.portal.entity.bo.ReleaseHistoryBO			false
+false	false	false	false	619	com.ctrip.framework.apollo.portal.entity.bo.Email			false
+false	false	false	false	259	com.ctrip.framework.apollo.portal.entity.model.NamespaceTextModel			false
+false	false	false	false	258	com.ctrip.framework.apollo.portal.entity.model.Verifiable			false
+false	false	false	false	416	com.ctrip.framework.apollo.portal.entity.model.NamespaceCreationModel			false
+false	false	false	false	835	com.ctrip.framework.apollo.portal.entity.model.NamespaceGrayDelReleaseModel			false
+false	false	false	false	338	com.ctrip.framework.apollo.portal.entity.model.NamespaceSyncModel			false
+false	false	false	false	260	com.ctrip.framework.apollo.portal.entity.model.NamespaceReleaseModel			false
+false	false	false	false	645	com.ctrip.framework.apollo.portal.entity.model.AppModel			false
+false	false	false	false	543	com.ctrip.framework.apollo.portal.entity.vo.Number			false
+false	false	false	false	679	com.ctrip.framework.apollo.portal.entity.vo.PageSetting			false
+false	false	false	false	643	com.ctrip.framework.apollo.portal.entity.vo.LockInfo			false
+false	false	false	false	490	com.ctrip.framework.apollo.portal.entity.vo.Change			false
+false	false	false	false	406	com.ctrip.framework.apollo.portal.entity.vo.PermissionCondition			false
+false	false	false	false	803	com.ctrip.framework.apollo.portal.entity.vo.EnvironmentInfo			false
+false	false	false	false	404	com.ctrip.framework.apollo.portal.entity.vo.AppRolesAssignedUsers			false
+false	false	false	false	804	com.ctrip.framework.apollo.portal.entity.vo.SystemInfo			false
+false	false	false	false	351	com.ctrip.framework.apollo.portal.entity.vo.EnvClusterInfo			false
+false	false	false	false	337	com.ctrip.framework.apollo.portal.entity.vo.NamespaceIdentifier			false
+false	false	false	false	336	com.ctrip.framework.apollo.portal.entity.vo.ItemDiffs			false
+false	false	false	false	405	com.ctrip.framework.apollo.portal.entity.vo.NamespaceRolesAssignedUsers			false
+false	false	false	false	418	com.ctrip.framework.apollo.portal.entity.vo.Organization			false
+false	false	false	false	489	com.ctrip.framework.apollo.portal.entity.vo.ReleaseCompareResult			false
+false	false	false	false	793	com.ctrip.framework.apollo.portal.entity.vo.NamespaceEnvRolesAssignedUsers			false
+false	false	false	false	482	com.ctrip.framework.apollo.portal.constant.TracerEventType			false
+false	false	false	false	401	com.ctrip.framework.apollo.portal.constant.PermissionType			false
+false	false	false	false	402	com.ctrip.framework.apollo.portal.constant.RoleType			false
+false	false	false	false	279	com.ctrip.framework.apollo.portal.component.RestTemplateFactory			false
+false	false	false	false	400	com.ctrip.framework.apollo.portal.component.PermissionValidator			false
+false	false	false	false	580	com.ctrip.framework.apollo.portal.component.ItemsComparator			false
+false	false	false	false	480	com.ctrip.framework.apollo.portal.component.AdminServiceAddressLocator			false
+false	false	false	false	934	com.ctrip.framework.apollo.portal.component.ConfigReleaseWebhookNotifier			false
+false	false	false	false	128	com.ctrip.framework.apollo.portal.component.PortalSettings			false
+false	false	false	false	481	com.ctrip.framework.apollo.portal.component.RetryableRestTemplate			false
+false	false	false	false	635	com.ctrip.framework.apollo.portal.component.config.PortalConfig	adaptee	(Object)Adapter	false
+false	false	false	false	614	com.ctrip.framework.apollo.portal.component.emailbuilder.ConfigPublishEmailBuilder	abstraction	Bridge	false
+false	false	false	false	617	com.ctrip.framework.apollo.portal.component.emailbuilder.NormalPublishEmailBuilder			false
+false	false	false	false	616	com.ctrip.framework.apollo.portal.component.emailbuilder.MergeEmailBuilder			false
+false	false	false	false	615	com.ctrip.framework.apollo.portal.component.emailbuilder.GrayPublishEmailBuilder			false
+false	false	false	false	618	com.ctrip.framework.apollo.portal.component.emailbuilder.RollbackEmailBuilder			false
+false	false	false	false	746	com.ctrip.framework.apollo.portal.repository.UserRepository	state	State	false
+false	false	false	false	393	com.ctrip.framework.apollo.portal.repository.RolePermissionRepository	adaptee	(Object)Adapter	false
+false	false	false	false	366	com.ctrip.framework.apollo.portal.repository.ServerConfigRepository	state	State	false
+false	false	false	false	394	com.ctrip.framework.apollo.portal.repository.RoleRepository	adaptee	(Object)Adapter	false
+false	false	false	false	410	com.ctrip.framework.apollo.portal.repository.AppRepository			false
+false	false	false	false	409	com.ctrip.framework.apollo.portal.repository.AppNamespaceRepository			false
+false	false	false	false	395	com.ctrip.framework.apollo.portal.repository.UserRoleRepository	adaptee	(Object)Adapter	false
+false	false	false	false	554	com.ctrip.framework.apollo.portal.repository.FavoriteRepository	state	State	false
+false	false	false	false	392	com.ctrip.framework.apollo.portal.repository.PermissionRepository	adaptee	(Object)Adapter	false
+false	false	false	false	620	com.ctrip.framework.apollo.portal.listener.ConfigPublishEvent			false
+false	false	false	false	650	com.ctrip.framework.apollo.portal.listener.AppInfoChangedListener			false
+false	false	false	false	791	com.ctrip.framework.apollo.portal.listener.AppNamespaceDeletionEvent			false
+false	false	false	false	407	com.ctrip.framework.apollo.portal.listener.AppCreationEvent			false
+false	false	false	false	415	com.ctrip.framework.apollo.portal.listener.AppNamespaceCreationEvent			false
+false	false	false	false	621	com.ctrip.framework.apollo.portal.listener.ConfigPublishListener			false
+false	false	false	false	792	com.ctrip.framework.apollo.portal.listener.DeletionListener			false
+false	false	false	false	649	com.ctrip.framework.apollo.portal.listener.AppInfoChangedEvent			false
+false	false	false	false	408	com.ctrip.framework.apollo.portal.listener.CreationListener			false
+false	false	false	false	790	com.ctrip.framework.apollo.portal.listener.AppDeletionEvent			false
+false	false	false	false	379	com.ctrip.framework.apollo.portal.spi.LogoutHandler	state	State	false
+false	false	false	false	622	com.ctrip.framework.apollo.portal.spi.EmailService			false
+false	false	false	false	430	com.ctrip.framework.apollo.portal.spi.UserService	implementor	Bridge	false
+false	false	false	false	435	com.ctrip.framework.apollo.portal.spi.SsoHeartbeatHandler	state	State	false
+false	false	false	false	588	com.ctrip.framework.apollo.portal.spi.UserInfoHolder			false
+false	false	false	false	674	com.ctrip.framework.apollo.portal.spi.MQService			false
+false	false	false	false	638	com.ctrip.framework.apollo.portal.spi.ctrip.filters.UserAccessFilter			false
+false	false	false	false	429	com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultUserService			false
+false	false	false	false	712	com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRolePermissionService	adapter	(Object)Adapter	false
+false	false	false	false	434	com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultSsoHeartbeatHandler			false
+false	false	false	false	677	com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultMQService			false
+false	false	false	false	371	com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultUserInfoHolder			false
+false	false	false	false	626	com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultEmailService	adapter	(Object)Adapter	false
+false	false	false	false	711	com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRoleInitializationService	context	State	false
+false	false	false	false	378	com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultLogoutHandler			false
+false	false	false	false	808	com.ctrip.framework.apollo.portal.spi.ldap.LdapUserService			false
+false	false	false	false	871	com.ctrip.framework.apollo.portal.spi.ldap.ApolloLdapAuthenticationProvider			false
+false	false	false	false	856	com.ctrip.framework.apollo.portal.spi.ldap.FilterLdapByGroupUserSearch			false
+false	false	false	false	748	com.ctrip.framework.apollo.portal.spi.springsecurity.SpringSecurityUserService	context	State	false
+false	false	false	false	747	com.ctrip.framework.apollo.portal.spi.springsecurity.SpringSecurityUserInfoHolder			false
+false	false	false	false	869	com.ctrip.framework.apollo.portal.spi.configuration.LdapGroupProperties			false
+false	false	false	false	627	com.ctrip.framework.apollo.portal.spi.configuration.AuthFilterConfiguration			false
+false	false	false	false	807	com.ctrip.framework.apollo.portal.spi.configuration.LdapProperties			false
+false	false	false	false	710	com.ctrip.framework.apollo.portal.spi.configuration.RoleConfiguration			false
+false	false	false	false	373	com.ctrip.framework.apollo.portal.spi.configuration.AuthConfiguration			false
+false	false	false	false	870	com.ctrip.framework.apollo.portal.spi.configuration.LdapMappingProperties			false
+false	false	false	false	623	com.ctrip.framework.apollo.portal.spi.configuration.EmailConfiguration			false
+false	false	false	false	675	com.ctrip.framework.apollo.portal.spi.configuration.MQConfiguration			false
+false	false	false	false	855	com.ctrip.framework.apollo.portal.spi.configuration.LdapExtendProperties			false
+false	false	false	false	942	com.ctrip.framework.apollo.portal.spi.oidc.OidcAuthenticationSuccessEventListener			false
+false	false	false	false	945	com.ctrip.framework.apollo.portal.spi.oidc.OidcUserInfoHolder			false
+false	false	false	false	941	com.ctrip.framework.apollo.portal.spi.oidc.ExcludeClientCredentialsClientRegistrationRepository			false
+false	false	false	false	943	com.ctrip.framework.apollo.portal.spi.oidc.OidcLocalUserService	context	State	false
+false	false	false	false	944	com.ctrip.framework.apollo.portal.spi.oidc.OidcLogoutHandler			false
+false	false	false	false	119	com.ctrip.framework.apollo.portal.api.API			false
+false	false	false	false	120	com.ctrip.framework.apollo.portal.api.AdminServiceAPI			false
+false	false	false	false	504	com.ctrip.framework.apollo.openapi.entity.ConsumerRole			false
+false	false	false	false	505	com.ctrip.framework.apollo.openapi.entity.ConsumerToken			false
+false	false	false	false	523	com.ctrip.framework.apollo.openapi.entity.ConsumerAudit			false
+false	false	false	false	503	com.ctrip.framework.apollo.openapi.entity.Consumer			false
+false	false	false	false	498	com.ctrip.framework.apollo.openapi.auth.ConsumerPermissionValidator			false
+false	false	false	false	509	com.ctrip.framework.apollo.openapi.repository.ConsumerTokenRepository			false
+false	false	false	false	507	com.ctrip.framework.apollo.openapi.repository.ConsumerRepository			false
+false	false	false	false	524	com.ctrip.framework.apollo.openapi.repository.ConsumerAuditRepository			false
+false	false	false	false	508	com.ctrip.framework.apollo.openapi.repository.ConsumerRoleRepository	adaptee	(Object)Adapter	false
+false	false	false	false	550	com.ctrip.framework.apollo.openapi.PortalOpenApiConfig			false
+false	false	false	false	825	com.ctrip.framework.apollo.openapi.client.ApolloOpenApiClientTest			false
+false	false	false	false	815	com.ctrip.framework.apollo.openapi.client.ApolloOpenApiClient			false
+false	false	false	false	880	com.ctrip.framework.apollo.openapi.client.service.ClusterOpenApiServiceTest			false
+false	false	false	false	826	com.ctrip.framework.apollo.openapi.client.service.AbstractOpenApiServiceTest			false
+false	false	false	false	829	com.ctrip.framework.apollo.openapi.client.service.NamespaceOpenApiServiceTest			false
+false	false	false	false	830	com.ctrip.framework.apollo.openapi.client.service.ReleaseOpenApiServiceTest			false
+false	false	false	false	828	com.ctrip.framework.apollo.openapi.client.service.ItemOpenApiServiceTest			false
+false	false	false	false	827	com.ctrip.framework.apollo.openapi.client.service.AppOpenApiServiceTest			false
+false	false	false	false	821	com.ctrip.framework.apollo.openapi.client.service.NamespaceOpenApiService			false
+false	false	false	false	820	com.ctrip.framework.apollo.openapi.client.service.ItemOpenApiService			false
+false	false	false	false	822	com.ctrip.framework.apollo.openapi.client.service.ReleaseOpenApiService			false
+false	false	false	false	819	com.ctrip.framework.apollo.openapi.client.service.AppOpenApiService			false
+false	false	false	false	879	com.ctrip.framework.apollo.openapi.client.service.ClusterOpenApiService			false
+false	false	false	false	818	com.ctrip.framework.apollo.openapi.client.service.AbstractOpenApiService			false
+false	false	false	false	816	com.ctrip.framework.apollo.openapi.client.constant.ApolloOpenApiConstants			false
+false	false	false	false	817	com.ctrip.framework.apollo.openapi.client.exception.ApolloOpenApiException			false
+false	false	false	false	502	com.ctrip.framework.apollo.openapi.dto.OpenReleaseDTO			false
+false	false	false	false	501	com.ctrip.framework.apollo.openapi.dto.OpenNamespaceLockDTO			false
+false	false	false	false	833	com.ctrip.framework.apollo.openapi.dto.OpenGrayReleaseRuleItemDTO			false
+false	false	false	false	824	com.ctrip.framework.apollo.openapi.dto.NamespaceReleaseDTO			false
+false	false	false	false	832	com.ctrip.framework.apollo.openapi.dto.OpenGrayReleaseRuleDTO			false
+false	false	false	false	877	com.ctrip.framework.apollo.openapi.dto.OpenClusterDTO			false
+false	false	false	false	499	com.ctrip.framework.apollo.openapi.dto.OpenItemDTO			false
+false	false	false	false	823	com.ctrip.framework.apollo.openapi.dto.BaseDTO			false
+false	false	false	false	831	com.ctrip.framework.apollo.openapi.dto.NamespaceGrayDelReleaseDTO			false
+false	false	false	false	715	com.ctrip.framework.apollo.openapi.dto.OpenAppNamespaceDTO			false
+false	false	false	false	527	com.ctrip.framework.apollo.openapi.dto.OpenEnvClusterDTO			false
+false	false	false	false	500	com.ctrip.framework.apollo.openapi.dto.OpenNamespaceDTO			false
+false	false	false	false	857	com.ctrip.framework.apollo.openapi.dto.OpenAppDTO			false
+false	false	false	false	608	com.ctrip.framework.foundation.internals.ServiceBootstrapTest			false
+false	false	false	false	687	com.ctrip.framework.foundation.internals.NullProviderManager			false
+false	false	false	false	688	com.ctrip.framework.foundation.internals.ServiceBootstrap			false
+false	false	false	false	685	com.ctrip.framework.foundation.internals.DefaultProviderManager			false
+false	false	false	false	689	com.ctrip.framework.foundation.internals.Utils			false
+false	false	false	false	704	com.ctrip.framework.foundation.internals.provider.DefaultApplicationProviderTest			false
+false	false	false	false	705	com.ctrip.framework.foundation.internals.provider.DefaultServerProviderTest			false
+false	false	false	false	695	com.ctrip.framework.foundation.internals.provider.DefaultNetworkProvider			false
+false	false	false	false	697	com.ctrip.framework.foundation.internals.provider.NullProvider			false
+false	false	false	false	696	com.ctrip.framework.foundation.internals.provider.DefaultServerProvider			false
+false	false	false	false	694	com.ctrip.framework.foundation.internals.provider.DefaultApplicationProvider			false
+false	false	false	false	788	com.ctrip.framework.foundation.FoundationTest			false
+false	false	false	false	684	com.ctrip.framework.foundation.Foundation			false
+false	false	false	false	800	com.ctrip.framework.apollo.core.internals.LegacyMetaServerProviderTest			false
+false	false	false	false	796	com.ctrip.framework.apollo.core.internals.LegacyMetaServerProvider			false
+false	false	false	false	899	com.ctrip.framework.apollo.core.signature.HmacSha1UtilsTest			false
+false	false	false	false	900	com.ctrip.framework.apollo.core.signature.SignatureTest			false
+false	false	false	false	897	com.ctrip.framework.apollo.core.signature.HmacSha1Utils			false
+false	false	false	false	898	com.ctrip.framework.apollo.core.signature.Signature			false
+false	false	false	false	786	com.ctrip.framework.apollo.core.utils.NetUtilTest			false
+false	false	false	false	868	com.ctrip.framework.apollo.core.utils.StringUtilsTest			false
+false	false	false	false	874	com.ctrip.framework.apollo.core.utils.ByteUtilTest			false
+false	false	false	false	92	com.ctrip.framework.apollo.core.utils.ApolloThreadFactory			false
+false	false	false	false	335	com.ctrip.framework.apollo.core.utils.MachineUtil			false
+false	false	false	false	63	com.ctrip.framework.apollo.core.utils.ClassLoaderUtil			false
+false	false	false	false	468	com.ctrip.framework.apollo.core.utils.PropertiesUtil			false
+false	false	false	false	125	com.ctrip.framework.apollo.core.utils.ResourceUtils			false
+false	false	false	false	93	com.ctrip.framework.apollo.core.utils.DNSUtil			false
+false	false	false	false	94	com.ctrip.framework.apollo.core.utils.StringUtils			false
+false	false	false	false	334	com.ctrip.framework.apollo.core.utils.ByteUtil			false
+false	false	false	false	785	com.ctrip.framework.apollo.core.utils.NetUtil			false
+false	false	false	false	799	com.ctrip.framework.apollo.core.enums.EnvUtilsTest			false
+false	false	false	false	315	com.ctrip.framework.apollo.core.enums.EnvUtils			false
+false	false	false	false	126	com.ctrip.framework.apollo.core.MetaDomainTest			false
+false	false	false	false	103	com.ctrip.framework.apollo.core.ConfigConsts			false
+false	false	false	false	90	com.ctrip.framework.apollo.core.MetaDomainConsts			false
+false	false	false	false	43	com.ctrip.framework.apollo.core.ServiceNameConsts			false
+false	false	false	false	613	com.ctrip.framework.apollo.tracer.internals.NullMessageProducerTest			false
+false	false	false	false	612	com.ctrip.framework.apollo.tracer.internals.NullMessageProducerManagerTest			false
+false	false	false	false	611	com.ctrip.framework.apollo.tracer.internals.MockMessageProducerManager			false
+false	false	false	false	610	com.ctrip.framework.apollo.tracer.internals.DefaultMessageProducerManagerTest			false
+false	false	false	false	601	com.ctrip.framework.apollo.tracer.internals.NullTransaction			false
+false	false	false	false	600	com.ctrip.framework.apollo.tracer.internals.NullMessageProducerManager			false
+false	false	false	false	598	com.ctrip.framework.apollo.tracer.internals.DefaultMessageProducerManager			false
+false	false	false	false	599	com.ctrip.framework.apollo.tracer.internals.NullMessageProducer			false
+false	false	false	false	609	com.ctrip.framework.apollo.tracer.TracerTest			false
+false	false	false	false	597	com.ctrip.framework.apollo.tracer.Tracer	abstraction	Bridge	false
+false	false	false	false	691	com.ctrip.framework.foundation.internals.io.ByteOrderMark			false
+false	false	false	false	690	com.ctrip.framework.foundation.internals.io.BOMInputStream			false
+false	false	false	false	692	com.ctrip.framework.foundation.internals.io.IOUtils			false
+false	false	false	false	693	com.ctrip.framework.foundation.internals.io.ProxyInputStream			false
+false	false	false	false	701	com.ctrip.framework.foundation.spi.provider.Provider			false
+false	false	false	false	699	com.ctrip.framework.foundation.spi.provider.ApplicationProvider			false
+false	false	false	false	702	com.ctrip.framework.foundation.spi.provider.ServerProvider			false
+false	false	false	false	700	com.ctrip.framework.foundation.spi.provider.NetworkProvider			false
+false	false	false	false	698	com.ctrip.framework.foundation.spi.ProviderManager			false
+false	false	false	false	333	com.ctrip.framework.apollo.core.schedule.SchedulePolicy	state	State	false
+false	false	false	false	332	com.ctrip.framework.apollo.core.schedule.ExponentialSchedulePolicy			false
+false	false	false	false	282	com.ctrip.framework.apollo.core.dto.ApolloConfigNotification			false
+false	false	false	false	70	com.ctrip.framework.apollo.core.dto.ApolloConfig			false
+false	false	false	false	739	com.ctrip.framework.apollo.core.dto.ApolloNotificationMessages			false
+false	false	false	false	91	com.ctrip.framework.apollo.core.dto.ServiceDTO			false
+false	false	false	false	797	com.ctrip.framework.apollo.core.spi.MetaServerProvider			false
+false	false	false	false	798	com.ctrip.framework.apollo.core.spi.Ordered			false
+false	false	false	false	603	com.ctrip.framework.apollo.tracer.internals.cat.CatNames			false
+false	false	false	false	602	com.ctrip.framework.apollo.tracer.internals.cat.CatMessageProducer			false
+false	false	false	false	604	com.ctrip.framework.apollo.tracer.internals.cat.CatTransaction			false
+false	false	false	false	607	com.ctrip.framework.apollo.tracer.spi.Transaction			false
+false	false	false	false	606	com.ctrip.framework.apollo.tracer.spi.MessageProducerManager	implementor	Bridge	false
+false	false	false	false	605	com.ctrip.framework.apollo.tracer.spi.MessageProducer	creator	Factory Method	false
+false	false	false	false	853	com.ctrip.framework.apollo.internals.YamlConfigFileTest			false
+false	false	false	false	787	com.ctrip.framework.apollo.internals.ConfigServiceLocatorTest			false
+false	false	false	false	453	com.ctrip.framework.apollo.internals.XmlConfigFileTest			false
+false	false	false	false	859	com.ctrip.framework.apollo.internals.TxtConfigFileTest			false
+false	false	false	false	224	com.ctrip.framework.apollo.internals.SimpleConfigTest			false
+false	false	false	true	216	com.ctrip.framework.apollo.internals.DefaultConfigTest			true
+false	false	false	false	217	com.ctrip.framework.apollo.internals.RemoteConfigRepositoryTest			false
+false	false	false	false	852	com.ctrip.framework.apollo.internals.PropertiesCompatibleFileConfigRepositoryTest			false
+false	false	false	false	475	com.ctrip.framework.apollo.internals.RemoteConfigLongPollServiceTest			false
+false	false	false	false	795	com.ctrip.framework.apollo.internals.DefaultMetaServerProviderTest			false
+false	false	false	false	452	com.ctrip.framework.apollo.internals.PropertiesConfigFileTest			false
+false	false	false	false	223	com.ctrip.framework.apollo.internals.LocalFileConfigRepositoryTest			false
+false	false	false	false	595	com.ctrip.framework.apollo.internals.JsonConfigFileTest			false
+false	false	false	false	215	com.ctrip.framework.apollo.internals.DefaultConfigManagerTest			false
+false	false	false	false	707	com.ctrip.framework.apollo.internals.DefaultInjector			false
+false	false	false	false	242	com.ctrip.framework.apollo.internals.AbstractConfigRepository	abstractClass	Template Method	false
+false	false	false	false	794	com.ctrip.framework.apollo.internals.DefaultMetaServerProvider			false
+false	false	false	false	858	com.ctrip.framework.apollo.internals.TxtConfigFile			false
+false	false	false	false	593	com.ctrip.framework.apollo.internals.YamlConfigFile			false
+false	false	false	false	450	com.ctrip.framework.apollo.internals.PropertiesConfigFile			false
+false	false	false	false	592	com.ctrip.framework.apollo.internals.PlainTextConfigFile			false
+false	false	false	false	474	com.ctrip.framework.apollo.internals.RemoteConfigLongPollService			false
+false	false	false	false	21	com.ctrip.framework.apollo.internals.RemoteConfigRepository	context	State	false
+false	false	false	false	241	com.ctrip.framework.apollo.internals.AbstractConfig	abstraction	Bridge	false
+false	false	false	false	222	com.ctrip.framework.apollo.internals.SimpleConfig	context	State	false
+false	false	false	false	197	com.ctrip.framework.apollo.internals.DefaultConfig	context	State	false
+false	false	false	false	591	com.ctrip.framework.apollo.internals.JsonConfigFile			false
+false	false	false	false	221	com.ctrip.framework.apollo.internals.LocalFileConfigRepository			false
+false	false	false	false	243	com.ctrip.framework.apollo.internals.RepositoryChangeListener	observer	Observer	false
+false	false	false	false	449	com.ctrip.framework.apollo.internals.AbstractConfigFile	abstraction	Bridge	false
+false	false	false	false	212	com.ctrip.framework.apollo.internals.ConfigRepository	implementor	Bridge	false
+false	false	false	false	198	com.ctrip.framework.apollo.internals.DefaultConfigManager	context	State	false
+false	false	false	false	594	com.ctrip.framework.apollo.internals.YmlConfigFile			false
+false	false	false	false	451	com.ctrip.framework.apollo.internals.XmlConfigFile			false
+false	false	false	false	196	com.ctrip.framework.apollo.internals.ConfigManager			false
+false	false	false	false	850	com.ctrip.framework.apollo.internals.PropertiesCompatibleFileConfigRepository	context	State	false
+false	false	false	false	88	com.ctrip.framework.apollo.internals.ConfigServiceLocator			false
+false	false	false	false	708	com.ctrip.framework.apollo.internals.Injector			false
+false	false	false	false	664	com.ctrip.framework.apollo.spring.JavaConfigPlaceholderTest			false
+false	false	false	false	762	com.ctrip.framework.apollo.spring.BootstrapConfigTest			false
+false	false	false	false	774	com.ctrip.framework.apollo.spring.XmlConfigPlaceholderAutoUpdateTest			false
+false	false	false	false	662	com.ctrip.framework.apollo.spring.AbstractSpringIntegrationTest			false
+false	false	false	true	773	com.ctrip.framework.apollo.spring.JavaConfigPlaceholderAutoUpdateTest			true
+false	false	false	true	663	com.ctrip.framework.apollo.spring.JavaConfigAnnotationTest			false
+false	false	false	false	665	com.ctrip.framework.apollo.spring.XMLConfigAnnotationTest			false
+false	false	false	false	666	com.ctrip.framework.apollo.spring.XmlConfigPlaceholderTest			false
+false	false	false	false	775	com.ctrip.framework.apollo.spring.config.ConfigPropertySourceTest			false
+false	false	false	false	659	com.ctrip.framework.apollo.spring.config.PropertySourcesProcessor			false
+false	false	false	false	658	com.ctrip.framework.apollo.spring.config.NamespaceHandler			false
+false	false	false	false	761	com.ctrip.framework.apollo.spring.config.PropertySourcesConstants			false
+false	false	false	false	768	com.ctrip.framework.apollo.spring.config.ConfigPropertySourceFactory			false
+false	false	false	false	656	com.ctrip.framework.apollo.spring.config.ConfigPropertySource			false
+false	false	false	false	657	com.ctrip.framework.apollo.spring.config.ConfigPropertySourcesProcessor	context	State	false
+false	false	false	false	801	com.ctrip.framework.apollo.spring.boot.ApolloApplicationContextInitializerTest			false
+false	false	false	false	759	com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration			false
+false	false	false	false	760	com.ctrip.framework.apollo.spring.boot.ApolloApplicationContextInitializer			false
+false	false	false	false	865	com.ctrip.framework.apollo.spring.spi.ConfigPropertySourcesProcessorHelperTest			false
+false	false	false	false	864	com.ctrip.framework.apollo.spring.spi.ApolloConfigRegistrarHelperTest			false
+false	false	false	false	867	com.ctrip.framework.apollo.spring.spi.TestRegistrarHelper			false
+false	false	false	false	866	com.ctrip.framework.apollo.spring.spi.TestProcessorHelper			false
+false	false	false	false	863	com.ctrip.framework.apollo.spring.spi.DefaultConfigPropertySourcesProcessorHelper			false
+false	false	false	false	862	com.ctrip.framework.apollo.spring.spi.DefaultApolloConfigRegistrarHelper			false
+false	false	false	false	860	com.ctrip.framework.apollo.spring.spi.ApolloConfigRegistrarHelper	state	State	false
+false	false	false	false	861	com.ctrip.framework.apollo.spring.spi.ConfigPropertySourcesProcessorHelper	state	State	false
+false	false	false	false	776	com.ctrip.framework.apollo.spring.property.PlaceholderHelperTest			false
+false	false	false	false	771	com.ctrip.framework.apollo.spring.property.SpringValueDefinition			false
+false	false	false	false	772	com.ctrip.framework.apollo.spring.property.SpringValueDefinitionProcessor			false
+false	false	false	false	780	com.ctrip.framework.apollo.spring.property.AutoUpdateConfigChangeListener	adapter	(Object)Adapter	false
+false	false	false	false	769	com.ctrip.framework.apollo.spring.property.PlaceholderHelper	adaptee	(Object)Adapter	false
+false	false	false	false	770	com.ctrip.framework.apollo.spring.property.SpringValue			false
+false	false	false	false	783	com.ctrip.framework.apollo.spring.property.SpringValueRegistry	adaptee	(Object)Adapter	false
+false	false	false	false	265	com.ctrip.framework.apollo.integration.ConfigIntegrationTest			false
+false	false	false	false	718	com.ctrip.framework.apollo.util.ConfigUtilTest			false
+false	false	false	false	915	com.ctrip.framework.apollo.util.OrderedPropertiesTest			false
+false	false	false	false	302	com.ctrip.framework.apollo.util.ExceptionUtilTest			false
+false	false	false	false	289	com.ctrip.framework.apollo.util.ExceptionUtil			false
+false	false	false	false	34	com.ctrip.framework.apollo.util.ConfigUtil	adaptee	(Object)Adapter	false
+false	false	false	false	912	com.ctrip.framework.apollo.util.OrderedProperties			false
+false	false	false	false	548	com.ctrip.framework.apollo.util.parser.DateParserTest			false
+false	false	false	false	549	com.ctrip.framework.apollo.util.parser.DurationParserTest			false
+false	false	false	false	546	com.ctrip.framework.apollo.util.parser.ParserException			false
+false	false	false	false	547	com.ctrip.framework.apollo.util.parser.Parsers			false
+false	false	false	false	854	com.ctrip.framework.apollo.util.yaml.YamlParserTest			false
+false	false	false	false	851	com.ctrip.framework.apollo.util.yaml.YamlParser	context	State	false
+false	false	false	false	709	com.ctrip.framework.apollo.build.MockInjector			false
+false	false	false	false	706	com.ctrip.framework.apollo.build.ApolloInjector			false
+false	false	false	false	219	com.ctrip.framework.apollo.spi.DefaultConfigFactoryTest			false
+false	false	false	false	220	com.ctrip.framework.apollo.spi.DefaultConfigRegistryTest			false
+false	false	false	false	218	com.ctrip.framework.apollo.spi.DefaultConfigFactoryManagerTest			false
+false	false	false	false	203	com.ctrip.framework.apollo.spi.DefaultConfigFactoryManager	context	State	false
+false	false	false	false	204	com.ctrip.framework.apollo.spi.DefaultConfigRegistry			false
+false	false	false	false	201	com.ctrip.framework.apollo.spi.ConfigRegistry	state	State	false
+false	false	false	false	199	com.ctrip.framework.apollo.spi.ConfigFactory	creator	Factory Method	false
+false	false	false	false	202	com.ctrip.framework.apollo.spi.DefaultConfigFactory			false
+false	false	false	false	200	com.ctrip.framework.apollo.spi.ConfigFactoryManager	state	State	false
+false	false	false	false	381	com.ctrip.framework.apollo.exceptions.ApolloConfigException			false
+false	false	false	false	545	com.ctrip.framework.apollo.exceptions.ApolloConfigStatusCodeException			false
+false	false	false	false	763	com.ctrip.framework.apollo.spring.annotation.SpringValueProcessor	adapter	(Object)Adapter	false
+false	false	false	false	654	com.ctrip.framework.apollo.spring.annotation.ApolloConfigRegistrar	context	State	false
+false	false	false	false	779	com.ctrip.framework.apollo.spring.annotation.ApolloProcessor	abstractClass	Template Method	false
+false	false	false	false	651	com.ctrip.framework.apollo.spring.annotation.ApolloAnnotationProcessor			false
+false	false	false	false	784	com.ctrip.framework.apollo.spring.util.SpringInjector			false
+false	false	false	false	661	com.ctrip.framework.apollo.spring.util.BeanRegistrationUtil			false
+false	false	false	false	244	com.ctrip.framework.apollo.model.ConfigChange			false
+false	false	false	false	245	com.ctrip.framework.apollo.model.ConfigChangeEvent			false
+false	false	false	false	714	com.ctrip.framework.apollo.model.ConfigFileChangeEvent			false
+false	false	false	false	227	com.ctrip.framework.apollo.util.http.HttpUtil			false
+false	false	false	false	226	com.ctrip.framework.apollo.util.http.HttpResponse			false
+false	false	false	false	225	com.ctrip.framework.apollo.util.http.HttpRequest			false
+false	false	false	false	914	com.ctrip.framework.apollo.util.factory.PropertiesFactory	implementor	Bridge	false
+false	false	false	false	913	com.ctrip.framework.apollo.util.factory.DefaultPropertiesFactory	adapter	(Object)Adapter	false
+false	false	false	false	644	com.ctrip.framework.apollo.util.function.Functions			false
+false	false	false	false	346	com.ctrip.framework.apollo.adminservice.controller.AppNamespaceControllerTest			false
+false	false	false	false	837	com.ctrip.framework.apollo.adminservice.controller.ClusterControllerTest			false
+false	false	false	false	538	com.ctrip.framework.apollo.adminservice.controller.InstanceConfigControllerTest			false
+false	false	false	false	276	com.ctrip.framework.apollo.adminservice.controller.TestWebSecurityConfig			false
+false	false	false	false	285	com.ctrip.framework.apollo.adminservice.controller.ControllerIntegrationExceptionTest			false
+false	false	false	false	249	com.ctrip.framework.apollo.adminservice.controller.ItemSetControllerTest			false
+false	false	false	false	284	com.ctrip.framework.apollo.adminservice.controller.ControllerExceptionTest			false
+false	false	false	false	230	com.ctrip.framework.apollo.adminservice.controller.AppControllerTest			false
+false	false	false	false	840	com.ctrip.framework.apollo.adminservice.controller.NamespaceControllerTest			false
+false	false	false	false	251	com.ctrip.framework.apollo.adminservice.controller.ReleaseControllerTest			false
+false	false	false	false	248	com.ctrip.framework.apollo.adminservice.controller.AbstractControllerTest			false
+false	false	false	false	171	com.ctrip.framework.apollo.adminservice.controller.NamespaceController			false
+false	false	false	false	884	com.ctrip.framework.apollo.adminservice.controller.AccessKeyController			false
+false	false	false	false	439	com.ctrip.framework.apollo.adminservice.controller.NamespaceLockController			false
+false	false	false	false	142	com.ctrip.framework.apollo.adminservice.controller.AppController			false
+false	false	false	false	537	com.ctrip.framework.apollo.adminservice.controller.InstanceConfigController			false
+false	false	false	false	292	com.ctrip.framework.apollo.adminservice.controller.AppNamespaceController			false
+false	false	false	false	557	com.ctrip.framework.apollo.adminservice.controller.NamespaceBranchController			false
+false	false	false	false	238	com.ctrip.framework.apollo.adminservice.controller.ItemSetController			false
+false	false	false	false	423	com.ctrip.framework.apollo.adminservice.controller.CommitController			false
+false	false	false	false	144	com.ctrip.framework.apollo.adminservice.controller.ItemController			false
+false	false	false	false	95	com.ctrip.framework.apollo.adminservice.controller.ClusterController			false
+false	false	false	false	558	com.ctrip.framework.apollo.adminservice.controller.ReleaseHistoryController			false
+false	false	false	false	145	com.ctrip.framework.apollo.adminservice.controller.ReleaseController			false
+false	false	false	false	357	com.ctrip.framework.apollo.adminservice.controller.IndexController			false
+false	false	false	false	681	com.ctrip.framework.apollo.adminservice.aop.NamespaceUnlockAspectTest			false
+false	false	false	false	469	com.ctrip.framework.apollo.adminservice.aop.NamespaceLockTest			false
+false	false	false	false	437	com.ctrip.framework.apollo.adminservice.aop.NamespaceAcquireLockAspect			false
+false	false	false	false	680	com.ctrip.framework.apollo.adminservice.aop.NamespaceUnlockAspect			false
+false	false	false	false	938	com.ctrip.framework.apollo.adminservice.filter.AdminServiceAuthenticationIntegrationTest			false
+false	false	false	false	937	com.ctrip.framework.apollo.adminservice.filter.AdminServiceAuthenticationFilterTest			false
+false	false	false	false	936	com.ctrip.framework.apollo.adminservice.filter.AdminServiceAuthenticationFilter			false
+false	false	false	false	353	com.ctrip.framework.apollo.adminservice.AdminServiceApplication			false
+false	false	false	false	254	com.ctrip.framework.apollo.adminservice.AdminServiceHealthIndicator			false
+false	false	false	false	847	com.ctrip.framework.apollo.adminservice.ServletInitializer			false
+false	false	false	false	935	com.ctrip.framework.apollo.adminservice.AdminServiceAutoConfiguration			false
+false	false	false	false	743	com.ctrip.framework.apollo.common.conditional.ConditionalOnProfileTest			false
+false	false	false	false	881	com.ctrip.framework.apollo.common.utils.InputValidatorTest			false
+false	false	false	false	413	com.ctrip.framework.apollo.common.utils.RequestPrecondition			false
+false	false	false	false	124	com.ctrip.framework.apollo.common.utils.BeanUtils			false
+false	false	false	false	290	com.ctrip.framework.apollo.common.utils.ExceptionUtils			false
+false	false	false	false	578	com.ctrip.framework.apollo.common.utils.GrayReleaseRuleItemTransformer			false
+false	false	false	false	579	com.ctrip.framework.apollo.common.utils.UniqueKeyGenerator			false
+false	false	false	false	419	com.ctrip.framework.apollo.common.utils.InputValidator			false
+false	false	false	false	139	com.ctrip.framework.apollo.common.entity.BaseEntity			false
+false	false	false	false	138	com.ctrip.framework.apollo.common.entity.App			false
+false	false	false	false	487	com.ctrip.framework.apollo.common.entity.EntityPair			false
+false	false	false	false	160	com.ctrip.framework.apollo.common.entity.AppNamespace			false
+false	false	false	false	349	com.ctrip.framework.apollo.common.http.MultiResponseEntity			false
+false	false	false	false	350	com.ctrip.framework.apollo.common.http.RichResponseEntity			false
+false	false	false	false	352	com.ctrip.framework.apollo.common.customize.LoggingCustomizer	abstractClass	Template Method	false
+false	false	false	false	742	com.ctrip.framework.apollo.common.condition.OnProfileCondition			false
+false	false	false	false	316	com.ctrip.framework.apollo.common.controller.ApolloInfoController			false
+false	false	false	false	172	com.ctrip.framework.apollo.common.controller.WebMvcConfig			false
+false	false	false	false	359	com.ctrip.framework.apollo.common.controller.CharacterEncodingFilterConfiguration			false
+false	false	false	false	348	com.ctrip.framework.apollo.common.controller.HttpMessageConverterConfiguration			false
+false	false	false	false	11	com.ctrip.framework.apollo.common.controller.GlobalDefaultExceptionHandler			false
+false	false	false	false	493	com.ctrip.framework.apollo.common.exception.BadRequestException			false
+false	false	false	false	494	com.ctrip.framework.apollo.common.exception.BeanUtilsException			false
+false	false	false	false	495	com.ctrip.framework.apollo.common.exception.NotFoundException			false
+false	false	false	false	492	com.ctrip.framework.apollo.common.exception.AbstractApolloHttpException			false
+false	false	false	false	496	com.ctrip.framework.apollo.common.exception.ServiceException			false
+false	false	false	false	634	com.ctrip.framework.apollo.common.config.RefreshablePropertySource			false
+false	false	false	false	633	com.ctrip.framework.apollo.common.config.RefreshableConfig	abstractClass	Template Method	false
+false	false	false	false	347	com.ctrip.framework.apollo.common.aop.RepositoryAspect			false
+false	false	false	false	137	com.ctrip.framework.apollo.common.datasource.TitanSettings			false
+false	false	false	false	135	com.ctrip.framework.apollo.common.datasource.TitanCondition			false
+false	false	false	false	136	com.ctrip.framework.apollo.common.datasource.TitanEntityManager			false
+false	false	false	false	105	com.ctrip.framework.apollo.common.dto.ItemDTO			false
+false	false	false	false	540	com.ctrip.framework.apollo.common.dto.InstanceDTO			false
+false	false	false	false	539	com.ctrip.framework.apollo.common.dto.InstanceConfigDTO			false
+false	false	false	false	231	com.ctrip.framework.apollo.common.dto.ItemChangeSets			false
+false	false	false	false	575	com.ctrip.framework.apollo.common.dto.GrayReleaseRuleDTO			false
+false	false	false	false	541	com.ctrip.framework.apollo.common.dto.PageDTO			false
+false	false	false	false	106	com.ctrip.framework.apollo.common.dto.ReleaseDTO			false
+false	false	false	false	443	com.ctrip.framework.apollo.common.dto.NamespaceLockDTO			false
+false	false	false	false	425	com.ctrip.framework.apollo.common.dto.CommitDTO			false
+false	false	false	false	576	com.ctrip.framework.apollo.common.dto.GrayReleaseRuleItemDTO			false
+false	false	false	false	890	com.ctrip.framework.apollo.common.dto.AccessKeyDTO			false
+false	false	false	false	157	com.ctrip.framework.apollo.common.dto.NamespaceDTO			false
+false	false	false	false	156	com.ctrip.framework.apollo.common.dto.AppDTO			false
+false	false	false	false	380	com.ctrip.framework.apollo.common.dto.BaseDTO			false
+false	false	false	false	104	com.ctrip.framework.apollo.common.dto.ClusterDTO			false
+false	false	false	false	341	com.ctrip.framework.apollo.common.dto.AppNamespaceDTO			false
+false	false	false	false	577	com.ctrip.framework.apollo.common.dto.ReleaseHistoryDTO			false
+false	false	false	false	356	com.ctrip.framework.apollo.common.ApolloCommonConfig			false
+false	false	false	false	571	com.ctrip.framework.apollo.common.constants.GsonType			false
+false	false	false	false	574	com.ctrip.framework.apollo.common.constants.ReleaseOperationContext			false
+false	false	false	false	572	com.ctrip.framework.apollo.common.constants.NamespaceBranchStatus			false
+false	false	false	false	573	com.ctrip.framework.apollo.common.constants.ReleaseOperation			false
+false	false	false	false	167	com.ctrip.framework.apollo.biz.BizTestConfiguration			false
+false	false	false	false	484	com.ctrip.framework.apollo.biz.AbstractIntegrationTest			false
+false	false	false	false	647	com.ctrip.framework.apollo.biz.MockBeanFactory			false
+false	false	false	false	485	com.ctrip.framework.apollo.biz.AbstractUnitTest			false
+false	false	false	false	355	com.ctrip.framework.apollo.biz.ApolloBizConfig			false
+false	false	false	false	568	com.ctrip.framework.apollo.biz.grayReleaseRule.GrayReleaseRulesHolderTest			false
+false	false	false	false	562	com.ctrip.framework.apollo.biz.grayReleaseRule.GrayReleaseRulesHolder	adapter	(Object)Adapter	false
+false	false	false	false	561	com.ctrip.framework.apollo.biz.grayReleaseRule.GrayReleaseRuleCache			false
+false	false	false	false	169	com.ctrip.framework.apollo.biz.service.AdminServiceTest			false
+false	false	false	false	486	com.ctrip.framework.apollo.biz.service.ReleaseServiceTest			false
+false	false	false	false	632	com.ctrip.framework.apollo.biz.service.BizDBPropertySourceTest			false
+false	false	false	false	629	com.ctrip.framework.apollo.biz.service.NamespacePublishInfoTest			false
+false	false	false	false	534	com.ctrip.framework.apollo.biz.service.InstanceServiceTest			false
+false	false	false	false	294	com.ctrip.framework.apollo.biz.service.ClusterServiceTest			false
+false	false	false	false	889	com.ctrip.framework.apollo.biz.service.AccessKeyServiceTest			false
+false	false	false	false	587	com.ctrip.framework.apollo.biz.service.NamespaceServiceTest			false
+false	false	false	false	570	com.ctrip.framework.apollo.biz.service.ReleaseCreationTest			false
+false	false	false	false	569	com.ctrip.framework.apollo.biz.service.NamespaceBranchServiceTest			false
+false	false	false	false	267	com.ctrip.framework.apollo.biz.service.AdminServiceTransactionTest			false
+false	false	false	false	648	com.ctrip.framework.apollo.biz.service.NamespaceServiceIntegrationTest			false
+false	false	false	false	887	com.ctrip.framework.apollo.biz.service.AccessKeyService			false
+false	false	false	false	293	com.ctrip.framework.apollo.biz.service.AppNamespaceService			false
+false	false	false	false	533	com.ctrip.framework.apollo.biz.service.InstanceService	context	State	false
+false	false	false	false	368	com.ctrip.framework.apollo.biz.service.ReleaseMessageService	context	State	false
+false	false	false	false	631	com.ctrip.framework.apollo.biz.service.BizDBPropertySource	adapter	(Object)Adapter	false
+false	false	false	false	565	com.ctrip.framework.apollo.biz.service.NamespaceBranchService			false
+false	false	false	false	151	com.ctrip.framework.apollo.biz.service.AppService			false
+false	false	false	false	165	com.ctrip.framework.apollo.biz.service.NamespaceService			false
+false	false	false	false	239	com.ctrip.framework.apollo.biz.service.ItemSetService			false
+false	false	false	false	442	com.ctrip.framework.apollo.biz.service.NamespaceLockService	context	State	false
+false	false	false	false	159	com.ctrip.framework.apollo.biz.service.ItemService			false
+false	false	false	false	288	com.ctrip.framework.apollo.biz.service.CommitService	context	State	false
+false	false	false	false	566	com.ctrip.framework.apollo.biz.service.ReleaseHistoryService			false
+false	false	false	false	153	com.ctrip.framework.apollo.biz.service.ReleaseService	adaptee	(Object)Adapter	false
+false	false	false	false	164	com.ctrip.framework.apollo.biz.service.AdminService			false
+false	false	false	false	270	com.ctrip.framework.apollo.biz.service.AuditService	context	State	false
+false	false	false	false	174	com.ctrip.framework.apollo.biz.service.ClusterService			false
+false	false	false	false	646	com.ctrip.framework.apollo.biz.config.BizConfigTest			false
+false	false	false	false	630	com.ctrip.framework.apollo.biz.config.BizConfig	adaptee	(Object)Adapter	false
+false	false	false	false	322	com.ctrip.framework.apollo.biz.message.ReleaseMessageScannerTest			false
+false	false	false	false	321	com.ctrip.framework.apollo.biz.message.DatabaseMessageSenderTest			false
+false	false	false	false	298	com.ctrip.framework.apollo.biz.message.MessageSender			false
+false	false	false	false	300	com.ctrip.framework.apollo.biz.message.Topics			false
+false	false	false	false	319	com.ctrip.framework.apollo.biz.message.ReleaseMessageScanner	context	State	false
+false	false	false	false	367	com.ctrip.framework.apollo.biz.message.ReleaseMessageListener			false
+false	false	false	false	318	com.ctrip.framework.apollo.biz.message.DatabaseMessageSender	context	State	false
+false	false	false	false	331	com.ctrip.framework.apollo.biz.utils.ReleaseKeyGeneratorTest			false
+false	false	false	false	882	com.ctrip.framework.apollo.biz.utils.ConfigChangeContentBuilderTest			false
+false	false	false	false	339	com.ctrip.framework.apollo.biz.utils.EntityManagerUtil			false
+false	false	false	false	329	com.ctrip.framework.apollo.biz.utils.ReleaseKeyGenerator			false
+false	false	false	false	424	com.ctrip.framework.apollo.biz.utils.ConfigChangeContentBuilder			false
+false	false	false	false	567	com.ctrip.framework.apollo.biz.utils.ReleaseMessageKeyGenerator			false
+false	false	false	false	846	com.ctrip.framework.apollo.biz.repository.InstanceConfigRepositoryTest			false
+false	false	false	false	888	com.ctrip.framework.apollo.biz.repository.AccessKeyRepositoryTest			false
+false	false	false	false	340	com.ctrip.framework.apollo.biz.repository.AppNamespaceRepositoryTest			false
+false	false	false	false	168	com.ctrip.framework.apollo.biz.repository.AppRepositoryTest			false
+false	false	false	false	320	com.ctrip.framework.apollo.biz.repository.ReleaseMessageRepository	state	State	false
+false	false	false	false	531	com.ctrip.framework.apollo.biz.repository.InstanceConfigRepository	state	State	false
+false	false	false	false	563	com.ctrip.framework.apollo.biz.repository.GrayReleaseRuleRepository	adaptee	(Object)Adapter	false
+false	false	false	false	269	com.ctrip.framework.apollo.biz.repository.AuditRepository	state	State	false
+false	false	false	false	441	com.ctrip.framework.apollo.biz.repository.NamespaceLockRepository	state	State	false
+false	false	false	false	564	com.ctrip.framework.apollo.biz.repository.ReleaseHistoryRepository			false
+false	false	false	false	328	com.ctrip.framework.apollo.biz.repository.ServerConfigRepository	adaptee	(Object)Adapter	false
+false	false	false	false	99	com.ctrip.framework.apollo.biz.repository.ClusterRepository			false
+false	false	false	false	146	com.ctrip.framework.apollo.biz.repository.AppRepository			false
+false	false	false	false	162	com.ctrip.framework.apollo.biz.repository.AppNamespaceRepository			false
+false	false	false	false	287	com.ctrip.framework.apollo.biz.repository.CommitRepository	state	State	false
+false	false	false	false	163	com.ctrip.framework.apollo.biz.repository.PrivilegeRepository			false
+false	false	false	false	148	com.ctrip.framework.apollo.biz.repository.ItemRepository			false
+false	false	false	false	886	com.ctrip.framework.apollo.biz.repository.AccessKeyRepository			false
+false	false	false	false	532	com.ctrip.framework.apollo.biz.repository.InstanceRepository	state	State	false
+false	false	false	false	149	com.ctrip.framework.apollo.biz.repository.NamespaceRepository			false
+false	false	false	false	150	com.ctrip.framework.apollo.biz.repository.ReleaseRepository			false
+false	false	false	false	440	com.ctrip.framework.apollo.biz.entity.NamespaceLock			false
+false	false	false	false	885	com.ctrip.framework.apollo.biz.entity.AccessKey			false
+false	false	false	false	529	com.ctrip.framework.apollo.biz.entity.Instance			false
+false	false	false	false	141	com.ctrip.framework.apollo.biz.entity.Namespace			false
+false	false	false	false	530	com.ctrip.framework.apollo.biz.entity.InstanceConfig			false
+false	false	false	false	286	com.ctrip.framework.apollo.biz.entity.Commit			false
+false	false	false	false	560	com.ctrip.framework.apollo.biz.entity.ReleaseHistory			false
+false	false	false	false	326	com.ctrip.framework.apollo.biz.entity.ServerConfig			false
+false	false	false	false	317	com.ctrip.framework.apollo.biz.entity.ReleaseMessage			false
+false	false	false	false	98	com.ctrip.framework.apollo.biz.entity.Item			false
+false	false	false	false	268	com.ctrip.framework.apollo.biz.entity.Audit			false
+false	false	false	false	53	com.ctrip.framework.apollo.biz.entity.Cluster			false
+false	false	false	false	54	com.ctrip.framework.apollo.biz.entity.Release			false
+false	false	false	false	559	com.ctrip.framework.apollo.biz.entity.GrayReleaseRule			false
+false	false	false	false	161	com.ctrip.framework.apollo.biz.entity.Privilege			false
+false	false	false	false	382	com.ctrip.framework.apollo.biz.customize.BizLoggingCustomizer	adapter	(Object)Adapter	false
+false	false	false	false	278	com.ctrip.framework.apollo.biz.auth.WebSecurityConfig			false
+false	false	false	false	327	com.ctrip.framework.apollo.biz.eureka.ApolloEurekaClientConfig			false
+false	false	false	false	304	com.ctrip.framework.apollo.configservice.controller.NotificationControllerTest			false
+false	false	false	false	477	com.ctrip.framework.apollo.configservice.controller.NotificationControllerV2Test			false
+false	false	false	false	323	com.ctrip.framework.apollo.configservice.controller.TestWebSecurityConfig			false
+false	false	false	false	466	com.ctrip.framework.apollo.configservice.controller.ConfigFileControllerTest			false
+false	false	false	false	76	com.ctrip.framework.apollo.configservice.controller.ConfigControllerTest			false
+false	false	false	false	476	com.ctrip.framework.apollo.configservice.controller.NotificationControllerV2	adapter	(Object)Adapter	false
+false	false	false	false	464	com.ctrip.framework.apollo.configservice.controller.ConfigFileController			false
+false	false	false	false	283	com.ctrip.framework.apollo.configservice.controller.NotificationController			false
+false	false	false	false	75	com.ctrip.framework.apollo.configservice.controller.ConfigController			false
+false	false	false	false	478	com.ctrip.framework.apollo.configservice.integration.NotificationControllerV2IntegrationTest			false
+false	false	false	false	467	com.ctrip.framework.apollo.configservice.integration.ConfigFileControllerIntegrationTest			false
+false	false	false	false	313	com.ctrip.framework.apollo.configservice.integration.NotificationControllerIntegrationTest			false
+false	false	false	false	312	com.ctrip.framework.apollo.configservice.integration.ConfigControllerIntegrationTest			false
+false	false	false	false	311	com.ctrip.framework.apollo.configservice.integration.AbstractBaseIntegrationTest			false
+false	false	false	false	737	com.ctrip.framework.apollo.configservice.service.config.DefaultConfigServiceTest			false
+false	false	false	false	736	com.ctrip.framework.apollo.configservice.service.config.ConfigServiceWithCacheTest			false
+false	false	false	false	731	com.ctrip.framework.apollo.configservice.service.config.ConfigService			false
+false	false	false	false	730	com.ctrip.framework.apollo.configservice.service.config.AbstractConfigService	abstractClass	Template Method	false
+false	false	false	false	732	com.ctrip.framework.apollo.configservice.service.config.ConfigServiceWithCache			false
+false	false	false	false	733	com.ctrip.framework.apollo.configservice.service.config.DefaultConfigService	adapter	(Object)Adapter	false
+false	false	false	false	641	com.ctrip.framework.apollo.configservice.service.AppNamespaceServiceWithCacheTest			false
+false	false	false	false	642	com.ctrip.framework.apollo.configservice.service.ReleaseMessageServiceWithCacheTest			false
+false	false	false	false	895	com.ctrip.framework.apollo.configservice.service.AccessKeyServiceWithCacheTest			false
+false	false	false	false	639	com.ctrip.framework.apollo.configservice.service.AppNamespaceServiceWithCache			false
+false	false	false	false	892	com.ctrip.framework.apollo.configservice.service.AccessKeyServiceWithCache			false
+false	false	false	false	640	com.ctrip.framework.apollo.configservice.service.ReleaseMessageServiceWithCache	context	State	false
+false	false	false	false	536	com.ctrip.framework.apollo.configservice.util.InstanceConfigAuditUtilTest			false
+false	false	false	false	479	com.ctrip.framework.apollo.configservice.util.WatchKeysUtilTest			false
+false	false	false	false	896	com.ctrip.framework.apollo.configservice.util.AccessKeyUtilTest			false
+false	false	false	false	455	com.ctrip.framework.apollo.configservice.util.NamespaceUtilTest			false
+false	false	false	false	454	com.ctrip.framework.apollo.configservice.util.NamespaceUtil			false
+false	false	false	false	535	com.ctrip.framework.apollo.configservice.util.InstanceConfigAuditUtil			false
+false	false	false	false	465	com.ctrip.framework.apollo.configservice.util.WatchKeysUtil			false
+false	false	false	false	893	com.ctrip.framework.apollo.configservice.util.AccessKeyUtil			false
+false	false	false	false	894	com.ctrip.framework.apollo.configservice.filter.ClientAuthenticationFilterTest			false
+false	false	false	false	891	com.ctrip.framework.apollo.configservice.filter.ClientAuthenticationFilter			false
+false	false	false	false	738	com.ctrip.framework.apollo.configservice.wrapper.CaseInsensitiveMapWrapperTest			false
+false	false	false	false	735	com.ctrip.framework.apollo.configservice.wrapper.DeferredResultWrapper			false
+false	false	false	false	734	com.ctrip.framework.apollo.configservice.wrapper.CaseInsensitiveMapWrapper			false
+false	false	false	false	921	com.ctrip.framework.apollo.metaservice.controller.ServiceControllerTest			false
+false	false	false	false	925	com.ctrip.framework.apollo.metaservice.controller.HomePageControllerTest			false
+false	false	false	false	50	com.ctrip.framework.apollo.metaservice.controller.ServiceController	context	State	false
+false	false	false	false	924	com.ctrip.framework.apollo.metaservice.controller.HomePageController	context	State	false
+false	false	false	false	923	com.ctrip.framework.apollo.metaservice.service.KubernetesDiscoveryServiceTest			false
+false	false	false	false	940	com.ctrip.framework.apollo.metaservice.service.NacosDiscoveryServiceTest			false
+false	false	false	false	922	com.ctrip.framework.apollo.metaservice.service.DefaultDiscoveryServiceTest			false
+false	false	false	false	919	com.ctrip.framework.apollo.metaservice.service.DefaultDiscoveryService			false
+false	false	false	false	920	com.ctrip.framework.apollo.metaservice.service.KubernetesDiscoveryService	adapter	(Object)Adapter	false
+false	false	false	false	44	com.ctrip.framework.apollo.metaservice.service.DiscoveryService	state	State	false
+false	false	false	false	939	com.ctrip.framework.apollo.metaservice.service.NacosDiscoveryService			false
+false	false	false	false	303	com.ctrip.framework.apollo.configservice.ConfigServiceAutoConfiguration			false
+false	false	false	false	64	com.ctrip.framework.apollo.configservice.ConfigServiceApplication			false
+false	false	false	false	65	com.ctrip.framework.apollo.configservice.ServletInitializer			false
+false	false	false	false	255	com.ctrip.framework.apollo.configservice.ConfigServiceHealthIndicator			false
+false	false	false	false	876	com.ctrip.framework.apollo.configservice.ConfigServerEurekaServerConfigure			false
+false	false	false	false	360	com.ctrip.framework.apollo.metaservice.ApolloMetaServiceConfig			false
+false	false	false	false	811	com.ctrip.framework.apollo.mockserver.ApolloMockServerSpringIntegrationTest			false
+false	false	false	false	813	com.ctrip.framework.apollo.mockserver.ApolloMockServerApiTest			false
+false	false	false	false	809	com.ctrip.framework.apollo.mockserver.EmbeddedApollo			false

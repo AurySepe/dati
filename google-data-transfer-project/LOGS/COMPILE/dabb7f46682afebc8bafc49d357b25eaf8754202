@@ -1,0 +1,475 @@
+
+> Configure project :
+Node installation: local, Cloud type: local
+
+> Configure project :client-rest
+
+
+> Configure project :portability-api-launcher
+
+
+> Configure project :libraries:config
+
+
+> Configure project :portability-types-common
+
+
+> Configure project :portability-types-transfer
+
+
+> Configure project :portability-spi-transfer
+
+
+> Configure project :libraries:security
+
+
+> Configure project :portability-spi-service
+
+
+> Configure project :portability-spi-cloud
+
+
+> Configure project :portability-spi-api
+
+
+> Configure project :portability-types-client
+
+
+> Configure project :portability-api
+
+
+> Configure project :portability-transfer
+
+
+> Configure project :portability-bootstrap-vm
+
+
+> Configure project :libraries:auth
+
+
+> Configure project :libraries:transfer
+
+
+> Configure project :extensions:auth:portability-auth-deezer
+
+
+> Configure project :extensions:auth:portability-auth-facebook
+
+
+> Configure project :extensions:auth:portability-auth-flickr
+
+
+> Configure project :extensions:auth:portability-auth-google
+
+
+> Configure project :extensions:auth:portability-auth-microsoft
+
+
+> Configure project :extensions:auth:portability-auth-harness-microsoft
+
+
+> Configure project :extensions:auth:portability-auth-imgur
+
+
+> Configure project :extensions:auth:portability-auth-instagram
+
+
+> Configure project :extensions:auth:portability-auth-koofr
+
+
+> Configure project :extensions:auth:portability-auth-offline-demo
+
+
+> Configure project :extensions:auth:portability-auth-rememberthemilk
+
+
+> Configure project :extensions:auth:portability-auth-smugmug
+
+
+> Configure project :extensions:auth:portability-auth-spotify
+
+
+> Configure project :extensions:auth:portability-auth-twitter
+
+
+> Configure project :extensions:cloud:portability-cloud-google
+
+
+> Configure project :extensions:cloud:portability-cloud-local
+
+
+> Configure project :extensions:cloud:portability-cloud-microsoft
+
+
+> Configure project :extensions:config:portability-config-yaml
+
+
+> Configure project :extensions:copier:portability-stack-copier
+
+
+> Configure project :extensions:data-transfer:portability-data-transfer-deezer
+
+
+> Configure project :extensions:data-transfer:portability-data-transfer-facebook
+
+
+> Configure project :extensions:data-transfer:portability-data-transfer-flickr
+
+
+> Configure project :extensions:data-transfer:portability-data-transfer-google
+
+
+> Configure project :extensions:data-transfer:portability-data-transfer-imgur
+
+
+> Configure project :extensions:data-transfer:portability-data-transfer-instagram
+
+
+> Configure project :extensions:data-transfer:portability-data-transfer-koofr
+
+
+> Configure project :extensions:data-transfer:portability-data-transfer-mastodon
+
+
+> Configure project :extensions:data-transfer:portability-data-transfer-microsoft
+
+
+> Configure project :extensions:data-transfer:portability-data-transfer-offline-demo
+
+
+> Configure project :extensions:data-transfer:portability-data-transfer-rememberthemilk
+
+
+> Configure project :extensions:data-transfer:portability-data-transfer-smugmug
+
+
+> Configure project :extensions:data-transfer:portability-data-transfer-solid
+
+
+> Configure project :extensions:data-transfer:portability-data-transfer-spotify
+
+
+> Configure project :extensions:data-transfer:portability-data-transfer-twitter
+
+
+> Configure project :extensions:security:portability-security-cleartext
+
+
+> Configure project :extensions:security:portability-security-jwe
+
+
+> Configure project :extensions:transport:portability-transport-jettyrest
+
+
+> Task :clean UP-TO-DATE
+> Task :client-rest:clean UP-TO-DATE
+> Task :portability-api:clean UP-TO-DATE
+> Task :portability-api-launcher:clean
+> Task :portability-bootstrap-vm:clean UP-TO-DATE
+> Task :portability-spi-api:clean UP-TO-DATE
+> Task :portability-spi-cloud:clean UP-TO-DATE
+> Task :portability-spi-service:clean UP-TO-DATE
+> Task :portability-spi-transfer:clean UP-TO-DATE
+> Task :portability-test-utilities:clean UP-TO-DATE
+> Task :portability-transfer:clean UP-TO-DATE
+> Task :portability-types-client:clean UP-TO-DATE
+> Task :portability-types-common:clean UP-TO-DATE
+> Task :portability-types-transfer:clean UP-TO-DATE
+> Task :distributions:api-default:clean UP-TO-DATE
+> Task :distributions:demo-server:clean UP-TO-DATE
+> Task :distributions:transfer-default:clean UP-TO-DATE
+> Task :libraries:auth:clean UP-TO-DATE
+> Task :libraries:config:clean UP-TO-DATE
+> Task :libraries:security:clean UP-TO-DATE
+> Task :libraries:transfer:clean UP-TO-DATE
+> Task :distributions:demo-google-deployment:api:clean UP-TO-DATE
+> Task :distributions:demo-google-deployment:transfer:clean UP-TO-DATE
+> Task :extensions:auth:portability-auth-deezer:clean UP-TO-DATE
+> Task :extensions:auth:portability-auth-facebook:clean UP-TO-DATE
+> Task :extensions:auth:portability-auth-flickr:clean UP-TO-DATE
+> Task :extensions:auth:portability-auth-google:clean UP-TO-DATE
+> Task :extensions:auth:portability-auth-harness-microsoft:clean UP-TO-DATE
+> Task :extensions:auth:portability-auth-imgur:clean UP-TO-DATE
+> Task :extensions:auth:portability-auth-instagram:clean UP-TO-DATE
+> Task :extensions:auth:portability-auth-koofr:clean UP-TO-DATE
+> Task :extensions:auth:portability-auth-microsoft:clean UP-TO-DATE
+> Task :extensions:auth:portability-auth-offline-demo:clean UP-TO-DATE
+> Task :extensions:auth:portability-auth-rememberthemilk:clean UP-TO-DATE
+> Task :extensions:auth:portability-auth-smugmug:clean UP-TO-DATE
+> Task :extensions:auth:portability-auth-spotify:clean UP-TO-DATE
+> Task :extensions:auth:portability-auth-twitter:clean UP-TO-DATE
+> Task :extensions:cloud:portability-cloud-google:clean UP-TO-DATE
+> Task :extensions:cloud:portability-cloud-local:clean UP-TO-DATE
+> Task :extensions:cloud:portability-cloud-microsoft:clean UP-TO-DATE
+> Task :extensions:config:portability-config-yaml:clean UP-TO-DATE
+> Task :extensions:copier:portability-stack-copier:clean UP-TO-DATE
+> Task :extensions:data-transfer:portability-data-transfer-deezer:clean UP-TO-DATE
+> Task :extensions:data-transfer:portability-data-transfer-facebook:clean UP-TO-DATE
+> Task :extensions:data-transfer:portability-data-transfer-flickr:clean UP-TO-DATE
+> Task :extensions:data-transfer:portability-data-transfer-google:clean UP-TO-DATE
+> Task :extensions:data-transfer:portability-data-transfer-imgur:clean UP-TO-DATE
+> Task :extensions:data-transfer:portability-data-transfer-instagram:clean UP-TO-DATE
+> Task :extensions:data-transfer:portability-data-transfer-koofr:clean UP-TO-DATE
+> Task :extensions:data-transfer:portability-data-transfer-mastodon:clean UP-TO-DATE
+> Task :extensions:data-transfer:portability-data-transfer-microsoft:clean UP-TO-DATE
+> Task :extensions:data-transfer:portability-data-transfer-offline-demo:clean UP-TO-DATE
+> Task :extensions:data-transfer:portability-data-transfer-rememberthemilk:clean UP-TO-DATE
+> Task :extensions:data-transfer:portability-data-transfer-smugmug:clean UP-TO-DATE
+> Task :extensions:data-transfer:portability-data-transfer-solid:clean UP-TO-DATE
+> Task :extensions:data-transfer:portability-data-transfer-spotify:clean UP-TO-DATE
+> Task :extensions:data-transfer:portability-data-transfer-twitter:clean UP-TO-DATE
+> Task :extensions:security:portability-security-cleartext:clean UP-TO-DATE
+> Task :extensions:security:portability-security-jwe:clean UP-TO-DATE
+> Task :extensions:transport:portability-transport-jettyrest:clean UP-TO-DATE
+> Task :compileJava NO-SOURCE
+> Task :client-rest:compileJava NO-SOURCE
+> Task :portability-api-launcher:compileJava
+> Task :portability-api-launcher:processResources NO-SOURCE
+> Task :portability-api-launcher:classes
+> Task :portability-api-launcher:generateGitHash UP-TO-DATE
+> Task :portability-api-launcher:jar
+> Task :portability-types-common:compileJava
+> Task :portability-types-common:processResources NO-SOURCE
+> Task :portability-types-common:classes
+> Task :portability-types-common:jar
+> Task :portability-types-transfer:compileJava
+> Task :portability-types-transfer:processResources NO-SOURCE
+> Task :portability-types-transfer:classes
+> Task :portability-types-transfer:jar
+> Task :portability-spi-api:compileJava
+> Task :portability-spi-api:processResources NO-SOURCE
+> Task :portability-spi-api:classes
+> Task :portability-spi-api:jar
+
+> Task :portability-spi-cloud:compileJava
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :portability-spi-cloud:processResources NO-SOURCE
+> Task :portability-spi-cloud:classes
+> Task :portability-spi-cloud:jar
+> Task :portability-spi-service:compileJava
+> Task :portability-spi-service:processResources NO-SOURCE
+> Task :portability-spi-service:classes
+> Task :portability-spi-service:jar
+> Task :portability-spi-transfer:compileJava
+> Task :portability-spi-transfer:processResources NO-SOURCE
+> Task :portability-spi-transfer:classes
+> Task :portability-spi-transfer:jar
+> Task :portability-types-client:compileJava
+> Task :portability-types-client:processResources NO-SOURCE
+> Task :portability-types-client:classes
+> Task :portability-types-client:jar
+> Task :libraries:config:compileJava
+> Task :libraries:config:processResources NO-SOURCE
+> Task :libraries:config:classes
+> Task :libraries:config:jar
+> Task :libraries:security:compileJava
+> Task :libraries:security:processResources NO-SOURCE
+> Task :libraries:security:classes
+> Task :libraries:security:jar
+
+> Task :portability-api:compileJava
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /results/google-data-transfer-project/RELEASES/dabb7f46682afebc8bafc49d357b25eaf8754202/portability-api/src/main/java/org/datatransferproject/api/ApiMain.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :portability-api:processResources NO-SOURCE
+> Task :portability-api:classes
+> Task :portability-api:jar
+
+> Task :portability-transfer:compileJava
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :portability-transfer:processResources NO-SOURCE
+> Task :portability-transfer:classes
+> Task :portability-transfer:jar
+> Task :portability-bootstrap-vm:compileJava
+
+> Task :portability-test-utilities:compileJava
+Note: /results/google-data-transfer-project/RELEASES/dabb7f46682afebc8bafc49d357b25eaf8754202/portability-test-utilities/src/main/java/org/datatransferproject/test/types/FakeIdempotentImportExecutor.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :libraries:auth:compileJava
+> Task :libraries:auth:processResources NO-SOURCE
+> Task :libraries:auth:classes
+> Task :libraries:auth:jar
+> Task :extensions:auth:portability-auth-facebook:compileJava
+> Task :extensions:auth:portability-auth-facebook:processResources
+> Task :extensions:auth:portability-auth-facebook:classes
+> Task :extensions:auth:portability-auth-facebook:jar
+> Task :extensions:auth:portability-auth-flickr:compileJava
+> Task :extensions:auth:portability-auth-flickr:processResources
+> Task :extensions:auth:portability-auth-flickr:classes
+> Task :extensions:auth:portability-auth-flickr:jar
+> Task :extensions:auth:portability-auth-google:compileJava
+> Task :extensions:auth:portability-auth-google:processResources
+> Task :extensions:auth:portability-auth-google:classes
+> Task :extensions:auth:portability-auth-google:jar
+> Task :extensions:auth:portability-auth-microsoft:compileJava
+> Task :extensions:auth:portability-auth-microsoft:processResources
+> Task :extensions:auth:portability-auth-microsoft:classes
+> Task :extensions:auth:portability-auth-microsoft:jar
+
+> Task :extensions:cloud:portability-cloud-local:compileJava
+Note: /results/google-data-transfer-project/RELEASES/dabb7f46682afebc8bafc49d357b25eaf8754202/extensions/cloud/portability-cloud-local/src/main/java/org/datatransferproject/cloud/local/LocalJobStore.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :extensions:cloud:portability-cloud-local:processResources
+> Task :extensions:cloud:portability-cloud-local:classes
+> Task :extensions:cloud:portability-cloud-local:jar
+> Task :extensions:transport:portability-transport-jettyrest:compileJava
+> Task :extensions:transport:portability-transport-jettyrest:processResources
+> Task :extensions:transport:portability-transport-jettyrest:classes
+> Task :extensions:transport:portability-transport-jettyrest:jar
+> Task :distributions:api-default:compileJava NO-SOURCE
+> Task :portability-bootstrap-vm:processResources NO-SOURCE
+> Task :portability-bootstrap-vm:classes
+> Task :portability-bootstrap-vm:jar
+> Task :libraries:transfer:compileJava
+> Task :libraries:transfer:processResources NO-SOURCE
+> Task :libraries:transfer:classes
+> Task :libraries:transfer:jar
+> Task :extensions:auth:portability-auth-deezer:compileJava
+> Task :extensions:auth:portability-auth-deezer:processResources
+> Task :extensions:auth:portability-auth-deezer:classes
+> Task :extensions:auth:portability-auth-deezer:jar
+> Task :extensions:auth:portability-auth-imgur:compileJava
+> Task :extensions:auth:portability-auth-imgur:processResources
+> Task :extensions:auth:portability-auth-imgur:classes
+> Task :extensions:auth:portability-auth-imgur:jar
+> Task :extensions:auth:portability-auth-instagram:compileJava
+> Task :extensions:auth:portability-auth-instagram:processResources
+> Task :extensions:auth:portability-auth-instagram:classes
+> Task :extensions:auth:portability-auth-instagram:jar
+> Task :extensions:auth:portability-auth-koofr:compileJava
+> Task :extensions:auth:portability-auth-koofr:processResources
+> Task :extensions:auth:portability-auth-koofr:classes
+> Task :extensions:auth:portability-auth-koofr:jar
+> Task :extensions:auth:portability-auth-rememberthemilk:compileJava
+> Task :extensions:auth:portability-auth-rememberthemilk:processResources
+> Task :extensions:auth:portability-auth-rememberthemilk:classes
+> Task :extensions:auth:portability-auth-rememberthemilk:jar
+> Task :extensions:auth:portability-auth-smugmug:compileJava
+> Task :extensions:auth:portability-auth-smugmug:processResources
+> Task :extensions:auth:portability-auth-smugmug:classes
+> Task :extensions:auth:portability-auth-smugmug:jar
+> Task :extensions:auth:portability-auth-spotify:compileJava
+> Task :extensions:auth:portability-auth-spotify:processResources
+> Task :extensions:auth:portability-auth-spotify:classes
+> Task :extensions:auth:portability-auth-spotify:jar
+> Task :extensions:auth:portability-auth-twitter:compileJava
+> Task :extensions:auth:portability-auth-twitter:processResources
+> Task :extensions:auth:portability-auth-twitter:classes
+> Task :extensions:auth:portability-auth-twitter:jar
+
+> Task :extensions:config:portability-config-yaml:compileJava
+Note: /results/google-data-transfer-project/RELEASES/dabb7f46682afebc8bafc49d357b25eaf8754202/extensions/config/portability-config-yaml/src/main/java/org/datatransferproject/config/yaml/YamlSettingsExtension.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :extensions:config:portability-config-yaml:processResources
+> Task :extensions:config:portability-config-yaml:classes
+> Task :extensions:config:portability-config-yaml:jar
+> Task :extensions:data-transfer:portability-data-transfer-deezer:compileJava
+> Task :extensions:data-transfer:portability-data-transfer-deezer:processResources
+> Task :extensions:data-transfer:portability-data-transfer-deezer:classes
+> Task :extensions:data-transfer:portability-data-transfer-deezer:jar
+> Task :extensions:data-transfer:portability-data-transfer-facebook:compileJava
+> Task :extensions:data-transfer:portability-data-transfer-facebook:processResources
+> Task :extensions:data-transfer:portability-data-transfer-facebook:classes
+> Task :extensions:data-transfer:portability-data-transfer-facebook:jar
+> Task :extensions:data-transfer:portability-data-transfer-flickr:compileJava
+> Task :extensions:data-transfer:portability-data-transfer-flickr:processResources
+> Task :extensions:data-transfer:portability-data-transfer-flickr:classes
+> Task :extensions:data-transfer:portability-data-transfer-flickr:jar
+
+> Task :extensions:data-transfer:portability-data-transfer-google:compileJava
+Note: /results/google-data-transfer-project/RELEASES/dabb7f46682afebc8bafc49d357b25eaf8754202/extensions/data-transfer/portability-data-transfer-google/src/main/java/org/datatransferproject/datatransfer/google/videos/GoogleVideosImporter.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :extensions:data-transfer:portability-data-transfer-google:processResources
+> Task :extensions:data-transfer:portability-data-transfer-google:classes
+> Task :extensions:data-transfer:portability-data-transfer-google:jar
+
+> Task :extensions:data-transfer:portability-data-transfer-imgur:compileJava
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :extensions:data-transfer:portability-data-transfer-imgur:processResources
+> Task :extensions:data-transfer:portability-data-transfer-imgur:classes
+> Task :extensions:data-transfer:portability-data-transfer-imgur:jar
+> Task :extensions:data-transfer:portability-data-transfer-instagram:compileJava
+> Task :extensions:data-transfer:portability-data-transfer-instagram:processResources
+> Task :extensions:data-transfer:portability-data-transfer-instagram:classes
+> Task :extensions:data-transfer:portability-data-transfer-instagram:jar
+> Task :extensions:data-transfer:portability-data-transfer-koofr:compileJava
+> Task :extensions:data-transfer:portability-data-transfer-koofr:processResources
+> Task :extensions:data-transfer:portability-data-transfer-koofr:classes
+> Task :extensions:data-transfer:portability-data-transfer-koofr:jar
+
+> Task :extensions:data-transfer:portability-data-transfer-microsoft:compileJava
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :extensions:data-transfer:portability-data-transfer-microsoft:processResources
+> Task :extensions:data-transfer:portability-data-transfer-microsoft:classes
+> Task :extensions:data-transfer:portability-data-transfer-microsoft:jar
+
+> Task :extensions:data-transfer:portability-data-transfer-rememberthemilk:compileJava
+Note: /results/google-data-transfer-project/RELEASES/dabb7f46682afebc8bafc49d357b25eaf8754202/extensions/data-transfer/portability-data-transfer-rememberthemilk/src/main/java/org/datatransferproject/transfer/rememberthemilk/tasks/RememberTheMilkTasksExporter.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :extensions:data-transfer:portability-data-transfer-rememberthemilk:processResources
+> Task :extensions:data-transfer:portability-data-transfer-rememberthemilk:classes
+> Task :extensions:data-transfer:portability-data-transfer-rememberthemilk:jar
+> Task :extensions:data-transfer:portability-data-transfer-smugmug:compileJava
+> Task :extensions:data-transfer:portability-data-transfer-smugmug:processResources
+> Task :extensions:data-transfer:portability-data-transfer-smugmug:classes
+> Task :extensions:data-transfer:portability-data-transfer-smugmug:jar
+> Task :extensions:data-transfer:portability-data-transfer-spotify:compileJava
+> Task :extensions:data-transfer:portability-data-transfer-spotify:processResources
+> Task :extensions:data-transfer:portability-data-transfer-spotify:classes
+> Task :extensions:data-transfer:portability-data-transfer-spotify:jar
+> Task :extensions:data-transfer:portability-data-transfer-twitter:compileJava
+> Task :extensions:data-transfer:portability-data-transfer-twitter:processResources
+> Task :extensions:data-transfer:portability-data-transfer-twitter:classes
+> Task :extensions:data-transfer:portability-data-transfer-twitter:jar
+> Task :extensions:security:portability-security-jwe:compileJava
+> Task :extensions:security:portability-security-jwe:processResources
+> Task :extensions:security:portability-security-jwe:classes
+> Task :extensions:security:portability-security-jwe:jar
+> Task :distributions:demo-server:compileJava NO-SOURCE
+> Task :distributions:transfer-default:compileJava NO-SOURCE
+> Task :distributions:demo-google-deployment:api:compileJava NO-SOURCE
+> Task :extensions:security:portability-security-cleartext:compileJava
+> Task :extensions:security:portability-security-cleartext:processResources
+> Task :extensions:security:portability-security-cleartext:classes
+> Task :extensions:security:portability-security-cleartext:jar
+> Task :distributions:demo-google-deployment:transfer:compileJava NO-SOURCE
+> Task :extensions:auth:portability-auth-harness-microsoft:compileJava
+> Task :extensions:auth:portability-auth-offline-demo:compileJava
+
+> Task :extensions:cloud:portability-cloud-google:compileJava
+Note: /results/google-data-transfer-project/RELEASES/dabb7f46682afebc8bafc49d357b25eaf8754202/extensions/cloud/portability-cloud-google/src/main/java/org/datatransferproject/cloud/google/GoogleCloudIdempotentImportExecutor.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :extensions:cloud:portability-cloud-microsoft:compileJava
+
+> Task :extensions:copier:portability-stack-copier:compileJava
+Note: /results/google-data-transfer-project/RELEASES/dabb7f46682afebc8bafc49d357b25eaf8754202/extensions/copier/portability-stack-copier/src/main/java/org/datatransferproject/copier/stack/PortabilityStackInMemoryDataCopier.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :extensions:data-transfer:portability-data-transfer-mastodon:compileJava
+> Task :extensions:data-transfer:portability-data-transfer-offline-demo:compileJava
+> Task :extensions:data-transfer:portability-data-transfer-solid:compileJava
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 15s
+186 actionable tasks: 127 executed, 59 up-to-date

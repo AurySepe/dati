@@ -1,0 +1,53 @@
+Downloading https://services.gradle.org/distributions/gradle-6.8-rc-1-bin.zip
+......................................................................................................
+
+Welcome to Gradle 6.8-rc-1!
+
+Here are the highlights of this release:
+ - Faster Kotlin DSL script compilation
+ - Vendor selection for Java toolchains
+ - Convenient execution of tasks in composite builds
+ - Consistent dependency resolution
+
+For more details see https://docs.gradle.org/6.8-rc-1/release-notes.html
+
+To honour the JVM settings for this build a single-use Daemon process will be forked. See https://docs.gradle.org/6.8-rc-1/userguide/gradle_daemon.html#sec:disabling_the_daemon.
+Daemon will be stopped at the end of the build 
+checksum-dependency-plugin is disabled since checksumIgnore property is present
+
+> Configure project :
+Jandex Gradle plugin 0.8.0. Consider becoming a patron at https://www.patreon.com/aalmiray
+
+> Task :caffeine:clean UP-TO-DATE
+> Task :guava:clean UP-TO-DATE
+> Task :jcache:clean UP-TO-DATE
+> Task :simulator:clean UP-TO-DATE
+> Task :caffeine:downloadCaffeineLocal UP-TO-DATE
+> Task :caffeine:compileJavaPoetJava
+> Task :caffeine:processJavaPoetResources
+> Task :caffeine:javaPoetClasses
+> Task :caffeine:generateLocalCaches
+> Task :caffeine:generateNodes
+> Task :caffeine:compileJava
+> Task :caffeine:processResources NO-SOURCE
+> Task :caffeine:classes
+> Task :caffeine:jandex
+> Task :caffeine:compileCodeGenJava SKIPPED
+> Task :caffeine:jar
+> Task :guava:downloadCaffeineLocal UP-TO-DATE
+> Task :guava:compileJava
+> Task :jcache:downloadCaffeineLocal UP-TO-DATE
+> Task :jcache:compileJava
+> Task :simulator:downloadCaffeineLocal UP-TO-DATE
+
+> Task :simulator:compileJava
+warning: No processor claimed any of these annotations: net.autobuilder.AutoBuilder,picocli.CommandLine.Option,com.google.auto.value.AutoValue,com.google.errorprone.annotations.FormatMethod,com.google.errorprone.annotations.FormatString
+warning: No processor claimed any of these annotations: javax.annotation.Generated
+2 warnings
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.8-rc-1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 1m 45s
+14 actionable tasks: 10 executed, 4 up-to-date

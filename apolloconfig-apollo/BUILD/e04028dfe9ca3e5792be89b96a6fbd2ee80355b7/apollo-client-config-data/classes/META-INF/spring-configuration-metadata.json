@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "apollo.client",
+      "type": "com.ctrip.framework.apollo.config.data.extension.properties.ApolloClientProperties",
+      "sourceType": "com.ctrip.framework.apollo.config.data.ApolloClientConfigDataAutoConfiguration",
+      "sourceMethod": "apolloWebClientSecurityProperties()"
+    },
+    {
+      "name": "apollo.client.extension",
+      "type": "com.ctrip.framework.apollo.config.data.extension.properties.ApolloClientExtensionProperties",
+      "sourceType": "com.ctrip.framework.apollo.config.data.extension.properties.ApolloClientProperties",
+      "sourceMethod": "getExtension()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "apollo.client.extension.enabled",
+      "type": "java.lang.Boolean",
+      "description": "enable apollo client extension(webclient\/websocket and authentication)",
+      "sourceType": "com.ctrip.framework.apollo.config.data.extension.properties.ApolloClientExtensionProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "apollo.client.extension.messaging-type",
+      "type": "com.ctrip.framework.apollo.config.data.extension.enums.ApolloClientMessagingType",
+      "description": "apollo client listening type",
+      "sourceType": "com.ctrip.framework.apollo.config.data.extension.properties.ApolloClientExtensionProperties"
+    }
+  ],
+  "hints": []
+}

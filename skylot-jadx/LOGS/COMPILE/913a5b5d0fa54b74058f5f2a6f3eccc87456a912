@@ -1,0 +1,149 @@
+Downloading https://services.gradle.org/distributions/gradle-2.7-bin.zip
+................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Unzipping /root/.gradle/wrapper/dists/gradle-2.7-bin/4s0fcuuppw3tjb1sxpzh16mne/gradle-2.7-bin.zip to /root/.gradle/wrapper/dists/gradle-2.7-bin/4s0fcuuppw3tjb1sxpzh16mne
+Set executable permissions for: /root/.gradle/wrapper/dists/gradle-2.7-bin/4s0fcuuppw3tjb1sxpzh16mne/gradle-2.7/bin/gradle
+Download https://repo1.maven.org/maven2/org/kt3k/gradle/plugin/coveralls-gradle-plugin/2.3.1/coveralls-gradle-plugin-2.3.1.pom
+Download https://repo1.maven.org/maven2/info/solidsoft/gradle/pitest/gradle-pitest-plugin/1.1.4/gradle-pitest-plugin-1.1.4.pom
+Download https://repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.3/httpmime-4.3.pom
+Download https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.3/httpcomponents-client-4.3.pom
+Download https://repo1.maven.org/maven2/org/apache/httpcomponents/project/7/project-7.pom
+Download https://repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/3.6.0.201412230720-r/org.eclipse.jgit-3.6.0.201412230720-r.pom
+Download https://repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit-parent/3.6.0.201412230720-r/org.eclipse.jgit-parent-3.6.0.201412230720-r.pom
+Download https://repo1.maven.org/maven2/org/codehaus/groovy/modules/http-builder/http-builder/0.7.1/http-builder-0.7.1.pom
+Download https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3/httpclient-4.3.pom
+Download https://repo1.maven.org/maven2/com/jcraft/jsch/0.1.50/jsch-0.1.50.pom
+Download https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/6/oss-parent-6.pom
+Download https://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/0.7.9/JavaEWAH-0.7.9.pom
+Download https://repo1.maven.org/maven2/net/sf/json-lib/json-lib/2.3/json-lib-2.3.pom
+Download https://repo1.maven.org/maven2/net/sourceforge/nekohtml/nekohtml/1.9.16/nekohtml-1.9.16.pom
+Download https://repo1.maven.org/maven2/xml-resolver/xml-resolver/1.2/xml-resolver-1.2.pom
+Download https://repo1.maven.org/maven2/org/apache/apache/3/apache-3.pom
+Download https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.8.0/commons-beanutils-1.8.0.pom
+Download https://repo1.maven.org/maven2/org/apache/commons/commons-parent/11/commons-parent-11.pom
+Download https://repo1.maven.org/maven2/org/apache/apache/4/apache-4.pom
+Download https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom
+Download https://repo1.maven.org/maven2/org/apache/commons/commons-parent/9/commons-parent-9.pom
+Download https://repo1.maven.org/maven2/commons-lang/commons-lang/2.4/commons-lang-2.4.pom
+Download https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.pom
+Download https://repo1.maven.org/maven2/org/apache/commons/commons-parent/5/commons-parent-5.pom
+Download https://repo1.maven.org/maven2/net/sf/ezmorph/ezmorph/1.0.6/ezmorph-1.0.6.pom
+Download https://repo1.maven.org/maven2/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.pom
+Download https://repo1.maven.org/maven2/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.pom
+Download https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3/httpcore-4.3.pom
+Download https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.3/httpcomponents-core-4.3.pom
+Download https://repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.pom
+Download https://repo1.maven.org/maven2/org/apache/commons/commons-parent/22/commons-parent-22.pom
+Download https://repo1.maven.org/maven2/org/apache/apache/9/apache-9.pom
+Download https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.pom
+Download https://repo1.maven.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom
+Download https://repo1.maven.org/maven2/org/kt3k/gradle/plugin/coveralls-gradle-plugin/2.3.1/coveralls-gradle-plugin-2.3.1.jar
+Download https://repo1.maven.org/maven2/info/solidsoft/gradle/pitest/gradle-pitest-plugin/1.1.4/gradle-pitest-plugin-1.1.4.jar
+Download https://repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.3/httpmime-4.3.jar
+Download https://repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/3.6.0.201412230720-r/org.eclipse.jgit-3.6.0.201412230720-r.jar
+Download https://repo1.maven.org/maven2/org/codehaus/groovy/modules/http-builder/http-builder/0.7.1/http-builder-0.7.1.jar
+Download https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3/httpclient-4.3.jar
+Download https://repo1.maven.org/maven2/com/jcraft/jsch/0.1.50/jsch-0.1.50.jar
+Download https://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/0.7.9/JavaEWAH-0.7.9.jar
+Download https://repo1.maven.org/maven2/net/sf/json-lib/json-lib/2.3/json-lib-2.3-jdk15.jar
+Download https://repo1.maven.org/maven2/net/sourceforge/nekohtml/nekohtml/1.9.16/nekohtml-1.9.16.jar
+Download https://repo1.maven.org/maven2/xml-resolver/xml-resolver/1.2/xml-resolver-1.2.jar
+Download https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.8.0/commons-beanutils-1.8.0.jar
+Download https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar
+Download https://repo1.maven.org/maven2/commons-lang/commons-lang/2.4/commons-lang-2.4.jar
+Download https://repo1.maven.org/maven2/net/sf/ezmorph/ezmorph/1.0.6/ezmorph-1.0.6.jar
+Download https://repo1.maven.org/maven2/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.jar
+Download https://repo1.maven.org/maven2/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar
+Download https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3/httpcore-4.3.jar
+Download https://repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.jar
+Download https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar
+Download https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.pom
+Download https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.10/slf4j-parent-1.7.10.pom
+Download https://repo1.maven.org/maven2/com/fifesoft/rsyntaxtextarea/2.5.8/rsyntaxtextarea-2.5.8.pom
+Download https://repo1.maven.org/maven2/com/google/code/gson/gson/2.3.1/gson-2.3.1.pom
+Download https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom
+Download https://repo1.maven.org/maven2/org/apache/commons/commons-parent/25/commons-parent-25.pom
+Download https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.3/asm-5.0.3.pom
+Download https://repo1.maven.org/maven2/org/ow2/asm/asm-parent/5.0.3/asm-parent-5.0.3.pom
+Download https://repo1.maven.org/maven2/org/ow2/ow2/1.3/ow2-1.3.pom
+Download https://repo1.maven.org/maven2/com/intellij/annotations/12.0/annotations-12.0.pom
+Download https://repo1.maven.org/maven2/uk/com/robust-it/cloning/1.9.2/cloning-1.9.2.pom
+Download https://repo1.maven.org/maven2/com/beust/jcommander/1.47/jcommander-1.47.pom
+Download https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/3/oss-parent-3.pom
+Download https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.pom
+Download https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.1.2/logback-parent-1.1.2.pom
+Download https://repo1.maven.org/maven2/org/objenesis/objenesis/2.1/objenesis-2.1.pom
+Download https://repo1.maven.org/maven2/org/objenesis/objenesis-parent/2.1/objenesis-parent-2.1.pom
+Download https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2.pom
+Download https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar
+Download https://repo1.maven.org/maven2/com/fifesoft/rsyntaxtextarea/2.5.8/rsyntaxtextarea-2.5.8.jar
+Download https://repo1.maven.org/maven2/com/google/code/gson/gson/2.3.1/gson-2.3.1.jar
+Download https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar
+Download https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar
+Download https://repo1.maven.org/maven2/com/intellij/annotations/12.0/annotations-12.0.jar
+Download https://repo1.maven.org/maven2/uk/com/robust-it/cloning/1.9.2/cloning-1.9.2.jar
+Download https://repo1.maven.org/maven2/com/beust/jcommander/1.47/jcommander-1.47.jar
+Download https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.jar
+Download https://repo1.maven.org/maven2/org/objenesis/objenesis/2.1/objenesis-2.1.jar
+Download https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2.jar
+:cleanBuildDir UP-TO-DATE
+:clean UP-TO-DATE
+:jadx-cli:clean UP-TO-DATE
+:jadx-core:clean UP-TO-DATE
+:jadx-gui:clean UP-TO-DATE
+:jadx-samples:cleanGeneratedFiles UP-TO-DATE
+:jadx-samples:clean UP-TO-DATE
+:jadx-test-app:deleteTmp UP-TO-DATE
+:jadx-test-app:clean UP-TO-DATE
+:compileJava UP-TO-DATE
+:jadx-core:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+/results/skylot-jadx/RELEASES/913a5b5d0fa54b74058f5f2a6f3eccc87456a912/jadx-core/src/main/java/jadx/core/dex/instructions/args/LiteralArg.java:68: warning: [deprecation] literalToString(long,ArgType) in TypeGen has been deprecated
+			String value = TypeGen.literalToString(literal, getType());
+			                      ^
+/results/skylot-jadx/RELEASES/913a5b5d0fa54b74058f5f2a6f3eccc87456a912/jadx-core/src/main/java/jadx/core/xmlgen/ParserConstants.java:156: warning: [serial] serializable class <anonymous jadx.core.xmlgen.ParserConstants$1> has no definition of serialVersionUID
+	protected static final Map<Integer, String> PLURALS_MAP = new HashMap<Integer, String>() {
+	                                                                                         ^
+3 warnings
+
+:jadx-core:compileGroovy UP-TO-DATE
+:jadx-core:processResources
+:jadx-core:classes
+:jadx-core:jar
+:jadx-cli:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:jadx-cli:compileGroovy UP-TO-DATE
+:jadx-cli:processResources
+:jadx-cli:classes
+:jadx-cli:jar
+:jadx-gui:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+/results/skylot-jadx/RELEASES/913a5b5d0fa54b74058f5f2a6f3eccc87456a912/jadx-gui/src/main/java/jadx/gui/treemodel/JNode.java:10: warning: [serial] serializable class JNode has no definition of serialVersionUID
+public abstract class JNode extends DefaultMutableTreeNode {
+                ^
+/results/skylot-jadx/RELEASES/913a5b5d0fa54b74058f5f2a6f3eccc87456a912/jadx-gui/src/main/java/jadx/gui/ui/ContentPanel.java:7: warning: [serial] serializable class ContentPanel has no definition of serialVersionUID
+abstract class ContentPanel extends JPanel {
+         ^
+/results/skylot-jadx/RELEASES/913a5b5d0fa54b74058f5f2a6f3eccc87456a912/jadx-gui/src/main/java/jadx/gui/ui/ImagePanel.java:10: warning: [serial] serializable class ImagePanel has no definition of serialVersionUID
+public class ImagePanel extends ContentPanel {
+       ^
+/results/skylot-jadx/RELEASES/913a5b5d0fa54b74058f5f2a6f3eccc87456a912/jadx-gui/src/main/java/jadx/gui/ui/LogViewer.java:45: warning: [rawtypes] found raw type: JComboBox
+		final JComboBox cb = new JComboBox(LEVEL_ITEMS);
+		      ^
+  missing type arguments for generic class JComboBox<E>
+  where E is a type-variable:
+    E extends Object declared in class JComboBox
+/results/skylot-jadx/RELEASES/913a5b5d0fa54b74058f5f2a6f3eccc87456a912/jadx-gui/src/main/java/jadx/gui/ui/LogViewer.java:45: warning: [rawtypes] found raw type: JComboBox
+		final JComboBox cb = new JComboBox(LEVEL_ITEMS);
+		                         ^
+  missing type arguments for generic class JComboBox<E>
+  where E is a type-variable:
+    E extends Object declared in class JComboBox
+6 warnings
+
+:jadx-samples:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:jadx-test-app:compileJava UP-TO-DATE
+
+BUILD SUCCESSFUL
+
+Total time: 23.188 secs

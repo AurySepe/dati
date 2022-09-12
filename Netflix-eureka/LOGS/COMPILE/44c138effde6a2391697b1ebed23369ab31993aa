@@ -1,0 +1,68 @@
+Inferred project: eureka, version: 1.5.5-SNAPSHOT
+The testJar task is deprecated.  Please place common test harness code in its own project and publish separately.
+The testJar task is deprecated.  Please place common test harness code in its own project and publish separately.
+The testJar task is deprecated.  Please place common test harness code in its own project and publish separately.
+Publication nebula not found in project :.
+[buildinfo] Not using buildInfo properties file for this build.
+Publication named 'nebula' does not exist for project ':' in task ':artifactoryPublish'.
+:eureka-client:clean
+:eureka-client-archaius2:clean
+:eureka-client-jersey2:clean
+:eureka-core:clean
+:eureka-examples:clean
+:eureka-resources:clean
+:eureka-server:clean
+:eureka-server-governator:clean
+:eureka-test-utils:clean
+:eureka-client:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning
+
+:eureka-client:processResources UP-TO-DATE
+:eureka-client:classes
+:eureka-client:writeManifestProperties
+:eureka-client:jar
+:eureka-client-archaius2:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+1 warning
+
+:eureka-client-jersey2:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+
+:eureka-core:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+/results/Netflix-eureka/RELEASES/44c138effde6a2391697b1ebed23369ab31993aa/eureka-core/src/main/java/com/netflix/eureka/DefaultEurekaServerConfig.java:501: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+                        new String[]{propName, remoteRegionUrlWithNamePair, pairSplitChar});
+                        ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2 warnings
+
+:eureka-examples:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+
+:eureka-resources:compileJava UP-TO-DATE
+:eureka-core:processResources UP-TO-DATE
+:eureka-core:classes
+:eureka-core:writeManifestProperties
+:eureka-core:jar
+:eureka-server:compileJava UP-TO-DATE
+:eureka-server-governator:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+
+:eureka-test-utils:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+1 warning
+
+
+BUILD SUCCESSFUL
+
+Total time: 8.246 secs

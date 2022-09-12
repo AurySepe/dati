@@ -1,0 +1,55 @@
+Downloading https://services.gradle.org/distributions/gradle-4.10.2-all.zip
+...............................................................................................................
+
+Welcome to Gradle 4.10.2!
+
+Here are the highlights of this release:
+ - Incremental Java compilation by default
+ - Periodic Gradle caches cleanup
+ - Gradle Kotlin DSL 1.0-RC6
+ - Nested included builds
+ - SNAPSHOT plugin versions in the `plugins {}` block
+
+For more details see https://docs.gradle.org/4.10.2/release-notes.html
+
+
+> Configure project :
+Building SNAPSHOT (SNAPSHOT): 7ba724
+
+> Task :clean UP-TO-DATE
+> Task :brut.apktool:clean UP-TO-DATE
+> Task :brut.j.common:clean UP-TO-DATE
+> Task :brut.j.dir:clean UP-TO-DATE
+> Task :brut.j.util:clean UP-TO-DATE
+> Task :brut.apktool:apktool-cli:clean UP-TO-DATE
+> Task :brut.apktool:apktool-lib:clean UP-TO-DATE
+> Task :compileJava NO-SOURCE
+> Task :brut.apktool:compileJava NO-SOURCE
+> Task :brut.j.common:compileJava
+> Task :brut.j.common:processResources NO-SOURCE
+> Task :brut.j.common:classes
+> Task :brut.j.common:jar
+
+> Task :brut.j.util:compileJava
+Note: /results/iBotPeaches-Apktool/RELEASES/7ba7249ce3fe62fee1b58b78ed238a6286a99d9f/brut.j.util/src/main/java/brut/util/Duo.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :brut.j.util:processResources NO-SOURCE
+> Task :brut.j.util:classes
+> Task :brut.j.util:jar
+> Task :brut.j.dir:compileJava
+> Task :brut.j.dir:processResources NO-SOURCE
+> Task :brut.j.dir:classes
+> Task :brut.j.dir:jar
+
+> Task :brut.apktool:apktool-lib:compileJava
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :brut.apktool:apktool-lib:processResources
+> Task :brut.apktool:apktool-lib:classes
+> Task :brut.apktool:apktool-lib:jar
+> Task :brut.apktool:apktool-cli:compileJava
+
+BUILD SUCCESSFUL in 33s
+17 actionable tasks: 10 executed, 7 up-to-date

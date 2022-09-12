@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<pattern name="Factory Method">
+		<instance>
+			<role name="Creator" element="com.netflix.hystrix.strategy.properties.HystrixDynamicProperties" />
+			<role name="FactoryMethod()" element="com.netflix.hystrix.strategy.properties.HystrixDynamicProperties::getString(java.lang.String, java.lang.String):com.netflix.hystrix.strategy.properties.HystrixDynamicProperty" />
+			<role name="FactoryMethod()" element="com.netflix.hystrix.strategy.properties.HystrixDynamicProperties::getInteger(java.lang.String, java.lang.Integer):com.netflix.hystrix.strategy.properties.HystrixDynamicProperty" />
+			<role name="FactoryMethod()" element="com.netflix.hystrix.strategy.properties.HystrixDynamicProperties::getLong(java.lang.String, java.lang.Long):com.netflix.hystrix.strategy.properties.HystrixDynamicProperty" />
+			<role name="FactoryMethod()" element="com.netflix.hystrix.strategy.properties.HystrixDynamicProperties::getBoolean(java.lang.String, java.lang.Boolean):com.netflix.hystrix.strategy.properties.HystrixDynamicProperty" />
+		</instance>
+	</pattern>
+	<pattern name="Prototype" />
+	<pattern name="Singleton">
+		<instance>
+			<role name="Singleton" element="com.netflix.hystrix.contrib.servopublisher.HystrixServoMetricsPublisher" />
+			<role name="uniqueInstance" element="com.netflix.hystrix.contrib.servopublisher.HystrixServoMetricsPublisher::INSTANCE:com.netflix.hystrix.contrib.servopublisher.HystrixServoMetricsPublisher" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.hystrix.contrib.javanica.command.HystrixCommandBuilderFactory" />
+			<role name="uniqueInstance" element="com.netflix.hystrix.contrib.javanica.command.HystrixCommandBuilderFactory::INSTANCE:com.netflix.hystrix.contrib.javanica.command.HystrixCommandBuilderFactory" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.hystrix.contrib.javanica.command.closure.AsyncClosureFactory" />
+			<role name="uniqueInstance" element="com.netflix.hystrix.contrib.javanica.command.closure.AsyncClosureFactory::INSTANCE:com.netflix.hystrix.contrib.javanica.command.closure.AsyncClosureFactory" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.hystrix.contrib.javanica.command.HystrixCommandFactory" />
+			<role name="uniqueInstance" element="com.netflix.hystrix.contrib.javanica.command.HystrixCommandFactory::INSTANCE:com.netflix.hystrix.contrib.javanica.command.HystrixCommandFactory" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.hystrix.contrib.javanica.cache.HystrixRequestCacheManager" />
+			<role name="uniqueInstance" element="com.netflix.hystrix.contrib.javanica.cache.HystrixRequestCacheManager::INSTANCE:com.netflix.hystrix.contrib.javanica.cache.HystrixRequestCacheManager" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.hystrix.contrib.javanica.cache.DefaultHystrixGeneratedCacheKey" />
+			<role name="uniqueInstance" element="com.netflix.hystrix.contrib.javanica.cache.DefaultHystrixGeneratedCacheKey::EMPTY:com.netflix.hystrix.contrib.javanica.cache.DefaultHystrixGeneratedCacheKey" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.hystrix.contrib.javanica.cache.HystrixCacheKeyGenerator" />
+			<role name="uniqueInstance" element="com.netflix.hystrix.contrib.javanica.cache.HystrixCacheKeyGenerator::INSTANCE:com.netflix.hystrix.contrib.javanica.cache.HystrixCacheKeyGenerator" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.hystrix.contrib.javanica.utils.ajc.AjcUtils$AdviceType" />
+			<role name="uniqueInstance" element="com.netflix.hystrix.contrib.javanica.utils.ajc.AjcUtils$AdviceType::Around:com.netflix.hystrix.contrib.javanica.utils.ajc.AjcUtils$AdviceType" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.hystrix.contrib.javanica.utils.MethodProvider" />
+			<role name="uniqueInstance" element="com.netflix.hystrix.contrib.javanica.utils.MethodProvider::INSTANCE:com.netflix.hystrix.contrib.javanica.utils.MethodProvider" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.hystrix.contrib.javanica.utils.FallbackMethod" />
+			<role name="uniqueInstance" element="com.netflix.hystrix.contrib.javanica.utils.FallbackMethod::ABSENT:com.netflix.hystrix.contrib.javanica.utils.FallbackMethod" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.hystrix.examples.demo.CreditCardCommand$TransactionType" />
+			<role name="uniqueInstance" element="com.netflix.hystrix.examples.demo.CreditCardCommand$TransactionType::AUTH_CAPTURE:com.netflix.hystrix.examples.demo.CreditCardCommand$TransactionType" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.hystrix.metric.sample.HystrixUtilizationStream" />
+			<role name="uniqueInstance" element="com.netflix.hystrix.metric.sample.HystrixUtilizationStream::INSTANCE:com.netflix.hystrix.metric.sample.HystrixUtilizationStream" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.hystrix.metric.HystrixRequestEventsStream" />
+			<role name="uniqueInstance" element="com.netflix.hystrix.metric.HystrixRequestEventsStream::INSTANCE:com.netflix.hystrix.metric.HystrixRequestEventsStream" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.hystrix.metric.consumer.HystrixDashboardStream" />
+			<role name="uniqueInstance" element="com.netflix.hystrix.metric.consumer.HystrixDashboardStream::INSTANCE:com.netflix.hystrix.metric.consumer.HystrixDashboardStream" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.hystrix.strategy.executionhook.HystrixCommandExecutionHookDefault" />
+			<role name="uniqueInstance" element="com.netflix.hystrix.strategy.executionhook.HystrixCommandExecutionHookDefault::INSTANCE:com.netflix.hystrix.strategy.executionhook.HystrixCommandExecutionHookDefault" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.hystrix.strategy.concurrency.HystrixConcurrencyStrategyDefault" />
+			<role name="uniqueInstance" element="com.netflix.hystrix.strategy.concurrency.HystrixConcurrencyStrategyDefault::INSTANCE:com.netflix.hystrix.strategy.concurrency.HystrixConcurrencyStrategyDefault" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.hystrix.strategy.eventnotifier.HystrixEventNotifierDefault" />
+			<role name="uniqueInstance" element="com.netflix.hystrix.strategy.eventnotifier.HystrixEventNotifierDefault::INSTANCE:com.netflix.hystrix.strategy.eventnotifier.HystrixEventNotifierDefault" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.hystrix.strategy.metrics.HystrixMetricsPublisherDefault" />
+			<role name="uniqueInstance" element="com.netflix.hystrix.strategy.metrics.HystrixMetricsPublisherDefault::INSTANCE:com.netflix.hystrix.strategy.metrics.HystrixMetricsPublisherDefault" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.hystrix.strategy.metrics.HystrixMetricsPublisherFactory" />
+			<role name="uniqueInstance" element="com.netflix.hystrix.strategy.metrics.HystrixMetricsPublisherFactory::SINGLETON:com.netflix.hystrix.strategy.metrics.HystrixMetricsPublisherFactory" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.hystrix.strategy.properties.HystrixPropertiesStrategyDefault" />
+			<role name="uniqueInstance" element="com.netflix.hystrix.strategy.properties.HystrixPropertiesStrategyDefault::INSTANCE:com.netflix.hystrix.strategy.properties.HystrixPropertiesStrategyDefault" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.hystrix.ExecutionResult" />
+			<role name="uniqueInstance" element="com.netflix.hystrix.ExecutionResult::EMPTY:com.netflix.hystrix.ExecutionResult" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.hystrix.HystrixThreadPoolProperties$Setter$TestThreadPoolKey" />
+			<role name="uniqueInstance" element="com.netflix.hystrix.HystrixThreadPoolProperties$Setter$TestThreadPoolKey::TEST:com.netflix.hystrix.HystrixThreadPoolProperties$Setter$TestThreadPoolKey" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.hystrix.HystrixCollapserProperties$Setter$TestHystrixCollapserKey" />
+			<role name="uniqueInstance" element="com.netflix.hystrix.HystrixCollapserProperties$Setter$TestHystrixCollapserKey::TEST:com.netflix.hystrix.HystrixCollapserProperties$Setter$TestHystrixCollapserKey" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.hystrix.config.HystrixConfigurationStream" />
+			<role name="uniqueInstance" element="com.netflix.hystrix.config.HystrixConfigurationStream::INSTANCE:com.netflix.hystrix.config.HystrixConfigurationStream" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.hystrix.HystrixCommandMetrics$HealthCounts" />
+			<role name="uniqueInstance" element="com.netflix.hystrix.HystrixCommandMetrics$HealthCounts::EMPTY:com.netflix.hystrix.HystrixCommandMetrics$HealthCounts" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.hystrix.util.PlatformSpecific" />
+			<role name="uniqueInstance" element="com.netflix.hystrix.util.PlatformSpecific::INSTANCE:com.netflix.hystrix.util.PlatformSpecific" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.hystrix.util.HystrixTimer" />
+			<role name="uniqueInstance" element="com.netflix.hystrix.util.HystrixTimer::INSTANCE:com.netflix.hystrix.util.HystrixTimer" />
+		</instance>
+	</pattern>
+	<pattern name="(Object)Adapter">
+		<instance>
+			<role name="Adaptee" element="com.netflix.hystrix.strategy.properties.HystrixPropertiesChainedArchaiusProperty$DynamicBooleanProperty" />
+			<role name="Adapter" element="com.netflix.hystrix.strategy.properties.HystrixPropertiesChainedArchaiusProperty$BooleanProperty" />
+			<role name="adaptee" element="com.netflix.hystrix.strategy.properties.HystrixPropertiesChainedArchaiusProperty$BooleanProperty::sProp:com.netflix.hystrix.strategy.properties.HystrixPropertiesChainedArchaiusProperty$DynamicBooleanProperty" />
+			<role name="Request()" element="com.netflix.hystrix.strategy.properties.HystrixPropertiesChainedArchaiusProperty$BooleanProperty::isValueAcceptable():boolean" />
+			<role name="Request()" element="com.netflix.hystrix.strategy.properties.HystrixPropertiesChainedArchaiusProperty$BooleanProperty::getName():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.hystrix.strategy.properties.HystrixPropertiesChainedArchaiusProperty$DynamicIntegerProperty" />
+			<role name="Adapter" element="com.netflix.hystrix.strategy.properties.HystrixPropertiesChainedArchaiusProperty$IntegerProperty" />
+			<role name="adaptee" element="com.netflix.hystrix.strategy.properties.HystrixPropertiesChainedArchaiusProperty$IntegerProperty::sProp:com.netflix.hystrix.strategy.properties.HystrixPropertiesChainedArchaiusProperty$DynamicIntegerProperty" />
+			<role name="Request()" element="com.netflix.hystrix.strategy.properties.HystrixPropertiesChainedArchaiusProperty$IntegerProperty::isValueAcceptable():boolean" />
+			<role name="Request()" element="com.netflix.hystrix.strategy.properties.HystrixPropertiesChainedArchaiusProperty$IntegerProperty::getName():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.hystrix.strategy.properties.HystrixPropertiesChainedArchaiusProperty$DynamicStringProperty" />
+			<role name="Adapter" element="com.netflix.hystrix.strategy.properties.HystrixPropertiesChainedArchaiusProperty$StringProperty" />
+			<role name="adaptee" element="com.netflix.hystrix.strategy.properties.HystrixPropertiesChainedArchaiusProperty$StringProperty::sProp:com.netflix.hystrix.strategy.properties.HystrixPropertiesChainedArchaiusProperty$DynamicStringProperty" />
+			<role name="Request()" element="com.netflix.hystrix.strategy.properties.HystrixPropertiesChainedArchaiusProperty$StringProperty::isValueAcceptable():boolean" />
+			<role name="Request()" element="com.netflix.hystrix.strategy.properties.HystrixPropertiesChainedArchaiusProperty$StringProperty::getName():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.hystrix.HystrixCommandProperties" />
+			<role name="Adapter" element="com.netflix.hystrix.HystrixCircuitBreaker$HystrixCircuitBreakerImpl" />
+			<role name="adaptee" element="com.netflix.hystrix.HystrixCircuitBreaker$HystrixCircuitBreakerImpl::properties:com.netflix.hystrix.HystrixCommandProperties" />
+			<role name="Request()" element="com.netflix.hystrix.HystrixCircuitBreaker$HystrixCircuitBreakerImpl::allowRequest():boolean" />
+			<role name="Request()" element="com.netflix.hystrix.HystrixCircuitBreaker$HystrixCircuitBreakerImpl::isOpen():boolean" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.hystrix.HystrixThreadPoolMetrics" />
+			<role name="Adapter" element="com.netflix.hystrix.HystrixThreadPool$HystrixThreadPoolDefault" />
+			<role name="adaptee" element="com.netflix.hystrix.HystrixThreadPool$HystrixThreadPoolDefault::metrics:com.netflix.hystrix.HystrixThreadPoolMetrics" />
+			<role name="Request()" element="com.netflix.hystrix.HystrixThreadPool$HystrixThreadPoolDefault::markThreadExecution():void" />
+			<role name="Request()" element="com.netflix.hystrix.HystrixThreadPool$HystrixThreadPoolDefault::markThreadCompletion():void" />
+			<role name="Request()" element="com.netflix.hystrix.HystrixThreadPool$HystrixThreadPoolDefault::markThreadRejection():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.hystrix.HystrixThreadPoolProperties" />
+			<role name="Adapter" element="com.netflix.hystrix.HystrixThreadPool$HystrixThreadPoolDefault" />
+			<role name="adaptee" element="com.netflix.hystrix.HystrixThreadPool$HystrixThreadPoolDefault::properties:com.netflix.hystrix.HystrixThreadPoolProperties" />
+			<role name="Request()" element="com.netflix.hystrix.HystrixThreadPool$HystrixThreadPoolDefault::isQueueSpaceAvailable():boolean" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.hystrix.util.HystrixTimer" />
+			<role name="Adapter" element="com.netflix.hystrix.collapser.RealCollapserTimer" />
+			<role name="adaptee" element="com.netflix.hystrix.collapser.RealCollapserTimer::timer:com.netflix.hystrix.util.HystrixTimer" />
+			<role name="Request()" element="com.netflix.hystrix.collapser.RealCollapserTimer::addListener(com.netflix.hystrix.util.HystrixTimer$TimerListener):java.lang.ref.Reference" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.hystrix.HystrixCollapserKey" />
+			<role name="Adapter" element="com.netflix.hystrix.contrib.servopublisher.HystrixServoMetricsPublisherCollapser" />
+			<role name="adaptee" element="com.netflix.hystrix.contrib.servopublisher.HystrixServoMetricsPublisherCollapser::key:com.netflix.hystrix.HystrixCollapserKey" />
+			<role name="Request()" element="com.netflix.hystrix.contrib.servopublisher.HystrixServoMetricsPublisherCollapser::initialize():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.hystrix.HystrixThreadPoolKey" />
+			<role name="Adapter" element="com.netflix.hystrix.contrib.servopublisher.HystrixServoMetricsPublisherThreadPool" />
+			<role name="adaptee" element="com.netflix.hystrix.contrib.servopublisher.HystrixServoMetricsPublisherThreadPool::key:com.netflix.hystrix.HystrixThreadPoolKey" />
+			<role name="Request()" element="com.netflix.hystrix.contrib.servopublisher.HystrixServoMetricsPublisherThreadPool::initialize():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.hystrix.HystrixCommandMetrics" />
+			<role name="Adapter" element="com.netflix.hystrix.HystrixCircuitBreaker$HystrixCircuitBreakerImpl" />
+			<role name="adaptee" element="com.netflix.hystrix.HystrixCircuitBreaker$HystrixCircuitBreakerImpl::metrics:com.netflix.hystrix.HystrixCommandMetrics" />
+			<role name="Request()" element="com.netflix.hystrix.HystrixCircuitBreaker$HystrixCircuitBreakerImpl::markSuccess():void" />
+			<role name="Request()" element="com.netflix.hystrix.HystrixCircuitBreaker$HystrixCircuitBreakerImpl::isOpen():boolean" />
+		</instance>
+	</pattern>
+	<pattern name="Command">
+		<instance>
+			<role name="Receiver" element="com.netflix.hystrix.contrib.javanica.command.MetaHolder" />
+			<role name="ConcreteCommand" element="com.netflix.hystrix.contrib.javanica.collapser.CommandCollapser" />
+			<role name="receiver" element="com.netflix.hystrix.contrib.javanica.collapser.CommandCollapser::metaHolder:com.netflix.hystrix.contrib.javanica.command.MetaHolder" />
+			<role name="Execute()" element="com.netflix.hystrix.contrib.javanica.collapser.CommandCollapser::getRequestArgument():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Receiver" element="com.netflix.hystrix.ExecutionResult" />
+			<role name="ConcreteCommand" element="com.netflix.hystrix.AbstractCommand" />
+			<role name="receiver" element="com.netflix.hystrix.AbstractCommand::executionResult:com.netflix.hystrix.ExecutionResult" />
+			<role name="Execute()" element="com.netflix.hystrix.AbstractCommand::getFailedExecutionException():java.lang.Throwable" />
+			<role name="Execute()" element="com.netflix.hystrix.AbstractCommand::getOriginatingCollapserKey():com.netflix.hystrix.HystrixCollapserKey" />
+			<role name="Execute()" element="com.netflix.hystrix.AbstractCommand::getCommandRunStartTimeInNanos():long" />
+		</instance>
+		<instance>
+			<role name="Receiver" element="com.netflix.hystrix.contrib.javanica.command.MetaHolder" />
+			<role name="ConcreteCommand" element="com.netflix.hystrix.contrib.javanica.command.LazyCommandExecutionAction" />
+			<role name="receiver" element="com.netflix.hystrix.contrib.javanica.command.LazyCommandExecutionAction::originalMetaHolder:com.netflix.hystrix.contrib.javanica.command.MetaHolder" />
+			<role name="Execute()" element="com.netflix.hystrix.contrib.javanica.command.LazyCommandExecutionAction::getActionName():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="ConcreteCommand" element="com.netflix.hystrix.metric.HystrixCommandCompletion" />
+			<role name="Receiver" element="com.netflix.hystrix.ExecutionResult" />
+			<role name="receiver" element="com.netflix.hystrix.metric.HystrixCommandCompletion::executionResult:com.netflix.hystrix.ExecutionResult" />
+			<role name="Execute()" element="com.netflix.hystrix.metric.HystrixCommandCompletion::isResponseThreadPoolRejected():boolean" />
+			<role name="Execute()" element="com.netflix.hystrix.metric.HystrixCommandCompletion::isExecutedInThread():boolean" />
+			<role name="Execute()" element="com.netflix.hystrix.metric.HystrixCommandCompletion::didCommandExecute():boolean" />
+		</instance>
+		<instance>
+			<role name="Receiver" element="com.netflix.hystrix.HystrixCommandProperties" />
+			<role name="ConcreteCommand" element="com.netflix.hystrix.AbstractCommand" />
+			<role name="receiver" element="com.netflix.hystrix.AbstractCommand::properties:com.netflix.hystrix.HystrixCommandProperties" />
+			<role name="Execute()" element="com.netflix.hystrix.AbstractCommand::isCircuitBreakerOpen():boolean" />
+		</instance>
+		<instance>
+			<role name="Receiver" element="com.netflix.hystrix.HystrixCircuitBreaker" />
+			<role name="ConcreteCommand" element="com.netflix.hystrix.AbstractCommand" />
+			<role name="receiver" element="com.netflix.hystrix.AbstractCommand::circuitBreaker:com.netflix.hystrix.HystrixCircuitBreaker" />
+			<role name="Execute()" element="com.netflix.hystrix.AbstractCommand::isCircuitBreakerOpen():boolean" />
+		</instance>
+		<instance>
+			<role name="Receiver" element="com.netflix.hystrix.HystrixCommandKey" />
+			<role name="ConcreteCommand" element="com.netflix.hystrix.contrib.servopublisher.HystrixServoMetricsPublisherCommand" />
+			<role name="receiver" element="com.netflix.hystrix.contrib.servopublisher.HystrixServoMetricsPublisherCommand::key:com.netflix.hystrix.HystrixCommandKey" />
+			<role name="Execute()" element="com.netflix.hystrix.contrib.servopublisher.HystrixServoMetricsPublisherCommand::initialize():void" />
+		</instance>
+		<instance>
+			<role name="Receiver" element="com.netflix.hystrix.strategy.properties.HystrixProperty" />
+			<role name="ConcreteCommand" element="com.netflix.hystrix.AbstractCommand$TryableSemaphoreActual" />
+			<role name="receiver" element="com.netflix.hystrix.AbstractCommand$TryableSemaphoreActual::numberOfPermits:com.netflix.hystrix.strategy.properties.HystrixProperty" />
+			<role name="Execute()" element="com.netflix.hystrix.AbstractCommand$TryableSemaphoreActual::tryAcquire():boolean" />
+		</instance>
+	</pattern>
+	<pattern name="Composite" />
+	<pattern name="Decorator" />
+	<pattern name="Observer" />
+	<pattern name="State">
+		<instance>
+			<role name="State" element="com.netflix.hystrix.contrib.javanica.annotation.HystrixCollapser" />
+			<role name="Context" element="com.netflix.hystrix.contrib.javanica.command.MetaHolder" />
+			<role name="state" element="com.netflix.hystrix.contrib.javanica.command.MetaHolder::hystrixCollapser:com.netflix.hystrix.contrib.javanica.annotation.HystrixCollapser" />
+			<role name="Request()" element="com.netflix.hystrix.contrib.javanica.command.MetaHolder::getCollapserKey():java.lang.String" />
+			<role name="Request()" element="com.netflix.hystrix.contrib.javanica.command.MetaHolder::getCollapserProperties():java.util.List" />
+		</instance>
+		<instance>
+			<role name="State" element="com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand" />
+			<role name="Context" element="com.netflix.hystrix.contrib.javanica.command.MetaHolder" />
+			<role name="state" element="com.netflix.hystrix.contrib.javanica.command.MetaHolder::hystrixCommand:com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand" />
+			<role name="Request()" element="com.netflix.hystrix.contrib.javanica.command.MetaHolder::getCommandGroupKey():java.lang.String" />
+			<role name="Request()" element="com.netflix.hystrix.contrib.javanica.command.MetaHolder::getCommandKey():java.lang.String" />
+			<role name="Request()" element="com.netflix.hystrix.contrib.javanica.command.MetaHolder::getThreadPoolKey():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="State" element="com.netflix.hystrix.HystrixThreadPool" />
+			<role name="Context" element="com.netflix.hystrix.strategy.concurrency.HystrixContextScheduler$ThreadPoolWorker" />
+			<role name="state" element="com.netflix.hystrix.strategy.concurrency.HystrixContextScheduler$ThreadPoolWorker::threadPool:com.netflix.hystrix.HystrixThreadPool" />
+			<role name="Request()" element="com.netflix.hystrix.strategy.concurrency.HystrixContextScheduler$ThreadPoolWorker::schedule(rx.functions.Action0):rx.Subscription" />
+		</instance>
+		<instance>
+			<role name="State" element="com.netflix.hystrix.collapser.HystrixCollapserBridge" />
+			<role name="Context" element="com.netflix.hystrix.collapser.RequestBatch" />
+			<role name="state" element="com.netflix.hystrix.collapser.RequestBatch::commandCollapser:com.netflix.hystrix.collapser.HystrixCollapserBridge" />
+			<role name="Request()" element="com.netflix.hystrix.collapser.RequestBatch::offer(RequestArgumentType):rx.Observable" />
+			<role name="Request()" element="com.netflix.hystrix.collapser.RequestBatch::executeBatchIfNotAlreadyStarted():void" />
+		</instance>
+		<instance>
+			<role name="State" element="com.netflix.hystrix.util.InternMap$ValueConstructor" />
+			<role name="Context" element="com.netflix.hystrix.util.InternMap" />
+			<role name="state" element="com.netflix.hystrix.util.InternMap::valueConstructor:com.netflix.hystrix.util.InternMap$ValueConstructor" />
+			<role name="Request()" element="com.netflix.hystrix.util.InternMap::interned(K):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="State" element="com.netflix.hystrix.collapser.CollapserTimer" />
+			<role name="Context" element="com.netflix.hystrix.collapser.RequestCollapser" />
+			<role name="state" element="com.netflix.hystrix.collapser.RequestCollapser::timer:com.netflix.hystrix.collapser.CollapserTimer" />
+			<role name="Request()" element="com.netflix.hystrix.collapser.RequestCollapser::submitRequest(RequestArgumentType):rx.Observable" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.hystrix.contrib.servopublisher.HystrixServoMetricsPublisherCollapser" />
+			<role name="State" element="com.netflix.hystrix.HystrixCollapserKey" />
+			<role name="state" element="com.netflix.hystrix.contrib.servopublisher.HystrixServoMetricsPublisherCollapser::key:com.netflix.hystrix.HystrixCollapserKey" />
+			<role name="Request()" element="com.netflix.hystrix.contrib.servopublisher.HystrixServoMetricsPublisherCollapser::initialize():void" />
+		</instance>
+		<instance>
+			<role name="State" element="com.netflix.hystrix.contrib.networkauditor.HystrixNetworkAuditorEventListener" />
+			<role name="Context" element="com.netflix.hystrix.contrib.networkauditor.HystrixNetworkAuditorAgent" />
+			<role name="state" element="com.netflix.hystrix.contrib.networkauditor.HystrixNetworkAuditorAgent::bridge:com.netflix.hystrix.contrib.networkauditor.HystrixNetworkAuditorEventListener" />
+			<role name="Request()" element="com.netflix.hystrix.contrib.networkauditor.HystrixNetworkAuditorAgent::notifyOfNetworkEvent():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.hystrix.metric.HystrixCollapserEvent" />
+			<role name="State" element="com.netflix.hystrix.HystrixCollapserKey" />
+			<role name="state" element="com.netflix.hystrix.metric.HystrixCollapserEvent::collapserKey:com.netflix.hystrix.HystrixCollapserKey" />
+			<role name="Request()" element="com.netflix.hystrix.metric.HystrixCollapserEvent::toString():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.hystrix.metric.HystrixCollapserEventStream" />
+			<role name="State" element="com.netflix.hystrix.HystrixCollapserKey" />
+			<role name="state" element="com.netflix.hystrix.metric.HystrixCollapserEventStream::collapserKey:com.netflix.hystrix.HystrixCollapserKey" />
+			<role name="Request()" element="com.netflix.hystrix.metric.HystrixCollapserEventStream::toString():java.lang.String" />
+		</instance>
+	</pattern>
+	<pattern name="Strategy">
+		<instance>
+			<role name="Strategy" element="com.netflix.hystrix.strategy.properties.HystrixDynamicProperty" />
+			<role name="Context" element="com.netflix.hystrix.strategy.properties.HystrixPropertiesChainedProperty$ChainProperty" />
+			<role name="strategy" element="com.netflix.hystrix.strategy.properties.HystrixPropertiesChainedProperty$ChainProperty::sProp:com.netflix.hystrix.strategy.properties.HystrixDynamicProperty" />
+			<role name="ContextInterface()" element="com.netflix.hystrix.strategy.properties.HystrixPropertiesChainedProperty$ChainProperty::getName():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.hystrix.strategy.concurrency.HystrixLifecycleForwardingRequestVariable" />
+			<role name="Strategy" element="com.netflix.hystrix.strategy.concurrency.HystrixRequestVariableLifecycle" />
+			<role name="strategy" element="com.netflix.hystrix.strategy.concurrency.HystrixLifecycleForwardingRequestVariable::lifecycle:com.netflix.hystrix.strategy.concurrency.HystrixRequestVariableLifecycle" />
+			<role name="ContextInterface()" element="com.netflix.hystrix.strategy.concurrency.HystrixLifecycleForwardingRequestVariable::initialValue():java.lang.Object" />
+			<role name="ContextInterface()" element="com.netflix.hystrix.strategy.concurrency.HystrixLifecycleForwardingRequestVariable::shutdown(T):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.hystrix.AbstractCommand$TryableSemaphoreActual" />
+			<role name="Strategy" element="com.netflix.hystrix.strategy.properties.HystrixProperty" />
+			<role name="strategy" element="com.netflix.hystrix.AbstractCommand$TryableSemaphoreActual::numberOfPermits:com.netflix.hystrix.strategy.properties.HystrixProperty" />
+			<role name="ContextInterface()" element="com.netflix.hystrix.AbstractCommand$TryableSemaphoreActual::tryAcquire():boolean" />
+		</instance>
+	</pattern>
+	<pattern name="Bridge">
+		<instance>
+			<role name="Abstraction" element="com.netflix.hystrix.AbstractCommand" />
+			<role name="Implementor" element="com.netflix.hystrix.HystrixCircuitBreaker" />
+			<role name="implementor" element="com.netflix.hystrix.AbstractCommand::circuitBreaker:com.netflix.hystrix.HystrixCircuitBreaker" />
+			<role name="Operation()" element="com.netflix.hystrix.AbstractCommand::applyHystrixSemantics(com.netflix.hystrix.AbstractCommand):rx.Observable" />
+			<role name="Operation()" element="com.netflix.hystrix.AbstractCommand::isCircuitBreakerOpen():boolean" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="com.netflix.hystrix.AbstractCommand" />
+			<role name="Implementor" element="com.netflix.hystrix.HystrixThreadPool" />
+			<role name="implementor" element="com.netflix.hystrix.AbstractCommand::threadPool:com.netflix.hystrix.HystrixThreadPool" />
+			<role name="Operation()" element="com.netflix.hystrix.AbstractCommand::executeCommandWithSpecifiedIsolation(com.netflix.hystrix.AbstractCommand):rx.Observable" />
+			<role name="Operation()" element="com.netflix.hystrix.AbstractCommand::handleThreadPoolRejectionViaFallback(java.lang.Exception):rx.Observable" />
+			<role name="Operation()" element="com.netflix.hystrix.AbstractCommand::handleThreadEnd(com.netflix.hystrix.AbstractCommand):void" />
+		</instance>
+	</pattern>
+	<pattern name="Template Method">
+		<instance>
+			<role name="AbstractClass" element="com.netflix.hystrix.contrib.sample.stream.HystrixSampleSseServlet" />
+			<role name="TemplateMethod()" element="com.netflix.hystrix.contrib.sample.stream.HystrixSampleSseServlet::handleRequest(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.netflix.hystrix.contrib.servopublisher.HystrixServoMetricsPublisherAbstract$CounterMetric" />
+			<role name="TemplateMethod()" element="com.netflix.hystrix.contrib.servopublisher.HystrixServoMetricsPublisherAbstract$CounterMetric::getValue(int):java.lang.Number" />
+			<role name="TemplateMethod()" element="com.netflix.hystrix.contrib.servopublisher.HystrixServoMetricsPublisherAbstract$CounterMetric::getValue():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.netflix.hystrix.contrib.servopublisher.HystrixServoMetricsPublisherAbstract$InformationalMetric" />
+			<role name="TemplateMethod()" element="com.netflix.hystrix.contrib.servopublisher.HystrixServoMetricsPublisherAbstract$InformationalMetric::getValue(int):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.netflix.hystrix.contrib.servopublisher.HystrixServoMetricsPublisherAbstract" />
+			<role name="TemplateMethod()" element="com.netflix.hystrix.contrib.servopublisher.HystrixServoMetricsPublisherAbstract::getCumulativeCountForEvent(java.lang.String, com.netflix.hystrix.HystrixMetrics, com.netflix.hystrix.util.HystrixRollingNumberEvent):com.netflix.servo.monitor.Monitor" />
+			<role name="TemplateMethod()" element="com.netflix.hystrix.contrib.servopublisher.HystrixServoMetricsPublisherAbstract::getRollingCountForEvent(java.lang.String, com.netflix.hystrix.HystrixMetrics, com.netflix.hystrix.util.HystrixRollingNumberEvent):com.netflix.servo.monitor.Monitor" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.netflix.hystrix.contrib.servopublisher.HystrixServoMetricsPublisherAbstract$GaugeMetric" />
+			<role name="TemplateMethod()" element="com.netflix.hystrix.contrib.servopublisher.HystrixServoMetricsPublisherAbstract$GaugeMetric::getValue(int):java.lang.Number" />
+			<role name="TemplateMethod()" element="com.netflix.hystrix.contrib.servopublisher.HystrixServoMetricsPublisherAbstract$GaugeMetric::getValue():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.netflix.hystrix.contrib.javanica.command.closure.AbstractClosureFactory" />
+			<role name="TemplateMethod()" element="com.netflix.hystrix.contrib.javanica.command.closure.AbstractClosureFactory::createClosure(java.lang.String, java.lang.Object):com.netflix.hystrix.contrib.javanica.command.closure.Closure" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.netflix.hystrix.contrib.javanica.aop.aspectj.HystrixCommandAspect$MetaHolderFactory" />
+			<role name="TemplateMethod()" element="com.netflix.hystrix.contrib.javanica.aop.aspectj.HystrixCommandAspect$MetaHolderFactory::create(org.aspectj.lang.ProceedingJoinPoint):com.netflix.hystrix.contrib.javanica.command.MetaHolder" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.netflix.hystrix.metric.consumer.BucketedCounterStream" />
+			<role name="TemplateMethod()" element="com.netflix.hystrix.metric.consumer.BucketedCounterStream::startCachingStreamValuesIfUnstarted():void" />
+			<role name="TemplateMethod()" element="com.netflix.hystrix.metric.consumer.BucketedCounterStream::getLatest():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.netflix.hystrix.strategy.properties.HystrixPropertiesChainedProperty$ChainLink" />
+			<role name="TemplateMethod()" element="com.netflix.hystrix.strategy.properties.HystrixPropertiesChainedProperty$ChainLink::checkAndFlip():void" />
+			<role name="TemplateMethod()" element="com.netflix.hystrix.strategy.properties.HystrixPropertiesChainedProperty$ChainLink::get():java.lang.Object" />
+			<role name="TemplateMethod()" element="com.netflix.hystrix.strategy.properties.HystrixPropertiesChainedProperty$ChainLink::toString():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.netflix.hystrix.strategy.properties.HystrixPropertiesChainedProperty$ChainBuilder" />
+			<role name="TemplateMethod()" element="com.netflix.hystrix.strategy.properties.HystrixPropertiesChainedProperty$ChainBuilder::add(java.lang.String, T):com.netflix.hystrix.strategy.properties.HystrixPropertiesChainedProperty$ChainBuilder" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.netflix.hystrix.strategy.properties.HystrixPropertiesChainedArchaiusProperty$ChainLink" />
+			<role name="TemplateMethod()" element="com.netflix.hystrix.strategy.properties.HystrixPropertiesChainedArchaiusProperty$ChainLink::checkAndFlip():void" />
+			<role name="TemplateMethod()" element="com.netflix.hystrix.strategy.properties.HystrixPropertiesChainedArchaiusProperty$ChainLink::get():java.lang.Object" />
+			<role name="TemplateMethod()" element="com.netflix.hystrix.strategy.properties.HystrixPropertiesChainedArchaiusProperty$ChainLink::toString():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.netflix.hystrix.util.Striped64" />
+			<role name="TemplateMethod()" element="com.netflix.hystrix.util.Striped64::retryUpdate(long, com.netflix.hystrix.util.Striped64$HashCode, boolean):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.netflix.hystrix.AbstractCommand" />
+			<role name="TemplateMethod()" element="com.netflix.hystrix.AbstractCommand::getFallbackOrThrowException(com.netflix.hystrix.AbstractCommand, com.netflix.hystrix.HystrixEventType, com.netflix.hystrix.exception.HystrixRuntimeException$FailureType, java.lang.String, java.lang.Exception):rx.Observable" />
+			<role name="TemplateMethod()" element="com.netflix.hystrix.AbstractCommand::getUserExecutionObservable(com.netflix.hystrix.AbstractCommand):rx.Observable" />
+			<role name="TemplateMethod()" element="com.netflix.hystrix.AbstractCommand::isFallbackUserSupplied(com.netflix.hystrix.AbstractCommand):boolean" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.netflix.hystrix.HystrixObservableCommand" />
+			<role name="TemplateMethod()" element="com.netflix.hystrix.HystrixObservableCommand::getExecutionObservable():rx.Observable" />
+		</instance>
+	</pattern>
+	<pattern name="Visitor" />
+	<pattern name="Proxy" />
+	<pattern name="Proxy2" />
+	<pattern name="Chain of Responsibility">
+		<instance>
+			<role name="Handler" element="com.netflix.hystrix.strategy.properties.HystrixPropertiesChainedProperty$ChainLink" />
+			<role name="successor" element="com.netflix.hystrix.strategy.properties.HystrixPropertiesChainedProperty$ChainLink::next:com.netflix.hystrix.strategy.properties.HystrixPropertiesChainedProperty$ChainLink" />
+		</instance>
+		<instance>
+			<role name="Handler" element="com.netflix.hystrix.strategy.properties.HystrixPropertiesChainedArchaiusProperty$ChainLink" />
+			<role name="successor" element="com.netflix.hystrix.strategy.properties.HystrixPropertiesChainedArchaiusProperty$ChainLink::next:com.netflix.hystrix.strategy.properties.HystrixPropertiesChainedArchaiusProperty$ChainLink" />
+		</instance>
+	</pattern>
+</system>
+

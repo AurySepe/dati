@@ -1,0 +1,6 @@
+org/mockito/android/internal/creation/AndroidTempFileLocator.java
+ org.mockito.android.internal.creation.AndroidTempFileLocator
+org/mockito/android/internal/creation/AndroidByteBuddyMockMaker.java
+ org.mockito.android.internal.creation.AndroidByteBuddyMockMaker
+org/mockito/android/internal/creation/AndroidLoadingStrategy.java
+ org.mockito.android.internal.creation.AndroidLoadingStrategy

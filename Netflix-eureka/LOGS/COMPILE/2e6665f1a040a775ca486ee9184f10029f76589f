@@ -1,0 +1,83 @@
+Inferred version: 1.2.3-SNAPSHOT
+Inferred version: 1.2.3-SNAPSHOT
+Inferred version: 1.2.3-SNAPSHOT
+Inferred version: 1.2.3-SNAPSHOT
+Inferred version: 1.2.3-SNAPSHOT
+Inferred version: 1.2.3-SNAPSHOT
+Inferred version: 1.2.3-SNAPSHOT
+Inferred version: 1.2.3-SNAPSHOT
+Publication mavenNebula not found in project :.
+[buildinfo] Properties file path was not found! (Relevant only for builds running on a CI Server)
+Publication named 'mavenNebula' does not exist for project ':' in task ':artifactoryPublish'.
+None of the specified publications matched for project ':' - nothing to publish.
+:clean
+:eureka-client:clean
+:eureka-client-archaius2:clean
+:eureka-core:clean
+:eureka-examples:clean
+:eureka-resources:clean
+:eureka-server:clean
+:eureka-test-utils:clean
+:eureka-client:compileJava
+Download https://jcenter.bintray.com/com/netflix/archaius/archaius-core/0.7.1/archaius-core-0.7.1.pom
+Download https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.4.3/jackson-dataformat-xml-2.4.3.pom
+Download https://jcenter.bintray.com/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.4.3/jackson-module-jaxb-annotations-2.4.3.pom
+Download https://jcenter.bintray.com/com/netflix/archaius/archaius-core/0.7.1/archaius-core-0.7.1.jar
+Download https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.4.3/jackson-dataformat-xml-2.4.3.jar
+Download https://jcenter.bintray.com/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.4.3/jackson-module-jaxb-annotations-2.4.3.jar
+warning: [options] bootstrap class path not set in conjunction with -source 1.7
+/results/Netflix-eureka/RELEASES/2e6665f1a040a775ca486ee9184f10029f76589f/eureka-client/src/main/java/com/netflix/discovery/DiscoveryClient.java:1428: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+                        new String[]{serviceUrl, urlPath, String.valueOf(response.getStatus())});
+                        ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2 warnings
+:eureka-client:processResources UP-TO-DATE
+:eureka-client:classes
+:eureka-client:writeManifestProperties
+:eureka-client:jar
+:eureka-client-archaius2:compileJava
+Download https://jcenter.bintray.com/com/netflix/archaius/archaius2-core/2.0.0-rc.28/archaius2-core-2.0.0-rc.28.pom
+Download https://jcenter.bintray.com/com/netflix/archaius/archaius2-guice/2.0.0-rc.28/archaius2-guice-2.0.0-rc.28.pom
+Download https://jcenter.bintray.com/com/netflix/archaius/archaius2-core/2.0.0-rc.28/archaius2-core-2.0.0-rc.28.jar
+Download https://jcenter.bintray.com/com/netflix/archaius/archaius2-guice/2.0.0-rc.28/archaius2-guice-2.0.0-rc.28.jar
+warning: [options] bootstrap class path not set in conjunction with -source 1.7
+Note: /results/Netflix-eureka/RELEASES/2e6665f1a040a775ca486ee9184f10029f76589f/eureka-client-archaius2/src/main/java/com/netflix/discovery/EurekaArchaius2ClientConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+1 warning
+:eureka-core:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+/results/Netflix-eureka/RELEASES/2e6665f1a040a775ca486ee9184f10029f76589f/eureka-core/src/main/java/com/netflix/eureka/DefaultEurekaServerConfig.java:482: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+                        new String[]{propName, remoteRegionUrlWithNamePair, pairSplitChar});
+                        ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2 warnings
+
+:eureka-examples:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+1 warning
+
+:eureka-resources:compileJava UP-TO-DATE
+:eureka-core:processResources UP-TO-DATE
+:eureka-core:classes
+:eureka-core:writeManifestProperties
+:eureka-core:jar
+:eureka-server:compileJava UP-TO-DATE
+:eureka-test-utils:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+Note: /results/Netflix-eureka/RELEASES/2e6665f1a040a775ca486ee9184f10029f76589f/eureka-test-utils/src/main/java/com/netflix/discovery/util/ApplicationFunctions.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+1 warning
+
+
+BUILD SUCCESSFUL
+
+Total time: 19.706 secs

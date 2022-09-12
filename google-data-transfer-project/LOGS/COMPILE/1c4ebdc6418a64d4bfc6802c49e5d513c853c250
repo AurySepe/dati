@@ -1,0 +1,76 @@
+
+> Configure project :
+Node installation: local, Cloud type: local
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Could not determine the dependencies of task ':distributions:api-default:compileJava'.
+> Could not resolve all task dependencies for configuration ':distributions:api-default:compileClasspath'.
+   > Could not resolve project :portability-api.
+     Required by:
+         project :distributions:api-default
+      > No matching variant of project :portability-api was found. The consumer was configured to find an API of a library compatible with Java 8, preferably in the form of class files, and its dependencies declared externally but:
+          - Variant 'apiElements' capability org.datatransferproject:portability-api:0.3.69-SNAPSHOT declares an API of a library, packaged as a jar, and its dependencies declared externally:
+              - Incompatible because this component declares a component compatible with Java 11 and the consumer needed a component compatible with Java 8
+          - Variant 'runtimeElements' capability org.datatransferproject:portability-api:0.3.69-SNAPSHOT declares a runtime of a library, packaged as a jar, and its dependencies declared externally:
+              - Incompatible because this component declares a component compatible with Java 11 and the consumer needed a component compatible with Java 8
+   > Could not resolve project :extensions:transport:portability-transport-jettyrest.
+     Required by:
+         project :distributions:api-default
+      > No matching variant of project :extensions:transport:portability-transport-jettyrest was found. The consumer was configured to find an API of a library compatible with Java 8, preferably in the form of class files, and its dependencies declared externally but:
+          - Variant 'apiElements' capability org.datatransferproject:portability-transport-jettyrest:0.3.69-SNAPSHOT declares an API of a library, packaged as a jar, and its dependencies declared externally:
+              - Incompatible because this component declares a component compatible with Java 11 and the consumer needed a component compatible with Java 8
+          - Variant 'runtimeElements' capability org.datatransferproject:portability-transport-jettyrest:0.3.69-SNAPSHOT declares a runtime of a library, packaged as a jar, and its dependencies declared externally:
+              - Incompatible because this component declares a component compatible with Java 11 and the consumer needed a component compatible with Java 8
+   > Could not resolve project :extensions:auth:portability-auth-google.
+     Required by:
+         project :distributions:api-default
+      > No matching variant of project :extensions:auth:portability-auth-google was found. The consumer was configured to find an API of a library compatible with Java 8, preferably in the form of class files, and its dependencies declared externally but:
+          - Variant 'apiElements' capability org.datatransferproject:portability-auth-google:0.3.69-SNAPSHOT declares an API of a library, packaged as a jar, and its dependencies declared externally:
+              - Incompatible because this component declares a component compatible with Java 11 and the consumer needed a component compatible with Java 8
+          - Variant 'runtimeElements' capability org.datatransferproject:portability-auth-google:0.3.69-SNAPSHOT declares a runtime of a library, packaged as a jar, and its dependencies declared externally:
+              - Incompatible because this component declares a component compatible with Java 11 and the consumer needed a component compatible with Java 8
+   > Could not resolve project :extensions:auth:portability-auth-microsoft.
+     Required by:
+         project :distributions:api-default
+      > No matching variant of project :extensions:auth:portability-auth-microsoft was found. The consumer was configured to find an API of a library compatible with Java 8, preferably in the form of class files, and its dependencies declared externally but:
+          - Variant 'apiElements' capability org.datatransferproject:portability-auth-microsoft:0.3.69-SNAPSHOT declares an API of a library, packaged as a jar, and its dependencies declared externally:
+              - Incompatible because this component declares a component compatible with Java 11 and the consumer needed a component compatible with Java 8
+          - Variant 'runtimeElements' capability org.datatransferproject:portability-auth-microsoft:0.3.69-SNAPSHOT declares a runtime of a library, packaged as a jar, and its dependencies declared externally:
+              - Incompatible because this component declares a component compatible with Java 11 and the consumer needed a component compatible with Java 8
+   > Could not resolve project :extensions:auth:portability-auth-flickr.
+     Required by:
+         project :distributions:api-default
+      > No matching variant of project :extensions:auth:portability-auth-flickr was found. The consumer was configured to find an API of a library compatible with Java 8, preferably in the form of class files, and its dependencies declared externally but:
+          - Variant 'apiElements' capability org.datatransferproject:portability-auth-flickr:0.3.69-SNAPSHOT declares an API of a library, packaged as a jar, and its dependencies declared externally:
+              - Incompatible because this component declares a component compatible with Java 11 and the consumer needed a component compatible with Java 8
+          - Variant 'runtimeElements' capability org.datatransferproject:portability-auth-flickr:0.3.69-SNAPSHOT declares a runtime of a library, packaged as a jar, and its dependencies declared externally:
+              - Incompatible because this component declares a component compatible with Java 11 and the consumer needed a component compatible with Java 8
+   > Could not resolve project :extensions:auth:portability-auth-facebook.
+     Required by:
+         project :distributions:api-default
+      > No matching variant of project :extensions:auth:portability-auth-facebook was found. The consumer was configured to find an API of a library compatible with Java 8, preferably in the form of class files, and its dependencies declared externally but:
+          - Variant 'apiElements' capability org.datatransferproject:portability-auth-facebook:0.3.69-SNAPSHOT declares an API of a library, packaged as a jar, and its dependencies declared externally:
+              - Incompatible because this component declares a component compatible with Java 11 and the consumer needed a component compatible with Java 8
+          - Variant 'runtimeElements' capability org.datatransferproject:portability-auth-facebook:0.3.69-SNAPSHOT declares a runtime of a library, packaged as a jar, and its dependencies declared externally:
+              - Incompatible because this component declares a component compatible with Java 11 and the consumer needed a component compatible with Java 8
+   > Could not resolve project :extensions:cloud:portability-cloud-local.
+     Required by:
+         project :distributions:api-default
+      > No matching variant of project :extensions:cloud:portability-cloud-local was found. The consumer was configured to find an API of a library compatible with Java 8, preferably in the form of class files, and its dependencies declared externally but:
+          - Variant 'apiElements' capability org.datatransferproject:portability-cloud-local:0.3.69-SNAPSHOT declares an API of a library, packaged as a jar, and its dependencies declared externally:
+              - Incompatible because this component declares a component compatible with Java 11 and the consumer needed a component compatible with Java 8
+          - Variant 'runtimeElements' capability org.datatransferproject:portability-cloud-local:0.3.69-SNAPSHOT declares a runtime of a library, packaged as a jar, and its dependencies declared externally:
+              - Incompatible because this component declares a component compatible with Java 11 and the consumer needed a component compatible with Java 8
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.9.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD FAILED in 14s

@@ -1,0 +1,36 @@
+Downloading https://services.gradle.org/distributions/gradle-7.4.1-bin.zip
+...........10%...........20%...........30%...........40%...........50%...........60%...........70%...........80%...........90%...........100%
+
+Welcome to Gradle 7.4.1!
+
+Here are the highlights of this release:
+ - Aggregated test and JaCoCo reports
+ - Marking additional test source directories as tests in IntelliJ
+ - Support for Adoptium JDKs in Java toolchains
+
+For more details see https://docs.gradle.org/7.4.1/release-notes.html
+
+To honour the JVM settings for this build a single-use Daemon process will be forked. See https://docs.gradle.org/7.4.1/userguide/gradle_daemon.html#sec:disabling_the_daemon.
+Daemon will be stopped at the end of the build 
+Configuration on demand is an incubating feature.
+
+> Configure project :
+Kordamp Gradle plugins 0.47.0. Consider becoming a patron at https://www.patreon.com/aalmiray
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/results/ben-manes-caffeine/RELEASES/8d51164b9d697f307640d131b9f281115e6f64df/build.gradle' line: 48
+
+* What went wrong:
+A problem occurred evaluating root project 'caffeine'.
+> For input string: "8u342"
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 46s

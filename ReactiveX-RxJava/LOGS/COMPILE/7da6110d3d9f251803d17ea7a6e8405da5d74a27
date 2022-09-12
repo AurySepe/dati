@@ -1,0 +1,27 @@
+Inferred version: 1.1.0-SNAPSHOT
+[buildinfo] Properties file path was not found! (Relevant only for builds running on a CI Server)
+:clean
+:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+/results/ReactiveX-RxJava/RELEASES/7da6110d3d9f251803d17ea7a6e8405da5d74a27/src/main/java/rx/internal/util/unsafe/UnsafeAccess.java:20: warning: Unsafe is internal proprietary API and may be removed in a future release
+import sun.misc.Unsafe;
+               ^
+/results/ReactiveX-RxJava/RELEASES/7da6110d3d9f251803d17ea7a6e8405da5d74a27/src/main/java/rx/internal/util/unsafe/UnsafeAccess.java:31: warning: Unsafe is internal proprietary API and may be removed in a future release
+    public static final Unsafe UNSAFE;
+                        ^
+/results/ReactiveX-RxJava/RELEASES/7da6110d3d9f251803d17ea7a6e8405da5d74a27/src/main/java/rx/internal/util/unsafe/UnsafeAccess.java:33: warning: Unsafe is internal proprietary API and may be removed in a future release
+        Unsafe u = null;
+        ^
+/results/ReactiveX-RxJava/RELEASES/7da6110d3d9f251803d17ea7a6e8405da5d74a27/src/main/java/rx/internal/util/unsafe/UnsafeAccess.java:41: warning: Unsafe is internal proprietary API and may be removed in a future release
+            Field field = Unsafe.class.getDeclaredField("theUnsafe");
+                          ^
+/results/ReactiveX-RxJava/RELEASES/7da6110d3d9f251803d17ea7a6e8405da5d74a27/src/main/java/rx/internal/util/unsafe/UnsafeAccess.java:43: warning: Unsafe is internal proprietary API and may be removed in a future release
+            u = (Unsafe) field.get(null);
+                 ^
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+6 warnings
+
+
+BUILD SUCCESSFUL
+
+Total time: 10.658 secs

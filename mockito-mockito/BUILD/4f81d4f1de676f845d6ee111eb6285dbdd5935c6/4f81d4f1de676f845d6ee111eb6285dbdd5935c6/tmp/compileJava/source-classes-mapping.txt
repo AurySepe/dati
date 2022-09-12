@@ -1,0 +1,1114 @@
+org/mockito/internal/matchers/CapturingMatcher.java
+ org.mockito.internal.matchers.CapturingMatcher
+org/mockito/MockedStatic.java
+ org.mockito.MockedStatic
+ org.mockito.MockedStatic$Verification
+org/mockito/internal/verification/api/VerificationDataInOrder.java
+ org.mockito.internal.verification.api.VerificationDataInOrder
+org/mockito/internal/stubbing/answers/ReturnsElementsOf.java
+ org.mockito.internal.stubbing.answers.ReturnsElementsOf
+org/mockito/stubbing/Stubbing.java
+ org.mockito.stubbing.Stubbing
+org/mockito/runners/ConsoleSpammingMockitoJUnitRunner.java
+ org.mockito.runners.ConsoleSpammingMockitoJUnitRunner
+ org.mockito.runners.ConsoleSpammingMockitoJUnitRunner$1
+org/mockito/internal/MockitoCore.java
+ org.mockito.internal.MockitoCore
+org/mockito/junit/MockitoRule.java
+ org.mockito.junit.MockitoRule
+org/mockito/internal/invocation/mockref/MockStrongReference.java
+ org.mockito.internal.invocation.mockref.MockStrongReference
+org/mockito/internal/creation/bytebuddy/SubclassInjectionLoader.java
+ org.mockito.internal.creation.bytebuddy.SubclassInjectionLoader
+ org.mockito.internal.creation.bytebuddy.SubclassInjectionLoader$1
+ org.mockito.internal.creation.bytebuddy.SubclassInjectionLoader$WithLookup
+ org.mockito.internal.creation.bytebuddy.SubclassInjectionLoader$WithReflection
+org/mockito/stubbing/BaseStubber.java
+ org.mockito.stubbing.BaseStubber
+org/mockito/internal/progress/package-info.java
+ org.mockito.internal.progress.package-info
+org/mockito/plugins/StackTraceCleanerProvider.java
+ org.mockito.plugins.StackTraceCleanerProvider
+org/mockito/internal/verification/MockAwareVerificationMode.java
+ org.mockito.internal.verification.MockAwareVerificationMode
+org/mockito/internal/handler/InvocationNotifierHandler.java
+ org.mockito.internal.handler.InvocationNotifierHandler
+org/mockito/runners/package-info.java
+ org.mockito.runners.package-info
+org/mockito/invocation/InvocationOnMock.java
+ org.mockito.invocation.InvocationOnMock
+org/mockito/hamcrest/MockitoHamcrest.java
+ org.mockito.hamcrest.MockitoHamcrest
+org/mockito/internal/creation/MockSettingsImpl.java
+ org.mockito.internal.creation.MockSettingsImpl
+org/mockito/junit/MockitoTestRule.java
+ org.mockito.junit.MockitoTestRule
+org/mockito/internal/invocation/MatcherApplicationStrategy.java
+ org.mockito.internal.invocation.MatcherApplicationStrategy
+ org.mockito.internal.invocation.MatcherApplicationStrategy$MatcherApplicationType
+org/mockito/internal/creation/instance/InstantiatorProvider2Adapter.java
+ org.mockito.internal.creation.instance.InstantiatorProvider2Adapter
+ org.mockito.internal.creation.instance.InstantiatorProvider2Adapter$1
+org/mockito/internal/listeners/StubbingLookupNotifier.java
+ org.mockito.internal.listeners.StubbingLookupNotifier
+ org.mockito.internal.listeners.StubbingLookupNotifier$Event
+org/mockito/internal/junit/JUnitTestRule.java
+ org.mockito.internal.junit.JUnitTestRule
+org/mockito/stubbing/Answer6.java
+ org.mockito.stubbing.Answer6
+org/mockito/Matchers.java
+ org.mockito.Matchers
+org/mockito/stubbing/ValidableAnswer.java
+ org.mockito.stubbing.ValidableAnswer
+org/mockito/ArgumentMatchers.java
+ org.mockito.ArgumentMatchers
+org/mockito/internal/verification/package-info.java
+ org.mockito.internal.verification.package-info
+org/mockito/internal/matchers/text/FormattedText.java
+ org.mockito.internal.matchers.text.FormattedText
+org/mockito/exceptions/verification/VerificationInOrderFailure.java
+ org.mockito.exceptions.verification.VerificationInOrderFailure
+org/mockito/stubbing/Answer2.java
+ org.mockito.stubbing.Answer2
+org/mockito/stubbing/VoidAnswer5.java
+ org.mockito.stubbing.VoidAnswer5
+org/mockito/verification/VerificationWithTimeout.java
+ org.mockito.verification.VerificationWithTimeout
+org/mockito/internal/matchers/Or.java
+ org.mockito.internal.matchers.Or
+org/mockito/internal/util/reflection/GenericTypeExtractor.java
+ org.mockito.internal.util.reflection.GenericTypeExtractor
+org/mockito/internal/util/MockNameImpl.java
+ org.mockito.internal.util.MockNameImpl
+org/mockito/quality/Strictness.java
+ org.mockito.quality.Strictness
+org/mockito/internal/verification/Times.java
+ org.mockito.internal.verification.Times
+org/mockito/listeners/MockCreationListener.java
+ org.mockito.listeners.MockCreationListener
+org/mockito/internal/util/collections/HashCodeAndEqualsSafeSet.java
+ org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet
+ org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet$1
+org/mockito/exceptions/misusing/UnnecessaryStubbingException.java
+ org.mockito.exceptions.misusing.UnnecessaryStubbingException
+org/mockito/listeners/InvocationListener.java
+ org.mockito.listeners.InvocationListener
+org/mockito/internal/util/Primitives.java
+ org.mockito.internal.util.Primitives
+org/mockito/internal/verification/SingleRegisteredInvocation.java
+ org.mockito.internal.verification.SingleRegisteredInvocation
+org/mockito/internal/verification/Description.java
+ org.mockito.internal.verification.Description
+org/mockito/internal/util/reflection/LenientCopyTool.java
+ org.mockito.internal.util.reflection.LenientCopyTool
+org/mockito/internal/configuration/FieldAnnotationProcessor.java
+ org.mockito.internal.configuration.FieldAnnotationProcessor
+org/mockito/plugins/MockMaker.java
+ org.mockito.plugins.MockMaker
+ org.mockito.plugins.MockMaker$ConstructionMockControl
+ org.mockito.plugins.MockMaker$StaticMockControl
+ org.mockito.plugins.MockMaker$TypeMockability
+org/mockito/internal/matchers/Equality.java
+ org.mockito.internal.matchers.Equality
+org/mockito/internal/configuration/injection/filter/OngoingInjector.java
+ org.mockito.internal.configuration.injection.filter.OngoingInjector
+ org.mockito.internal.configuration.injection.filter.OngoingInjector$1
+org/mockito/exceptions/misusing/FriendlyReminderException.java
+ org.mockito.exceptions.misusing.FriendlyReminderException
+org/mockito/internal/creation/bytebuddy/ConstructionCallback.java
+ org.mockito.internal.creation.bytebuddy.ConstructionCallback
+org/mockito/internal/hamcrest/MatcherGenericTypeExtractor.java
+ org.mockito.internal.hamcrest.MatcherGenericTypeExtractor
+org/mockito/internal/handler/NullResultGuardian.java
+ org.mockito.internal.handler.NullResultGuardian
+org/mockito/internal/creation/bytebuddy/BytecodeGenerator.java
+ org.mockito.internal.creation.bytebuddy.BytecodeGenerator
+org/mockito/internal/creation/bytebuddy/TypeSupport.java
+ org.mockito.internal.creation.bytebuddy.TypeSupport
+org/mockito/invocation/MatchableInvocation.java
+ org.mockito.invocation.MatchableInvocation
+org/mockito/internal/creation/instance/InstantiatorProviderAdapter.java
+ org.mockito.internal.creation.instance.InstantiatorProviderAdapter
+ org.mockito.internal.creation.instance.InstantiatorProviderAdapter$1
+org/mockito/invocation/DescribedInvocation.java
+ org.mockito.invocation.DescribedInvocation
+org/mockito/exceptions/misusing/MissingMethodInvocationException.java
+ org.mockito.exceptions.misusing.MissingMethodInvocationException
+org/mockito/internal/exceptions/stacktrace/DefaultStackTraceCleaner.java
+ org.mockito.internal.exceptions.stacktrace.DefaultStackTraceCleaner
+org/mockito/Mockito.java
+ org.mockito.Mockito
+org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java
+ org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues
+org/mockito/internal/invocation/DefaultInvocationFactory.java
+ org.mockito.internal.invocation.DefaultInvocationFactory
+org/mockito/internal/util/MockUtil.java
+ org.mockito.internal.util.MockUtil
+org/mockito/internal/verification/Calls.java
+ org.mockito.internal.verification.Calls
+org/mockito/internal/configuration/injection/scanner/MockScanner.java
+ org.mockito.internal.configuration.injection.scanner.MockScanner
+org/mockito/internal/matchers/package-info.java
+ org.mockito.internal.matchers.package-info
+org/mockito/internal/junit/ExceptionFactory.java
+ org.mockito.internal.junit.ExceptionFactory
+ org.mockito.internal.junit.ExceptionFactory$ExceptionFactoryImpl
+org/mockito/listeners/MethodInvocationReport.java
+ org.mockito.listeners.MethodInvocationReport
+org/mockito/internal/creation/util/MockitoMethodProxy.java
+ org.mockito.internal.creation.util.MockitoMethodProxy
+org/mockito/internal/configuration/injection/PropertyAndSetterInjection.java
+ org.mockito.internal.configuration.injection.PropertyAndSetterInjection
+ org.mockito.internal.configuration.injection.PropertyAndSetterInjection$1
+org/mockito/internal/util/reflection/Fields.java
+ org.mockito.internal.util.reflection.Fields
+ org.mockito.internal.util.reflection.Fields$1
+ org.mockito.internal.util.reflection.Fields$2
+ org.mockito.internal.util.reflection.Fields$3
+ org.mockito.internal.util.reflection.Fields$InstanceFields
+org/mockito/internal/verification/checkers/NumberOfInvocationsChecker.java
+ org.mockito.internal.verification.checkers.NumberOfInvocationsChecker
+org/mockito/stubbing/VoidAnswer2.java
+ org.mockito.stubbing.VoidAnswer2
+org/mockito/internal/util/collections/HashCodeAndEqualsMockWrapper.java
+ org.mockito.internal.util.collections.HashCodeAndEqualsMockWrapper
+org/mockito/internal/junit/NoOpTestListener.java
+ org.mockito.internal.junit.NoOpTestListener
+org/mockito/creation/instance/InstantiationException.java
+ org.mockito.creation.instance.InstantiationException
+org/mockito/internal/junit/MismatchReportingTestListener.java
+ org.mockito.internal.junit.MismatchReportingTestListener
+org/mockito/internal/stubbing/answers/DoesNothing.java
+ org.mockito.internal.stubbing.answers.DoesNothing
+org/mockito/internal/stubbing/answers/DefaultAnswerValidator.java
+ org.mockito.internal.stubbing.answers.DefaultAnswerValidator
+org/mockito/listeners/StubbingLookupEvent.java
+ org.mockito.listeners.StubbingLookupEvent
+org/mockito/internal/stubbing/StubbingComparator.java
+ org.mockito.internal.stubbing.StubbingComparator
+org/mockito/internal/matchers/apachecommons/EqualsBuilder.java
+ org.mockito.internal.matchers.apachecommons.EqualsBuilder
+org/mockito/internal/invocation/MatchersBinder.java
+ org.mockito.internal.invocation.MatchersBinder
+org/mockito/internal/creation/instance/InstantiationException.java
+ org.mockito.internal.creation.instance.InstantiationException
+org/mockito/Captor.java
+ org.mockito.Captor
+org/mockito/internal/debugging/package-info.java
+ org.mockito.internal.debugging.package-info
+org/mockito/internal/util/io/IOUtil.java
+ org.mockito.internal.util.io.IOUtil
+org/mockito/internal/creation/SuspendMethod.java
+ org.mockito.internal.creation.SuspendMethod
+org/mockito/plugins/MockitoLogger.java
+ org.mockito.plugins.MockitoLogger
+org/mockito/internal/configuration/plugins/PluginRegistry.java
+ org.mockito.internal.configuration.plugins.PluginRegistry
+org/mockito/internal/stubbing/answers/AbstractThrowsException.java
+ org.mockito.internal.stubbing.answers.AbstractThrowsException
+org/mockito/internal/util/collections/Iterables.java
+ org.mockito.internal.util.collections.Iterables
+org/mockito/internal/creation/bytebuddy/MockAccess.java
+ org.mockito.internal.creation.bytebuddy.MockAccess
+org/mockito/internal/invocation/package-info.java
+ org.mockito.internal.invocation.package-info
+org/mockito/internal/util/collections/ListUtil.java
+ org.mockito.internal.util.collections.ListUtil
+ org.mockito.internal.util.collections.ListUtil$Converter
+ org.mockito.internal.util.collections.ListUtil$Filter
+org/mockito/internal/SuppressSignatureCheck.java
+ org.mockito.internal.SuppressSignatureCheck
+org/mockito/internal/util/reflection/GenericMetadataSupport.java
+ org.mockito.internal.util.reflection.GenericMetadataSupport
+ org.mockito.internal.util.reflection.GenericMetadataSupport$BoundedType
+ org.mockito.internal.util.reflection.GenericMetadataSupport$FromClassGenericMetadataSupport
+ org.mockito.internal.util.reflection.GenericMetadataSupport$FromParameterizedTypeGenericMetadataSupport
+ org.mockito.internal.util.reflection.GenericMetadataSupport$GenericArrayReturnType
+ org.mockito.internal.util.reflection.GenericMetadataSupport$NotGenericReturnTypeSupport
+ org.mockito.internal.util.reflection.GenericMetadataSupport$ParameterizedReturnType
+ org.mockito.internal.util.reflection.GenericMetadataSupport$TypeVarBoundedType
+ org.mockito.internal.util.reflection.GenericMetadataSupport$TypeVariableReturnType
+ org.mockito.internal.util.reflection.GenericMetadataSupport$WildCardBoundedType
+org/mockito/internal/junit/MockitoTestListener.java
+ org.mockito.internal.junit.MockitoTestListener
+org/mockito/internal/matchers/StartsWith.java
+ org.mockito.internal.matchers.StartsWith
+org/mockito/MockitoAnnotations.java
+ org.mockito.MockitoAnnotations
+org/mockito/internal/stubbing/defaultanswers/ReturnsMocks.java
+ org.mockito.internal.stubbing.defaultanswers.ReturnsMocks
+ org.mockito.internal.stubbing.defaultanswers.ReturnsMocks$1
+org/mockito/plugins/MockResolver.java
+ org.mockito.plugins.MockResolver
+org/mockito/verification/VerificationAfterDelay.java
+ org.mockito.verification.VerificationAfterDelay
+org/mockito/internal/matchers/And.java
+ org.mockito.internal.matchers.And
+org/mockito/internal/stubbing/defaultanswers/ForwardsInvocations.java
+ org.mockito.internal.stubbing.defaultanswers.ForwardsInvocations
+org/mockito/hamcrest/package-info.java
+ org.mockito.hamcrest.package-info
+org/mockito/internal/exceptions/ExceptionIncludingMockitoWarnings.java
+ org.mockito.internal.exceptions.ExceptionIncludingMockitoWarnings
+org/mockito/internal/util/concurrent/WeakConcurrentMap.java
+ org.mockito.internal.util.concurrent.WeakConcurrentMap
+ org.mockito.internal.util.concurrent.WeakConcurrentMap$1
+ org.mockito.internal.util.concurrent.WeakConcurrentMap$EntryIterator
+ org.mockito.internal.util.concurrent.WeakConcurrentMap$LatentKey
+ org.mockito.internal.util.concurrent.WeakConcurrentMap$SimpleEntry
+ org.mockito.internal.util.concurrent.WeakConcurrentMap$WeakKey
+ org.mockito.internal.util.concurrent.WeakConcurrentMap$WithInlinedExpunction
+org/mockito/internal/creation/instance/DefaultInstantiatorProvider.java
+ org.mockito.internal.creation.instance.DefaultInstantiatorProvider
+org/mockito/internal/configuration/injection/SpyOnInjectedFieldsHandler.java
+ org.mockito.internal.configuration.injection.SpyOnInjectedFieldsHandler
+org/mockito/internal/util/Supplier.java
+ org.mockito.internal.util.Supplier
+org/mockito/internal/verification/AtMost.java
+ org.mockito.internal.verification.AtMost
+org/mockito/internal/matchers/Matches.java
+ org.mockito.internal.matchers.Matches
+org/mockito/internal/creation/bytebuddy/SubclassLoader.java
+ org.mockito.internal.creation.bytebuddy.SubclassLoader
+org/mockito/internal/stubbing/StubbedInvocationMatcher.java
+ org.mockito.internal.stubbing.StubbedInvocationMatcher
+org/mockito/plugins/PluginSwitch.java
+ org.mockito.plugins.PluginSwitch
+org/mockito/internal/debugging/InvocationsPrinter.java
+ org.mockito.internal.debugging.InvocationsPrinter
+ org.mockito.internal.debugging.InvocationsPrinter$1
+org/mockito/InjectMocks.java
+ org.mockito.InjectMocks
+org/mockito/exceptions/verification/package-info.java
+ org.mockito.exceptions.verification.package-info
+org/mockito/internal/debugging/WarningsPrinterImpl.java
+ org.mockito.internal.debugging.WarningsPrinterImpl
+org/mockito/verification/Timeout.java
+ org.mockito.verification.Timeout
+org/mockito/exceptions/misusing/UnfinishedStubbingException.java
+ org.mockito.exceptions.misusing.UnfinishedStubbingException
+org/mockito/NotExtensible.java
+ org.mockito.NotExtensible
+org/mockito/internal/runners/util/package-info.java
+ org.mockito.internal.runners.util.package-info
+org/mockito/session/MockitoSessionLogger.java
+ org.mockito.session.MockitoSessionLogger
+org/mockito/internal/verification/VerificationWrapper.java
+ org.mockito.internal.verification.VerificationWrapper
+org/mockito/internal/util/concurrent/DetachedThreadLocal.java
+ org.mockito.internal.util.concurrent.DetachedThreadLocal
+ org.mockito.internal.util.concurrent.DetachedThreadLocal$1
+ org.mockito.internal.util.concurrent.DetachedThreadLocal$2
+ org.mockito.internal.util.concurrent.DetachedThreadLocal$3
+ org.mockito.internal.util.concurrent.DetachedThreadLocal$Cleaner
+org/mockito/internal/exceptions/VerificationAwareInvocation.java
+ org.mockito.internal.exceptions.VerificationAwareInvocation
+org/mockito/stubbing/VoidAnswer4.java
+ org.mockito.stubbing.VoidAnswer4
+org/mockito/internal/configuration/plugins/DefaultPluginSwitch.java
+ org.mockito.internal.configuration.plugins.DefaultPluginSwitch
+org/mockito/internal/stubbing/answers/package-info.java
+ org.mockito.internal.stubbing.answers.package-info
+org/mockito/internal/configuration/InjectingAnnotationEngine.java
+ org.mockito.internal.configuration.InjectingAnnotationEngine
+org/mockito/internal/handler/MockHandlerFactory.java
+ org.mockito.internal.handler.MockHandlerFactory
+org/mockito/stubbing/Stubber.java
+ org.mockito.stubbing.Stubber
+org/mockito/invocation/InvocationFactory.java
+ org.mockito.invocation.InvocationFactory
+ org.mockito.invocation.InvocationFactory$RealMethodBehavior
+org/mockito/internal/creation/bytebuddy/package-info.java
+ org.mockito.internal.creation.bytebuddy.package-info
+org/mockito/internal/runners/DefaultInternalRunner.java
+ org.mockito.internal.runners.DefaultInternalRunner
+ org.mockito.internal.runners.DefaultInternalRunner$1
+ org.mockito.internal.runners.DefaultInternalRunner$1$1
+ org.mockito.internal.runners.DefaultInternalRunner$1$2
+org/mockito/internal/creation/bytebuddy/ClassCreatingMockMaker.java
+ org.mockito.internal.creation.bytebuddy.ClassCreatingMockMaker
+org/mockito/internal/matchers/apachecommons/package-info.java
+ org.mockito.internal.matchers.apachecommons.package-info
+org/mockito/exceptions/misusing/InjectMocksException.java
+ org.mockito.exceptions.misusing.InjectMocksException
+org/mockito/internal/runners/RunnerFactory.java
+ org.mockito.internal.runners.RunnerFactory
+ org.mockito.internal.runners.RunnerFactory$1
+ org.mockito.internal.runners.RunnerFactory$2
+ org.mockito.internal.runners.RunnerFactory$3
+org/mockito/exceptions/misusing/NullInsteadOfMockException.java
+ org.mockito.exceptions.misusing.NullInsteadOfMockException
+org/mockito/ArgumentMatcher.java
+ org.mockito.ArgumentMatcher
+org/mockito/internal/stubbing/DefaultLenientStubber.java
+ org.mockito.internal.stubbing.DefaultLenientStubber
+org/mockito/internal/verification/RegisteredInvocations.java
+ org.mockito.internal.verification.RegisteredInvocations
+org/mockito/exceptions/misusing/RedundantListenerException.java
+ org.mockito.exceptions.misusing.RedundantListenerException
+org/mockito/internal/util/reflection/ModuleMemberAccessor.java
+ org.mockito.internal.util.reflection.ModuleMemberAccessor
+org/mockito/invocation/MockHandler.java
+ org.mockito.invocation.MockHandler
+org/mockito/internal/matchers/EndsWith.java
+ org.mockito.internal.matchers.EndsWith
+org/mockito/MockedConstruction.java
+ org.mockito.MockedConstruction
+ org.mockito.MockedConstruction$Context
+ org.mockito.MockedConstruction$MockInitializer
+org/mockito/internal/hamcrest/HamcrestArgumentMatcher.java
+ org.mockito.internal.hamcrest.HamcrestArgumentMatcher
+org/mockito/internal/stubbing/answers/CallsRealMethods.java
+ org.mockito.internal.stubbing.answers.CallsRealMethods
+org/mockito/verification/After.java
+ org.mockito.verification.After
+org/mockito/internal/matchers/GreaterThan.java
+ org.mockito.internal.matchers.GreaterThan
+org/mockito/internal/junit/DefaultTestFinishedEvent.java
+ org.mockito.internal.junit.DefaultTestFinishedEvent
+org/mockito/internal/invocation/SerializableMethod.java
+ org.mockito.internal.invocation.SerializableMethod
+org/mockito/internal/invocation/StubInfoImpl.java
+ org.mockito.internal.invocation.StubInfoImpl
+org/mockito/internal/util/Timer.java
+ org.mockito.internal.util.Timer
+org/mockito/internal/invocation/UnusedStubsFinder.java
+ org.mockito.internal.invocation.UnusedStubsFinder
+org/mockito/junit/MockitoJUnitRunner.java
+ org.mockito.junit.MockitoJUnitRunner
+ org.mockito.junit.MockitoJUnitRunner$Silent
+ org.mockito.junit.MockitoJUnitRunner$Strict
+ org.mockito.junit.MockitoJUnitRunner$StrictStubs
+org/mockito/internal/util/reflection/package-info.java
+ org.mockito.internal.util.reflection.package-info
+org/mockito/internal/verification/api/VerificationData.java
+ org.mockito.internal.verification.api.VerificationData
+org/mockito/internal/junit/ArgMismatchFinder.java
+ org.mockito.internal.junit.ArgMismatchFinder
+org/mockito/internal/exceptions/stacktrace/StackTraceFilter.java
+ org.mockito.internal.exceptions.stacktrace.StackTraceFilter
+org/mockito/internal/exceptions/stacktrace/DefaultStackTraceCleanerProvider.java
+ org.mockito.internal.exceptions.stacktrace.DefaultStackTraceCleanerProvider
+org/mockito/internal/configuration/injection/scanner/InjectMocksScanner.java
+ org.mockito.internal.configuration.injection.scanner.InjectMocksScanner
+org/mockito/internal/creation/instance/ObjenesisInstantiator.java
+ org.mockito.internal.creation.instance.ObjenesisInstantiator
+org/mockito/stubbing/VoidAnswer1.java
+ org.mockito.stubbing.VoidAnswer1
+org/mockito/internal/configuration/injection/ConstructorInjection.java
+ org.mockito.internal.configuration.injection.ConstructorInjection
+ org.mockito.internal.configuration.injection.ConstructorInjection$SimpleArgumentResolver
+org/mockito/internal/session/DefaultMockitoSessionBuilder.java
+ org.mockito.internal.session.DefaultMockitoSessionBuilder
+org/mockito/internal/configuration/SpyAnnotationEngine.java
+ org.mockito.internal.configuration.SpyAnnotationEngine
+org/mockito/internal/matchers/ArrayEquals.java
+ org.mockito.internal.matchers.ArrayEquals
+org/mockito/plugins/InstantiatorProvider2.java
+ org.mockito.plugins.InstantiatorProvider2
+org/mockito/internal/configuration/plugins/package-info.java
+ org.mockito.internal.configuration.plugins.package-info
+org/mockito/internal/verification/api/InOrderContext.java
+ org.mockito.internal.verification.api.InOrderContext
+org/mockito/exceptions/verification/NeverWantedButInvoked.java
+ org.mockito.exceptions.verification.NeverWantedButInvoked
+org/mockito/internal/framework/DefaultMockitoFramework.java
+ org.mockito.internal.framework.DefaultMockitoFramework
+org/mockito/internal/invocation/finder/VerifiableInvocationsFinder.java
+ org.mockito.internal.invocation.finder.VerifiableInvocationsFinder
+ org.mockito.internal.invocation.finder.VerifiableInvocationsFinder$1
+ org.mockito.internal.invocation.finder.VerifiableInvocationsFinder$RemoveIgnoredForVerification
+org/mockito/internal/matchers/GreaterOrEqual.java
+ org.mockito.internal.matchers.GreaterOrEqual
+org/mockito/internal/util/reflection/InstrumentationMemberAccessor.java
+ org.mockito.internal.util.reflection.InstrumentationMemberAccessor
+ org.mockito.internal.util.reflection.InstrumentationMemberAccessor$Dispatcher
+org/mockito/internal/configuration/MockAnnotationProcessor.java
+ org.mockito.internal.configuration.MockAnnotationProcessor
+org/mockito/stubbing/LenientStubber.java
+ org.mockito.stubbing.LenientStubber
+org/mockito/internal/matchers/Not.java
+ org.mockito.internal.matchers.Not
+org/mockito/verification/VerificationEvent.java
+ org.mockito.verification.VerificationEvent
+org/mockito/internal/stubbing/answers/InvocationInfo.java
+ org.mockito.internal.stubbing.answers.InvocationInfo
+org/mockito/internal/verification/NoInteractions.java
+ org.mockito.internal.verification.NoInteractions
+org/mockito/exceptions/misusing/InvalidUseOfMatchersException.java
+ org.mockito.exceptions.misusing.InvalidUseOfMatchersException
+org/mockito/internal/matchers/EqualsWithDelta.java
+ org.mockito.internal.matchers.EqualsWithDelta
+org/mockito/internal/util/ConsoleMockitoLogger.java
+ org.mockito.internal.util.ConsoleMockitoLogger
+org/mockito/plugins/InlineMockMaker.java
+ org.mockito.plugins.InlineMockMaker
+org/mockito/internal/util/Checks.java
+ org.mockito.internal.util.Checks
+org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java
+ org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator
+ org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator$1
+ org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator$ParameterWritingVisitorWrapper
+ org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator$ParameterWritingVisitorWrapper$MethodParameterStrippingMethodVisitor
+ org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator$ParameterWritingVisitorWrapper$ParameterAddingClassVisitor
+org/mockito/internal/matchers/LessThan.java
+ org.mockito.internal.matchers.LessThan
+org/mockito/exceptions/verification/SmartNullPointerException.java
+ org.mockito.exceptions.verification.SmartNullPointerException
+org/mockito/internal/util/reflection/FieldReader.java
+ org.mockito.internal.util.reflection.FieldReader
+org/mockito/internal/progress/MockingProgress.java
+ org.mockito.internal.progress.MockingProgress
+org/mockito/internal/util/reflection/FieldInitializer.java
+ org.mockito.internal.util.reflection.FieldInitializer
+ org.mockito.internal.util.reflection.FieldInitializer$ConstructorArgumentResolver
+ org.mockito.internal.util.reflection.FieldInitializer$ConstructorInstantiator
+ org.mockito.internal.util.reflection.FieldInitializer$NoArgConstructorInstantiator
+ org.mockito.internal.util.reflection.FieldInitializer$ParameterizedConstructorInstantiator
+ org.mockito.internal.util.reflection.FieldInitializer$ParameterizedConstructorInstantiator$1
+org/mockito/internal/debugging/WarningsFinder.java
+ org.mockito.internal.debugging.WarningsFinder
+org/mockito/session/MockitoSessionBuilder.java
+ org.mockito.session.MockitoSessionBuilder
+org/mockito/internal/junit/StubbingHint.java
+ org.mockito.internal.junit.StubbingHint
+org/mockito/internal/matchers/LessOrEqual.java
+ org.mockito.internal.matchers.LessOrEqual
+org/mockito/stubbing/Answer4.java
+ org.mockito.stubbing.Answer4
+org/mockito/internal/verification/VerificationEventImpl.java
+ org.mockito.internal.verification.VerificationEventImpl
+org/mockito/exceptions/verification/MoreThanAllowedActualInvocations.java
+ org.mockito.exceptions.verification.MoreThanAllowedActualInvocations
+org/mockito/internal/matchers/VarargMatcher.java
+ org.mockito.internal.matchers.VarargMatcher
+org/mockito/internal/configuration/injection/filter/NameBasedCandidateFilter.java
+ org.mockito.internal.configuration.injection.filter.NameBasedCandidateFilter
+org/mockito/internal/stubbing/answers/Returns.java
+ org.mockito.internal.stubbing.answers.Returns
+org/mockito/internal/matchers/CapturesArguments.java
+ org.mockito.internal.matchers.CapturesArguments
+org/mockito/runners/MockitoJUnitRunner.java
+ org.mockito.runners.MockitoJUnitRunner
+ org.mockito.runners.MockitoJUnitRunner$Silent
+ org.mockito.runners.MockitoJUnitRunner$Strict
+org/mockito/internal/verification/argumentmatching/package-info.java
+ org.mockito.internal.verification.argumentmatching.package-info
+org/mockito/internal/stubbing/answers/ThrowsExceptionForClassType.java
+ org.mockito.internal.stubbing.answers.ThrowsExceptionForClassType
+org/mockito/internal/package-info.java
+ org.mockito.internal.package-info
+org/mockito/internal/creation/bytebuddy/MockMethodInterceptor.java
+ org.mockito.internal.creation.bytebuddy.MockMethodInterceptor
+ org.mockito.internal.creation.bytebuddy.MockMethodInterceptor$DispatcherDefaultingToRealMethod
+ org.mockito.internal.creation.bytebuddy.MockMethodInterceptor$ForEquals
+ org.mockito.internal.creation.bytebuddy.MockMethodInterceptor$ForHashCode
+ org.mockito.internal.creation.bytebuddy.MockMethodInterceptor$ForWriteReplace
+org/mockito/stubbing/VoidAnswer6.java
+ org.mockito.stubbing.VoidAnswer6
+org/mockito/internal/junit/util/JUnitFailureHacker.java
+ org.mockito.internal.junit.util.JUnitFailureHacker
+org/mockito/internal/reporting/package-info.java
+ org.mockito.internal.reporting.package-info
+org/mockito/internal/invocation/ArgumentMatcherAction.java
+ org.mockito.internal.invocation.ArgumentMatcherAction
+org/mockito/mock/SerializableMode.java
+ org.mockito.mock.SerializableMode
+org/mockito/internal/util/concurrent/WeakConcurrentSet.java
+ org.mockito.internal.util.concurrent.WeakConcurrentSet
+ org.mockito.internal.util.concurrent.WeakConcurrentSet$1
+ org.mockito.internal.util.concurrent.WeakConcurrentSet$Cleaner
+ org.mockito.internal.util.concurrent.WeakConcurrentSet$ReducingIterator
+org/mockito/internal/matchers/InstanceOf.java
+ org.mockito.internal.matchers.InstanceOf
+ org.mockito.internal.matchers.InstanceOf$VarArgAware
+org/mockito/internal/invocation/TypeSafeMatching.java
+ org.mockito.internal.invocation.TypeSafeMatching
+org/mockito/internal/runners/util/TestMethodsFinder.java
+ org.mockito.internal.runners.util.TestMethodsFinder
+org/mockito/internal/verification/api/package-info.java
+ org.mockito.internal.verification.api.package-info
+org/mockito/internal/util/reflection/BeanPropertySetter.java
+ org.mockito.internal.util.reflection.BeanPropertySetter
+org/mockito/invocation/StubInfo.java
+ org.mockito.invocation.StubInfo
+org/mockito/internal/configuration/plugins/PluginLoader.java
+ org.mockito.internal.configuration.plugins.PluginLoader
+ org.mockito.internal.configuration.plugins.PluginLoader$1
+ org.mockito.internal.configuration.plugins.PluginLoader$2
+org/mockito/invocation/Invocation.java
+ org.mockito.invocation.Invocation
+org/mockito/internal/stubbing/answers/ClonesArguments.java
+ org.mockito.internal.stubbing.answers.ClonesArguments
+org/mockito/BDDMockito.java
+ org.mockito.BDDMockito
+ org.mockito.BDDMockito$BDDMyOngoingStubbing
+ org.mockito.BDDMockito$BDDOngoingStubbingImpl
+ org.mockito.BDDMockito$BDDStubber
+ org.mockito.BDDMockito$BDDStubberImpl
+ org.mockito.BDDMockito$Then
+ org.mockito.BDDMockito$ThenImpl
+org/mockito/internal/reporting/PrintSettings.java
+ org.mockito.internal.reporting.PrintSettings
+org/mockito/internal/configuration/IndependentAnnotationEngine.java
+ org.mockito.internal.configuration.IndependentAnnotationEngine
+ org.mockito.internal.configuration.IndependentAnnotationEngine$1
+org/mockito/internal/matchers/Equals.java
+ org.mockito.internal.matchers.Equals
+org/mockito/internal/verification/VerificationDataImpl.java
+ org.mockito.internal.verification.VerificationDataImpl
+org/mockito/internal/matchers/LocalizedMatcher.java
+ org.mockito.internal.matchers.LocalizedMatcher
+org/mockito/exceptions/base/MockitoAssertionError.java
+ org.mockito.exceptions.base.MockitoAssertionError
+org/mockito/exceptions/stacktrace/package-info.java
+ org.mockito.exceptions.stacktrace.package-info
+org/mockito/internal/verification/InOrderContextImpl.java
+ org.mockito.internal.verification.InOrderContextImpl
+org/mockito/internal/verification/api/VerificationDataInOrderImpl.java
+ org.mockito.internal.verification.api.VerificationDataInOrderImpl
+org/mockito/internal/stubbing/defaultanswers/RetrieveGenericsForDefaultAnswers.java
+ org.mockito.internal.stubbing.defaultanswers.RetrieveGenericsForDefaultAnswers
+ org.mockito.internal.stubbing.defaultanswers.RetrieveGenericsForDefaultAnswers$AnswerCallback
+org/mockito/InOrder.java
+ org.mockito.InOrder
+org/mockito/internal/configuration/GlobalConfiguration.java
+ org.mockito.internal.configuration.GlobalConfiguration
+org/mockito/ScopedMock.java
+ org.mockito.ScopedMock
+org/mockito/internal/matchers/CompareEqual.java
+ org.mockito.internal.matchers.CompareEqual
+org/mockito/internal/matchers/ContainsExtraTypeInfo.java
+ org.mockito.internal.matchers.ContainsExtraTypeInfo
+org/mockito/internal/configuration/DefaultInjectionEngine.java
+ org.mockito.internal.configuration.DefaultInjectionEngine
+org/mockito/internal/debugging/MockitoDebuggerImpl.java
+ org.mockito.internal.debugging.MockitoDebuggerImpl
+org/mockito/internal/verification/checkers/AtLeastDiscrepancy.java
+ org.mockito.internal.verification.checkers.AtLeastDiscrepancy
+org/mockito/internal/util/reflection/SuperTypesLastSorter.java
+ org.mockito.internal.util.reflection.SuperTypesLastSorter
+org/mockito/internal/creation/instance/ConstructorInstantiator.java
+ org.mockito.internal.creation.instance.ConstructorInstantiator
+org/mockito/internal/matchers/Null.java
+ org.mockito.internal.matchers.Null
+org/mockito/CheckReturnValue.java
+ org.mockito.CheckReturnValue
+org/mockito/verification/VerificationStrategy.java
+ org.mockito.verification.VerificationStrategy
+org/mockito/plugins/InstantiatorProvider.java
+ org.mockito.plugins.InstantiatorProvider
+org/mockito/package-info.java
+ org.mockito.package-info
+org/mockito/internal/stubbing/defaultanswers/TriesToReturnSelf.java
+ org.mockito.internal.stubbing.defaultanswers.TriesToReturnSelf
+org/mockito/exceptions/misusing/CannotVerifyStubOnlyMock.java
+ org.mockito.exceptions.misusing.CannotVerifyStubOnlyMock
+org/mockito/invocation/InvocationContainer.java
+ org.mockito.invocation.InvocationContainer
+org/mockito/exceptions/verification/TooLittleActualInvocations.java
+ org.mockito.exceptions.verification.TooLittleActualInvocations
+org/mockito/MockitoDebugger.java
+ org.mockito.MockitoDebugger
+org/mockito/internal/configuration/plugins/PluginFileReader.java
+ org.mockito.internal.configuration.plugins.PluginFileReader
+org/mockito/internal/creation/bytebuddy/inject/MockMethodDispatcher.java
+ org.mockito.internal.creation.bytebuddy.inject.MockMethodDispatcher
+org/mockito/internal/reporting/SmartPrinter.java
+ org.mockito.internal.reporting.SmartPrinter
+org/mockito/exceptions/verification/opentest4j/ArgumentsAreDifferent.java
+ org.mockito.exceptions.verification.opentest4j.ArgumentsAreDifferent
+org/mockito/internal/runners/util/RunnerProvider.java
+ org.mockito.internal.runners.util.RunnerProvider
+org/mockito/internal/listeners/AutoCleanableListener.java
+ org.mockito.internal.listeners.AutoCleanableListener
+org/mockito/internal/verification/DefaultRegisteredInvocations.java
+ org.mockito.internal.verification.DefaultRegisteredInvocations
+ org.mockito.internal.verification.DefaultRegisteredInvocations$1
+ org.mockito.internal.verification.DefaultRegisteredInvocations$RemoveToString
+org/mockito/exceptions/verification/TooFewActualInvocations.java
+ org.mockito.exceptions.verification.TooFewActualInvocations
+org/mockito/internal/debugging/LocationImpl.java
+ org.mockito.internal.debugging.LocationImpl
+org/mockito/junit/package-info.java
+ org.mockito.junit.package-info
+org/mockito/stubbing/Answer.java
+ org.mockito.stubbing.Answer
+org/mockito/internal/invocation/InvocationsFinder.java
+ org.mockito.internal.invocation.InvocationsFinder
+ org.mockito.internal.invocation.InvocationsFinder$1
+ org.mockito.internal.invocation.InvocationsFinder$RemoveNotMatching
+ org.mockito.internal.invocation.InvocationsFinder$RemoveUnverifiedInOrder
+org/mockito/exceptions/misusing/WrongTypeOfReturnValue.java
+ org.mockito.exceptions.misusing.WrongTypeOfReturnValue
+org/mockito/verification/VerificationMode.java
+ org.mockito.verification.VerificationMode
+org/mockito/listeners/StubbingLookupListener.java
+ org.mockito.listeners.StubbingLookupListener
+org/mockito/MockingDetails.java
+ org.mockito.MockingDetails
+org/mockito/internal/reporting/Pluralizer.java
+ org.mockito.internal.reporting.Pluralizer
+org/mockito/MockitoFramework.java
+ org.mockito.MockitoFramework
+org/mockito/internal/runners/package-info.java
+ org.mockito.internal.runners.package-info
+org/mockito/internal/stubbing/UnusedStubbingReporting.java
+ org.mockito.internal.stubbing.UnusedStubbingReporting
+org/mockito/internal/verification/NoMoreInteractions.java
+ org.mockito.internal.verification.NoMoreInteractions
+org/mockito/exceptions/base/MockitoInitializationException.java
+ org.mockito.exceptions.base.MockitoInitializationException
+org/mockito/exceptions/base/MockitoSerializationIssue.java
+ org.mockito.exceptions.base.MockitoSerializationIssue
+org/mockito/internal/configuration/injection/MockInjectionStrategy.java
+ org.mockito.internal.configuration.injection.MockInjectionStrategy
+ org.mockito.internal.configuration.injection.MockInjectionStrategy$1
+org/mockito/internal/InternalMockHandler.java
+ org.mockito.internal.InternalMockHandler
+org/mockito/internal/configuration/CaptorAnnotationProcessor.java
+ org.mockito.internal.configuration.CaptorAnnotationProcessor
+org/mockito/internal/matchers/text/ValuePrinter.java
+ org.mockito.internal.matchers.text.ValuePrinter
+ org.mockito.internal.matchers.text.ValuePrinter$1
+org/mockito/exceptions/verification/WantedButNotInvoked.java
+ org.mockito.exceptions.verification.WantedButNotInvoked
+org/mockito/internal/stubbing/package-info.java
+ org.mockito.internal.stubbing.package-info
+org/mockito/ArgumentCaptor.java
+ org.mockito.ArgumentCaptor
+org/mockito/exceptions/misusing/NotAMockException.java
+ org.mockito.exceptions.misusing.NotAMockException
+org/mockito/internal/stubbing/answers/ThrowsException.java
+ org.mockito.internal.stubbing.answers.ThrowsException
+org/mockito/internal/debugging/WarningsCollector.java
+ org.mockito.internal.debugging.WarningsCollector
+org/mockito/internal/util/collections/IdentitySet.java
+ org.mockito.internal.util.collections.IdentitySet
+org/mockito/internal/verification/checkers/MissingInvocationChecker.java
+ org.mockito.internal.verification.checkers.MissingInvocationChecker
+ org.mockito.internal.verification.checkers.MissingInvocationChecker$1
+org/mockito/internal/runners/StrictRunner.java
+ org.mockito.internal.runners.StrictRunner
+org/mockito/exceptions/verification/NoInteractionsWanted.java
+ org.mockito.exceptions.verification.NoInteractionsWanted
+org/mockito/internal/junit/DefaultStubbingLookupListener.java
+ org.mockito.internal.junit.DefaultStubbingLookupListener
+org/mockito/exceptions/package-info.java
+ org.mockito.exceptions.package-info
+org/mockito/invocation/Location.java
+ org.mockito.invocation.Location
+org/mockito/internal/stubbing/DoAnswerStyleStubbing.java
+ org.mockito.internal.stubbing.DoAnswerStyleStubbing
+org/mockito/internal/exceptions/stacktrace/ConditionalStackTraceFilter.java
+ org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilter
+org/mockito/internal/creation/bytebuddy/SubclassBytecodeGenerator.java
+ org.mockito.internal.creation.bytebuddy.SubclassBytecodeGenerator
+org/mockito/exceptions/misusing/UnfinishedVerificationException.java
+ org.mockito.exceptions.misusing.UnfinishedVerificationException
+org/mockito/exceptions/verification/opentest4j/package-info.java
+ org.mockito.exceptions.verification.opentest4j.package-info
+org/mockito/internal/configuration/plugins/DefaultMockitoPlugins.java
+ org.mockito.internal.configuration.plugins.DefaultMockitoPlugins
+org/mockito/internal/matchers/CompareTo.java
+ org.mockito.internal.matchers.CompareTo
+org/mockito/internal/verification/VerificationOverTimeImpl.java
+ org.mockito.internal.verification.VerificationOverTimeImpl
+org/mockito/internal/handler/NotifiedMethodInvocationReport.java
+ org.mockito.internal.handler.NotifiedMethodInvocationReport
+org/mockito/internal/configuration/plugins/PluginFinder.java
+ org.mockito.internal.configuration.plugins.PluginFinder
+org/mockito/stubbing/Answer1.java
+ org.mockito.stubbing.Answer1
+org/mockito/plugins/package-info.java
+ org.mockito.plugins.package-info
+org/mockito/stubbing/VoidAnswer3.java
+ org.mockito.stubbing.VoidAnswer3
+org/mockito/internal/util/reflection/FieldInitializationReport.java
+ org.mockito.internal.util.reflection.FieldInitializationReport
+org/mockito/internal/configuration/injection/MockInjection.java
+ org.mockito.internal.configuration.injection.MockInjection
+ org.mockito.internal.configuration.injection.MockInjection$1
+ org.mockito.internal.configuration.injection.MockInjection$OngoingMockInjection
+org/mockito/exceptions/misusing/package-info.java
+ org.mockito.exceptions.misusing.package-info
+org/mockito/internal/matchers/Find.java
+ org.mockito.internal.matchers.Find
+org/mockito/internal/junit/StrictStubsRunnerTestListener.java
+ org.mockito.internal.junit.StrictStubsRunnerTestListener
+org/mockito/mock/MockName.java
+ org.mockito.mock.MockName
+org/mockito/internal/reporting/Discrepancy.java
+ org.mockito.internal.reporting.Discrepancy
+org/mockito/exceptions/base/MockitoException.java
+ org.mockito.exceptions.base.MockitoException
+org/mockito/internal/junit/TestFinishedEvent.java
+ org.mockito.internal.junit.TestFinishedEvent
+org/mockito/internal/invocation/finder/AllInvocationsFinder.java
+ org.mockito.internal.invocation.finder.AllInvocationsFinder
+org/mockito/quality/package-info.java
+ org.mockito.quality.package-info
+org/mockito/configuration/DefaultMockitoConfiguration.java
+ org.mockito.configuration.DefaultMockitoConfiguration
+org/mockito/internal/junit/JUnitRule.java
+ org.mockito.internal.junit.JUnitRule
+org/mockito/internal/configuration/package-info.java
+ org.mockito.internal.configuration.package-info
+org/mockito/stubbing/Answer5.java
+ org.mockito.stubbing.Answer5
+org/mockito/internal/creation/bytebuddy/InlineDelegateByteBuddyMockMaker.java
+ org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMaker
+ org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMaker$1
+ org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMaker$InlineConstructionMockContext
+ org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMaker$InlineConstructionMockControl
+ org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMaker$InlineStaticMockControl
+org/mockito/internal/invocation/mockref/MockReference.java
+ org.mockito.internal.invocation.mockref.MockReference
+org/mockito/internal/configuration/injection/package-info.java
+ org.mockito.internal.configuration.injection.package-info
+org/mockito/internal/progress/ThreadSafeMockingProgress.java
+ org.mockito.internal.progress.ThreadSafeMockingProgress
+ org.mockito.internal.progress.ThreadSafeMockingProgress$1
+org/mockito/internal/util/package-info.java
+ org.mockito.internal.util.package-info
+org/mockito/internal/util/reflection/InstanceField.java
+ org.mockito.internal.util.reflection.InstanceField
+org/mockito/internal/invocation/InvocationMatcher.java
+ org.mockito.internal.invocation.InvocationMatcher
+ org.mockito.internal.invocation.InvocationMatcher$1
+org/mockito/quality/MockitoHint.java
+ org.mockito.quality.MockitoHint
+org/mockito/plugins/AnnotationEngine.java
+ org.mockito.plugins.AnnotationEngine
+ org.mockito.plugins.AnnotationEngine$NoAction
+org/mockito/Spy.java
+ org.mockito.Spy
+org/mockito/internal/util/StringUtil.java
+ org.mockito.internal.util.StringUtil
+org/mockito/internal/util/ObjectMethodsGuru.java
+ org.mockito.internal.util.ObjectMethodsGuru
+org/mockito/internal/junit/UnusedStubbingsFinder.java
+ org.mockito.internal.junit.UnusedStubbingsFinder
+ org.mockito.internal.junit.UnusedStubbingsFinder$1
+org/mockito/configuration/IMockitoConfiguration.java
+ org.mockito.configuration.IMockitoConfiguration
+org/mockito/internal/configuration/injection/filter/MockCandidateFilter.java
+ org.mockito.internal.configuration.injection.filter.MockCandidateFilter
+org/mockito/exceptions/base/package-info.java
+ org.mockito.exceptions.base.package-info
+org/mockito/internal/progress/ArgumentMatcherStorageImpl.java
+ org.mockito.internal.progress.ArgumentMatcherStorageImpl
+org/mockito/internal/invocation/ArgumentsProcessor.java
+ org.mockito.internal.invocation.ArgumentsProcessor
+org/mockito/internal/framework/DefaultMockitoSession.java
+ org.mockito.internal.framework.DefaultMockitoSession
+ org.mockito.internal.framework.DefaultMockitoSession$1
+org/mockito/internal/verification/VerificationModeFactory.java
+ org.mockito.internal.verification.VerificationModeFactory
+org/mockito/internal/configuration/plugins/Plugins.java
+ org.mockito.internal.configuration.plugins.Plugins
+org/mockito/exceptions/misusing/MockitoConfigurationException.java
+ org.mockito.exceptions.misusing.MockitoConfigurationException
+org/mockito/internal/util/Platform.java
+ org.mockito.internal.util.Platform
+org/mockito/mock/package-info.java
+ org.mockito.mock.package-info
+org/mockito/internal/progress/MockingProgressImpl.java
+ org.mockito.internal.progress.MockingProgressImpl
+ org.mockito.internal.progress.MockingProgressImpl$1
+org/mockito/internal/junit/package-info.java
+ org.mockito.internal.junit.package-info
+org/mockito/exceptions/misusing/CannotStubVoidMethodWithReturnValue.java
+ org.mockito.exceptions.misusing.CannotStubVoidMethodWithReturnValue
+org/mockito/internal/handler/MockHandlerImpl.java
+ org.mockito.internal.handler.MockHandlerImpl
+org/mockito/MockSettings.java
+ org.mockito.MockSettings
+org/mockito/internal/creation/instance/Instantiator.java
+ org.mockito.internal.creation.instance.Instantiator
+org/mockito/internal/util/JavaEightUtil.java
+ org.mockito.internal.util.JavaEightUtil
+org/mockito/internal/invocation/RealMethod.java
+ org.mockito.internal.invocation.RealMethod
+ org.mockito.internal.invocation.RealMethod$FromBehavior
+ org.mockito.internal.invocation.RealMethod$FromCallable
+ org.mockito.internal.invocation.RealMethod$FromCallable$1
+ org.mockito.internal.invocation.RealMethod$IsIllegal
+org/mockito/internal/verification/InOrderWrapper.java
+ org.mockito.internal.verification.InOrderWrapper
+org/mockito/stubbing/Answer3.java
+ org.mockito.stubbing.Answer3
+org/mockito/internal/session/MockitoSessionLoggerAdapter.java
+ org.mockito.internal.session.MockitoSessionLoggerAdapter
+org/mockito/listeners/package-info.java
+ org.mockito.listeners.package-info
+org/mockito/internal/util/reflection/GenericMaster.java
+ org.mockito.internal.util.reflection.GenericMaster
+org/mockito/internal/debugging/FindingsListener.java
+ org.mockito.internal.debugging.FindingsListener
+org/mockito/listeners/VerificationStartedEvent.java
+ org.mockito.listeners.VerificationStartedEvent
+org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNulls.java
+ org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls
+ org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls$1
+ org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls$ThrowsSmartNullPointer
+org/mockito/internal/creation/bytebuddy/MockFeatures.java
+ org.mockito.internal.creation.bytebuddy.MockFeatures
+org/mockito/internal/creation/util/package-info.java
+ org.mockito.internal.creation.util.package-info
+org/mockito/internal/verification/Only.java
+ org.mockito.internal.verification.Only
+org/mockito/internal/stubbing/InvocationContainerImpl.java
+ org.mockito.internal.stubbing.InvocationContainerImpl
+org/mockito/runners/VerboseMockitoJUnitRunner.java
+ org.mockito.runners.VerboseMockitoJUnitRunner
+ org.mockito.runners.VerboseMockitoJUnitRunner$1
+org/mockito/internal/stubbing/OngoingStubbingImpl.java
+ org.mockito.internal.stubbing.OngoingStubbingImpl
+org/mockito/stubbing/OngoingStubbing.java
+ org.mockito.stubbing.OngoingStubbing
+org/mockito/internal/verification/api/VerificationInOrderMode.java
+ org.mockito.internal.verification.api.VerificationInOrderMode
+org/mockito/internal/stubbing/answers/AnswerFunctionalInterfaces.java
+ org.mockito.internal.stubbing.answers.AnswerFunctionalInterfaces
+ org.mockito.internal.stubbing.answers.AnswerFunctionalInterfaces$1
+ org.mockito.internal.stubbing.answers.AnswerFunctionalInterfaces$10
+ org.mockito.internal.stubbing.answers.AnswerFunctionalInterfaces$11
+ org.mockito.internal.stubbing.answers.AnswerFunctionalInterfaces$12
+ org.mockito.internal.stubbing.answers.AnswerFunctionalInterfaces$2
+ org.mockito.internal.stubbing.answers.AnswerFunctionalInterfaces$3
+ org.mockito.internal.stubbing.answers.AnswerFunctionalInterfaces$4
+ org.mockito.internal.stubbing.answers.AnswerFunctionalInterfaces$5
+ org.mockito.internal.stubbing.answers.AnswerFunctionalInterfaces$6
+ org.mockito.internal.stubbing.answers.AnswerFunctionalInterfaces$7
+ org.mockito.internal.stubbing.answers.AnswerFunctionalInterfaces$8
+ org.mockito.internal.stubbing.answers.AnswerFunctionalInterfaces$9
+org/mockito/internal/creation/settings/CreationSettings.java
+ org.mockito.internal.creation.settings.CreationSettings
+org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java
+ org.mockito.internal.creation.bytebuddy.MockMethodAdvice
+ org.mockito.internal.creation.bytebuddy.MockMethodAdvice$1
+ org.mockito.internal.creation.bytebuddy.MockMethodAdvice$ConstructorShortcut
+ org.mockito.internal.creation.bytebuddy.MockMethodAdvice$ConstructorShortcut$1
+ org.mockito.internal.creation.bytebuddy.MockMethodAdvice$ForEquals
+ org.mockito.internal.creation.bytebuddy.MockMethodAdvice$ForHashCode
+ org.mockito.internal.creation.bytebuddy.MockMethodAdvice$ForReadObject
+ org.mockito.internal.creation.bytebuddy.MockMethodAdvice$ForStatic
+ org.mockito.internal.creation.bytebuddy.MockMethodAdvice$Identifier
+ org.mockito.internal.creation.bytebuddy.MockMethodAdvice$RealMethodCall
+ org.mockito.internal.creation.bytebuddy.MockMethodAdvice$ReturnValueWrapper
+ org.mockito.internal.creation.bytebuddy.MockMethodAdvice$SelfCallInfo
+ org.mockito.internal.creation.bytebuddy.MockMethodAdvice$SerializableRealMethodCall
+ org.mockito.internal.creation.bytebuddy.MockMethodAdvice$StaticMethodCall
+org/mockito/internal/stubbing/defaultanswers/ReturnsMoreEmptyValues.java
+ org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValues
+org/mockito/Incubating.java
+ org.mockito.Incubating
+org/mockito/internal/util/reflection/ReflectionMemberAccessor.java
+ org.mockito.internal.util.reflection.ReflectionMemberAccessor
+org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java
+ org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool
+org/mockito/internal/creation/bytebuddy/ByteBuddyCrossClassLoaderSerializationSupport.java
+ org.mockito.internal.creation.bytebuddy.ByteBuddyCrossClassLoaderSerializationSupport
+ org.mockito.internal.creation.bytebuddy.ByteBuddyCrossClassLoaderSerializationSupport$CrossClassLoaderSerializableMock
+ org.mockito.internal.creation.bytebuddy.ByteBuddyCrossClassLoaderSerializationSupport$CrossClassLoaderSerializationProxy
+ org.mockito.internal.creation.bytebuddy.ByteBuddyCrossClassLoaderSerializationSupport$MockitoMockObjectInputStream
+ org.mockito.internal.creation.bytebuddy.ByteBuddyCrossClassLoaderSerializationSupport$MockitoMockObjectOutputStream
+org/mockito/mock/MockCreationSettings.java
+ org.mockito.mock.MockCreationSettings
+org/mockito/internal/stubbing/ConsecutiveStubbing.java
+ org.mockito.internal.stubbing.ConsecutiveStubbing
+org/mockito/internal/creation/package-info.java
+ org.mockito.internal.creation.package-info
+org/mockito/internal/stubbing/StrictnessSelector.java
+ org.mockito.internal.stubbing.StrictnessSelector
+org/mockito/internal/stubbing/answers/AnswersWithDelay.java
+ org.mockito.internal.stubbing.answers.AnswersWithDelay
+org/mockito/internal/listeners/VerificationStartedNotifier.java
+ org.mockito.internal.listeners.VerificationStartedNotifier
+ org.mockito.internal.listeners.VerificationStartedNotifier$Event
+org/mockito/internal/matchers/text/MatchersPrinter.java
+ org.mockito.internal.matchers.text.MatchersPrinter
+org/mockito/internal/junit/StubbingArgMismatches.java
+ org.mockito.internal.junit.StubbingArgMismatches
+org/mockito/exceptions/misusing/UnfinishedMockingSessionException.java
+ org.mockito.exceptions.misusing.UnfinishedMockingSessionException
+org/mockito/stubbing/package-info.java
+ org.mockito.stubbing.package-info
+org/mockito/internal/stubbing/defaultanswers/GloballyConfiguredAnswer.java
+ org.mockito.internal.stubbing.defaultanswers.GloballyConfiguredAnswer
+org/mockito/listeners/VerificationListener.java
+ org.mockito.listeners.VerificationListener
+org/mockito/invocation/package-info.java
+ org.mockito.invocation.package-info
+org/mockito/internal/configuration/injection/filter/TypeBasedCandidateFilter.java
+ org.mockito.internal.configuration.injection.filter.TypeBasedCandidateFilter
+org/mockito/exceptions/verification/junit/ArgumentsAreDifferent.java
+ org.mockito.exceptions.verification.junit.ArgumentsAreDifferent
+org/mockito/internal/exceptions/Reporter.java
+ org.mockito.internal.exceptions.Reporter
+org/mockito/internal/exceptions/util/ScenarioPrinter.java
+ org.mockito.internal.exceptions.util.ScenarioPrinter
+org/mockito/internal/stubbing/StubberImpl.java
+ org.mockito.internal.stubbing.StubberImpl
+org/mockito/creation/instance/Instantiator.java
+ org.mockito.creation.instance.Instantiator
+org/mockito/internal/creation/bytebuddy/SubclassByteBuddyMockMaker.java
+ org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMaker
+ org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMaker$1
+org/mockito/internal/junit/UniversalTestListener.java
+ org.mockito.internal.junit.UniversalTestListener
+ org.mockito.internal.junit.UniversalTestListener$1
+org/mockito/internal/creation/bytebuddy/inject/package-info.java
+ org.mockito.internal.creation.bytebuddy.inject.package-info
+org/mockito/internal/util/DefaultMockingDetails.java
+ org.mockito.internal.util.DefaultMockingDetails
+org/mockito/internal/creation/bytebuddy/TypeCachingBytecodeGenerator.java
+ org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator
+ org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator$1
+ org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator$MockitoMockKey
+org/mockito/listeners/VerificationStartedListener.java
+ org.mockito.listeners.VerificationStartedListener
+org/mockito/internal/invocation/InvocationMarker.java
+ org.mockito.internal.invocation.InvocationMarker
+org/mockito/internal/runners/InternalRunner.java
+ org.mockito.internal.runners.InternalRunner
+org/mockito/exceptions/verification/junit/package-info.java
+ org.mockito.exceptions.verification.junit.package-info
+org/mockito/internal/exceptions/stacktrace/package-info.java
+ org.mockito.internal.exceptions.stacktrace.package-info
+org/mockito/exceptions/stacktrace/StackTraceCleaner.java
+ org.mockito.exceptions.stacktrace.StackTraceCleaner
+org/mockito/internal/verification/AtLeast.java
+ org.mockito.internal.verification.AtLeast
+org/mockito/internal/invocation/AbstractAwareMethod.java
+ org.mockito.internal.invocation.AbstractAwareMethod
+org/mockito/internal/MockedStaticImpl.java
+ org.mockito.internal.MockedStaticImpl
+org/mockito/internal/util/MockCreationValidator.java
+ org.mockito.internal.util.MockCreationValidator
+org/mockito/internal/MockedConstructionImpl.java
+ org.mockito.internal.MockedConstructionImpl
+org/mockito/internal/creation/bytebuddy/ByteBuddyMockMaker.java
+ org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker
+org/mockito/internal/debugging/VerboseMockInvocationLogger.java
+ org.mockito.internal.debugging.VerboseMockInvocationLogger
+org/mockito/internal/junit/UnnecessaryStubbingsReporter.java
+ org.mockito.internal.junit.UnnecessaryStubbingsReporter
+org/mockito/configuration/package-info.java
+ org.mockito.configuration.package-info
+org/mockito/internal/invocation/MockitoMethod.java
+ org.mockito.internal.invocation.MockitoMethod
+org/mockito/internal/util/collections/Sets.java
+ org.mockito.internal.util.collections.Sets
+org/mockito/internal/matchers/Contains.java
+ org.mockito.internal.matchers.Contains
+org/mockito/plugins/MockitoPlugins.java
+ org.mockito.plugins.MockitoPlugins
+org/mockito/internal/debugging/LoggingListener.java
+ org.mockito.internal.debugging.LoggingListener
+org/mockito/Answers.java
+ org.mockito.Answers
+org/mockito/internal/verification/checkers/AtLeastXNumberOfInvocationsChecker.java
+ org.mockito.internal.verification.checkers.AtLeastXNumberOfInvocationsChecker
+org/mockito/internal/runners/util/FailureDetector.java
+ org.mockito.internal.runners.util.FailureDetector
+org/mockito/internal/session/MockitoLoggerAdapter.java
+ org.mockito.internal.session.MockitoLoggerAdapter
+org/mockito/internal/configuration/injection/filter/TerminalMockCandidateFilter.java
+ org.mockito.internal.configuration.injection.filter.TerminalMockCandidateFilter
+org/mockito/internal/stubbing/defaultanswers/package-info.java
+ org.mockito.internal.stubbing.defaultanswers.package-info
+org/mockito/internal/invocation/InterceptedInvocation.java
+ org.mockito.internal.invocation.InterceptedInvocation
+ org.mockito.internal.invocation.InterceptedInvocation$1
+org/mockito/verification/package-info.java
+ org.mockito.verification.package-info
+org/mockito/internal/progress/SequenceNumber.java
+ org.mockito.internal.progress.SequenceNumber
+org/mockito/internal/creation/bytebuddy/ModuleHandler.java
+ org.mockito.internal.creation.bytebuddy.ModuleHandler
+ org.mockito.internal.creation.bytebuddy.ModuleHandler$1
+ org.mockito.internal.creation.bytebuddy.ModuleHandler$ModuleSystemFound
+ org.mockito.internal.creation.bytebuddy.ModuleHandler$NoModuleSystemFound
+org/mockito/internal/matchers/Same.java
+ org.mockito.internal.matchers.Same
+org/mockito/internal/matchers/apachecommons/ReflectionEquals.java
+ org.mockito.internal.matchers.apachecommons.ReflectionEquals
+org/mockito/internal/configuration/plugins/PluginInitializer.java
+ org.mockito.internal.configuration.plugins.PluginInitializer
+org/mockito/internal/invocation/mockref/MockWeakReference.java
+ org.mockito.internal.invocation.mockref.MockWeakReference
+org/mockito/internal/creation/bytebuddy/InlineByteBuddyMockMaker.java
+ org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMaker
+org/mockito/internal/util/KotlinInlineClassUtil.java
+ org.mockito.internal.util.KotlinInlineClassUtil
+org/mockito/internal/junit/UnusedStubbings.java
+ org.mockito.internal.junit.UnusedStubbings
+org/mockito/listeners/MockitoListener.java
+ org.mockito.listeners.MockitoListener
+org/mockito/internal/creation/DelegatingMethod.java
+ org.mockito.internal.creation.DelegatingMethod
+org/mockito/configuration/AnnotationEngine.java
+ org.mockito.configuration.AnnotationEngine
+org/mockito/internal/debugging/Localized.java
+ org.mockito.internal.debugging.Localized
+org/mockito/internal/invocation/InvocationComparator.java
+ org.mockito.internal.invocation.InvocationComparator
+org/mockito/Mock.java
+ org.mockito.Mock
+org/mockito/internal/junit/JUnitSessionStore.java
+ org.mockito.internal.junit.JUnitSessionStore
+ org.mockito.internal.junit.JUnitSessionStore$1
+org/mockito/exceptions/verification/ArgumentsAreDifferent.java
+ org.mockito.exceptions.verification.ArgumentsAreDifferent
+org/mockito/junit/MockitoJUnit.java
+ org.mockito.junit.MockitoJUnit
+org/mockito/internal/matchers/text/MatcherToString.java
+ org.mockito.internal.matchers.text.MatcherToString
+org/mockito/internal/junit/VerificationCollectorImpl.java
+ org.mockito.internal.junit.VerificationCollectorImpl
+ org.mockito.internal.junit.VerificationCollectorImpl$1
+ org.mockito.internal.junit.VerificationCollectorImpl$2
+ org.mockito.internal.junit.VerificationCollectorImpl$VerificationWrapper
+org/mockito/AdditionalAnswers.java
+ org.mockito.AdditionalAnswers
+org/mockito/exceptions/misusing/PotentialStubbingProblem.java
+ org.mockito.exceptions.misusing.PotentialStubbingProblem
+org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java
+ org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs
+ org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs$DeeplyStubbedAnswer
+ org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs$LazyHolder
+ org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs$ReturnsDeepStubsSerializationFallback
+org/mockito/internal/matchers/NotNull.java
+ org.mockito.internal.matchers.NotNull
+org/mockito/exceptions/verification/TooManyActualInvocations.java
+ org.mockito.exceptions.verification.TooManyActualInvocations
+org/mockito/internal/InOrderImpl.java
+ org.mockito.internal.InOrderImpl
+org/mockito/internal/configuration/ClassPathLoader.java
+ org.mockito.internal.configuration.ClassPathLoader
+org/mockito/internal/stubbing/answers/ReturnsArgumentAt.java
+ org.mockito.internal.stubbing.answers.ReturnsArgumentAt
+org/mockito/codegen/InjectionBase.java
+ org.mockito.codegen.InjectionBase
+org/mockito/AdditionalMatchers.java
+ org.mockito.AdditionalMatchers
+org/mockito/internal/verification/checkers/package-info.java
+ org.mockito.internal.verification.checkers.package-info
+org/mockito/internal/matchers/Any.java
+ org.mockito.internal.matchers.Any
+org/mockito/internal/verification/VerificationWrapperInOrderWrapper.java
+ org.mockito.internal.verification.VerificationWrapperInOrderWrapper
+org/mockito/internal/stubbing/BaseStubbing.java
+ org.mockito.internal.stubbing.BaseStubbing
+org/mockito/plugins/MemberAccessor.java
+ org.mockito.plugins.MemberAccessor
+ org.mockito.plugins.MemberAccessor$ConstructionDispatcher
+ org.mockito.plugins.MemberAccessor$OnConstruction
+org/mockito/junit/VerificationCollector.java
+ org.mockito.junit.VerificationCollector
+org/mockito/internal/progress/ArgumentMatcherStorage.java
+ org.mockito.internal.progress.ArgumentMatcherStorage
+org/mockito/MockitoSession.java
+ org.mockito.MockitoSession

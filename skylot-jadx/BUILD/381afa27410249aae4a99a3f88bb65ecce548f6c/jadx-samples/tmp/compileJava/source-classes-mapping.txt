@@ -1,0 +1,133 @@
+jadx/samples/RunTests.java
+ jadx.samples.RunTests
+ jadx.samples.RunTests$1
+ jadx.samples.RunTests$TerminateTask
+ jadx.samples.RunTests$TestFilter
+jadx/samples/TestCF3.java
+ jadx.samples.TestCF3
+jadx/samples/TestUnicode.java
+ jadx.samples.TestUnicode
+jadx/samples/TestEnum.java
+ jadx.samples.TestEnum
+ jadx.samples.TestEnum$1
+ jadx.samples.TestEnum$Animal
+ jadx.samples.TestEnum$Direction
+ jadx.samples.TestEnum$DoubleOperations
+ jadx.samples.TestEnum$DoubleOperations$1
+ jadx.samples.TestEnum$DoubleOperations$2
+ jadx.samples.TestEnum$EmptyEnum
+ jadx.samples.TestEnum$IOps
+ jadx.samples.TestEnum$Numbers
+ jadx.samples.TestEnum$Operation
+ jadx.samples.TestEnum$Operation$1
+ jadx.samples.TestEnum$Operation$2
+ jadx.samples.TestEnum$Singleton
+ jadx.samples.TestEnum$Types
+jadx/samples/TestTypeResolver.java
+ jadx.samples.TestTypeResolver
+ jadx.samples.TestTypeResolver$TestTernaryInSuper
+jadx/samples/TestArrays.java
+ jadx.samples.TestArrays
+jadx/samples/TestTypeResolver2.java
+ jadx.samples.TestTypeResolver2
+jadx/samples/TestStringProcessing.java
+ jadx.samples.TestStringProcessing
+jadx/samples/TestTryCatch.java
+ jadx.samples.TestTryCatch
+jadx/samples/otherpkg/D.java
+ jadx.samples.otherpkg.D
+ jadx.samples.otherpkg.D$E
+jadx/samples/TestInner3.java
+ jadx.samples.TestInner3
+ jadx.samples.TestInner3$A
+ jadx.samples.TestInner3$I0
+ jadx.samples.TestInner3$I0$I1
+ jadx.samples.TestInner3$I0$I1$1
+jadx/samples/TestCF2.java
+ jadx.samples.TestCF2
+jadx/samples/TestImports2.java
+ jadx.samples.TestImports2
+ jadx.samples.TestImports2$1
+ jadx.samples.TestImports2$2
+ jadx.samples.TestImports2$X1
+ jadx.samples.TestImports2$X2
+jadx/samples/TestInner.java
+ jadx.samples.TestInner
+ jadx.samples.TestInner$1
+ jadx.samples.TestInner$2
+ jadx.samples.TestInner$3
+ jadx.samples.TestInner$4
+ jadx.samples.TestInner$MyException
+ jadx.samples.TestInner$MyInceptionThread
+ jadx.samples.TestInner$MyInceptionThread$MyThread2
+ jadx.samples.TestInner$MyThread
+jadx/samples/TestConditions.java
+ jadx.samples.TestConditions
+jadx/samples/TestAnnotationsParser.java
+ jadx.samples.TestAnnotationsParser
+ jadx.samples.TestAnnotationsParser$A
+ jadx.samples.TestAnnotationsParser$C1
+ jadx.samples.TestAnnotationsParser$C2
+jadx/samples/TestCF.java
+ jadx.samples.TestCF
+jadx/samples/otherpkg/A.java
+ jadx.samples.otherpkg.A
+ jadx.samples.otherpkg.A$B
+jadx/samples/TestAnnotations.java
+ jadx.samples.TestAnnotations
+ jadx.samples.TestAnnotations$ClassesAnnotation
+ jadx.samples.TestAnnotations$MyAnnotation
+ jadx.samples.TestAnnotations$SimpleAnnotation
+jadx/samples/TestInvoke.java
+ jadx.samples.TestInvoke
+jadx/samples/TestInnerNames.java
+ jadx.samples.TestInnerNames
+ jadx.samples.TestInnerNames$A
+ jadx.samples.TestInnerNames$B
+ jadx.samples.TestInnerNames$B$C
+ jadx.samples.TestInnerNames$C
+ jadx.samples.TestInnerNames$D
+jadx/samples/otherpkg/C.java
+ jadx.samples.otherpkg.C
+ jadx.samples.otherpkg.C$E
+jadx/samples/AbstractTest.java
+ jadx.samples.AbstractTest
+jadx/samples/TestImports.java
+ jadx.samples.TestImports
+ jadx.samples.TestImports$C
+jadx/samples/TestCF4.java
+ jadx.samples.TestCF4
+jadx/samples/TestGenerics.java
+ jadx.samples.TestGenerics
+ jadx.samples.TestGenerics$A
+ jadx.samples.TestGenerics$B
+ jadx.samples.TestGenerics$Box
+ jadx.samples.TestGenerics$C
+ jadx.samples.TestGenerics$D
+ jadx.samples.TestGenerics$GenericClass
+ jadx.samples.TestGenerics$MyComparable
+ jadx.samples.TestGenerics$NaturalNumber
+ jadx.samples.TestGenerics$Node
+ jadx.samples.TestGenerics$OrderedPair
+ jadx.samples.TestGenerics$Pair
+ jadx.samples.TestGenerics$TestConstructor
+ jadx.samples.TestGenerics$Util
+jadx/samples/TestDeadCode.java
+ jadx.samples.TestDeadCode
+jadx/samples/TestInitializers.java
+ jadx.samples.TestInitializers
+ jadx.samples.TestInitializers$1
+ jadx.samples.TestInitializers$2
+ jadx.samples.TestInitializers$A
+ jadx.samples.TestInitializers$B
+jadx/samples/TestSwitch.java
+ jadx.samples.TestSwitch
+jadx/samples/TestInner2.java
+ jadx.samples.TestInner2
+ jadx.samples.TestInner2$A
+ jadx.samples.TestInner2$B
+ jadx.samples.TestInner2$C
+ jadx.samples.TestInner2$D
+jadx/samples/TestFields.java
+ jadx.samples.TestFields
+ jadx.samples.TestFields$ConstFields

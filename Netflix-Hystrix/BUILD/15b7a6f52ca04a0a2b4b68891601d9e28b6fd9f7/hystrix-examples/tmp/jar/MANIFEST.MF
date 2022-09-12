@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.netflix.hystrix.examples
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1662568457958
+Bundle-Vendor: Netflix
+Bundle-DocURL: https://github.com/Netflix/Hystrix
+Import-Package: com.netflix.config,com.netflix.hystrix;version="[1.4,2
+ )",com.netflix.hystrix.exception;version="[1.4,2)",com.netflix.hystri
+ x.strategy.concurrency;version="[1.4,2)",org.apache.commons.configura
+ tion;version="[1.8,2)",rx;version="[1.0,2)",rx.functions;version="[1.
+ 0,2)",rx.observables;version="[1.0,2)"
+Tool: Bnd-2.1.0.20130426-122213
+Eclipse-ExtensibleAPI: true
+Export-Package: com.netflix.hystrix.examples.basic;version="1.4.0.SNAP
+ SHOT";uses:="com.netflix.hystrix",com.netflix.hystrix.examples.demo;v
+ ersion="1.4.0.SNAPSHOT";uses:="com.netflix.hystrix"
+Bundle-Version: 1.4.0.SNAPSHOT
+Bundle-Name: hystrix-examples
+Created-By: 1.8.0_342 (Oracle Corporation)
+

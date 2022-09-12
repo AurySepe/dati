@@ -1,0 +1,38 @@
+Downloading https://services.gradle.org/distributions/gradle-3.4-rc-3-bin.zip
+...........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Unzipping /root/.gradle/wrapper/dists/gradle-3.4-rc-3-bin/a2znb0xv320gx7dt1jhkrpjyz/gradle-3.4-rc-3-bin.zip to /root/.gradle/wrapper/dists/gradle-3.4-rc-3-bin/a2znb0xv320gx7dt1jhkrpjyz
+Set executable permissions for: /root/.gradle/wrapper/dists/gradle-3.4-rc-3-bin/a2znb0xv320gx7dt1jhkrpjyz/gradle-3.4-rc-3/bin/gradle
+To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/3.4-rc-3/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+Download https://plugins.gradle.org/m2/com/gradle/build-scan-plugin/1.6/build-scan-plugin-1.6.pom
+Download https://plugins.gradle.org/m2/me/champeau/gradle/buildscan-recipes-plugin/0.1.7/buildscan-recipes-plugin-0.1.7.pom
+Download https://plugins.gradle.org/m2/com/puppycrawl/tools/checkstyle/7.5.1/checkstyle-7.5.1.pom
+Download https://plugins.gradle.org/m2/net/ltgt/gradle/gradle-errorprone-plugin/0.0.9/gradle-errorprone-plugin-0.0.9.pom
+Download https://plugins.gradle.org/m2/gradle/plugin/io/morethan/jmhreport/gradle-jmh-report/0.1.0/gradle-jmh-report-0.1.0.pom
+Download https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib/1.0.1-2/kotlin-stdlib-1.0.1-2.pom
+Download https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-project/1.0.1-2/kotlin-project-1.0.1-2.pom
+Download https://plugins.gradle.org/m2/com/beust/klaxon/0.24/klaxon-0.24.pom
+Download https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-runtime/1.0.1-2/kotlin-runtime-1.0.1-2.pom
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'caffeine'.
+> Could not resolve all dependencies for configuration ':classpath'.
+   > Could not find org.jetbrains.kotlinx:kotlinx.html.jvm:0.5.10.
+     Searched in the following locations:
+         https://plugins.gradle.org/m2/org/jetbrains/kotlinx/kotlinx.html.jvm/0.5.10/kotlinx.html.jvm-0.5.10.pom
+         https://plugins.gradle.org/m2/org/jetbrains/kotlinx/kotlinx.html.jvm/0.5.10/kotlinx.html.jvm-0.5.10.jar
+         https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx.html.jvm/0.5.10/kotlinx.html.jvm-0.5.10.pom
+         https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx.html.jvm/0.5.10/kotlinx.html.jvm-0.5.10.jar
+         https://jcenter.bintray.com/org/jetbrains/kotlinx/kotlinx.html.jvm/0.5.10/kotlinx.html.jvm-0.5.10.pom
+         https://jcenter.bintray.com/org/jetbrains/kotlinx/kotlinx.html.jvm/0.5.10/kotlinx.html.jvm-0.5.10.jar
+     Required by:
+         project : > gradle.plugin.io.morethan.jmhreport:gradle-jmh-report:0.1.0
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 23.036 secs

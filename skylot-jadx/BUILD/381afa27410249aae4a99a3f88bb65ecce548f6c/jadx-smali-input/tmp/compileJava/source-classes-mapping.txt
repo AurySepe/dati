@@ -1,0 +1,4 @@
+jadx/plugins/input/smali/SmaliInputPlugin.java
+ jadx.plugins.input.smali.SmaliInputPlugin
+jadx/plugins/input/smali/SmaliConvert.java
+ jadx.plugins.input.smali.SmaliConvert

@@ -1,0 +1,192 @@
+CLASSDATASHOULDBEPRIVATE	COMPLEXCLASS	FUNCTIONALDECOMPOSITION	GODCLASS	ID	NAME	PATTERNROLE	PATTERNTYPE	SPAGHETTICODE
+false	false	false	false	236	com.lmax.disruptor.translator.OneToOneTranslatorThroughputTest			false
+false	false	false	false	245	com.lmax.disruptor.immutable.SimpleEvent			false
+false	false	false	false	247	com.lmax.disruptor.immutable.SimplePerformanceTest			false
+false	false	false	false	244	com.lmax.disruptor.immutable.EventHolderHandler			false
+false	false	false	false	242	com.lmax.disruptor.immutable.EventAccessor			false
+false	false	false	false	240	com.lmax.disruptor.immutable.CustomPerformanceTest			false
+false	false	false	false	243	com.lmax.disruptor.immutable.EventHolder			false
+false	false	false	false	246	com.lmax.disruptor.immutable.SimpleEventHandler			false
+false	false	false	false	239	com.lmax.disruptor.immutable.Constants			false
+false	false	false	false	241	com.lmax.disruptor.immutable.CustomRingBuffer			false
+false	false	false	false	228	com.lmax.disruptor.AbstractPerfTestDisruptor			false
+false	false	false	false	229	com.lmax.disruptor.AbstractPerfTestQueue			false
+false	false	false	false	213	com.lmax.disruptor.SequencerTest			false
+false	false	false	false	28	com.lmax.disruptor.IgnoreExceptionHandlerTest			false
+false	false	false	true	30	com.lmax.disruptor.RingBufferTest			true
+false	false	false	false	164	com.lmax.disruptor.PhasedBackoffWaitStrategyTest			false
+false	false	false	false	217	com.lmax.disruptor.ShutdownOnFatalExceptionTest			false
+false	false	false	false	281	com.lmax.disruptor.LiteTimeoutBlockingWaitStrategyTest			false
+false	false	false	false	134	com.lmax.disruptor.AggregateEventHandlerTest			false
+false	false	false	false	258	com.lmax.disruptor.EventPollerTest			false
+false	false	false	false	288	com.lmax.disruptor.RingBufferWithAssertingStubTest			false
+false	false	false	false	168	com.lmax.disruptor.SleepingWaitStrategyTest			false
+false	false	false	false	170	com.lmax.disruptor.YieldingWaitStrategyTest			false
+false	false	false	false	32	com.lmax.disruptor.SequenceBarrierTest			false
+false	false	false	false	125	com.lmax.disruptor.SequenceGroupTest			false
+false	false	false	false	57	com.lmax.disruptor.SequenceReportingCallbackTest			false
+false	false	false	false	116	com.lmax.disruptor.EventPublisherTest			false
+false	false	false	false	206	com.lmax.disruptor.TimeoutBlockingWaitStrategyTest			false
+false	false	false	false	25	com.lmax.disruptor.BatchEventProcessorTest			false
+false	false	false	false	165	com.lmax.disruptor.BusySpinWaitStrategyTest			false
+false	false	false	false	285	com.lmax.disruptor.WorkerStressTest			false
+false	false	false	false	214	com.lmax.disruptor.DisruptorStressTest			false
+false	false	false	false	162	com.lmax.disruptor.FixedSequenceGroupTest			false
+false	false	false	false	218	com.lmax.disruptor.WorkerPoolTest			false
+false	false	false	false	290	com.lmax.disruptor.SingleProducerSequencerTest			false
+false	false	false	false	193	com.lmax.disruptor.MultiProducerSequencerTest			false
+false	false	false	false	91	com.lmax.disruptor.LifecycleAwareTest			false
+false	false	false	false	255	com.lmax.disruptor.RingBufferEventMatcher			false
+false	false	false	false	263	com.lmax.disruptor.BatchingTest			false
+false	false	false	false	27	com.lmax.disruptor.FatalExceptionHandlerTest			false
+false	false	false	false	54	com.lmax.disruptor.EventTranslatorTest			false
+false	false	false	false	267	com.lmax.disruptor.EventSink			false
+false	false	false	false	49	com.lmax.disruptor.WaitStrategy	strategy	Strategy	false
+false	false	false	false	209	com.lmax.disruptor.DataProvider	state	State	false
+false	false	false	false	127	com.lmax.disruptor.WorkProcessor	context	State	false
+false	false	false	false	90	com.lmax.disruptor.LifecycleAware			false
+false	false	false	false	150	com.lmax.disruptor.EventTranslatorTwoArg			false
+false	false	false	false	148	com.lmax.disruptor.EventTranslatorOneArg			false
+false	false	false	false	205	com.lmax.disruptor.TimeoutHandler	state	State	false
+false	false	false	false	207	com.lmax.disruptor.Cursored			false
+false	false	false	false	292	com.lmax.disruptor.Foo			false
+false	false	false	false	13	com.lmax.disruptor.FatalExceptionHandler			false
+false	false	false	false	140	com.lmax.disruptor.YieldingWaitStrategy			false
+false	false	false	false	22	com.lmax.disruptor.SequenceBarrier	state	State	false
+false	false	false	false	154	com.lmax.disruptor.PhasedBackoffWaitStrategy	decorator	Decorator	false
+false	false	false	false	135	com.lmax.disruptor.BlockingWaitStrategy			false
+false	false	false	false	291	com.lmax.disruptor.BatchStartAware	state	State	false
+false	false	false	false	268	com.lmax.disruptor.Sequenced			false
+false	false	false	false	153	com.lmax.disruptor.MultiProducerSequencer			false
+false	false	false	false	219	com.lmax.disruptor.EventReleaser			false
+false	false	false	false	212	com.lmax.disruptor.TimeoutException	singleton	Singleton	false
+false	false	false	false	11	com.lmax.disruptor.EventTranslator			false
+false	false	false	false	-1	com.lmax.disruptor.RingBufferPad			false
+false	false	false	false	44	com.lmax.disruptor.EventFactory			false
+false	false	false	false	149	com.lmax.disruptor.EventTranslatorThreeArg			false
+false	false	false	false	204	com.lmax.disruptor.TimeoutBlockingWaitStrategy			false
+false	false	false	false	3	com.lmax.disruptor.AlertException	singleton	Singleton	false
+false	false	false	false	280	com.lmax.disruptor.LiteTimeoutBlockingWaitStrategy			false
+false	false	false	false	208	com.lmax.disruptor.AbstractSequencer			false
+false	false	false	false	62	com.lmax.disruptor.SequenceReportingEventHandler			false
+false	false	false	false	151	com.lmax.disruptor.EventTranslatorVararg			false
+false	false	false	false	152	com.lmax.disruptor.FixedSequenceGroup			false
+false	false	false	false	14	com.lmax.disruptor.IgnoreExceptionHandler			false
+false	false	false	false	147	com.lmax.disruptor.InsufficientCapacityException	singleton	Singleton	false
+false	false	false	false	61	com.lmax.disruptor.EventProcessor	state	State	false
+false	false	false	false	256	com.lmax.disruptor.LiteBlockingWaitStrategy			false
+false	false	false	false	95	com.lmax.disruptor.BatchEventProcessor	context	State	false
+false	false	false	false	200	com.lmax.disruptor.SequenceGroups			false
+false	false	false	false	223	com.lmax.disruptor.EventReleaseAware			false
+false	false	false	false	266	com.lmax.disruptor.EventSequencer			false
+false	false	false	false	-1	com.lmax.disruptor.LhsPadding			false
+false	false	false	false	136	com.lmax.disruptor.BusySpinWaitStrategy			false
+false	false	false	false	43	com.lmax.disruptor.EventHandler	state	State	false
+false	false	false	false	124	com.lmax.disruptor.SequenceGroup			false
+false	false	false	false	257	com.lmax.disruptor.EventPoller	context	State	false
+false	false	false	false	139	com.lmax.disruptor.SleepingWaitStrategy			false
+false	false	false	false	9	com.lmax.disruptor.ExceptionHandler	state	State	false
+false	false	false	false	-1	com.lmax.disruptor.SingleProducerSequencerPad			false
+false	false	false	false	128	com.lmax.disruptor.WorkerPool	adaptee	(Object)Adapter	false
+false	false	false	false	121	com.lmax.disruptor.Sequencer	creator	Factory Method	false
+false	false	false	false	133	com.lmax.disruptor.AggregateEventHandler			false
+false	false	false	false	98	com.lmax.disruptor.ProcessingSequenceBarrier	context	Strategy	false
+false	false	false	false	126	com.lmax.disruptor.WorkHandler			false
+false	false	false	false	83	com.lmax.disruptor.NoOpEventProcessor			false
+false	false	false	false	75	com.lmax.disruptor.support.FunctionQueueProcessor			false
+false	false	false	false	114	com.lmax.disruptor.support.PerfTestUtil			false
+false	false	false	false	78	com.lmax.disruptor.support.FizzBuzzEvent			false
+false	false	false	false	74	com.lmax.disruptor.support.FunctionEventHandler			false
+false	false	false	false	199	com.lmax.disruptor.support.ValueAdditionWorkHandler			false
+false	false	false	false	252	com.lmax.disruptor.support.LongArrayPublisher			false
+false	false	false	false	227	com.lmax.disruptor.support.ValueBatchPublisher			false
+false	false	false	false	65	com.lmax.disruptor.support.ValueAdditionEventHandler			false
+false	false	false	false	278	com.lmax.disruptor.support.ValueAdditionBatchQueueProcessor			false
+false	false	false	false	222	com.lmax.disruptor.support.EventCountingAndReleasingWorkHandler			false
+false	false	false	false	79	com.lmax.disruptor.support.FizzBuzzEventHandler			false
+false	false	false	false	68	com.lmax.disruptor.support.ValueMutationQueueProcessor			false
+false	false	false	false	130	com.lmax.disruptor.support.EventCountingQueueProcessor			false
+false	false	false	false	131	com.lmax.disruptor.support.EventCountingWorkHandler			false
+false	false	false	false	70	com.lmax.disruptor.support.ValueQueuePublisher			false
+false	false	false	false	80	com.lmax.disruptor.support.FizzBuzzQueueProcessor			false
+false	false	false	false	69	com.lmax.disruptor.support.ValuePublisher			false
+false	false	false	false	67	com.lmax.disruptor.support.ValueMutationEventHandler			false
+false	false	false	false	251	com.lmax.disruptor.support.LongArrayEventHandler			false
+false	false	false	false	253	com.lmax.disruptor.support.MultiBufferBatchEventProcessor			false
+false	false	false	false	66	com.lmax.disruptor.support.ValueAdditionQueueProcessor			false
+false	false	false	false	73	com.lmax.disruptor.support.FunctionEvent			false
+false	false	false	false	59	com.lmax.disruptor.support.ValueEvent			false
+false	false	false	false	37	com.lmax.disruptor.support.StubEvent			false
+false	false	false	false	287	com.lmax.disruptor.support.DummyEventProcessor			false
+false	false	false	false	286	com.lmax.disruptor.support.DummyWaitStrategy			false
+false	false	false	false	55	com.lmax.disruptor.support.TestWaiter			false
+false	false	false	false	169	com.lmax.disruptor.support.WaitStrategyTestUtil			false
+false	false	false	false	289	com.lmax.disruptor.support.DummyEventHandler			false
+false	false	false	false	38	com.lmax.disruptor.support.TestEvent			false
+false	false	false	false	167	com.lmax.disruptor.support.SequenceUpdater			false
+false	false	false	false	166	com.lmax.disruptor.support.DummySequenceBarrier			false
+false	false	false	false	117	com.lmax.disruptor.support.LongEvent			false
+false	false	false	false	269	com.lmax.disruptor.primitive.LongRingBuffer			false
+false	false	false	false	211	com.lmax.disruptor.raw.OneToOneRawBatchThroughputTest			false
+false	false	false	false	210	com.lmax.disruptor.raw.OneToOneRawThroughputTest			false
+false	false	false	false	237	com.lmax.disruptor.offheap.OneToOneOffHeapThroughputTest			false
+false	false	false	false	238	com.lmax.disruptor.offheap.OneToOneOnHeapThroughputTest			false
+false	false	false	false	64	com.lmax.disruptor.sequenced.ThreeToOneSequencedThroughputTest			false
+false	false	false	false	77	com.lmax.disruptor.sequenced.OneToThreeDiamondSequencedThroughputTest			false
+false	false	false	false	224	com.lmax.disruptor.sequenced.PingPongSequencedLatencyTest			false
+false	false	false	false	58	com.lmax.disruptor.sequenced.OneToOneSequencedThroughputTest			false
+false	false	false	false	249	com.lmax.disruptor.sequenced.OneToOneSequencedBatchThroughputTest			false
+false	false	false	false	254	com.lmax.disruptor.sequenced.OneToOneSequencedLongArrayThroughputTest			false
+false	false	false	false	259	com.lmax.disruptor.sequenced.OneToOneSequencedPollerThroughputTest			false
+false	false	false	false	250	com.lmax.disruptor.sequenced.ThreeToThreeSequencedThroughputTest			false
+false	false	false	false	226	com.lmax.disruptor.sequenced.ThreeToOneSequencedBatchThroughputTest			false
+false	false	false	false	71	com.lmax.disruptor.sequenced.OneToThreePipelineSequencedThroughputTest			false
+false	false	false	false	60	com.lmax.disruptor.sequenced.OneToThreeSequencedThroughputTest			false
+false	false	false	false	129	com.lmax.disruptor.workhandler.OneToThreeWorkerPoolThroughputTest			false
+false	false	false	false	221	com.lmax.disruptor.workhandler.OneToThreeReleasingWorkerPoolThroughputTest			false
+false	false	false	false	198	com.lmax.disruptor.workhandler.TwoToTwoWorkProcessorThroughputTest			false
+false	false	false	false	277	com.lmax.disruptor.queue.OneToOneQueueBatchedThroughputTest			false
+false	false	false	false	231	com.lmax.disruptor.queue.OneToThreeDiamondQueueThroughputTest			false
+false	false	false	false	235	com.lmax.disruptor.queue.ThreeToOneQueueThroughputTest			false
+false	false	false	false	232	com.lmax.disruptor.queue.OneToThreePipelineQueueThroughputTest			false
+false	false	false	false	233	com.lmax.disruptor.queue.OneToThreeQueueThroughputTest			false
+false	false	false	false	230	com.lmax.disruptor.queue.OneToOneQueueThroughputTest			false
+false	false	false	false	234	com.lmax.disruptor.queue.PingPongQueueLatencyTest			false
+false	false	false	false	271	com.lmax.disruptor.example.PullWithPoller			false
+false	false	false	false	264	com.lmax.disruptor.example.NamedEventHandler			false
+false	false	false	false	293	com.lmax.disruptor.example.Pipeliner			false
+false	false	false	false	283	com.lmax.disruptor.example.SequentialThreeConsumers			false
+false	false	false	false	272	com.lmax.disruptor.example.MultiProducerWithTranslator			false
+false	false	false	false	282	com.lmax.disruptor.example.KeyedBatching			false
+false	false	false	false	270	com.lmax.disruptor.example.ThreeToOneDisruptor			false
+false	false	false	false	279	com.lmax.disruptor.example.HandleExceptionOnTranslate			false
+false	false	false	false	274	com.lmax.disruptor.example.DynamiclyAddHandler			false
+false	false	false	false	284	com.lmax.disruptor.example.WaitForShutdown			false
+false	false	false	false	273	com.lmax.disruptor.example.PullWithBatchedPoller			false
+false	false	false	false	179	com.lmax.disruptor.dsl.ConsumerRepositoryTest			false
+false	false	false	false	178	com.lmax.disruptor.dsl.DisruptorTest			false
+false	false	false	false	202	com.lmax.disruptor.dsl.WorkerPoolInfo	adapter	(Object)Adapter	false
+false	false	false	false	275	com.lmax.disruptor.dsl.BasicExecutor			false
+false	false	false	false	176	com.lmax.disruptor.dsl.ExceptionHandlerSetting			false
+false	false	false	false	201	com.lmax.disruptor.dsl.ConsumerRepository			false
+false	false	false	false	173	com.lmax.disruptor.dsl.EventHandlerGroup			false
+false	false	false	false	262	com.lmax.disruptor.dsl.EventProcessorFactory			false
+false	false	false	false	99	com.lmax.disruptor.dsl.ConsumerInfo			false
+false	false	false	false	174	com.lmax.disruptor.dsl.EventProcessorInfo	context	State	false
+false	false	false	false	172	com.lmax.disruptor.dsl.Disruptor	context	State	false
+false	false	false	false	276	com.lmax.disruptor.dsl.ExceptionHandlerWrapper	decorator	Decorator	false
+false	false	false	false	180	com.lmax.disruptor.dsl.stubs.DelayedEventHandler			false
+false	false	false	false	181	com.lmax.disruptor.dsl.stubs.EventHandlerStub			false
+false	false	false	false	185	com.lmax.disruptor.dsl.stubs.StubExceptionHandler			false
+false	false	false	false	186	com.lmax.disruptor.dsl.stubs.StubThreadFactory			false
+false	false	false	false	184	com.lmax.disruptor.dsl.stubs.SleepingEventHandler			false
+false	false	false	false	203	com.lmax.disruptor.dsl.stubs.TestWorkHandler			false
+false	false	false	false	187	com.lmax.disruptor.dsl.stubs.StubPublisher			false
+false	false	false	false	183	com.lmax.disruptor.dsl.stubs.ExceptionThrowingEventHandler			false
+false	false	false	false	182	com.lmax.disruptor.dsl.stubs.EvilEqualsEventHandler			false
+false	false	false	false	33	com.lmax.disruptor.util.UtilTest			false
+false	false	false	false	118	com.lmax.disruptor.util.PaddedLong			false
+false	false	false	false	119	com.lmax.disruptor.util.MutableLong			false
+false	false	false	false	23	com.lmax.disruptor.util.Util			false
+false	false	false	false	86	com.lmax.disruptor.collections.HistogramTest			false
+false	false	false	false	85	com.lmax.disruptor.collections.Histogram			false

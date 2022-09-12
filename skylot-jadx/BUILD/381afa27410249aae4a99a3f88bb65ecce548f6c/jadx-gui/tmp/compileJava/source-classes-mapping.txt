@@ -1,0 +1,252 @@
+jadx/gui/ui/codearea/ClassCodeContentPanel.java
+ jadx.gui.ui.codearea.ClassCodeContentPanel
+jadx/gui/ui/HtmlPanel.java
+ jadx.gui.ui.HtmlPanel
+ jadx.gui.ui.HtmlPanel$JHtmlPane
+jadx/gui/utils/JNodeCache.java
+ jadx.gui.utils.JNodeCache
+jadx/gui/update/VersionComparator.java
+ jadx.gui.update.VersionComparator
+jadx/gui/utils/CodeLinesInfo.java
+ jadx.gui.utils.CodeLinesInfo
+jadx/gui/ui/codearea/GoToDeclarationAction.java
+ jadx.gui.ui.codearea.GoToDeclarationAction
+jadx/gui/utils/CodeUsageInfo.java
+ jadx.gui.utils.CodeUsageInfo
+ jadx.gui.utils.CodeUsageInfo$UsageInfo
+jadx/gui/ui/codearea/LineNumbers.java
+ jadx.gui.ui.codearea.LineNumbers
+ jadx.gui.ui.codearea.LineNumbers$1
+jadx/gui/utils/search/SearchIndex.java
+ jadx.gui.utils.search.SearchIndex
+jadx/gui/ui/codearea/CodePanel.java
+ jadx.gui.ui.codearea.CodePanel
+ jadx.gui.ui.codearea.CodePanel$1
+jadx/gui/ui/ContentPanel.java
+ jadx.gui.ui.ContentPanel
+jadx/gui/utils/SystemInfo.java
+ jadx.gui.utils.SystemInfo
+jadx/gui/utils/search/CodeIndex.java
+ jadx.gui.utils.search.CodeIndex
+jadx/gui/utils/TextStandardActions.java
+ jadx.gui.utils.TextStandardActions
+ jadx.gui.utils.TextStandardActions$1
+ jadx.gui.utils.TextStandardActions$2
+ jadx.gui.utils.TextStandardActions$3
+ jadx.gui.utils.TextStandardActions$4
+ jadx.gui.utils.TextStandardActions$5
+ jadx.gui.utils.TextStandardActions$6
+ jadx.gui.utils.TextStandardActions$7
+ jadx.gui.utils.TextStandardActions$8
+jadx/gui/utils/RectangleTypeAdapter.java
+ jadx.gui.utils.RectangleTypeAdapter
+ jadx.gui.utils.RectangleTypeAdapter$1
+jadx/gui/ui/codearea/AbstractCodeArea.java
+ jadx.gui.ui.codearea.AbstractCodeArea
+ jadx.gui.ui.codearea.AbstractCodeArea$1
+jadx/gui/ui/codearea/MouseHoverHighlighter.java
+ jadx.gui.ui.codearea.MouseHoverHighlighter
+jadx/gui/utils/Link.java
+ jadx.gui.utils.Link
+jadx/gui/utils/CacheObject.java
+ jadx.gui.utils.CacheObject
+jadx/gui/ui/codearea/JNodeMenuAction.java
+ jadx.gui.ui.codearea.JNodeMenuAction
+jadx/gui/utils/JumpManager.java
+ jadx.gui.utils.JumpManager
+jadx/gui/utils/FontUtils.java
+ jadx.gui.utils.FontUtils
+jadx/gui/JadxGUI.java
+ jadx.gui.JadxGUI
+jadx/gui/utils/JumpPosition.java
+ jadx.gui.utils.JumpPosition
+jadx/gui/treemodel/JSources.java
+ jadx.gui.treemodel.JSources
+jadx/gui/ui/RenameDialog.java
+ jadx.gui.ui.RenameDialog
+jadx/gui/ui/MainDropTarget.java
+ jadx.gui.ui.MainDropTarget
+jadx/gui/treemodel/JMethod.java
+ jadx.gui.treemodel.JMethod
+jadx/gui/utils/OverlayIcon.java
+ jadx.gui.utils.OverlayIcon
+jadx/gui/ui/CommonSearchDialog.java
+ jadx.gui.ui.CommonSearchDialog
+ jadx.gui.ui.CommonSearchDialog$1
+ jadx.gui.ui.CommonSearchDialog$2
+ jadx.gui.ui.CommonSearchDialog$3
+ jadx.gui.ui.CommonSearchDialog$LoadTask
+ jadx.gui.ui.CommonSearchDialog$ResultsModel
+ jadx.gui.ui.CommonSearchDialog$ResultsTable
+ jadx.gui.ui.CommonSearchDialog$ResultsTableCellRenderer
+jadx/gui/jobs/BackgroundExecutor.java
+ jadx.gui.jobs.BackgroundExecutor
+ jadx.gui.jobs.BackgroundExecutor$SimpleTask
+ jadx.gui.jobs.BackgroundExecutor$TaskWorker
+jadx/gui/treemodel/JLoadableNode.java
+ jadx.gui.treemodel.JLoadableNode
+jadx/gui/treemodel/JField.java
+ jadx.gui.treemodel.JField
+jadx/gui/ui/TabComponent.java
+ jadx.gui.ui.TabComponent
+ jadx.gui.ui.TabComponent$1
+jadx/gui/jobs/IBackgroundTask.java
+ jadx.gui.jobs.IBackgroundTask
+jadx/gui/ui/AboutDialog.java
+ jadx.gui.ui.AboutDialog
+jadx/gui/ui/MainWindow.java
+ jadx.gui.ui.MainWindow
+ jadx.gui.ui.MainWindow$1
+ jadx.gui.ui.MainWindow$10
+ jadx.gui.ui.MainWindow$11
+ jadx.gui.ui.MainWindow$12
+ jadx.gui.ui.MainWindow$13
+ jadx.gui.ui.MainWindow$14
+ jadx.gui.ui.MainWindow$15
+ jadx.gui.ui.MainWindow$16
+ jadx.gui.ui.MainWindow$17
+ jadx.gui.ui.MainWindow$18
+ jadx.gui.ui.MainWindow$19
+ jadx.gui.ui.MainWindow$2
+ jadx.gui.ui.MainWindow$20
+ jadx.gui.ui.MainWindow$21
+ jadx.gui.ui.MainWindow$22
+ jadx.gui.ui.MainWindow$23
+ jadx.gui.ui.MainWindow$24
+ jadx.gui.ui.MainWindow$25
+ jadx.gui.ui.MainWindow$3
+ jadx.gui.ui.MainWindow$3$1
+ jadx.gui.ui.MainWindow$4
+ jadx.gui.ui.MainWindow$5
+ jadx.gui.ui.MainWindow$6
+ jadx.gui.ui.MainWindow$7
+ jadx.gui.ui.MainWindow$8
+ jadx.gui.ui.MainWindow$9
+ jadx.gui.ui.MainWindow$RecentProjectsMenuListener
+jadx/gui/ui/codearea/RenameAction.java
+ jadx.gui.ui.codearea.RenameAction
+jadx/gui/treemodel/CodeNode.java
+ jadx.gui.treemodel.CodeNode
+jadx/gui/ui/ImagePanel.java
+ jadx.gui.ui.ImagePanel
+jadx/gui/ui/SearchDialog.java
+ jadx.gui.ui.SearchDialog
+ jadx.gui.ui.SearchDialog$1
+ jadx.gui.ui.SearchDialog$2
+ jadx.gui.ui.SearchDialog$3
+ jadx.gui.ui.SearchDialog$SearchEventEmitter
+ jadx.gui.ui.SearchDialog$SearchOptions
+jadx/gui/settings/JadxSettingsWindow.java
+ jadx.gui.settings.JadxSettingsWindow
+ jadx.gui.settings.JadxSettingsWindow$1
+ jadx.gui.settings.JadxSettingsWindow$2
+ jadx.gui.settings.JadxSettingsWindow$SettingsGroup
+jadx/gui/utils/FileUtils.java
+ jadx.gui.utils.FileUtils
+jadx/gui/ui/codearea/CodeContentPanel.java
+ jadx.gui.ui.codearea.CodeContentPanel
+jadx/gui/treemodel/JClass.java
+ jadx.gui.treemodel.JClass
+jadx/gui/utils/search/TextSearchIndex.java
+ jadx.gui.utils.search.TextSearchIndex
+jadx/gui/ui/codearea/CodeLinkGenerator.java
+ jadx.gui.ui.codearea.CodeLinkGenerator
+ jadx.gui.ui.codearea.CodeLinkGenerator$1
+jadx/gui/treemodel/JResource.java
+ jadx.gui.treemodel.JResource
+ jadx.gui.treemodel.JResource$1
+ jadx.gui.treemodel.JResource$JResType
+jadx/gui/treemodel/ApkSignature.java
+ jadx.gui.treemodel.ApkSignature
+jadx/gui/jobs/IndexJob.java
+ jadx.gui.jobs.IndexJob
+jadx/gui/update/JadxUpdate.java
+ jadx.gui.update.JadxUpdate
+ jadx.gui.update.JadxUpdate$1
+ jadx.gui.update.JadxUpdate$IUpdateCallback
+jadx/gui/update/data/Asset.java
+ jadx.gui.update.data.Asset
+jadx/gui/utils/PathTypeAdapter.java
+ jadx.gui.utils.PathTypeAdapter
+ jadx.gui.utils.PathTypeAdapter$1
+jadx/gui/ui/LogViewer.java
+ jadx.gui.ui.LogViewer
+ jadx.gui.ui.LogViewer$1
+jadx/gui/ui/codearea/FindUsageAction.java
+ jadx.gui.ui.codearea.FindUsageAction
+jadx/gui/utils/logs/LogCollector.java
+ jadx.gui.utils.logs.LogCollector
+jadx/gui/ui/codearea/AbstractCodeContentPanel.java
+ jadx.gui.ui.codearea.AbstractCodeContentPanel
+jadx/gui/jobs/BackgroundJob.java
+ jadx.gui.jobs.BackgroundJob
+ jadx.gui.jobs.BackgroundJob$ShutdownTask
+ jadx.gui.jobs.BackgroundJob$ShutdownTask$1
+jadx/gui/utils/logs/ILogListener.java
+ jadx.gui.utils.logs.ILogListener
+jadx/gui/jobs/DecompileJob.java
+ jadx.gui.jobs.DecompileJob
+jadx/gui/ui/codearea/SmaliArea.java
+ jadx.gui.ui.codearea.SmaliArea
+jadx/gui/ui/TabbedPane.java
+ jadx.gui.ui.TabbedPane
+jadx/gui/ui/HeapUsageBar.java
+ jadx.gui.ui.HeapUsageBar
+ jadx.gui.ui.HeapUsageBar$1
+ jadx.gui.ui.HeapUsageBar$UpdateData
+jadx/gui/ui/ProgressPanel.java
+ jadx.gui.ui.ProgressPanel
+jadx/gui/utils/LangLocale.java
+ jadx.gui.utils.LangLocale
+jadx/gui/ui/codearea/CodeArea.java
+ jadx.gui.ui.codearea.CodeArea
+ jadx.gui.ui.codearea.CodeArea$1
+jadx/gui/treemodel/JRoot.java
+ jadx.gui.treemodel.JRoot
+jadx/gui/ui/codearea/SearchBar.java
+ jadx.gui.ui.codearea.SearchBar
+ jadx.gui.ui.codearea.SearchBar$1
+jadx/gui/utils/search/SimpleIndex.java
+ jadx.gui.utils.search.SimpleIndex
+jadx/gui/settings/JadxSettings.java
+ jadx.gui.settings.JadxSettings
+jadx/gui/utils/CertificateManager.java
+ jadx.gui.utils.CertificateManager
+jadx/gui/utils/UiUtils.java
+ jadx.gui.utils.UiUtils
+jadx/gui/treemodel/JPackage.java
+ jadx.gui.treemodel.JPackage
+jadx/gui/settings/WindowLocation.java
+ jadx.gui.settings.WindowLocation
+jadx/gui/treemodel/TextNode.java
+ jadx.gui.treemodel.TextNode
+jadx/gui/utils/search/StringRef.java
+ jadx.gui.utils.search.StringRef
+jadx/gui/settings/JadxSettingsAdapter.java
+ jadx.gui.settings.JadxSettingsAdapter
+ jadx.gui.settings.JadxSettingsAdapter$1
+ jadx.gui.settings.JadxSettingsAdapter$GsonExclude
+jadx/gui/treemodel/JNode.java
+ jadx.gui.treemodel.JNode
+jadx/gui/utils/logs/LogEvent.java
+ jadx.gui.utils.logs.LogEvent
+jadx/gui/JadxWrapper.java
+ jadx.gui.JadxWrapper
+jadx/gui/ui/CertificatePanel.java
+ jadx.gui.ui.CertificatePanel
+jadx/gui/utils/NLS.java
+ jadx.gui.utils.NLS
+jadx/gui/update/data/Release.java
+ jadx.gui.update.data.Release
+jadx/gui/ui/JPackagePopupMenu.java
+ jadx.gui.ui.JPackagePopupMenu
+jadx/gui/settings/JadxProject.java
+ jadx.gui.settings.JadxProject
+jadx/gui/ui/codearea/JadxTokenMaker.java
+ jadx.gui.ui.codearea.JadxTokenMaker
+jadx/gui/ui/UsageDialog.java
+ jadx.gui.ui.UsageDialog
+jadx/gui/ui/codearea/EditorTheme.java
+ jadx.gui.ui.codearea.EditorTheme
+jadx/gui/jobs/BackgroundWorker.java
+ jadx.gui.jobs.BackgroundWorker

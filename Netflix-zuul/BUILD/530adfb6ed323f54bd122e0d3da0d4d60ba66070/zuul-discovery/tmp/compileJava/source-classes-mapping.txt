@@ -1,0 +1,14 @@
+com/netflix/zuul/discovery/DynamicServerResolver.java
+ com.netflix.zuul.discovery.DynamicServerResolver
+com/netflix/zuul/discovery/SimpleMetaInfo.java
+ com.netflix.zuul.discovery.SimpleMetaInfo
+com/netflix/zuul/discovery/NonDiscoveryServer.java
+ com.netflix.zuul.discovery.NonDiscoveryServer
+com/netflix/zuul/discovery/ResolverResult.java
+ com.netflix.zuul.discovery.ResolverResult
+com/netflix/zuul/resolver/ResolverListener.java
+ com.netflix.zuul.resolver.ResolverListener
+com/netflix/zuul/discovery/DiscoveryResult.java
+ com.netflix.zuul.discovery.DiscoveryResult
+com/netflix/zuul/resolver/Resolver.java
+ com.netflix.zuul.resolver.Resolver

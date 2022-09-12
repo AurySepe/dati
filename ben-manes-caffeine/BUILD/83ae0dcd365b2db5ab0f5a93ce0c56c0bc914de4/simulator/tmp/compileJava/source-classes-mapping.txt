@@ -1,0 +1,406 @@
+com/github/benmanes/caffeine/cache/simulator/parser/TraceReader.java
+ com.github.benmanes.caffeine.cache.simulator.parser.TraceReader
+ com.github.benmanes.caffeine.cache.simulator.parser.TraceReader$KeyOnlyTraceReader
+com/github/benmanes/caffeine/cache/simulator/membership/bloom/FastFilter.java
+ com.github.benmanes.caffeine.cache.simulator.membership.bloom.FastFilter
+ com.github.benmanes.caffeine.cache.simulator.membership.bloom.FastFilter$FastFilterSettings
+com/github/benmanes/caffeine/cache/simulator/admission/tinycache/TinyCache.java
+ com.github.benmanes.caffeine.cache.simulator.admission.tinycache.TinyCache
+com/github/benmanes/caffeine/cache/simulator/admission/countmin4/PeriodicResetCountMin4.java
+ com.github.benmanes.caffeine.cache.simulator.admission.countmin4.PeriodicResetCountMin4
+com/github/benmanes/caffeine/cache/simulator/report/ReportFormat.java
+ com.github.benmanes.caffeine.cache.simulator.report.ReportFormat
+com/github/benmanes/caffeine/cache/simulator/report/Metrics_Builder.java
+ com.github.benmanes.caffeine.cache.simulator.report.Metrics_Builder
+com/github/benmanes/caffeine/cache/simulator/policy/irr/ClockProPlusPolicy.java
+ com.github.benmanes.caffeine.cache.simulator.policy.irr.ClockProPlusPolicy
+ com.github.benmanes.caffeine.cache.simulator.policy.irr.ClockProPlusPolicy$ClockProPlusSettings
+ com.github.benmanes.caffeine.cache.simulator.policy.irr.ClockProPlusPolicy$Node
+ com.github.benmanes.caffeine.cache.simulator.policy.irr.ClockProPlusPolicy$Status
+com/github/benmanes/caffeine/cache/simulator/admission/countmin4/IncrementalResetCountMin4.java
+ com.github.benmanes.caffeine.cache.simulator.admission.countmin4.IncrementalResetCountMin4
+com/github/benmanes/caffeine/cache/simulator/Simulator.java
+ com.github.benmanes.caffeine.cache.simulator.Simulator
+ com.github.benmanes.caffeine.cache.simulator.Simulator$Message
+com/github/benmanes/caffeine/cache/simulator/admission/table/RandomRemovalFrequencyTable.java
+ com.github.benmanes.caffeine.cache.simulator.admission.table.RandomRemovalFrequencyTable
+com/github/benmanes/caffeine/cache/simulator/parser/Rewriter.java
+ com.github.benmanes.caffeine.cache.simulator.parser.Rewriter
+com/github/benmanes/caffeine/cache/simulator/policy/irr/LirsPolicy.java
+ com.github.benmanes.caffeine.cache.simulator.policy.irr.LirsPolicy
+ com.github.benmanes.caffeine.cache.simulator.policy.irr.LirsPolicy$LirsSettings
+ com.github.benmanes.caffeine.cache.simulator.policy.irr.LirsPolicy$Node
+ com.github.benmanes.caffeine.cache.simulator.policy.irr.LirsPolicy$StackType
+ com.github.benmanes.caffeine.cache.simulator.policy.irr.LirsPolicy$Status
+com/github/benmanes/caffeine/cache/simulator/policy/sketch/climbing/inference/IndicatorClimber.java
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.inference.IndicatorClimber
+com/github/benmanes/caffeine/cache/simulator/policy/sketch/climbing/AbstractClimber.java
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.AbstractClimber
+com/github/benmanes/caffeine/cache/simulator/parser/snia/cambridge/CambridgeTraceReader.java
+ com.github.benmanes.caffeine.cache.simulator.parser.snia.cambridge.CambridgeTraceReader
+com/github/benmanes/caffeine/cache/simulator/policy/sketch/tinycache/TinyCacheWithGhostCachePolicy.java
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.tinycache.TinyCacheWithGhostCachePolicy
+com/github/benmanes/caffeine/cache/simulator/parser/climb/ClimbTraceWriter.java
+ com.github.benmanes.caffeine.cache.simulator.parser.climb.ClimbTraceWriter
+com/github/benmanes/caffeine/cache/simulator/policy/Registry.java
+ com.github.benmanes.caffeine.cache.simulator.policy.Registry
+ com.github.benmanes.caffeine.cache.simulator.policy.Registry$Factory
+com/github/benmanes/caffeine/cache/simulator/policy/sketch/segment/FullySegmentedWindowTinyLfuPolicy.java
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.FullySegmentedWindowTinyLfuPolicy
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.FullySegmentedWindowTinyLfuPolicy$FullySegmentedWindowTinyLfuSettings
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.FullySegmentedWindowTinyLfuPolicy$Node
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.FullySegmentedWindowTinyLfuPolicy$Status
+com/github/benmanes/caffeine/cache/simulator/admission/tinycache/TinyCacheSketch.java
+ com.github.benmanes.caffeine.cache.simulator.admission.tinycache.TinyCacheSketch
+com/github/benmanes/caffeine/cache/simulator/policy/sketch/tinycache/TinyCachePolicy.java
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.tinycache.TinyCachePolicy
+com/github/benmanes/caffeine/cache/simulator/parser/BinaryTraceReader.java
+ com.github.benmanes.caffeine.cache.simulator.parser.BinaryTraceReader
+ com.github.benmanes.caffeine.cache.simulator.parser.BinaryTraceReader$TraceIterator
+com/github/benmanes/caffeine/cache/simulator/policy/product/ElasticSearchPolicy.java
+ com.github.benmanes.caffeine.cache.simulator.policy.product.ElasticSearchPolicy
+com/github/benmanes/caffeine/cache/simulator/policy/sketch/segment/RandomWindowTinyLfuPolicy.java
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.RandomWindowTinyLfuPolicy
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.RandomWindowTinyLfuPolicy$Node
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.RandomWindowTinyLfuPolicy$RandomWindowTinyLfuSettings
+com/github/benmanes/caffeine/cache/simulator/policy/sketch/climbing/gradient/Stochastic.java
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.gradient.Stochastic
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.gradient.Stochastic$1
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.gradient.Stochastic$Acceleration
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.gradient.Stochastic$StochasticSettings
+com/github/benmanes/caffeine/cache/simulator/admission/countmin64/CountMin64.java
+ com.github.benmanes.caffeine.cache.simulator.admission.countmin64.CountMin64
+com/github/benmanes/caffeine/cache/simulator/parser/scarab/ScarabTraceReader.java
+ com.github.benmanes.caffeine.cache.simulator.parser.scarab.ScarabTraceReader
+com/github/benmanes/caffeine/cache/simulator/parser/lrb/LrbTraceReader.java
+ com.github.benmanes.caffeine.cache.simulator.parser.lrb.LrbTraceReader
+com/github/benmanes/caffeine/cache/simulator/membership/bloom/GuavaBloomFilter.java
+ com.github.benmanes.caffeine.cache.simulator.membership.bloom.GuavaBloomFilter
+com/github/benmanes/caffeine/cache/simulator/policy/product/Cache2kPolicy.java
+ com.github.benmanes.caffeine.cache.simulator.policy.product.Cache2kPolicy
+com/github/benmanes/caffeine/cache/simulator/admission/tinycache/TinyCacheWithGhostCache.java
+ com.github.benmanes.caffeine.cache.simulator.admission.tinycache.TinyCacheWithGhostCache
+com/github/benmanes/caffeine/cache/simulator/admission/Admission.java
+ com.github.benmanes.caffeine.cache.simulator.admission.Admission
+com/github/benmanes/caffeine/cache/simulator/report/AutoValue_Metrics.java
+ com.github.benmanes.caffeine.cache.simulator.report.AutoValue_Metrics
+com/github/benmanes/caffeine/cache/simulator/admission/tinycache/TinySetIndexing.java
+ com.github.benmanes.caffeine.cache.simulator.admission.tinycache.TinySetIndexing
+com/github/benmanes/caffeine/cache/simulator/policy/PolicyStats_Metric_Builder.java
+ com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats_Metric_Builder
+com/github/benmanes/caffeine/cache/simulator/membership/FilterType.java
+ com.github.benmanes.caffeine.cache.simulator.membership.FilterType
+com/github/benmanes/caffeine/cache/simulator/parser/AbstractTraceReader.java
+ com.github.benmanes.caffeine.cache.simulator.parser.AbstractTraceReader
+ com.github.benmanes.caffeine.cache.simulator.parser.AbstractTraceReader$1
+com/github/benmanes/caffeine/cache/simulator/policy/sketch/climbing/gradient/Nadam.java
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.gradient.Nadam
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.gradient.Nadam$NadamSettings
+com/github/benmanes/caffeine/cache/simulator/admission/perfect/PerfectFrequency.java
+ com.github.benmanes.caffeine.cache.simulator.admission.perfect.PerfectFrequency
+com/github/benmanes/caffeine/cache/simulator/parser/lirs/LirsTraceReader.java
+ com.github.benmanes.caffeine.cache.simulator.parser.lirs.LirsTraceReader
+com/github/benmanes/caffeine/cache/simulator/report/Reporter.java
+ com.github.benmanes.caffeine.cache.simulator.report.Reporter
+com/github/benmanes/caffeine/cache/simulator/parser/climb/ClimbTraceReader.java
+ com.github.benmanes.caffeine.cache.simulator.parser.climb.ClimbTraceReader
+ com.github.benmanes.caffeine.cache.simulator.parser.climb.ClimbTraceReader$TraceIterator
+com/github/benmanes/caffeine/cache/simulator/admission/tinycache/HashFunctionParser.java
+ com.github.benmanes.caffeine.cache.simulator.admission.tinycache.HashFunctionParser
+com/github/benmanes/caffeine/cache/simulator/policy/sketch/climbing/sim/MiniSimClimber.java
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.sim.MiniSimClimber
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.sim.MiniSimClimber$MiniSimSettings
+com/github/benmanes/caffeine/cache/simulator/parser/wikipedia/WikipediaTraceReader.java
+ com.github.benmanes.caffeine.cache.simulator.parser.wikipedia.WikipediaTraceReader
+com/github/benmanes/caffeine/cache/simulator/policy/sketch/climbing/gradient/AmsGrad.java
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.gradient.AmsGrad
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.gradient.AmsGrad$AmsGradSettings
+com/github/benmanes/caffeine/cache/simulator/policy/linked/MultiQueuePolicy.java
+ com.github.benmanes.caffeine.cache.simulator.policy.linked.MultiQueuePolicy
+ com.github.benmanes.caffeine.cache.simulator.policy.linked.MultiQueuePolicy$MultiQueueSettings
+ com.github.benmanes.caffeine.cache.simulator.policy.linked.MultiQueuePolicy$Node
+com/github/benmanes/caffeine/cache/simulator/policy/linked/LinkedPolicy.java
+ com.github.benmanes.caffeine.cache.simulator.policy.linked.LinkedPolicy
+ com.github.benmanes.caffeine.cache.simulator.policy.linked.LinkedPolicy$1
+ com.github.benmanes.caffeine.cache.simulator.policy.linked.LinkedPolicy$EvictionPolicy
+ com.github.benmanes.caffeine.cache.simulator.policy.linked.LinkedPolicy$EvictionPolicy$1
+ com.github.benmanes.caffeine.cache.simulator.policy.linked.LinkedPolicy$EvictionPolicy$2
+ com.github.benmanes.caffeine.cache.simulator.policy.linked.LinkedPolicy$EvictionPolicy$3
+ com.github.benmanes.caffeine.cache.simulator.policy.linked.LinkedPolicy$EvictionPolicy$4
+ com.github.benmanes.caffeine.cache.simulator.policy.linked.LinkedPolicy$Node
+com/github/benmanes/caffeine/cache/simulator/membership/Membership.java
+ com.github.benmanes.caffeine.cache.simulator.membership.DisabledMembership
+ com.github.benmanes.caffeine.cache.simulator.membership.Membership
+com/github/benmanes/caffeine/cache/simulator/policy/product/GuavaPolicy.java
+ com.github.benmanes.caffeine.cache.simulator.policy.product.GuavaPolicy
+com/github/benmanes/caffeine/cache/simulator/policy/PolicyActor.java
+ com.github.benmanes.caffeine.cache.simulator.policy.PolicyActor
+com/github/benmanes/caffeine/cache/simulator/policy/sampled/SampledPolicy.java
+ com.github.benmanes.caffeine.cache.simulator.policy.sampled.SampledPolicy
+ com.github.benmanes.caffeine.cache.simulator.policy.sampled.SampledPolicy$1
+ com.github.benmanes.caffeine.cache.simulator.policy.sampled.SampledPolicy$EvictionPolicy
+ com.github.benmanes.caffeine.cache.simulator.policy.sampled.SampledPolicy$EvictionPolicy$1
+ com.github.benmanes.caffeine.cache.simulator.policy.sampled.SampledPolicy$EvictionPolicy$2
+ com.github.benmanes.caffeine.cache.simulator.policy.sampled.SampledPolicy$EvictionPolicy$3
+ com.github.benmanes.caffeine.cache.simulator.policy.sampled.SampledPolicy$EvictionPolicy$4
+ com.github.benmanes.caffeine.cache.simulator.policy.sampled.SampledPolicy$EvictionPolicy$5
+ com.github.benmanes.caffeine.cache.simulator.policy.sampled.SampledPolicy$EvictionPolicy$6
+ com.github.benmanes.caffeine.cache.simulator.policy.sampled.SampledPolicy$EvictionPolicy$7
+ com.github.benmanes.caffeine.cache.simulator.policy.sampled.SampledPolicy$Node
+ com.github.benmanes.caffeine.cache.simulator.policy.sampled.SampledPolicy$Sample
+ com.github.benmanes.caffeine.cache.simulator.policy.sampled.SampledPolicy$Sample$1
+ com.github.benmanes.caffeine.cache.simulator.policy.sampled.SampledPolicy$Sample$2
+ com.github.benmanes.caffeine.cache.simulator.policy.sampled.SampledPolicy$Sample$3
+ com.github.benmanes.caffeine.cache.simulator.policy.sampled.SampledPolicy$SampledSettings
+com/github/benmanes/caffeine/cache/simulator/parser/TextTraceReader.java
+ com.github.benmanes.caffeine.cache.simulator.parser.TextTraceReader
+com/github/benmanes/caffeine/cache/simulator/policy/sketch/segment/S4WindowTinyLfuPolicy.java
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.S4WindowTinyLfuPolicy
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.S4WindowTinyLfuPolicy$Node
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.S4WindowTinyLfuPolicy$S4WindowTinyLfuSettings
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.S4WindowTinyLfuPolicy$Status
+com/github/benmanes/caffeine/cache/simulator/parser/cache2k/Cache2kTraceReader.java
+ com.github.benmanes.caffeine.cache.simulator.parser.cache2k.Cache2kTraceReader
+com/github/benmanes/caffeine/cache/simulator/policy/product/ExpiringMapPolicy.java
+ com.github.benmanes.caffeine.cache.simulator.policy.product.ExpiringMapPolicy
+ com.github.benmanes.caffeine.cache.simulator.policy.product.ExpiringMapPolicy$ExpiringMapSettings
+com/github/benmanes/caffeine/cache/simulator/parser/kaggle/OutbrainTraceReader.java
+ com.github.benmanes.caffeine.cache.simulator.parser.kaggle.OutbrainTraceReader
+com/github/benmanes/caffeine/cache/simulator/admission/Frequency.java
+ com.github.benmanes.caffeine.cache.simulator.admission.Frequency
+com/github/benmanes/caffeine/cache/simulator/policy/irr/ClockProPolicy.java
+ com.github.benmanes.caffeine.cache.simulator.policy.irr.ClockProPolicy
+ com.github.benmanes.caffeine.cache.simulator.policy.irr.ClockProPolicy$ClockProSettings
+ com.github.benmanes.caffeine.cache.simulator.policy.irr.ClockProPolicy$Node
+ com.github.benmanes.caffeine.cache.simulator.policy.irr.ClockProPolicy$Status
+com/github/benmanes/caffeine/cache/simulator/policy/sketch/WindowTinyLfuPolicy.java
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.WindowTinyLfuPolicy
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.WindowTinyLfuPolicy$Node
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.WindowTinyLfuPolicy$Status
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.WindowTinyLfuPolicy$WindowTinyLfuSettings
+com/github/benmanes/caffeine/cache/simulator/policy/adaptive/CarPolicy.java
+ com.github.benmanes.caffeine.cache.simulator.policy.adaptive.CarPolicy
+ com.github.benmanes.caffeine.cache.simulator.policy.adaptive.CarPolicy$Node
+ com.github.benmanes.caffeine.cache.simulator.policy.adaptive.CarPolicy$QueueType
+com/github/benmanes/caffeine/cache/simulator/policy/sketch/climbing/gradient/Adam.java
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.gradient.Adam
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.gradient.Adam$AdamSettings
+com/github/benmanes/caffeine/cache/simulator/policy/sketch/climbing/hill/SimpleClimber.java
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.hill.SimpleClimber
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.hill.SimpleClimber$SimpleClimberSettings
+com/github/benmanes/caffeine/cache/simulator/admission/countmin4/IndicatorResetCountMin4.java
+ com.github.benmanes.caffeine.cache.simulator.admission.countmin4.IndicatorResetCountMin4
+com/github/benmanes/caffeine/cache/simulator/policy/product/CaffeinePolicy.java
+ com.github.benmanes.caffeine.cache.simulator.policy.product.CaffeinePolicy
+com/github/benmanes/caffeine/cache/simulator/Synthetic.java
+ com.github.benmanes.caffeine.cache.simulator.Synthetic
+com/github/benmanes/caffeine/cache/simulator/policy/irr/HillClimberFrdPolicy.java
+ com.github.benmanes.caffeine.cache.simulator.policy.irr.HillClimberFrdPolicy
+ com.github.benmanes.caffeine.cache.simulator.policy.irr.HillClimberFrdPolicy$FrdSettings
+ com.github.benmanes.caffeine.cache.simulator.policy.irr.HillClimberFrdPolicy$Node
+ com.github.benmanes.caffeine.cache.simulator.policy.irr.HillClimberFrdPolicy$StackType
+ com.github.benmanes.caffeine.cache.simulator.policy.irr.HillClimberFrdPolicy$Status
+com/github/benmanes/caffeine/cache/simulator/policy/product/CollisionPolicy.java
+ com.github.benmanes.caffeine.cache.simulator.policy.product.CollisionPolicy
+ com.github.benmanes.caffeine.cache.simulator.policy.product.CollisionPolicy$CollisionSettings
+ com.github.benmanes.caffeine.cache.simulator.policy.product.CollisionPolicy$Density
+com/github/benmanes/caffeine/cache/simulator/parser/twitter/TwitterTraceReader.java
+ com.github.benmanes.caffeine.cache.simulator.parser.twitter.TwitterTraceReader
+com/github/benmanes/caffeine/cache/simulator/policy/sketch/feedback/FeedbackTinyLfuPolicy.java
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.feedback.FeedbackTinyLfuPolicy
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.feedback.FeedbackTinyLfuPolicy$FeedbackTinyLfuSettings
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.feedback.FeedbackTinyLfuPolicy$Node
+com/github/benmanes/caffeine/cache/simulator/policy/sketch/climbing/HillClimberWindowTinyLfuPolicy.java
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.HillClimberWindowTinyLfuPolicy
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.HillClimberWindowTinyLfuPolicy$HillClimberWindowTinyLfuSettings
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.HillClimberWindowTinyLfuPolicy$Node
+com/github/benmanes/caffeine/cache/simulator/report/TextReporter.java
+ com.github.benmanes.caffeine.cache.simulator.report.TextReporter
+com/github/benmanes/caffeine/cache/simulator/parser/address/AddressTraceReader.java
+ com.github.benmanes.caffeine.cache.simulator.parser.address.AddressTraceReader
+com/github/benmanes/caffeine/cache/simulator/policy/product/Ehcache3Policy.java
+ com.github.benmanes.caffeine.cache.simulator.policy.product.Ehcache3Policy
+com/github/benmanes/caffeine/cache/simulator/parser/camelab/CamelabTraceReader.java
+ com.github.benmanes.caffeine.cache.simulator.parser.camelab.CamelabTraceReader
+com/github/benmanes/caffeine/cache/simulator/policy/sketch/feedback/FeedbackWindowTinyLfuPolicy.java
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.feedback.FeedbackWindowTinyLfuPolicy
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.feedback.FeedbackWindowTinyLfuPolicy$FeedbackWindowTinyLfuSettings
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.feedback.FeedbackWindowTinyLfuPolicy$Node
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.feedback.FeedbackWindowTinyLfuPolicy$Status
+com/github/benmanes/caffeine/cache/simulator/policy/two_queue/TwoQueuePolicy.java
+ com.github.benmanes.caffeine.cache.simulator.policy.two_queue.TwoQueuePolicy
+ com.github.benmanes.caffeine.cache.simulator.policy.two_queue.TwoQueuePolicy$1
+ com.github.benmanes.caffeine.cache.simulator.policy.two_queue.TwoQueuePolicy$Node
+ com.github.benmanes.caffeine.cache.simulator.policy.two_queue.TwoQueuePolicy$QueueType
+ com.github.benmanes.caffeine.cache.simulator.policy.two_queue.TwoQueuePolicy$TwoQueueSettings
+com/github/benmanes/caffeine/cache/simulator/policy/sketch/climbing/HillClimber.java
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.HillClimber
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.HillClimber$1
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.HillClimber$Adaptation
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.HillClimber$Adaptation$Type
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.HillClimber$QueueType
+com/github/benmanes/caffeine/cache/simulator/policy/sketch/tinycache/WindowTinyCachePolicy.java
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.tinycache.WindowTinyCachePolicy
+com/github/benmanes/caffeine/cache/simulator/policy/AccessEvent.java
+ com.github.benmanes.caffeine.cache.simulator.policy.AccessEvent
+ com.github.benmanes.caffeine.cache.simulator.policy.AccessEvent$1
+ com.github.benmanes.caffeine.cache.simulator.policy.AccessEvent$PenaltiesAccessEvent
+ com.github.benmanes.caffeine.cache.simulator.policy.AccessEvent$WeightedAccessEvent
+com/github/benmanes/caffeine/cache/simulator/policy/opt/UnboundedPolicy.java
+ com.github.benmanes.caffeine.cache.simulator.policy.opt.UnboundedPolicy
+com/github/benmanes/caffeine/cache/simulator/policy/adaptive/CartPolicy.java
+ com.github.benmanes.caffeine.cache.simulator.policy.adaptive.CartPolicy
+ com.github.benmanes.caffeine.cache.simulator.policy.adaptive.CartPolicy$FilterType
+ com.github.benmanes.caffeine.cache.simulator.policy.adaptive.CartPolicy$Node
+ com.github.benmanes.caffeine.cache.simulator.policy.adaptive.CartPolicy$QueueType
+com/github/benmanes/caffeine/cache/simulator/policy/PolicyStats.java
+ com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats
+ com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats$Metric
+ com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats$Metric$MetricType
+com/github/benmanes/caffeine/cache/simulator/policy/irr/DClockPolicy.java
+ com.github.benmanes.caffeine.cache.simulator.policy.irr.DClockPolicy
+ com.github.benmanes.caffeine.cache.simulator.policy.irr.DClockPolicy$DClockSettings
+ com.github.benmanes.caffeine.cache.simulator.policy.irr.DClockPolicy$Node
+ com.github.benmanes.caffeine.cache.simulator.policy.irr.DClockPolicy$Status
+com/github/benmanes/caffeine/cache/simulator/parser/TextTraceWriter.java
+ com.github.benmanes.caffeine.cache.simulator.parser.TextTraceWriter
+com/github/benmanes/caffeine/cache/simulator/parser/snia/parallel/TencentPhotoTraceReader.java
+ com.github.benmanes.caffeine.cache.simulator.parser.snia.parallel.TencentPhotoTraceReader
+com/github/benmanes/caffeine/cache/simulator/report/csv/CsvReporter.java
+ com.github.benmanes.caffeine.cache.simulator.report.csv.CsvReporter
+com/github/benmanes/caffeine/cache/simulator/policy/Policy.java
+ com.github.benmanes.caffeine.cache.simulator.policy.Policy
+ com.github.benmanes.caffeine.cache.simulator.policy.Policy$Characteristic
+ com.github.benmanes.caffeine.cache.simulator.policy.Policy$KeyOnlyPolicy
+com/github/benmanes/caffeine/cache/simulator/policy/sketch/climbing/HillClimberType.java
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.HillClimberType
+com/github/benmanes/caffeine/cache/simulator/parser/corda/CordaTraceReader.java
+ com.github.benmanes.caffeine.cache.simulator.parser.corda.CordaTraceReader
+com/github/benmanes/caffeine/cache/simulator/parser/snia/parallel/TencentBlockTraceReader.java
+ com.github.benmanes.caffeine.cache.simulator.parser.snia.parallel.TencentBlockTraceReader
+com/github/benmanes/caffeine/cache/simulator/policy/linked/S4LruPolicy.java
+ com.github.benmanes.caffeine.cache.simulator.policy.linked.S4LruPolicy
+ com.github.benmanes.caffeine.cache.simulator.policy.linked.S4LruPolicy$Node
+ com.github.benmanes.caffeine.cache.simulator.policy.linked.S4LruPolicy$S4LruSettings
+com/github/benmanes/caffeine/cache/simulator/admission/countmin64/CountMin64TinyLfu.java
+ com.github.benmanes.caffeine.cache.simulator.admission.countmin64.CountMin64TinyLfu
+com/github/benmanes/caffeine/cache/simulator/policy/opt/ClairvoyantPolicy.java
+ com.github.benmanes.caffeine.cache.simulator.policy.opt.ClairvoyantPolicy
+ com.github.benmanes.caffeine.cache.simulator.policy.opt.ClairvoyantPolicy$EventRecorder
+ com.github.benmanes.caffeine.cache.simulator.policy.opt.ClairvoyantPolicy$KeyOnlyRecorder
+ com.github.benmanes.caffeine.cache.simulator.policy.opt.ClairvoyantPolicy$Recorder
+com/github/benmanes/caffeine/cache/simulator/admission/countmin4/ClimberResetCountMin4.java
+ com.github.benmanes.caffeine.cache.simulator.admission.countmin4.ClimberResetCountMin4
+com/github/benmanes/caffeine/cache/simulator/parser/adapt_size/AdaptSizeTraceWriter.java
+ com.github.benmanes.caffeine.cache.simulator.parser.adapt_size.AdaptSizeTraceWriter
+com/github/benmanes/caffeine/cache/simulator/report/table/TableReporter.java
+ com.github.benmanes.caffeine.cache.simulator.report.table.TableReporter
+com/github/benmanes/caffeine/cache/simulator/policy/linked/SegmentedLruPolicy.java
+ com.github.benmanes.caffeine.cache.simulator.policy.linked.SegmentedLruPolicy
+ com.github.benmanes.caffeine.cache.simulator.policy.linked.SegmentedLruPolicy$Node
+ com.github.benmanes.caffeine.cache.simulator.policy.linked.SegmentedLruPolicy$QueueType
+ com.github.benmanes.caffeine.cache.simulator.policy.linked.SegmentedLruPolicy$SegmentedLruSettings
+com/github/benmanes/caffeine/cache/simulator/policy/sketch/Indicator.java
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.Indicator
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.Indicator$1
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.Indicator$EstSkew
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.Indicator$Hinter
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.Indicator$IndicatorSettings
+com/github/benmanes/caffeine/cache/simulator/parser/OutputFormat.java
+ com.github.benmanes.caffeine.cache.simulator.parser.OutputFormat
+com/github/benmanes/caffeine/cache/simulator/policy/AutoValue_PolicyStats_Metric.java
+ com.github.benmanes.caffeine.cache.simulator.policy.AutoValue_PolicyStats_Metric
+com/github/benmanes/caffeine/cache/simulator/policy/adaptive/ArcPolicy.java
+ com.github.benmanes.caffeine.cache.simulator.policy.adaptive.ArcPolicy
+ com.github.benmanes.caffeine.cache.simulator.policy.adaptive.ArcPolicy$Node
+ com.github.benmanes.caffeine.cache.simulator.policy.adaptive.ArcPolicy$QueueType
+com/github/benmanes/caffeine/cache/simulator/policy/sketch/climbing/hill/SimulatedAnnealingClimber.java
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.hill.SimulatedAnnealingClimber
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.hill.SimulatedAnnealingClimber$SimulatedAnnealingSettings
+com/github/benmanes/caffeine/cache/simulator/policy/sketch/segment/LruWindowTinyLfuPolicy.java
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.LruWindowTinyLfuPolicy
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.LruWindowTinyLfuPolicy$LruWindowTinyLfuSettings
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.LruWindowTinyLfuPolicy$Node
+ com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.LruWindowTinyLfuPolicy$Status
+com/github/benmanes/caffeine/cache/simulator/parser/adapt_size/AdaptSizeTraceReader.java
+ com.github.benmanes.caffeine.cache.simulator.parser.adapt_size.AdaptSizeTraceReader
+com/github/benmanes/caffeine/cache/simulator/parser/umass/storage/StorageTraceReader.java
+ com.github.benmanes.caffeine.cache.simulator.parser.umass.storage.StorageTraceReader
+com/github/benmanes/caffeine/cache/simulator/parser/address/penalties/AddressPenaltiesTraceReader.java
+ com.github.benmanes.caffeine.cache.simulator.parser.address.penalties.AddressPenaltiesTraceReader
+com/github/benmanes/caffeine/cache/simulator/parser/TraceFormat.java
+ com.github.benmanes.caffeine.cache.simulator.parser.TraceFormat
+ com.github.benmanes.caffeine.cache.simulator.parser.TraceFormat$1
+com/github/benmanes/caffeine/cache/simulator/admission/Admittor.java
+ com.github.benmanes.caffeine.cache.simulator.admission.Admittor
+ com.github.benmanes.caffeine.cache.simulator.admission.AlwaysAdmit
+com/github/benmanes/caffeine/cache/simulator/policy/product/TCachePolicy.java
+ com.github.benmanes.caffeine.cache.simulator.policy.product.TCachePolicy
+ com.github.benmanes.caffeine.cache.simulator.policy.product.TCachePolicy$TCacheSettings
+com/github/benmanes/caffeine/cache/simulator/admission/countmin4/CountMin4.java
+ com.github.benmanes.caffeine.cache.simulator.admission.countmin4.CountMin4
+com/github/benmanes/caffeine/cache/simulator/membership/bloom/BloomFilter.java
+ com.github.benmanes.caffeine.cache.simulator.membership.bloom.BloomFilter
+com/github/benmanes/caffeine/cache/simulator/parser/umass/network/YoutubeTraceReader.java
+ com.github.benmanes.caffeine.cache.simulator.parser.umass.network.YoutubeTraceReader
+com/github/benmanes/caffeine/cache/simulator/admission/tinycache/HashedItem.java
+ com.github.benmanes.caffeine.cache.simulator.admission.tinycache.HashedItem
+com/github/benmanes/caffeine/cache/simulator/policy/two_queue/TuQueuePolicy.java
+ com.github.benmanes.caffeine.cache.simulator.policy.two_queue.TuQueuePolicy
+ com.github.benmanes.caffeine.cache.simulator.policy.two_queue.TuQueuePolicy$Node
+ com.github.benmanes.caffeine.cache.simulator.policy.two_queue.TuQueuePolicy$QueueType
+ com.github.benmanes.caffeine.cache.simulator.policy.two_queue.TuQueuePolicy$TuQueueSettings
+com/github/benmanes/caffeine/cache/simulator/parser/TraceWriter.java
+ com.github.benmanes.caffeine.cache.simulator.parser.TraceWriter
+com/github/benmanes/caffeine/cache/simulator/policy/product/OhcPolicy.java
+ com.github.benmanes.caffeine.cache.simulator.policy.product.OhcPolicy
+ com.github.benmanes.caffeine.cache.simulator.policy.product.OhcPolicy$1
+ com.github.benmanes.caffeine.cache.simulator.policy.product.OhcPolicy$OhcSettings
+com/github/benmanes/caffeine/cache/simulator/policy/linked/FrequentlyUsedPolicy.java
+ com.github.benmanes.caffeine.cache.simulator.policy.linked.FrequentlyUsedPolicy
+ com.github.benmanes.caffeine.cache.simulator.policy.linked.FrequentlyUsedPolicy$EvictionPolicy
+ com.github.benmanes.caffeine.cache.simulator.policy.linked.FrequentlyUsedPolicy$FrequencyNode
+ com.github.benmanes.caffeine.cache.simulator.policy.linked.FrequentlyUsedPolicy$Node
+com/github/benmanes/caffeine/cache/simulator/admission/tinycache/TinyCacheAdapter.java
+ com.github.benmanes.caffeine.cache.simulator.admission.tinycache.TinyCacheAdapter
+com/github/benmanes/caffeine/cache/simulator/parser/arc/ArcTraceReader.java
+ com.github.benmanes.caffeine.cache.simulator.parser.arc.ArcTraceReader
+com/github/benmanes/caffeine/cache/simulator/admission/TinyLfu.java
+ com.github.benmanes.caffeine.cache.simulator.admission.TinyLfu
+com/github/benmanes/caffeine/cache/simulator/policy/irr/FrdPolicy.java
+ com.github.benmanes.caffeine.cache.simulator.policy.irr.FrdPolicy
+ com.github.benmanes.caffeine.cache.simulator.policy.irr.FrdPolicy$FrdSettings
+ com.github.benmanes.caffeine.cache.simulator.policy.irr.FrdPolicy$Node
+ com.github.benmanes.caffeine.cache.simulator.policy.irr.FrdPolicy$StackType
+ com.github.benmanes.caffeine.cache.simulator.policy.irr.FrdPolicy$Status
+com/github/benmanes/caffeine/cache/simulator/parser/gradle/GradleTraceReader.java
+ com.github.benmanes.caffeine.cache.simulator.parser.gradle.GradleTraceReader
+com/github/benmanes/caffeine/cache/simulator/report/Metrics.java
+ com.github.benmanes.caffeine.cache.simulator.report.Metrics
+ com.github.benmanes.caffeine.cache.simulator.report.Metrics$MetricComparator
+com/github/benmanes/caffeine/cache/simulator/policy/irr/IndicatorFrdPolicy.java
+ com.github.benmanes.caffeine.cache.simulator.policy.irr.IndicatorFrdPolicy
+ com.github.benmanes.caffeine.cache.simulator.policy.irr.IndicatorFrdPolicy$FrdSettings
+ com.github.benmanes.caffeine.cache.simulator.policy.irr.IndicatorFrdPolicy$Node
+ com.github.benmanes.caffeine.cache.simulator.policy.irr.IndicatorFrdPolicy$StackType
+ com.github.benmanes.caffeine.cache.simulator.policy.irr.IndicatorFrdPolicy$Status
+com/github/benmanes/caffeine/cache/simulator/parser/snia/parallel/K5cloudTraceReader.java
+ com.github.benmanes.caffeine.cache.simulator.parser.snia.parallel.K5cloudTraceReader
+com/github/benmanes/caffeine/cache/simulator/BasicSettings.java
+ com.github.benmanes.caffeine.cache.simulator.BasicSettings
+ com.github.benmanes.caffeine.cache.simulator.BasicSettings$MembershipSettings
+ com.github.benmanes.caffeine.cache.simulator.BasicSettings$ReportSettings
+ com.github.benmanes.caffeine.cache.simulator.BasicSettings$SyntheticSettings
+ com.github.benmanes.caffeine.cache.simulator.BasicSettings$SyntheticSettings$CounterSettings
+ com.github.benmanes.caffeine.cache.simulator.BasicSettings$SyntheticSettings$ExponentialSettings
+ com.github.benmanes.caffeine.cache.simulator.BasicSettings$SyntheticSettings$HotspotSettings
+ com.github.benmanes.caffeine.cache.simulator.BasicSettings$SyntheticSettings$UniformSettings
+ com.github.benmanes.caffeine.cache.simulator.BasicSettings$SyntheticSettings$ZipfianSettings
+ com.github.benmanes.caffeine.cache.simulator.BasicSettings$TinyLfuSettings
+ com.github.benmanes.caffeine.cache.simulator.BasicSettings$TinyLfuSettings$CountMin4Settings
+ com.github.benmanes.caffeine.cache.simulator.BasicSettings$TinyLfuSettings$CountMin4Settings$IncrementalSettings
+ com.github.benmanes.caffeine.cache.simulator.BasicSettings$TinyLfuSettings$CountMin4Settings$PeriodicSettings
+ com.github.benmanes.caffeine.cache.simulator.BasicSettings$TinyLfuSettings$CountMin64Settings
+ com.github.benmanes.caffeine.cache.simulator.BasicSettings$TinyLfuSettings$DoorkeeperSettings
+ com.github.benmanes.caffeine.cache.simulator.BasicSettings$TraceFilesSettings
+ com.github.benmanes.caffeine.cache.simulator.BasicSettings$TraceSettings

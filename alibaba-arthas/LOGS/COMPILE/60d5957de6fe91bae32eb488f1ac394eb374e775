@@ -1,0 +1,311 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] arthas-all                                                         [pom]
+[INFO] math-game                                                          [jar]
+[INFO] arthas-common                                                      [jar]
+[INFO] arthas-spy                                                         [jar]
+[INFO] arthas-vmtool                                                      [jar]
+[INFO] arthas-tunnel-common                                               [jar]
+[INFO] arthas-tunnel-client                                               [jar]
+[INFO] arthas-memorycompiler                                              [jar]
+[INFO] arthas-core                                                        [jar]
+[INFO] arthas-agent                                                       [jar]
+[INFO] arthas-client                                                      [jar]
+[INFO] arthas-boot                                                        [jar]
+[INFO] arthas-agent-attach                                                [jar]
+[INFO] arthas-site                                                        [jar]
+[INFO] arthas-packaging                                                   [jar]
+[INFO] arthas-spring-boot-starter                                         [jar]
+[INFO] arthas-testcase                                                    [jar]
+[INFO] arthas-tunnel-server                                               [jar]
+[INFO] 
+[INFO] --------------------< com.taobao.arthas:arthas-all >--------------------
+[INFO] Building arthas-all 3.6.3                                         [1/18]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-all ---
+[INFO] 
+[INFO] --- flatten-maven-plugin:1.2.2:clean (flatten-clean) @ arthas-all ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-all ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --------------------< com.taobao.arthas:math-game >---------------------
+[INFO] Building math-game 3.6.3                                          [2/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ math-game ---
+[INFO] 
+[INFO] --- flatten-maven-plugin:1.2.2:clean (flatten-clean) @ math-game ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ math-game ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/math-game/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] ------------------< com.taobao.arthas:arthas-common >-------------------
+[INFO] Building arthas-common 3.6.3                                      [3/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-common ---
+[INFO] 
+[INFO] --- flatten-maven-plugin:1.2.2:clean (flatten-clean) @ arthas-common ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-common ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 17 source files to /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/common/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] --------------------< com.taobao.arthas:arthas-spy >--------------------
+[INFO] Building arthas-spy 3.6.3                                         [4/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-spy ---
+[INFO] 
+[INFO] --- flatten-maven-plugin:1.2.2:clean (flatten-clean) @ arthas-spy ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-spy ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/spy/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] ------------------< com.taobao.arthas:arthas-vmtool >-------------------
+[INFO] Building arthas-vmtool 3.6.3                                      [5/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-vmtool ---
+[INFO] 
+[INFO] --- flatten-maven-plugin:1.2.2:clean (flatten-clean) @ arthas-vmtool ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-vmtool ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/arthas-vmtool/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] ---------------< com.taobao.arthas:arthas-tunnel-common >---------------
+[INFO] Building arthas-tunnel-common 3.6.3                               [6/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-tunnel-common ---
+[INFO] 
+[INFO] --- flatten-maven-plugin:1.2.2:clean (flatten-clean) @ arthas-tunnel-common ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-tunnel-common ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/tunnel-common/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] ---------------< com.taobao.arthas:arthas-tunnel-client >---------------
+[INFO] Building arthas-tunnel-client 3.6.3                               [7/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-tunnel-client ---
+[INFO] 
+[INFO] --- flatten-maven-plugin:1.2.2:clean (flatten-clean) @ arthas-tunnel-client ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-tunnel-client ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/tunnel-client/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] --------------< com.taobao.arthas:arthas-memorycompiler >---------------
+[INFO] Building arthas-memorycompiler 3.6.3                              [8/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-memorycompiler ---
+[INFO] 
+[INFO] --- flatten-maven-plugin:1.2.2:clean (flatten-clean) @ arthas-memorycompiler ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-memorycompiler ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/memorycompiler/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] -------------------< com.taobao.arthas:arthas-core >--------------------
+[INFO] Building arthas-core 3.6.3                                        [9/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-core ---
+[INFO] 
+[INFO] --- flatten-maven-plugin:1.2.2:clean (flatten-clean) @ arthas-core ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 433 source files to /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/core/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[WARNING] /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/core/src/main/java/com/taobao/arthas/core/command/monitor200/ThreadSampler.java:[4,22] sun.management.HotspotThreadMBean is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/core/src/main/java/com/taobao/arthas/core/command/monitor200/ThreadSampler.java:[5,22] sun.management.ManagementFactoryHelper is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/core/src/main/java/com/taobao/arthas/core/command/monitor200/PerfCounterCommand.java:[24,30] sun.management.counter.Counter is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/core/src/main/java/com/taobao/arthas/core/command/monitor200/PerfCounterCommand.java:[25,35] sun.management.counter.perf.PerfInstrumentation is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/core/src/main/java/com/taobao/arthas/core/command/monitor200/ThreadSampler.java:[4,22] sun.management.HotspotThreadMBean is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/core/src/main/java/com/taobao/arthas/core/command/monitor200/ThreadSampler.java:[5,22] sun.management.ManagementFactoryHelper is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/core/src/main/java/com/taobao/arthas/core/command/monitor200/PerfCounterCommand.java:[24,30] sun.management.counter.Counter is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/core/src/main/java/com/taobao/arthas/core/command/monitor200/PerfCounterCommand.java:[25,35] sun.management.counter.perf.PerfInstrumentation is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/core/src/main/java/com/taobao/arthas/core/command/monitor200/ThreadSampler.java:[4,22] sun.management.HotspotThreadMBean is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/core/src/main/java/com/taobao/arthas/core/command/monitor200/ThreadSampler.java:[5,22] sun.management.ManagementFactoryHelper is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/core/src/main/java/com/taobao/arthas/core/command/monitor200/PerfCounterCommand.java:[24,30] sun.management.counter.Counter is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/core/src/main/java/com/taobao/arthas/core/command/monitor200/PerfCounterCommand.java:[25,35] sun.management.counter.perf.PerfInstrumentation is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/core/src/main/java/com/taobao/arthas/core/command/monitor200/ThreadSampler.java:[25,20] sun.management.HotspotThreadMBean is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/core/src/main/java/com/taobao/arthas/core/command/monitor200/ThreadSampler.java:[160,42] sun.management.ManagementFactoryHelper is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/core/src/main/java/com/taobao/arthas/core/util/UserStatUtil.java:[34,53] encode(java.lang.String) in java.net.URLEncoder has been deprecated
+[WARNING] /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/core/src/main/java/com/taobao/arthas/core/util/UserStatUtil.java:[63,50] encode(java.lang.String) in java.net.URLEncoder has been deprecated
+[WARNING] /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/core/src/main/java/com/taobao/arthas/core/util/UserStatUtil.java:[65,56] encode(java.lang.String) in java.net.URLEncoder has been deprecated
+[WARNING] /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/core/src/main/java/com/taobao/arthas/core/command/monitor200/PerfCounterCommand.java:[53,14] sun.management.counter.Counter is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/core/src/main/java/com/taobao/arthas/core/command/monitor200/PerfCounterCommand.java:[63,14] sun.management.counter.Counter is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/core/src/main/java/com/taobao/arthas/core/command/monitor200/PerfCounterCommand.java:[75,25] sun.management.counter.Counter is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/core/src/main/java/com/taobao/arthas/core/command/monitor200/PerfCounterCommand.java:[105,13] sun.management.counter.perf.PerfInstrumentation is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/core/src/main/java/com/taobao/arthas/core/command/monitor200/PerfCounterCommand.java:[105,59] sun.management.counter.perf.PerfInstrumentation is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/core/src/main/java/com/taobao/arthas/core/shell/term/impl/http/TtyWebSocketFrameHandler.java:[54,72] HANDSHAKE_COMPLETE in io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandler.ServerHandshakeStateEvent has been deprecated
+[INFO] /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/core/src/main/java/com/taobao/arthas/core/command/model/SystemPropertyModel.java: Some input files use unchecked or unsafe operations.
+[INFO] /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/core/src/main/java/com/taobao/arthas/core/command/model/SystemPropertyModel.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] -------------------< com.taobao.arthas:arthas-agent >-------------------
+[INFO] Building arthas-agent 3.6.3                                      [10/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-agent ---
+[INFO] 
+[INFO] --- flatten-maven-plugin:1.2.2:clean (flatten-clean) @ arthas-agent ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-agent ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/agent/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] ------------------< com.taobao.arthas:arthas-client >-------------------
+[INFO] Building arthas-client 3.6.3                                     [11/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-client ---
+[INFO] 
+[INFO] --- flatten-maven-plugin:1.2.2:clean (flatten-clean) @ arthas-client ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-client ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 28 source files to /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/client/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] -------------------< com.taobao.arthas:arthas-boot >--------------------
+[INFO] Building arthas-boot 3.6.3                                       [12/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-boot ---
+[INFO] 
+[INFO] --- flatten-maven-plugin:1.2.2:clean (flatten-clean) @ arthas-boot ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-boot ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/boot/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] ---------------< com.taobao.arthas:arthas-agent-attach >----------------
+[INFO] Building arthas-agent-attach 3.6.3                               [13/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-agent-attach ---
+[INFO] 
+[INFO] --- flatten-maven-plugin:1.2.2:clean (flatten-clean) @ arthas-agent-attach ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-agent-attach ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/arthas-agent-attach/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] -------------------< com.taobao.arthas:arthas-site >--------------------
+[INFO] Building arthas-site 3.6.3                                       [14/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-site ---
+[INFO] 
+[INFO] --- flatten-maven-plugin:1.2.2:clean (flatten-clean) @ arthas-site ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-site ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] -----------------< com.taobao.arthas:arthas-packaging >-----------------
+[INFO] Building arthas-packaging 3.6.3                                  [15/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/com/taobao/arthas/arthas-site/3.6.3/arthas-site-3.6.3.jar
+Progress (1): 2.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/taobao/arthas/arthas-site/3.6.3/arthas-site-3.6.3.jar (2.6 kB at 4.4 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-packaging ---
+[INFO] 
+[INFO] --- flatten-maven-plugin:1.2.2:clean (flatten-clean) @ arthas-packaging ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-packaging ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] ------------< com.taobao.arthas:arthas-spring-boot-starter >------------
+[INFO] Building arthas-spring-boot-starter 3.6.3                        [16/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/com/taobao/arthas/arthas-packaging/3.6.3/arthas-packaging-3.6.3.jar
+Progress (1): 0.1/14 MBProgress (1): 0.1/14 MBProgress (1): 0.2/14 MBProgress (1): 0.3/14 MBProgress (1): 0.3/14 MBProgress (1): 0.4/14 MBProgress (1): 0.5/14 MBProgress (1): 0.5/14 MBProgress (1): 0.6/14 MBProgress (1): 0.7/14 MBProgress (1): 0.7/14 MBProgress (1): 0.8/14 MBProgress (1): 0.9/14 MBProgress (1): 0.9/14 MBProgress (1): 1.0/14 MBProgress (1): 1.0/14 MBProgress (1): 1.1/14 MBProgress (1): 1.2/14 MBProgress (1): 1.2/14 MBProgress (1): 1.3/14 MBProgress (1): 1.4/14 MBProgress (1): 1.4/14 MBProgress (1): 1.5/14 MBProgress (1): 1.6/14 MBProgress (1): 1.6/14 MBProgress (1): 1.7/14 MBProgress (1): 1.8/14 MBProgress (1): 1.8/14 MBProgress (1): 1.9/14 MBProgress (1): 2.0/14 MBProgress (1): 2.0/14 MBProgress (1): 2.1/14 MBProgress (1): 2.2/14 MBProgress (1): 2.2/14 MBProgress (1): 2.3/14 MBProgress (1): 2.4/14 MBProgress (1): 2.4/14 MBProgress (1): 2.5/14 MBProgress (1): 2.6/14 MBProgress (1): 2.6/14 MBProgress (1): 2.7/14 MBProgress (1): 2.8/14 MBProgress (1): 2.8/14 MBProgress (1): 2.9/14 MBProgress (1): 2.9/14 MBProgress (1): 3.0/14 MBProgress (1): 3.1/14 MBProgress (1): 3.1/14 MBProgress (1): 3.2/14 MBProgress (1): 3.3/14 MBProgress (1): 3.3/14 MBProgress (1): 3.4/14 MBProgress (1): 3.5/14 MBProgress (1): 3.5/14 MBProgress (1): 3.6/14 MBProgress (1): 3.7/14 MBProgress (1): 3.7/14 MBProgress (1): 3.8/14 MBProgress (1): 3.9/14 MBProgress (1): 3.9/14 MBProgress (1): 4.0/14 MBProgress (1): 4.1/14 MBProgress (1): 4.1/14 MBProgress (1): 4.2/14 MBProgress (1): 4.3/14 MBProgress (1): 4.3/14 MBProgress (1): 4.4/14 MBProgress (1): 4.5/14 MBProgress (1): 4.5/14 MBProgress (1): 4.6/14 MBProgress (1): 4.7/14 MBProgress (1): 4.7/14 MBProgress (1): 4.8/14 MBProgress (1): 4.8/14 MBProgress (1): 4.9/14 MBProgress (1): 5.0/14 MBProgress (1): 5.0/14 MBProgress (1): 5.1/14 MBProgress (1): 5.2/14 MBProgress (1): 5.2/14 MBProgress (1): 5.3/14 MBProgress (1): 5.4/14 MBProgress (1): 5.4/14 MBProgress (1): 5.5/14 MBProgress (1): 5.6/14 MBProgress (1): 5.6/14 MBProgress (1): 5.7/14 MBProgress (1): 5.8/14 MBProgress (1): 5.8/14 MBProgress (1): 5.9/14 MBProgress (1): 6.0/14 MBProgress (1): 6.0/14 MBProgress (1): 6.1/14 MBProgress (1): 6.2/14 MBProgress (1): 6.2/14 MBProgress (1): 6.3/14 MBProgress (1): 6.4/14 MBProgress (1): 6.4/14 MBProgress (1): 6.5/14 MBProgress (1): 6.6/14 MBProgress (1): 6.6/14 MBProgress (1): 6.7/14 MBProgress (1): 6.8/14 MBProgress (1): 6.8/14 MBProgress (1): 6.9/14 MBProgress (1): 6.9/14 MBProgress (1): 7.0/14 MBProgress (1): 7.1/14 MBProgress (1): 7.1/14 MBProgress (1): 7.2/14 MBProgress (1): 7.3/14 MBProgress (1): 7.3/14 MBProgress (1): 7.4/14 MBProgress (1): 7.5/14 MBProgress (1): 7.5/14 MBProgress (1): 7.6/14 MBProgress (1): 7.7/14 MBProgress (1): 7.7/14 MBProgress (1): 7.8/14 MBProgress (1): 7.9/14 MBProgress (1): 7.9/14 MBProgress (1): 8.0/14 MBProgress (1): 8.1/14 MBProgress (1): 8.1/14 MBProgress (1): 8.2/14 MBProgress (1): 8.3/14 MBProgress (1): 8.3/14 MBProgress (1): 8.4/14 MBProgress (1): 8.5/14 MBProgress (1): 8.5/14 MBProgress (1): 8.6/14 MBProgress (1): 8.7/14 MBProgress (1): 8.7/14 MBProgress (1): 8.8/14 MBProgress (1): 8.8/14 MBProgress (1): 8.9/14 MBProgress (1): 9.0/14 MBProgress (1): 9.0/14 MBProgress (1): 9.1/14 MBProgress (1): 9.2/14 MBProgress (1): 9.2/14 MBProgress (1): 9.3/14 MBProgress (1): 9.4/14 MBProgress (1): 9.4/14 MBProgress (1): 9.5/14 MBProgress (1): 9.6/14 MBProgress (1): 9.6/14 MBProgress (1): 9.7/14 MBProgress (1): 9.8/14 MBProgress (1): 9.8/14 MBProgress (1): 9.9/14 MBProgress (1): 10.0/14 MBProgress (1): 10/14 MB  Progress (1): 10/14 MBProgress (1): 10/14 MBProgress (1): 10/14 MBProgress (1): 10/14 MBProgress (1): 10/14 MBProgress (1): 10/14 MBProgress (1): 10/14 MBProgress (1): 11/14 MBProgress (1): 11/14 MBProgress (1): 11/14 MBProgress (1): 11/14 MBProgress (1): 11/14 MBProgress (1): 11/14 MBProgress (1): 11/14 MBProgress (1): 11/14 MBProgress (1): 11/14 MBProgress (1): 11/14 MBProgress (1): 11/14 MBProgress (1): 11/14 MBProgress (1): 11/14 MBProgress (1): 11/14 MBProgress (1): 11/14 MBProgress (1): 12/14 MBProgress (1): 12/14 MBProgress (1): 12/14 MBProgress (1): 12/14 MBProgress (1): 12/14 MBProgress (1): 12/14 MBProgress (1): 12/14 MBProgress (1): 12/14 MBProgress (1): 12/14 MBProgress (1): 12/14 MBProgress (1): 12/14 MBProgress (1): 12/14 MBProgress (1): 12/14 MBProgress (1): 12/14 MBProgress (1): 12/14 MBProgress (1): 13/14 MBProgress (1): 13/14 MBProgress (1): 13/14 MBProgress (1): 13/14 MBProgress (1): 13/14 MBProgress (1): 13/14 MBProgress (1): 13/14 MBProgress (1): 13/14 MBProgress (1): 13/14 MBProgress (1): 13/14 MBProgress (1): 13/14 MBProgress (1): 13/14 MBProgress (1): 13/14 MBProgress (1): 13/14 MBProgress (1): 13/14 MBProgress (1): 14/14 MBProgress (1): 14 MB                      Downloaded from central: https://repo.maven.apache.org/maven2/com/taobao/arthas/arthas-packaging/3.6.3/arthas-packaging-3.6.3.jar (14 MB at 4.3 MB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-spring-boot-starter ---
+[INFO] 
+[INFO] --- flatten-maven-plugin:1.2.2:clean (flatten-clean) @ arthas-spring-boot-starter ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-spring-boot-starter ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/arthas-spring-boot-starter/target/classes
+[INFO] 
+[INFO] -----------------< com.taobao.arthas:arthas-testcase >------------------
+[INFO] Building arthas-testcase 3.6.3                                   [17/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-testcase ---
+[INFO] 
+[INFO] --- flatten-maven-plugin:1.2.2:clean (flatten-clean) @ arthas-testcase ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-testcase ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/testcase/target/classes
+[INFO] /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/testcase/src/main/java/com/alibaba/arthas/Test.java: /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/testcase/src/main/java/com/alibaba/arthas/Test.java uses unchecked or unsafe operations.
+[INFO] /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/testcase/src/main/java/com/alibaba/arthas/Test.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] ---------------< com.taobao.arthas:arthas-tunnel-server >---------------
+[INFO] Building arthas-tunnel-server 3.6.3                              [18/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-tunnel-server ---
+[INFO] 
+[INFO] --- flatten-maven-plugin:1.2.2:clean (flatten-clean) @ arthas-tunnel-server ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-tunnel-server ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 25 source files to /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/tunnel-server/target/classes
+[WARNING] /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/tunnel-server/src/main/java/com/alibaba/arthas/tunnel/server/app/WebSecurityConfig.java:[7,72] org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter in org.springframework.security.config.annotation.web.configuration has been deprecated
+[WARNING] /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/tunnel-server/src/main/java/com/alibaba/arthas/tunnel/server/app/WebSecurityConfig.java:[7,72] org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter in org.springframework.security.config.annotation.web.configuration has been deprecated
+[WARNING] /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/tunnel-server/src/main/java/com/alibaba/arthas/tunnel/server/app/WebSecurityConfig.java:[7,72] org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter in org.springframework.security.config.annotation.web.configuration has been deprecated
+[WARNING] /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/tunnel-server/src/main/java/com/alibaba/arthas/tunnel/server/app/WebSecurityConfig.java:[17,40] org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter in org.springframework.security.config.annotation.web.configuration has been deprecated
+[INFO] /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/tunnel-server/src/main/java/com/alibaba/arthas/tunnel/server/cluster/InMemoryClusterStore.java: /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/tunnel-server/src/main/java/com/alibaba/arthas/tunnel/server/cluster/InMemoryClusterStore.java uses unchecked or unsafe operations.
+[INFO] /results/alibaba-arthas/RELEASES/60d5957de6fe91bae32eb488f1ac394eb374e775/tunnel-server/src/main/java/com/alibaba/arthas/tunnel/server/cluster/InMemoryClusterStore.java: Recompile with -Xlint:unchecked for details.
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for arthas-all 3.6.3:
+[INFO] 
+[INFO] arthas-all ......................................... SUCCESS [  0.259 s]
+[INFO] math-game .......................................... SUCCESS [  0.323 s]
+[INFO] arthas-common ...................................... SUCCESS [  0.379 s]
+[INFO] arthas-spy ......................................... SUCCESS [  0.024 s]
+[INFO] arthas-vmtool ...................................... SUCCESS [  0.148 s]
+[INFO] arthas-tunnel-common ............................... SUCCESS [  0.048 s]
+[INFO] arthas-tunnel-client ............................... SUCCESS [  0.161 s]
+[INFO] arthas-memorycompiler .............................. SUCCESS [  0.080 s]
+[INFO] arthas-core ........................................ SUCCESS [  2.117 s]
+[INFO] arthas-agent ....................................... SUCCESS [  0.030 s]
+[INFO] arthas-client ...................................... SUCCESS [  0.089 s]
+[INFO] arthas-boot ........................................ SUCCESS [  0.065 s]
+[INFO] arthas-agent-attach ................................ SUCCESS [  0.023 s]
+[INFO] arthas-site ........................................ SUCCESS [  0.007 s]
+[INFO] arthas-packaging ................................... SUCCESS [  0.777 s]
+[INFO] arthas-spring-boot-starter ......................... SUCCESS [  3.331 s]
+[INFO] arthas-testcase .................................... SUCCESS [  0.019 s]
+[INFO] arthas-tunnel-server ............................... SUCCESS [  0.408 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.928 s
+[INFO] Finished at: 2022-09-10T03:47:23Z
+[INFO] ------------------------------------------------------------------------

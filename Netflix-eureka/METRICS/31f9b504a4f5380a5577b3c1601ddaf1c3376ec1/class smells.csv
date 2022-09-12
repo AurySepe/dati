@@ -1,0 +1,303 @@
+CLASSDATASHOULDBEPRIVATE	COMPLEXCLASS	FUNCTIONALDECOMPOSITION	GODCLASS	ID	NAME	PATTERNROLE	PATTERNTYPE	SPAGHETTICODE
+false	false	false	false	314	com.netflix.discovery.EurekaArchaius2ClientConfig			false
+false	false	false	false	313	com.netflix.discovery.Ec2EurekaArchaius2InstanceConfig			false
+false	false	false	false	315	com.netflix.discovery.EurekaArchaius2InstanceConfig			false
+false	false	false	false	312	com.netflix.discovery.EurekaArchaius2Module			false
+false	false	false	false	230	com.netflix.discovery.DiscoveryClientRedirectTest			false
+false	false	false	false	204	com.netflix.discovery.DiscoveryClientHealthTest			false
+false	false	false	false	162	com.netflix.discovery.DiscoveryClientRegistryTest			false
+false	false	false	false	278	com.netflix.discovery.DiscoveryClientEventBusTest			false
+false	false	false	false	197	com.netflix.discovery.AbstractDiscoveryClientTester			false
+true	false	false	false	194	com.netflix.discovery.DiscoveryStatusCheckerTest			false
+false	false	false	false	201	com.netflix.discovery.TimedSupervisorTaskTest			false
+true	false	false	false	277	com.netflix.discovery.BaseDiscoveryClientTester			false
+false	false	false	false	175	com.netflix.discovery.DiscoveryClientDisableRegistryTest			false
+false	false	false	false	268	com.netflix.discovery.DiscoveryClientRegisterUpdateTest			false
+true	false	false	false	172	com.netflix.discovery.BackUpRegistryTest			false
+false	false	false	false	173	com.netflix.discovery.MockBackupRegistry			false
+false	false	false	false	243	com.netflix.discovery.DiscoveryClientCloseJerseyThreadTest			false
+false	false	false	false	443	com.netflix.discovery.EurekaClientLifecycleTest			false
+false	false	false	false	167	com.netflix.discovery.InstanceRegionCheckerTest			false
+false	false	false	false	196	com.netflix.discovery.MockRemoteEurekaServer			false
+false	false	false	false	269	com.netflix.discovery.InstanceInfoReplicatorTest			false
+false	false	false	false	275	com.netflix.discovery.CacheRefreshedEvent			false
+false	false	false	false	78	com.netflix.discovery.BackupRegistry			false
+false	true	false	true	80	com.netflix.discovery.DiscoveryClient	context	State	true
+false	false	false	false	81	com.netflix.discovery.DiscoveryManager	singleton	Singleton	false
+false	false	false	false	79	com.netflix.discovery.DefaultEurekaClientConfig			false
+false	false	false	false	171	com.netflix.discovery.PropertyBasedAzToRegionMapper			false
+false	false	false	false	186	com.netflix.discovery.StatusChangeEvent			false
+false	false	false	false	169	com.netflix.discovery.AzToRegionMapper	state	State	false
+false	false	false	false	82	com.netflix.discovery.EurekaClientConfig	state	State	false
+false	false	false	false	234	com.netflix.discovery.EurekaClient	creator	Factory Method	false
+false	false	false	false	161	com.netflix.discovery.InstanceRegionChecker	context	State	false
+false	false	false	false	168	com.netflix.discovery.AbstractAzToRegionMapper	abstractClass	Template Method	false
+false	false	false	false	192	com.netflix.discovery.EurekaUpStatusResolver	context	State	false
+false	false	false	false	276	com.netflix.discovery.DiscoveryEvent			false
+false	false	false	false	200	com.netflix.discovery.TimedSupervisorTask	adaptee	(Object)Adapter	false
+false	false	false	false	193	com.netflix.discovery.InternalEurekaStatusModule			false
+false	false	false	false	333	com.netflix.discovery.EurekaClientNames			false
+false	false	false	false	267	com.netflix.discovery.InstanceInfoReplicator			false
+false	false	false	false	170	com.netflix.discovery.DNSBasedAzToRegionMapper			false
+false	false	false	false	207	com.netflix.discovery.EurekaIdentityHeaderFilter	context	State	false
+false	false	false	false	211	com.netflix.discovery.NotImplementedRegistryImpl			false
+false	false	false	false	434	com.netflix.discovery.shared.transport.EurekaArchaius2TransportConfig			false
+false	false	false	false	404	com.netflix.discovery.shared.transport.SimpleEurekaHttpServerTest			false
+false	false	false	false	426	com.netflix.discovery.shared.transport.EurekaHttpClientCompatibilityTestSuite			false
+false	false	false	false	403	com.netflix.discovery.shared.transport.SimpleEurekaHttpServer	context	State	false
+false	false	false	false	402	com.netflix.discovery.shared.transport.EurekaHttpClientsTest			false
+false	false	false	false	379	com.netflix.discovery.shared.transport.EurekaHttpResponse			false
+false	false	false	false	437	com.netflix.discovery.shared.transport.EurekaTransportConfig	state	State	false
+false	false	false	false	377	com.netflix.discovery.shared.transport.EurekaHttpClientFactory	creator	Factory Method	false
+false	false	false	false	436	com.netflix.discovery.shared.transport.DefaultEurekaTransportConfig			false
+false	false	false	false	380	com.netflix.discovery.shared.transport.TransportException			false
+false	false	false	false	381	com.netflix.discovery.shared.transport.TransportUtils			false
+false	false	false	false	378	com.netflix.discovery.shared.transport.EurekaHttpClients			false
+false	false	false	false	430	com.netflix.discovery.shared.transport.TransportClientFactory	creator	Factory Method	false
+false	false	false	false	271	com.netflix.discovery.shared.transport.EurekaHttpClient	state	State	false
+false	false	false	false	429	com.netflix.discovery.shared.transport.EurekaClientFactoryBuilder			false
+false	false	false	false	341	com.netflix.discovery.util.InstanceInfoGeneratorTest			false
+false	false	false	false	281	com.netflix.discovery.util.DiagnosticClient			false
+false	false	false	false	232	com.netflix.discovery.util.ApplicationFunctions			false
+false	false	false	false	233	com.netflix.discovery.util.InstanceInfoGenerator			false
+false	false	false	false	270	com.netflix.discovery.util.RateLimiterTest			false
+false	false	false	false	320	com.netflix.discovery.util.DiscoveryBuildInfoTest			false
+false	false	false	false	213	com.netflix.discovery.util.RateLimiter			false
+false	false	false	false	219	com.netflix.discovery.util.StringCache	singleton	Singleton	false
+false	false	false	false	334	com.netflix.discovery.util.ThresholdLevelsMetric	adaptee	(Object)Adapter	false
+false	false	false	false	389	com.netflix.discovery.util.SystemUtil			false
+false	false	false	false	319	com.netflix.discovery.util.DiscoveryBuildInfo	singleton	Singleton	false
+false	false	false	false	340	com.netflix.discovery.util.EurekaEntityTransformers			false
+false	false	false	false	226	com.netflix.discovery.util.EurekaEntityComparators			false
+false	false	false	false	410	com.netflix.discovery.util.ExceptionsMetric	adaptee	(Object)Adapter	false
+false	false	false	false	411	com.netflix.discovery.util.ServoUtil			false
+false	false	false	false	339	com.netflix.discovery.util.EurekaEntityFunctions			false
+false	false	false	false	447	com.netflix.discovery.util.StringUtil			false
+false	false	false	false	438	com.netflix.discovery.junit.resource.SimpleEurekaHttpServerResource			false
+false	false	false	false	425	com.netflix.discovery.junit.resource.DiscoveryClientResource	context	State	false
+false	false	false	false	444	com.netflix.discovery.providers.DefaultEurekaClientConfigProviderTest			false
+false	false	false	false	190	com.netflix.discovery.providers.DefaultEurekaClientConfigProvider			false
+false	false	false	false	399	com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClientTest			false
+false	false	false	false	408	com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClientTest			false
+false	false	false	false	400	com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClientTest			false
+false	false	false	false	382	com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator			false
+false	false	false	false	383	com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient	context	State	false
+false	false	false	false	384	com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient	context	State	false
+false	false	false	false	406	com.netflix.discovery.shared.transport.decorator.ServerStatusEvaluator	state	State	false
+false	false	false	false	385	com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient	context	State	false
+false	false	false	false	401	com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient	adapter	(Object)Adapter	false
+false	false	false	false	407	com.netflix.discovery.shared.transport.decorator.ServerStatusEvaluators			false
+false	false	false	false	448	com.netflix.discovery.shared.transport.jersey.JerseyApplicationClientTest			false
+false	false	false	false	318	com.netflix.discovery.shared.transport.jersey.EurekaJerseyClient	state	State	false
+false	false	false	false	388	com.netflix.discovery.shared.transport.jersey.JerseyEurekaHttpClientFactory	context	State	false
+false	false	false	false	387	com.netflix.discovery.shared.transport.jersey.JerseyApplicationClient			false
+false	false	false	false	272	com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient	abstractClass	Template Method	false
+false	false	false	false	338	com.netflix.discovery.shared.transport.jersey.EurekaJerseyClientImpl			false
+false	false	false	false	216	com.netflix.discovery.shared.ApplicationsTest			false
+false	false	false	false	92	com.netflix.discovery.shared.Applications			false
+false	false	false	false	241	com.netflix.discovery.shared.NamedConnectionPool			false
+false	false	false	false	94	com.netflix.discovery.shared.LookupService			false
+false	false	false	false	95	com.netflix.discovery.shared.Pair	adaptee	(Object)Adapter	false
+false	false	false	false	240	com.netflix.discovery.shared.MonitoredConnectionManager			false
+false	false	false	false	91	com.netflix.discovery.shared.Application			false
+false	false	false	false	412	com.netflix.discovery.shared.resolver.StaticClusterResolverTest			false
+false	false	false	false	396	com.netflix.discovery.shared.resolver.ResolverUtilsTest			false
+false	false	false	false	395	com.netflix.discovery.shared.resolver.ReloadingClusterResolverTest			false
+false	false	false	false	439	com.netflix.discovery.shared.resolver.AsyncResolverTest			false
+false	false	false	false	375	com.netflix.discovery.shared.resolver.StaticClusterResolver			false
+false	false	false	false	435	com.netflix.discovery.shared.resolver.ClosableResolver			false
+false	false	false	false	427	com.netflix.discovery.shared.resolver.DefaultEndpoint			false
+false	false	false	false	366	com.netflix.discovery.shared.resolver.ClusterResolver	state	State	false
+false	false	false	false	367	com.netflix.discovery.shared.resolver.ClusterResolverException			false
+false	false	false	false	373	com.netflix.discovery.shared.resolver.ReloadingClusterResolver	context	State	false
+false	false	false	false	374	com.netflix.discovery.shared.resolver.ResolverUtils			false
+false	false	false	false	369	com.netflix.discovery.shared.resolver.DnsClusterResolver			false
+false	false	false	false	409	com.netflix.discovery.shared.resolver.LegacyClusterResolver	decorator	Decorator	false
+false	false	false	false	368	com.netflix.discovery.shared.resolver.ClusterResolverFactory	state	State	false
+false	false	false	false	431	com.netflix.discovery.shared.resolver.AsyncResolver	context	State	false
+false	false	false	false	371	com.netflix.discovery.shared.resolver.EurekaEndpoint	state	State	false
+false	false	false	false	398	com.netflix.discovery.shared.resolver.aws.ZoneAffinityClusterResolverTest			false
+false	false	false	false	446	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolverTest			false
+false	false	false	false	440	com.netflix.discovery.shared.resolver.aws.ApplicationsResolverTest			false
+false	false	false	false	442	com.netflix.discovery.shared.resolver.aws.TestEurekaHttpResolver			false
+false	false	false	false	-1	com.netflix.discovery.shared.resolver.aws.SampleClusterBuilder			false
+false	false	false	false	441	com.netflix.discovery.shared.resolver.aws.EurekaHttpResolverTest			false
+false	false	false	false	370	com.netflix.discovery.shared.resolver.aws.DnsTxtRecordClusterResolver			false
+false	false	false	false	428	com.netflix.discovery.shared.resolver.aws.AwsEndpoint			false
+false	false	false	false	432	com.netflix.discovery.shared.resolver.aws.ApplicationsResolver	context	State	false
+false	false	false	false	433	com.netflix.discovery.shared.resolver.aws.EurekaHttpResolver	context	State	false
+false	false	false	false	445	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	context	State	false
+false	false	false	false	376	com.netflix.discovery.shared.resolver.aws.ZoneAffinityClusterResolver	decorator	Decorator	false
+false	false	false	false	242	com.netflix.discovery.converters.XmlCodecTest			false
+false	false	false	false	298	com.netflix.discovery.converters.EurekaCodecCompatibilityTest			false
+false	false	false	false	225	com.netflix.discovery.converters.CodecLoadTester			false
+false	false	false	false	227	com.netflix.discovery.converters.EurekaJacksonCodecTest			false
+false	false	false	false	220	com.netflix.discovery.converters.StringCacheTest			false
+false	false	false	false	289	com.netflix.discovery.converters.EurekaJsonAndXmlJacksonCodecTest			false
+false	false	false	false	87	com.netflix.discovery.converters.XmlXStream	singleton	Singleton	false
+false	false	false	false	85	com.netflix.discovery.converters.EntityBodyConverter			false
+false	false	false	false	84	com.netflix.discovery.converters.Converters			false
+false	false	false	true	221	com.netflix.discovery.converters.EurekaJacksonCodec	singleton	Singleton	false
+false	false	false	false	290	com.netflix.discovery.converters.KeyFormatter	singleton	Singleton	false
+false	false	false	false	86	com.netflix.discovery.converters.JsonXStream	singleton	Singleton	false
+false	false	false	false	351	com.netflix.discovery.converters.wrappers.CodecWrappersTest			false
+false	false	false	false	303	com.netflix.discovery.converters.wrappers.CodecWrapperBase			false
+false	false	false	false	304	com.netflix.discovery.converters.wrappers.CodecWrappers			false
+false	false	false	false	307	com.netflix.discovery.converters.wrappers.EncoderWrapper			false
+false	false	false	false	305	com.netflix.discovery.converters.wrappers.DecoderWrapper			false
+false	false	false	false	306	com.netflix.discovery.converters.wrappers.CodecWrapper			false
+false	false	false	false	239	com.netflix.discovery.guice.EurekaModuleTest			false
+false	false	false	false	235	com.netflix.discovery.guice.EurekaModule			false
+false	false	false	false	217	com.netflix.appinfo.AmazonInfoTest			false
+false	false	false	false	179	com.netflix.appinfo.InstanceInfoTest			false
+false	false	false	false	203	com.netflix.appinfo.HealthCheckHandler			false
+false	false	false	false	71	com.netflix.appinfo.EurekaInstanceConfig	state	State	false
+false	false	false	false	68	com.netflix.appinfo.ApplicationInfoManager	context	State	false
+false	false	false	false	69	com.netflix.appinfo.CloudInstanceConfig			false
+false	false	false	false	202	com.netflix.appinfo.HealthCheckCallbackToHandlerBridge	context	State	false
+false	false	false	false	75	com.netflix.appinfo.LeaseInfo			false
+false	false	false	false	77	com.netflix.appinfo.PropertiesInstanceConfig			false
+false	false	false	false	66	com.netflix.appinfo.AbstractInstanceConfig	adapter	(Object)Adapter	false
+false	false	false	false	73	com.netflix.appinfo.HealthCheckResource			false
+false	false	false	false	76	com.netflix.appinfo.MyDataCenterInstanceConfig			false
+false	false	false	false	72	com.netflix.appinfo.HealthCheckCallback	state	State	false
+false	false	false	false	180	com.netflix.appinfo.UniqueIdentifier			false
+false	false	false	false	282	com.netflix.appinfo.MyDataCenterInfo			false
+false	false	false	false	205	com.netflix.appinfo.AbstractEurekaIdentity	state	State	false
+false	false	false	false	67	com.netflix.appinfo.AmazonInfo			false
+false	false	false	false	70	com.netflix.appinfo.DataCenterInfo			false
+false	false	false	false	206	com.netflix.appinfo.EurekaClientIdentity			false
+false	false	false	false	74	com.netflix.appinfo.InstanceInfo	adaptee	(Object)Adapter	false
+false	false	false	false	393	com.netflix.discovery.shared.dns.DnsService	state	State	false
+false	false	false	false	394	com.netflix.discovery.shared.dns.DnsServiceImpl			false
+false	false	false	false	89	com.netflix.discovery.provider.ISerializer			false
+false	false	false	false	88	com.netflix.discovery.provider.DiscoveryJerseyProvider			false
+false	false	false	false	229	com.netflix.discovery.endpoint.DnsResolver			false
+false	false	false	false	349	com.netflix.discovery.endpoint.EndpointUtils			false
+false	false	false	false	296	com.netflix.discovery.converters.jackson.InstanceInfoBeanDeserializers			false
+false	false	false	false	336	com.netflix.discovery.converters.jackson.EurekaJsonJacksonCodec			false
+false	false	false	false	295	com.netflix.discovery.converters.jackson.EurekaJacksonJsonModifiers			false
+false	false	false	false	342	com.netflix.discovery.converters.jackson.ApplicationsJsonBeanSerializer			false
+false	false	false	false	291	com.netflix.discovery.converters.jackson.ApplicationsBeanDeserializer			false
+false	false	false	false	337	com.netflix.discovery.converters.jackson.EurekaXmlJacksonCodec			false
+false	false	false	false	335	com.netflix.discovery.converters.jackson.AbstractEurekaJacksonCodec			false
+false	false	false	false	343	com.netflix.discovery.converters.jackson.ApplicationsXmlBeanSerializer			false
+false	false	false	false	293	com.netflix.discovery.converters.jackson.CustomizableBeanDeserializer	abstractClass	Template Method	false
+false	false	false	false	299	com.netflix.discovery.converters.jackson.StringInterningAmazonInfoBuilder			false
+false	false	false	false	344	com.netflix.discovery.converters.jackson.EurekaJacksonXmlModifiers			false
+false	false	false	false	294	com.netflix.discovery.converters.jackson.DataCenterTypeInfoResolver			false
+false	false	false	false	345	com.netflix.discovery.converters.jackson.InstanceInfoJsonBeanSerializer			false
+false	false	false	false	346	com.netflix.discovery.converters.jackson.InstanceInfoXmlBeanSerializer			false
+false	false	false	false	347	com.netflix.discovery.converters.jackson.mixin.ApplicationXmlMixIn			false
+false	false	false	false	283	com.netflix.discovery.converters.jackson.mixin.DataCenterInfoXmlMixIn			false
+false	false	false	false	288	com.netflix.discovery.converters.jackson.mixin.MiniInstanceInfoMixIn			false
+false	false	false	false	348	com.netflix.discovery.converters.jackson.mixin.ApplicationsXmlMixIn			false
+false	false	false	false	405	com.netflix.discovery.converters.jackson.mixin.InstanceInfoJsonMixIn			false
+false	false	false	false	187	com.netflix.appinfo.providers.CloudInstanceConfigProvider			false
+false	false	false	false	188	com.netflix.appinfo.providers.EurekaConfigBasedInstanceInfoProvider	context	State	false
+false	false	false	false	189	com.netflix.appinfo.providers.MyDataCenterInstanceConfigProvider			false
+false	false	false	false	361	com.netflix.eureka.EurekaContextListener	context	State	false
+false	false	false	false	362	com.netflix.eureka.EurekaInjectorCreator			false
+false	false	false	false	238	com.netflix.eureka.ExampleServiceBase	context	State	false
+false	false	false	false	121	com.netflix.eureka.ExampleEurekaClient			false
+false	false	false	false	237	com.netflix.eureka.ExampleEurekaService			false
+false	false	false	false	236	com.netflix.eureka.ExampleEurekaGovernatedService			false
+false	false	false	false	199	com.netflix.eureka.AbstractTester			false
+false	false	false	false	214	com.netflix.eureka.RateLimitingFilterTest			false
+false	false	false	false	165	com.netflix.eureka.DefaultEurekaServerConfigTest			false
+false	false	false	false	210	com.netflix.eureka.RemoteRegionSoftDependencyTest			false
+false	false	false	false	317	com.netflix.eureka.GzipEncodingEnforcingFilter			false
+false	false	false	false	332	com.netflix.eureka.Names			false
+false	false	false	false	208	com.netflix.eureka.EurekaServerIdentity			false
+false	true	false	false	126	com.netflix.eureka.EurekaServerConfig	implementor	Bridge	false
+false	false	false	false	353	com.netflix.eureka.EurekaServerContext	state	State	false
+false	false	false	false	209	com.netflix.eureka.ServerRequestAuthFilter	context	State	false
+false	false	false	false	125	com.netflix.eureka.EurekaBootStrap	context	State	false
+false	false	false	false	352	com.netflix.eureka.DefaultEurekaServerContext	context	State	false
+false	false	false	false	131	com.netflix.eureka.V1AwareInstanceInfoConverter			false
+false	false	false	false	354	com.netflix.eureka.EurekaServerContextHolder	singleton	Singleton	false
+false	false	false	false	130	com.netflix.eureka.StatusFilter			false
+false	false	false	false	124	com.netflix.eureka.DefaultEurekaServerConfig			false
+false	false	false	false	212	com.netflix.eureka.RateLimitingFilter	context	State	false
+false	false	false	false	392	com.netflix.eureka.guice.LocalEurekaServerModule			false
+false	false	false	false	363	com.netflix.eureka.guice.EurekaServerModule			false
+false	false	false	false	424	com.netflix.discovery.shared.transport.jersey2.Jersey2ApplicationClientTest			false
+false	false	false	false	422	com.netflix.discovery.shared.transport.jersey2.Jersey2ApplicationClient			false
+false	false	false	false	423	com.netflix.discovery.shared.transport.jersey2.Jersey2ApplicationClientFactory			false
+false	false	false	false	273	com.netflix.eureka.resources.EurekaClientServerRestIntegrationTest			false
+false	false	false	false	266	com.netflix.eureka.resources.PeerReplicationResourceTest			false
+false	false	false	false	218	com.netflix.eureka.resources.InstanceResourceTest			false
+false	false	false	false	310	com.netflix.eureka.resources.ApplicationResourceTest			false
+false	false	false	false	316	com.netflix.eureka.resources.AbstractVIPResourceTest			false
+false	false	false	false	311	com.netflix.eureka.resources.ApplicationsResourceTest			false
+false	false	false	false	123	com.netflix.eureka.resources.CurrentRequestVersion			false
+false	false	false	false	160	com.netflix.eureka.resources.VIPResource			false
+false	false	false	false	140	com.netflix.eureka.resources.InstancesResource			false
+false	false	false	false	137	com.netflix.eureka.resources.ApplicationResource	context	State	false
+false	false	false	false	136	com.netflix.eureka.resources.ASGResource	context	State	false
+false	false	false	false	138	com.netflix.eureka.resources.ApplicationsResource	context	State	false
+false	false	false	false	302	com.netflix.eureka.resources.ServerInfoResource			false
+false	false	false	false	359	com.netflix.eureka.resources.DefaultServerCodecs			false
+false	false	false	false	158	com.netflix.eureka.resources.AbstractVIPResource	abstraction	Bridge	false
+false	false	false	false	159	com.netflix.eureka.resources.SecureVIPResource			false
+false	false	false	false	139	com.netflix.eureka.resources.InstanceResource	context	State	false
+false	false	false	false	174	com.netflix.eureka.resources.PeerReplicationResource			false
+false	false	false	false	309	com.netflix.eureka.resources.ServerCodecs	state	State	false
+false	false	false	false	142	com.netflix.eureka.resources.StatusResource			false
+false	false	false	false	264	com.netflix.eureka.cluster.ClusterSampleData			false
+false	false	false	false	265	com.netflix.eureka.cluster.PeerEurekaNodesTest			false
+false	false	false	false	259	com.netflix.eureka.cluster.ReplicationTaskProcessorTest			false
+false	false	false	false	257	com.netflix.eureka.cluster.PeerEurekaNodeTest			false
+false	false	false	false	256	com.netflix.eureka.cluster.JerseyReplicationClientTest			false
+false	false	false	false	260	com.netflix.eureka.cluster.TestableHttpReplicationClient			false
+false	false	false	false	261	com.netflix.eureka.cluster.TestableInstanceReplicationTask			false
+false	false	false	false	249	com.netflix.eureka.cluster.ReplicationTaskProcessor	context	State	false
+false	false	false	false	246	com.netflix.eureka.cluster.HttpReplicationClient	state	State	false
+false	false	false	false	263	com.netflix.eureka.cluster.PeerEurekaNodes	context	State	false
+false	false	false	false	280	com.netflix.eureka.cluster.InstanceReplicationTask			false
+false	false	false	false	279	com.netflix.eureka.cluster.AsgReplicationTask			false
+false	false	false	false	133	com.netflix.eureka.cluster.PeerEurekaNode	context	State	false
+false	false	false	false	274	com.netflix.eureka.cluster.DynamicGZIPContentEncodingFilter	context	State	false
+false	false	false	false	248	com.netflix.eureka.cluster.ReplicationTask	abstractClass	Template Method	false
+false	false	false	false	262	com.netflix.eureka.cluster.protocol.JacksonEncodingTest			false
+false	false	false	false	252	com.netflix.eureka.cluster.protocol.ReplicationList			false
+false	false	false	false	250	com.netflix.eureka.cluster.protocol.ReplicationInstance			false
+false	false	false	false	251	com.netflix.eureka.cluster.protocol.ReplicationInstanceResponse			false
+false	false	false	false	253	com.netflix.eureka.cluster.protocol.ReplicationListResponse			false
+false	false	false	false	328	com.netflix.eureka.util.batcher.AcceptorExecutorTest			false
+false	false	false	false	329	com.netflix.eureka.util.batcher.RecordingProcessor			false
+false	false	false	false	330	com.netflix.eureka.util.batcher.TaskDispatchersTest			false
+false	false	false	false	331	com.netflix.eureka.util.batcher.TaskExecutorsTest			false
+false	false	false	false	323	com.netflix.eureka.util.batcher.TaskDispatchers			false
+false	false	false	false	324	com.netflix.eureka.util.batcher.TaskExecutors			false
+false	false	false	false	326	com.netflix.eureka.util.batcher.TaskProcessor			false
+false	false	false	false	322	com.netflix.eureka.util.batcher.TaskDispatcher	state	State	false
+false	false	false	false	325	com.netflix.eureka.util.batcher.TaskHolder			false
+false	false	false	false	327	com.netflix.eureka.util.batcher.TrafficShaper			false
+false	false	false	false	321	com.netflix.eureka.util.batcher.AcceptorExecutor			false
+false	false	false	false	360	com.netflix.eureka.util.AwsAsgUtilTest			false
+false	false	false	false	391	com.netflix.eureka.util.StatusUtil			false
+false	false	false	false	147	com.netflix.eureka.util.StatusInfo			false
+false	false	false	false	146	com.netflix.eureka.util.MeasuredRate	adaptee	(Object)Adapter	false
+false	false	false	false	198	com.netflix.eureka.registry.ResponseCacheTest			false
+false	false	false	false	164	com.netflix.eureka.registry.InstanceRegistryTest			false
+false	false	false	false	355	com.netflix.eureka.registry.AwsInstanceRegistry			false
+false	false	false	false	357	com.netflix.eureka.registry.PeerAwareInstanceRegistry	implementor	Bridge	false
+false	false	false	true	244	com.netflix.eureka.registry.AbstractInstanceRegistry	abstraction	Bridge	true
+false	false	false	false	157	com.netflix.eureka.registry.RemoteRegionRegistry	context	State	false
+false	false	false	false	356	com.netflix.eureka.registry.InstanceRegistry	state	State	false
+false	false	false	false	141	com.netflix.eureka.registry.ResponseCacheImpl	context	State	false
+false	false	false	false	364	com.netflix.eureka.registry.Key			false
+false	false	false	false	245	com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl	adapter	(Object)Adapter	false
+false	false	false	false	358	com.netflix.eureka.registry.ResponseCache	implementor	Bridge	false
+false	false	false	false	166	com.netflix.eureka.mock.MockRemoteEurekaServer			false
+false	false	false	false	414	com.netflix.eureka.transport.JerseyRemoteRegionClientFactory	context	State	false
+false	false	false	false	413	com.netflix.eureka.transport.EurekaServerHttpClients			false
+false	false	false	false	247	com.netflix.eureka.transport.JerseyReplicationClient	context	State	false
+false	false	false	false	135	com.netflix.eureka.lease.LeaseManager			false
+false	false	false	false	134	com.netflix.eureka.lease.Lease			false
+false	false	false	false	418	com.netflix.eureka.aws.AwsBinder	state	State	false
+false	false	false	false	143	com.netflix.eureka.aws.AwsAsgUtil	context	State	false
+false	false	false	false	421	com.netflix.eureka.aws.Route53Binder	context	State	false
+false	false	false	false	419	com.netflix.eureka.aws.AwsBinderDelegate	decorator	Decorator	false
+false	false	false	false	144	com.netflix.eureka.aws.EIPManager	context	State	false

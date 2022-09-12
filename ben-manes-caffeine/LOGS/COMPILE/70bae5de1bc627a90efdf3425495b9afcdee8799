@@ -1,0 +1,26 @@
+To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/3.5/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+Download https://plugins.gradle.org/m2/com/gradle/build-scan-plugin/1.7/build-scan-plugin-1.7.pom
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'caffeine'.
+> Could not resolve all dependencies for configuration ':classpath'.
+   > Could not find org.jetbrains.kotlinx:kotlinx.html.jvm:0.5.10.
+     Searched in the following locations:
+         https://plugins.gradle.org/m2/org/jetbrains/kotlinx/kotlinx.html.jvm/0.5.10/kotlinx.html.jvm-0.5.10.pom
+         https://plugins.gradle.org/m2/org/jetbrains/kotlinx/kotlinx.html.jvm/0.5.10/kotlinx.html.jvm-0.5.10.jar
+         https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx.html.jvm/0.5.10/kotlinx.html.jvm-0.5.10.pom
+         https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx.html.jvm/0.5.10/kotlinx.html.jvm-0.5.10.jar
+         https://jcenter.bintray.com/org/jetbrains/kotlinx/kotlinx.html.jvm/0.5.10/kotlinx.html.jvm-0.5.10.pom
+         https://jcenter.bintray.com/org/jetbrains/kotlinx/kotlinx.html.jvm/0.5.10/kotlinx.html.jvm-0.5.10.jar
+     Required by:
+         project : > gradle.plugin.io.morethan.jmhreport:gradle-jmh-report:0.1.0
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 4.478 secs

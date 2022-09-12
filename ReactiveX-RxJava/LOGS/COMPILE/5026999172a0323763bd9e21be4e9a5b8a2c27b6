@@ -1,0 +1,24 @@
+Downloading https://services.gradle.org/distributions/gradle-5.6.4-bin.zip
+.........................................................................................
+
+Welcome to Gradle 5.6.4!
+
+Here are the highlights of this release:
+ - Incremental Groovy compilation
+ - Groovy compile avoidance
+ - Test fixtures for Java projects
+ - Manage plugin versions via settings script
+
+For more details see https://docs.gradle.org/5.6.4/release-notes.html
+
+To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.6.4/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+
+> Configure project :
+JMH: [.*me.champeau.gradle.JMHPluginExtension_Decorated@6322e68.*]
+
+> Task :clean UP-TO-DATE
+> Task :compileJava
+
+BUILD SUCCESSFUL in 36s
+2 actionable tasks: 1 executed, 1 up-to-date

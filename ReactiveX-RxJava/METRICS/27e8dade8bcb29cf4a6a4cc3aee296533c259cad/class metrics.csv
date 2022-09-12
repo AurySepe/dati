@@ -1,0 +1,1211 @@
+COH	DAC	ELOC	HALSTEADLENGHT	HALSTEADVOCABULARY	HALSTEADVOLUME	ID	LCC	LCOM	LOC	MCCABEMETRIC	MPC	NAME	NOA	NOO	NUMBEROFCHILDREN	NUMBEROFIMPORTS	NUMBOFATTRIBUTES	NUMBOFMETHODS	PATTERNROLE	PATTERNTYPE	RFC	TCC
+0	3	23	40	94	181.73179129080015	2109	-1	0	64	9	6	io.reactivex.BlockingPerf	0	0	0	3	3	5			11	1
+-1	0	40	55	246	302.79323447627996	1249	-1	15	92	18	20	io.reactivex.OperatorFlatMapPerf	0	0	0	6	0	6			26	0
+0	2	22	48	118	228.9928619743519	2120	0	1	61	5	4	io.reactivex.ObservableFlatMapPerf	0	0	0	5	2	3			7	0
+0	4	58	92	408	553.0365800451829	1247	-1	34	106	20	14	io.reactivex.InputWithIncrementingInteger	0	0	0	6	5	12			26	-1
+0	2	20	34	85	151.05014272067078	1253	0	2	46	5	4	io.reactivex.PerfObserver	0	0	0	3	2	5			9	0
+0	4	70	75	378	445.1170646714691	1252	-1	75	119	20	16	io.reactivex.EachTypeFlatMapPerf	0	0	0	5	9	14			30	0
+0	2	19	34	81	149.41127125886294	1248	0	6	50	5	4	io.reactivex.PerfSubscriber	0	0	0	3	2	5			9	0
+0	5	81	89	358	523.3674357896623	2645	-1	90	183	16	35	io.reactivex.JustAsyncPerf	0	0	0	5	15	16			51	0
+0	1	48	87	240	476.81558633075326	2646	-1	16	84	14	10	io.reactivex.PerfAsyncConsumer	0	0	0	4	1	8			18	0
+0	3	26	49	150	245.52112941071653	2652	-1	6	66	11	7	io.reactivex.FlatMapJustPerf	0	0	0	5	3	5			12	0
+-1	0	120	88	721	579.0962440810755	1250	-1	45	176	42	51	io.reactivex.OperatorMergePerf	0	0	0	7	0	10			61	0
+0	5	87	100	395	597.8885764901122	2644	-1	106	190	21	34	io.reactivex.CallableAsyncPerf	0	0	0	5	15	17			51	0
+0	3	30	55	172	283.1121962247399	2653	-1	6	72	11	6	io.reactivex.FlattenCrossMapPerf	0	0	0	5	3	5			11	0
+0	2	18	33	78	143.77139128075652	1254	0	0	43	4	4	io.reactivex.LatchedSingleObserver	0	0	0	3	2	4			8	0
+0	5	57	93	328	538.7502655797254	2432	-1	24	110	22	20	io.reactivex.ToFlowablePerf	0	0	0	5	6	9			29	0
+0	5	35	48	136	235.8074345153305	2437	-1	10	84	15	9	io.reactivex.BlockingGetPerf	0	0	0	2	5	8			17	1
+0	2	38	55	193	289.4479603897687	1251	-1	0	85	13	11	io.reactivex.RangePerf	0	0	0	6	4	4			15	1
+0	1	26	47	111	221.34791946167968	2655	0	9	61	7	5	io.reactivex.PerfConsumer	0	0	0	3	1	7			12	0
+0	4	57	66	305	377.5405772560892	1497	-1	33	116	16	15	io.reactivex.RxVsStreamPerf	0	0	0	6	8	11			26	1
+0	3	28	50	160	253.75869076169133	2654	-1	6	69	11	6	io.reactivex.FlattenJustPerf	0	0	0	5	3	5			11	0
+-1	0	60	139	443	847.0061980362739	2496	-1	1	106	10	20	io.reactivex.MaybeNo2Dot0Since	0	0	0	4	0	2			22	-1
+1	1	74	185	948	1268.055582917179	2507	0	0	132	9	26	io.reactivex.FixLicenseHeaders	0	0	0	3	1	1			27	0
+-1	0	166	196	1333	1410.256714755027	2495	-1	210	275	58	59	io.reactivex.JavadocForAnnotations	0	0	0	3	0	21			80	-1
+-1	0	95	140	654	907.6350292040079	2618	-1	91	182	36	32	io.reactivex.InternalWrongNaming	0	0	0	3	0	14			46	-1
+-1	0	713	263	7948	2361.917683765659	2508	-1	45	887	54	94	io.reactivex.JavadocWording	0	0	0	4	0	10			104	-1
+-1	0	147	61	1044	423.9997008749976	2708	-1	190	181	60	65	io.reactivex.TransformerTest	0	0	0	5	0	20			85	0
+-1	0	126	128	1201	907.6364572262379	2619	-1	1	195	12	22	io.reactivex.TextualAorAn	0	0	0	3	0	2			24	-1
+-1	0	31	37	126	178.9424305572047	2276	-1	10	66	10	27	io.reactivex.NotificationTest	0	0	0	3	0	5			32	0
+-1	0	94	147	770	977.0194056826161	2506	0	1	145	10	5	io.reactivex.BaseTypeParser	0	0	0	2	0	2			7	0
+-1	0	126	134	1183	948.1583877731039	2494	-1	66	180	22	37	io.reactivex.BaseTypeAnnotations	0	0	0	5	0	12			49	-1
+-1	0	53	83	360	488.54663461036296	2616	-1	21	94	20	24	io.reactivex.OperatorsAreFinal	0	0	0	3	0	7			31	-1
+-1	0	14	18	49	70.05276536599128	2275	-1	3	47	3	12	io.reactivex.BackpressureEnumTest	0	0	0	3	0	3			15	0
+-1	0	31	63	183	328.19762762900956	2472	-1	15	63	8	9	io.reactivex.PublicFinalMethods	0	0	0	3	0	6			15	-1
+-1	0	19	63	109	295.55491658043604	2023	0	3	39	6	0	io.reactivex.CompletableObserver	0	0	0	1	0	3			3	0
+-1	0	12	50	77	217.1902710926842	2172	0	0	29	5	0	io.reactivex.CompletableTransformer	0	0	0	0	0	1			1	0
+0	1	37	121	236	661.1236484080989	2125	0	10	95	9	0	io.reactivex.FlowableEmitter	0	0	0	2	1	5	creator	Factory Method	5	0
+-1	0	13	53	69	224.40764474365477	2024	0	0	30	3	0	io.reactivex.ObservableSource	0	0	0	0	0	1	state	State	1	0
+-1	0	12	57	77	247.59690904566	2338	0	0	30	3	0	io.reactivex.MaybeOnSubscribe	0	0	0	0	0	1	state	State	1	0
+-1	0	20	47	90	211.49105450552247	2267	0	3	39	3	0	io.reactivex.Emitter	0	0	0	0	0	3			3	0
+-1	0	14	56	87	250.0908546446567	2168	0	0	32	6	0	io.reactivex.SingleTransformer	0	0	0	0	0	1			1	0
+0	1	5681	4678	94920	53613.574265951494	1532	-1	101475	15273	1713	1029	io.reactivex.Flowable	0	0	0	18	1	451	abstractClass	Template Method	1480	-1
+-1	0	27	134	257	743.5761953759595	2334	0	6	67	6	0	io.reactivex.MaybeObserver	0	0	0	1	0	4			4	0
+-1	0	1419	1614	15771	15600.807936432919	1112	-1	6903	2925	353	246	io.reactivex.Single	0	0	0	18	0	118	abstractClass	Template Method	364	-1
+-1	0	5432	4303	78054	48473.967015988834	736	-1	94395	12854	1584	1001	io.reactivex.Observable	0	0	0	17	0	435	abstractClass	Template Method	1436	-1
+-1	0	13	65	86	289.532574256478	2025	0	0	33	3	0	io.reactivex.SingleSource	0	0	0	0	0	1	state	State	1	0
+-1	0	7	32	45	121.81319967265023	2169	-1	0	28	0	0	io.reactivex.FlowableOperator	0	0	0	2	0	0			0	-1
+-1	0	26	101	181	525.0482001578484	2241	0	6	57	7	0	io.reactivex.ObservableEmitter	0	0	0	2	0	4	creator	Factory Method	4	0
+-1	0	12	57	77	247.59690904566	2244	0	0	30	3	0	io.reactivex.SingleOnSubscribe	0	0	0	0	0	1	state	State	1	0
+-1	0	12	43	58	174.599049453496	2022	0	0	29	3	0	io.reactivex.CompletableSource	0	0	0	0	0	1	state	State	1	0
+-1	0	29	88	164	448.7882456485295	2238	0	10	59	7	0	io.reactivex.CompletableEmitter	0	0	0	2	0	5			5	0
+-1	0	5	31	34	109.317176263101	2171	-1	0	24	0	0	io.reactivex.CompletableOperator	0	0	0	1	0	0	adaptee	(Object)Adapter	0	-1
+-1	0	11	51	68	215.19489296398146	2239	0	0	28	3	0	io.reactivex.CompletableOnSubscribe	0	0	0	0	0	1	state	State	1	0
+-1	0	14	56	87	250.0908546446567	2170	0	0	34	6	0	io.reactivex.FlowableTransformer	0	0	0	1	0	1			1	0
+-1	0	1741	2025	20789	20132.913041285407	2333	-1	11026	3901	482	321	io.reactivex.Maybe	0	0	0	16	0	149	abstractClass	Template Method	470	-1
+-1	0	7	32	45	121.81319967265023	2173	-1	0	26	0	0	io.reactivex.ObservableOperator	0	0	0	1	0	0			0	-1
+0	2	116	165	659	1070.9693831929137	1014	-1	0	155	38	12	io.reactivex.Notification	0	0	0	2	2	12	singleton	Singleton	24	3
+-1	0	14	56	87	250.0908546446567	2337	0	0	32	6	0	io.reactivex.MaybeTransformer	0	0	0	0	0	1			1	0
+-1	0	12	57	76	246.85180039632087	2242	0	0	30	3	0	io.reactivex.ObservableOnSubscribe	0	0	0	0	0	1	state	State	1	0
+-1	0	27	142	303	811.3500583823304	882	0	6	76	6	0	io.reactivex.Observer	0	0	0	1	0	4	state	State	4	0
+0	1	213	398	1865	2997.34450016701	907	-1	36	350	18	13	io.reactivex.Scheduler	0	0	8	6	1	9	abstractClass	Template Method	22	-1
+-1	0	7	32	45	121.81319967265023	2335	-1	0	26	0	0	io.reactivex.MaybeOperator	0	0	0	1	0	0			0	-1
+-1	0	12	58	78	252.6891119479963	2240	0	0	30	3	0	io.reactivex.FlowableOnSubscribe	0	0	0	0	0	1	state	State	1	0
+-1	0	13	65	86	289.532574256478	2336	0	0	33	3	0	io.reactivex.MaybeSource	0	0	0	0	0	1	state	State	1	0
+-1	0	14	57	87	254.55676276331127	2174	0	0	32	6	0	io.reactivex.ObservableTransformer	0	0	0	0	0	1			1	0
+-1	0	1034	1103	9767	10133.001392898568	1498	-1	4656	1887	382	208	io.reactivex.Completable	0	0	42	19	0	97	abstractClass	Template Method	305	-1
+-1	0	24	124	243	681.139618974228	2026	0	3	64	5	0	io.reactivex.SingleObserver	0	0	0	1	0	3			3	0
+-1	0	7	32	45	121.81319967265023	2167	-1	0	26	0	0	io.reactivex.SingleOperator	0	0	0	1	0	0			0	-1
+-1	0	31	96	185	501.1541592075191	2243	0	10	62	7	0	io.reactivex.SingleEmitter	0	0	0	2	0	5			5	0
+-1	0	35	99	197	523.0371691450608	2383	0	15	67	8	0	io.reactivex.MaybeEmitter	0	0	0	2	0	6			6	0
+0	1	34	59	148	294.83552415208277	1085	0	6	57	4	0	io.reactivex.exceptions.TestException	0	0	0	0	1	4			4	0
+-1	0	78	215	636	1387.8676911181262	2140	-1	91	181	23	8	io.reactivex.exceptions.OnNextValueTest	0	0	0	6	0	14			22	0
+-1	0	299	195	2270	1506.8693465427123	2139	-1	2080	494	103	88	io.reactivex.exceptions.ExceptionsTest	0	0	0	13	0	65			153	-1
+-1	0	25	48	147	239.54076416537933	2138	0	45	103	10	0	io.reactivex.exceptions.ExceptionsNullTest	0	0	0	1	0	10			10	0
+0	2	234	231	1271	1651.0861916447639	2137	-1	233	361	46	113	io.reactivex.exceptions.CompositeExceptionTest	0	0	0	5	8	27			140	-1
+0	1	18	51	82	224.74268161047692	1063	0	1	38	2	0	io.reactivex.exceptions.MissingBackpressureException	0	0	0	0	1	2			2	0
+-1	0	35	151	306	864.2613503948095	1029	0	3	74	10	1	io.reactivex.exceptions.Exceptions	0	0	0	1	0	3			4	0
+0	4	205	380	1594	2802.120706553061	1221	-1	40	289	36	28	io.reactivex.exceptions.CompositeException	0	0	0	2	4	13			41	-1
+-1	0	388	268	2737	2121.117546022902	2010	-1	1431	534	108	280	io.reactivex.single.SingleTest	0	0	0	12	0	54			334	-1
+0	1	586	356	3525	2907.6783146277076	2009	-1	6045	852	231	164	io.reactivex.single.SingleNullTests	0	0	0	11	2	139			303	-1
+-1	0	68	54	324	312.16014985278576	2283	-1	28	136	8	51	io.reactivex.single.SingleCacheTest	0	0	0	6	0	8			59	-1
+-1	0	143	111	911	756.4142615958554	2284	-1	190	220	40	62	io.reactivex.single.SingleSubscribeTest	0	0	0	10	0	20			82	0
+-1	0	17	30	88	134.3201044343462	2514	-1	1	50	4	7	io.reactivex.single.SingleTimerTest	0	0	0	7	0	2			9	0
+-1	0	61	47	278	264.49819234345995	2414	-1	15	128	10	35	io.reactivex.internal.disposables.ObserverFullArbiterTest	0	0	0	10	0	6			41	0
+-1	0	60	53	344	309.5540078407901	2308	-1	21	112	14	27	io.reactivex.internal.disposables.CancellableDisposableTest	0	0	0	9	0	7			34	0
+-1	0	67	59	367	348.4163490352197	2307	-1	21	119	10	23	io.reactivex.internal.disposables.ArrayCompositeDisposableTest	0	0	0	5	0	7			30	0
+-1	0	272	103	1633	762.0119315759579	2311	-1	595	414	51	113	io.reactivex.internal.disposables.ListCompositeDisposableTest	0	0	0	7	0	35			148	-1
+-1	0	14	18	49	70.05276536599128	2310	-1	3	41	3	7	io.reactivex.internal.disposables.EmptyDisposableTest	0	0	0	4	0	3			10	0
+-1	0	69	57	379	338.4395636896983	2309	-1	55	121	14	36	io.reactivex.internal.disposables.DisposableHelperTest	0	0	0	8	0	11			47	-1
+0	1	65	136	510	847.8798586976985	901	-1	10	96	15	11	io.reactivex.internal.disposables.ArrayCompositeDisposable	0	0	0	2	1	5			16	-1
+-1	0	24	62	153	311.887151126331	908	0	3	47	9	0	io.reactivex.internal.disposables.DisposableContainer	0	0	0	1	0	3			3	0
+0	1	26	62	169	318.05372032523053	2245	-1	3	57	7	6	io.reactivex.internal.disposables.CancellableDisposable	0	0	0	5	1	3			9	0
+0	2	145	114	968	783.7764579495297	2096	-1	3	187	32	22	io.reactivex.internal.disposables.ListCompositeDisposable	0	0	0	5	2	11			33	-1
+0	1	43	107	262	595.8128619024374	2214	0	15	80	11	6	io.reactivex.internal.disposables.SequentialDisposable	0	0	0	2	1	6			12	0
+0	4	117	126	856	850.7860673938595	1256	-1	0	179	24	30	io.reactivex.internal.disposables.ObserverFullArbiter	0	0	0	6	5	9	context	State	39	-1
+1	1	179	113	1043	785.3337794150873	2417	9	0	271	41	85	io.reactivex.internal.subscribers.FutureSubscriberTest	0	0	0	10	1	20			105	9
+-1	0	282	146	1583	1075.5932507426278	2143	-1	231	427	30	165	io.reactivex.internal.subscribers.DeferredScalarSubscriberTest	0	0	0	15	0	22			187	-1
+-1	0	27	37	145	184.13914846956123	2416	0	0	73	1	14	io.reactivex.internal.subscribers.EmptyComponentTest	0	0	0	9	0	1			15	0
+-1	0	210	91	1475	663.9736074584267	2673	-1	496	288	62	99	io.reactivex.internal.subscribers.LambdaSubscriberTest	0	0	0	9	0	32			131	-1
+-1	0	69	62	368	366.3011421664737	2415	-1	55	130	15	31	io.reactivex.internal.subscribers.BlockingSubscriberTest	0	0	0	7	0	11			42	-1
+0	5	91	122	515	761.7883618809758	2122	-1	28	146	23	15	io.reactivex.internal.subscribers.InnerQueuedSubscriber	0	0	0	5	8	12	context	State	27	-1
+-1	0	14	39	64	162.19644025102718	2111	0	1	34	2	1	io.reactivex.internal.subscribers.BlockingLastSubscriber	0	0	0	0	0	2			3	0
+-1	0	10	36	54	143.6034256763139	2123	0	6	31	4	0	io.reactivex.internal.subscribers.InnerQueuedSubscriberSupport	0	0	0	0	0	4	state	State	4	0
+0	3	46	104	229	565.1070883696409	2116	0	8	76	9	7	io.reactivex.internal.subscribers.DeferredScalarSubscriber	0	0	0	2	3	5			12	0
+0	5	134	204	793	1361.8679372135089	2095	1	61	204	35	15	io.reactivex.internal.subscribers.BasicFuseableSubscriber	0	0	0	5	5	15			30	1
+0	5	152	229	915	1561.5336109480943	2094	1	74	227	42	17	io.reactivex.internal.subscribers.BasicFuseableConditionalSubscriber	0	0	0	5	5	17			34	1
+0	3	55	75	299	427.53326800430153	1632	-1	13	100	15	18	io.reactivex.internal.subscribers.SubscriberResourceWrapper	0	0	0	5	3	10			28	-1
+0	5	69	74	360	435.57169832731154	2201	-1	9	115	21	16	io.reactivex.internal.subscribers.ForEachWhileSubscriber	0	0	0	7	5	7	context	State	23	-1
+0	5	58	66	299	376.22927584378533	1734	-1	0	95	15	18	io.reactivex.internal.subscribers.SubscriptionLambdaSubscriber	0	0	0	5	5	7	context	State	25	-1
+0	2	26	50	114	236.80992241972478	1730	2	0	56	6	5	io.reactivex.internal.subscribers.FullArbiterSubscriber	0	0	0	2	2	5			10	2
+0	3	33	53	154	266.95848792792236	1725	-1	0	73	14	14	io.reactivex.internal.subscribers.BlockingSubscriber	0	0	0	5	3	8			22	1
+0	4	48	82	308	469.86818220383304	2112	0	4	80	10	8	io.reactivex.internal.subscribers.BlockingBaseSubscriber	0	0	0	4	4	4			12	0
+0	4	115	140	801	936.0205325895704	1733	-1	64	192	32	31	io.reactivex.internal.subscribers.QueueDrainSubscriber	0	0	0	6	5	13	abstraction	Bridge	44	-1
+-1	0	22	45	112	212.33244920827923	2110	-1	1	43	5	4	io.reactivex.internal.subscribers.BlockingFirstSubscriber	0	0	0	1	0	2			6	0
+0	3	109	129	693	843.7928698954976	2320	-1	10	167	32	26	io.reactivex.internal.subscribers.FutureSubscriber	0	0	0	6	3	12			38	-1
+0	5	77	89	466	546.8325214371824	1731	-1	16	117	23	26	io.reactivex.internal.subscribers.LambdaSubscriber	0	0	0	7	5	9	context	State	35	-1
+-1	0	83	65	503	404.33836105648305	2684	-1	36	148	28	42	io.reactivex.internal.observers.ToNotificationObserverTest	0	0	0	9	0	9			51	0
+-1	0	121	84	723	553.0063746613363	2668	-1	91	184	25	59	io.reactivex.internal.observers.FutureSingleObserverTest	0	0	0	8	0	14			73	-1
+0	1	27	34	134	166.526553198331	2667	0	26	62	13	2	io.reactivex.internal.observers.BasicQueueDisposableTest	0	0	0	1	1	8			10	0
+0	2	269	117	1563	860.4603926593128	2313	-1	99	461	38	160	io.reactivex.internal.observers.DeferredScalarObserverTest	0	0	0	8	4	34			194	-1
+0	5	69	103	393	615.3023900225339	2261	1	23	122	19	11	io.reactivex.internal.observers.InnerQueuedObserver	0	0	0	6	6	11	context	State	22	1
+0	5	134	203	791	1354.6794874568338	2260	1	61	204	36	15	io.reactivex.internal.observers.BasicFuseableObserver	0	0	0	6	5	15	abstraction	Bridge	30	1
+0	2	24	39	109	182.96256740693659	2058	1	1	59	7	5	io.reactivex.internal.observers.SubscriberCompletableObserver	0	0	0	4	2	6			11	1
+0	3	113	130	729	856.9175851611255	2321	-1	10	170	33	26	io.reactivex.internal.observers.FutureObserver	0	0	0	7	3	12			38	-1
+0	1	13	55	86	244.9891012939429	2117	0	1	41	4	0	io.reactivex.internal.observers.BasicIntQueueDisposable	0	0	0	2	1	2			2	0
+0	2	43	93	211	497.7228064132742	2119	0	8	73	9	5	io.reactivex.internal.observers.DeferredScalarObserver	0	0	0	3	2	5	abstraction	Bridge	10	0
+0	3	46	61	226	330.65263495560947	2055	1	8	86	14	12	io.reactivex.internal.observers.CallbackCompletableObserver	0	0	0	7	3	8	context	State	20	1
+0	5	62	74	345	432.42228686032064	1741	-1	1	98	17	18	io.reactivex.internal.observers.LambdaObserver	0	0	0	7	5	7	context	State	25	-1
+-1	0	14	39	64	162.19644025102718	2114	0	1	34	2	1	io.reactivex.internal.observers.BlockingLastObserver	0	0	0	0	0	2			3	0
+0	4	49	61	247	336.0726885343066	1743	-1	0	88	14	15	io.reactivex.internal.observers.DisposableLambdaObserver	0	0	0	6	4	7	context	State	22	-1
+0	3	93	117	563	740.9937164923438	2435	-1	15	147	28	22	io.reactivex.internal.observers.FutureSingleObserver	0	0	0	6	3	11			33	-1
+0	2	46	65	268	363.4141537332057	1744	1	0	74	17	14	io.reactivex.internal.observers.ToNotificationObserver	0	0	0	6	2	5	context	State	19	1
+0	3	28	49	129	238.13080781372193	2436	1	1	67	12	10	io.reactivex.internal.observers.BlockingObserver	0	0	0	6	3	7			17	1
+-1	0	19	43	100	198.02231799748796	2113	-1	1	39	4	3	io.reactivex.internal.observers.BlockingFirstObserver	0	0	0	0	0	2			5	0
+0	2	26	50	114	236.80992241972478	1732	2	0	56	6	5	io.reactivex.internal.observers.FullArbiterObserver	0	0	0	3	2	5	adapter	(Object)Adapter	10	2
+0	4	125	175	678	1140.8507753895692	2316	-1	0	154	28	18	io.reactivex.internal.observers.DeferredScalarDisposable	0	0	0	2	8	11	context	State	29	2
+-1	0	10	36	54	143.6034256763139	2262	0	6	31	4	0	io.reactivex.internal.observers.InnerQueuedObserverSupport	0	0	0	0	0	4	state	State	4	0
+0	1	19	36	84	159.50940475835927	2056	-1	10	57	6	6	io.reactivex.internal.observers.EmptyCompletableObserver	0	0	0	5	1	5			11	0
+0	3	36	57	189	298.77957985839964	2086	0	9	75	11	9	io.reactivex.internal.observers.ConsumerSingleObserver	0	0	0	7	3	6	context	State	15	0
+0	5	67	70	347	409.45273459628015	2202	-1	9	112	20	15	io.reactivex.internal.observers.ForEachWhileObserver	0	0	0	7	5	7	context	State	22	-1
+-1	0	12	46	75	198.60445322267026	2118	0	1	34	4	0	io.reactivex.internal.observers.BasicQueueDisposable	0	0	0	1	0	2			2	0
+0	4	84	132	524	826.5169023303775	1742	-1	33	145	26	21	io.reactivex.internal.observers.QueueDrainObserver	0	0	0	5	5	10	abstraction	Bridge	31	-1
+0	2	34	54	178	279.8163117157726	2085	0	9	71	11	9	io.reactivex.internal.observers.BiConsumerSingleObserver	0	0	0	7	2	6	adapter	(Object)Adapter	15	0
+0	4	141	153	924	1044.7929469611777	2617	-1	19	182	32	24	io.reactivex.internal.observers.BlockingMultiObserver	0	0	0	4	4	11			35	-1
+0	4	48	82	262	456.6042493084099	2115	-1	9	83	14	7	io.reactivex.internal.observers.BlockingBaseObserver	0	0	0	4	4	6	decorator	Decorator	13	-1
+-1	0	19	29	80	127.07877240554255	2332	0	0	51	1	4	io.reactivex.internal.util.OpenHashSetTest	0	0	0	2	0	1			5	0
+-1	0	163	92	1152	648.531445395537	2329	-1	325	273	36	73	io.reactivex.internal.util.HalfSerializerObserverTest	0	0	0	9	0	26			99	-1
+-1	0	153	83	888	563.4846546683501	2315	-1	253	240	64	57	io.reactivex.internal.util.MiscUtilTest	0	0	0	5	0	23			80	0
+-1	0	16	27	64	112.28984325071113	2331	-1	1	50	4	14	io.reactivex.internal.util.NotificationLiteTest	0	0	0	5	0	2			16	0
+-1	0	87	86	469	528.95183808638	1783	-1	78	151	15	30	io.reactivex.internal.util.BackpressureHelperTest	0	0	0	7	0	13			43	-1
+-1	0	18	34	104	157.90929057080666	2328	-1	3	49	4	7	io.reactivex.internal.util.ExceptionHelperTest	0	0	0	6	0	3			10	0
+-1	0	29	35	131	170.6319063120403	2314	-1	6	65	5	16	io.reactivex.internal.util.BlockingHelperTest	0	0	0	6	0	4			20	0
+-1	0	5	20	22	61.82084906716632	2413	-1	0	93	0	0	io.reactivex.internal.util.ObservableToFlowabeTestSync	0	0	0	0	0	0			0	-1
+-1	0	8	15	29	50.50943744979711	2327	0	0	32	1	5	io.reactivex.internal.util.AtomicThrowableTest	0	0	0	2	0	1			6	0
+1	1	43	73	260	405.9297590641335	2674	0	0	78	5	0	io.reactivex.internal.util.CrashingIterable	0	0	0	2	3	2			2	0
+-1	0	166	95	1169	671.0708763398464	2330	-1	351	279	37	68	io.reactivex.internal.util.HalfSerializerSubscriberTest	0	0	0	10	0	27			95	-1
+-1	0	28	40	162	203.50385340929535	2274	-1	21	60	13	2	io.reactivex.internal.util.TestingHelper	0	0	0	5	0	7			9	0
+0	1	335	388	3066	3114.9140750595225	894	-1	60	490	59	59	io.reactivex.internal.util.QueueDrainHelper	0	0	0	9	2	12			71	-1
+0	2	84	154	519	962.7931980075468	2165	-1	13	116	23	12	io.reactivex.internal.util.ExceptionHelper	0	0	0	3	2	6			18	0
+-1	0	21	74	164	377.3901156589907	890	0	3	46	8	1	io.reactivex.internal.util.Pow2	0	0	0	0	0	3			4	0
+0	2	23	48	103	222.46699143502252	-1	1	0	306	10	2	io.reactivex.internal.util.ErrorNotification	0	0	0	5	2	4			6	1
+-1	0	123	146	930	997.936949577506	2217	-1	21	158	24	30	io.reactivex.internal.util.HalfSerializer	0	0	0	4	0	7			37	-1
+-1	0	21	55	99	252.73159175740244	1038	0	28	46	12	0	io.reactivex.internal.util.QueueDrain	0	0	0	1	0	8			8	0
+0	2	144	190	1060	1323.5445955501614	891	2	0	184	30	16	io.reactivex.internal.util.AppendOnlyLinkedArrayList	0	0	0	3	4	7			23	2
+0	1	24	79	138	389.2530411274192	2197	0	3	50	8	3	io.reactivex.internal.util.AtomicThrowable	0	0	0	1	1	3			6	0
+-1	0	24	53	119	253.29354513491106	2236	0	1	49	9	5	io.reactivex.internal.util.BlockingHelper	0	0	0	2	0	2			7	0
+0	3	134	164	903	1116.1384987603856	906	-1	15	175	29	13	io.reactivex.internal.util.OpenHashSet	0	0	0	0	6	10	adaptee	(Object)Adapter	23	-1
+-1	0	100	152	717	999.4115277711422	892	-1	15	124	20	9	io.reactivex.internal.util.BackpressureHelper	0	0	0	2	0	6			15	-1
+-1	0	18	52	89	233.40909122607127	1358	0	15	41	10	0	io.reactivex.internal.util.ObservableQueueDrain	0	0	0	1	0	6			6	0
+0	2	89	183	539	1151.0179494763465	954	1	0	110	13	3	io.reactivex.internal.util.LinkedArrayList	0	0	0	1	5	5			8	1
+-1	0	28	40	141	197.95039561512675	2271	-1	6	76	4	12	io.reactivex.internal.SubscribeWithTest	0	0	0	6	0	4			16	0
+-1	0	67	58	316	333.83304838804094	2420	-1	28	129	11	31	io.reactivex.internal.subscriptions.FullArbiterTest	0	0	0	8	0	8			39	0
+-1	0	110	54	465	331.67001990171724	1109	-1	78	213	27	73	io.reactivex.internal.subscriptions.AsyncSubscriptionTest	0	0	0	5	0	13			86	0
+-1	0	49	49	279	275.9293773092469	2421	-1	3	112	3	6	io.reactivex.internal.subscriptions.QueueSubscriptionTest	0	0	0	3	0	3			9	0
+-1	0	19	32	92	144.6972344655693	2422	0	1	50	2	5	io.reactivex.internal.subscriptions.ScalarSubscriptionTest	0	0	0	5	0	2			7	0
+-1	0	93	67	422	405.0153560404128	2423	-1	36	184	9	40	io.reactivex.internal.subscriptions.SubscriptionArbiterTest	0	0	0	5	0	9			49	0
+-1	0	70	60	383	356.88209935083876	2418	-1	21	137	9	22	io.reactivex.internal.subscriptions.ArrayCompositeSubscriptionTest	0	0	0	4	0	7			29	0
+-1	0	146	101	887	685.5723432132675	2424	-1	190	234	24	53	io.reactivex.internal.subscriptions.SubscriptionHelperTest	0	0	0	8	0	20			73	-1
+-1	0	84	57	532	357.76867889247376	2419	-1	66	139	17	33	io.reactivex.internal.subscriptions.DeferredScalarSubscriptionTest	0	0	0	6	0	12			45	-1
+0	1	13	49	80	214.71930509902018	2100	0	1	39	4	0	io.reactivex.internal.subscriptions.BasicQueueSubscription	0	0	0	2	1	2			2	0
+0	1	22	61	107	285.04255890217627	1139	-1	6	49	7	4	io.reactivex.internal.subscriptions.BooleanSubscription	0	0	0	2	1	4			8	0
+0	1	13	49	80	214.71930509902018	2107	0	1	39	4	0	io.reactivex.internal.subscriptions.BasicIntQueueSubscription	0	0	0	2	1	2			2	0
+0	4	162	233	1228	1657.3621113287513	2105	-1	1	203	26	18	io.reactivex.internal.subscriptions.DeferredScalarSubscription	0	0	0	1	11	10			28	2
+0	4	68	115	345	672.0076079586064	929	-1	24	100	17	10	io.reactivex.internal.subscriptions.ScalarSubscription	0	0	0	3	6	9			19	0
+0	3	53	113	269	632.2023858950079	1108	-1	0	94	15	9	io.reactivex.internal.subscriptions.AsyncSubscription	0	0	0	4	3	9			18	-1
+0	1	69	138	554	871.7687267711252	2097	-1	10	102	15	11	io.reactivex.internal.subscriptions.ArrayCompositeSubscription	0	0	0	3	1	5			16	0
+0	7	148	155	1147	1091.9602931550526	1049	-1	3	229	26	39	io.reactivex.internal.subscriptions.FullArbiter	0	0	0	7	8	11	context	State	50	-1
+0	5	199	181	1447	1317.1818385202987	970	-1	2	282	30	35	io.reactivex.internal.subscriptions.SubscriptionArbiter	0	0	0	4	8	9			44	-1
+-1	0	125	97	1020	671.9731169089968	2322	-1	325	192	70	42	io.reactivex.internal.functions.FunctionsTest	0	0	0	7	0	26			68	-1
+-1	0	14	18	49	70.05276536599128	2323	-1	3	42	3	5	io.reactivex.internal.functions.ObjectHelperTest	0	0	0	3	0	3			8	0
+0	1	100	186	640	1201.8330808017915	1511	-1	45	130	28	3	io.reactivex.internal.functions.ObjectHelper	0	0	0	1	1	10			13	-1
+0	10	415	416	2857	3310.3313993280017	1510	-1	946	640	124	25	io.reactivex.internal.functions.Functions	0	0	0	6	12	44			69	-1
+-1	0	9	17	34	59.948128918474744	2672	0	0	34	1	6	io.reactivex.internal.schedulers.RxThreadFactoryTest	0	0	0	3	0	1			7	0
+-1	0	36	34	155	171.4764539752544	2671	-1	28	77	8	13	io.reactivex.internal.schedulers.ImmediateThinSchedulerTest	0	0	0	5	0	8			21	-1
+0	1	25	56	122	269.0251785050624	2675	0	13	57	13	1	io.reactivex.internal.schedulers.DisposeOnCancel	0	0	0	2	1	6	context	State	7	0
+0	3	47	105	340	612.0392898490718	2163	0	10	97	9	1	io.reactivex.internal.schedulers.ImmediateThinScheduler	1	4	0	3	3	5			6	0
+0	7	173	214	1185	1514.5845834638155	962	2	0	251	11	9	io.reactivex.internal.schedulers.IoScheduler	2	3	0	6	10	5			14	2
+0	0	134	164	1053	1141.341355989972	965	0	4	194	10	6	io.reactivex.internal.schedulers.TrampolineScheduler	2	3	0	7	1	5	singleton	Singleton	11	0
+0	4	91	118	631	760.7820917798631	912	-1	1	132	23	15	io.reactivex.internal.schedulers.ScheduledRunnable	0	0	0	5	6	6			21	-1
+0	2	24	54	104	250.7971085536341	963	0	3	53	5	0	io.reactivex.internal.schedulers.NewThreadScheduler	2	1	0	1	4	3	singleton	Singleton	3	0
+0	6	145	226	894	1535.8295051892142	961	2	0	202	13	14	io.reactivex.internal.schedulers.ComputationScheduler	1	5	0	5	8	6			20	2
+0	2	192	160	1477	1167.642925205021	910	-1	0	271	16	17	io.reactivex.internal.schedulers.ExecutorScheduler	1	5	0	9	2	6			23	-1
+0	4	126	146	798	975.5878552276721	914	-1	0	178	19	22	io.reactivex.internal.schedulers.SingleScheduler	2	5	0	6	5	7			29	-1
+0	3	25	69	131	336.38861530087945	911	1	0	76	6	5	io.reactivex.internal.schedulers.RxThreadFactory	0	0	0	2	3	4			9	1
+0	2	102	158	662	1026.2519578380472	964	-1	2	144	25	19	io.reactivex.internal.schedulers.NewThreadWorker	0	0	0	5	2	8			27	-1
+-1	0	52	64	351	375.0903183018154	2657	-1	55	97	33	30	io.reactivex.internal.operators.single.SingleFlatMapMaybeTest	0	0	0	5	0	11			41	0
+-1	0	15	23	71	98.04163717195026	2326	0	0	49	1	10	io.reactivex.internal.operators.single.SingleSubscribeOnTest	0	0	0	8	0	1			11	0
+-1	0	21	41	206	218.44292292037284	2465	-1	10	51	10	13	io.reactivex.internal.operators.single.SingleLiftTest	0	0	0	3	0	5			18	-1
+-1	0	10	20	42	74.75339236566737	2515	0	0	44	1	8	io.reactivex.internal.operators.single.SingleTimeoutTests	0	0	0	6	0	1			9	0
+-1	0	118	101	789	673.7473984054333	2254	-1	300	204	71	70	io.reactivex.internal.operators.single.SingleFlatMapTest	0	0	0	6	0	25			95	-1
+-1	0	66	82	716	539.041773690773	2305	-1	120	138	48	32	io.reactivex.internal.operators.single.SingleZipTest	0	0	0	3	0	16			48	0
+-1	0	25	29	93	131.44538530144445	2670	-1	15	75	6	27	io.reactivex.internal.operators.single.SingleFromPublisherTest	0	0	0	7	0	6			33	0
+-1	0	58	37	240	202.78364016365367	2298	-1	15	122	6	48	io.reactivex.internal.operators.single.SingleAmbTest	0	0	0	6	0	6			54	0
+-1	0	49	61	265	340.3635193851595	2300	-1	55	132	21	65	io.reactivex.internal.operators.single.SingleDelayTest	0	0	0	12	0	11			76	-1
+-1	0	101	62	618	398.4422843623768	2665	-1	231	190	66	70	io.reactivex.internal.operators.single.SingleFlatMapIterableFlowableTest	0	0	0	8	0	22			92	0
+-1	0	105	40	450	244.3699033105746	2255	-1	91	214	14	94	io.reactivex.internal.operators.single.SingleTakeUntilTest	0	0	0	5	0	14			108	0
+-1	0	14	17	48	65.81041718543415	2303	-1	6	51	4	16	io.reactivex.internal.operators.single.SingleMergeTest	0	0	0	2	0	4			20	0
+-1	0	57	47	362	276.90727795581125	2251	-1	36	106	16	44	io.reactivex.internal.operators.single.SingleCreateTest	0	0	0	6	0	9			53	0
+-1	0	17	20	60	81.88689124444201	2682	-1	6	46	4	13	io.reactivex.internal.operators.single.SingleInternalHelperTest	0	0	0	3	0	4			17	0
+-1	0	85	67	503	416.77954139668253	2301	-1	120	153	32	38	io.reactivex.internal.operators.single.SingleDoOnTest	0	0	0	8	0	16			54	-1
+-1	0	88	55	545	346.5432187064784	2666	-1	190	168	60	61	io.reactivex.internal.operators.single.SingleFlatMapIterableObservableTest	0	0	0	8	0	20			81	0
+-1	0	49	55	301	313.89106456118816	2463	-1	28	99	9	23	io.reactivex.internal.operators.single.SingleCacheTest	0	0	0	6	0	8			31	0
+1	1	14	30	76	129.92200020858994	2464	0	0	39	7	5	io.reactivex.internal.operators.single.SingleDeferTest	0	0	0	3	1	2			7	0
+-1	0	28	33	134	161.62871339838006	2299	-1	15	84	8	33	io.reactivex.internal.operators.single.SingleConcatTest	0	0	0	3	0	6			39	0
+0	1	147	120	893	815.3503897051799	2304	-1	406	293	77	110	io.reactivex.internal.operators.single.SingleMiscTest	0	0	0	15	5	32			142	-1
+-1	0	11	17	43	63.94040196679056	2302	-1	3	47	5	18	io.reactivex.internal.operators.single.SingleFromTest	0	0	0	4	0	3			21	-1
+0	2	197	133	1234	946.6961551938894	2466	-1	434	331	61	162	io.reactivex.internal.operators.single.SingleUsingTest	0	0	0	13	4	32			194	-1
+1	3	37	72	205	383.2567184979654	2083	0	0	73	2	3	io.reactivex.internal.operators.single.SingleTimer	0	0	0	5	3	2			5	0
+1	2	55	76	353	445.8515723269305	2131	0	0	110	2	1	io.reactivex.internal.operators.single.SingleDelayWithPublisher	0	0	0	8	2	2			3	0
+0	6	117	143	781	952.4622464270751	2062	1	0	178	22	20	io.reactivex.internal.operators.single.SingleCache	0	0	0	3	7	7			27	1
+1	2	20	45	115	213.52194577634626	2076	0	0	47	7	5	io.reactivex.internal.operators.single.SingleLift	0	0	0	4	2	2			7	0
+0	3	33	56	243	307.6114408270707	2063	-1	4	67	11	12	io.reactivex.internal.operators.single.SingleContains	0	0	0	4	3	5			17	-1
+0	2	50	73	476	450.0755033588937	2080	-1	22	93	16	20	io.reactivex.internal.operators.single.SingleResumeNext	0	0	0	5	2	8			28	-1
+1	4	135	119	1059	828.8445611265673	2084	0	0	195	6	8	io.reactivex.internal.operators.single.SingleUsing	0	0	0	9	4	2	context	State	10	0
+1	2	127	158	1051	1099.2845845985582	2662	0	0	199	2	1	io.reactivex.internal.operators.single.SingleFlatMapIterableObservable	0	0	0	8	2	2			3	0
+1	2	53	97	346	567.1045611805993	2252	0	0	103	2	2	io.reactivex.internal.operators.single.SingleFlatMapCompletable	1	1	0	7	2	2	context	State	4	0
+1	2	102	126	724	829.6837154406002	2253	0	0	174	2	2	io.reactivex.internal.operators.single.SingleTakeUntil	0	0	0	8	2	2			4	0
+0	5	66	77	624	495.58357836444594	2082	-1	30	114	15	28	io.reactivex.internal.operators.single.SingleTimeout	0	0	0	4	5	9	adapter	(Object)Adapter	37	-1
+0	2	30	50	227	271.24750087407017	2069	-1	4	61	11	12	io.reactivex.internal.operators.single.SingleDoOnSuccess	0	0	0	4	2	5			17	-1
+1	2	37	64	234	349.1405513828929	2132	0	0	83	2	1	io.reactivex.internal.operators.single.SingleDelayWithSingle	0	0	0	5	2	2			3	0
+1	2	50	84	336	488.63733743690915	2068	0	0	90	2	1	io.reactivex.internal.operators.single.SingleDoOnSubscribe	0	0	0	6	2	2			3	0
+1	2	45	66	290	374.2121409167143	2066	0	0	86	2	1	io.reactivex.internal.operators.single.SingleDoOnDispose	0	0	0	6	2	2			3	0
+1	1	39	73	239	399.7818392910003	2135	0	0	78	2	1	io.reactivex.internal.operators.single.SingleToObservable	0	0	0	3	1	2			3	0
+0	2	44	72	267	402.28190340481797	2081	0	0	91	3	5	io.reactivex.internal.operators.single.SingleSubscribeOn	0	0	0	4	2	3	adapter	(Object)Adapter	8	0
+1	1	10	25	43	94.03000289233906	2075	0	0	33	2	3	io.reactivex.internal.operators.single.SingleJust	0	0	0	2	1	2			5	0
+1	1	34	55	212	294.6122451069607	2074	0	0	72	2	1	io.reactivex.internal.operators.single.SingleHide	0	0	0	3	1	2			3	0
+0	1	67	96	334	557.8695353257633	2200	0	28	117	17	0	io.reactivex.internal.operators.single.SingleInternalHelper	0	0	0	6	3	8			8	0
+1	2	189	185	1890	1395.7014399899324	2661	0	0	284	2	1	io.reactivex.internal.operators.single.SingleFlatMapIterableFlowable	0	0	0	11	2	2	context	State	3	0
+0	3	44	71	377	421.18940830880877	2079	0	0	81	15	14	io.reactivex.internal.operators.single.SingleOnErrorReturn	0	0	0	4	3	5			19	0
+1	1	44	75	369	443.30974830303956	2070	0	0	82	5	2	io.reactivex.internal.operators.single.SingleEquals	0	0	0	5	2	2			4	0
+1	2	66	92	477	567.4115171617274	2656	0	0	128	2	1	io.reactivex.internal.operators.single.SingleFlatMapMaybe	0	0	0	11	2	2	context	State	3	0
+0	1	8	24	35	85.32835347574593	2077	-1	1	30	2	1	io.reactivex.internal.operators.single.SingleNever	0	0	0	2	1	2			3	-1
+0	2	31	54	244	296.84708416583294	1116	-1	4	59	11	12	io.reactivex.internal.operators.single.SingleMap	0	0	0	4	2	5			17	-1
+1	1	36	73	222	394.39544887667637	2027	0	0	77	2	1	io.reactivex.internal.operators.single.SingleToFlowable	0	0	0	5	1	2	context	State	3	0
+1	1	18	41	104	190.42002686479628	2064	0	0	46	5	5	io.reactivex.internal.operators.single.SingleDefer	0	0	0	5	1	2			7	0
+1	1	9	24	39	87.9254795071115	2190	0	0	29	2	1	io.reactivex.internal.operators.single.SingleFromUnsafeSource	0	0	0	1	1	2			3	0
+0	4	38	59	273	330.95883591591263	2065	-1	9	71	7	15	io.reactivex.internal.operators.single.SingleDelay	0	0	0	4	4	7			22	-1
+0	2	34	50	247	275.46941683139886	2078	-1	9	66	7	15	io.reactivex.internal.operators.single.SingleObserveOn	0	0	0	2	2	7			22	-1
+1	2	51	72	326	416.65661145840295	2130	0	0	101	2	1	io.reactivex.internal.operators.single.SingleDelayWithObservable	0	0	0	6	2	2	context	State	3	0
+1	1	20	54	120	258.5245541102305	2071	0	0	48	6	3	io.reactivex.internal.operators.single.SingleError	0	0	0	4	1	2			5	0
+1	2	54	74	349	433.2753222429796	2129	0	0	109	2	1	io.reactivex.internal.operators.single.SingleDelayWithCompletable	0	0	0	4	2	2	context	State	3	0
+1	1	70	85	468	522.619805153	2073	0	0	116	2	1	io.reactivex.internal.operators.single.SingleFromPublisher	0	0	0	6	1	2			3	0
+0	2	37	55	299	313.52439653648776	2426	0	0	68	13	14	io.reactivex.internal.operators.single.SingleDoOnEvent	0	0	0	7	2	5			19	0
+1	2	63	90	504	560.0318641264232	1115	0	0	118	2	1	io.reactivex.internal.operators.single.SingleFlatMap	0	0	0	7	2	2			3	0
+0	2	29	51	218	274.6092482022435	2067	0	4	60	9	11	io.reactivex.internal.operators.single.SingleDoOnError	0	0	0	4	2	5			16	0
+1	1	22	46	129	223.55137060063691	2072	0	0	47	7	5	io.reactivex.internal.operators.single.SingleFromCallable	0	0	0	4	1	2			7	0
+0	2	78	107	703	701.4231874237412	2059	-1	8	112	14	18	io.reactivex.internal.operators.single.SingleAmb	0	0	0	6	2	5			23	0
+1	1	76	103	638	665.2088431845134	2248	0	0	120	4	4	io.reactivex.internal.operators.single.SingleCreate	0	0	0	7	1	2	context	State	6	0
+-1	0	23	40	166	204.47951153426175	2287	-1	6	51	11	6	io.reactivex.internal.operators.completable.CompletableRepeatWhenTest	0	0	0	5	0	4			10	0
+-1	0	41	51	247	280.97880516802684	2290	-1	28	74	14	21	io.reactivex.internal.operators.completable.CompletableUnsafeTest	0	0	0	4	0	8			29	0
+-1	0	17	22	61	90.43922501181285	2649	-1	10	66	5	30	io.reactivex.internal.operators.completable.CompletableAndThenTest	0	0	0	3	0	5			35	0
+-1	0	18	33	98	151.30392679612888	2285	-1	3	61	5	20	io.reactivex.internal.operators.completable.CompletableDelayTest	0	0	0	8	0	3			23	0
+-1	0	11	28	60	114.64164774221881	2286	0	0	33	3	6	io.reactivex.internal.operators.completable.CompletableMergeTest	0	0	0	3	0	1			7	0
+-1	0	15	23	71	98.04163717195026	2324	0	0	49	1	10	io.reactivex.internal.operators.completable.CompletableSubscribeOnTest	0	0	0	8	0	1			11	0
+-1	0	52	43	333	249.75012706915908	2249	-1	28	99	15	42	io.reactivex.internal.operators.completable.CompletableCreateTest	0	0	0	6	0	8			50	0
+-1	0	12	19	44	71.89960304444696	2288	-1	1	42	2	10	io.reactivex.internal.operators.completable.CompletableSubscribeTest	0	0	0	4	0	2			12	0
+-1	0	24	42	149	210.16574484970928	2278	-1	3	54	5	18	io.reactivex.internal.operators.completable.CompletableConcatTest	0	0	0	6	0	3			21	0
+-1	0	43	45	221	242.91732156829886	2277	-1	21	87	13	30	io.reactivex.internal.operators.completable.CompletableAwaitTest	0	0	0	6	0	7			37	-1
+-1	0	24	37	116	175.8828370709355	2289	-1	6	77	7	22	io.reactivex.internal.operators.completable.CompletableTimeoutTest	0	0	0	8	0	4			26	0
+1	1	23	36	119	172.04844575201506	2658	0	0	47	6	7	io.reactivex.internal.operators.completable.CompletableFromRunnable	1	1	0	5	1	2			9	0
+1	2	108	118	762	783.0416935710243	1513	0	0	169	2	1	io.reactivex.internal.operators.completable.CompletableConcat	1	1	0	9	2	2			3	0
+0	3	43	66	343	385.290209512952	2052	-1	4	76	15	12	io.reactivex.internal.operators.completable.CompletableToSingle	0	0	0	4	3	5	context	State	17	-1
+0	1	22	37	148	184.89685412927224	2039	0	13	53	6	7	io.reactivex.internal.operators.completable.CompletableFromObservable	5	1	0	2	1	6	context	State	13	0
+0	4	84	80	726	527.0040011859837	2046	2	0	124	19	30	io.reactivex.internal.operators.completable.CompletablePeek	5	1	0	6	7	6			36	2
+0	4	68	72	602	460.8185360622351	1521	-1	30	109	16	28	io.reactivex.internal.operators.completable.CompletableTimeout	8	1	0	5	5	9	adapter	(Object)Adapter	37	-1
+0	1	108	92	841	619.5824327175112	1520	-1	8	148	15	21	io.reactivex.internal.operators.completable.CompletableMergeIterable	4	1	0	6	1	5			26	-1
+0	2	36	54	268	301.9132969475863	2045	-1	4	69	15	12	io.reactivex.internal.operators.completable.CompletableOnErrorComplete	4	1	0	4	2	5			17	-1
+0	2	46	51	359	300.0494418129022	2044	-1	19	77	7	19	io.reactivex.internal.operators.completable.CompletableObserveOn	6	1	0	3	2	7	context	State	26	-1
+1	1	18	39	96	178.0095794672456	2032	0	0	46	5	5	io.reactivex.internal.operators.completable.CompletableDefer	1	1	0	5	1	2			7	0
+0	1	8	22	33	76.92316635226257	2043	-1	1	30	2	1	io.reactivex.internal.operators.completable.CompletableNever	1	1	0	2	1	2			3	-1
+1	1	53	70	350	410.0553208138421	1514	0	0	93	2	2	io.reactivex.internal.operators.completable.CompletableConcatArray	1	1	0	4	1	2			4	0
+1	1	9	22	37	79.44019407817294	2188	0	0	30	2	1	io.reactivex.internal.operators.completable.CompletableFromUnsafeSource	1	1	0	1	1	2			3	0
+0	2	49	68	441	414.0550515303855	2047	-1	22	94	16	19	io.reactivex.internal.operators.completable.CompletableResumeNext	7	1	0	5	2	8			27	-1
+0	2	86	110	692	719.3544551179436	2029	-1	8	119	14	19	io.reactivex.internal.operators.completable.CompletableAmb	4	1	0	6	2	5			24	-1
+1	3	37	71	200	376.1805330249106	2049	0	0	73	2	3	io.reactivex.internal.operators.completable.CompletableTimer	1	1	0	5	3	2	adapter	(Object)Adapter	5	0
+1	1	68	80	458	490.1495347291348	1519	0	0	109	9	14	io.reactivex.internal.operators.completable.CompletableMergeDelayErrorIterable	1	1	0	8	1	2			16	0
+1	2	21	38	108	177.92098663072036	2042	0	0	47	6	4	io.reactivex.internal.operators.completable.CompletableLift	1	1	0	3	2	2	adapter	(Object)Adapter	6	0
+1	1	23	36	119	172.04844575201506	2040	0	0	47	6	7	io.reactivex.internal.operators.completable.CompletableFromAction	1	1	0	4	1	2	context	State	9	0
+1	3	130	131	979	902.1356451714969	1516	0	0	196	2	1	io.reactivex.internal.operators.completable.CompletableMerge	1	1	0	7	3	2			3	0
+0	2	37	52	289	294.6541877818465	2427	0	0	67	13	14	io.reactivex.internal.operators.completable.CompletableDoOnEvent	4	1	0	7	2	5			19	0
+1	1	71	94	554	593.8134805542447	2246	0	0	115	4	4	io.reactivex.internal.operators.completable.CompletableCreate	1	1	0	7	1	2	context	State	6	0
+0	2	44	68	252	376.00117795077676	2048	0	0	91	3	5	io.reactivex.internal.operators.completable.CompletableSubscribeOn	2	1	0	4	2	3	adapter	(Object)Adapter	8	0
+1	1	70	92	481	568.17978884973	1518	0	0	110	6	8	io.reactivex.internal.operators.completable.CompletableMergeDelayErrorArray	1	1	0	5	1	2			10	0
+0	1	20	36	133	176.05256861598315	2041	0	8	49	5	7	io.reactivex.internal.operators.completable.CompletableFromSingle	4	1	0	2	1	5	context	State	12	0
+0	2	32	43	242	236.02432222473752	2053	-1	9	62	7	16	io.reactivex.internal.operators.completable.CompletableDisposeOn	6	1	0	2	2	7			23	0
+1	1	10	27	45	102.77988722379862	2050	0	0	34	2	1	io.reactivex.internal.operators.completable.CompletableToFlowable	0	0	0	3	1	2	context	State	3	0
+0	5	99	91	852	614.0303739414677	2054	-1	0	143	21	34	io.reactivex.internal.operators.completable.CompletableUsing	6	1	0	9	5	7	context	State	41	-1
+0	1	55	72	458	441.13458125622134	1517	-1	8	87	12	16	io.reactivex.internal.operators.completable.CompletableMergeArray	4	1	0	4	1	5			21	-1
+0	5	40	63	278	354.54013016251014	2033	-1	9	77	7	16	io.reactivex.internal.operators.completable.CompletableDelay	6	1	0	3	5	7			23	-1
+1	1	23	36	119	172.04844575201506	2037	0	0	47	6	7	io.reactivex.internal.operators.completable.CompletableFromCallable	1	1	0	4	1	2			9	0
+1	1	24	44	135	215.8320902512909	2051	0	0	54	2	1	io.reactivex.internal.operators.completable.CompletableToObservable	0	0	0	2	1	2	context	State	3	0
+1	1	38	58	230	315.40859991754536	2038	0	0	84	2	1	io.reactivex.internal.operators.completable.CompletableFromPublisher	1	1	0	4	1	2			3	0
+0	1	8	21	33	73.42665879079608	2034	0	1	29	2	1	io.reactivex.internal.operators.completable.CompletableEmpty	1	1	0	2	1	2			3	0
+1	1	82	95	617	610.3625572710118	1515	0	0	128	5	6	io.reactivex.internal.operators.completable.CompletableConcatIterable	1	1	0	7	1	2			8	0
+1	1	20	42	108	196.64951153921723	2036	0	0	47	5	3	io.reactivex.internal.operators.completable.CompletableErrorSupplier	1	1	0	4	1	2			5	0
+1	1	9	22	37	79.44019407817294	2035	0	0	31	2	1	io.reactivex.internal.operators.completable.CompletableError	1	1	0	2	1	2			3	0
+-1	0	33	42	145	209.02281718166412	2475	-1	28	79	12	31	io.reactivex.internal.operators.maybe.MaybeCountTest	0	0	0	8	0	8			39	-1
+-1	0	177	103	890	699.4958106607971	2519	-1	378	343	32	173	io.reactivex.internal.operators.maybe.MaybeTimeoutTest	0	0	0	9	0	28			201	-1
+-1	0	19	29	88	129.842767619868	2688	-1	10	56	9	15	io.reactivex.internal.operators.maybe.MaybeDetachTest	0	0	0	5	0	5			20	0
+-1	0	41	45	197	237.74416779320947	2503	-1	45	95	18	30	io.reactivex.internal.operators.maybe.MaybeOfTypeTest	0	0	0	6	0	10			40	-1
+-1	0	36	44	156	222.19366431897964	2474	-1	36	85	13	35	io.reactivex.internal.operators.maybe.MaybeContainsTest	0	0	0	8	0	9			44	-1
+-1	0	96	57	597	364.3392754633783	2664	-1	231	181	66	67	io.reactivex.internal.operators.maybe.MaybeFlatMapIterableObservableTest	0	0	0	8	0	22			89	0
+-1	0	32	36	125	173.81929454288286	2498	-1	15	97	6	36	io.reactivex.internal.operators.maybe.MaybeDelaySubscriptionTest	0	0	0	8	0	6			42	0
+-1	0	65	57	383	339.0379943832968	2686	-1	21	124	13	30	io.reactivex.internal.operators.maybe.MaybeCallbackObserverTest	0	0	0	9	0	7			37	0
+-1	0	110	75	644	485.07740445782656	2691	-1	78	187	20	70	io.reactivex.internal.operators.maybe.MaybeTakeUntilPublisherTest	0	0	0	10	0	13			83	0
+-1	0	423	126	3036	1010.3053134529556	2669	-1	3403	568	214	137	io.reactivex.internal.operators.maybe.MaybeUsingTest	0	0	0	12	0	83			220	-1
+-1	0	122	83	688	542.3044735484675	2511	-1	136	215	24	88	io.reactivex.internal.operators.maybe.MaybeTakeUntilTest	0	0	0	10	0	17			105	0
+-1	0	6	13	21	39.5787916904045	2685	0	0	32	1	5	io.reactivex.internal.operators.maybe.AbstractMaybeWithUpstreamTest	0	0	0	5	0	1			6	0
+-1	0	35	43	173	221.5915385634045	2500	-1	36	85	17	26	io.reactivex.internal.operators.maybe.MaybeHideTest	0	0	0	7	0	9			35	0
+-1	0	21	39	112	184.02145598050868	2520	-1	1	60	6	18	io.reactivex.internal.operators.maybe.MaybeUnsubscribeOnTest	0	0	0	6	0	2			20	0
+-1	0	31	41	136	201.41885031517813	2689	-1	28	101	12	52	io.reactivex.internal.operators.maybe.MaybeFlatMapNotificationTest	0	0	0	7	0	8			60	0
+-1	0	43	50	185	261.01779125391624	2476	-1	45	108	14	40	io.reactivex.internal.operators.maybe.MaybeDelayTest	0	0	0	9	0	10			50	0
+-1	0	5	10	15	27.0805020110221	2502	0	0	28	1	4	io.reactivex.internal.operators.maybe.MaybeMergeWithTest	0	0	0	2	0	1			5	0
+-1	0	164	114	880	772.9110974518367	2473	-1	231	306	32	110	io.reactivex.internal.operators.maybe.MaybeCacheTest	0	0	0	11	0	22			132	-1
+-1	0	61	64	308	366.72638611030874	2477	-1	91	122	19	61	io.reactivex.internal.operators.maybe.MaybeSwitchIfEmptyTest	0	0	0	8	0	14			75	-1
+-1	0	63	59	317	339.77520465875955	2501	-1	136	138	33	56	io.reactivex.internal.operators.maybe.MaybeIsEmptyTest	0	0	0	6	0	17			73	-1
+-1	0	87	42	360	247.21636932090655	2497	-1	36	198	9	96	io.reactivex.internal.operators.maybe.MaybeDelayOtherTest	0	0	0	7	0	9			105	0
+-1	0	193	65	1503	475.48919533394337	2687	-1	946	313	82	89	io.reactivex.internal.operators.maybe.MaybeCreateTest	0	0	0	6	0	44			133	-1
+-1	0	20	22	80	96.4045859628254	2690	-1	6	61	4	21	io.reactivex.internal.operators.maybe.MaybeFromFutureTest	0	0	0	4	0	4			25	0
+-1	0	109	64	670	416.46577359264074	2663	-1	276	203	72	76	io.reactivex.internal.operators.maybe.MaybeFlatMapIterableFlowableTest	0	0	0	8	0	24			100	0
+-1	0	59	52	370	307.50215629319	2499	-1	66	114	36	37	io.reactivex.internal.operators.maybe.MaybeFlatMapBiSelectorTest	0	0	0	5	0	12			49	-1
+-1	0	135	75	736	495.09225890466575	2692	-1	91	223	18	95	io.reactivex.internal.operators.maybe.MaybeTimeoutPublisherTest	0	0	0	9	0	14			109	0
+-1	0	50	51	259	283.3982311466764	2504	-1	91	129	20	51	io.reactivex.internal.operators.maybe.MaybeOnErrorXTest	0	0	0	6	0	14			65	-1
+-1	0	60	67	402	401.7622899374744	2651	-1	78	110	39	37	io.reactivex.internal.operators.maybe.MaybeFlatMapSingleTest	0	0	0	6	0	13			50	0
+-1	0	20	31	93	140.51058428775093	2693	-1	10	55	9	14	io.reactivex.internal.operators.maybe.MaybeToCompletableTest	0	0	0	5	0	5			19	0
+1	3	37	72	205	383.2567184979654	2440	0	0	75	2	3	io.reactivex.internal.operators.maybe.MaybeTimer	0	0	0	5	3	2			5	0
+1	1	85	118	563	747.3269961204835	2486	0	0	150	2	1	io.reactivex.internal.operators.maybe.MaybeDelaySubscriptionOtherPublisher	0	0	0	7	1	2			3	0
+1	1	17	43	72	183.8966431176904	2367	0	0	43	4	3	io.reactivex.internal.operators.maybe.MaybeJust	0	0	0	3	1	3			6	0
+1	1	22	62	128	300.8258763630162	2345	0	0	50	5	5	io.reactivex.internal.operators.maybe.MaybeDefer	0	0	0	5	1	2			7	0
+0	0	9	32	40	118.04414253164596	2370	-1	0	30	1	1	io.reactivex.internal.operators.maybe.MaybeNever	0	0	0	2	1	1	singleton	Singleton	2	-1
+0	4	55	83	283	468.5720925043887	2403	0	9	100	14	16	io.reactivex.internal.operators.maybe.MaybeCallbackObserver	0	0	0	7	4	7	context	State	23	0
+1	1	95	131	811	877.4731150891191	2388	0	0	142	4	4	io.reactivex.internal.operators.maybe.MaybeCreate	0	0	0	7	1	2	context	State	6	0
+1	1	51	83	304	474.5132992167164	2490	1	0	101	6	2	io.reactivex.internal.operators.maybe.MaybeIsEmptySingle	0	0	0	5	1	4	context	State	6	1
+1	1	68	94	507	585.4800343375713	2471	0	0	121	2	1	io.reactivex.internal.operators.maybe.MaybeSwitchIfEmpty	0	0	0	4	1	2			3	0
+1	1	64	101	420	610.0657258390188	2371	0	0	111	2	1	io.reactivex.internal.operators.maybe.MaybeObserveOn	0	0	0	4	1	2			3	0
+1	2	192	186	1907	1404.9113086416778	2659	0	0	289	2	1	io.reactivex.internal.operators.maybe.MaybeFlatMapIterableFlowable	0	0	0	11	2	2	context	State	3	0
+1	1	14	40	58	162.41772042185676	2358	0	0	37	2	3	io.reactivex.internal.operators.maybe.MaybeError	0	0	0	2	1	2			5	0
+-1	0	44	78	269	436.38748760894345	2365	0	1	86	2	1	io.reactivex.internal.operators.maybe.MaybeIgnoreElement	0	0	0	3	0	2			3	0
+-1	0	40	74	248	407.9937272162087	2489	0	1	82	2	1	io.reactivex.internal.operators.maybe.MaybeIsEmpty	0	0	0	3	0	2			3	0
+1	3	96	123	767	817.0258765681725	2392	0	0	170	3	1	io.reactivex.internal.operators.maybe.MaybeFlatMapNotification	0	0	0	8	3	2			3	0
+1	1	24	63	139	310.8718577872336	2368	0	0	50	7	5	io.reactivex.internal.operators.maybe.MaybeLift	0	0	0	4	1	2			7	0
+1	1	70	98	488	606.6509097736084	2406	0	0	116	2	1	io.reactivex.internal.operators.maybe.MaybeDoOnEvent	0	0	0	5	1	2			3	0
+0	0	12	35	50	136.92080518998512	2343	0	1	36	3	1	io.reactivex.internal.operators.maybe.MaybeEmpty	0	0	0	3	1	2	singleton	Singleton	3	0
+1	1	114	154	967	1058.6265682998073	2438	0	0	177	2	2	io.reactivex.internal.operators.maybe.MaybeConcatArrayDelayError	0	0	0	8	1	2			4	0
+0	2	52	90	323	519.988709090039	2468	0	0	99	4	1	io.reactivex.internal.operators.maybe.MaybeContains	0	0	0	5	2	3	context	State	4	0
+1	3	73	109	475	671.8013136397759	2470	0	0	126	2	1	io.reactivex.internal.operators.maybe.MaybeDelay	0	0	0	5	3	2			3	0
+0	2	46	86	334	499.7581253959963	2443	0	0	82	10	9	io.reactivex.internal.operators.maybe.MaybeZipIterable	0	0	0	6	2	3			12	0
+1	1	44	73	257	405.08255419735104	2395	0	0	85	4	1	io.reactivex.internal.operators.maybe.MaybeFromSingle	0	0	0	4	1	3	context	State	4	0
+1	1	32	60	198	317.2960218416721	2394	0	0	58	7	7	io.reactivex.internal.operators.maybe.MaybeFromRunnable	0	0	0	4	1	2			9	0
+1	1	48	79	283	445.9903049138158	2397	0	0	92	4	1	io.reactivex.internal.operators.maybe.MaybeToCompletable	2	1	0	4	1	3	context	State	4	0
+1	2	127	144	867	974.165612656398	2517	0	0	215	2	2	io.reactivex.internal.operators.maybe.MaybeTimeoutPublisher	0	0	0	8	2	2			4	0
+1	1	42	87	258	483.1074838881807	2379	0	0	89	4	1	io.reactivex.internal.operators.maybe.MaybeToFlowable	0	0	0	6	1	3	context	State	4	0
+1	1	41	74	271	414.5567927450979	2360	0	0	71	10	9	io.reactivex.internal.operators.maybe.MaybeFromCallable	0	0	0	5	1	3			12	0
+1	2	148	169	1291	1210.5761340530826	2660	0	0	231	2	1	io.reactivex.internal.operators.maybe.MaybeFlatMapIterableObservable	0	0	0	8	2	2	context	State	3	0
+1	1	100	139	827	933.774852608293	2404	0	0	162	2	2	io.reactivex.internal.operators.maybe.MaybeConcatArray	0	0	0	7	1	2			4	0
+1	1	60	96	399	574.9402960214269	2390	0	0	108	2	1	io.reactivex.internal.operators.maybe.MaybeFilter	0	0	0	5	1	2			3	0
+0	2	124	161	945	1103.0407733264926	2442	0	0	196	9	5	io.reactivex.internal.operators.maybe.MaybeZipArray	0	0	0	8	2	3			8	0
+1	2	53	97	346	567.1045611805993	2434	0	0	103	2	2	io.reactivex.internal.operators.maybe.MaybeFlatMapCompletable	1	1	0	7	2	2	context	State	4	0
+-1	0	54	81	354	475.4130499638357	2505	0	1	94	2	1	io.reactivex.internal.operators.maybe.MaybeDetach	0	0	0	3	0	2			3	0
+1	1	14	46	70	195.43078113427052	2387	0	0	37	3	0	io.reactivex.internal.operators.maybe.AbstractMaybeWithUpstream	0	0	0	2	1	2			2	0
+1	1	56	96	381	570.5087400121633	2369	0	0	105	2	1	io.reactivex.internal.operators.maybe.MaybeMap	0	0	0	6	1	2			3	0
+1	1	25	70	142	346.9078940320883	2389	0	0	53	6	5	io.reactivex.internal.operators.maybe.MaybeErrorCallable	0	0	0	4	1	2			7	0
+1	2	57	75	366	442.6975000051024	2648	0	0	115	2	1	io.reactivex.internal.operators.maybe.MaybeDelayWithCompletable	0	0	0	8	2	2			3	0
+1	2	124	137	845	923.2891179479328	2516	0	0	206	2	2	io.reactivex.internal.operators.maybe.MaybeTimeoutMaybe	0	0	0	6	2	2			4	0
+1	1	58	96	386	571.7603874686238	2491	0	0	104	2	1	io.reactivex.internal.operators.maybe.MaybeOnErrorComplete	0	0	0	5	1	2			3	0
+1	1	92	126	650	816.0985177241	2510	0	0	157	2	2	io.reactivex.internal.operators.maybe.MaybeTakeUntilPublisher	0	0	0	7	1	2			4	0
+1	1	51	94	325	543.6795671389953	2518	0	0	98	2	1	io.reactivex.internal.operators.maybe.MaybeUnsubscribeOn	0	0	0	4	1	2			3	0
+1	1	48	81	290	459.2603547614221	2469	0	0	91	4	1	io.reactivex.internal.operators.maybe.MaybeCount	0	0	0	4	1	3	context	State	4	0
+1	2	71	111	506	691.1455702909087	2650	0	0	134	2	1	io.reactivex.internal.operators.maybe.MaybeFlatMapSingle	0	0	0	12	2	2	context	State	3	0
+0	5	136	171	945	1171.5526226014301	2467	2	0	198	25	24	io.reactivex.internal.operators.maybe.MaybeCache	0	0	0	3	6	8			32	2
+-1	0	41	77	251	425.45987631314733	2488	0	1	81	2	1	io.reactivex.internal.operators.maybe.MaybeHide	0	0	0	3	0	2			3	0
+1	2	91	136	770	903.9091100192911	2487	0	0	163	2	1	io.reactivex.internal.operators.maybe.MaybeFlatMapBiSelector	0	0	0	7	2	2			3	0
+1	1	53	95	364	560.2296174254903	2493	0	0	100	2	1	io.reactivex.internal.operators.maybe.MaybeOnErrorReturn	0	0	0	6	1	2			3	0
+0	4	123	126	866	852.2494984788668	2396	0	1	181	2	1	io.reactivex.internal.operators.maybe.MaybePeek	0	0	0	6	6	2			3	0
+1	2	105	155	784	1032.9833981543131	2444	0	0	173	2	2	io.reactivex.internal.operators.maybe.MaybeEqualSingle	0	0	0	7	3	2			4	0
+1	2	58	97	387	577.9671952238889	2391	0	0	102	2	1	io.reactivex.internal.operators.maybe.MaybeFilterSingle	0	0	0	5	2	2	context	State	3	0
+0	2	57	93	355	546.1069544212137	2398	0	0	102	4	1	io.reactivex.internal.operators.maybe.MaybeToSingle	0	0	0	5	2	3	context	State	4	0
+1	1	55	98	334	569.4918173117167	2376	0	0	104	2	3	io.reactivex.internal.operators.maybe.MaybeSubscribeOn	0	0	0	4	1	2			5	0
+1	1	48	82	282	462.63637981692534	2683	0	0	95	4	2	io.reactivex.internal.operators.maybe.MaybeIgnoreElementCompletable	2	1	0	5	1	3	context	State	5	0
+1	1	305	270	2371	2098.1881132376598	2407	0	0	449	6	5	io.reactivex.internal.operators.maybe.MaybeMergeArray	0	0	0	10	1	2	context	State	7	0
+1	1	36	67	219	361.06780589770557	2393	0	0	67	10	8	io.reactivex.internal.operators.maybe.MaybeFromAction	0	0	0	6	1	3	context	State	11	0
+1	1	90	119	630	767.0406585068838	2509	0	0	152	2	2	io.reactivex.internal.operators.maybe.MaybeTakeUntilMaybe	0	0	0	5	1	2			4	0
+1	3	55	91	406	546.5781375237576	2439	0	0	78	6	8	io.reactivex.internal.operators.maybe.MaybeFromFuture	0	0	0	3	3	2			10	0
+1	1	101	130	672	846.3335842680094	2485	0	0	163	2	1	io.reactivex.internal.operators.maybe.MaybeDelayOtherPublisher	0	0	0	7	1	2			3	0
+1	2	98	142	742	938.527592529768	2401	0	0	153	8	8	io.reactivex.internal.operators.maybe.MaybeAmb	0	0	0	6	2	2			10	0
+1	1	42	87	258	483.1074838881807	2380	0	0	87	4	1	io.reactivex.internal.operators.maybe.MaybeToObservable	0	0	0	5	1	3	context	State	4	0
+-1	0	12	47	59	191.64425986356883	2364	0	1	34	2	1	io.reactivex.internal.operators.maybe.MaybeUnsafeCreate	0	0	0	1	0	2			3	0
+1	1	70	109	518	681.2473014062837	2359	0	0	132	2	1	io.reactivex.internal.operators.maybe.MaybeFlatten	0	0	0	7	1	2			3	0
+1	4	164	150	1316	1077.3528167827894	2441	0	0	231	6	8	io.reactivex.internal.operators.maybe.MaybeUsing	0	0	0	9	4	2	context	State	10	0
+1	1	44	72	252	398.1188943008225	2351	0	0	85	4	1	io.reactivex.internal.operators.maybe.MaybeFromCompletable	0	0	0	4	1	3	context	State	4	0
+1	1	125	158	1133	1111.154633242425	2405	0	0	191	5	6	io.reactivex.internal.operators.maybe.MaybeConcatIterable	0	0	0	10	1	2			8	0
+1	2	81	118	626	759.8433437898116	2492	0	0	149	2	1	io.reactivex.internal.operators.maybe.MaybeOnErrorNext	0	0	0	7	2	2			3	0
+0	3	105	106	544	667.6886201667298	1867	-1	0	162	17	58	io.reactivex.internal.operators.flowable.FlowableThrottleFirstTest	0	0	0	10	3	13			71	3
+-1	0	185	124	867	838.8648331207871	1865	-1	36	280	14	108	io.reactivex.internal.operators.flowable.FlowableTakeUntilTest	0	0	0	7	0	9			117	0
+-1	0	105	70	649	453.28029016928633	2678	-1	136	178	47	35	io.reactivex.internal.operators.flowable.FlowableScalarXMapTest	0	0	0	9	0	17			52	0
+0	2	273	244	1487	1782.301890936278	1880	-1	564	498	48	210	io.reactivex.internal.operators.flowable.FlowableWindowWithTimeTest	0	0	0	14	2	40			250	-1
+-1	0	128	76	778	505.91121583755773	2703	-1	378	256	83	131	io.reactivex.internal.operators.flowable.FlowableFlatMapMaybeTest	0	0	0	10	0	28			159	-1
+0	2	805	565	5017	4814.131894833603	1792	-1	4174	1218	218	484	io.reactivex.internal.operators.flowable.FlowableCombineLatestTest	0	0	0	18	2	92			576	-1
+0	1	312	168	1809	1260.0889535464096	1877	-1	526	455	57	145	io.reactivex.internal.operators.flowable.FlowableWindowWithObservableTest	0	0	0	11	1	33			178	-1
+-1	0	100	84	434	510.135740864434	1852	-1	45	173	18	100	io.reactivex.internal.operators.flowable.FlowableSkipTest	0	0	0	10	0	10			110	0
+0	1	213	215	1420	1560.558612377991	1828	-1	91	299	35	105	io.reactivex.internal.operators.flowable.FlowableMergeMaxConcurrentTest	0	0	0	11	1	14			119	-1
+0	1	718	594	4661	5017.509266045408	1831	-1	4463	1141	198	542	io.reactivex.internal.operators.flowable.FlowableObserveOnTest	0	0	0	19	1	95			637	-1
+0	2	721	589	5455	5067.925572079364	1843	-1	1906	1000	156	465	io.reactivex.internal.operators.flowable.FlowableRetryTest	0	0	0	17	2	64			529	-1
+-1	0	186	174	1044	1209.4417697090096	1826	-1	66	285	32	107	io.reactivex.internal.operators.flowable.FlowableMaterializeTest	0	0	0	10	0	12			119	0
+0	2	280	221	1741	1649.1495016887698	1844	-1	363	389	80	167	io.reactivex.internal.operators.flowable.FlowableRetryWithPredicateTest	0	0	0	16	6	30			197	-1
+-1	0	73	85	396	508.42020795663086	2153	-1	21	159	24	64	io.reactivex.internal.operators.flowable.FlowableFromCallableTest	0	0	0	9	0	7			71	-1
+0	4	1148	839	7799	7518.908920638287	1829	-1	7325	1627	250	789	io.reactivex.internal.operators.flowable.FlowableMergeTest	0	0	0	19	8	126			915	-1
+-1	0	120	73	728	481.0919765183581	2704	-1	325	243	77	125	io.reactivex.internal.operators.flowable.FlowableFlatMapSingleTest	0	0	0	10	0	26			151	-1
+-1	0	46	45	202	238.87204638305423	2162	-1	21	86	7	42	io.reactivex.internal.operators.flowable.FlowableToSingleTest	0	0	0	5	0	7			49	0
+-1	0	158	81	768	538.1469683849615	1823	-1	325	297	50	155	io.reactivex.internal.operators.flowable.FlowableLastTest	0	0	0	7	0	26			181	-1
+-1	0	71	56	303	319.9690371085247	1809	-1	21	133	14	79	io.reactivex.internal.operators.flowable.FlowableDematerializeTest	0	0	0	6	0	7			86	0
+-1	0	210	101	1278	722.4582151286854	2702	-1	861	383	126	197	io.reactivex.internal.operators.flowable.FlowableFlatMapCompletableTest	0	0	0	13	0	42			239	0
+-1	0	178	87	886	590.4443747026421	1885	-1	136	312	18	120	io.reactivex.internal.operators.flowable.FlowableDelaySubscriptionOtherTest	0	0	0	8	0	17			137	0
+0	4	196	113	929	772.2542874859637	1845	-1	29	278	25	109	io.reactivex.internal.operators.flowable.FlowableSampleTest	0	0	0	9	4	15			124	-1
+-1	0	56	45	203	239.09426905688042	1816	-1	153	138	18	79	io.reactivex.internal.operators.flowable.FlowableElementAtTest	0	0	0	4	0	18			97	0
+0	5	69	75	295	426.5231517254865	1882	1	0	112	13	25	io.reactivex.internal.operators.flowable.FlowableZipCompletionTest	0	0	0	7	6	6			31	1
+-1	0	40	53	246	291.7825714044152	1813	-1	45	140	11	21	io.reactivex.internal.operators.flowable.FlowableDoOnRequestTest	0	0	0	7	0	10			31	0
+-1	0	74	81	395	484.2897469569909	2142	-1	45	125	20	45	io.reactivex.internal.operators.flowable.BlockingFlowableToFutureTest	0	0	0	8	0	10			55	0
+-1	0	41	52	175	268.56887064402275	2152	-1	15	85	8	24	io.reactivex.internal.operators.flowable.FlowableFromArrayTest	0	0	0	4	0	6			30	-1
+-1	0	53	50	213	268.06460828547125	1790	-1	21	124	14	53	io.reactivex.internal.operators.flowable.NotificationLiteTest	0	0	0	7	0	7			60	0
+0	3	654	300	3460	2444.7071604155312	1808	-1	1684	939	157	393	io.reactivex.internal.operators.flowable.FlowableDelayTest	0	0	0	16	7	61			454	1
+0	2	352	222	1858	1671.05081410098	1881	-1	213	579	37	207	io.reactivex.internal.operators.flowable.FlowableWithLatestFromTest	0	0	0	11	3	26			233	2
+0	3	183	164	1281	1173.4849935110644	1879	-1	258	259	42	89	io.reactivex.internal.operators.flowable.FlowableWindowWithStartEndObservableTest	0	0	0	11	3	24			113	-1
+-1	0	36	49	155	247.1278307290431	1793	-1	1	81	6	25	io.reactivex.internal.operators.flowable.FlowableDeferTest	0	0	0	7	0	2			27	0
+0	2	180	95	839	639.5600171143846	2155	-1	46	302	37	113	io.reactivex.internal.operators.flowable.FlowableJoinTest	0	0	0	7	2	17			130	-1
+0	1	312	285	1977	2162.9607096036257	1862	-1	664	451	64	219	io.reactivex.internal.operators.flowable.FlowableTakeTest	0	0	0	15	1	37			256	-1
+-1	0	201	165	1141	1161.5439577272425	1874	-1	171	304	32	177	io.reactivex.internal.operators.flowable.FlowableToListTest	0	0	0	11	0	19			196	-1
+-1	0	88	62	481	382.9037707465572	1824	-1	66	145	26	30	io.reactivex.internal.operators.flowable.FlowableMapNotificationTest	0	0	0	6	0	12			42	0
+0	3	168	103	792	687.4798233568858	1797	-1	0	285	24	79	io.reactivex.internal.operators.flowable.FlowableTimerTest	0	0	0	10	3	15			94	-1
+-1	0	310	198	1991	1504.0856762047108	1817	-1	946	548	77	235	io.reactivex.internal.operators.flowable.FlowableFilterTest	0	0	0	17	0	44			279	-1
+0	1	207	166	1365	1198.339011464764	1838	-1	34	291	30	112	io.reactivex.internal.operators.flowable.FlowableOnExceptionResumeNextViaObservableTest	0	0	0	12	1	9			121	0
+0	2	535	407	3265	3293.043121976186	1827	-1	832	844	79	316	io.reactivex.internal.operators.flowable.FlowableMergeDelayErrorTest	0	0	0	15	2	45			361	-1
+-1	0	70	104	409	625.4263762284514	1787	-1	28	134	14	29	io.reactivex.internal.operators.flowable.BlockingFlowableToIteratorTest	0	0	0	7	0	8			37	-1
+-1	0	326	102	2381	793.07813634166	2409	-1	741	453	92	211	io.reactivex.internal.operators.flowable.FlowableCreateTest	0	0	0	8	0	39			250	0
+-1	0	89	49	373	290.157342562547	1853	-1	10	167	11	57	io.reactivex.internal.operators.flowable.FlowableSkipTimedTest	0	0	0	9	0	5			62	0
+-1	0	84	76	425	459.9587768382557	1784	-1	28	171	11	54	io.reactivex.internal.operators.flowable.BlockingFlowableLatestTest	0	0	0	6	0	8			62	0
+0	3	221	181	1266	1292.9947860894458	2154	-1	193	359	56	118	io.reactivex.internal.operators.flowable.FlowableGroupJoinTest	0	0	0	8	3	27			145	-1
+0	1	162	173	1069	1206.584851607333	1837	-1	76	257	38	78	io.reactivex.internal.operators.flowable.FlowableOnErrorReturnTest	0	0	0	13	1	13			91	0
+0	1	139	119	736	785.5463841287363	1798	-1	137	244	35	103	io.reactivex.internal.operators.flowable.FlowableToFutureTest	0	0	0	8	2	18			121	-1
+-1	0	191	162	1200	1148.5924473957268	1875	-1	276	292	43	148	io.reactivex.internal.operators.flowable.FlowableToSortedListTest	0	0	0	12	0	24			172	-1
+-1	0	187	197	1141	1386.813088922829	1789	-1	136	291	29	138	io.reactivex.internal.operators.flowable.FlowableCacheTest	0	0	0	13	0	17			155	-1
+-1	0	237	121	1318	869.2483565225567	1800	-1	703	374	84	164	io.reactivex.internal.operators.flowable.FlowableAllTest	0	0	0	10	0	38			202	0
+-1	0	241	140	1601	1032.97371981954	1870	-1	253	370	73	151	io.reactivex.internal.operators.flowable.FlowableTimeoutWithSelectorTest	0	0	0	17	0	23			174	-1
+0	5	282	114	1589	840.2780589851857	1872	-1	384	399	88	161	io.reactivex.internal.operators.flowable.FlowableToMapTest	0	0	0	7	6	33			194	1
+-1	0	192	130	1154	916.6286281188459	1822	-1	561	326	38	145	io.reactivex.internal.operators.flowable.FlowableIgnoreElementsTest	0	0	0	11	0	34			179	0
+-1	0	7	13	24	41.31469979452329	2279	0	0	32	1	5	io.reactivex.internal.operators.flowable.FlowableAutoConnectTest	0	0	0	3	0	1			6	0
+0	2	372	260	2485	2032.6872640179897	1825	-1	1750	675	150	197	io.reactivex.internal.operators.flowable.FlowableMapTest	0	0	0	16	3	60			257	-1
+-1	0	178	162	944	1109.720438915571	1795	-1	378	280	40	101	io.reactivex.internal.operators.flowable.FlowableRangeTest	0	0	0	9	0	28			129	-1
+-1	0	87	57	361	335.6660436249742	1851	-1	21	178	13	69	io.reactivex.internal.operators.flowable.FlowableSkipLastTimedTest	0	0	0	9	0	7			76	0
+0	3	206	158	1090	1105.0414100852638	1806	-1	126	315	45	136	io.reactivex.internal.operators.flowable.FlowableDebounceTest	0	0	0	12	3	25			161	-1
+0	5	257	161	1338	1159.027929750796	1869	-1	0	386	43	192	io.reactivex.internal.operators.flowable.FlowableTimeoutTests	0	0	0	13	5	22			214	-1
+-1	0	16	36	108	168.5567241764719	2677	0	1	42	6	7	io.reactivex.internal.operators.flowable.FlowableLiftTest	0	0	0	5	0	2			9	0
+-1	0	170	99	855	668.3590454247392	2150	-1	253	285	42	133	io.reactivex.internal.operators.flowable.FlowableConcatDelayErrorTest	0	0	0	8	0	23			156	-1
+0	3	85	94	414	566.4314015395795	1855	-1	0	132	21	78	io.reactivex.internal.operators.flowable.FlowableSkipWhileTest	0	0	0	6	4	9			87	2
+0	6	1158	702	8899	6383.773321279517	1821	-1	14941	1664	380	650	io.reactivex.internal.operators.flowable.FlowableGroupByTest	0	0	0	17	8	174			824	-1
+-1	0	73	86	370	508.5612584848912	1859	-1	28	140	8	44	io.reactivex.internal.operators.flowable.FlowableTakeLastOneTest	0	0	0	7	0	8			52	0
+-1	0	47	95	419	573.5977373926031	1788	-1	6	84	16	35	io.reactivex.internal.operators.flowable.BufferUntilSubscriberTest	0	0	0	9	0	4			39	0
+-1	0	115	127	792	847.6692967604321	1876	-1	10	198	8	65	io.reactivex.internal.operators.flowable.FlowableUnsubscribeOnTest	0	0	0	8	0	5			70	-1
+0	1	75	90	421	543.8369550314143	2319	-1	64	130	22	36	io.reactivex.internal.operators.flowable.FlowableOnBackpressureBufferStrategyTest	0	0	0	13	1	12			48	-1
+0	1	519	328	3378	2665.0128239366204	1820	-1	2143	746	173	358	io.reactivex.internal.operators.flowable.FlowableFlatMapTest	0	0	0	14	1	66			424	-1
+-1	0	163	164	861	1108.3274987261477	1841	-1	253	270	45	172	io.reactivex.internal.operators.flowable.FlowableRepeatTest	0	0	0	14	0	23			195	-1
+0	1	257	246	1827	1847.5659168689895	1835	-1	298	379	75	136	io.reactivex.internal.operators.flowable.FlowableOnErrorResumeNextViaFunctionTest	0	0	0	13	1	25			161	-1
+-1	0	803	639	5043	5447.9583537070275	1805	-1	2850	1245	147	523	io.reactivex.internal.operators.flowable.FlowableConcatTest	0	0	0	19	0	76			599	-1
+1	1	92	48	376	284.62027888271496	1854	3	0	155	14	61	io.reactivex.internal.operators.flowable.FlowableSkipUntilTest	0	0	0	5	1	7			68	3
+0	2	48	61	226	330.65263495560947	2161	-1	19	102	16	29	io.reactivex.internal.operators.flowable.FlowableDoAfterTerminateTest	0	0	0	9	2	7			36	0
+-1	0	51	63	248	347.3460110083939	1785	-1	10	106	6	33	io.reactivex.internal.operators.flowable.BlockingFlowableMostRecentTest	0	0	0	8	0	5			38	0
+-1	0	2	4	4	5.545177444479562	1830	-1	0	113	0	0	io.reactivex.internal.operators.flowable.FlowableMulticastTest	0	0	0	0	0	0			0	-1
+-1	0	852	507	4609	4276.933459709298	1842	-1	1770	1300	104	478	io.reactivex.internal.operators.flowable.FlowableReplayTest	0	0	0	21	0	60			538	-1
+-1	0	53	44	229	239.08376815638655	2156	-1	21	100	7	48	io.reactivex.internal.operators.flowable.FlowableToCompletableTest	0	0	0	6	0	7			55	0
+-1	0	63	67	305	383.2608890326966	1807	-1	28	110	13	50	io.reactivex.internal.operators.flowable.FlowableDefaultIfEmptyTest	0	0	0	6	0	8			58	-1
+-1	0	60	58	254	321.1653874870751	1850	-1	21	110	12	71	io.reactivex.internal.operators.flowable.FlowableSkipLastTest	0	0	0	9	0	7			78	0
+-1	0	12	17	42	63.540383510817264	2160	-1	1	41	2	15	io.reactivex.internal.operators.flowable.FlowableCountTest	0	0	0	2	0	2			17	0
+0	1	189	129	1147	908.7927601096889	1860	-1	859	319	55	135	io.reactivex.internal.operators.flowable.FlowableTakeLastTest	0	0	0	11	1	42			177	-1
+-1	0	208	193	1278	1380.5389655429337	1878	-1	465	329	48	159	io.reactivex.internal.operators.flowable.FlowableWindowWithSizeTest	0	0	0	12	0	31			190	-1
+0	3	173	123	1034	853.7663767734101	1840	-1	278	288	67	132	io.reactivex.internal.operators.flowable.FlowableReduceTest	0	0	0	12	3	28			160	-1
+0	9	217	146	1221	1037.6841192201628	1883	-1	172	361	57	119	io.reactivex.internal.operators.flowable.FlowableZipIterableTest	0	0	0	11	10	24			143	2
+0	2	107	126	679	821.5982620723958	1833	-1	151	182	31	61	io.reactivex.internal.operators.flowable.FlowableOnBackpressureDropTest	0	0	0	10	2	18			79	-1
+-1	0	73	71	332	412.1645827930707	1847	-1	120	159	32	64	io.reactivex.internal.operators.flowable.FlowableSequenceEqualTest	0	0	0	7	0	16			80	-1
+-1	0	25	34	106	158.55692919981027	1802	-1	1	66	4	22	io.reactivex.internal.operators.flowable.FlowableAsObservableTest	0	0	0	8	0	2			24	0
+0	2	74	63	321	363.600790757191	1810	2	0	123	17	73	io.reactivex.internal.operators.flowable.FlowableDistinctTest	0	0	0	6	2	8			81	2
+-1	0	238	232	1525	1700.5019278576308	1786	-1	153	324	47	128	io.reactivex.internal.operators.flowable.BlockingFlowableNextTest	0	0	0	11	0	18			146	0
+-1	0	377	128	1966	970.7208064905103	1801	-1	1431	550	122	272	io.reactivex.internal.operators.flowable.FlowableAnyTest	0	0	0	9	0	54			326	0
+-1	0	67	43	280	242.29595293627773	1863	-1	6	133	8	44	io.reactivex.internal.operators.flowable.FlowableTakeTimedTest	0	0	0	9	0	4			48	0
+-1	0	86	81	548	510.8082982427893	1815	-1	28	155	12	35	io.reactivex.internal.operators.flowable.FlowableDoOnUnsubscribeTest	0	0	0	9	0	8			43	0
+0	4	583	384	4019	3186.734743468493	1858	-1	1419	813	125	389	io.reactivex.internal.operators.flowable.FlowableSwitchTest	0	0	0	17	4	74			463	-1
+0	2	289	254	2496	1986.900961290287	1848	-1	8	408	9	38	io.reactivex.internal.operators.flowable.FlowableSerializeTest	0	0	0	9	2	5			43	0
+0	2	524	287	2699	2267.4827079361676	2124	-1	1972	820	114	387	io.reactivex.internal.operators.flowable.FlowableConcatMapEagerTest	0	0	0	14	4	73			460	4
+0	2	155	156	817	1046.0796987981605	1832	-1	394	294	39	119	io.reactivex.internal.operators.flowable.FlowableOnBackpressureBufferTest	0	0	0	12	2	29			148	-1
+0	4	342	149	1641	1103.0561025724235	1819	-1	1045	547	108	363	io.reactivex.internal.operators.flowable.FlowableFirstTest	0	0	0	7	4	50			413	-1
+-1	0	155	79	643	510.8254332147719	1861	-1	55	272	16	100	io.reactivex.internal.operators.flowable.FlowableTakeLastTimedTest	0	0	0	10	0	11			111	0
+0	1	74	86	392	513.5285182219798	1834	-1	13	131	11	52	io.reactivex.internal.operators.flowable.FlowableOnBackpressureLatestTest	0	0	0	8	1	6			58	-1
+0	1	401	315	2508	2465.580884052136	1796	-1	1223	593	79	204	io.reactivex.internal.operators.flowable.FlowableRefCountTest	0	0	0	14	1	50			254	-1
+0	1	531	277	3650	2272.0876377017007	1794	-1	4736	867	184	299	io.reactivex.internal.operators.flowable.FlowableFromIterableTest	0	0	0	17	5	101			400	-1
+0	1	193	177	1180	1251.9687399903687	1866	-1	159	272	44	91	io.reactivex.internal.operators.flowable.FlowableTakeWhileTest	0	0	0	10	2	19			110	-1
+0	1	131	114	972	784.24656170849	1857	-1	247	216	43	114	io.reactivex.internal.operators.flowable.FlowableSwitchIfEmptyTest	0	0	0	12	1	23			137	-1
+0	5	966	478	5650	4129.638373939153	1803	-1	6702	1523	244	658	io.reactivex.internal.operators.flowable.FlowableBufferTest	0	0	0	18	9	124			782	-1
+0	3	488	173	2332	1341.5253077123762	2128	-1	0	757	44	315	io.reactivex.internal.operators.flowable.FlowableFromSourceTest	0	0	0	8	3	43			358	-1
+-1	0	31	49	162	249.2922204263868	2412	-1	10	76	10	21	io.reactivex.internal.operators.flowable.FlowableIntervalRangeTest	0	0	0	5	0	5			26	0
+-1	0	68	59	400	353.49640827937094	1814	-1	36	107	14	32	io.reactivex.internal.operators.flowable.FlowableDoOnSubscribeTest	0	0	0	7	0	9			41	-1
+-1	0	28	36	114	170.50314414220185	1804	-1	3	73	5	27	io.reactivex.internal.operators.flowable.FlowableCastTest	0	0	0	6	0	3			30	0
+0	5	384	138	2261	1065.85162117436	1873	-1	829	540	136	215	io.reactivex.internal.operators.flowable.FlowableToMultimapTest	0	0	0	7	6	47			262	2
+0	9	1056	811	6816	7158.719763560923	1884	-1	7464	1590	303	559	io.reactivex.internal.operators.flowable.FlowableZipTest	0	0	0	17	10	128			687	-1
+0	2	167	119	890	808.1553540644161	1811	-1	244	265	49	131	io.reactivex.internal.operators.flowable.FlowableDistinctUntilChangedTest	0	0	0	10	4	25			156	-1
+0	2	352	147	2277	1136.4002677113697	2108	-1	1674	548	127	170	io.reactivex.internal.operators.flowable.FlowableFlattenIterableTest	0	0	0	8	2	60			230	-1
+0	2	324	208	1934	1574.007900610754	1799	-1	1473	504	128	170	io.reactivex.internal.operators.flowable.FlowableUsingTest	0	0	0	13	2	55			225	-1
+-1	0	409	163	2269	1259.516401019114	1849	-1	2485	687	125	357	io.reactivex.internal.operators.flowable.FlowableSingleTest	0	0	0	11	0	71			428	-1
+-1	0	154	106	950	726.7849703670262	2312	-1	528	266	44	115	io.reactivex.internal.operators.flowable.FlowableBlockingTest	0	0	0	11	0	33			148	-1
+-1	0	6	13	21	39.5787916904045	2676	0	0	33	1	5	io.reactivex.internal.operators.flowable.AbstractFlowableWithUpstreamTest	0	0	0	5	0	1			6	0
+0	2	316	275	2262	2124.101280585918	1791	-1	478	535	55	199	io.reactivex.internal.operators.flowable.FlowableAmbTest	0	0	0	17	2	32			231	-1
+0	5	69	70	385	416.72703340014493	1868	-1	26	125	22	29	io.reactivex.internal.operators.flowable.FlowableTimeIntervalTest	0	0	0	10	5	8			37	0
+0	1	80	69	369	407.84496843879634	2151	-1	22	161	11	64	io.reactivex.internal.operators.flowable.FlowableDetachTest	0	0	0	7	1	8			72	-1
+-1	0	37	43	243	236.20164206364356	2410	-1	21	75	20	17	io.reactivex.internal.operators.flowable.FlowableForEachTest	0	0	0	6	0	7			24	0
+0	1	251	171	1674	1269.328083929451	1846	-1	940	401	77	147	io.reactivex.internal.operators.flowable.FlowableScanTest	0	0	0	11	1	44			191	-1
+0	1	455	221	2890	1761.1516036245316	1812	-1	2199	720	130	279	io.reactivex.internal.operators.flowable.FlowableDoOnEachTest	0	0	0	17	2	67			346	-1
+-1	0	19	29	122	139.31661029726445	2411	-1	6	47	10	6	io.reactivex.internal.operators.flowable.FlowableGenerateTest	0	0	0	4	0	4			10	0
+-1	0	178	128	965	879.6323969713902	2208	-1	253	293	49	137	io.reactivex.internal.operators.flowable.FlowablePublishFunctionTest	0	0	0	10	0	23			160	0
+-1	0	108	78	569	494.8226738618538	1864	-1	120	164	38	74	io.reactivex.internal.operators.flowable.FlowableTakeUntilPredicateTest	0	0	0	7	0	16			90	0
+-1	0	179	214	1372	1545.9413089731677	1856	-1	190	284	40	97	io.reactivex.internal.operators.flowable.FlowableSubscribeOnTest	0	0	0	11	0	20			117	-1
+0	1	80	61	436	370.7361768442911	1871	-1	30	140	24	43	io.reactivex.internal.operators.flowable.FlowableTimestampTest	0	0	0	10	1	9			52	0
+0	1	161	160	1079	1117.4063944413015	1836	-1	43	246	35	88	io.reactivex.internal.operators.flowable.FlowableOnErrorResumeNextViaObservableTest	0	0	0	11	1	10			98	-1
+0	1	285	266	1739	1984.6434268182393	1839	-1	463	419	48	170	io.reactivex.internal.operators.flowable.FlowablePublishTest	0	0	0	13	1	31			201	-1
+0	3	164	141	1328	1013.9915355351294	1555	-1	13	218	35	22	io.reactivex.internal.operators.flowable.FlowableDistinct	0	0	0	9	4	11			33	-1
+1	2	69	86	478	530.5865229942652	1557	0	0	107	2	1	io.reactivex.internal.operators.flowable.FlowableElementAt	0	0	0	3	2	2			3	0
+-1	0	8	24	36	86.00445452294665	2176	0	1	28	2	1	io.reactivex.internal.operators.flowable.FlowableSerialized	0	0	0	3	0	2			3	0
+1	3	230	109	1705	811.1039224792203	1556	0	0	299	4	1	io.reactivex.internal.operators.flowable.FlowableDoOnEach	0	0	0	6	4	2			3	0
+1	3	256	212	2612	1667.9887559640201	2121	0	0	374	2	1	io.reactivex.internal.operators.flowable.FlowableConcatMapEager	0	0	0	11	4	2			3	0
+1	1	74	90	544	566.9054322170348	1585	0	0	104	2	1	io.reactivex.internal.operators.flowable.FlowableTake	0	0	0	3	1	2			3	0
+0	2	175	183	1197	1297.0259881171091	-1	-1	241	266	48	16	io.reactivex.internal.operators.flowable.SimpleGenerator	0	0	0	7	2	23			39	-1
+1	4	217	143	1622	1056.9723785585763	1595	0	0	313	4	2	io.reactivex.internal.operators.flowable.FlowableTimeoutTimed	0	0	0	11	4	2	context	State	4	0
+1	4	22	68	126	328.8671696727005	1606	0	0	53	3	3	io.reactivex.internal.operators.flowable.FlowableAutoConnect	0	0	0	6	4	2			5	0
+-1	0	52	77	353	451.7180403838638	1561	0	1	105	2	1	io.reactivex.internal.operators.flowable.FlowableIgnoreElements	0	0	0	3	0	2			3	0
+1	2	319	244	3143	1964.9156609786064	2106	0	0	450	6	7	io.reactivex.internal.operators.flowable.FlowableFlattenIterable	0	0	0	11	2	2	context	State	9	0
+1	1	66	111	485	686.4405268940607	1622	0	0	102	2	2	io.reactivex.internal.operators.flowable.FlowableRepeat	0	0	0	3	1	2			4	0
+-1	0	109	107	956	734.3150966965	1564	0	1	157	3	1	io.reactivex.internal.operators.flowable.FlowableMaterialize	0	0	0	5	0	2			3	0
+0	2	61	88	372	520.8626591760369	2627	1	0	116	8	6	io.reactivex.internal.operators.flowable.FlowableToListSingle	0	0	0	11	2	4			10	1
+1	1	56	71	385	422.6802767344327	1597	0	0	98	2	1	io.reactivex.internal.operators.flowable.FlowableUnsubscribeOn	0	0	0	5	1	2			3	0
+1	1	48	69	309	395.6005481059445	1579	0	0	87	2	1	io.reactivex.internal.operators.flowable.FlowableSkipLast	0	0	0	3	1	2			3	0
+1	3	108	129	798	861.9920090710253	1592	0	0	171	2	2	io.reactivex.internal.operators.flowable.FlowableThrottleFirstTimed	0	0	0	11	3	2	context	State	4	0
+0	5	67	85	396	508.42020795663086	-1	0	2	180	17	18	io.reactivex.internal.operators.flowable.NextIterator	0	0	0	7	7	5			23	0
+1	1	115	102	890	692.704589198071	1558	0	0	167	4	1	io.reactivex.internal.operators.flowable.FlowableFilter	0	0	0	4	1	2			3	0
+1	2	79	90	526	563.8771091463939	2636	0	0	130	4	2	io.reactivex.internal.operators.flowable.FlowableSingleSingle	0	0	0	7	2	3			5	0
+1	1	75	108	529	677.2667506406963	2430	0	0	123	2	1	io.reactivex.internal.operators.flowable.FlowableReduce	0	0	0	7	1	2			3	0
+1	1	34	55	207	293.29953362959526	2179	0	0	72	2	1	io.reactivex.internal.operators.flowable.FlowableFromObservable	0	0	0	6	1	2	adapter	(Object)Adapter	3	0
+1	4	158	179	1218	1271.7888152403018	2695	0	0	247	4	2	io.reactivex.internal.operators.flowable.FlowableFlatMapCompletableCompletable	2	1	0	13	4	3			5	0
+1	3	79	96	537	603.455817072851	2632	0	0	130	4	2	io.reactivex.internal.operators.flowable.FlowableElementAtSingle	0	0	0	7	3	3			5	0
+1	1	45	62	287	350.8878973770965	1583	0	0	76	2	2	io.reactivex.internal.operators.flowable.FlowableSwitchIfEmpty	0	0	0	2	1	2			4	0
+-1	0	36	57	223	308.20879097322677	1550	0	1	75	2	1	io.reactivex.internal.operators.flowable.FlowableCount	0	0	0	2	0	2			3	0
+1	5	714	334	6842	2949.4990120895413	1602	0	0	930	4	2	io.reactivex.internal.operators.flowable.FlowableWindowTimed	0	0	0	17	7	2	context	State	4	0
+0	3	205	249	1528	1825.59702746189	2215	1	0	298	12	8	io.reactivex.internal.operators.flowable.FlowableWithLatestFromMany	0	0	0	10	3	4			12	1
+1	1	69	73	474	449.7681344837406	1591	0	0	110	2	1	io.reactivex.internal.operators.flowable.FlowableTakeWhile	0	0	0	5	1	2			3	0
+1	3	369	299	3482	2438.4532739781125	2205	0	0	501	5	5	io.reactivex.internal.operators.flowable.FlowablePublishMulticast	0	0	0	11	3	2	context	State	7	0
+1	2	76	85	517	531.0836443332165	2623	0	0	123	4	2	io.reactivex.internal.operators.flowable.FlowableAnySingle	0	0	0	8	2	3			5	0
+1	1	43	62	257	344.0427172635036	2633	0	0	88	4	2	io.reactivex.internal.operators.flowable.FlowableIgnoreElementsCompletable	2	1	0	6	1	3			5	0
+1	2	50	71	324	410.4327896212554	1593	0	0	93	2	1	io.reactivex.internal.operators.flowable.FlowableTimeInterval	0	0	0	5	2	2			3	0
+0	1	311	148	2826	1176.099399360182	1617	-1	1	414	11	9	io.reactivex.internal.operators.flowable.FlowableFromIterable	0	0	0	8	1	3			12	-1
+1	3	133	163	960	1119.3101253672867	1552	0	0	208	2	2	io.reactivex.internal.operators.flowable.FlowableDebounceTimed	0	0	0	11	3	2	context	State	4	0
+1	4	320	299	2998	2393.7045029201	2145	0	0	497	2	3	io.reactivex.internal.operators.flowable.FlowableGroupJoin	0	0	0	14	4	2			5	0
+1	1	21	63	108	294.97426730882586	2191	0	0	49	4	1	io.reactivex.internal.operators.flowable.AbstractFlowableWithUpstream	0	0	0	4	1	2			3	0
+1	3	303	238	2760	1885.6706581732644	1600	0	0	428	2	1	io.reactivex.internal.operators.flowable.FlowableWindowBoundarySelector	0	0	0	16	3	2			3	0
+1	4	87	93	600	594.9144579351016	1553	0	0	129	4	2	io.reactivex.internal.operators.flowable.FlowableDelay	0	0	0	6	4	2	context	State	4	0
+1	3	14	38	76	164.56786693088057	2175	0	0	39	3	1	io.reactivex.internal.operators.flowable.FlowableDoOnLifecycle	0	0	0	5	3	2			3	0
+1	3	241	213	2385	1656.49128790768	1627	0	0	329	2	2	io.reactivex.internal.operators.flowable.FlowableSequenceEqual	0	0	0	10	4	2			4	0
+1	1	62	74	444	451.09101761998465	1582	0	0	96	2	1	io.reactivex.internal.operators.flowable.FlowableSkipWhile	0	0	0	4	1	2			3	0
+0	2	86	113	571	717.2549806911292	2431	1	0	144	6	2	io.reactivex.internal.operators.flowable.FlowableReduceMaybe	0	0	0	9	2	4	adapter	(Object)Adapter	6	1
+0	2	89	95	653	615.749827281261	1581	0	7	140	11	17	io.reactivex.internal.operators.flowable.FlowableSkipUntil	0	0	0	4	2	6			23	0
+-1	0	120	169	953	1159.27491871756	2104	0	3	164	10	9	io.reactivex.internal.operators.flowable.FlowableScalarXMap	0	0	0	8	0	3			12	0
+1	1	84	107	719	703.831165276152	1586	0	0	129	2	1	io.reactivex.internal.operators.flowable.FlowableTakeLast	0	0	0	5	1	2			3	0
+1	1	141	154	1130	1082.6158284027833	1551	0	0	211	2	1	io.reactivex.internal.operators.flowable.FlowableDebounce	0	0	0	10	1	2			3	0
+1	1	48	75	305	429.02338324555586	1596	0	0	90	5	4	io.reactivex.internal.operators.flowable.FlowableToList	0	0	0	5	1	2			6	0
+1	1	22	43	126	207.96012199891356	1608	0	0	46	6	4	io.reactivex.internal.operators.flowable.FlowableDefer	0	0	0	5	1	2			6	0
+1	1	68	107	477	659.9242645250525	1623	0	0	105	2	2	io.reactivex.internal.operators.flowable.FlowableRepeatUntil	0	0	0	5	1	2			4	0
+-1	0	59	65	388	387.4653470755128	1554	0	1	99	3	1	io.reactivex.internal.operators.flowable.FlowableDematerialize	0	0	0	4	0	2			3	0
+0	1	79	89	554	562.2276571205083	1567	0	0	129	4	1	io.reactivex.internal.operators.flowable.FlowableOnBackpressureDrop	0	0	0	7	1	4			5	0
+1	1	20	53	120	253.73706236744843	1611	0	0	43	6	3	io.reactivex.internal.operators.flowable.FlowableError	0	0	0	5	1	2			5	0
+1	3	80	97	539	610.1024103781727	2626	0	0	133	6	5	io.reactivex.internal.operators.flowable.FlowableCollectSingle	0	0	0	11	3	3			8	0
+1	3	207	182	1834	1367.5943468125865	1566	0	0	278	2	1	io.reactivex.internal.operators.flowable.FlowableOnBackpressureBuffer	0	0	0	8	4	2			3	0
+1	1	47	64	303	365.6788995525996	1578	0	0	82	2	1	io.reactivex.internal.operators.flowable.FlowableSkip	0	0	0	2	1	2			3	0
+1	2	248	195	2214	1501.9984420873736	1601	0	0	356	2	1	io.reactivex.internal.operators.flowable.FlowableWindowBoundarySupplier	0	0	0	15	2	2			3	0
+1	1	71	109	531	683.9490603153713	1624	0	0	112	2	2	io.reactivex.internal.operators.flowable.FlowableRetryBiPredicate	0	0	0	5	1	2			4	0
+0	3	65	95	584	605.1405933686816	1609	-1	56	108	18	23	io.reactivex.internal.operators.flowable.FlowableDelaySubscriptionOther	0	0	0	4	3	12			35	-1
+1	4	506	316	4374	2649.1648915908013	1560	0	0	662	2	1	io.reactivex.internal.operators.flowable.FlowableGroupBy	0	0	0	12	4	2			3	0
+1	1	93	93	715	611.2222764705427	1562	0	0	141	4	1	io.reactivex.internal.operators.flowable.FlowableMap	0	0	0	5	1	2			3	0
+1	2	98	114	685	744.3537475618937	1576	0	0	151	6	4	io.reactivex.internal.operators.flowable.FlowableScanSeed	0	0	0	8	2	2			6	0
+1	2	193	190	1598	1401.5365440019818	1604	0	0	247	8	5	io.reactivex.internal.operators.flowable.FlowableAmb	0	0	0	7	2	2			7	0
+1	2	13	30	60	122.83033686666302	2229	0	0	36	3	1	io.reactivex.internal.operators.flowable.BlockingFlowableIterable	0	0	0	2	2	2			3	0
+0	3	456	495	4112	4119.224079531826	1571	1	0	753	20	19	io.reactivex.internal.operators.flowable.FlowablePublish	0	0	0	12	4	6			25	1
+0	2	108	128	859	864.7384220139846	1603	0	13	160	8	9	io.reactivex.internal.operators.flowable.FlowableWithLatestFrom	0	0	0	7	2	6			15	0
+1	2	77	84	519	525.1599261859346	2622	0	0	125	4	2	io.reactivex.internal.operators.flowable.FlowableAllSingle	0	0	0	8	2	3			5	0
+1	2	69	86	457	526.7227716169016	2631	0	0	118	4	2	io.reactivex.internal.operators.flowable.FlowableElementAtMaybe	0	0	0	6	2	3			5	0
+1	3	197	187	524	1170.8989449680348	2204	0	0	278	2	1	io.reactivex.internal.operators.flowable.FlowableOnBackpressureBufferStrategy	0	0	0	9	3	2			3	0
+1	3	34	65	189	340.71355597887674	1612	0	0	58	7	7	io.reactivex.internal.operators.flowable.FlowableFromFuture	0	0	0	5	3	2			9	0
+1	3	625	413	6139	3602.3582794095555	1559	0	0	738	4	2	io.reactivex.internal.operators.flowable.FlowableFlatMap	0	0	0	13	4	2			4	0
+1	2	390	220	2992	1760.8134146007608	1598	0	0	564	4	1	io.reactivex.internal.operators.flowable.FlowableWindow	0	0	0	9	3	2			3	0
+0	1	95	100	673	651.1745329644727	1628	-1	1	138	3	9	io.reactivex.internal.operators.flowable.FlowableSubscribeOn	0	0	0	5	1	3	context	State	12	0
+1	3	215	196	1583	1443.9471037366784	1544	0	0	319	2	1	io.reactivex.internal.operators.flowable.FlowableBufferBoundary	0	0	0	14	3	2			3	0
+1	1	197	136	1677	1009.7675996079564	1605	0	0	273	4	1	io.reactivex.internal.operators.flowable.FlowableFromArray	0	0	0	6	1	2			3	0
+1	3	57	91	406	546.5781375237576	1616	0	0	102	2	3	io.reactivex.internal.operators.flowable.FlowableInterval	0	0	0	9	4	2			5	0
+0	1	8	23	35	81.77300541425652	2186	0	1	29	2	1	io.reactivex.internal.operators.flowable.FlowableNever	0	0	0	3	1	2			3	0
+1	1	45	67	273	375.8346102773923	2630	0	0	91	4	2	io.reactivex.internal.operators.flowable.FlowableCountSingle	0	0	0	6	1	3			5	0
+1	2	104	125	993	862.5913330056466	2159	0	0	152	2	2	io.reactivex.internal.operators.flowable.FlowableConcatArray	0	0	0	6	2	2			4	0
+1	1	64	72	474	443.6069271620455	1590	0	0	100	2	1	io.reactivex.internal.operators.flowable.FlowableTakeUntilPredicate	0	0	0	4	1	2			3	0
+1	3	237	163	1707	1213.1263138154939	1594	0	0	350	4	1	io.reactivex.internal.operators.flowable.FlowableTimeout	0	0	0	11	3	2			3	0
+1	1	144	102	1172	720.7796309539697	2126	0	0	200	4	1	io.reactivex.internal.operators.flowable.FlowableDistinctUntilChanged	0	0	0	4	1	2			3	0
+0	6	119	130	708	853.1177321801836	2134	-1	42	177	29	28	io.reactivex.internal.operators.flowable.BlockingFlowableIterator	0	0	0	8	10	12			40	-1
+1	3	308	258	2753	2043.4751983267927	2696	0	0	409	2	1	io.reactivex.internal.operators.flowable.FlowableFlatMapMaybe	0	0	0	12	3	2			3	0
+0	5	402	370	3361	3004.397716258289	1607	1	0	565	13	11	io.reactivex.internal.operators.flowable.FlowableCombineLatest	0	0	0	11	5	4			15	1
+1	1	44	123	317	708.3449181869055	1618	1	0	74	10	5	io.reactivex.internal.operators.flowable.FlowableLift	0	0	0	4	1	3			8	1
+-1	0	41	74	249	408.29151433838837	2098	0	1	80	2	1	io.reactivex.internal.operators.flowable.FlowableHide	0	0	0	2	0	2			3	0
+1	3	47	80	307	458.14781980697575	1614	0	0	89	2	3	io.reactivex.internal.operators.flowable.FlowableTimer	0	0	0	8	3	2			5	0
+1	1	72	86	473	529.6822034103062	2635	0	0	119	4	2	io.reactivex.internal.operators.flowable.FlowableSingleMaybe	0	0	0	6	1	3			5	0
+1	5	181	179	1564	1316.5453438778409	1588	0	0	250	2	1	io.reactivex.internal.operators.flowable.FlowableTakeLastTimed	0	0	0	7	6	2			3	0
+1	2	79	97	577	616.7106998512857	1569	0	0	121	2	2	io.reactivex.internal.operators.flowable.FlowableOnErrorNext	0	0	0	5	2	2			4	0
+1	2	299	183	2284	1415.2640934519898	1543	0	0	458	4	1	io.reactivex.internal.operators.flowable.FlowableBuffer	0	0	0	9	3	2			3	0
+1	1	68	82	462	503.1163210687026	1577	0	0	108	2	1	io.reactivex.internal.operators.flowable.FlowableSingle	0	0	0	3	1	2			3	0
+1	1	9	24	43	90.2688027766455	2019	0	0	31	2	1	io.reactivex.internal.operators.flowable.FlowableFromPublisher	0	0	0	2	1	2			3	0
+1	1	23	50	130	243.37672252277912	1626	1	0	51	8	8	io.reactivex.internal.operators.flowable.FlowableFromCallable	0	0	0	6	1	3			11	1
+1	3	132	143	1141	1006.6714300302768	1613	0	0	198	5	4	io.reactivex.internal.operators.flowable.FlowableGenerate	0	0	0	9	3	2			6	0
+1	1	65	77	449	470.2407623561536	1542	0	0	103	2	1	io.reactivex.internal.operators.flowable.FlowableAny	0	0	0	5	1	2			3	0
+1	5	305	278	3220	2245.44398551369	1630	0	0	422	6	4	io.reactivex.internal.operators.flowable.FlowableZip	0	0	0	12	5	2			6	0
+1	1	170	143	1392	1035.1050482478943	1619	0	0	245	4	1	io.reactivex.internal.operators.flowable.FlowableRange	0	0	0	5	2	2			3	0
+1	3	457	284	2503	2222.369662766624	1549	0	0	639	7	2	io.reactivex.internal.operators.flowable.FlowableConcatMap	0	0	0	10	3	3			5	0
+-1	0	45	58	285	327.8443724555817	2144	0	1	85	2	1	io.reactivex.internal.operators.flowable.FlowableDetach	0	0	0	3	0	2			3	0
+1	2	75	94	514	586.7689869527856	1548	0	0	118	5	3	io.reactivex.internal.operators.flowable.FlowableCollect	0	0	0	6	2	2			5	0
+-1	0	112	123	917	838.9962190875451	1568	0	1	172	2	1	io.reactivex.internal.operators.flowable.FlowableOnBackpressureLatest	0	0	0	4	0	2			3	0
+-1	0	42	63	265	351.52297903713196	1587	0	1	77	2	1	io.reactivex.internal.operators.flowable.FlowableTakeLastOne	0	0	0	2	0	2			3	0
+1	2	83	120	638	775.0005940013748	1625	0	0	123	2	2	io.reactivex.internal.operators.flowable.FlowableRetryPredicate	0	0	0	5	2	2			4	0
+1	3	127	117	896	795.3590283180669	1631	0	0	186	6	6	io.reactivex.internal.operators.flowable.FlowableZipIterable	0	0	0	7	3	2			8	0
+1	3	326	225	3129	1810.9054673254986	1584	0	0	416	4	2	io.reactivex.internal.operators.flowable.FlowableSwitchMap	0	0	0	8	3	2			4	0
+1	3	514	261	4695	2206.560135218657	1565	0	0	708	4	2	io.reactivex.internal.operators.flowable.FlowableObserveOn	0	0	0	9	3	2	context	State	4	0
+1	1	65	87	479	536.9379519747496	1575	0	0	105	2	1	io.reactivex.internal.operators.flowable.FlowableScan	0	0	0	4	1	2			3	0
+1	4	130	108	986	744.5148862970846	1629	0	0	178	5	6	io.reactivex.internal.operators.flowable.FlowableUsing	0	0	0	8	4	2	context	State	8	0
+1	3	153	176	1203	1248.2929740115435	2694	0	0	238	2	1	io.reactivex.internal.operators.flowable.FlowableFlatMapCompletable	0	0	0	11	3	2			3	0
+0	4	968	858	7819	7691.379651490834	1572	-1	103	1227	56	53	io.reactivex.internal.operators.flowable.FlowableReplay	0	0	0	15	5	19			72	-1
+1	1	16	45	72	192.4499753557225	1540	0	0	41	4	1	io.reactivex.internal.operators.flowable.FlowableJust	0	0	0	4	1	3			4	0
+1	2	207	163	1521	1194.3210966382646	1545	0	0	300	2	1	io.reactivex.internal.operators.flowable.FlowableBufferBoundarySupplier	0	0	0	13	2	2			3	0
+1	3	84	114	623	733.5383031417697	1574	0	0	135	2	1	io.reactivex.internal.operators.flowable.FlowableSampleTimed	0	0	0	9	3	2			3	0
+0	1	52	103	379	611.56622912349	-1	2	0	127	21	15	io.reactivex.internal.operators.flowable.MostRecentSubscriber	0	0	0	4	2	8			23	2
+1	3	75	107	583	681.3960289395027	1615	0	0	121	2	3	io.reactivex.internal.operators.flowable.FlowableIntervalRange	0	0	0	8	6	2			5	0
+1	2	211	177	1798	1326.514148060587	1599	0	0	310	2	1	io.reactivex.internal.operators.flowable.FlowableWindowBoundary	0	0	0	14	2	2			3	0
+1	5	160	160	1377	1156.4259997965846	1580	0	0	230	2	1	io.reactivex.internal.operators.flowable.FlowableSkipLastTimed	0	0	0	7	5	2			3	0
+0	2	379	451	3293	3652.89898135174	1539	-1	0	446	19	9	io.reactivex.internal.operators.flowable.FlowableCache	0	0	0	9	2	7			16	-1
+1	4	271	257	2853	2044.7244722618696	2146	0	0	400	2	3	io.reactivex.internal.operators.flowable.FlowableJoin	0	0	0	13	4	2			5	0
+1	6	459	232	3357	1883.562295299368	1547	0	0	646	5	2	io.reactivex.internal.operators.flowable.FlowableBufferTimed	0	0	0	14	7	2	context	State	4	0
+1	1	126	126	1105	882.9576773579334	1570	0	0	172	2	1	io.reactivex.internal.operators.flowable.FlowableOnErrorReturn	0	0	0	6	1	2			3	0
+1	2	64	95	417	573.1431910708861	2620	0	0	114	2	1	io.reactivex.internal.operators.flowable.FlowableLastSingle	0	0	0	5	2	2			3	0
+1	1	113	148	787	986.8977807657757	2206	0	0	201	5	9	io.reactivex.internal.operators.flowable.FlowableRepeatWhen	0	0	0	9	1	2	context	State	11	0
+1	3	155	142	1354	1023.9362203930554	1563	0	0	224	4	1	io.reactivex.internal.operators.flowable.FlowableMapNotification	0	0	0	7	3	2			3	0
+1	1	39	75	235	409.4689135608119	2207	0	0	87	5	9	io.reactivex.internal.operators.flowable.FlowableRetryWhen	0	0	0	9	1	2	context	State	11	0
+1	2	147	141	1057	981.8097880077036	1546	0	0	226	2	1	io.reactivex.internal.operators.flowable.FlowableBufferExactBoundary	0	0	0	10	2	2			3	0
+1	1	54	89	335	517.4576173324309	2634	0	0	100	2	1	io.reactivex.internal.operators.flowable.FlowableLastMaybe	0	0	0	4	1	2			3	0
+1	1	66	76	453	464.8078015367106	1541	0	0	105	2	1	io.reactivex.internal.operators.flowable.FlowableAll	0	0	0	5	1	2			3	0
+0	1	85	88	629	567.0835505896388	1589	-1	13	129	15	23	io.reactivex.internal.operators.flowable.FlowableTakeUntil	0	0	0	4	1	6			29	-1
+1	3	280	255	2505	1995.6412234473362	2697	0	0	378	2	1	io.reactivex.internal.operators.flowable.FlowableFlatMapSingle	0	0	0	12	3	2			3	0
+1	2	107	126	763	836.2945119418416	1573	0	0	167	2	1	io.reactivex.internal.operators.flowable.FlowableSamplePublisher	0	0	0	6	2	2			3	0
+0	4	130	165	889	1120.3660438597942	1621	-1	0	204	13	27	io.reactivex.internal.operators.flowable.FlowableRefCount	0	0	0	7	4	7			34	-1
+1	2	512	294	958	2018.265246723433	2127	0	0	704	6	5	io.reactivex.internal.operators.flowable.FlowableCreate	0	0	0	12	2	2	context	State	7	0
+0	1	14	43	62	177.46677855693895	1610	0	3	41	4	1	io.reactivex.internal.operators.flowable.FlowableEmpty	0	0	0	4	1	3			4	0
+0	3	55	84	356	493.4941813915706	-1	0	11	125	16	15	io.reactivex.internal.operators.flowable.LatestSubscriberIterator	0	0	0	7	3	6			21	0
+-1	0	290	348	1867	2621.1666739525194	1932	-1	496	458	69	226	io.reactivex.internal.operators.observable.ObservableObserveOnTest	0	0	0	13	0	32			258	-1
+-1	0	25	31	105	144.27277085488322	1904	-1	1	63	4	22	io.reactivex.internal.operators.observable.ObservableHideTest	0	0	0	6	0	2			24	0
+-1	0	116	82	690	536.008711002487	2291	-1	378	222	39	86	io.reactivex.internal.operators.observable.ObservableBlockingTest	0	0	0	10	0	28			114	-1
+-1	0	122	150	858	1013.1906149231944	1954	-1	36	203	18	67	io.reactivex.internal.operators.observable.ObservableSubscribeOnTest	0	0	0	8	0	9			76	-1
+0	1	283	157	1658	1163.8986717041528	1975	-1	433	420	52	134	io.reactivex.internal.operators.observable.ObservableWindowWithObservableTest	0	0	0	12	1	30			164	-1
+-1	0	241	139	1600	1025.5084882436743	1968	-1	253	369	73	154	io.reactivex.internal.operators.observable.ObservableTimeoutWithSelectorTest	0	0	0	16	0	23			177	-1
+0	1	269	258	1671	1914.6638023776115	1937	-1	433	395	47	164	io.reactivex.internal.operators.observable.ObservablePublishTest	0	0	0	13	1	30			194	-1
+-1	0	171	84	1194	595.145400692014	2250	-1	210	254	40	126	io.reactivex.internal.operators.observable.ObservableCreateTest	0	0	0	6	0	21			147	0
+0	3	168	103	792	687.4798233568858	1899	-1	0	284	24	79	io.reactivex.internal.operators.observable.ObservableTimerTest	0	0	0	9	3	15			94	-1
+-1	0	131	148	698	969.1364272088312	1939	-1	153	221	36	144	io.reactivex.internal.operators.observable.ObservableRepeatTest	0	0	0	14	0	18			162	-1
+0	1	178	171	1100	1197.524193452485	1964	-1	124	250	40	87	io.reactivex.internal.operators.observable.ObservableTakeWhileTest	0	0	0	9	2	17			104	-1
+-1	0	10	24	56	96.60844057764359	2292	-1	1	39	6	6	io.reactivex.internal.operators.observable.ObservableFlattenIterableTest	0	0	0	4	0	2			8	0
+0	3	239	200	1584	1473.5417144748742	1977	-1	417	347	60	125	io.reactivex.internal.operators.observable.ObservableWindowWithStartEndObservableTest	0	0	0	14	3	30			155	-1
+0	2	74	63	321	363.600790757191	1912	2	0	122	17	73	io.reactivex.internal.operators.observable.ObservableDistinctTest	0	0	0	5	2	8			81	2
+-1	0	169	190	1047	1321.200000065402	1891	-1	120	266	27	127	io.reactivex.internal.operators.observable.ObservableCacheTest	0	0	0	14	0	16			143	-1
+-1	0	7	13	24	41.31469979452329	2280	0	0	31	1	5	io.reactivex.internal.operators.observable.ObservableAutoConnectTest	0	0	0	3	0	1			6	0
+-1	0	114	121	792	807.6219284095455	1974	-1	6	188	7	55	io.reactivex.internal.operators.observable.ObservableUnsubscribeOnTest	0	0	0	8	0	4			59	-1
+0	5	257	159	1337	1144.511188759209	1967	-1	0	384	43	195	io.reactivex.internal.operators.observable.ObservableTimeoutTests	0	0	0	12	5	22			217	-1
+0	3	812	647	5751	5601.1624835187995	1930	-1	3036	1128	180	539	io.reactivex.internal.operators.observable.ObservableMergeTest	0	0	0	14	7	84			623	-1
+0	1	567	398	3395	3235.7634979171326	1893	-1	1818	863	147	343	io.reactivex.internal.operators.observable.ObservableCombineLatestTest	0	0	0	16	1	61			404	-1
+-1	0	41	51	215	273.9025394345108	1909	-1	15	83	11	32	io.reactivex.internal.operators.observable.ObservableDefaultIfEmptyTest	0	0	0	5	0	6			38	-1
+-1	0	80	63	478	388.6854761469618	2707	-1	120	171	47	78	io.reactivex.internal.operators.observable.ObservableFlatMapSingleTest	0	0	0	11	0	16			94	-1
+0	1	428	207	2696	1635.201565710665	1914	-1	1941	694	124	278	io.reactivex.internal.operators.observable.ObservableDoOnEachTest	0	0	0	16	2	63			341	-1
+-1	0	6	13	21	39.5787916904045	2679	0	0	32	1	5	io.reactivex.internal.operators.observable.AbstractObservableWithUpstreamTest	0	0	0	5	0	1			6	0
+-1	0	131	60	543	377.8265591960361	1959	-1	45	234	15	88	io.reactivex.internal.operators.observable.ObservableTakeLastTimedTest	0	0	0	8	0	10			98	0
+-1	0	98	81	534	508.7120629557758	1973	-1	153	175	33	91	io.reactivex.internal.operators.observable.ObservableToSortedListTest	0	0	0	9	0	18			109	-1
+-1	0	13	18	46	68.91554513680371	2297	-1	3	51	3	15	io.reactivex.internal.operators.observable.ObservableToXTest	0	0	0	3	0	3			18	0
+0	1	80	61	436	370.7361768442911	1969	-1	30	139	24	43	io.reactivex.internal.operators.observable.ObservableTimestampTest	0	0	0	9	1	9			52	0
+0	4	196	112	928	765.2995540720544	1943	-1	0	277	25	110	io.reactivex.internal.operators.observable.ObservableSampleTest	0	0	0	8	4	15			125	-1
+-1	0	96	71	504	441.80291503306717	1962	-1	91	148	34	68	io.reactivex.internal.operators.observable.ObservableTakeUntilPredicateTest	0	0	0	6	0	14			82	0
+0	1	257	259	1584	1908.236520244962	1960	-1	349	369	52	189	io.reactivex.internal.operators.observable.ObservableTakeTest	0	0	0	14	1	27			216	-1
+0	3	85	94	414	566.4314015395795	1953	-1	0	131	21	78	io.reactivex.internal.operators.observable.ObservableSkipWhileTest	0	0	0	5	4	9			87	2
+0	3	449	275	3118	2212.3604386448737	1956	-1	1105	625	86	320	io.reactivex.internal.operators.observable.ObservableSwitchTest	0	0	0	16	3	55			375	-1
+-1	0	2	4	4	5.545177444479562	1931	-1	0	112	0	0	io.reactivex.internal.operators.observable.ObservableMulticastTest	0	0	0	0	0	0			0	-1
+0	3	144	89	797	594.5960664123292	1938	-1	158	238	58	114	io.reactivex.internal.operators.observable.ObservableReduceTest	0	0	0	6	3	24			138	2
+0	2	168	176	1031	1221.138069186985	1926	-1	256	330	57	86	io.reactivex.internal.operators.observable.ObservableMapTest	0	0	0	9	3	24			110	0
+0	6	1036	587	8083	5281.543283033767	1922	-1	11671	1474	345	608	io.reactivex.internal.operators.observable.ObservableGroupByTest	0	0	0	17	8	154			762	-1
+0	2	305	200	1609	1476.6736293984768	1979	-1	228	545	36	170	io.reactivex.internal.operators.observable.ObservableWithLatestFromTest	0	0	0	12	3	25			195	1
+0	9	217	146	1221	1037.6841192201628	1981	-1	172	362	57	119	io.reactivex.internal.operators.observable.ObservableZipIterableTest	0	0	0	12	10	24			143	2
+-1	0	86	81	548	510.8082982427893	1916	-1	28	155	12	35	io.reactivex.internal.operators.observable.ObservableDoOnUnsubscribeTest	0	0	0	9	0	8			43	0
+0	1	141	156	965	1072.051983808882	1935	-1	53	224	34	68	io.reactivex.internal.operators.observable.ObservableOnErrorReturnTest	0	0	0	11	1	11			79	0
+-1	0	19	29	122	139.31661029726445	2295	-1	6	47	10	6	io.reactivex.internal.operators.observable.ObservableGenerateTest	0	0	0	4	0	4			10	0
+0	2	231	226	1296	1619.7505601821617	1978	-1	483	411	42	184	io.reactivex.internal.operators.observable.ObservableWindowWithTimeTest	0	0	0	15	2	34			218	-1
+-1	0	88	66	528	413.76035472461325	2706	-1	153	184	53	84	io.reactivex.internal.operators.observable.ObservableFlatMapMaybeTest	0	0	0	11	0	18			102	-1
+-1	0	154	153	920	1044.1291715165921	1976	-1	190	250	37	121	io.reactivex.internal.operators.observable.ObservableWindowWithSizeTest	0	0	0	12	0	20			141	-1
+-1	0	16	36	108	168.5567241764719	2680	0	1	40	6	7	io.reactivex.internal.operators.observable.ObservableLiftTest	0	0	0	4	0	2			9	0
+0	5	69	70	385	416.72703340014493	1966	-1	26	124	22	29	io.reactivex.internal.operators.observable.ObservableTimeIntervalTest	0	0	0	9	5	8			37	0
+-1	0	46	55	214	295.1286808262018	1957	-1	21	89	7	35	io.reactivex.internal.operators.observable.ObservableTakeLastOneTest	0	0	0	6	0	7			42	0
+-1	0	36	49	155	247.1278307290431	1894	-1	1	80	6	25	io.reactivex.internal.operators.observable.ObservableDeferTest	0	0	0	6	0	2			27	0
+0	2	418	310	2575	2434.6174920603294	1928	-1	496	660	62	237	io.reactivex.internal.operators.observable.ObservableMergeDelayErrorTest	0	0	0	12	2	36			273	-1
+0	2	657	563	4726	4763.449799711479	1941	-1	1601	911	147	450	io.reactivex.internal.operators.observable.ObservableRetryTest	0	0	0	18	2	59			509	-1
+0	5	384	137	2261	1058.128058702082	1971	-1	829	540	136	215	io.reactivex.internal.operators.observable.ObservableToMultimapTest	0	0	0	8	6	47			262	2
+-1	0	87	57	361	335.6660436249742	1949	-1	21	177	13	69	io.reactivex.internal.operators.observable.ObservableSkipLastTimedTest	0	0	0	8	0	7			76	0
+-1	0	111	132	731	870.4625766869707	1927	-1	10	179	16	40	io.reactivex.internal.operators.observable.ObservableMaterializeTest	0	0	0	10	0	5			45	0
+0	2	44	94	259	522.3418377997565	2272	0	0	80	9	7	io.reactivex.internal.operators.observable.Burst	0	0	0	5	2	4			11	0
+-1	0	60	59	254	326.70272175409366	1948	-1	21	109	12	71	io.reactivex.internal.operators.observable.ObservableSkipLastTest	0	0	0	8	0	7			78	0
+0	1	191	150	1297	1075.1713776474667	1936	-1	26	262	29	101	io.reactivex.internal.operators.observable.ObservableOnExceptionResumeNextViaObservableTest	0	0	0	9	1	8			109	0
+0	2	23	35	97	160.1148842476184	1919	-1	4	54	8	12	io.reactivex.internal.operators.observable.ObservableFinallyTest	0	0	0	5	2	4			16	0
+0	4	342	149	1641	1103.0561025724235	1920	-1	1045	544	108	365	io.reactivex.internal.operators.observable.ObservableFirstTest	0	0	0	6	4	50			415	-1
+-1	0	320	146	1698	1085.8321295632086	1947	-1	1081	524	103	305	io.reactivex.internal.operators.observable.ObservableSingleTest	0	0	0	10	0	47			352	-1
+0	1	110	109	588	695.0632373209503	1958	-1	134	182	30	96	io.reactivex.internal.operators.observable.ObservableTakeLastTest	0	0	0	9	1	17			113	-1
+-1	0	31	49	162	249.2922204263868	2296	-1	10	74	10	21	io.reactivex.internal.operators.observable.ObservableIntervalRangeTest	0	0	0	5	0	5			26	0
+-1	0	81	68	409	408.93263061091056	1886	-1	21	165	10	53	io.reactivex.internal.operators.observable.BlockingObservableLatestTest	0	0	0	6	0	7			60	0
+-1	0	328	111	1698	825.5299067227135	1903	-1	1035	480	106	246	io.reactivex.internal.operators.observable.ObservableAnyTest	0	0	0	7	0	46			292	0
+0	2	260	203	1611	1499.0759077849257	1942	-1	279	360	75	162	io.reactivex.internal.operators.observable.ObservableRetryWithPredicateTest	0	0	0	16	6	27			189	-1
+0	2	132	156	823	1047.2211673056229	1892	-1	87	236	31	82	io.reactivex.internal.operators.observable.ObservableAmbTest	0	0	0	13	2	15			97	-1
+-1	0	48	56	232	305.01729281331336	1887	-1	6	100	5	32	io.reactivex.internal.operators.observable.BlockingObservableMostRecentTest	0	0	0	9	0	4			36	0
+-1	0	108	80	475	493.0651843227713	1972	-1	78	185	22	120	io.reactivex.internal.operators.observable.ObservableToListTest	0	0	0	8	0	13			133	0
+0	2	278	180	1661	1334.731519730393	1901	-1	1069	434	111	150	io.reactivex.internal.operators.observable.ObservableUsingTest	0	0	0	12	2	47			197	-1
+-1	0	170	116	797	774.979142739665	1963	-1	28	255	13	94	io.reactivex.internal.operators.observable.ObservableTakeUntilTest	0	0	0	7	0	8			102	0
+-1	0	74	80	394	478.1080727438347	2325	-1	45	126	20	47	io.reactivex.internal.operators.observable.BlockingObservableToFutureTest	0	0	0	9	0	10			57	0
+0	5	282	114	1589	840.2780589851857	1970	-1	384	400	88	161	io.reactivex.internal.operators.observable.ObservableToMapTest	0	0	0	8	6	33			194	1
+-1	0	67	43	280	242.29595293627773	1961	-1	6	132	8	44	io.reactivex.internal.operators.observable.ObservableTakeTimedTest	0	0	0	8	0	4			48	0
+-1	0	641	520	4136	4330.291896417897	1907	-1	1540	961	123	385	io.reactivex.internal.operators.observable.ObservableConcatTest	0	0	0	17	0	56			441	-1
+0	8	872	674	5417	5794.578471633424	1982	-1	5007	1334	248	467	io.reactivex.internal.operators.observable.ObservableZipTest	0	0	0	17	9	107			574	-1
+-1	0	202	92	1228	654.4090740010521	2705	-1	780	363	120	178	io.reactivex.internal.operators.observable.ObservableFlatMapCompletableTest	0	0	0	11	0	40			218	0
+0	2	285	255	2387	1983.3371197164017	1946	-1	8	403	9	38	io.reactivex.internal.operators.observable.ObservableSerializeTest	0	0	0	8	2	5			43	0
+-1	0	83	61	342	355.9234549608189	1950	-1	28	147	15	88	io.reactivex.internal.operators.observable.ObservableSkipTest	0	0	0	6	0	8			96	0
+-1	0	87	115	446	701.5366794823074	1897	-1	120	156	21	57	io.reactivex.internal.operators.observable.ObservableRangeTest	0	0	0	8	0	16			73	-1
+0	2	155	128	851	863.5407524573919	1913	-1	129	251	42	127	io.reactivex.internal.operators.observable.ObservableDistinctUntilChangedTest	0	0	0	14	3	19			146	-1
+-1	0	37	43	243	236.20164206364356	2293	-1	21	75	20	17	io.reactivex.internal.operators.observable.ObservableForEachTest	0	0	0	6	0	7			24	0
+0	4	813	406	4589	3423.1554702443023	1905	-1	4149	1207	270	586	io.reactivex.internal.operators.observable.ObservableBufferTest	0	0	0	17	14	103			689	-1
+0	5	69	75	295	426.5231517254865	1980	1	0	111	13	25	io.reactivex.internal.operators.observable.ObservableZipCompletionTest	0	0	0	6	6	6			31	1
+-1	0	50	43	181	223.53537234443053	1917	-1	120	129	16	75	io.reactivex.internal.operators.observable.ObservableElementAtTest	0	0	0	4	0	16			91	0
+0	1	85	94	495	583.2284296814569	1900	-1	29	160	27	73	io.reactivex.internal.operators.observable.ObservableToFutureTest	0	0	0	7	2	10			83	-1
+0	1	236	230	1721	1713.6519831286541	1933	-1	251	346	71	126	io.reactivex.internal.operators.observable.ObservableOnErrorResumeNextViaFunctionTest	0	0	0	11	1	23			149	-1
+0	2	180	95	839	639.5600171143846	2158	-1	46	301	37	113	io.reactivex.internal.operators.observable.ObservableJoinTest	0	0	0	6	2	17			130	-1
+0	1	170	119	1063	829.2931950226917	2273	-1	264	277	52	121	io.reactivex.internal.operators.observable.ObservableCollectTest	0	0	0	10	2	24			145	-1
+-1	0	17	23	64	95.65431091727244	2294	-1	10	60	6	19	io.reactivex.internal.operators.observable.ObservableFromTest	0	0	0	6	0	5			24	0
+-1	0	103	48	521	300.2760020041616	1895	-1	45	193	10	73	io.reactivex.internal.operators.observable.ObservableDelaySubscriptionOtherTest	0	0	0	8	0	10			83	0
+-1	0	47	95	419	573.5977373926031	1890	-1	6	83	16	35	io.reactivex.internal.operators.observable.ObservableBufferUntilSubscriberTest	0	0	0	8	0	4			39	0
+-1	0	187	99	1046	688.320135817862	1902	-1	435	296	68	135	io.reactivex.internal.operators.observable.ObservableAllTest	0	0	0	8	0	30			165	0
+-1	0	98	78	453	477.0395857876767	1923	-1	136	172	17	90	io.reactivex.internal.operators.observable.ObservableIgnoreElementsTest	0	0	0	8	0	17			107	0
+-1	0	19	25	76	108.26833350715827	1906	-1	1	52	4	19	io.reactivex.internal.operators.observable.ObservableCastTest	0	0	0	3	0	2			21	0
+0	1	426	287	2784	2276.381834157387	1921	-1	1483	611	146	288	io.reactivex.internal.operators.observable.ObservableFlatMapTest	0	0	0	14	1	55			343	-1
+-1	0	39	53	214	284.39672879615813	1889	-1	10	82	8	23	io.reactivex.internal.operators.observable.BlockingObservableToIteratorTest	0	0	0	6	0	5			28	0
+-1	0	18	30	86	133.63041888760523	1918	-1	1	73	5	13	io.reactivex.internal.operators.observable.ObservableFilterTest	0	0	0	5	0	2			15	0
+-1	0	24	36	136	176.8555758864979	1925	-1	6	54	8	11	io.reactivex.internal.operators.observable.ObservableMapNotificationTest	0	0	0	5	0	4			15	0
+0	1	145	145	1011	1003.2108067579684	1934	-1	34	218	34	77	io.reactivex.internal.operators.observable.ObservableOnErrorResumeNextViaObservableTest	0	0	0	9	1	9			86	-1
+0	3	105	105	542	661.0029301511629	1965	-1	54	159	17	62	io.reactivex.internal.operators.observable.ObservableThrottleFirstTest	0	0	0	9	3	13			75	-1
+0	1	51	52	227	282.09740090903296	2264	-1	19	159	10	40	io.reactivex.internal.operators.observable.ObservableDetachTest	0	0	0	5	1	7			47	0
+-1	0	235	226	1508	1653.9899379763458	1888	-1	136	320	46	123	io.reactivex.internal.operators.observable.BlockingObservableNextTest	0	0	0	14	0	17			140	0
+-1	0	54	65	385	386.960816728706	1955	-1	55	112	17	42	io.reactivex.internal.operators.observable.ObservableSwitchIfEmptyTest	0	0	0	8	0	11			53	-1
+-1	0	695	425	3871	3511.0389639955	1940	-1	1275	1070	94	406	io.reactivex.internal.operators.observable.ObservableReplayTest	0	0	0	20	0	51			457	-1
+-1	0	150	108	916	736.561767384806	2681	-1	210	239	54	51	io.reactivex.internal.operators.observable.ObservableScalarXMapTest	0	0	0	10	0	21			72	-1
+0	1	192	198	1308	1420.8983973393945	1929	-1	66	271	32	91	io.reactivex.internal.operators.observable.ObservableMergeMaxConcurrentTest	0	0	0	12	1	12			103	-1
+-1	0	73	72	332	417.96971776198717	1945	-1	120	157	32	64	io.reactivex.internal.operators.observable.ObservableSequenceEqualTest	0	0	0	6	0	16			80	-1
+0	3	615	276	3256	2232.3583046857907	1910	-1	1357	886	143	366	io.reactivex.internal.operators.observable.ObservableDelayTest	0	0	0	16	7	55			421	1
+0	1	401	316	2467	2468.199564823277	1898	-1	1126	594	79	208	io.reactivex.internal.operators.observable.ObservableRefCountTest	0	0	0	15	1	48			256	-1
+0	1	145	133	991	917.5290330658885	1896	-1	224	246	49	73	io.reactivex.internal.operators.observable.ObservableFromIterableTest	0	0	0	11	3	25			98	-1
+-1	0	71	56	303	319.9690371085247	1911	-1	21	132	14	79	io.reactivex.internal.operators.observable.ObservableDematerializeTest	0	0	0	5	0	7			86	0
+0	3	220	180	1258	1284.7101187068695	2157	-1	193	358	56	116	io.reactivex.internal.operators.observable.ObservableGroupJoinTest	0	0	0	8	3	27			143	-1
+-1	0	137	126	831	847.0513541517865	1944	-1	210	229	41	80	io.reactivex.internal.operators.observable.ObservableScanTest	0	0	0	12	0	21			101	-1
+0	2	400	254	2164	1950.6472645514584	2263	-1	1356	742	99	293	io.reactivex.internal.operators.observable.ObservableConcatMapEagerTest	0	0	0	13	3	64			357	5
+-1	0	89	49	373	290.157342562547	1951	-1	10	166	11	57	io.reactivex.internal.operators.observable.ObservableSkipTimedTest	0	0	0	8	0	5			62	0
+1	1	92	48	376	284.62027888271496	1952	3	0	154	14	61	io.reactivex.internal.operators.observable.ObservableSkipUntilTest	0	0	0	4	1	7			68	3
+0	3	198	150	1051	1043.6246056315426	1908	-1	84	301	43	135	io.reactivex.internal.operators.observable.ObservableDebounceTest	0	0	0	11	3	24			159	-1
+-1	0	158	81	768	538.1469683849615	1924	-1	325	297	50	155	io.reactivex.internal.operators.observable.ObservableLastTest	0	0	0	7	0	26			181	-1
+-1	0	68	58	399	347.3597621796121	1915	-1	36	106	14	34	io.reactivex.internal.operators.observable.ObservableDoOnSubscribeTest	0	0	0	6	0	9			43	-1
+1	1	114	101	796	674.6395177702827	1649	0	0	162	6	7	io.reactivex.internal.operators.observable.ObservableFromIterable	0	0	0	6	1	2			9	0
+0	1	48	71	291	402.80595196917596	1659	-1	1	91	3	5	io.reactivex.internal.operators.observable.ObservableSubscribeOn	0	0	0	4	1	3			8	0
+1	3	137	167	1039	1159.984336513571	2699	0	0	220	4	2	io.reactivex.internal.operators.observable.ObservableFlatMapCompletableCompletable	2	1	0	11	3	3	context	State	5	0
+1	1	21	49	93	222.09737516450957	2192	0	0	43	3	0	io.reactivex.internal.operators.observable.AbstractObservableWithUpstream	0	0	0	2	1	2			2	0
+1	1	9	24	39	87.9254795071115	2189	0	0	29	2	1	io.reactivex.internal.operators.observable.ObservableFromUnsafeSource	0	0	0	1	1	2			3	0
+1	2	163	171	1306	1226.8778569820204	1638	0	0	213	8	5	io.reactivex.internal.operators.observable.ObservableAmb	0	0	0	6	2	2			7	0
+1	5	595	303	5454	2607.0436827118765	1722	0	0	805	4	2	io.reactivex.internal.operators.observable.ObservableWindowTimed	0	0	0	17	7	2	context	State	4	0
+1	1	67	106	471	652.4149579657403	1654	0	0	103	2	2	io.reactivex.internal.operators.observable.ObservableRepeatUntil	0	0	0	6	1	2			4	0
+1	1	64	76	422	459.42040386673693	2642	0	0	105	2	1	io.reactivex.internal.operators.observable.ObservableSingleMaybe	0	0	0	4	1	2	context	State	3	0
+1	1	20	53	120	253.73706236744843	1644	0	0	41	6	3	io.reactivex.internal.operators.observable.ObservableError	0	0	0	4	1	2			5	0
+1	1	59	71	420	428.8580845006964	1702	0	0	95	2	1	io.reactivex.internal.operators.observable.ObservableSkipWhile	0	0	0	5	1	2			3	0
+1	4	22	68	126	328.8671696727005	1640	0	0	51	3	3	io.reactivex.internal.operators.observable.ObservableAutoConnect	0	0	0	5	4	2			5	0
+1	2	76	91	515	568.2191879604001	1671	0	0	121	5	3	io.reactivex.internal.operators.observable.ObservableCollect	0	0	0	6	2	2			5	0
+0	1	88	116	733	765.2689014188516	1651	-1	1	136	9	10	io.reactivex.internal.operators.observable.ObservableRedo	0	0	0	8	1	3	context	State	13	0
+1	2	223	176	1989	1336.7881610782993	1721	0	0	328	2	1	io.reactivex.internal.operators.observable.ObservableWindowBoundarySupplier	0	0	0	13	2	2			3	0
+1	2	76	94	555	593.9830026921649	1689	0	0	118	2	2	io.reactivex.internal.operators.observable.ObservableOnErrorNext	0	0	0	6	2	2			4	0
+1	2	215	222	1805	1664.6261233102698	2701	0	0	302	2	1	io.reactivex.internal.operators.observable.ObservableFlatMapSingle	0	0	0	10	2	2			3	0
+1	1	37	55	211	294.3521973411837	2640	1	0	80	4	2	io.reactivex.internal.operators.observable.ObservableIgnoreElementsCompletable	2	1	0	4	1	3	context	State	5	1
+0	6	104	111	616	712.9804129522206	2233	-1	44	158	27	25	io.reactivex.internal.operators.observable.BlockingObservableIterator	0	0	0	7	7	12	adapter	(Object)Adapter	37	-1
+0	2	65	91	398	544.7671324808838	2629	-1	0	119	13	5	io.reactivex.internal.operators.observable.ObservableToListSingle	0	0	0	10	2	5	context	State	10	-1
+1	2	169	160	1230	1138.363111738634	1718	0	0	247	4	1	io.reactivex.internal.operators.observable.ObservableWindow	0	0	0	6	3	2			3	0
+1	3	154	168	1231	1195.4177971989882	1688	0	0	212	4	2	io.reactivex.internal.operators.observable.ObservableObserveOn	0	0	0	8	3	2	context	State	4	0
+1	1	32	108	223	583.9745513176929	1650	0	0	59	6	6	io.reactivex.internal.operators.observable.ObservableLift	0	0	0	4	1	2			8	0
+-1	0	59	63	384	374.8904808130268	1677	0	1	101	3	1	io.reactivex.internal.operators.observable.ObservableDematerialize	0	0	0	4	0	2			3	0
+0	3	34	55	156	277.74208039872457	1724	-1	2	73	10	10	io.reactivex.internal.operators.observable.ObserverResourceWrapper	0	0	0	4	3	8	decorator	Decorator	18	-1
+1	1	127	131	988	903.3344334049707	1674	0	0	194	2	1	io.reactivex.internal.operators.observable.ObservableDebounce	0	0	0	8	1	2			3	0
+-1	0	33	51	198	269.7016185654213	2102	0	1	71	2	1	io.reactivex.internal.operators.observable.ObservableIgnoreElements	0	0	0	2	0	2			3	0
+1	1	69	71	470	436.8440213239914	1711	0	0	112	2	1	io.reactivex.internal.operators.observable.ObservableTakeWhile	0	0	0	6	1	2			3	0
+1	1	40	63	255	349.09960334498084	2182	0	0	82	2	1	io.reactivex.internal.operators.observable.ObservableFromPublisher	0	0	0	7	1	2			3	0
+-1	0	8	24	36	86.00445452294665	2178	0	1	28	2	1	io.reactivex.internal.operators.observable.ObservableSerialized	0	0	0	3	0	2			3	0
+1	2	71	80	475	493.0651843227713	2643	0	0	117	2	1	io.reactivex.internal.operators.observable.ObservableSingleSingle	0	0	0	5	2	2	context	State	3	0
+1	4	211	136	1582	1001.8365401725534	1715	0	0	302	4	2	io.reactivex.internal.operators.observable.ObservableTimeoutTimed	0	0	0	9	4	2	context	State	4	0
+1	3	89	90	713	591.2533278372866	1686	0	0	147	4	1	io.reactivex.internal.operators.observable.ObservableMapNotification	0	0	0	6	3	2			3	0
+0	3	57	87	497	540.1473322704068	1643	-1	35	96	16	18	io.reactivex.internal.operators.observable.ObservableDelaySubscriptionOther	0	0	0	4	3	10			28	-1
+1	3	129	116	910	790.3595735432639	1663	0	0	189	6	6	io.reactivex.internal.operators.observable.ObservableZipIterable	0	0	0	7	3	2			8	0
+1	2	133	162	1026	1123.2145301683759	2698	0	0	212	2	1	io.reactivex.internal.operators.observable.ObservableFlatMapCompletable	0	0	0	10	2	2			3	0
+1	1	18	48	81	210.93355942427706	1637	0	0	42	4	2	io.reactivex.internal.operators.observable.ObservableJust	0	0	0	3	1	3			5	0
+1	1	94	122	761	809.4252696591257	-1	0	0	146	2	1	io.reactivex.internal.operators.observable.ObservableFlattenIterable	0	0	0	8	1	2			3	0
+1	6	424	226	3255	1827.8761473492432	1670	0	0	597	5	2	io.reactivex.internal.operators.observable.ObservableBufferTimed	0	0	0	14	7	2	context	State	4	0
+0	3	55	84	356	493.4941813915706	-1	0	11	128	16	15	io.reactivex.internal.operators.observable.LatestObserverIterator	0	0	0	7	3	6			21	0
+1	1	52	70	349	409.8550345541699	1681	0	0	90	2	1	io.reactivex.internal.operators.observable.ObservableFilter	0	0	0	5	1	2			3	0
+1	1	64	80	463	491.0181643268987	1706	0	0	105	2	1	io.reactivex.internal.operators.observable.ObservableTakeLast	0	0	0	4	1	2			3	0
+1	1	65	110	479	678.8870657152006	1653	0	0	100	2	2	io.reactivex.internal.operators.observable.ObservableRepeat	0	0	0	4	1	2			4	0
+1	3	92	104	636	671.3406505873727	1712	0	0	153	2	2	io.reactivex.internal.operators.observable.ObservableThrottleFirstTimed	0	0	0	8	3	2	context	State	4	0
+1	1	68	99	468	608.698361295847	1639	0	0	112	4	2	io.reactivex.internal.operators.observable.ObservableFromArray	0	0	0	3	1	2			4	0
+1	1	196	188	1551	1381.1711706771894	2247	0	0	279	4	4	io.reactivex.internal.operators.observable.ObservableCreate	0	0	0	10	1	2	context	State	6	0
+1	1	67	72	486	445.4070209208355	1710	0	0	102	2	1	io.reactivex.internal.operators.observable.ObservableTakeUntilPredicate	0	0	0	6	1	2			3	0
+1	2	13	30	60	122.83033686666302	2232	0	0	36	3	1	io.reactivex.internal.operators.observable.BlockingObservableIterable	0	0	0	2	2	2	context	State	3	0
+1	3	119	137	818	918.8401401145763	1675	0	0	188	2	2	io.reactivex.internal.operators.observable.ObservableDebounceTimed	0	0	0	8	3	2	context	State	4	0
+-1	0	38	56	232	305.01729281331336	1673	0	1	76	2	1	io.reactivex.internal.operators.observable.ObservableCount	0	0	0	3	0	2			3	0
+0	5	68	88	406	528.5590780449525	-1	0	2	180	17	17	io.reactivex.internal.operators.observable.NextIterator	0	0	0	7	7	5			22	0
+1	1	45	67	289	379.650588103533	1699	0	0	86	2	1	io.reactivex.internal.operators.observable.ObservableSkipLast	0	0	0	4	1	2			3	0
+1	4	124	103	931	704.1347055595379	1661	0	0	172	5	6	io.reactivex.internal.operators.observable.ObservableUsing	0	0	0	8	4	2	context	State	8	0
+1	1	56	71	381	421.9387556339958	1717	0	0	97	2	1	io.reactivex.internal.operators.observable.ObservableUnsubscribeOn	0	0	0	5	1	2			3	0
+1	2	69	83	477	511.90386874373235	1680	0	0	109	2	1	io.reactivex.internal.operators.observable.ObservableElementAt	0	0	0	4	2	2			3	0
+1	3	75	91	503	566.0737054790762	2628	0	0	124	6	5	io.reactivex.internal.operators.observable.ObservableCollectSingle	0	0	0	8	3	3	context	State	8	0
+1	2	49	70	312	402.01022314666375	1713	0	0	91	2	1	io.reactivex.internal.operators.observable.ObservableTimeInterval	0	0	0	5	2	2			3	0
+1	3	103	86	730	567.0018299362496	1679	0	0	153	2	1	io.reactivex.internal.operators.observable.ObservableDoOnEach	0	0	0	6	4	2			3	0
+1	1	68	81	538	509.31654337310454	2258	0	0	105	2	1	io.reactivex.internal.operators.observable.ObservableDistinctUntilChanged	0	0	0	3	1	2			3	0
+1	2	63	98	417	591.2424497362825	2621	0	0	110	2	1	io.reactivex.internal.operators.observable.ObservableLastSingle	0	0	0	4	2	2	context	State	3	0
+0	1	11	30	49	116.7546089433188	2181	0	3	35	4	1	io.reactivex.internal.operators.observable.ObservableEmpty	0	0	0	4	1	3			4	0
+1	3	230	155	1721	1154.8524234127885	1714	0	0	342	4	1	io.reactivex.internal.operators.observable.ObservableTimeout	0	0	0	10	3	2			3	0
+1	3	103	119	778	792.1504563772286	1646	0	0	158	5	5	io.reactivex.internal.operators.observable.ObservableGenerate	0	0	0	7	3	2			7	0
+1	3	293	218	2991	1744.7331467813285	2256	0	0	428	2	1	io.reactivex.internal.operators.observable.ObservableConcatMapEager	0	0	0	13	4	2			3	0
+1	5	284	275	2467	2147.958482045573	1641	0	0	370	6	3	io.reactivex.internal.operators.observable.ObservableCombineLatest	0	0	0	9	5	2			5	0
+1	3	71	86	486	532.0139416554424	2639	0	0	115	2	1	io.reactivex.internal.operators.observable.ObservableElementAtSingle	0	0	0	5	3	2	context	State	3	0
+1	5	148	143	1258	1020.6308165282351	1700	0	0	214	2	1	io.reactivex.internal.operators.observable.ObservableSkipLastTimed	0	0	0	6	5	2			3	0
+1	3	207	186	1528	1363.6989843691226	1667	0	0	305	2	1	io.reactivex.internal.operators.observable.ObservableBufferBoundary	0	0	0	15	3	2			3	0
+-1	0	41	75	245	412.59436579085457	2237	0	1	80	2	1	io.reactivex.internal.operators.observable.ObservableHide	0	0	0	3	0	2			3	0
+0	2	329	404	2621	3180.0097261426563	1636	-1	0	388	18	10	io.reactivex.internal.operators.observable.ObservableCache	0	0	0	8	2	7			17	-1
+1	3	375	256	3527	2091.0599501404295	1672	0	0	523	5	3	io.reactivex.internal.operators.observable.ObservableConcatMap	0	0	0	13	3	2			5	0
+1	1	70	108	525	676.4470123598953	1655	0	0	110	2	2	io.reactivex.internal.operators.observable.ObservableRetryBiPredicate	0	0	0	6	1	2			4	0
+1	1	22	43	126	207.96012199891356	1642	0	0	44	6	4	io.reactivex.internal.operators.observable.ObservableDefer	0	0	0	4	1	2			6	0
+-1	0	177	233	1386	1685.5632828817147	2259	0	3	249	10	10	io.reactivex.internal.operators.observable.ObservableScalarXMap	0	0	0	9	0	3			13	0
+1	1	90	104	603	665.7993884596273	1694	0	0	148	2	1	io.reactivex.internal.operators.observable.ObservableSampleWithObservable	0	0	0	5	1	2			3	0
+1	1	69	74	470	455.3022194081037	1664	0	0	106	2	1	io.reactivex.internal.operators.observable.ObservableAll	0	0	0	6	1	2			3	0
+1	1	44	62	263	345.4735499950214	2637	1	0	86	4	2	io.reactivex.internal.operators.observable.ObservableCountSingle	0	0	0	5	1	3	context	State	5	1
+1	2	187	155	1551	1138.7315502923636	1719	0	0	283	2	1	io.reactivex.internal.operators.observable.ObservableWindowBoundary	0	0	0	12	2	2			3	0
+-1	0	40	56	247	308.52574685116673	1687	0	1	80	3	1	io.reactivex.internal.operators.observable.ObservableMaterialize	0	0	0	3	0	2			3	0
+0	4	787	719	6157	6273.52300101116	1692	-1	103	1000	54	53	io.reactivex.internal.operators.observable.ObservableReplay	0	0	0	15	5	19			72	-1
+1	1	56	80	394	478.1080727438347	1690	0	0	96	2	1	io.reactivex.internal.operators.observable.ObservableOnErrorReturn	0	0	0	5	1	2			3	0
+1	2	70	80	471	492.38864752131343	2625	0	0	114	4	2	io.reactivex.internal.operators.observable.ObservableAnySingle	0	0	0	7	2	3	context	State	5	0
+1	1	65	86	475	530.0450731469791	1695	0	0	107	2	1	io.reactivex.internal.operators.observable.ObservableScan	0	0	0	5	1	2			3	0
+0	1	62	86	385	511.9789267487495	1716	-1	0	109	11	4	io.reactivex.internal.operators.observable.ObservableToList	0	0	0	7	1	4			8	-1
+0	2	84	92	609	589.8872806293106	1701	-1	7	136	11	14	io.reactivex.internal.operators.observable.ObservableSkipUntil	0	0	0	5	2	6			20	-1
+1	3	69	91	469	559.7048519286114	1693	0	0	116	2	1	io.reactivex.internal.operators.observable.ObservableSampleTimed	0	0	0	6	3	2			3	0
+1	4	237	234	2374	1818.7255885896896	2148	0	0	364	2	3	io.reactivex.internal.operators.observable.ObservableJoin	0	0	0	12	4	2			5	0
+1	2	85	102	575	648.1457441613297	1696	0	0	137	6	4	io.reactivex.internal.operators.observable.ObservableScanSeed	0	0	0	7	2	2			6	0
+0	2	106	125	835	840.9289656063569	1723	-1	13	158	6	7	io.reactivex.internal.operators.observable.ObservableWithLatestFrom	0	0	0	8	2	6			13	0
+0	2	161	136	1315	976.6965044672137	1678	-1	43	215	35	19	io.reactivex.internal.operators.observable.ObservableDistinct	0	0	0	8	2	11			30	-1
+0	1	8	24	35	85.32835347574593	2183	-1	1	29	2	1	io.reactivex.internal.operators.observable.ObservableNever	0	0	0	3	1	2			3	-1
+0	2	118	135	811	904.2661873055807	-1	0	43	315	23	1	io.reactivex.internal.operators.observable.SimpleGenerator	0	0	0	6	2	11			12	0
+1	3	545	370	5196	3165.588419782481	1682	0	0	653	4	2	io.reactivex.internal.operators.observable.ObservableFlatMap	0	0	0	12	4	2			4	0
+0	1	83	87	605	557.2548758486832	1709	-1	13	126	14	21	io.reactivex.internal.operators.observable.ObservableTakeUntil	0	0	0	5	1	6			27	-1
+1	3	39	63	267	351.9966654792157	1645	0	0	60	7	9	io.reactivex.internal.operators.observable.ObservableFromFuture	0	0	0	4	3	2			11	0
+1	4	305	275	2838	2186.4850858729965	2147	0	0	482	2	3	io.reactivex.internal.operators.observable.ObservableGroupJoin	0	0	0	14	4	2			5	0
+1	3	40	70	233	381.572691749599	1648	0	0	82	2	3	io.reactivex.internal.operators.observable.ObservableInterval	0	0	0	5	4	2			5	0
+1	1	45	61	287	345.2284151613369	1703	0	0	76	2	2	io.reactivex.internal.operators.observable.ObservableSwitchIfEmpty	0	0	0	3	1	2			4	0
+-1	0	50	87	325	503.19279086268716	2257	0	1	92	2	1	io.reactivex.internal.operators.observable.ObservableDetach	0	0	0	4	0	2			3	0
+1	3	281	219	2541	1717.0285433471158	1720	0	0	398	2	1	io.reactivex.internal.operators.observable.ObservableWindowBoundarySelector	0	0	0	16	3	2			3	0
+1	1	42	77	314	442.7032599149355	1685	0	0	77	2	1	io.reactivex.internal.operators.observable.ObservableMap	0	0	0	4	1	2			3	0
+1	1	34	49	185	255.7974354288379	1657	0	0	54	7	8	io.reactivex.internal.operators.observable.ObservableFromCallable	0	0	0	4	1	2			10	0
+1	2	12	34	64	141.40202483422883	2177	0	0	35	3	1	io.reactivex.internal.operators.observable.ObservableDoOnLifecycle	0	0	0	4	2	2			3	0
+1	1	74	112	525	701.5006054102619	2184	0	0	122	2	2	io.reactivex.internal.operators.observable.ObservableRange	0	0	0	3	2	2			4	0
+1	3	182	187	1676	1388.3189075548594	1658	0	0	259	2	2	io.reactivex.internal.operators.observable.ObservableSequenceEqual	0	0	0	7	4	2			4	0
+1	1	64	81	448	494.48825182561376	1705	0	0	98	2	1	io.reactivex.internal.operators.observable.ObservableTake	0	0	0	4	1	2			3	0
+0	3	400	440	3510	3591.8833792423616	1691	-1	0	656	29	35	io.reactivex.internal.operators.observable.ObservablePublish	0	0	0	11	4	9			44	-1
+0	1	52	103	379	611.56622912349	-1	2	0	127	21	15	io.reactivex.internal.operators.observable.MostRecentObserver	0	0	0	4	2	8			23	2
+1	3	54	84	350	492.06638497661055	1647	0	0	99	2	3	io.reactivex.internal.operators.observable.ObservableIntervalRange	0	0	0	5	6	2			5	0
+1	5	230	243	2145	1864.0274440209946	1662	0	0	305	6	3	io.reactivex.internal.operators.observable.ObservableZip	0	0	0	8	5	2			5	0
+1	3	270	210	2496	1642.713393192757	1704	0	0	362	4	2	io.reactivex.internal.operators.observable.ObservableSwitchMap	0	0	0	9	3	2			4	0
+1	4	262	246	2187	1891.810361086485	1683	0	0	359	2	1	io.reactivex.internal.operators.observable.ObservableGroupBy	0	0	0	11	4	2			3	0
+1	2	82	119	632	767.4178379034761	1656	0	0	121	2	2	io.reactivex.internal.operators.observable.ObservableRetryPredicate	0	0	0	6	2	2			4	0
+1	4	87	94	595	600.5247721212893	1676	0	0	128	4	2	io.reactivex.internal.operators.observable.ObservableDelay	0	0	0	6	4	2	context	State	4	0
+1	1	53	93	338	541.5432682799208	2641	0	0	97	2	1	io.reactivex.internal.operators.observable.ObservableLastMaybe	0	0	0	3	1	2	context	State	3	0
+1	2	138	132	1044	917.507549434421	1669	0	0	212	2	1	io.reactivex.internal.operators.observable.ObservableBufferExactBoundary	0	0	0	10	2	2			3	0
+0	4	128	163	872	1103.6386760971636	1652	-1	0	205	13	27	io.reactivex.internal.operators.observable.ObservableRefCount	0	0	0	7	4	7			34	-1
+0	3	200	241	1485	1760.063982348069	2216	1	0	291	12	8	io.reactivex.internal.operators.observable.ObservableWithLatestFromMany	0	0	0	10	3	4			12	1
+1	2	197	153	1536	1122.5513477972654	1668	0	0	284	2	1	io.reactivex.internal.operators.observable.ObservableBufferBoundarySupplier	0	0	0	12	2	2			3	0
+1	1	68	75	468	461.1351221938235	1665	0	0	107	2	1	io.reactivex.internal.operators.observable.ObservableAny	0	0	0	6	1	2			3	0
+1	2	171	157	1285	1123.8866975807034	1666	0	0	241	4	2	io.reactivex.internal.operators.observable.ObservableBuffer	0	0	0	8	3	2			4	0
+1	1	43	63	264	351.2847934982179	1698	0	0	77	2	1	io.reactivex.internal.operators.observable.ObservableSkip	0	0	0	2	1	2			3	0
+1	2	71	79	475	486.90186951873665	2624	0	0	112	4	2	io.reactivex.internal.operators.observable.ObservableAllSingle	0	0	0	7	2	3	context	State	5	0
+-1	0	47	62	292	351.9587357406335	1707	0	1	85	2	1	io.reactivex.internal.operators.observable.ObservableTakeLastOne	0	0	0	3	0	2			3	0
+1	2	243	225	2053	1716.0879188292602	2700	0	0	333	2	1	io.reactivex.internal.operators.observable.ObservableFlatMapMaybe	0	0	0	10	2	2			3	0
+1	2	64	81	421	489.4532595282729	2638	1	0	107	4	2	io.reactivex.internal.operators.observable.ObservableElementAtMaybe	0	0	0	5	2	3	context	State	5	1
+1	3	39	66	231	359.19956889443836	1660	0	0	77	2	3	io.reactivex.internal.operators.observable.ObservableTimer	0	0	0	5	3	2			5	0
+1	5	161	161	1373	1163.1852983286433	1708	0	0	222	2	1	io.reactivex.internal.operators.observable.ObservableTakeLastTimed	0	0	0	6	6	2			3	0
+-1	0	35	28	142	138.7631576128353	2454	-1	15	74	6	15	io.reactivex.internal.queue.SimpleQueueTest	0	0	0	2	0	6			21	0
+0	1	107	236	744	1560.4416842206097	886	-1	37	185	28	19	io.reactivex.internal.queue.MpscLinkedQueue	0	0	0	2	2	11			30	-1
+0	5	209	267	1246	1903.0942177257555	889	-1	246	286	59	62	io.reactivex.internal.queue.SpscLinkedArrayQueue	0	0	0	3	10	25	adaptee	(Object)Adapter	87	-1
+0	4	79	188	509	1171.7002271114982	887	-1	34	133	25	21	io.reactivex.internal.queue.SpscArrayQueue	0	0	0	3	7	12			33	-1
+-1	0	560	211	3337	1711.80659801654	1241	-1	2211	822	111	235	io.reactivex.disposables.CompositeDisposableTest	0	0	0	10	0	67			302	-1
+0	1	149	113	855	762.8744659898539	1245	-1	0	223	33	78	io.reactivex.disposables.SerialDisposableTests	0	0	0	8	1	15			93	6
+1	1	139	103	813	690.1753042834245	2228	6	0	205	32	70	io.reactivex.disposables.SequentialDisposableTest	0	0	0	8	1	14			84	6
+-1	0	107	115	613	738.1119676326643	1242	-1	91	176	24	45	io.reactivex.disposables.DisposablesTest	0	0	0	12	0	14			59	-1
+-1	0	72	92	397	550.5221378232216	1059	-1	28	106	17	7	io.reactivex.disposables.Disposables	0	0	0	5	0	8			15	-1
+0	2	187	198	1263	1413.9665342253973	1058	-1	0	233	35	24	io.reactivex.disposables.CompositeDisposable	0	0	0	5	2	12	adapter	(Object)Adapter	36	-1
+-1	0	14	34	52	134.34228643176854	900	0	1	29	4	0	io.reactivex.disposables.Disposable	0	0	0	0	0	2	implementor	Bridge	2	0
+0	1	12	34	49	132.3218901357613	2093	0	1	32	2	1	io.reactivex.disposables.SubscriptionDisposable	0	0	0	1	1	2			3	0
+0	1	14	29	67	121.93608596233801	2194	0	1	34	4	2	io.reactivex.disposables.ActionDisposable	0	0	0	2	1	2			4	0
+1	1	54	114	324	659.0047608003255	1062	3	0	86	14	7	io.reactivex.disposables.SerialDisposable	0	0	0	2	1	7			14	3
+0	2	14	39	60	159.6794379266619	2091	0	0	35	2	1	io.reactivex.disposables.FutureDisposable	0	0	0	1	2	2			3	0
+0	1	15	44	67	185.0064752532025	2092	0	3	35	4	3	io.reactivex.disposables.RunnableDisposable	0	0	0	0	1	3			6	0
+0	1	23	66	136	324.23522245857947	1057	-1	6	51	6	5	io.reactivex.disposables.ReferenceDisposable	0	0	0	2	1	4	abstractClass	Template Method	9	0
+-1	0	17	28	80	122.69674577086867	2512	-1	1	50	4	7	io.reactivex.completable.CompletableTimerTest	0	0	0	7	0	2			9	0
+1	3	10	25	45	95.16656224425799	2133	0	0	32	1	1	io.reactivex.completable.CapturingUncaughtExceptionHandler	0	0	0	1	3	1			2	0
+0	4	3077	1187	16826	11550.317858087472	1760	-1	130865	4584	892	1465	io.reactivex.completable.CompletableTest	0	0	0	23	4	574			2039	-1
+0	2	875	681	6927	6022.207008753395	2462	-1	1481	1217	107	226	io.reactivex.subscribers.SerializedSubscriberTest	0	0	0	12	2	55			281	-1
+0	1	762	430	4636	3629.8910979176458	1203	-1	2991	1109	128	302	io.reactivex.subscribers.SafeSubscriberTest	0	0	0	11	1	78			380	-1
+0	1	198	87	1274	622.0427647434934	1230	-1	283	299	69	30	io.reactivex.subscribers.SafeSubscriberWithPluginTest	0	0	0	7	5	31			61	-1
+0	1	1183	436	6671	3839.208922981349	1234	-1	5326	1652	237	426	io.reactivex.subscribers.TestSubscriberTest	0	0	0	19	1	104			530	-1
+-1	0	116	97	554	612.7649746144865	2461	-1	36	217	9	49	io.reactivex.subscribers.ResourceSubscriberTest	0	0	0	8	0	9			58	-1
+-1	0	58	67	295	381.02734887476794	2460	-1	3	120	3	23	io.reactivex.subscribers.DisposableSubscriberTest	0	0	0	6	0	3			26	0
+0	5	144	180	978	1239.3917406062671	932	2	0	197	22	18	io.reactivex.subscribers.SerializedSubscriber	0	0	0	4	7	9			27	2
+0	3	60	177	380	1051.4103117315165	1758	1	1	110	17	10	io.reactivex.subscribers.ResourceSubscriber	0	0	0	8	3	6			16	1
+0	1	36	98	198	518.2501690080644	1759	0	0	66	7	5	io.reactivex.subscribers.DefaultSubscriber	0	0	0	2	1	4			9	0
+0	3	199	145	1242	1033.0493480615464	931	-1	0	234	36	30	io.reactivex.subscribers.SafeSubscriber	0	0	0	4	3	9			39	3
+0	6	325	389	1911	2939.043576309466	974	-1	309	428	80	39	io.reactivex.subscribers.TestSubscriber	0	0	0	8	6	30	context	State	69	-1
+0	1	37	111	225	601.1871446446906	1728	1	0	75	10	9	io.reactivex.subscribers.DisposableSubscriber	0	0	0	4	1	6			15	1
+0	3	941	480	7130	4258.591926436004	2281	-1	7180	1893	220	367	io.reactivex.plugins.RxJavaPluginsTest	0	0	0	28	4	121			488	-1
+0	17	817	473	4531	3982.0441278275566	930	-1	2118	996	217	66	io.reactivex.plugins.RxJavaPlugins	0	0	0	9	23	76	context	State	142	-1
+-1	0	53	62	266	346.17677114446536	2458	-1	3	112	3	23	io.reactivex.observers.DisposableSingleObserverTest	0	0	0	7	0	3			26	0
+0	2	877	681	6921	6021.616887399309	1231	-1	1481	1220	107	240	io.reactivex.observers.SerializedObserverTest	0	0	0	11	2	55			295	-1
+-1	0	103	76	475	468.41192510663274	2481	-1	28	202	8	49	io.reactivex.observers.ResourceCompletableObserverTest	0	0	0	12	0	8			57	-1
+-1	0	59	66	296	375.563723985388	2456	-1	3	120	3	23	io.reactivex.observers.DisposableMaybeObserverTest	0	0	0	7	0	3			26	0
+0	1	839	358	4568	3016.8054089782327	1233	-1	2455	1266	158	342	io.reactivex.observers.TestObserverTest	0	0	0	23	1	71			413	-1
+-1	0	58	65	292	368.98899714743834	2457	-1	3	121	3	24	io.reactivex.observers.DisposableObserverTest	0	0	0	7	0	3			27	0
+-1	0	135	88	620	565.8153140674441	2482	-1	45	253	10	66	io.reactivex.observers.ResourceMaybeObserverTest	0	0	0	13	0	10			76	-1
+0	1	631	335	3901	2770.1110501847297	1229	-1	2473	919	118	238	io.reactivex.observers.SafeObserverTest	0	0	0	8	1	71			309	-1
+-1	0	105	79	489	489.19663666851494	2483	-1	28	205	8	52	io.reactivex.observers.ResourceSingleObserverTest	0	0	0	13	0	8			60	-1
+-1	0	109	88	512	548.9725670034767	2459	-1	28	212	8	51	io.reactivex.observers.ResourceObserverTest	0	0	0	12	0	8			59	-1
+-1	0	53	57	259	316.7391995168736	2455	-1	3	112	3	21	io.reactivex.observers.DisposableCompletableObserverTest	0	0	0	7	0	3			24	0
+0	2	47	127	270	710.9995887927936	2478	1	2	86	14	7	io.reactivex.observers.ResourceCompletableObserver	0	0	0	6	2	5			12	1
+0	5	144	180	976	1239.0232655543566	1749	2	0	200	23	18	io.reactivex.observers.SerializedObserver	0	0	0	5	7	9	decorator	Decorator	27	2
+0	1	26	75	134	367.3379849963183	1746	0	1	52	5	3	io.reactivex.observers.DefaultObserver	0	0	0	3	1	3	abstraction	Bridge	6	0
+0	7	533	579	3477	4721.122651432552	2647	-1	391	679	145	103	io.reactivex.observers.BaseTestConsumer	0	0	0	9	8	39	abstractClass	Template Method	142	-1
+0	4	286	336	1691	2497.513317229923	1750	-1	227	376	73	43	io.reactivex.observers.TestObserver	0	0	0	7	4	26	context	State	69	-1
+0	2	48	132	278	742.845987007164	2480	1	2	88	14	7	io.reactivex.observers.ResourceSingleObserver	0	0	0	6	2	5			12	1
+0	2	48	132	278	742.845987007164	2479	1	2	88	14	7	io.reactivex.observers.ResourceMaybeObserver	0	0	0	6	2	5			12	1
+0	2	48	132	278	742.845987007164	1745	1	2	87	14	7	io.reactivex.observers.ResourceObserver	0	0	0	5	2	5			12	1
+0	3	179	144	1108	1009.484908892241	1748	3	0	220	32	25	io.reactivex.observers.SafeObserver	0	0	0	5	3	9	decorator	Decorator	34	3
+0	1	22	56	103	259.5448233408596	2445	1	0	50	6	4	io.reactivex.observers.DisposableCompletableObserver	0	0	0	4	1	4			8	1
+0	1	23	63	112	297.26542889159094	2447	1	0	52	6	4	io.reactivex.observers.DisposableSingleObserver	0	0	0	4	1	4			8	1
+0	1	23	63	112	297.26542889159094	1739	1	0	52	6	4	io.reactivex.observers.DisposableObserver	0	0	0	4	1	4			8	1
+0	1	23	63	112	297.26542889159094	2446	1	0	52	6	4	io.reactivex.observers.DisposableMaybeObserver	0	0	0	4	1	4			8	1
+-1	0	17	30	88	134.3201044343462	2513	-1	1	50	4	7	io.reactivex.maybe.MaybeTimerTest	0	0	0	7	0	2			9	0
+-1	0	70	50	446	305.01594760100323	2614	-1	55	118	20	58	io.reactivex.maybe.MaybeCreateTest	0	0	0	6	0	11			69	0
+0	3	1749	930	9293	8497.425538028327	2400	-1	58990	3209	606	1432	io.reactivex.maybe.MaybeTest	0	0	0	23	3	344			1776	-1
+-1	0	10	28	70	118.95786677738207	2609	0	1	37	6	4	io.reactivex.tck.WithLatestFromTckTest	0	0	0	4	0	2			6	0
+-1	0	5	16	22	49.45667925373306	2596	0	0	31	2	4	io.reactivex.tck.TakeWhileTckTest	0	0	0	4	0	1			5	0
+-1	0	5	21	28	69.97629471367928	2453	0	0	33	2	4	io.reactivex.tck.MergeTckTest	0	0	0	3	0	1			5	0
+-1	0	5	16	22	49.45667925373306	2595	0	0	30	2	4	io.reactivex.tck.TakeUntilTckTest	0	0	0	3	0	1			5	0
+-1	0	5	16	22	49.45667925373306	2562	0	0	31	2	4	io.reactivex.tck.MapTckTest	0	0	0	4	0	1			5	0
+-1	0	5	16	22	49.45667925373306	2589	0	0	30	2	4	io.reactivex.tck.SwitchIfEmptyTckTest	0	0	0	3	0	1			5	0
+-1	0	5	21	28	69.97629471367928	2537	0	0	34	2	5	io.reactivex.tck.ConcatPublisherEagerTckTest	0	0	0	3	0	1			6	0
+-1	0	5	16	22	49.45667925373306	2566	0	0	30	2	3	io.reactivex.tck.OnBackpressureBufferTckTest	0	0	0	3	0	1			4	0
+-1	0	8	20	35	71.10696122978827	2604	0	1	37	4	4	io.reactivex.tck.ToSortedListTckTest	0	0	0	4	0	2			6	0
+-1	0	10	29	70	123.20636201943142	2612	-1	1	37	6	6	io.reactivex.tck.ZipWithIterableTckTest	0	0	0	4	0	2			8	0
+-1	0	5	16	22	49.45667925373306	2559	0	0	33	2	4	io.reactivex.tck.IntervalTckTest	0	0	0	4	0	1			5	0
+-1	0	5	17	23	53.303401670795544	2576	0	0	33	2	4	io.reactivex.tck.ReplaySelectorTckTest	0	0	0	5	0	1			5	0
+-1	0	5	16	22	49.45667925373306	2543	0	0	32	2	3	io.reactivex.tck.DelaySubscriptionTckTest	0	0	0	4	0	1			4	0
+-1	0	5	17	23	53.303401670795544	2522	0	0	34	2	5	io.reactivex.tck.AmbArrayTckTest	0	0	0	3	0	1			6	0
+-1	0	5	16	22	49.45667925373306	2585	0	0	30	2	4	io.reactivex.tck.SkipUntilTckTest	0	0	0	3	0	1			5	0
+-1	0	5	22	29	74.08050825970243	2533	0	0	37	2	5	io.reactivex.tck.ConcatArrayEagerTckTest	0	0	0	4	0	1			6	0
+-1	0	5	16	22	49.45667925373306	2541	0	0	30	2	3	io.reactivex.tck.DefaultIfEmptyTckTest	0	0	0	3	0	1			4	0
+-1	0	5	16	22	49.45667925373306	2586	0	0	31	2	4	io.reactivex.tck.SkipWhileTckTest	0	0	0	4	0	1			5	0
+-1	0	10	27	62	111.43262839621748	2529	0	1	41	6	5	io.reactivex.tck.CombineLatestArrayDelayErrorTckTest	0	0	0	4	0	2			7	0
+-1	0	14	34	107	158.8761803717048	2554	-1	1	42	8	8	io.reactivex.tck.GenerateTckTest	0	0	0	5	0	2			10	0
+-1	0	13	27	67	113.52670072355608	2552	0	3	43	8	2	io.reactivex.tck.FromCallableTckTest	0	0	0	4	0	3			5	0
+-1	0	10	27	62	111.43262839621748	2532	0	1	44	6	6	io.reactivex.tck.CombineLatestIterableTckTest	0	0	0	5	0	2			8	0
+-1	0	5	16	22	49.45667925373306	2592	0	0	32	2	5	io.reactivex.tck.SwitchOnNextTckTest	0	0	0	3	0	1			6	0
+-1	0	13	31	83	136.98405884169455	2574	0	3	43	8	5	io.reactivex.tck.ReduceWithTckTest	0	0	0	5	0	3			8	0
+-1	0	8	20	35	71.10696122978827	2602	0	1	38	4	5	io.reactivex.tck.ToMapTckTest	0	0	0	5	0	2			7	0
+-1	0	10	24	55	96.1759964455793	2542	-1	1	38	6	6	io.reactivex.tck.DeferTckTest	0	0	0	4	0	2			8	0
+-1	0	8	20	35	71.10696122978827	2548	0	1	34	4	2	io.reactivex.tck.EmptyTckTest	0	0	0	3	0	2			4	0
+-1	0	5	17	23	53.303401670795544	2607	0	0	38	2	10	io.reactivex.tck.WindowBoundaryTckTest	0	0	0	6	0	1			11	0
+-1	0	5	17	23	53.303401670795544	2569	0	0	33	2	4	io.reactivex.tck.PublishSelectorTckTest	0	0	0	5	0	1			5	0
+-1	0	5	16	22	49.45667925373306	2577	0	0	30	2	4	io.reactivex.tck.ReplayTckTest	0	0	0	3	0	1			5	0
+-1	0	8	20	35	71.10696122978827	2603	0	1	38	4	5	io.reactivex.tck.ToMultimapTckTest	0	0	0	5	0	2			7	0
+-1	0	5	16	22	49.45667925373306	2527	0	0	30	2	4	io.reactivex.tck.CacheTckTest	0	0	0	3	0	1			5	0
+-1	0	5	16	22	49.45667925373306	2570	0	0	30	2	4	io.reactivex.tck.PublishTckTest	0	0	0	3	0	1			5	0
+-1	0	5	22	29	74.08050825970243	2563	0	0	37	2	5	io.reactivex.tck.MergeIterableTckTest	0	0	0	4	0	1			6	0
+-1	0	8	20	35	71.10696122978827	2557	0	1	35	4	4	io.reactivex.tck.IgnoreElementsTckTest	0	0	0	3	0	2			6	0
+-1	0	5	16	22	49.45667925373306	2597	0	0	31	2	3	io.reactivex.tck.TimeIntervalTckTest	0	0	0	4	0	1			4	0
+-1	0	5	17	23	53.303401670795544	2608	0	0	37	2	6	io.reactivex.tck.WindowExactSizeTckTest	0	0	0	6	0	1			7	0
+-1	0	8	20	35	71.10696122978827	2599	0	1	38	4	3	io.reactivex.tck.TimerTckTest	0	0	0	4	0	2			5	0
+-1	0	8	20	35	71.10696122978827	2601	0	1	37	4	4	io.reactivex.tck.ToListTckTest	0	0	0	4	0	2			6	0
+-1	0	10	27	62	111.43262839621748	2530	0	1	41	6	5	io.reactivex.tck.CombineLatestArrayTckTest	0	0	0	4	0	2			7	0
+-1	0	5	16	22	49.45667925373306	2581	0	0	30	2	3	io.reactivex.tck.ShareTckTest	0	0	0	3	0	1			4	0
+-1	0	13	31	83	136.98405884169455	2573	0	3	41	8	4	io.reactivex.tck.ReduceTckTest	0	0	0	4	0	3			7	0
+-1	0	13	31	80	135.84282567489032	2528	-1	3	44	7	7	io.reactivex.tck.CollectTckTest	0	0	0	6	0	3			10	0
+-1	0	5	18	24	57.20496894626302	2584	0	0	30	2	3	io.reactivex.tck.SkipTckTest	0	0	0	3	0	1			4	0
+-1	0	5	16	22	49.45667925373306	2575	0	0	30	2	3	io.reactivex.tck.RepeatTckTest	0	0	0	3	0	1			4	0
+-1	0	10	28	70	118.95786677738207	2579	0	1	36	6	3	io.reactivex.tck.ScanTckTest	0	0	0	4	0	2			5	0
+-1	0	10	27	62	111.43262839621748	2531	0	1	44	6	6	io.reactivex.tck.CombineLatestIterableDelayErrorTckTest	0	0	0	5	0	2			8	0
+-1	0	5	18	24	57.20496894626302	2593	0	0	30	2	3	io.reactivex.tck.TakeLastTckTest	0	0	0	3	0	1			4	0
+-1	0	5	16	22	49.45667925373306	2606	0	0	34	2	7	io.reactivex.tck.UsingTckTest	0	0	0	4	0	1			8	0
+-1	0	5	16	22	49.45667925373306	2572	0	0	30	2	3	io.reactivex.tck.RebatchRequestsTckTest	0	0	0	3	0	1			4	0
+-1	0	5	16	22	49.45667925373306	2600	0	0	31	2	3	io.reactivex.tck.TimestampTckTest	0	0	0	4	0	1			4	0
+-1	0	5	16	22	49.45667925373306	2588	0	0	31	2	4	io.reactivex.tck.SubscribeOnTckTest	0	0	0	4	0	1			5	0
+-1	0	8	20	35	71.10696122978827	2580	0	1	35	4	3	io.reactivex.tck.SequenceEqualTckTest	0	0	0	3	0	2			5	0
+-1	0	5	16	22	49.45667925373306	2451	0	0	30	2	3	io.reactivex.tck.FromIterableTckTest	0	0	0	3	0	1			4	0
+-1	0	15	31	77	134.6579680774642	2553	0	3	45	8	3	io.reactivex.tck.FromFutureTckTest	0	0	0	4	0	3			6	0
+-1	0	10	29	64	120.60760941743047	2610	0	1	44	6	5	io.reactivex.tck.ZipIterableTckTest	0	0	0	5	0	2			7	0
+-1	0	5	16	22	49.45667925373306	2556	0	0	30	2	3	io.reactivex.tck.HideTckTest	0	0	0	3	0	1			4	0
+-1	0	85	134	568	849.8442701086343	2448	0	15	142	13	2	io.reactivex.tck.BaseTck	0	0	0	6	0	6			8	0
+-1	0	8	19	34	67.00084996770707	2525	0	1	39	4	8	io.reactivex.tck.BufferBoundaryTckTest	0	0	0	4	0	2			10	0
+-1	0	8	20	35	71.10696122978827	2550	0	1	35	4	4	io.reactivex.tck.FirstTckTest	0	0	0	3	0	2			6	0
+-1	0	8	20	35	71.10696122978827	2582	0	1	35	4	4	io.reactivex.tck.SingleTckTest	0	0	0	3	0	2			6	0
+-1	0	5	21	28	69.97629471367928	2538	0	0	34	2	5	io.reactivex.tck.ConcatPublisherTckTest	0	0	0	3	0	1			6	0
+-1	0	5	17	23	53.303401670795544	2523	0	0	37	2	6	io.reactivex.tck.AmbTckTest	0	0	0	4	0	1			7	0
+-1	0	10	25	61	102.77184660433278	2536	-1	1	37	6	5	io.reactivex.tck.ConcatMapTckTest	0	0	0	4	0	2			7	0
+-1	0	5	18	24	57.20496894626302	2605	0	0	33	2	5	io.reactivex.tck.UnsubscribeOnTckTest	0	0	0	4	0	1			6	0
+-1	0	10	28	70	118.95786677738207	2613	0	1	37	6	3	io.reactivex.tck.ZipWithTckTest	0	0	0	4	0	2			5	0
+-1	0	5	16	22	49.45667925373306	2590	0	0	33	2	6	io.reactivex.tck.SwitchMapDelayErrorTckTest	0	0	0	4	0	1			7	0
+-1	0	5	16	22	49.45667925373306	2568	0	0	30	2	3	io.reactivex.tck.OnErrorReturnItemTckTest	0	0	0	3	0	1			4	0
+-1	0	8	21	36	75.2538977075783	2450	0	1	35	4	3	io.reactivex.tck.FromArrayTckTest	0	0	0	3	0	2			5	0
+-1	0	13	31	76	134.25273354887625	2524	0	3	41	8	4	io.reactivex.tck.AnyTckTest	0	0	0	4	0	3			7	0
+-1	0	5	21	28	69.97629471367928	2564	0	0	34	2	5	io.reactivex.tck.MergePublisherTckTest	0	0	0	3	0	1			6	0
+-1	0	5	18	24	57.20496894626302	2583	0	0	30	2	3	io.reactivex.tck.SkipLastTckTest	0	0	0	3	0	1			4	0
+-1	0	5	16	22	49.45667925373306	2558	0	0	33	2	3	io.reactivex.tck.IntervalRangeTckTest	0	0	0	4	0	1			4	0
+-1	0	5	16	22	49.45667925373306	2571	0	0	30	2	2	io.reactivex.tck.RangeTckTest	0	0	0	3	0	1			3	0
+-1	0	5	16	22	49.45667925373306	2546	0	0	31	2	3	io.reactivex.tck.DistinctUntilChangedTckTest	0	0	0	3	0	1			4	0
+-1	0	10	25	61	102.77184660433278	2551	-1	1	37	6	5	io.reactivex.tck.FlatMapTckTest	0	0	0	4	0	2			7	0
+-1	0	5	16	22	49.45667925373306	2587	0	0	30	2	3	io.reactivex.tck.SortedTckTest	0	0	0	3	0	1			4	0
+-1	0	10	26	61	106.8827204685061	2535	-1	1	39	6	5	io.reactivex.tck.ConcatMapIterableTckTest	0	0	0	5	0	2			7	0
+-1	0	8	20	35	71.10696122978827	2561	0	1	35	4	4	io.reactivex.tck.LastTckTest	0	0	0	3	0	2			6	0
+-1	0	5	22	29	74.08050825970243	2534	0	0	34	2	4	io.reactivex.tck.ConcatIterableEagerTckTest	0	0	0	3	0	1			5	0
+-1	0	5	16	22	49.45667925373306	2591	0	0	33	2	6	io.reactivex.tck.SwitchMapTckTest	0	0	0	4	0	1			7	0
+-1	0	5	16	22	49.45667925373306	2567	0	0	30	2	4	io.reactivex.tck.OnErrorResumeNextTckTest	0	0	0	3	0	1			5	0
+-1	0	5	16	22	49.45667925373306	2565	0	0	33	2	4	io.reactivex.tck.ObserveOnTckTest	0	0	0	4	0	1			5	0
+-1	0	8	20	35	71.10696122978827	2547	0	1	35	4	4	io.reactivex.tck.ElementAtTckTest	0	0	0	3	0	2			6	0
+-1	0	5	16	22	49.45667925373306	2598	0	0	32	2	3	io.reactivex.tck.TimeoutTckTest	0	0	0	4	0	1			4	0
+-1	0	8	20	35	71.10696122978827	2560	0	1	35	4	4	io.reactivex.tck.IsEmptyTckTest	0	0	0	3	0	2			6	0
+-1	0	10	28	70	118.95786677738207	2611	0	1	40	6	4	io.reactivex.tck.ZipTckTest	0	0	0	4	0	2			6	0
+-1	0	5	18	24	57.20496894626302	2526	0	0	33	2	4	io.reactivex.tck.BufferExactSizeTckTest	0	0	0	4	0	1			5	0
+-1	0	10	32	67	134.5501638205109	2549	0	1	36	6	3	io.reactivex.tck.FilterTckTest	0	0	0	4	0	2			5	0
+-1	0	13	31	76	134.25273354887625	2521	0	3	41	8	4	io.reactivex.tck.AllTckTest	0	0	0	4	0	3			7	0
+-1	0	8	19	34	67.00084996770707	2452	0	1	35	4	2	io.reactivex.tck.JustTckTest	0	0	0	3	0	2			4	0
+1	1	66	141	553	890.4654782146492	2615	0	0	122	4	2	io.reactivex.tck.FlowableAwaitOnSubscribeTck	0	0	0	6	1	3			5	0
+-1	0	5	16	22	49.45667925373306	2545	0	0	32	2	4	io.reactivex.tck.DistinctTckTest	0	0	0	3	0	1			5	0
+-1	0	5	16	22	49.45667925373306	2578	0	0	30	2	3	io.reactivex.tck.RetryTckTest	0	0	0	3	0	1			4	0
+-1	0	13	37	96	168.88088308430994	2540	-1	1	39	9	8	io.reactivex.tck.CreateTckTest	0	0	0	4	0	2			10	0
+-1	0	5	18	24	57.20496894626302	2594	0	0	30	2	3	io.reactivex.tck.TakeTckTest	0	0	0	3	0	1			4	0
+-1	0	5	21	28	69.97629471367928	2539	0	0	33	2	4	io.reactivex.tck.ConcatTckTest	0	0	0	3	0	1			5	0
+-1	0	10	28	64	116.4487263340708	2555	0	1	39	6	5	io.reactivex.tck.GroupByTckTest	0	0	0	5	0	2			7	0
+1	1	59	142	408	853.5999387653909	2449	0	0	113	4	2	io.reactivex.tck.FlowableTck	0	0	0	6	1	3			5	0
+-1	0	5	16	22	49.45667925373306	2544	0	0	34	2	3	io.reactivex.tck.DelayTckTest	0	0	0	4	0	1			4	0
+0	2	160	170	1058	1183.9030541111017	1764	-1	253	256	53	62	io.reactivex.flowable.FlowableCovarianceTest	0	0	0	9	2	23			85	0
+-1	0	19	35	109	164.19717587802003	1774	-1	3	53	5	16	io.reactivex.flowable.FlowableWindowTests	0	0	0	5	0	3			19	0
+-1	0	104	79	494	490.0003058578459	1763	-1	28	167	8	53	io.reactivex.flowable.FlowableConcatTests	0	0	0	6	0	8			61	0
+0	4	806	574	4793	4864.599372717628	1773	-1	6164	1219	212	704	io.reactivex.flowable.FlowableTests	0	0	0	17	4	113			817	-1
+-1	0	20	22	72	94.08665461835322	2101	-1	15	93	6	56	io.reactivex.flowable.FlowableFuseableTest	0	0	0	5	0	6			62	0
+-1	0	5	10	15	27.0805020110221	2141	0	0	28	1	1	io.reactivex.flowable.FlowableEventStreamTest	0	0	0	2	0	1			2	0
+-1	0	47	68	241	372.96619147736453	1768	-1	15	99	9	28	io.reactivex.flowable.FlowableMergeTests	0	0	0	7	0	6			34	0
+0	5	518	421	3999	3491.6896353245106	1761	-1	820	751	99	352	io.reactivex.flowable.FlowableBackpressureTests	0	0	0	14	6	49			401	-1
+-1	0	30	28	119	133.81545780712284	1777	-1	6	69	4	25	io.reactivex.flowable.FlowableStartWithTests	0	0	0	4	0	4			29	0
+0	5	76	138	644	892.5424242024009	2265	0	0	126	21	22	io.reactivex.flowable.Burst	0	0	0	10	5	6			28	0
+-1	0	16	28	102	129.49923877195957	1776	-1	3	44	5	8	io.reactivex.flowable.FlowableScanTests	0	0	0	4	0	3			11	0
+-1	0	43	44	207	234.63962690367623	1769	-1	28	80	16	24	io.reactivex.flowable.FlowableNotificationTest	0	0	0	2	0	8			32	0
+0	1	2153	913	11460	8533.462225115352	1772	-1	70053	2957	917	599	io.reactivex.flowable.FlowableNullTests	0	0	0	12	1	570			1169	-1
+0	3	49	87	275	488.65908549699174	1762	-1	21	87	12	10	io.reactivex.flowable.FlowableCombineLatestTests	0	0	0	7	3	7			17	0
+-1	0	28	38	112	179.30295710921357	1780	0	0	61	2	10	io.reactivex.flowable.FlowableThrottleLastTests	0	0	0	8	0	1			11	0
+-1	0	31	41	123	197.2995585702691	1781	-1	1	70	3	15	io.reactivex.flowable.FlowableThrottleWithTimeoutTests	0	0	0	8	0	2			17	0
+-1	0	56	82	398	490.8890644333239	1765	-1	28	101	18	28	io.reactivex.flowable.FlowableErrorHandlingTests	0	0	0	8	0	8			36	0
+0	1	198	126	1247	898.1904891556846	2266	-1	423	332	62	138	io.reactivex.flowable.FlowableCollectTest	0	0	0	9	2	30			168	-1
+-1	0	187	226	1584	1665.102137356608	1770	-1	105	261	31	53	io.reactivex.flowable.FlowableConversionTest	0	0	0	12	0	15			68	0
+-1	0	52	103	327	596.3658976024171	1766	-1	10	80	11	19	io.reactivex.flowable.FlowableEventStream	0	0	0	4	0	5			24	-1
+0	3	94	162	641	1047.0107720211486	1782	-1	105	158	31	36	io.reactivex.flowable.FlowableZipTests	0	0	0	9	3	15			51	0
+-1	0	95	63	612	404.25413379827654	1775	-1	136	160	33	31	io.reactivex.flowable.FlowableReduceTests	0	0	0	5	0	17			48	-1
+-1	0	63	59	345	344.76912060485023	1771	-1	45	105	12	40	io.reactivex.flowable.FlowableDoOnTest	0	0	0	6	0	10			50	0
+-1	0	565	299	4065	2484.7405375725916	1778	-1	6105	844	171	237	io.reactivex.flowable.FlowableSubscriberTest	0	0	0	16	0	111			348	-1
+-1	0	58	61	386	363.30607953735466	1767	-1	55	109	20	31	io.reactivex.flowable.FlowableGroupByTests	0	0	0	7	0	11			42	0
+-1	0	456	362	3917	2994.855442787031	2014	-1	496	557	91	189	io.reactivex.subjects.ReplaySubjectBoundedConcurrencyTest	0	0	0	12	0	32			221	-1
+-1	0	323	89	1450	647.8593763519012	2017	-1	253	397	23	300	io.reactivex.subjects.SerializedSubjectTest	0	0	0	4	0	23			323	0
+0	1	364	255	2017	1940.388467178324	2012	-1	423	585	54	234	io.reactivex.subjects.BehaviorSubjectTest	0	0	0	11	1	30			264	-1
+-1	0	352	341	3066	2737.59200926623	2015	-1	351	447	68	151	io.reactivex.subjects.ReplaySubjectConcurrencyTest	0	0	0	12	0	27			178	-1
+-1	0	77	75	370	443.51272542287023	2318	-1	78	153	13	59	io.reactivex.subjects.UnicastSubjectTest	0	0	0	7	0	13			72	0
+0	1	578	376	2903	2998.035986473261	2016	-1	1425	954	87	334	io.reactivex.subjects.ReplaySubjectTest	0	0	0	13	1	54			388	-1
+0	1	417	313	2333	2427.2869151427076	2013	-1	1324	733	74	228	io.reactivex.subjects.PublishSubjectTest	0	0	0	13	1	52			280	-1
+0	1	249	206	1288	1475.1342567728457	2011	-1	151	445	32	160	io.reactivex.subjects.AsyncSubjectTest	0	0	0	11	1	18			178	0
+0	4	247	314	1678	2331.5623765265254	896	-1	0	325	54	35	io.reactivex.subjects.AsyncSubject	0	0	0	6	5	18			53	-1
+-1	0	38	123	305	703.5983485227116	899	0	10	72	15	0	io.reactivex.subjects.Subject	0	0	0	1	0	5	decorated	Decorator	5	0
+0	4	157	176	952	1207.1074461232802	898	-1	0	191	32	20	io.reactivex.subjects.SerializedSubject	0	0	0	6	5	13	decorator	Decorator	33	-1
+0	5	790	774	7173	6871.633344241861	1050	-1	102	1162	83	40	io.reactivex.subjects.ReplaySubject	0	0	0	10	6	25			65	-1
+0	8	376	442	2723	3495.9943557618017	1051	-1	81	521	66	62	io.reactivex.subjects.BehaviorSubject	0	0	0	10	10	22			84	-1
+0	8	301	360	1992	2734.881997732036	1032	-1	40	406	68	46	io.reactivex.subjects.UnicastSubject	0	0	0	9	10	20			66	-1
+0	3	213	303	1402	2195.433485481144	897	-1	0	293	41	27	io.reactivex.subjects.PublishSubject	0	0	0	4	4	13			40	-1
+-1	0	167	106	985	730.6200139642415	2306	-1	276	274	35	59	io.reactivex.schedulers.SchedulerTest	0	0	0	11	0	24			83	-1
+-1	0	96	166	672	1080.7028845268428	1213	-1	91	166	24	66	io.reactivex.schedulers.TrampolineSchedulerTest	5	9	0	18	0	14			80	0
+-1	0	11	30	54	119.66952139692823	1209	-1	3	77	6	5	io.reactivex.schedulers.NewThreadSchedulerTest	3	0	0	2	0	3			8	0
+-1	0	93	153	701	1002.5337067162923	1211	-1	3	135	12	20	io.reactivex.schedulers.SchedulerTestHelper	0	0	0	4	0	3			23	0
+-1	0	47	73	254	404.22540149235317	1206	-1	21	84	13	25	io.reactivex.schedulers.CachedThreadSchedulerTest	5	2	0	5	0	7			32	0
+-1	0	85	107	703	701.4231874237412	2282	-1	6	151	12	28	io.reactivex.schedulers.SchedulerWorkerTest	0	0	0	6	0	4			32	0
+0	2	298	245	2545	1921.2620526012327	1204	-1	250	425	72	171	io.reactivex.schedulers.AbstractSchedulerConcurrencyTests	16	13	4	9	5	29			200	-1
+-1	0	173	120	1180	848.7923660951652	1212	-1	105	257	28	86	io.reactivex.schedulers.TestSchedulerTest	0	0	0	14	0	15			101	-1
+0	1	282	258	1729	1923.4670093062891	1208	-1	171	449	32	98	io.reactivex.schedulers.ExecutorSchedulerTest	13	6	0	13	1	19			117	-1
+0	1	413	304	2949	2428.723308279844	1205	-1	631	560	85	197	io.reactivex.schedulers.AbstractSchedulerTests	0	0	2	16	2	38			235	-1
+-1	0	47	62	218	333.8386938929235	2425	-1	6	87	4	14	io.reactivex.schedulers.TimedTest	0	0	0	3	0	4			18	0
+-1	0	89	122	612	782.8413384665038	1210	-1	6	136	12	40	io.reactivex.schedulers.SchedulerLifecycleTest	0	0	0	6	0	4			44	0
+0	2	112	117	768	777.3233987782777	1207	-1	64	165	25	61	io.reactivex.schedulers.ComputationSchedulerTests	7	5	0	7	2	12			73	0
+0	1	121	256	886	1737.3995393549008	915	-1	78	207	33	16	io.reactivex.schedulers.Schedulers	0	0	0	5	5	13			29	-1
+0	3	66	117	344	683.3550739126875	955	3	0	99	21	4	io.reactivex.schedulers.Timed	0	0	0	2	3	8			12	3
+0	2	116	191	785	1273.14559009644	916	-1	3	177	14	10	io.reactivex.schedulers.TestScheduler	4	2	0	6	3	6			16	-1
+0	4	824	573	4917	4870.760066027042	1992	-1	6409	1239	219	719	io.reactivex.observable.ObservableTest	0	0	0	16	4	115			834	-1
+-1	0	146	128	1010	885.466318058919	1998	-1	378	242	45	70	io.reactivex.observable.ObservableSubscriberTest	0	0	0	12	0	28			98	-1
+-1	0	19	35	109	164.19717587802003	1994	-1	3	53	5	16	io.reactivex.observable.ObservableWindowTests	0	0	0	5	0	3			19	0
+-1	0	28	38	112	179.30295710921357	1999	0	0	60	2	10	io.reactivex.observable.ObservableThrottleLastTests	0	0	0	7	0	1			11	0
+-1	0	52	103	327	596.3658976024171	1987	-1	10	81	11	19	io.reactivex.observable.ObservableEventStream	0	0	0	5	0	5			24	-1
+-1	0	95	64	612	410.67086608078887	1995	-1	136	160	33	30	io.reactivex.observable.ObservableReduceTests	0	0	0	5	0	17			47	-1
+-1	0	63	59	345	344.76912060485023	1990	-1	45	105	12	40	io.reactivex.observable.ObservableDoOnTest	0	0	0	6	0	10			50	0
+0	3	49	87	275	488.65908549699174	1983	-1	21	86	12	10	io.reactivex.observable.ObservableCombineLatestTests	0	0	0	6	3	7			17	0
+-1	0	31	41	123	197.2995585702691	2000	-1	1	70	3	15	io.reactivex.observable.ObservableThrottleWithTimeoutTests	0	0	0	7	0	2			17	0
+-1	0	104	79	494	490.0003058578459	1984	-1	28	168	8	53	io.reactivex.observable.ObservableConcatTests	0	0	0	7	0	8			61	0
+0	1	2042	853	11001	7937.797462598738	1991	-1	62838	2781	878	542	io.reactivex.observable.ObservableNullTests	0	0	0	13	1	541			1083	-1
+0	3	94	162	641	1047.0107720211486	2001	-1	105	157	31	36	io.reactivex.observable.ObservableZipTests	0	0	0	8	3	15			51	0
+-1	0	30	28	119	133.81545780712284	1997	-1	6	68	4	25	io.reactivex.observable.ObservableStartWithTests	0	0	0	4	0	4			29	0
+-1	0	20	22	72	94.08665461835322	2268	-1	15	93	6	56	io.reactivex.observable.ObservableFuseableTest	0	0	0	5	0	6			62	0
+-1	0	47	67	241	367.4813945438739	1989	-1	15	98	9	28	io.reactivex.observable.ObservableMergeTests	0	0	0	6	0	6			34	0
+-1	0	41	46	284	259.8528149554155	1988	-1	28	84	14	23	io.reactivex.observable.ObservableGroupByTests	0	0	0	5	0	8			31	0
+0	2	160	169	1058	1176.9389184986833	1985	-1	253	254	53	62	io.reactivex.observable.ObservableCovarianceTest	0	0	0	8	2	23			85	0
+-1	0	16	28	102	129.49923877195957	1996	-1	3	44	5	8	io.reactivex.observable.ObservableScanTests	0	0	0	4	0	3			11	0
+-1	0	56	82	398	490.8890644333239	1986	-1	28	100	18	28	io.reactivex.observable.ObservableErrorHandlingTests	0	0	0	7	0	8			36	0
+-1	0	454	362	3894	2992.723571307437	2005	-1	496	553	91	177	io.reactivex.processors.ReplayProcessorBoundedConcurrencyTest	0	0	0	10	0	32			209	-1
+0	1	641	393	3162	3167.171286983381	2007	-1	1590	1042	90	365	io.reactivex.processors.ReplayProcessorTest	0	0	0	14	1	57			422	-1
+0	1	361	301	1982	2285.15037618187	2004	-1	901	641	61	205	io.reactivex.processors.PublishProcessorTest	0	0	0	13	1	43			248	-1
+0	1	364	255	2017	1940.388467178324	2003	-1	423	585	54	234	io.reactivex.processors.BehaviorProcessorTest	0	0	0	12	1	30			264	-1
+0	1	249	206	1288	1475.1342567728457	2002	-1	151	445	32	160	io.reactivex.processors.AsyncProcessorTest	0	0	0	12	1	18			178	0
+-1	0	350	340	3042	2726.891960758541	2006	-1	351	443	68	139	io.reactivex.processors.ReplayProcessorConcurrencyTest	0	0	0	10	0	27			166	-1
+-1	0	77	75	370	443.51272542287023	2317	-1	78	153	13	59	io.reactivex.processors.UnicastProcessorTest	0	0	0	7	0	13			72	0
+-1	0	323	89	1450	647.8593763519012	2008	-1	253	397	23	300	io.reactivex.processors.SerializedProcessorTest	0	0	0	4	0	23			323	0
+0	4	249	314	1688	2333.4280979989535	1751	-1	0	326	55	36	io.reactivex.processors.AsyncProcessor	0	0	0	5	5	18			54	-1
+0	4	177	177	1090	1237.9261366145045	1756	-1	0	209	34	24	io.reactivex.processors.SerializedProcessor	0	0	0	5	5	13	decorator	Decorator	37	-1
+0	5	842	825	7831	7396.822533169523	1755	-1	102	1233	84	41	io.reactivex.processors.ReplayProcessor	0	0	0	10	6	25			66	-1
+0	8	289	327	1946	2476.544722917926	1757	-1	17	414	68	46	io.reactivex.processors.UnicastProcessor	0	0	0	8	10	19			65	-1
+0	3	231	378	1651	2800.6535758018085	1754	-1	0	323	42	28	io.reactivex.processors.PublishProcessor	0	0	0	6	4	13			41	-1
+0	8	402	461	2948	3682.874718775554	1752	-1	81	554	67	64	io.reactivex.processors.BehaviorProcessor	0	0	0	10	10	22			86	-1
+-1	0	39	122	303	697.075402272143	1753	0	10	75	15	0	io.reactivex.processors.FlowableProcessor	0	0	0	2	0	5	decorated	Decorator	5	0
+-1	0	11	41	56	165.03941932014112	2103	0	0	31	2	0	io.reactivex.internal.fuseable.HasUpstreamObservableSource	0	0	0	1	0	1			1	0
+-1	0	11	42	60	171.9624716133282	1509	0	10	32	6	0	io.reactivex.internal.fuseable.SimpleQueue	0	0	0	0	0	5	implementor	Bridge	5	0
+-1	0	11	46	59	187.5667224196631	2099	0	0	33	2	0	io.reactivex.internal.fuseable.HasUpstreamPublisher	0	0	0	1	0	1			1	0
+-1	0	7	80	108	374.5704981699376	2089	0	0	37	1	0	io.reactivex.internal.fuseable.ScalarCallable	0	0	0	1	0	1			1	0
+-1	0	12	63	91	284.18414891056153	1727	0	0	35	3	0	io.reactivex.internal.fuseable.ConditionalSubscriber	0	0	0	1	0	1			1	0
+0	1	32	268	730	1766.935935150173	2088	0	0	120	3	0	io.reactivex.internal.fuseable.QueueSubscription	0	0	0	2	5	1	state	State	1	0
+0	1	32	259	665	1683.4448435298661	2087	0	0	116	3	0	io.reactivex.internal.fuseable.QueueDisposable	0	0	0	2	5	1	state	State	1	0
+-1	0	11	41	56	165.03941932014112	2386	0	0	31	2	0	io.reactivex.internal.fuseable.HasUpstreamSingleSource	0	0	0	1	0	1			1	0
+-1	0	11	101	137	496.91807350864065	2484	0	0	43	3	0	io.reactivex.internal.fuseable.FuseToMaybe	0	0	0	1	0	1	creator	Factory Method	1	0
+-1	0	11	41	56	165.03941932014112	2385	0	0	31	2	0	io.reactivex.internal.fuseable.HasUpstreamMaybeSource	0	0	0	1	0	1			1	0
+-1	0	10	35	48	135.4920353817762	2384	0	0	29	2	0	io.reactivex.internal.fuseable.HasUpstreamCompletableSource	0	0	0	1	0	1			1	0
+-1	0	11	105	143	521.0986861772902	2428	0	0	43	3	0	io.reactivex.internal.fuseable.FuseToFlowable	0	0	0	1	0	1	creator	Factory Method	1	0
+-1	0	11	106	143	526.0615308075502	2429	0	0	43	3	0	io.reactivex.internal.fuseable.FuseToObservable	0	0	0	1	0	1	creator	Factory Method	1	0
+1	1	24	122	211	652.9266922840801	1535	0	0	52	4	0	io.reactivex.flowables.GroupedFlowable	0	0	0	1	1	2			2	0
+-1	0	65	198	593	1264.2684910015496	1534	-1	21	127	17	7	io.reactivex.flowables.ConnectableFlowable	0	0	0	7	0	7	abstractClass	Template Method	14	-1
+-1	0	13	46	67	193.41586049198443	1508	0	0	28	3	0	io.reactivex.functions.Predicate	0	0	0	0	0	1	state	State	1	0
+-1	0	14	54	89	242.38636396553554	1505	0	0	31	3	0	io.reactivex.functions.Function	0	0	0	0	0	1	state	State	1	0
+-1	0	20	53	129	257.5700574311686	987	0	0	35	3	0	io.reactivex.functions.Function4	0	0	0	0	0	1			1	0
+-1	0	10	36	51	141.5457227780757	2195	0	0	25	3	0	io.reactivex.functions.Action	0	0	0	0	0	1	state	State	1	0
+-1	0	30	73	219	393.4022362766046	992	0	0	45	4	0	io.reactivex.functions.Function9	0	0	0	0	0	1			1	0
+-1	0	13	48	70	203.92777161836926	1506	0	0	27	3	0	io.reactivex.functions.IntFunction	0	0	0	0	0	1			1	0
+-1	0	11	27	41	100.26644580101632	1503	0	0	26	3	0	io.reactivex.functions.BooleanSupplier	0	0	0	0	0	1			1	0
+-1	0	22	57	147	284.45465744638796	988	0	0	37	4	0	io.reactivex.functions.Function5	0	0	0	0	0	1			1	0
+-1	0	11	33	48	127.74963335996041	1507	0	0	25	2	0	io.reactivex.functions.LongConsumer	0	0	0	0	0	1	state	State	1	0
+-1	0	14	48	78	209.12202368110042	1500	0	0	30	3	0	io.reactivex.functions.BiConsumer	0	0	0	0	0	1	adaptee	(Object)Adapter	1	0
+-1	0	28	69	201	365.92803865607624	991	0	0	43	4	0	io.reactivex.functions.Function8	0	0	0	0	0	1			1	0
+-1	0	10	33	42	123.34309740335115	2196	0	0	27	2	0	io.reactivex.functions.Cancellable	0	0	0	0	0	1			1	0
+-1	0	18	49	111	230.76697986430437	986	0	0	33	3	0	io.reactivex.functions.Function3	0	0	0	0	0	1			1	0
+-1	0	16	45	93	203.96697719189655	1501	0	0	32	3	0	io.reactivex.functions.BiFunction	0	0	0	0	0	1			1	0
+-1	0	24	61	165	311.4626739079354	989	0	0	39	4	0	io.reactivex.functions.Function6	0	0	0	0	0	1			1	0
+-1	0	12	37	52	146.1960175875128	1504	0	0	27	2	0	io.reactivex.functions.Consumer	0	0	0	0	0	1	state	State	1	0
+-1	0	26	65	183	338.6165999346924	990	0	0	41	4	0	io.reactivex.functions.Function7	0	0	0	0	0	1			1	0
+-1	0	15	50	85	222.13256282451584	1502	0	0	31	3	0	io.reactivex.functions.BiPredicate	0	0	0	0	0	1			1	0
+1	1	24	122	211	652.9266922840801	985	0	0	52	4	0	io.reactivex.observables.GroupedObservable	0	0	0	1	1	2			2	0
+-1	0	65	198	593	1264.2684910015496	936	-1	21	127	17	7	io.reactivex.observables.ConnectableObservable	0	0	0	7	0	7	abstractClass	Template Method	14	-1

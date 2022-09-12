@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Implementation-Title: com.netflix.hystrix#hystrix-request-servlet;1.5.
+ 0-SNAPSHOT
+Implementation-Version: 1.5.0-SNAPSHOT
+Built-Status: integration
+Built-By: root
+Built-OS: Linux
+Build-Date: 2022-09-07_16:40:22
+Gradle-Version: 2.10
+Module-Owner: netflixoss@netflix.com
+Module-Email: netflixoss@netflix.com
+Module-Source: /hystrix-contrib/hystrix-request-servlet
+Module-Origin: https://github.com/Netflix/Hystrix.git
+Change: 4ae31e9
+Branch: 4ae31e9f8437ab48501d6554d7d577f8147614d7
+Build-Host: a541fd06b127
+Build-Job: LOCAL
+Build-Number: LOCAL
+Build-Id: LOCAL
+Created-By: 1.8.0_342-b07 (Oracle Corporation)
+Build-Java-Version: 1.8.0_342
+X-Compile-Target-JDK: 1.6
+X-Compile-Source-JDK: 1.6
+

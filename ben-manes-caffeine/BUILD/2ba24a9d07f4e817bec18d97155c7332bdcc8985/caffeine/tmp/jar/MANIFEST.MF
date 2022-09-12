@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: com.github.benmanes.caffeine
+Bundle-SymbolicName: com.github.ben-manes.caffeine
+Export-Package: com.github.benmanes.caffeine,com.github.benmanes.caffe
+ ine.base,com.github.benmanes.caffeine.cache,com.github.benmanes.caffe
+ ine.cache.stats
+Import-Package: sun.misc.*;resolution:=optional
+

@@ -1,0 +1,9 @@
+[buildinfo] Not using buildInfo properties file for this build.
+:clean
+:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+
+BUILD SUCCESSFUL
+
+Total time: 9.003 secs

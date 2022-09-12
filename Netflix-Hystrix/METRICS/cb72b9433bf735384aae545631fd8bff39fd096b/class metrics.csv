@@ -1,0 +1,219 @@
+COH	DAC	ELOC	HALSTEADLENGHT	HALSTEADVOCABULARY	HALSTEADVOLUME	ID	LCC	LCOM	LOC	MCCABEMETRIC	MPC	NAME	NOA	NOO	NUMBEROFCHILDREN	NUMBEROFIMPORTS	NUMBOFATTRIBUTES	NUMBOFMETHODS	PATTERNROLE	PATTERNTYPE	RFC	TCC
+0	2	119	191	939	1307.3597565287782	107	0	1	176	11	34	com.netflix.hystrix.dashboard.stream.ProxyStreamServlet	0	0	0	20	2	2			36	0
+0	2	84	139	640	898.1440765131667	106	0	3	127	14	24	com.netflix.hystrix.dashboard.stream.MockStreamServlet	0	0	0	12	2	3			27	0
+0	2	73	156	463	957.4854204374525	86	0	2	131	13	6	com.netflix.hystrix.examples.demo.GetUserAccountCommand	0	0	0	3	2	4			10	0
+1	2	11	23	36	82.42093558449052	88	0	0	35	1	1	com.netflix.hystrix.examples.demo.Order	0	0	0	1	2	1			2	0
+0	1	89	143	678	932.2380621754766	87	-1	36	162	24	53	com.netflix.hystrix.examples.demo.HystrixCommandDemo	0	0	0	13	1	9			62	-1
+0	5	117	312	988	2151.453001697335	83	0	0	237	8	23	com.netflix.hystrix.examples.demo.CreditCardCommand	0	0	0	5	6	3			26	0
+1	1	28	78	180	405.0506343694364	84	0	0	63	6	3	com.netflix.hystrix.examples.demo.GetOrderCommand	0	0	0	2	1	2			5	0
+0	3	37	51	159	258.5141143132318	90	0	9	63	13	0	com.netflix.hystrix.examples.demo.UserAccount	0	0	0	0	6	7			7	0
+1	1	28	79	181	410.68126547000026	85	0	0	63	8	3	com.netflix.hystrix.examples.demo.GetPaymentInformationCommand	0	0	0	2	1	2			5	0
+0	3	24	34	94	154.47202259718014	89	0	0	47	8	0	com.netflix.hystrix.examples.demo.PaymentInformation	0	0	0	0	4	4			4	0
+0	2	70	117	384	696.225178652764	82	0	12	110	21	0	com.netflix.hystrix.examples.demo.CreditCardAuthorizationResult	0	0	0	0	5	9			9	0
+1	1	53	82	336	477.0031151169827	74	-1	0	95	5	2	com.netflix.hystrix.examples.basic.CommandUsingRequestCache	0	0	0	5	1	3			5	-1
+1	1	33	77	194	405.6250782478763	72	0	0	66	7	1	com.netflix.hystrix.examples.basic.CommandThatFailsFast	0	0	0	5	1	2			3	0
+1	1	13	47	64	195.46750491790456	76	0	0	47	3	5	com.netflix.hystrix.examples.basic.CommandUsingSemaphoreIsolation	0	0	0	4	1	2			7	0
+0	1	68	136	530	853.1112728902788	68	0	4	134	7	2	com.netflix.hystrix.examples.basic.CommandCollapserGetValueForKey	0	0	0	14	1	4			6	0
+1	1	52	85	376	504.01507718814105	71	0	0	135	3	1	com.netflix.hystrix.examples.basic.CommandHelloWorld	0	0	0	8	1	2			3	0
+0	1	32	70	186	365.8022671599241	70	0	1	74	5	1	com.netflix.hystrix.examples.basic.CommandHelloFailure	0	0	0	5	1	3			4	0
+0	1	36	90	212	482.0927647204811	73	0	1	76	9	3	com.netflix.hystrix.examples.basic.CommandThatFailsSilently	0	0	0	8	1	3			6	0
+0	1	46	110	324	635.8817867371562	77	-1	1	109	6	4	com.netflix.hystrix.examples.basic.CommandWithFallbackViaNetwork	0	0	0	10	1	3			7	-1
+-1	1	59	107	387	637.5514421541867	75	-1	0	118	0	0	com.netflix.hystrix.examples.basic.CommandUsingRequestCacheInvalidation	0	0	0	8	1	0			0	-1
+0	2	51	119	332	690.8110613010621	78	-1	1	102	7	1	com.netflix.hystrix.examples.basic.CommandWithStubbedFallback	0	0	0	5	2	3			4	-1
+0	2	69	78	388	464.9584164906153	69	0	0	146	9	9	com.netflix.hystrix.examples.basic.CommandFacadeWithPrimarySecondary	0	0	0	12	2	4			13	0
+-1	0	96	86	570	545.7247270312592	277	-1	45	212	29	24	com.netflix.hystrix.perf.CommandExecutionPerfTest	0	0	0	24	0	10			34	0
+-1	0	38	55	254	304.5533846860195	279	-1	15	117	12	18	com.netflix.hystrix.perf.MultiThreadedMetricsTest	0	0	0	17	0	6			24	0
+-1	0	932	668	5849	5794.249358275941	130	-1	351	1371	71	268	com.netflix.hystrix.HystrixCollapserTest	0	0	0	26	0	27			295	-1
+-1	0	13	29	68	122.3657234501071	137	0	0	213	2	1	com.netflix.hystrix.HystrixTest	0	0	0	2	0	1			2	0
+0	6	166	215	901	1462.7536303857926	261	-1	0	244	60	53	com.netflix.hystrix.TestableExecutionHook	9	20	0	7	17	29			82	8
+0	1	73	80	410	481.2925727758683	272	0	0	107	1	0	com.netflix.hystrix.InspectableBuilder	0	0	0	0	3	1			1	0
+-1	0	76	109	444	664.4448773051125	131	-1	6	135	13	24	com.netflix.hystrix.HystrixCommandMetricsTest	0	0	0	4	0	4			28	0
+-1	0	63	66	363	389.0305870614801	135	-1	1	101	4	27	com.netflix.hystrix.HystrixRequestCacheTest	0	0	0	9	0	2			29	0
+-1	0	26	109	193	573.6332305906325	232	-1	3	83	6	11	com.netflix.hystrix.HystrixThreadPoolMetricsTest	0	0	0	4	0	3			14	0
+0	1	16	30	68	126.58523115528321	274	0	4	40	7	0	com.netflix.hystrix.TestHystrixObservableCommand	0	0	0	0	1	4			4	0
+-1	0	144	167	1169	1179.6719615658353	216	-1	15	243	13	21	com.netflix.hystrix.HystrixObservableCollapserTest	0	0	0	18	0	6			27	-1
+-1	0	44	86	358	505.72583683046025	217	0	0	79	6	14	com.netflix.hystrix.HystrixCommandTimeoutConcurrencyTesting	0	0	0	2	0	1			15	0
+0	1	173	177	1053	1231.8135366477136	132	-1	559	353	77	168	com.netflix.hystrix.HystrixCommandPropertiesTest	0	0	0	7	1	39			207	-1
+0	1	144	98	904	667.0692773184333	136	-1	0	205	9	42	com.netflix.hystrix.HystrixRequestLogTest	0	0	0	3	1	6			48	1
+-1	0	85	100	531	627.4762021241938	138	-1	21	170	15	52	com.netflix.hystrix.HystrixThreadPoolTest	0	0	0	17	0	7			59	0
+-1	0	1088	443	8391	4002.467336968441	271	-1	8256	1520	267	804	com.netflix.hystrix.CommonHystrixCommandTests	0	0	0	22	0	129			933	-1
+-1	0	4915	2000	31448	20712.181334203393	134	-1	36856	6863	521	2497	com.netflix.hystrix.HystrixObservableCommandTest	0	0	0	54	0	272			2769	-1
+-1	2	38	59	260	328.0802162299161	270	-1	0	76	0	0	com.netflix.hystrix.AbstractTestHystrixCommand	0	0	0	1	4	0			0	-1
+0	2	402	311	2598	2445.2366283386996	129	-1	0	614	40	139	com.netflix.hystrix.HystrixCircuitBreakerTest	0	0	0	11	4	14			153	-1
+-1	0	3893	1790	23586	18022.451384423348	133	-1	8128	5142	372	1408	com.netflix.hystrix.HystrixCommandTest	0	0	0	42	0	128			1536	-1
+0	1	20	34	87	151.84087603425584	273	0	4	49	8	0	com.netflix.hystrix.TestHystrixCommand	0	0	0	1	1	5			5	0
+-1	0	22	140	402	839.5032924066629	226	0	1	94	10	0	com.netflix.hystrix.HystrixObservable	0	0	0	5	0	2			2	0
+-1	0	23	36	88	161.18412532121545	150	0	210	64	21	0	com.netflix.hystrix.HystrixInvokableInfo	0	0	0	1	0	21			21	0
+-1	0	28	188	431	1140.4283209395046	15	0	3	93	16	0	com.netflix.hystrix.HystrixExecutable	0	0	0	6	0	3			3	0
+-1	0	5	15	16	41.58883083359672	225	-1	0	23	0	0	com.netflix.hystrix.HystrixInvokable	0	0	0	0	0	0			0	-1
+0	5	178	218	832	1465.7954720990235	20	-1	103	268	46	28	com.netflix.hystrix.HystrixThreadPoolMetrics	23	0	0	9	5	23			51	2
+-1	0	36	105	266	586.2671124220784	7	0	0	71	2	0	com.netflix.hystrix.HystrixCollapserKey	0	0	0	1	0	1	state	State	1	0
+0	5	160	349	985	2405.531932769059	17	-1	26	267	29	26	com.netflix.hystrix.HystrixRequestLog	0	0	0	15	5	9			35	0
+0	4	241	300	1513	2196.554914136507	8	0	114	357	34	16	com.netflix.hystrix.HystrixCollapserProperties	0	0	1	6	18	17			33	0
+0	7	294	741	2956	5921.769881012457	6	-1	269	597	79	81	com.netflix.hystrix.HystrixCollapser	0	0	0	23	7	26	abstractClass	Template Method	107	-1
+0	24	1298	1377	8961	12531.57729617957	128	-1	1396	2282	185	174	com.netflix.hystrix.AbstractCommand	0	0	0	43	28	61	abstraction	Bridge	235	-1
+-1	0	136	228	981	1570.594520780903	5	0	3	237	7	0	com.netflix.hystrix.HystrixCircuitBreaker	0	0	0	4	0	3	implementor	Bridge	3	0
+-1	0	39	111	293	630.4991596008945	19	0	0	77	3	0	com.netflix.hystrix.HystrixThreadPoolKey	0	0	0	1	0	1	state	State	1	0
+-1	0	104	404	1150	2847.1969574283476	149	0	36	236	23	3	com.netflix.hystrix.HystrixObservableCommand	0	0	0	5	0	9	abstractClass	Template Method	12	0
+0	1	40	68	209	363.27872913360716	280	0	9	51	10	6	com.netflix.hystrix.HystrixCounters	0	0	0	1	1	6			12	0
+-1	0	137	314	1105	2200.386592780882	18	0	21	242	9	0	com.netflix.hystrix.HystrixThreadPool	0	0	0	11	0	7	implementor	Bridge	7	0
+-1	0	206	535	2308	4143.113095780975	9	-1	105	413	46	36	com.netflix.hystrix.HystrixCommand	0	0	0	10	0	15			51	-1
+0	7	271	658	2661	5189.28888430332	215	-1	303	536	76	98	com.netflix.hystrix.HystrixObservableCollapser	0	0	0	25	7	27	abstractClass	Template Method	125	-1
+0	2	85	174	512	1085.4684847568744	111	-1	22	144	20	19	com.netflix.hystrix.Hystrix	0	0	0	8	2	9			28	-1
+0	5	170	280	1406	2029.581140263771	16	1	0	270	26	12	com.netflix.hystrix.HystrixRequestCache	0	0	0	8	5	10	receiver	Command	22	1
+0	5	95	175	517	1093.4075030389752	262	-1	51	164	28	20	com.netflix.hystrix.HystrixCollapserMetrics	14	0	0	9	6	14			34	1
+0	10	518	648	3490	5286.161745847314	13	0	430	756	73	32	com.netflix.hystrix.HystrixCommandProperties	0	0	1	10	48	33	receiver	Command	65	0
+1	1	25	63	141	311.77187309382464	267	0	0	55	7	2	com.netflix.hystrix.HystrixMetrics	0	0	3	2	1	3			5	0
+0	2	181	274	1226	1948.554319919947	21	0	66	296	25	13	com.netflix.hystrix.HystrixThreadPoolProperties	0	0	1	9	12	13			26	0
+0	11	341	517	2156	3968.4971348589347	12	-1	240	497	85	68	com.netflix.hystrix.HystrixCommandMetrics	37	0	0	14	12	37	receiver	Command	105	-1
+-1	0	39	122	312	700.6463889127568	10	0	0	77	2	0	com.netflix.hystrix.HystrixCommandGroupKey	0	0	0	1	0	1			1	0
+-1	0	39	108	283	609.7082649454696	11	0	0	76	2	0	com.netflix.hystrix.HystrixCommandKey	0	0	0	1	0	1	implementor	Bridge	1	0
+-1	1	31	72	167	368.4955544940064	222	-1	0	63	0	0	com.netflix.hystrix.HystrixCommandMetricsSamples	0	0	0	1	1	0			0	-1
+-1	0	108	60	585	382.2967108339114	139	-1	36	182	24	67	com.netflix.hystrix.collapser.CollapsedRequestObservableFunctionTest	0	0	0	7	0	9			76	0
+1	1	9	33	40	121.73302198575989	118	0	0	35	2	1	com.netflix.hystrix.collapser.RealCollapserTimer	0	0	0	3	1	1	adapter	(Object)Adapter	2	0
+-1	0	6	19	20	56.918913197525825	116	0	0	28	1	0	com.netflix.hystrix.collapser.CollapserTimer	0	0	0	2	0	1	state	State	1	0
+0	10	176	317	1141	2231.5723309062782	121	-1	18	292	29	23	com.netflix.hystrix.collapser.RequestCollapserFactory	0	0	0	13	10	12	context	State	35	-1
+-1	0	12	38	63	157.43911960287824	117	0	6	42	4	0	com.netflix.hystrix.collapser.HystrixCollapserBridge	0	0	0	4	0	4	state	State	4	0
+0	3	185	262	1348	1888.0708503657302	115	1	0	260	41	43	com.netflix.hystrix.collapser.CollapsedRequestObservableFunction	0	0	0	6	3	8			51	1
+0	8	106	234	767	1554.3419115199379	120	1	0	180	14	17	com.netflix.hystrix.collapser.RequestCollapser	0	0	0	12	8	4	context	State	21	1
+0	7	152	279	1806	2092.184655779564	119	2	0	236	25	39	com.netflix.hystrix.collapser.RequestBatch	0	0	0	13	7	6	context	State	45	2
+-1	0	73	127	438	772.4418016178087	141	-1	36	147	18	37	com.netflix.hystrix.strategy.concurrency.HystrixConcurrencyStrategyTest	0	0	0	16	0	9			46	0
+-1	0	36	45	266	251.25733389517646	268	-1	1	69	5	13	com.netflix.hystrix.strategy.concurrency.HystrixContextSchedulerTest	0	0	0	7	0	2			15	0
+-1	0	16	88	155	443.82141028889373	35	0	1	48	5	0	com.netflix.hystrix.strategy.concurrency.HystrixRequestVariableLifecycle	0	0	0	0	0	2			2	0
+0	3	54	167	524	1045.669111281614	34	0	0	113	5	5	com.netflix.hystrix.strategy.concurrency.HystrixRequestVariableHolder	0	0	0	3	3	2			7	0
+0	0	12	31	44	117.3098786514661	28	0	1	34	3	0	com.netflix.hystrix.strategy.concurrency.HystrixConcurrencyStrategyDefault	2	0	0	0	1	2	singleton	Singleton	2	0
+0	2	26	58	133	283.6402494368617	29	1	0	58	5	7	com.netflix.hystrix.strategy.concurrency.HystrixContextCallable	0	0	0	2	2	3			10	1
+0	3	39	77	239	421.68769349872633	122	-1	2	75	10	10	com.netflix.hystrix.strategy.concurrency.HystrixContexSchedulerAction	0	0	0	4	3	4			14	-1
+0	2	49	231	587	1472.6307333802904	31	2	0	145	17	7	com.netflix.hystrix.strategy.concurrency.HystrixRequestContext	0	0	0	5	2	6			13	2
+0	3	127	190	890	1290.3320779179753	123	1	0	214	9	3	com.netflix.hystrix.strategy.concurrency.HystrixContextScheduler	0	0	0	8	3	6			9	1
+-1	0	11	76	117	361.9252190446295	32	0	0	41	3	0	com.netflix.hystrix.strategy.concurrency.HystrixRequestVariable	0	0	0	1	0	1			1	0
+0	2	36	66	200	349.6889461921704	30	1	0	67	10	9	com.netflix.hystrix.strategy.concurrency.HystrixContextRunnable	0	0	0	2	2	4			13	1
+0	1	94	328	1009	2268.682526675984	33	-1	21	218	20	11	com.netflix.hystrix.strategy.concurrency.HystrixRequestVariableDefault	0	0	0	3	1	7			18	-1
+0	1	63	319	798	2131.592642586489	27	-1	19	160	20	11	com.netflix.hystrix.strategy.concurrency.HystrixConcurrencyStrategy	0	0	1	13	1	7			18	-1
+0	1	87	131	564	829.8921069462458	142	-1	4	157	7	20	com.netflix.hystrix.strategy.metrics.HystrixMetricsPublisherFactoryTest	0	0	0	16	2	4			24	-1
+-1	0	10	45	56	181.14082608308172	42	0	1	42	2	0	com.netflix.hystrix.strategy.metrics.HystrixMetricsPublisherCommandDefault	0	0	0	5	0	2			2	0
+-1	0	10	41	50	160.39294322255398	264	0	1	40	2	0	com.netflix.hystrix.strategy.metrics.HystrixMetricsPublisherCollapserDefault	0	0	0	3	0	2			2	0
+-1	0	6	86	110	404.24131145814783	263	0	0	36	1	0	com.netflix.hystrix.strategy.metrics.HystrixMetricsPublisherCollapser	0	0	0	1	0	1			1	0
+-1	0	6	86	110	404.24131145814783	41	0	0	36	1	0	com.netflix.hystrix.strategy.metrics.HystrixMetricsPublisherCommand	0	0	0	1	0	1			1	0
+0	0	12	37	50	144.7448512008414	43	0	1	36	3	0	com.netflix.hystrix.strategy.metrics.HystrixMetricsPublisherDefault	2	0	0	0	1	2	singleton	Singleton	2	0
+-1	0	10	41	50	160.39294322255398	46	0	1	40	2	0	com.netflix.hystrix.strategy.metrics.HystrixMetricsPublisherThreadPoolDefault	0	0	0	3	0	2			2	0
+-1	0	37	152	475	936.8238502132655	40	0	3	115	9	0	com.netflix.hystrix.strategy.metrics.HystrixMetricsPublisher	0	0	4	15	0	3			3	0
+-1	0	6	86	110	404.24131145814783	45	0	0	36	1	0	com.netflix.hystrix.strategy.metrics.HystrixMetricsPublisherThreadPool	0	0	0	1	0	1			1	0
+0	3	101	162	652	1049.7672190321177	44	-1	10	190	23	25	com.netflix.hystrix.strategy.metrics.HystrixMetricsPublisherFactory	0	0	0	16	4	8	singleton	Singleton	33	-1
+-1	0	43	32	183	166.70355689092548	144	-1	21	91	7	27	com.netflix.hystrix.strategy.properties.HystrixPropertyTest	0	0	0	3	0	7			34	0
+-1	0	125	130	608	833.3227346556017	143	-1	28	228	14	40	com.netflix.hystrix.strategy.properties.HystrixPropertiesChainedArchaiusPropertyTest	0	0	0	11	0	8			48	0
+-1	0	59	178	685	1162.2365532106762	54	-1	15	152	24	3	com.netflix.hystrix.strategy.properties.HystrixPropertiesStrategy	0	0	1	10	0	6			9	0
+-1	0	9	27	35	95.99439766021416	56	-1	0	32	1	0	com.netflix.hystrix.strategy.properties.HystrixPropertiesThreadPoolDefault	1	0	0	2	0	1			1	-1
+0	0	12	28	41	103.98001786772062	55	0	1	34	3	0	com.netflix.hystrix.strategy.properties.HystrixPropertiesStrategyDefault	2	0	0	0	1	2	singleton	Singleton	2	0
+-1	0	9	27	35	95.99439766021416	51	0	0	32	1	0	com.netflix.hystrix.strategy.properties.HystrixPropertiesCollapserDefault	1	0	0	2	0	1			1	0
+-1	1	271	221	1724	1646.980941720424	50	-1	0	373	0	0	com.netflix.hystrix.strategy.properties.HystrixPropertiesChainedArchaiusProperty	0	0	0	6	1	0			0	-1
+-1	0	121	141	906	960.0745421520602	57	0	0	180	1	0	com.netflix.hystrix.strategy.properties.HystrixProperty	0	0	0	4	0	1	strategy	Strategy	1	0
+0	3	112	145	814	971.7842530703683	53	-1	2	165	18	22	com.netflix.hystrix.strategy.properties.HystrixPropertiesFactory	0	0	0	10	3	4			26	0
+-1	0	9	27	35	95.99439766021416	52	0	0	32	1	0	com.netflix.hystrix.strategy.properties.HystrixPropertiesCommandDefault	1	0	0	2	0	1			1	0
+0	1	44	67	237	366.36002945605384	140	0	0	240	1	1	com.netflix.hystrix.strategy.HystrixPluginsTest	0	0	0	9	1	1			2	0
+0	5	191	268	1434	1947.8837696707635	26	-1	61	300	53	36	com.netflix.hystrix.strategy.HystrixPlugins	0	0	0	15	6	14	singleton	Singleton	50	-1
+-1	0	142	121	774	804.840196704357	148	-1	10	239	9	38	com.netflix.hystrix.util.HystrixTimerTest	0	0	0	9	0	5			43	0
+-1	0	402	161	2352	1249.8464307519814	146	-1	276	694	49	158	com.netflix.hystrix.util.HystrixRollingNumberTest	0	0	0	5	0	24			182	0
+0	3	271	297	1676	2204.977088469482	147	-1	164	734	39	85	com.netflix.hystrix.util.HystrixRollingPercentileTest	0	0	0	16	4	20			105	-1
+0	5	225	433	1968	3284.206742606082	66	-1	24	360	26	15	com.netflix.hystrix.util.Striped64	0	0	2	1	9	8	abstractClass	Template Method	23	-1
+0	1	131	317	949	2173.164589159347	64	-1	105	219	33	18	com.netflix.hystrix.util.LongAdder	14	1	0	4	1	15			33	-1
+0	2	102	293	807	1961.1438348030952	63	0	5	192	16	16	com.netflix.hystrix.util.HystrixTimer	0	0	0	12	3	6	singleton	Singleton	22	0
+-1	0	6	16	27	52.733389856069266	275	0	1	30	2	0	com.netflix.hystrix.util.ExceptionThreadingUtility	0	0	0	0	0	2			2	0
+0	1	122	285	910	1941.8317108606052	65	-1	78	203	33	16	com.netflix.hystrix.util.LongMaxUpdater	12	1	0	3	1	13			29	-1
+0	7	364	631	2122	4833.532135398748	62	3	0	597	33	27	com.netflix.hystrix.util.HystrixRollingPercentile	0	0	0	11	9	10	context	Strategy	37	3
+0	6	393	590	3470	4809.626825035134	60	-1	49	672	42	43	com.netflix.hystrix.util.HystrixRollingNumber	0	0	0	10	8	14	context	Strategy	57	-1
+-1	0	267	264	2094	2018.7634873376473	108	0	465	518	67	0	com.netflix.hystrix.strategy.executionhook.HystrixCommandExecutionHook	0	0	2	7	0	31	receiver	Command	31	0
+0	0	12	30	43	112.83600347080687	109	0	1	35	3	0	com.netflix.hystrix.strategy.executionhook.HystrixCommandExecutionHookDefault	2	0	0	0	1	2	singleton	Singleton	2	0
+0	0	12	30	43	112.83600347080687	38	0	1	37	5	0	com.netflix.hystrix.strategy.eventnotifier.HystrixEventNotifierDefault	2	0	0	0	1	2	singleton	Singleton	2	0
+-1	0	21	151	238	826.3128717243927	37	0	1	72	4	0	com.netflix.hystrix.strategy.eventnotifier.HystrixEventNotifier	0	0	1	5	0	2			2	0
+0	5	45	79	229	429.264038280785	23	1	0	79	10	0	com.netflix.hystrix.exception.HystrixRuntimeException	0	0	0	3	5	5			5	1
+0	1	12	87	114	412.0492650103211	22	0	1	38	2	0	com.netflix.hystrix.exception.HystrixBadRequestException	0	0	0	1	1	2			2	0
+-1	0	9	25	44	94.60474084795652	281	0	0	45	3	5	com.netflix.hystrix.contrib.metrics.eventstream.HystrixMetricsStreamServletUnitTest	0	0	0	8	0	1			6	0
+-1	0	54	88	368	519.911298558866	278	0	3	100	6	13	com.netflix.hystrix.contrib.metrics.eventstream.HystrixMetricsPollerTest	0	0	0	5	0	3			16	0
+0	7	261	352	1758	2630.120091542283	100	-1	0	394	16	18	com.netflix.hystrix.contrib.metrics.eventstream.HystrixMetricsPoller	0	0	0	23	7	6			24	-1
+0	5	140	305	1190	2159.9211187622004	101	1	0	231	18	24	com.netflix.hystrix.contrib.metrics.eventstream.HystrixMetricsStreamServlet	0	0	0	13	5	5			29	1
+0	1	28	98	239	536.6934280892881	81	0	3	88	7	6	com.netflix.hystrix.contrib.requestservlet.HystrixRequestLogViaResponseHeaderServletFilter	0	0	0	12	1	3			9	0
+0	1	34	138	313	792.9760402945411	80	0	3	101	7	11	com.netflix.hystrix.contrib.requestservlet.HystrixRequestLogViaLoggerServletFilter	0	0	0	12	1	3			14	0
+-1	0	18	71	123	341.6650892314416	79	0	3	68	5	3	com.netflix.hystrix.contrib.requestservlet.HystrixRequestContextServletFilter	0	0	0	8	0	3			6	0
+0	5	57	120	364	707.6584641164088	223	-1	5	134	19	38	com.netflix.hystrix.contrib.rxnetty.metricsstream.HystrixMetricsStreamHandlerTest	0	0	0	31	5	6			44	0
+0	5	72	185	588	1179.694485361246	220	0	13	131	17	31	com.netflix.hystrix.contrib.rxnetty.metricsstream.HystrixMetricsStreamHandler	0	0	0	18	8	7			38	0
+0	1	148	162	624	1042.6563596758474	221	1	0	245	12	93	com.netflix.hystrix.contrib.rxnetty.metricsstream.JsonMappers	0	0	0	14	1	4			97	1
+0	4	133	109	722	717.440740139318	99	2	137	210	46	44	com.netflix.hystrix.contrib.servopublisher.HystrixServoMetricsPublisherThreadPool	7	16	0	13	5	23	context	State	67	2
+0	4	199	132	1085	922.5922551086419	265	5	159	285	68	52	com.netflix.hystrix.contrib.servopublisher.HystrixServoMetricsPublisherCollapser	7	27	0	13	5	34	context	State	86	5
+0	6	302	197	1619	1455.7440988744943	98	-1	393	382	92	90	com.netflix.hystrix.contrib.servopublisher.HystrixServoMetricsPublisherCommand	7	39	0	15	7	46	context	State	136	6
+-1	0	56	82	363	483.34103240971774	97	0	15	110	10	14	com.netflix.hystrix.contrib.servopublisher.HystrixServoMetricsPublisherAbstract	0	0	3	11	0	6	abstractClass	Template Method	20	0
+0	0	29	67	163	341.2812634540531	96	0	8	68	12	1	com.netflix.hystrix.contrib.servopublisher.HystrixServoMetricsPublisher	3	2	0	11	1	5	singleton	Singleton	6	0
+0	2	20	46	105	214.08217610724606	233	0	8	73	11	5	com.netflix.hystrix.contrib.javanica.command.ExecutionTypeTest	0	0	0	13	2	5			10	0
+0	1	12	40	57	161.722050713382	164	0	1	35	4	0	com.netflix.hystrix.contrib.javanica.command.BatchHystrixCommandFactory	0	0	0	0	1	2			2	0
+0	1	12	40	57	161.722050713382	169	0	1	35	4	0	com.netflix.hystrix.contrib.javanica.command.GenericHystrixCommandFactory	0	0	0	0	1	2			2	0
+-1	0	13	39	67	163.98301215624767	170	0	0	38	2	0	com.netflix.hystrix.contrib.javanica.command.HystrixCommandFactory	0	0	0	2	0	1	state	State	1	0
+-1	0	25	62	142	307.2612775712782	165	0	3	51	9	0	com.netflix.hystrix.contrib.javanica.command.CommandAction	0	0	3	1	0	3			3	0
+0	2	47	64	218	344.6076840185017	167	-1	5	82	15	8	com.netflix.hystrix.contrib.javanica.command.CommandSetterBuilder	0	0	0	6	4	7			15	1
+-1	0	11	37	48	143.23443740359198	193	0	0	31	2	0	com.netflix.hystrix.contrib.javanica.command.ClosureCommand	0	0	0	0	0	1			1	0
+0	1	45	134	339	780.6840143889802	168	-1	8	84	16	19	com.netflix.hystrix.contrib.javanica.command.GenericCommand	0	0	0	4	1	5			24	-1
+-1	0	17	63	101	290.75259256099935	196	0	3	46	3	0	com.netflix.hystrix.contrib.javanica.command.ObservableResult	0	0	0	2	0	3			3	0
+-1	0	32	75	142	371.68702932009455	194	0	0	56	5	4	com.netflix.hystrix.contrib.javanica.command.CommandExecutor	0	0	0	2	0	1			5	0
+0	3	75	121	379	718.4418808149736	206	1	9	119	24	12	com.netflix.hystrix.contrib.javanica.command.MethodExecutionAction	6	4	0	6	4	10			22	1
+0	8	151	139	802	929.5080964934456	171	0	102	213	33	2	com.netflix.hystrix.contrib.javanica.command.MetaHolder	0	0	0	6	13	17	receiver	Command	19	0
+1	1	31	58	134	284.07470839715285	166	2	0	61	12	4	com.netflix.hystrix.contrib.javanica.command.CommandExecutionAction	2	3	0	1	1	5	concreteCommand	Command	9	2
+-1	0	64	121	391	722.2136147582293	161	-1	10	133	16	66	com.netflix.hystrix.contrib.javanica.command.AbstractHystrixCommandFactory	0	0	0	14	0	5	abstractClass	Template Method	71	-1
+0	1	56	84	322	485.06232982573033	163	-1	28	97	22	24	com.netflix.hystrix.contrib.javanica.command.BatchHystrixCommand	0	0	0	8	1	8			32	0
+0	1	26	82	177	424.444278071054	162	1	0	63	11	0	com.netflix.hystrix.contrib.javanica.command.AsyncResult	0	0	0	2	1	6			6	1
+0	3	39	72	177	372.68278074531565	205	1	0	98	13	47	com.netflix.hystrix.contrib.javanica.command.LazyCommandExecutionAction	3	3	0	4	3	6	context	State	53	1
+0	8	177	271	994	1870.3707830039316	160	-1	56	254	35	27	com.netflix.hystrix.contrib.javanica.command.AbstractHystrixCommand	0	0	0	15	8	13	receiver	Command	40	-1
+0	1	36	47	171	241.65818715562503	204	0	2	64	7	0	com.netflix.hystrix.contrib.javanica.command.CommandActions	0	0	0	0	2	4			4	0
+0	8	110	129	489	798.8147611422585	247	0	104	163	33	0	com.netflix.hystrix.contrib.javanica.command.HystrixCommandBuilder	0	0	0	6	8	16			16	0
+-1	0	39	60	227	325.49700104888416	175	-1	21	88	18	25	com.netflix.hystrix.contrib.javanica.CommonUtils	0	0	0	12	0	7			32	-1
+-1	0	75	77	411	463.43167751621	260	-1	3	140	6	38	com.netflix.hystrix.contrib.javanica.cache.HystrixCacheKeyGeneratorTest	0	0	0	5	0	3			41	0
+-1	0	24	44	113	208.00506402334298	259	0	1	60	4	13	com.netflix.hystrix.contrib.javanica.cache.CacheInvocationParameterTest	0	0	0	7	0	2			15	0
+-1	0	77	100	447	610.255859461357	258	-1	15	160	12	54	com.netflix.hystrix.contrib.javanica.cache.CacheInvocationContextFactoryTest	0	0	0	12	0	6			60	0
+0	6	110	226	726	1488.7863033504038	250	-1	35	174	28	14	com.netflix.hystrix.contrib.javanica.cache.CacheInvocationContext	0	0	0	10	7	11			25	-1
+0	0	23	62	108	290.29213608170164	246	-1	3	55	5	7	com.netflix.hystrix.contrib.javanica.cache.HystrixRequestCacheManager	0	0	0	4	1	3	singleton	Singleton	10	-1
+0	5	68	117	340	681.9866372603942	252	0	14	112	20	11	com.netflix.hystrix.contrib.javanica.cache.CacheInvocationParameter	0	0	0	7	5	9			20	0
+0	0	65	96	459	588.3888201658124	238	0	6	99	18	19	com.netflix.hystrix.contrib.javanica.cache.HystrixCacheKeyGenerator	0	0	0	10	1	4	singleton	Singleton	23	0
+0	1	26	59	124	284.3966123706972	245	1	0	59	8	3	com.netflix.hystrix.contrib.javanica.cache.DefaultHystrixGeneratedCacheKey	0	0	0	1	2	4	singleton	Singleton	7	1
+-1	0	11	74	94	336.2038138879803	237	0	0	37	3	0	com.netflix.hystrix.contrib.javanica.cache.HystrixGeneratedCacheKey	0	0	0	0	0	1			1	0
+-1	0	48	100	313	574.6203190540153	251	-1	3	86	10	23	com.netflix.hystrix.contrib.javanica.cache.CacheInvocationContextFactory	0	0	0	8	0	3			26	0
+1	1	87	113	558	714.6525627490881	208	0	0	179	4	29	com.netflix.hystrix.contrib.javanica.test.spring.collapser.CollapserTest	0	0	0	23	1	2			31	0
+0	2	60	86	297	489.6609639370322	189	2	5	96	18	4	com.netflix.hystrix.contrib.javanica.test.spring.domain.User	0	0	0	0	3	11			15	2
+1	1	12	25	40	92.2219863528484	257	0	0	31	3	0	com.netflix.hystrix.contrib.javanica.test.spring.domain.Profile	0	0	0	0	1	2			2	0
+0	3	88	109	479	672.7153651177897	209	-1	22	180	16	59	com.netflix.hystrix.contrib.javanica.test.spring.command.CommandTest	0	0	0	20	3	9			68	1
+-1	0	2	7	7	13.621371043387192	176	-1	0	26	0	0	com.netflix.hystrix.contrib.javanica.test.spring.conf.AopCglibConfig	0	0	0	3	0	0			0	-1
+-1	0	5	14	19	41.22214570833016	179	0	0	32	2	0	com.netflix.hystrix.contrib.javanica.test.spring.conf.SpringApplicationContext	0	0	0	4	0	1			1	0
+-1	0	2	7	7	13.621371043387192	177	-1	0	26	0	0	com.netflix.hystrix.contrib.javanica.test.spring.conf.AopJdkConfig	0	0	0	3	0	0			0	-1
+-1	0	2	8	8	16.635532333438686	178	-1	0	28	0	0	com.netflix.hystrix.contrib.javanica.test.spring.conf.AopLoadTimeWeavingConfig	0	0	0	4	0	0			0	-1
+0	2	193	183	1176	1293.7869655079187	207	2	0	359	8	44	com.netflix.hystrix.contrib.javanica.test.spring.cache.CacheTest	0	0	0	30	2	6			50	2
+1	1	126	107	830	719.1925499845988	213	1	0	231	6	60	com.netflix.hystrix.contrib.javanica.test.spring.fallback.CommandFallbackTest	0	0	0	21	1	4			64	1
+1	1	41	72	257	399.53347811245584	210	0	0	107	2	15	com.netflix.hystrix.contrib.javanica.test.spring.configuration.collapser.CollapserPropertiesTest	0	0	0	21	1	1			16	0
+1	1	62	77	369	455.1313415911206	211	0	0	139	3	49	com.netflix.hystrix.contrib.javanica.test.spring.configuration.command.CommandPropertiesTest	0	0	0	21	1	2			51	0
+0	4	151	156	925	1065.4478230519383	212	2	0	256	14	55	com.netflix.hystrix.contrib.javanica.test.spring.error.ErrorPropagationTest	0	0	0	21	4	5			60	2
+0	1	74	95	507	591.7085453411624	214	-1	13	150	6	34	com.netflix.hystrix.contrib.javanica.test.spring.observable.ObservableTest	0	0	0	21	1	6			40	0
+0	2	62	133	344	776.805340430662	159	0	4	122	11	21	com.netflix.hystrix.contrib.javanica.collapser.CommandCollapser	0	0	0	11	3	5	concreteCommand	Command	26	0
+0	1	47	108	268	603.8265938951726	197	-1	6	80	13	12	com.netflix.hystrix.contrib.javanica.command.closure.AbstractClosureFactory	0	0	2	5	2	4	abstractClass	Template Method	16	-1
+-1	0	17	32	56	128.8112541035248	202	0	1	42	4	0	com.netflix.hystrix.contrib.javanica.command.closure.ObservableClosureFactory	0	2	0	2	0	2			2	0
+-1	0	13	54	89	242.38636396553554	200	0	0	34	3	0	com.netflix.hystrix.contrib.javanica.command.closure.ClosureFactory	0	0	0	1	0	1			1	0
+0	2	21	39	83	172.33478370406732	199	1	0	47	6	0	com.netflix.hystrix.contrib.javanica.command.closure.Closure	0	0	0	1	2	4			4	1
+0	1	19	57	98	261.3431462842226	201	0	1	51	6	1	com.netflix.hystrix.contrib.javanica.command.closure.ClosureFactoryRegistry	0	0	0	4	1	2			3	0
+-1	0	17	32	56	128.8112541035248	198	0	1	42	4	0	com.netflix.hystrix.contrib.javanica.command.closure.AsyncClosureFactory	0	2	0	2	0	2			2	0
+0	1	73	110	416	663.375378628739	172	-1	45	118	20	31	com.netflix.hystrix.contrib.javanica.conf.HystrixPropertiesManager	0	0	0	10	2	10			41	-1
+-1	0	13	28	48	108.39362830542095	231	0	3	33	3	0	com.netflix.hystrix.contrib.javanica.exception.FallbackInvocationException	0	0	0	0	0	3			3	0
+-1	0	17	41	65	171.1498780657211	229	0	1	37	2	0	com.netflix.hystrix.contrib.javanica.exception.CommandActionExecutionException	0	0	0	0	0	2			2	0
+-1	0	19	42	84	186.09430555141915	230	-1	1	40	5	2	com.netflix.hystrix.contrib.javanica.exception.ExceptionUtils	0	0	0	0	0	2			4	0
+-1	0	17	34	65	141.92916717645164	256	0	6	39	4	0	com.netflix.hystrix.contrib.javanica.exception.HystrixCachingException	0	0	0	0	0	4			4	0
+-1	0	17	36	67	151.36893429807478	248	0	6	39	4	0	com.netflix.hystrix.contrib.javanica.exception.HystrixCacheKeyGenerationException	0	0	0	0	0	4			4	0
+-1	0	60	123	392	734.4652062942268	174	-1	10	95	15	15	com.netflix.hystrix.contrib.javanica.utils.AopUtils	0	0	0	3	0	5			20	-1
+0	2	91	169	637	1091.1940717916955	157	0	4	163	11	13	com.netflix.hystrix.contrib.javanica.aop.aspectj.HystrixCommandAspect	0	0	0	20	2	4			17	0
+-1	0	18	55	90	247.4895318681646	241	0	1	63	5	14	com.netflix.hystrix.contrib.javanica.aop.aspectj.HystrixCacheAspect	0	0	0	13	0	2			16	0
+0	5	114	92	606	589.4329587183769	105	-1	9	160	35	38	com.netflix.hystrix.contrib.yammermetricspublisher.HystrixYammerMetricsPublisherThreadPool	0	0	0	8	6	18			56	4
+0	1	18	52	93	235.69517364396933	103	0	0	55	6	1	com.netflix.hystrix.contrib.yammermetricspublisher.HystrixYammerMetricsPublisher	2	2	0	13	1	4			5	0
+0	7	282	185	1500	1352.9457716117058	104	-1	61	333	83	88	com.netflix.hystrix.contrib.yammermetricspublisher.HystrixYammerMetricsPublisherCommand	0	0	0	10	8	42			130	9
+0	5	158	114	844	768.1493843839392	269	-1	0	204	51	46	com.netflix.hystrix.contrib.yammermetricspublisher.HystrixYammerMetricsPublisherCollapser	0	0	0	8	5	26			72	7
+0	1	30	85	159	430.8568571887197	112	-1	4	59	8	2	com.netflix.hystrix.contrib.networkauditor.HystrixNetworkAuditorAgent	0	0	0	1	2	4	context	State	6	-1
+-1	0	9	116	167	593.6872822403436	113	0	0	44	3	0	com.netflix.hystrix.contrib.networkauditor.HystrixNetworkAuditorEventListener	0	0	0	0	0	1	state	State	1	0
+-1	0	67	130	510	810.4733943433882	114	0	3	115	16	12	com.netflix.hystrix.contrib.networkauditor.NetworkClassTransform	0	0	0	10	0	3			15	0
+0	3	39	50	155	252.17125584596235	219	2	0	94	8	35	com.netflix.hystrix.contrib.codahalemetricspublisher.ConfigurableCodaHaleMetricFilterTest	0	0	0	13	4	6			41	2
+1	1	15	51	85	226.57521408100615	124	1	0	50	5	0	com.netflix.hystrix.contrib.codahalemetricspublisher.HystrixCodaHaleMetricsPublisher	1	2	0	12	1	3			3	1
+0	5	114	91	606	583.0260787323076	126	-1	9	159	35	39	com.netflix.hystrix.contrib.codahalemetricspublisher.HystrixCodaHaleMetricsPublisherThreadPool	0	0	0	7	6	18			57	4
+0	7	284	186	1508	1361.2483560336298	125	-1	61	334	83	89	com.netflix.hystrix.contrib.codahalemetricspublisher.HystrixCodaHaleMetricsPublisherCommand	0	0	0	9	8	42			131	9
+0	2	24	99	169	507.85997277738426	218	0	0	86	6	7	com.netflix.hystrix.contrib.codahalemetricspublisher.ConfigurableCodaHaleMetricFilter	0	0	0	5	2	3			10	0
+0	5	158	114	845	768.2843755187179	266	-1	0	203	51	47	com.netflix.hystrix.contrib.codahalemetricspublisher.HystrixCodaHaleMetricsPublisherCollapser	0	0	0	7	5	26			73	7

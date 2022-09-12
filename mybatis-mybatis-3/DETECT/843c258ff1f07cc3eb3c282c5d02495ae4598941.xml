@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<pattern name="Factory Method">
+		<instance>
+			<role name="Creator" element="org.apache.ibatis.executor.resultset.ResultSetHandler" />
+			<role name="FactoryMethod()" element="org.apache.ibatis.executor.resultset.ResultSetHandler::handleCursorResultSets():org.apache.ibatis.cursor.Cursor" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.apache.ibatis.executor.Executor" />
+			<role name="FactoryMethod()" element="org.apache.ibatis.executor.Executor::createCacheKey(org.apache.ibatis.mapping.MappedStatement, java.lang.Object, org.apache.ibatis.session.RowBounds, org.apache.ibatis.mapping.BoundSql):org.apache.ibatis.cache.CacheKey" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.apache.ibatis.executor.loader.AbstractEnhancedDeserializationProxy" />
+			<role name="FactoryMethod()" element="org.apache.ibatis.executor.loader.AbstractEnhancedDeserializationProxy::newSerialStateHolder(java.lang.Object, java.util.Map, org.apache.ibatis.reflection.factory.ObjectFactory, java.util.List, java.util.List):org.apache.ibatis.executor.loader.AbstractSerialStateHolder" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.apache.ibatis.scripting.LanguageDriver" />
+			<role name="FactoryMethod()" element="org.apache.ibatis.scripting.LanguageDriver::createParameterHandler(org.apache.ibatis.mapping.MappedStatement, java.lang.Object, org.apache.ibatis.mapping.BoundSql):org.apache.ibatis.executor.parameter.ParameterHandler" />
+			<role name="FactoryMethod()" element="org.apache.ibatis.scripting.LanguageDriver::createSqlSource(org.apache.ibatis.session.Configuration, java.lang.String, java.lang.Class):org.apache.ibatis.mapping.SqlSource" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.apache.ibatis.transaction.TransactionFactory" />
+			<role name="FactoryMethod()" element="org.apache.ibatis.transaction.TransactionFactory::newTransaction(java.sql.Connection):org.apache.ibatis.transaction.Transaction" />
+			<role name="FactoryMethod()" element="org.apache.ibatis.transaction.TransactionFactory::newTransaction(javax.sql.DataSource, org.apache.ibatis.session.TransactionIsolationLevel, boolean):org.apache.ibatis.transaction.Transaction" />
+		</instance>
+	</pattern>
+	<pattern name="Prototype" />
+	<pattern name="Singleton">
+		<instance>
+			<role name="Singleton" element="org.apache.ibatis.executor.ExecutionPlaceholder" />
+			<role name="uniqueInstance" element="org.apache.ibatis.executor.ExecutionPlaceholder::EXECUTION_PLACEHOLDER:org.apache.ibatis.executor.ExecutionPlaceholder" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.apache.ibatis.executor.keygen.Jdbc3KeyGenerator" />
+			<role name="uniqueInstance" element="org.apache.ibatis.executor.keygen.Jdbc3KeyGenerator::INSTANCE:org.apache.ibatis.executor.keygen.Jdbc3KeyGenerator" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.apache.ibatis.executor.keygen.NoKeyGenerator" />
+			<role name="uniqueInstance" element="org.apache.ibatis.executor.keygen.NoKeyGenerator::INSTANCE:org.apache.ibatis.executor.keygen.NoKeyGenerator" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.apache.ibatis.cache.CacheKey" />
+			<role name="uniqueInstance" element="org.apache.ibatis.cache.CacheKey::NULL_CACHE_KEY:org.apache.ibatis.cache.CacheKey" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.apache.ibatis.session.RowBounds" />
+			<role name="uniqueInstance" element="org.apache.ibatis.session.RowBounds::DEFAULT:org.apache.ibatis.session.RowBounds" />
+		</instance>
+	</pattern>
+	<pattern name="(Object)Adapter">
+		<instance>
+			<role name="Adaptee" element="org.apache.ibatis.session.Configuration" />
+			<role name="Adapter" element="org.apache.ibatis.executor.resultset.DefaultResultSetHandler" />
+			<role name="adaptee" element="org.apache.ibatis.executor.resultset.DefaultResultSetHandler::configuration:org.apache.ibatis.session.Configuration" />
+			<role name="Request()" element="org.apache.ibatis.executor.resultset.DefaultResultSetHandler::handleOutputParameters(java.sql.CallableStatement):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.apache.ibatis.mapping.MappedStatement" />
+			<role name="Adapter" element="org.apache.ibatis.executor.resultset.DefaultResultSetHandler" />
+			<role name="adaptee" element="org.apache.ibatis.executor.resultset.DefaultResultSetHandler::mappedStatement:org.apache.ibatis.mapping.MappedStatement" />
+			<role name="Request()" element="org.apache.ibatis.executor.resultset.DefaultResultSetHandler::handleCursorResultSets():org.apache.ibatis.cursor.Cursor" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.apache.ibatis.mapping.BoundSql" />
+			<role name="Adapter" element="org.apache.ibatis.executor.resultset.DefaultResultSetHandler" />
+			<role name="adaptee" element="org.apache.ibatis.executor.resultset.DefaultResultSetHandler::boundSql:org.apache.ibatis.mapping.BoundSql" />
+			<role name="Request()" element="org.apache.ibatis.executor.resultset.DefaultResultSetHandler::handleOutputParameters(java.sql.CallableStatement):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.apache.ibatis.session.Configuration" />
+			<role name="Adapter" element="org.apache.ibatis.executor.BaseExecutor" />
+			<role name="adaptee" element="org.apache.ibatis.executor.BaseExecutor::configuration:org.apache.ibatis.session.Configuration" />
+			<role name="Request()" element="org.apache.ibatis.executor.BaseExecutor::query(, java.lang.Object, org.apache.ibatis.session.RowBounds, org.apache.ibatis.session.ResultHandler, org.apache.ibatis.cache.CacheKey, org.apache.ibatis.mapping.BoundSql):java.util.List" />
+			<role name="Request()" element="org.apache.ibatis.executor.BaseExecutor::createCacheKey(org.apache.ibatis.mapping.MappedStatement, java.lang.Object, org.apache.ibatis.session.RowBounds, org.apache.ibatis.mapping.BoundSql):org.apache.ibatis.cache.CacheKey" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.apache.ibatis.mapping.MappedStatement" />
+			<role name="Adapter" element="org.apache.ibatis.executor.BatchExecutor" />
+			<role name="adaptee" element="org.apache.ibatis.executor.BatchExecutor::currentStatement:org.apache.ibatis.mapping.MappedStatement" />
+			<role name="Request()" element="org.apache.ibatis.executor.BatchExecutor::doUpdate(org.apache.ibatis.mapping.MappedStatement, java.lang.Object):int" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.apache.ibatis.cache.TransactionalCacheManager" />
+			<role name="Adapter" element="org.apache.ibatis.executor.CachingExecutor" />
+			<role name="adaptee" element="org.apache.ibatis.executor.CachingExecutor::tcm:org.apache.ibatis.cache.TransactionalCacheManager" />
+			<role name="Request()" element="org.apache.ibatis.executor.CachingExecutor::close(boolean):void" />
+			<role name="Request()" element="org.apache.ibatis.executor.CachingExecutor::query(, java.lang.Object, org.apache.ibatis.session.RowBounds, org.apache.ibatis.session.ResultHandler, org.apache.ibatis.cache.CacheKey, org.apache.ibatis.mapping.BoundSql):java.util.List" />
+			<role name="Request()" element="org.apache.ibatis.executor.CachingExecutor::commit(boolean):void" />
+			<role name="Request()" element="org.apache.ibatis.executor.CachingExecutor::rollback(boolean):void" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="org.apache.ibatis.executor.statement.BaseStatementHandler" />
+			<role name="Adaptee" element="org.apache.ibatis.mapping.BoundSql" />
+			<role name="adaptee" element="org.apache.ibatis.executor.statement.BaseStatementHandler::boundSql:org.apache.ibatis.mapping.BoundSql" />
+			<role name="Request()" element="org.apache.ibatis.executor.statement.BaseStatementHandler::prepare(java.sql.Connection, java.lang.Integer):java.sql.Statement" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.apache.ibatis.session.Configuration" />
+			<role name="Adapter" element="org.apache.ibatis.session.defaults.DefaultSqlSession" />
+			<role name="adaptee" element="org.apache.ibatis.session.defaults.DefaultSqlSession::configuration:org.apache.ibatis.session.Configuration" />
+			<role name="Request()" element="org.apache.ibatis.session.defaults.DefaultSqlSession::selectMap(, java.lang.Object, java.lang.String, org.apache.ibatis.session.RowBounds):java.util.Map" />
+			<role name="Request()" element="org.apache.ibatis.session.defaults.DefaultSqlSession::selectCursor(, java.lang.Object, org.apache.ibatis.session.RowBounds):org.apache.ibatis.cursor.Cursor" />
+			<role name="Request()" element="org.apache.ibatis.session.defaults.DefaultSqlSession::selectList(, java.lang.Object, org.apache.ibatis.session.RowBounds):java.util.List" />
+			<role name="Request()" element="org.apache.ibatis.session.defaults.DefaultSqlSession::select(java.lang.String, java.lang.Object, org.apache.ibatis.session.RowBounds, org.apache.ibatis.session.ResultHandler):void" />
+			<role name="Request()" element="org.apache.ibatis.session.defaults.DefaultSqlSession::update(java.lang.String, java.lang.Object):int" />
+			<role name="Request()" element="org.apache.ibatis.session.defaults.DefaultSqlSession::getMapper():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.apache.ibatis.session.Configuration" />
+			<role name="Adapter" element="org.apache.ibatis.scripting.defaults.DefaultParameterHandler" />
+			<role name="adaptee" element="org.apache.ibatis.scripting.defaults.DefaultParameterHandler::configuration:org.apache.ibatis.session.Configuration" />
+			<role name="Request()" element="org.apache.ibatis.scripting.defaults.DefaultParameterHandler::setParameters(java.sql.PreparedStatement):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.apache.ibatis.type.TypeHandlerRegistry" />
+			<role name="Adapter" element="org.apache.ibatis.scripting.defaults.DefaultParameterHandler" />
+			<role name="adaptee" element="org.apache.ibatis.scripting.defaults.DefaultParameterHandler::typeHandlerRegistry:org.apache.ibatis.type.TypeHandlerRegistry" />
+			<role name="Request()" element="org.apache.ibatis.scripting.defaults.DefaultParameterHandler::setParameters(java.sql.PreparedStatement):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.apache.ibatis.mapping.MappedStatement" />
+			<role name="Adapter" element="org.apache.ibatis.scripting.defaults.DefaultParameterHandler" />
+			<role name="adaptee" element="org.apache.ibatis.scripting.defaults.DefaultParameterHandler::mappedStatement:org.apache.ibatis.mapping.MappedStatement" />
+			<role name="Request()" element="org.apache.ibatis.scripting.defaults.DefaultParameterHandler::setParameters(java.sql.PreparedStatement):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.apache.ibatis.mapping.BoundSql" />
+			<role name="Adapter" element="org.apache.ibatis.scripting.defaults.DefaultParameterHandler" />
+			<role name="adaptee" element="org.apache.ibatis.scripting.defaults.DefaultParameterHandler::boundSql:org.apache.ibatis.mapping.BoundSql" />
+			<role name="Request()" element="org.apache.ibatis.scripting.defaults.DefaultParameterHandler::setParameters(java.sql.PreparedStatement):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.apache.ibatis.session.Configuration" />
+			<role name="Adapter" element="org.apache.ibatis.session.defaults.DefaultSqlSessionFactory" />
+			<role name="adaptee" element="org.apache.ibatis.session.defaults.DefaultSqlSessionFactory::configuration:org.apache.ibatis.session.Configuration" />
+			<role name="Request()" element="org.apache.ibatis.session.defaults.DefaultSqlSessionFactory::openSession():org.apache.ibatis.session.SqlSession" />
+			<role name="Request()" element="org.apache.ibatis.session.defaults.DefaultSqlSessionFactory::openSession(boolean):org.apache.ibatis.session.SqlSession" />
+			<role name="Request()" element="org.apache.ibatis.session.defaults.DefaultSqlSessionFactory::openSession(org.apache.ibatis.session.TransactionIsolationLevel):org.apache.ibatis.session.SqlSession" />
+			<role name="Request()" element="org.apache.ibatis.session.defaults.DefaultSqlSessionFactory::openSession(java.sql.Connection):org.apache.ibatis.session.SqlSession" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.apache.ibatis.executor.Executor" />
+			<role name="Adapter" element="org.apache.ibatis.session.defaults.DefaultSqlSession" />
+			<role name="adaptee" element="org.apache.ibatis.session.defaults.DefaultSqlSession::executor:org.apache.ibatis.executor.Executor" />
+			<role name="Request()" element="org.apache.ibatis.session.defaults.DefaultSqlSession::selectCursor(, java.lang.Object, org.apache.ibatis.session.RowBounds):org.apache.ibatis.cursor.Cursor" />
+			<role name="Request()" element="org.apache.ibatis.session.defaults.DefaultSqlSession::selectList(, java.lang.Object, org.apache.ibatis.session.RowBounds):java.util.List" />
+			<role name="Request()" element="org.apache.ibatis.session.defaults.DefaultSqlSession::select(java.lang.String, java.lang.Object, org.apache.ibatis.session.RowBounds, org.apache.ibatis.session.ResultHandler):void" />
+			<role name="Request()" element="org.apache.ibatis.session.defaults.DefaultSqlSession::update(java.lang.String, java.lang.Object):int" />
+			<role name="Request()" element="org.apache.ibatis.session.defaults.DefaultSqlSession::commit(boolean):void" />
+			<role name="Request()" element="org.apache.ibatis.session.defaults.DefaultSqlSession::rollback(boolean):void" />
+			<role name="Request()" element="org.apache.ibatis.session.defaults.DefaultSqlSession::flushStatements():java.util.List" />
+			<role name="Request()" element="org.apache.ibatis.session.defaults.DefaultSqlSession::close():void" />
+			<role name="Request()" element="org.apache.ibatis.session.defaults.DefaultSqlSession::getConnection():java.sql.Connection" />
+			<role name="Request()" element="org.apache.ibatis.session.defaults.DefaultSqlSession::clearCache():void" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="org.apache.ibatis.executor.BaseExecutor" />
+			<role name="Adaptee" element="org.apache.ibatis.transaction.Transaction" />
+			<role name="adaptee" element="org.apache.ibatis.executor.BaseExecutor::transaction:org.apache.ibatis.transaction.Transaction" />
+			<role name="Request()" element="org.apache.ibatis.executor.BaseExecutor::close(boolean):void" />
+			<role name="Request()" element="org.apache.ibatis.executor.BaseExecutor::commit(boolean):void" />
+			<role name="Request()" element="org.apache.ibatis.executor.BaseExecutor::rollback(boolean):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.apache.ibatis.logging.Log" />
+			<role name="Adapter" element="org.apache.ibatis.io.DefaultVFS" />
+			<role name="adaptee" element="org.apache.ibatis.io.DefaultVFS::log:org.apache.ibatis.logging.Log" />
+			<role name="Request()" element="org.apache.ibatis.io.DefaultVFS::list(java.net.URL, java.lang.String):java.util.List" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="org.apache.ibatis.scripting.xmltags.ForEachSqlNode" />
+			<role name="Adaptee" element="org.apache.ibatis.scripting.xmltags.ExpressionEvaluator" />
+			<role name="adaptee" element="org.apache.ibatis.scripting.xmltags.ForEachSqlNode::evaluator:org.apache.ibatis.scripting.xmltags.ExpressionEvaluator" />
+			<role name="Request()" element="org.apache.ibatis.scripting.xmltags.ForEachSqlNode::apply(org.apache.ibatis.scripting.xmltags.DynamicContext):boolean" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="org.apache.ibatis.scripting.xmltags.IfSqlNode" />
+			<role name="Adaptee" element="org.apache.ibatis.scripting.xmltags.ExpressionEvaluator" />
+			<role name="adaptee" element="org.apache.ibatis.scripting.xmltags.IfSqlNode::evaluator:org.apache.ibatis.scripting.xmltags.ExpressionEvaluator" />
+			<role name="Request()" element="org.apache.ibatis.scripting.xmltags.IfSqlNode::apply(org.apache.ibatis.scripting.xmltags.DynamicContext):boolean" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="org.apache.ibatis.cursor.defaults.DefaultCursor" />
+			<role name="Adaptee" element="org.apache.ibatis.session.RowBounds" />
+			<role name="adaptee" element="org.apache.ibatis.cursor.defaults.DefaultCursor::rowBounds:org.apache.ibatis.session.RowBounds" />
+			<role name="Request()" element="org.apache.ibatis.cursor.defaults.DefaultCursor::getCurrentIndex():int" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="org.apache.ibatis.executor.BaseExecutor" />
+			<role name="Adaptee" element="org.apache.ibatis.cache.impl.PerpetualCache" />
+			<role name="adaptee" element="org.apache.ibatis.executor.BaseExecutor::localCache:org.apache.ibatis.cache.impl.PerpetualCache" />
+			<role name="adaptee" element="org.apache.ibatis.executor.BaseExecutor::localOutputParameterCache:org.apache.ibatis.cache.impl.PerpetualCache" />
+			<role name="Request()" element="org.apache.ibatis.executor.BaseExecutor::query(, java.lang.Object, org.apache.ibatis.session.RowBounds, org.apache.ibatis.session.ResultHandler, org.apache.ibatis.cache.CacheKey, org.apache.ibatis.mapping.BoundSql):java.util.List" />
+			<role name="Request()" element="org.apache.ibatis.executor.BaseExecutor::isCached(org.apache.ibatis.mapping.MappedStatement, org.apache.ibatis.cache.CacheKey):boolean" />
+			<role name="Request()" element="org.apache.ibatis.executor.BaseExecutor::clearLocalCache():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.apache.ibatis.logging.Log" />
+			<role name="Adapter" element="org.apache.ibatis.transaction.jdbc.JdbcTransaction" />
+			<role name="adaptee" element="org.apache.ibatis.transaction.jdbc.JdbcTransaction::log:org.apache.ibatis.logging.Log" />
+			<role name="Request()" element="org.apache.ibatis.transaction.jdbc.JdbcTransaction::commit():void" />
+			<role name="Request()" element="org.apache.ibatis.transaction.jdbc.JdbcTransaction::rollback():void" />
+			<role name="Request()" element="org.apache.ibatis.transaction.jdbc.JdbcTransaction::close():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.apache.ibatis.logging.Log" />
+			<role name="Adapter" element="org.apache.ibatis.transaction.managed.ManagedTransaction" />
+			<role name="adaptee" element="org.apache.ibatis.transaction.managed.ManagedTransaction::log:org.apache.ibatis.logging.Log" />
+			<role name="Request()" element="org.apache.ibatis.transaction.managed.ManagedTransaction::close():void" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="org.apache.ibatis.cache.decorators.LoggingCache" />
+			<role name="Adaptee" element="org.apache.ibatis.logging.Log" />
+			<role name="adaptee" element="org.apache.ibatis.cache.decorators.LoggingCache::log:org.apache.ibatis.logging.Log" />
+			<role name="Request()" element="org.apache.ibatis.cache.decorators.LoggingCache::getObject(java.lang.Object):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="org.apache.ibatis.executor.BaseExecutor" />
+			<role name="Adaptee" element="org.apache.ibatis.logging.Log" />
+			<role name="adaptee" element="org.apache.ibatis.executor.BaseExecutor::log:org.apache.ibatis.logging.Log" />
+			<role name="Request()" element="org.apache.ibatis.executor.BaseExecutor::close(boolean):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.apache.ibatis.scripting.xmltags.SqlNode" />
+			<role name="Adapter" element="org.apache.ibatis.scripting.xmltags.DynamicSqlSource" />
+			<role name="adaptee" element="org.apache.ibatis.scripting.xmltags.DynamicSqlSource::rootSqlNode:org.apache.ibatis.scripting.xmltags.SqlNode" />
+			<role name="Request()" element="org.apache.ibatis.scripting.xmltags.DynamicSqlSource::getBoundSql(java.lang.Object):org.apache.ibatis.mapping.BoundSql" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.apache.ibatis.executor.parameter.ParameterHandler" />
+			<role name="Adapter" element="org.apache.ibatis.executor.resultset.DefaultResultSetHandler" />
+			<role name="adaptee" element="org.apache.ibatis.executor.resultset.DefaultResultSetHandler::parameterHandler:org.apache.ibatis.executor.parameter.ParameterHandler" />
+			<role name="Request()" element="org.apache.ibatis.executor.resultset.DefaultResultSetHandler::handleOutputParameters(java.sql.CallableStatement):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.apache.ibatis.scripting.xmltags.DynamicContext" />
+			<role name="Adapter" element="org.apache.ibatis.scripting.xmltags.TextSqlNode$BindingTokenParser" />
+			<role name="adaptee" element="org.apache.ibatis.scripting.xmltags.TextSqlNode$BindingTokenParser::context:org.apache.ibatis.scripting.xmltags.DynamicContext" />
+			<role name="Request()" element="org.apache.ibatis.scripting.xmltags.TextSqlNode$BindingTokenParser::handleToken(java.lang.String):java.lang.String" />
+		</instance>
+	</pattern>
+	<pattern name="Command" />
+	<pattern name="Composite" />
+	<pattern name="Decorator">
+		<instance>
+			<role name="Component" element="org.apache.ibatis.executor.Executor" />
+			<role name="Decorator" element="org.apache.ibatis.executor.CachingExecutor" />
+			<role name="component" element="org.apache.ibatis.executor.CachingExecutor::delegate:org.apache.ibatis.executor.Executor" />
+			<role name="Operation()" element="org.apache.ibatis.executor.CachingExecutor::getTransaction():org.apache.ibatis.transaction.Transaction" />
+			<role name="Operation()" element="org.apache.ibatis.executor.CachingExecutor::close(boolean):void" />
+			<role name="Operation()" element="org.apache.ibatis.executor.CachingExecutor::isClosed():boolean" />
+			<role name="Operation()" element="org.apache.ibatis.executor.CachingExecutor::update(org.apache.ibatis.mapping.MappedStatement, java.lang.Object):int" />
+			<role name="Operation()" element="org.apache.ibatis.executor.CachingExecutor::flushStatements():java.util.List" />
+			<role name="Operation()" element="org.apache.ibatis.executor.CachingExecutor::commit(boolean):void" />
+			<role name="Operation()" element="org.apache.ibatis.executor.CachingExecutor::rollback(boolean):void" />
+			<role name="Operation()" element="org.apache.ibatis.executor.CachingExecutor::createCacheKey(org.apache.ibatis.mapping.MappedStatement, java.lang.Object, org.apache.ibatis.session.RowBounds, org.apache.ibatis.mapping.BoundSql):org.apache.ibatis.cache.CacheKey" />
+			<role name="Operation()" element="org.apache.ibatis.executor.CachingExecutor::isCached(org.apache.ibatis.mapping.MappedStatement, org.apache.ibatis.cache.CacheKey):boolean" />
+			<role name="Operation()" element="org.apache.ibatis.executor.CachingExecutor::deferLoad(org.apache.ibatis.mapping.MappedStatement, org.apache.ibatis.reflection.MetaObject, java.lang.String, org.apache.ibatis.cache.CacheKey, java.lang.Class):void" />
+			<role name="Operation()" element="org.apache.ibatis.executor.CachingExecutor::clearLocalCache():void" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.apache.ibatis.executor.statement.StatementHandler" />
+			<role name="Decorator" element="org.apache.ibatis.executor.statement.RoutingStatementHandler" />
+			<role name="component" element="org.apache.ibatis.executor.statement.RoutingStatementHandler::delegate:org.apache.ibatis.executor.statement.StatementHandler" />
+			<role name="Operation()" element="org.apache.ibatis.executor.statement.RoutingStatementHandler::prepare(java.sql.Connection, java.lang.Integer):java.sql.Statement" />
+			<role name="Operation()" element="org.apache.ibatis.executor.statement.RoutingStatementHandler::parameterize(java.sql.Statement):void" />
+			<role name="Operation()" element="org.apache.ibatis.executor.statement.RoutingStatementHandler::batch(java.sql.Statement):void" />
+			<role name="Operation()" element="org.apache.ibatis.executor.statement.RoutingStatementHandler::update(java.sql.Statement):int" />
+			<role name="Operation()" element="org.apache.ibatis.executor.statement.RoutingStatementHandler::getBoundSql():org.apache.ibatis.mapping.BoundSql" />
+			<role name="Operation()" element="org.apache.ibatis.executor.statement.RoutingStatementHandler::getParameterHandler():org.apache.ibatis.executor.parameter.ParameterHandler" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.apache.ibatis.scripting.xmltags.SqlNode" />
+			<role name="Decorator" element="org.apache.ibatis.scripting.xmltags.ChooseSqlNode" />
+			<role name="component" element="org.apache.ibatis.scripting.xmltags.ChooseSqlNode::defaultSqlNode:org.apache.ibatis.scripting.xmltags.SqlNode" />
+			<role name="Operation()" element="org.apache.ibatis.scripting.xmltags.ChooseSqlNode::apply(org.apache.ibatis.scripting.xmltags.DynamicContext):boolean" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.apache.ibatis.scripting.xmltags.SqlNode" />
+			<role name="Decorator" element="org.apache.ibatis.scripting.xmltags.ForEachSqlNode" />
+			<role name="component" element="org.apache.ibatis.scripting.xmltags.ForEachSqlNode::contents:org.apache.ibatis.scripting.xmltags.SqlNode" />
+			<role name="Operation()" element="org.apache.ibatis.scripting.xmltags.ForEachSqlNode::apply(org.apache.ibatis.scripting.xmltags.DynamicContext):boolean" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.apache.ibatis.scripting.xmltags.SqlNode" />
+			<role name="Decorator" element="org.apache.ibatis.scripting.xmltags.IfSqlNode" />
+			<role name="component" element="org.apache.ibatis.scripting.xmltags.IfSqlNode::contents:org.apache.ibatis.scripting.xmltags.SqlNode" />
+			<role name="Operation()" element="org.apache.ibatis.scripting.xmltags.IfSqlNode::apply(org.apache.ibatis.scripting.xmltags.DynamicContext):boolean" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.apache.ibatis.scripting.xmltags.SqlNode" />
+			<role name="Decorator" element="org.apache.ibatis.scripting.xmltags.TrimSqlNode" />
+			<role name="component" element="org.apache.ibatis.scripting.xmltags.TrimSqlNode::contents:org.apache.ibatis.scripting.xmltags.SqlNode" />
+			<role name="Operation()" element="org.apache.ibatis.scripting.xmltags.TrimSqlNode::apply(org.apache.ibatis.scripting.xmltags.DynamicContext):boolean" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.apache.ibatis.logging.Log" />
+			<role name="Decorator" element="org.apache.ibatis.logging.log4j2.Log4j2Impl" />
+			<role name="component" element="org.apache.ibatis.logging.log4j2.Log4j2Impl::log:org.apache.ibatis.logging.Log" />
+			<role name="Operation()" element="org.apache.ibatis.logging.log4j2.Log4j2Impl::isDebugEnabled():boolean" />
+			<role name="Operation()" element="org.apache.ibatis.logging.log4j2.Log4j2Impl::isTraceEnabled():boolean" />
+			<role name="Operation()" element="org.apache.ibatis.logging.log4j2.Log4j2Impl::error(java.lang.String, java.lang.Throwable):void" />
+			<role name="Operation()" element="org.apache.ibatis.logging.log4j2.Log4j2Impl::error(java.lang.String):void" />
+			<role name="Operation()" element="org.apache.ibatis.logging.log4j2.Log4j2Impl::debug(java.lang.String):void" />
+			<role name="Operation()" element="org.apache.ibatis.logging.log4j2.Log4j2Impl::trace(java.lang.String):void" />
+			<role name="Operation()" element="org.apache.ibatis.logging.log4j2.Log4j2Impl::warn(java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.apache.ibatis.logging.Log" />
+			<role name="Decorator" element="org.apache.ibatis.logging.slf4j.Slf4jImpl" />
+			<role name="component" element="org.apache.ibatis.logging.slf4j.Slf4jImpl::log:org.apache.ibatis.logging.Log" />
+			<role name="Operation()" element="org.apache.ibatis.logging.slf4j.Slf4jImpl::isDebugEnabled():boolean" />
+			<role name="Operation()" element="org.apache.ibatis.logging.slf4j.Slf4jImpl::isTraceEnabled():boolean" />
+			<role name="Operation()" element="org.apache.ibatis.logging.slf4j.Slf4jImpl::error(java.lang.String, java.lang.Throwable):void" />
+			<role name="Operation()" element="org.apache.ibatis.logging.slf4j.Slf4jImpl::error(java.lang.String):void" />
+			<role name="Operation()" element="org.apache.ibatis.logging.slf4j.Slf4jImpl::debug(java.lang.String):void" />
+			<role name="Operation()" element="org.apache.ibatis.logging.slf4j.Slf4jImpl::trace(java.lang.String):void" />
+			<role name="Operation()" element="org.apache.ibatis.logging.slf4j.Slf4jImpl::warn(java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.apache.ibatis.mapping.SqlSource" />
+			<role name="Decorator" element="org.apache.ibatis.scripting.defaults.RawSqlSource" />
+			<role name="component" element="org.apache.ibatis.scripting.defaults.RawSqlSource::sqlSource:org.apache.ibatis.mapping.SqlSource" />
+			<role name="Operation()" element="org.apache.ibatis.scripting.defaults.RawSqlSource::getBoundSql(java.lang.Object):org.apache.ibatis.mapping.BoundSql" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.apache.ibatis.cache.Cache" />
+			<role name="Decorator" element="org.apache.ibatis.cache.decorators.BlockingCache" />
+			<role name="component" element="org.apache.ibatis.cache.decorators.BlockingCache::delegate:org.apache.ibatis.cache.Cache" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.BlockingCache::getId():java.lang.String" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.BlockingCache::getSize():int" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.BlockingCache::putObject(java.lang.Object, java.lang.Object):void" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.BlockingCache::getObject(java.lang.Object):java.lang.Object" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.BlockingCache::clear():void" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.apache.ibatis.cache.Cache" />
+			<role name="Decorator" element="org.apache.ibatis.cache.decorators.FifoCache" />
+			<role name="component" element="org.apache.ibatis.cache.decorators.FifoCache::delegate:org.apache.ibatis.cache.Cache" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.FifoCache::getId():java.lang.String" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.FifoCache::getSize():int" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.FifoCache::putObject(java.lang.Object, java.lang.Object):void" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.FifoCache::getObject(java.lang.Object):java.lang.Object" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.FifoCache::removeObject(java.lang.Object):java.lang.Object" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.FifoCache::clear():void" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.apache.ibatis.cache.Cache" />
+			<role name="Decorator" element="org.apache.ibatis.cache.decorators.LoggingCache" />
+			<role name="component" element="org.apache.ibatis.cache.decorators.LoggingCache::delegate:org.apache.ibatis.cache.Cache" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.LoggingCache::getId():java.lang.String" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.LoggingCache::getSize():int" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.LoggingCache::putObject(java.lang.Object, java.lang.Object):void" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.LoggingCache::getObject(java.lang.Object):java.lang.Object" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.LoggingCache::removeObject(java.lang.Object):java.lang.Object" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.LoggingCache::clear():void" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.apache.ibatis.cache.Cache" />
+			<role name="Decorator" element="org.apache.ibatis.cache.decorators.LruCache" />
+			<role name="component" element="org.apache.ibatis.cache.decorators.LruCache::delegate:org.apache.ibatis.cache.Cache" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.LruCache::getId():java.lang.String" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.LruCache::getSize():int" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.LruCache::putObject(java.lang.Object, java.lang.Object):void" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.LruCache::getObject(java.lang.Object):java.lang.Object" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.LruCache::removeObject(java.lang.Object):java.lang.Object" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.LruCache::clear():void" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.apache.ibatis.cache.Cache" />
+			<role name="Decorator" element="org.apache.ibatis.cache.decorators.ScheduledCache" />
+			<role name="component" element="org.apache.ibatis.cache.decorators.ScheduledCache::delegate:org.apache.ibatis.cache.Cache" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.ScheduledCache::getId():java.lang.String" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.ScheduledCache::getSize():int" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.ScheduledCache::putObject(java.lang.Object, java.lang.Object):void" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.ScheduledCache::getObject(java.lang.Object):java.lang.Object" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.ScheduledCache::removeObject(java.lang.Object):java.lang.Object" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.ScheduledCache::clear():void" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.apache.ibatis.cache.Cache" />
+			<role name="Decorator" element="org.apache.ibatis.cache.decorators.SerializedCache" />
+			<role name="component" element="org.apache.ibatis.cache.decorators.SerializedCache::delegate:org.apache.ibatis.cache.Cache" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.SerializedCache::getId():java.lang.String" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.SerializedCache::getSize():int" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.SerializedCache::putObject(java.lang.Object, java.lang.Object):void" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.SerializedCache::getObject(java.lang.Object):java.lang.Object" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.SerializedCache::removeObject(java.lang.Object):java.lang.Object" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.SerializedCache::clear():void" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.apache.ibatis.cache.Cache" />
+			<role name="Decorator" element="org.apache.ibatis.cache.decorators.SoftCache" />
+			<role name="component" element="org.apache.ibatis.cache.decorators.SoftCache::delegate:org.apache.ibatis.cache.Cache" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.SoftCache::getId():java.lang.String" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.SoftCache::getSize():int" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.SoftCache::putObject(java.lang.Object, java.lang.Object):void" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.SoftCache::getObject(java.lang.Object):java.lang.Object" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.SoftCache::removeObject(java.lang.Object):java.lang.Object" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.SoftCache::clear():void" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.apache.ibatis.cache.Cache" />
+			<role name="Decorator" element="org.apache.ibatis.cache.decorators.SynchronizedCache" />
+			<role name="component" element="org.apache.ibatis.cache.decorators.SynchronizedCache::delegate:org.apache.ibatis.cache.Cache" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.SynchronizedCache::getId():java.lang.String" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.SynchronizedCache::getSize():int" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.SynchronizedCache::putObject(java.lang.Object, java.lang.Object):void" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.SynchronizedCache::getObject(java.lang.Object):java.lang.Object" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.SynchronizedCache::removeObject(java.lang.Object):java.lang.Object" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.SynchronizedCache::clear():void" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.apache.ibatis.cache.Cache" />
+			<role name="Decorator" element="org.apache.ibatis.cache.decorators.TransactionalCache" />
+			<role name="component" element="org.apache.ibatis.cache.decorators.TransactionalCache::delegate:org.apache.ibatis.cache.Cache" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.TransactionalCache::getId():java.lang.String" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.TransactionalCache::getSize():int" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.TransactionalCache::getObject(java.lang.Object):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.apache.ibatis.cache.Cache" />
+			<role name="Decorator" element="org.apache.ibatis.cache.decorators.WeakCache" />
+			<role name="component" element="org.apache.ibatis.cache.decorators.WeakCache::delegate:org.apache.ibatis.cache.Cache" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.WeakCache::getId():java.lang.String" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.WeakCache::getSize():int" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.WeakCache::putObject(java.lang.Object, java.lang.Object):void" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.WeakCache::getObject(java.lang.Object):java.lang.Object" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.WeakCache::removeObject(java.lang.Object):java.lang.Object" />
+			<role name="Operation()" element="org.apache.ibatis.cache.decorators.WeakCache::clear():void" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.apache.ibatis.session.SqlSessionFactory" />
+			<role name="Decorator" element="org.apache.ibatis.session.SqlSessionManager" />
+			<role name="component" element="org.apache.ibatis.session.SqlSessionManager::sqlSessionFactory:org.apache.ibatis.session.SqlSessionFactory" />
+			<role name="Operation()" element="org.apache.ibatis.session.SqlSessionManager::openSession():org.apache.ibatis.session.SqlSession" />
+			<role name="Operation()" element="org.apache.ibatis.session.SqlSessionManager::openSession(boolean):org.apache.ibatis.session.SqlSession" />
+			<role name="Operation()" element="org.apache.ibatis.session.SqlSessionManager::openSession(java.sql.Connection):org.apache.ibatis.session.SqlSession" />
+			<role name="Operation()" element="org.apache.ibatis.session.SqlSessionManager::openSession(org.apache.ibatis.session.TransactionIsolationLevel):org.apache.ibatis.session.SqlSession" />
+			<role name="Operation()" element="org.apache.ibatis.session.SqlSessionManager::openSession(org.apache.ibatis.session.ExecutorType):org.apache.ibatis.session.SqlSession" />
+			<role name="Operation()" element="org.apache.ibatis.session.SqlSessionManager::openSession(org.apache.ibatis.session.ExecutorType, boolean):org.apache.ibatis.session.SqlSession" />
+			<role name="Operation()" element="org.apache.ibatis.session.SqlSessionManager::openSession(org.apache.ibatis.session.ExecutorType, org.apache.ibatis.session.TransactionIsolationLevel):org.apache.ibatis.session.SqlSession" />
+			<role name="Operation()" element="org.apache.ibatis.session.SqlSessionManager::openSession(org.apache.ibatis.session.ExecutorType, java.sql.Connection):org.apache.ibatis.session.SqlSession" />
+			<role name="Operation()" element="org.apache.ibatis.session.SqlSessionManager::getConfiguration():org.apache.ibatis.session.Configuration" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.apache.ibatis.session.SqlSession" />
+			<role name="Decorator" element="org.apache.ibatis.session.SqlSessionManager" />
+			<role name="component" element="org.apache.ibatis.session.SqlSessionManager::sqlSessionProxy:org.apache.ibatis.session.SqlSession" />
+			<role name="Operation()" element="org.apache.ibatis.session.SqlSessionManager::select(java.lang.String, org.apache.ibatis.session.ResultHandler):void" />
+			<role name="Operation()" element="org.apache.ibatis.session.SqlSessionManager::select(java.lang.String, java.lang.Object, org.apache.ibatis.session.ResultHandler):void" />
+			<role name="Operation()" element="org.apache.ibatis.session.SqlSessionManager::select(java.lang.String, java.lang.Object, org.apache.ibatis.session.RowBounds, org.apache.ibatis.session.ResultHandler):void" />
+			<role name="Operation()" element="org.apache.ibatis.session.SqlSessionManager::insert(java.lang.String):int" />
+			<role name="Operation()" element="org.apache.ibatis.session.SqlSessionManager::insert(java.lang.String, java.lang.Object):int" />
+			<role name="Operation()" element="org.apache.ibatis.session.SqlSessionManager::update(java.lang.String):int" />
+			<role name="Operation()" element="org.apache.ibatis.session.SqlSessionManager::update(java.lang.String, java.lang.Object):int" />
+			<role name="Operation()" element="org.apache.ibatis.session.SqlSessionManager::delete(java.lang.String):int" />
+			<role name="Operation()" element="org.apache.ibatis.session.SqlSessionManager::delete(java.lang.String, java.lang.Object):int" />
+		</instance>
+	</pattern>
+	<pattern name="Observer" />
+	<pattern name="State">
+		<instance>
+			<role name="Context" element="org.apache.ibatis.plugin.Plugin" />
+			<role name="State" element="org.apache.ibatis.plugin.Interceptor" />
+			<role name="state" element="org.apache.ibatis.plugin.Plugin::interceptor:org.apache.ibatis.plugin.Interceptor" />
+			<role name="Request()" element="org.apache.ibatis.plugin.Plugin::invoke(java.lang.Object, java.lang.reflect.Method, java.lang.Object[]):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.apache.ibatis.executor.keygen.Jdbc3KeyGenerator$KeyAssigner" />
+			<role name="State" element="org.apache.ibatis.type.TypeHandler" />
+			<role name="state" element="org.apache.ibatis.executor.keygen.Jdbc3KeyGenerator$KeyAssigner::typeHandler:org.apache.ibatis.type.TypeHandler" />
+			<role name="Request()" element="org.apache.ibatis.executor.keygen.Jdbc3KeyGenerator$KeyAssigner::assign(java.sql.ResultSet, java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.apache.ibatis.executor.loader.ResultLoader" />
+			<role name="State" element="org.apache.ibatis.executor.Executor" />
+			<role name="state" element="org.apache.ibatis.executor.loader.ResultLoader::executor:org.apache.ibatis.executor.Executor" />
+			<role name="Request()" element="org.apache.ibatis.executor.loader.ResultLoader::selectList():java.util.List" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.apache.ibatis.reflection.MetaObject" />
+			<role name="State" element="org.apache.ibatis.reflection.wrapper.ObjectWrapper" />
+			<role name="state" element="org.apache.ibatis.reflection.MetaObject::objectWrapper:org.apache.ibatis.reflection.wrapper.ObjectWrapper" />
+			<role name="Request()" element="org.apache.ibatis.reflection.MetaObject::findProperty(java.lang.String, boolean):java.lang.String" />
+			<role name="Request()" element="org.apache.ibatis.reflection.MetaObject::getGetterNames():java.lang.String[]" />
+			<role name="Request()" element="org.apache.ibatis.reflection.MetaObject::getSetterNames():java.lang.String[]" />
+			<role name="Request()" element="org.apache.ibatis.reflection.MetaObject::getSetterType(java.lang.String):java.lang.Class" />
+			<role name="Request()" element="org.apache.ibatis.reflection.MetaObject::getGetterType(java.lang.String):java.lang.Class" />
+			<role name="Request()" element="org.apache.ibatis.reflection.MetaObject::hasSetter(java.lang.String):boolean" />
+			<role name="Request()" element="org.apache.ibatis.reflection.MetaObject::hasGetter(java.lang.String):boolean" />
+			<role name="Request()" element="org.apache.ibatis.reflection.MetaObject::getValue(java.lang.String):java.lang.Object" />
+			<role name="Request()" element="org.apache.ibatis.reflection.MetaObject::setValue(java.lang.String, java.lang.Object):void" />
+			<role name="Request()" element="org.apache.ibatis.reflection.MetaObject::isCollection():boolean" />
+			<role name="Request()" element="org.apache.ibatis.reflection.MetaObject::add(java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.apache.ibatis.binding.MapperProxy" />
+			<role name="State" element="org.apache.ibatis.session.SqlSession" />
+			<role name="state" element="org.apache.ibatis.binding.MapperProxy::sqlSession:org.apache.ibatis.session.SqlSession" />
+			<role name="Request()" element="org.apache.ibatis.binding.MapperProxy::lambda$cachedMapperMethod$0(java.lang.reflect.Method, java.lang.reflect.Method):org.apache.ibatis.binding.MapperMethod" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.apache.ibatis.parsing.GenericTokenParser" />
+			<role name="State" element="org.apache.ibatis.parsing.TokenHandler" />
+			<role name="state" element="org.apache.ibatis.parsing.GenericTokenParser::handler:org.apache.ibatis.parsing.TokenHandler" />
+			<role name="Request()" element="org.apache.ibatis.parsing.GenericTokenParser::parse(java.lang.String):java.lang.String" />
+		</instance>
+		<instance>
+			<role name="State" element="org.apache.ibatis.logging.Log" />
+			<role name="Context" element="org.apache.ibatis.datasource.pooled.PooledDataSource" />
+			<role name="state" element="org.apache.ibatis.datasource.pooled.PooledDataSource::log:org.apache.ibatis.logging.Log" />
+			<role name="Request()" element="org.apache.ibatis.datasource.pooled.PooledDataSource::forceCloseAll():void" />
+			<role name="Request()" element="org.apache.ibatis.datasource.pooled.PooledDataSource::pushConnection(org.apache.ibatis.datasource.pooled.PooledConnection):void" />
+			<role name="Request()" element="org.apache.ibatis.datasource.pooled.PooledDataSource::popConnection(java.lang.String, java.lang.String):org.apache.ibatis.datasource.pooled.PooledConnection" />
+			<role name="Request()" element="org.apache.ibatis.datasource.pooled.PooledDataSource::pingConnection(org.apache.ibatis.datasource.pooled.PooledConnection):boolean" />
+		</instance>
+		<instance>
+			<role name="State" element="org.apache.ibatis.logging.Log" />
+			<role name="Context" element="org.apache.ibatis.mapping.ResultMap$Builder" />
+			<role name="state" element="org.apache.ibatis.mapping.ResultMap$Builder::log:org.apache.ibatis.logging.Log" />
+			<role name="Request()" element="org.apache.ibatis.mapping.ResultMap$Builder::argTypesMatch(java.util.List, java.lang.Class, java.util.List):boolean" />
+		</instance>
+		<instance>
+			<role name="State" element="org.apache.ibatis.logging.Log" />
+			<role name="Context" element="org.apache.ibatis.io.ExternalResources" />
+			<role name="state" element="org.apache.ibatis.io.ExternalResources::log:org.apache.ibatis.logging.Log" />
+			<role name="Request()" element="org.apache.ibatis.io.ExternalResources::getConfiguredTemplate(java.lang.String, java.lang.String):java.lang.String" />
+		</instance>
+		<instance>
+			<role name="State" element="org.apache.ibatis.logging.Log" />
+			<role name="Context" element="org.apache.ibatis.io.ResolverUtil" />
+			<role name="state" element="org.apache.ibatis.io.ResolverUtil::log:org.apache.ibatis.logging.Log" />
+			<role name="Request()" element="org.apache.ibatis.io.ResolverUtil::find(org.apache.ibatis.io.ResolverUtil$Test, java.lang.String):org.apache.ibatis.io.ResolverUtil" />
+			<role name="Request()" element="org.apache.ibatis.io.ResolverUtil::addIfMatching(org.apache.ibatis.io.ResolverUtil$Test, java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.apache.ibatis.mapping.MappedStatement" />
+			<role name="State" element="org.apache.ibatis.mapping.SqlSource" />
+			<role name="state" element="org.apache.ibatis.mapping.MappedStatement::sqlSource:org.apache.ibatis.mapping.SqlSource" />
+			<role name="Request()" element="org.apache.ibatis.mapping.MappedStatement::getBoundSql(java.lang.Object):org.apache.ibatis.mapping.BoundSql" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.apache.ibatis.session.defaults.DefaultSqlSession" />
+			<role name="State" element="org.apache.ibatis.executor.Executor" />
+			<role name="state" element="org.apache.ibatis.session.defaults.DefaultSqlSession::executor:org.apache.ibatis.executor.Executor" />
+			<role name="Request()" element="org.apache.ibatis.session.defaults.DefaultSqlSession::update(java.lang.String, java.lang.Object):int" />
+			<role name="Request()" element="org.apache.ibatis.session.defaults.DefaultSqlSession::commit(boolean):void" />
+			<role name="Request()" element="org.apache.ibatis.session.defaults.DefaultSqlSession::rollback(boolean):void" />
+			<role name="Request()" element="org.apache.ibatis.session.defaults.DefaultSqlSession::flushStatements():java.util.List" />
+			<role name="Request()" element="org.apache.ibatis.session.defaults.DefaultSqlSession::close():void" />
+			<role name="Request()" element="org.apache.ibatis.session.defaults.DefaultSqlSession::getConnection():java.sql.Connection" />
+			<role name="Request()" element="org.apache.ibatis.session.defaults.DefaultSqlSession::clearCache():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.apache.ibatis.io.DefaultVFS" />
+			<role name="State" element="org.apache.ibatis.logging.Log" />
+			<role name="state" element="org.apache.ibatis.io.DefaultVFS::log:org.apache.ibatis.logging.Log" />
+			<role name="Request()" element="org.apache.ibatis.io.DefaultVFS::list(java.net.URL, java.lang.String):java.util.List" />
+			<role name="Request()" element="org.apache.ibatis.io.DefaultVFS::listResources(java.util.jar.JarInputStream, java.lang.String):java.util.List" />
+			<role name="Request()" element="org.apache.ibatis.io.DefaultVFS::findJarForResource(java.net.URL):java.net.URL" />
+			<role name="Request()" element="org.apache.ibatis.io.DefaultVFS::isJar(java.net.URL, byte[]):boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.apache.ibatis.io.JBoss6VFS" />
+			<role name="State" element="org.apache.ibatis.logging.Log" />
+			<role name="state" element="org.apache.ibatis.io.JBoss6VFS::log:org.apache.ibatis.logging.Log" />
+			<role name="Request()" element="org.apache.ibatis.io.JBoss6VFS::checkReturnType(java.lang.reflect.Method, java.lang.Class):void" />
+			<role name="Request()" element="org.apache.ibatis.io.JBoss6VFS::setInvalid():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.apache.ibatis.transaction.jdbc.JdbcTransaction" />
+			<role name="State" element="org.apache.ibatis.logging.Log" />
+			<role name="state" element="org.apache.ibatis.transaction.jdbc.JdbcTransaction::log:org.apache.ibatis.logging.Log" />
+			<role name="Request()" element="org.apache.ibatis.transaction.jdbc.JdbcTransaction::commit():void" />
+			<role name="Request()" element="org.apache.ibatis.transaction.jdbc.JdbcTransaction::rollback():void" />
+			<role name="Request()" element="org.apache.ibatis.transaction.jdbc.JdbcTransaction::close():void" />
+			<role name="Request()" element="org.apache.ibatis.transaction.jdbc.JdbcTransaction::setDesiredAutoCommit(boolean):void" />
+			<role name="Request()" element="org.apache.ibatis.transaction.jdbc.JdbcTransaction::resetAutoCommit():void" />
+			<role name="Request()" element="org.apache.ibatis.transaction.jdbc.JdbcTransaction::openConnection():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.apache.ibatis.transaction.managed.ManagedTransaction" />
+			<role name="State" element="org.apache.ibatis.logging.Log" />
+			<role name="state" element="org.apache.ibatis.transaction.managed.ManagedTransaction::log:org.apache.ibatis.logging.Log" />
+			<role name="Request()" element="org.apache.ibatis.transaction.managed.ManagedTransaction::close():void" />
+			<role name="Request()" element="org.apache.ibatis.transaction.managed.ManagedTransaction::openConnection():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.apache.ibatis.executor.resultset.DefaultResultSetHandler" />
+			<role name="State" element="org.apache.ibatis.executor.Executor" />
+			<role name="state" element="org.apache.ibatis.executor.resultset.DefaultResultSetHandler::executor:org.apache.ibatis.executor.Executor" />
+			<role name="Request()" element="org.apache.ibatis.executor.resultset.DefaultResultSetHandler::getNestedQueryConstructorValue(java.sql.ResultSet, org.apache.ibatis.mapping.ResultMapping, java.lang.String):java.lang.Object" />
+			<role name="Request()" element="org.apache.ibatis.executor.resultset.DefaultResultSetHandler::getNestedQueryMappingValue(java.sql.ResultSet, org.apache.ibatis.reflection.MetaObject, org.apache.ibatis.mapping.ResultMapping, org.apache.ibatis.executor.loader.ResultLoaderMap, java.lang.String):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.apache.ibatis.cache.decorators.LoggingCache" />
+			<role name="State" element="org.apache.ibatis.logging.Log" />
+			<role name="state" element="org.apache.ibatis.cache.decorators.LoggingCache::log:org.apache.ibatis.logging.Log" />
+			<role name="Request()" element="org.apache.ibatis.cache.decorators.LoggingCache::getObject(java.lang.Object):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.apache.ibatis.cache.decorators.TransactionalCache" />
+			<role name="State" element="org.apache.ibatis.logging.Log" />
+			<role name="state" element="org.apache.ibatis.cache.decorators.TransactionalCache::log:org.apache.ibatis.logging.Log" />
+			<role name="Request()" element="org.apache.ibatis.cache.decorators.TransactionalCache::unlockMissedEntries():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.apache.ibatis.builder.annotation.ProviderSqlSource" />
+			<role name="State" element="org.apache.ibatis.scripting.LanguageDriver" />
+			<role name="state" element="org.apache.ibatis.builder.annotation.ProviderSqlSource::languageDriver:org.apache.ibatis.scripting.LanguageDriver" />
+			<role name="Request()" element="org.apache.ibatis.builder.annotation.ProviderSqlSource::createSqlSource(java.lang.Object):org.apache.ibatis.mapping.SqlSource" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.apache.ibatis.scripting.xmltags.DynamicSqlSource" />
+			<role name="State" element="org.apache.ibatis.scripting.xmltags.SqlNode" />
+			<role name="state" element="org.apache.ibatis.scripting.xmltags.DynamicSqlSource::rootSqlNode:org.apache.ibatis.scripting.xmltags.SqlNode" />
+			<role name="Request()" element="org.apache.ibatis.scripting.xmltags.DynamicSqlSource::getBoundSql(java.lang.Object):org.apache.ibatis.mapping.BoundSql" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.apache.ibatis.executor.resultset.DefaultResultSetHandler" />
+			<role name="State" element="org.apache.ibatis.executor.parameter.ParameterHandler" />
+			<role name="state" element="org.apache.ibatis.executor.resultset.DefaultResultSetHandler::parameterHandler:org.apache.ibatis.executor.parameter.ParameterHandler" />
+			<role name="Request()" element="org.apache.ibatis.executor.resultset.DefaultResultSetHandler::handleOutputParameters(java.sql.CallableStatement):void" />
+		</instance>
+	</pattern>
+	<pattern name="Strategy">
+		<instance>
+			<role name="Context" element="org.apache.ibatis.jdbc.AbstractSQL$SQLStatement" />
+			<role name="Strategy" element="org.apache.ibatis.jdbc.AbstractSQL$SQLStatement$LimitingRowsStrategy" />
+			<role name="strategy" element="org.apache.ibatis.jdbc.AbstractSQL$SQLStatement::limitingRowsStrategy:org.apache.ibatis.jdbc.AbstractSQL$SQLStatement$LimitingRowsStrategy" />
+			<role name="ContextInterface()" element="org.apache.ibatis.jdbc.AbstractSQL$SQLStatement::selectSQL(org.apache.ibatis.jdbc.AbstractSQL$SafeAppendable):java.lang.String" />
+			<role name="ContextInterface()" element="org.apache.ibatis.jdbc.AbstractSQL$SQLStatement::deleteSQL(org.apache.ibatis.jdbc.AbstractSQL$SafeAppendable):java.lang.String" />
+			<role name="ContextInterface()" element="org.apache.ibatis.jdbc.AbstractSQL$SQLStatement::updateSQL(org.apache.ibatis.jdbc.AbstractSQL$SafeAppendable):java.lang.String" />
+		</instance>
+	</pattern>
+	<pattern name="Bridge">
+		<instance>
+			<role name="Abstraction" element="org.apache.ibatis.executor.BaseExecutor" />
+			<role name="Implementor" element="org.apache.ibatis.transaction.Transaction" />
+			<role name="implementor" element="org.apache.ibatis.executor.BaseExecutor::transaction:org.apache.ibatis.transaction.Transaction" />
+			<role name="Operation()" element="org.apache.ibatis.executor.BaseExecutor::close(boolean):void" />
+			<role name="Operation()" element="org.apache.ibatis.executor.BaseExecutor::commit(boolean):void" />
+			<role name="Operation()" element="org.apache.ibatis.executor.BaseExecutor::rollback(boolean):void" />
+			<role name="Operation()" element="org.apache.ibatis.executor.BaseExecutor::applyTransactionTimeout(java.sql.Statement):void" />
+			<role name="Operation()" element="org.apache.ibatis.executor.BaseExecutor::getConnection(org.apache.ibatis.logging.Log):java.sql.Connection" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="org.apache.ibatis.io.VFS" />
+			<role name="Implementor" element="org.apache.ibatis.logging.Log" />
+			<role name="implementor" element="org.apache.ibatis.io.VFS::log:org.apache.ibatis.logging.Log" />
+			<role name="Operation()" element="org.apache.ibatis.io.VFS::getClass(java.lang.String):java.lang.Class" />
+			<role name="Operation()" element="org.apache.ibatis.io.VFS::getMethod(java.lang.Class, java.lang.String, java.lang.Class):java.lang.reflect.Method" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="org.apache.ibatis.logging.jdbc.BaseJdbcLogger" />
+			<role name="Implementor" element="org.apache.ibatis.logging.Log" />
+			<role name="implementor" element="org.apache.ibatis.logging.jdbc.BaseJdbcLogger::statementLog:org.apache.ibatis.logging.Log" />
+			<role name="Operation()" element="org.apache.ibatis.logging.jdbc.BaseJdbcLogger::isDebugEnabled():boolean" />
+			<role name="Operation()" element="org.apache.ibatis.logging.jdbc.BaseJdbcLogger::isTraceEnabled():boolean" />
+			<role name="Operation()" element="org.apache.ibatis.logging.jdbc.BaseJdbcLogger::debug(java.lang.String, boolean):void" />
+			<role name="Operation()" element="org.apache.ibatis.logging.jdbc.BaseJdbcLogger::trace(java.lang.String, boolean):void" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="org.apache.ibatis.executor.BaseExecutor" />
+			<role name="Implementor" element="org.apache.ibatis.logging.Log" />
+			<role name="implementor" element="org.apache.ibatis.executor.BaseExecutor::log:org.apache.ibatis.logging.Log" />
+			<role name="Operation()" element="org.apache.ibatis.executor.BaseExecutor::close(boolean):void" />
+		</instance>
+	</pattern>
+	<pattern name="Template Method">
+		<instance>
+			<role name="AbstractClass" element="org.apache.ibatis.executor.BaseExecutor" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.executor.BaseExecutor::update(org.apache.ibatis.mapping.MappedStatement, java.lang.Object):int" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.executor.BaseExecutor::flushStatements(boolean):java.util.List" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.apache.ibatis.executor.statement.BaseStatementHandler" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.executor.statement.BaseStatementHandler::prepare(java.sql.Connection, java.lang.Integer):java.sql.Statement" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.apache.ibatis.executor.loader.AbstractEnhancedDeserializationProxy" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.executor.loader.AbstractEnhancedDeserializationProxy::invoke(java.lang.Object, java.lang.reflect.Method, java.lang.Object[]):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.apache.ibatis.executor.loader.AbstractSerialStateHolder" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.executor.loader.AbstractSerialStateHolder::readResolve():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.apache.ibatis.type.BaseTypeHandler" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.type.BaseTypeHandler::setParameter(java.sql.PreparedStatement, int, T, org.apache.ibatis.type.JdbcType):void" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.type.BaseTypeHandler::getResult(java.sql.ResultSet, java.lang.String):java.lang.Object" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.type.BaseTypeHandler::getResult(java.sql.ResultSet, int):java.lang.Object" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.type.BaseTypeHandler::getResult(java.sql.CallableStatement, int):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.apache.ibatis.io.VFS" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.io.VFS::list(java.lang.String):java.util.List" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.apache.ibatis.jdbc.AbstractSQL" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.jdbc.AbstractSQL::UPDATE(java.lang.String):java.lang.Object" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.jdbc.AbstractSQL::SET(java.lang.String):java.lang.Object" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.jdbc.AbstractSQL::SET(java.lang.String[]):java.lang.Object" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.jdbc.AbstractSQL::INSERT_INTO(java.lang.String):java.lang.Object" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.jdbc.AbstractSQL::VALUES(java.lang.String, java.lang.String):java.lang.Object" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.jdbc.AbstractSQL::INTO_COLUMNS(java.lang.String[]):java.lang.Object" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.jdbc.AbstractSQL::INTO_VALUES(java.lang.String[]):java.lang.Object" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.jdbc.AbstractSQL::SELECT(java.lang.String):java.lang.Object" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.jdbc.AbstractSQL::SELECT(java.lang.String[]):java.lang.Object" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.jdbc.AbstractSQL::SELECT_DISTINCT(java.lang.String):java.lang.Object" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.jdbc.AbstractSQL::SELECT_DISTINCT(java.lang.String[]):java.lang.Object" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.jdbc.AbstractSQL::DELETE_FROM(java.lang.String):java.lang.Object" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.jdbc.AbstractSQL::FROM(java.lang.String):java.lang.Object" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.jdbc.AbstractSQL::FROM(java.lang.String[]):java.lang.Object" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.jdbc.AbstractSQL::JOIN(java.lang.String):java.lang.Object" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.jdbc.AbstractSQL::JOIN(java.lang.String[]):java.lang.Object" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.jdbc.AbstractSQL::INNER_JOIN(java.lang.String):java.lang.Object" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.jdbc.AbstractSQL::INNER_JOIN(java.lang.String[]):java.lang.Object" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.jdbc.AbstractSQL::LEFT_OUTER_JOIN(java.lang.String):java.lang.Object" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.jdbc.AbstractSQL::LEFT_OUTER_JOIN(java.lang.String[]):java.lang.Object" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.jdbc.AbstractSQL::RIGHT_OUTER_JOIN(java.lang.String):java.lang.Object" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.jdbc.AbstractSQL::RIGHT_OUTER_JOIN(java.lang.String[]):java.lang.Object" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.jdbc.AbstractSQL::OUTER_JOIN(java.lang.String):java.lang.Object" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.jdbc.AbstractSQL::OUTER_JOIN(java.lang.String[]):java.lang.Object" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.jdbc.AbstractSQL::WHERE(java.lang.String):java.lang.Object" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.jdbc.AbstractSQL::WHERE(java.lang.String[]):java.lang.Object" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.jdbc.AbstractSQL::OR():java.lang.Object" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.jdbc.AbstractSQL::AND():java.lang.Object" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.jdbc.AbstractSQL::GROUP_BY(java.lang.String):java.lang.Object" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.jdbc.AbstractSQL::GROUP_BY(java.lang.String[]):java.lang.Object" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.jdbc.AbstractSQL::HAVING(java.lang.String):java.lang.Object" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.jdbc.AbstractSQL::HAVING(java.lang.String[]):java.lang.Object" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.jdbc.AbstractSQL::ORDER_BY(java.lang.String):java.lang.Object" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.jdbc.AbstractSQL::ORDER_BY(java.lang.String[]):java.lang.Object" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.jdbc.AbstractSQL::LIMIT(java.lang.String):java.lang.Object" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.jdbc.AbstractSQL::OFFSET(java.lang.String):java.lang.Object" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.jdbc.AbstractSQL::FETCH_FIRST_ROWS_ONLY(java.lang.String):java.lang.Object" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.jdbc.AbstractSQL::OFFSET_ROWS(java.lang.String):java.lang.Object" />
+			<role name="TemplateMethod()" element="org.apache.ibatis.jdbc.AbstractSQL::ADD_ROW():java.lang.Object" />
+		</instance>
+	</pattern>
+	<pattern name="Visitor" />
+	<pattern name="Proxy" />
+	<pattern name="Proxy2">
+		<instance>
+			<role name="Proxy" element="org.apache.ibatis.executor.statement.RoutingStatementHandler" />
+			<role name="RealSubject" element="org.apache.ibatis.executor.statement.CallableStatementHandler" />
+			<role name="Subject" element="org.apache.ibatis.executor.statement.StatementHandler" />
+			<role name="subject" element="org.apache.ibatis.executor.statement.RoutingStatementHandler::delegate:org.apache.ibatis.executor.statement.StatementHandler" />
+			<role name="Request()" element="org.apache.ibatis.executor.statement.RoutingStatementHandler::prepare(java.sql.Connection, java.lang.Integer):java.sql.Statement" />
+			<role name="Request()" element="org.apache.ibatis.executor.statement.RoutingStatementHandler::parameterize(java.sql.Statement):void" />
+			<role name="Request()" element="org.apache.ibatis.executor.statement.RoutingStatementHandler::batch(java.sql.Statement):void" />
+			<role name="Request()" element="org.apache.ibatis.executor.statement.RoutingStatementHandler::update(java.sql.Statement):int" />
+			<role name="Request()" element="org.apache.ibatis.executor.statement.RoutingStatementHandler::getBoundSql():org.apache.ibatis.mapping.BoundSql" />
+			<role name="Request()" element="org.apache.ibatis.executor.statement.RoutingStatementHandler::getParameterHandler():org.apache.ibatis.executor.parameter.ParameterHandler" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="org.apache.ibatis.executor.statement.RoutingStatementHandler" />
+			<role name="RealSubject" element="org.apache.ibatis.executor.statement.PreparedStatementHandler" />
+			<role name="Subject" element="org.apache.ibatis.executor.statement.StatementHandler" />
+			<role name="subject" element="org.apache.ibatis.executor.statement.RoutingStatementHandler::delegate:org.apache.ibatis.executor.statement.StatementHandler" />
+			<role name="Request()" element="org.apache.ibatis.executor.statement.RoutingStatementHandler::prepare(java.sql.Connection, java.lang.Integer):java.sql.Statement" />
+			<role name="Request()" element="org.apache.ibatis.executor.statement.RoutingStatementHandler::parameterize(java.sql.Statement):void" />
+			<role name="Request()" element="org.apache.ibatis.executor.statement.RoutingStatementHandler::batch(java.sql.Statement):void" />
+			<role name="Request()" element="org.apache.ibatis.executor.statement.RoutingStatementHandler::update(java.sql.Statement):int" />
+			<role name="Request()" element="org.apache.ibatis.executor.statement.RoutingStatementHandler::getBoundSql():org.apache.ibatis.mapping.BoundSql" />
+			<role name="Request()" element="org.apache.ibatis.executor.statement.RoutingStatementHandler::getParameterHandler():org.apache.ibatis.executor.parameter.ParameterHandler" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="org.apache.ibatis.executor.statement.RoutingStatementHandler" />
+			<role name="RealSubject" element="org.apache.ibatis.executor.statement.SimpleStatementHandler" />
+			<role name="Subject" element="org.apache.ibatis.executor.statement.StatementHandler" />
+			<role name="subject" element="org.apache.ibatis.executor.statement.RoutingStatementHandler::delegate:org.apache.ibatis.executor.statement.StatementHandler" />
+			<role name="Request()" element="org.apache.ibatis.executor.statement.RoutingStatementHandler::prepare(java.sql.Connection, java.lang.Integer):java.sql.Statement" />
+			<role name="Request()" element="org.apache.ibatis.executor.statement.RoutingStatementHandler::parameterize(java.sql.Statement):void" />
+			<role name="Request()" element="org.apache.ibatis.executor.statement.RoutingStatementHandler::batch(java.sql.Statement):void" />
+			<role name="Request()" element="org.apache.ibatis.executor.statement.RoutingStatementHandler::update(java.sql.Statement):int" />
+			<role name="Request()" element="org.apache.ibatis.executor.statement.RoutingStatementHandler::getBoundSql():org.apache.ibatis.mapping.BoundSql" />
+			<role name="Request()" element="org.apache.ibatis.executor.statement.RoutingStatementHandler::getParameterHandler():org.apache.ibatis.executor.parameter.ParameterHandler" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="org.apache.ibatis.logging.log4j2.Log4j2Impl" />
+			<role name="RealSubject" element="org.apache.ibatis.logging.log4j2.Log4j2AbstractLoggerImpl" />
+			<role name="Subject" element="org.apache.ibatis.logging.Log" />
+			<role name="subject" element="org.apache.ibatis.logging.log4j2.Log4j2Impl::log:org.apache.ibatis.logging.Log" />
+			<role name="Request()" element="org.apache.ibatis.logging.log4j2.Log4j2Impl::isDebugEnabled():boolean" />
+			<role name="Request()" element="org.apache.ibatis.logging.log4j2.Log4j2Impl::isTraceEnabled():boolean" />
+			<role name="Request()" element="org.apache.ibatis.logging.log4j2.Log4j2Impl::error(java.lang.String, java.lang.Throwable):void" />
+			<role name="Request()" element="org.apache.ibatis.logging.log4j2.Log4j2Impl::error(java.lang.String):void" />
+			<role name="Request()" element="org.apache.ibatis.logging.log4j2.Log4j2Impl::debug(java.lang.String):void" />
+			<role name="Request()" element="org.apache.ibatis.logging.log4j2.Log4j2Impl::trace(java.lang.String):void" />
+			<role name="Request()" element="org.apache.ibatis.logging.log4j2.Log4j2Impl::warn(java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="org.apache.ibatis.logging.log4j2.Log4j2Impl" />
+			<role name="RealSubject" element="org.apache.ibatis.logging.log4j2.Log4j2LoggerImpl" />
+			<role name="Subject" element="org.apache.ibatis.logging.Log" />
+			<role name="subject" element="org.apache.ibatis.logging.log4j2.Log4j2Impl::log:org.apache.ibatis.logging.Log" />
+			<role name="Request()" element="org.apache.ibatis.logging.log4j2.Log4j2Impl::isDebugEnabled():boolean" />
+			<role name="Request()" element="org.apache.ibatis.logging.log4j2.Log4j2Impl::isTraceEnabled():boolean" />
+			<role name="Request()" element="org.apache.ibatis.logging.log4j2.Log4j2Impl::error(java.lang.String, java.lang.Throwable):void" />
+			<role name="Request()" element="org.apache.ibatis.logging.log4j2.Log4j2Impl::error(java.lang.String):void" />
+			<role name="Request()" element="org.apache.ibatis.logging.log4j2.Log4j2Impl::debug(java.lang.String):void" />
+			<role name="Request()" element="org.apache.ibatis.logging.log4j2.Log4j2Impl::trace(java.lang.String):void" />
+			<role name="Request()" element="org.apache.ibatis.logging.log4j2.Log4j2Impl::warn(java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="org.apache.ibatis.logging.slf4j.Slf4jImpl" />
+			<role name="RealSubject" element="org.apache.ibatis.logging.slf4j.Slf4jLocationAwareLoggerImpl" />
+			<role name="Subject" element="org.apache.ibatis.logging.Log" />
+			<role name="subject" element="org.apache.ibatis.logging.slf4j.Slf4jImpl::log:org.apache.ibatis.logging.Log" />
+			<role name="Request()" element="org.apache.ibatis.logging.slf4j.Slf4jImpl::isDebugEnabled():boolean" />
+			<role name="Request()" element="org.apache.ibatis.logging.slf4j.Slf4jImpl::isTraceEnabled():boolean" />
+			<role name="Request()" element="org.apache.ibatis.logging.slf4j.Slf4jImpl::error(java.lang.String, java.lang.Throwable):void" />
+			<role name="Request()" element="org.apache.ibatis.logging.slf4j.Slf4jImpl::error(java.lang.String):void" />
+			<role name="Request()" element="org.apache.ibatis.logging.slf4j.Slf4jImpl::debug(java.lang.String):void" />
+			<role name="Request()" element="org.apache.ibatis.logging.slf4j.Slf4jImpl::trace(java.lang.String):void" />
+			<role name="Request()" element="org.apache.ibatis.logging.slf4j.Slf4jImpl::warn(java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="org.apache.ibatis.logging.slf4j.Slf4jImpl" />
+			<role name="RealSubject" element="org.apache.ibatis.logging.slf4j.Slf4jLoggerImpl" />
+			<role name="Subject" element="org.apache.ibatis.logging.Log" />
+			<role name="subject" element="org.apache.ibatis.logging.slf4j.Slf4jImpl::log:org.apache.ibatis.logging.Log" />
+			<role name="Request()" element="org.apache.ibatis.logging.slf4j.Slf4jImpl::isDebugEnabled():boolean" />
+			<role name="Request()" element="org.apache.ibatis.logging.slf4j.Slf4jImpl::isTraceEnabled():boolean" />
+			<role name="Request()" element="org.apache.ibatis.logging.slf4j.Slf4jImpl::error(java.lang.String, java.lang.Throwable):void" />
+			<role name="Request()" element="org.apache.ibatis.logging.slf4j.Slf4jImpl::error(java.lang.String):void" />
+			<role name="Request()" element="org.apache.ibatis.logging.slf4j.Slf4jImpl::debug(java.lang.String):void" />
+			<role name="Request()" element="org.apache.ibatis.logging.slf4j.Slf4jImpl::trace(java.lang.String):void" />
+			<role name="Request()" element="org.apache.ibatis.logging.slf4j.Slf4jImpl::warn(java.lang.String):void" />
+		</instance>
+	</pattern>
+	<pattern name="Chain of Responsibility" />
+</system>
+

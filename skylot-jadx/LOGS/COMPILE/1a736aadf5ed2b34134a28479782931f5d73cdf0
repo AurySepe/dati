@@ -1,0 +1,53 @@
+Downloading https://services.gradle.org/distributions/gradle-4.5.1-bin.zip
+.....................................................................
+Unzipping /root/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1-bin.zip to /root/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k
+Set executable permissions for: /root/.gradle/wrapper/dists/gradle-4.5.1-bin/a5vbgfvpwtoqz8v2cdivxz28k/gradle-4.5.1/bin/gradle
+Download https://plugins.gradle.org/m2/com/github/ben-manes/versions/com.github.ben-manes.versions.gradle.plugin/0.17.0/com.github.ben-manes.versions.gradle.plugin-0.17.0.pom
+Download https://plugins.gradle.org/m2/com/github/ben-manes/gradle-versions-plugin/0.17.0/gradle-versions-plugin-0.17.0.pom
+Download https://plugins.gradle.org/m2/com/github/ben-manes/gradle-versions-plugin/0.17.0/gradle-versions-plugin-0.17.0.jar
+Download https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.2/gson-2.8.2.pom
+Download https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.8.2/gson-parent-2.8.2.pom
+Download https://repo.maven.apache.org/maven2/org/jetbrains/annotations/15.0/annotations-15.0.pom
+Download https://repo.maven.apache.org/maven2/uk/com/robust-it/cloning/1.9.9/cloning-1.9.9.pom
+Download https://repo.maven.apache.org/maven2/org/ow2/asm/asm/6.0/asm-6.0.pom
+Download https://repo.maven.apache.org/maven2/org/ow2/asm/asm-parent/6.0/asm-parent-6.0.pom
+Download https://repo.maven.apache.org/maven2/com/beust/jcommander/1.72/jcommander-1.72.pom
+Download https://repo.maven.apache.org/maven2/com/beust/jcommander/1.72/jcommander-1.72.jar
+Download https://repo.maven.apache.org/maven2/uk/com/robust-it/cloning/1.9.9/cloning-1.9.9.jar
+Download https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar
+Download https://repo.maven.apache.org/maven2/org/ow2/asm/asm/6.0/asm-6.0.jar
+Download https://repo.maven.apache.org/maven2/org/jetbrains/annotations/15.0/annotations-15.0.jar
+:cleanBuildDir UP-TO-DATE
+:clean UP-TO-DATE
+:jadx-cli:clean UP-TO-DATE
+:jadx-core:clean UP-TO-DATE
+:jadx-gui:clean UP-TO-DATE
+:jadx-samples:cleanGeneratedFiles UP-TO-DATE
+:jadx-samples:clean UP-TO-DATE
+:jadx-test-app:deleteTmp UP-TO-DATE
+:jadx-test-app:clean UP-TO-DATE
+:compileJava NO-SOURCE
+:jadx-core:compileJava/results/skylot-jadx/RELEASES/1a736aadf5ed2b34134a28479782931f5d73cdf0/jadx-core/src/main/java/jadx/core/dex/instructions/args/LiteralArg.java:68: warning: [deprecation] literalToString(long,ArgType) in TypeGen has been deprecated
+			String value = TypeGen.literalToString(literal, getType());
+			                      ^
+1 warning
+
+:jadx-core:compileGroovy NO-SOURCE
+:jadx-core:processResources
+:jadx-core:classes
+:jadx-core:jar
+:jadx-cli:compileJava
+:jadx-cli:compileGroovy NO-SOURCE
+:jadx-cli:processResources
+:jadx-cli:classes
+:jadx-cli:jar
+:jadx-gui:compileJava/results/skylot-jadx/RELEASES/1a736aadf5ed2b34134a28479782931f5d73cdf0/jadx-gui/src/main/java/jadx/gui/treemodel/JLoadableNode.java:3: warning: [serial] serializable class JLoadableNode has no definition of serialVersionUID
+public abstract class JLoadableNode extends JNode {
+                ^
+1 warning
+
+:jadx-samples:compileJava
+:jadx-test-app:compileJava NO-SOURCE
+
+BUILD SUCCESSFUL in 28s
+17 actionable tasks: 8 executed, 9 up-to-date

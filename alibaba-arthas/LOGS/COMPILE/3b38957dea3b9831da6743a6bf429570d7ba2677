@@ -1,0 +1,325 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] arthas-all                                                         [pom]
+[INFO] math-game                                                          [jar]
+[INFO] arthas-common                                                      [jar]
+[INFO] arthas-spy                                                         [jar]
+[INFO] arthas-vmtool                                                      [jar]
+[INFO] arthas-tunnel-common                                               [jar]
+[INFO] arthas-tunnel-client                                               [jar]
+[INFO] arthas-memorycompiler                                              [jar]
+[INFO] arthas-core                                                        [jar]
+[INFO] arthas-agent                                                       [jar]
+[INFO] arthas-client                                                      [jar]
+[INFO] arthas-boot                                                        [jar]
+[INFO] arthas-agent-attach                                                [jar]
+[INFO] arthas-site                                                        [jar]
+[INFO] arthas-packaging                                                   [jar]
+[INFO] arthas-spring-boot-starter                                         [jar]
+[INFO] arthas-testcase                                                    [jar]
+[INFO] arthas-tunnel-server                                               [jar]
+[INFO] 
+[INFO] --------------------< com.taobao.arthas:arthas-all >--------------------
+[INFO] Building arthas-all 3.6.6                                         [1/18]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-all ---
+[INFO] 
+[INFO] --- flatten-maven-plugin:1.2.2:clean (flatten-clean) @ arthas-all ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-all ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --------------------< com.taobao.arthas:math-game >---------------------
+[INFO] Building math-game 3.6.6                                          [2/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ math-game ---
+[INFO] 
+[INFO] --- flatten-maven-plugin:1.2.2:clean (flatten-clean) @ math-game ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ math-game ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/math-game/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] ------------------< com.taobao.arthas:arthas-common >-------------------
+[INFO] Building arthas-common 3.6.6                                      [3/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-common ---
+[INFO] 
+[INFO] --- flatten-maven-plugin:1.2.2:clean (flatten-clean) @ arthas-common ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-common ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 17 source files to /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/common/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] --------------------< com.taobao.arthas:arthas-spy >--------------------
+[INFO] Building arthas-spy 3.6.6                                         [4/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-spy ---
+[INFO] 
+[INFO] --- flatten-maven-plugin:1.2.2:clean (flatten-clean) @ arthas-spy ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-spy ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/spy/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] ------------------< com.taobao.arthas:arthas-vmtool >-------------------
+[INFO] Building arthas-vmtool 3.6.6                                      [5/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-vmtool ---
+[INFO] 
+[INFO] --- flatten-maven-plugin:1.2.2:clean (flatten-clean) @ arthas-vmtool ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-vmtool ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/arthas-vmtool/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] ---------------< com.taobao.arthas:arthas-tunnel-common >---------------
+[INFO] Building arthas-tunnel-common 3.6.6                               [6/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-tunnel-common ---
+[INFO] 
+[INFO] --- flatten-maven-plugin:1.2.2:clean (flatten-clean) @ arthas-tunnel-common ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-tunnel-common ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/tunnel-common/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] ---------------< com.taobao.arthas:arthas-tunnel-client >---------------
+[INFO] Building arthas-tunnel-client 3.6.6                               [7/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-tunnel-client ---
+[INFO] 
+[INFO] --- flatten-maven-plugin:1.2.2:clean (flatten-clean) @ arthas-tunnel-client ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-tunnel-client ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/tunnel-client/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] --------------< com.taobao.arthas:arthas-memorycompiler >---------------
+[INFO] Building arthas-memorycompiler 3.6.6                              [8/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-memorycompiler ---
+[INFO] 
+[INFO] --- flatten-maven-plugin:1.2.2:clean (flatten-clean) @ arthas-memorycompiler ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-memorycompiler ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/memorycompiler/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] -------------------< com.taobao.arthas:arthas-core >--------------------
+[INFO] Building arthas-core 3.6.6                                        [9/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/com/alibaba/repackage-asm/0.0.12/repackage-asm-0.0.12.pom
+Progress (1): 1.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/alibaba/repackage-asm/0.0.12/repackage-asm-0.0.12.pom (1.9 kB at 3.3 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/alibaba/arthas/arthas-repackage-deps/0.0.12/arthas-repackage-deps-0.0.12.pom
+Progress (1): 2.7/9.2 kBProgress (1): 5.5/9.2 kBProgress (1): 8.2/9.2 kBProgress (1): 9.2 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/com/alibaba/arthas/arthas-repackage-deps/0.0.12/arthas-repackage-deps-0.0.12.pom (9.2 kB at 36 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/alibaba/arthas/arthas-repackage-logger/0.0.12/arthas-repackage-logger-0.0.12.pom
+Progress (1): 2.7/3.6 kBProgress (1): 3.6 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/com/alibaba/arthas/arthas-repackage-logger/0.0.12/arthas-repackage-logger-0.0.12.pom (3.6 kB at 14 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/alibaba/fastjson/1.2.83_noneautotype/fastjson-1.2.83_noneautotype.pom
+Progress (1): 2.7/11 kBProgress (1): 5.5/11 kBProgress (1): 8.2/11 kBProgress (1): 11 kB                       Downloaded from central: https://repo.maven.apache.org/maven2/com/alibaba/fastjson/1.2.83_noneautotype/fastjson-1.2.83_noneautotype.pom (11 kB at 37 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/alibaba/repackage-asm/0.0.12/repackage-asm-0.0.12.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/alibaba/arthas/arthas-repackage-logger/0.0.12/arthas-repackage-logger-0.0.12.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/alibaba/fastjson/1.2.83_noneautotype/fastjson-1.2.83_noneautotype.jar
+Progress (1): 2.7/373 kBProgress (1): 5.5/373 kBProgress (1): 8.2/373 kBProgress (1): 11/373 kB Progress (1): 14/373 kBProgress (1): 16/373 kBProgress (1): 20/373 kBProgress (1): 24/373 kBProgress (1): 28/373 kBProgress (1): 32/373 kBProgress (2): 32/373 kB | 2.7/667 kBProgress (2): 32/373 kB | 5.5/667 kBProgress (2): 32/373 kB | 8.2/667 kBProgress (2): 32/373 kB | 11/667 kB Progress (2): 32/373 kB | 14/667 kBProgress (2): 36/373 kB | 14/667 kBProgress (2): 40/373 kB | 14/667 kBProgress (2): 45/373 kB | 14/667 kBProgress (2): 45/373 kB | 16/667 kBProgress (2): 49/373 kB | 16/667 kBProgress (2): 53/373 kB | 16/667 kBProgress (2): 57/373 kB | 16/667 kBProgress (2): 61/373 kB | 16/667 kBProgress (2): 65/373 kB | 16/667 kBProgress (2): 69/373 kB | 16/667 kBProgress (2): 69/373 kB | 20/667 kBProgress (2): 73/373 kB | 20/667 kBProgress (2): 73/373 kB | 24/667 kBProgress (3): 73/373 kB | 24/667 kB | 4.1/773 kBProgress (3): 77/373 kB | 24/667 kB | 4.1/773 kBProgress (3): 77/373 kB | 24/667 kB | 8.2/773 kBProgress (3): 77/373 kB | 28/667 kB | 8.2/773 kBProgress (3): 77/373 kB | 28/667 kB | 12/773 kB Progress (3): 81/373 kB | 28/667 kB | 12/773 kBProgress (3): 81/373 kB | 28/667 kB | 16/773 kBProgress (3): 81/373 kB | 32/667 kB | 16/773 kBProgress (3): 85/373 kB | 32/667 kB | 16/773 kBProgress (3): 90/373 kB | 32/667 kB | 16/773 kBProgress (3): 90/373 kB | 36/667 kB | 16/773 kBProgress (3): 90/373 kB | 36/667 kB | 20/773 kBProgress (3): 94/373 kB | 36/667 kB | 20/773 kBProgress (3): 94/373 kB | 36/667 kB | 25/773 kBProgress (3): 94/373 kB | 40/667 kB | 25/773 kBProgress (3): 94/373 kB | 40/667 kB | 29/773 kBProgress (3): 98/373 kB | 40/667 kB | 29/773 kBProgress (3): 98/373 kB | 40/667 kB | 33/773 kBProgress (3): 98/373 kB | 45/667 kB | 33/773 kBProgress (3): 102/373 kB | 45/667 kB | 33/773 kBProgress (3): 102/373 kB | 45/667 kB | 37/773 kBProgress (3): 102/373 kB | 49/667 kB | 37/773 kBProgress (3): 102/373 kB | 49/667 kB | 41/773 kBProgress (3): 106/373 kB | 49/667 kB | 41/773 kBProgress (3): 106/373 kB | 49/667 kB | 45/773 kBProgress (3): 110/373 kB | 49/667 kB | 45/773 kBProgress (3): 110/373 kB | 53/667 kB | 45/773 kBProgress (3): 114/373 kB | 53/667 kB | 45/773 kBProgress (3): 114/373 kB | 53/667 kB | 49/773 kBProgress (3): 114/373 kB | 57/667 kB | 49/773 kBProgress (3): 118/373 kB | 57/667 kB | 49/773 kBProgress (3): 118/373 kB | 57/667 kB | 53/773 kBProgress (3): 118/373 kB | 61/667 kB | 53/773 kBProgress (3): 118/373 kB | 61/667 kB | 57/773 kBProgress (3): 122/373 kB | 61/667 kB | 57/773 kBProgress (3): 122/373 kB | 61/667 kB | 61/773 kBProgress (3): 122/373 kB | 65/667 kB | 61/773 kBProgress (3): 122/373 kB | 65/667 kB | 66/773 kBProgress (3): 126/373 kB | 65/667 kB | 66/773 kBProgress (3): 126/373 kB | 69/667 kB | 66/773 kBProgress (3): 131/373 kB | 69/667 kB | 66/773 kBProgress (3): 131/373 kB | 73/667 kB | 66/773 kBProgress (3): 131/373 kB | 77/667 kB | 66/773 kBProgress (3): 135/373 kB | 77/667 kB | 66/773 kBProgress (3): 135/373 kB | 81/667 kB | 66/773 kBProgress (3): 139/373 kB | 81/667 kB | 66/773 kBProgress (3): 143/373 kB | 81/667 kB | 66/773 kBProgress (3): 143/373 kB | 85/667 kB | 66/773 kBProgress (3): 147/373 kB | 85/667 kB | 66/773 kBProgress (3): 147/373 kB | 90/667 kB | 66/773 kBProgress (3): 147/373 kB | 94/667 kB | 66/773 kBProgress (3): 151/373 kB | 94/667 kB | 66/773 kBProgress (3): 151/373 kB | 98/667 kB | 66/773 kBProgress (3): 155/373 kB | 98/667 kB | 66/773 kBProgress (3): 159/373 kB | 98/667 kB | 66/773 kBProgress (3): 159/373 kB | 102/667 kB | 66/773 kBProgress (3): 163/373 kB | 102/667 kB | 66/773 kBProgress (3): 163/373 kB | 106/667 kB | 66/773 kBProgress (3): 163/373 kB | 110/667 kB | 66/773 kBProgress (3): 167/373 kB | 110/667 kB | 66/773 kBProgress (3): 167/373 kB | 114/667 kB | 66/773 kBProgress (3): 171/373 kB | 114/667 kB | 66/773 kBProgress (3): 176/373 kB | 114/667 kB | 66/773 kBProgress (3): 176/373 kB | 118/667 kB | 66/773 kBProgress (3): 180/373 kB | 118/667 kB | 66/773 kBProgress (3): 180/373 kB | 122/667 kB | 66/773 kBProgress (3): 180/373 kB | 126/667 kB | 66/773 kBProgress (3): 184/373 kB | 126/667 kB | 66/773 kBProgress (3): 184/373 kB | 131/667 kB | 66/773 kBProgress (3): 188/373 kB | 131/667 kB | 66/773 kBProgress (3): 188/373 kB | 131/667 kB | 70/773 kBProgress (3): 188/373 kB | 135/667 kB | 70/773 kBProgress (3): 192/373 kB | 135/667 kB | 70/773 kBProgress (3): 192/373 kB | 139/667 kB | 70/773 kBProgress (3): 192/373 kB | 139/667 kB | 74/773 kBProgress (3): 192/373 kB | 143/667 kB | 74/773 kBProgress (3): 196/373 kB | 143/667 kB | 74/773 kBProgress (3): 196/373 kB | 147/667 kB | 74/773 kBProgress (3): 196/373 kB | 147/667 kB | 78/773 kBProgress (3): 200/373 kB | 147/667 kB | 78/773 kBProgress (3): 200/373 kB | 147/667 kB | 82/773 kBProgress (3): 204/373 kB | 147/667 kB | 82/773 kBProgress (3): 208/373 kB | 147/667 kB | 82/773 kBProgress (3): 212/373 kB | 147/667 kB | 82/773 kBProgress (3): 217/373 kB | 147/667 kB | 82/773 kBProgress (3): 221/373 kB | 147/667 kB | 82/773 kBProgress (3): 225/373 kB | 147/667 kB | 82/773 kBProgress (3): 229/373 kB | 147/667 kB | 82/773 kBProgress (3): 229/373 kB | 147/667 kB | 86/773 kBProgress (3): 233/373 kB | 147/667 kB | 86/773 kBProgress (3): 233/373 kB | 151/667 kB | 86/773 kBProgress (3): 237/373 kB | 151/667 kB | 86/773 kBProgress (3): 237/373 kB | 151/667 kB | 90/773 kBProgress (3): 241/373 kB | 151/667 kB | 90/773 kBProgress (3): 241/373 kB | 155/667 kB | 90/773 kBProgress (3): 245/373 kB | 155/667 kB | 90/773 kBProgress (3): 245/373 kB | 155/667 kB | 94/773 kBProgress (3): 245/373 kB | 159/667 kB | 94/773 kBProgress (3): 249/373 kB | 159/667 kB | 94/773 kBProgress (3): 249/373 kB | 159/667 kB | 98/773 kBProgress (3): 253/373 kB | 159/667 kB | 98/773 kBProgress (3): 253/373 kB | 163/667 kB | 98/773 kBProgress (3): 258/373 kB | 163/667 kB | 98/773 kBProgress (3): 262/373 kB | 163/667 kB | 98/773 kBProgress (3): 262/373 kB | 163/667 kB | 102/773 kBProgress (3): 262/373 kB | 163/667 kB | 106/773 kBProgress (3): 266/373 kB | 163/667 kB | 106/773 kBProgress (3): 266/373 kB | 163/667 kB | 111/773 kBProgress (3): 270/373 kB | 163/667 kB | 111/773 kBProgress (3): 270/373 kB | 163/667 kB | 115/773 kBProgress (3): 274/373 kB | 163/667 kB | 115/773 kBProgress (3): 278/373 kB | 163/667 kB | 115/773 kBProgress (3): 282/373 kB | 163/667 kB | 115/773 kBProgress (3): 286/373 kB | 163/667 kB | 115/773 kBProgress (3): 286/373 kB | 167/667 kB | 115/773 kBProgress (3): 290/373 kB | 167/667 kB | 115/773 kBProgress (3): 290/373 kB | 171/667 kB | 115/773 kBProgress (3): 294/373 kB | 171/667 kB | 115/773 kBProgress (3): 294/373 kB | 176/667 kB | 115/773 kBProgress (3): 294/373 kB | 180/667 kB | 115/773 kBProgress (3): 298/373 kB | 180/667 kB | 115/773 kBProgress (3): 303/373 kB | 180/667 kB | 115/773 kBProgress (3): 307/373 kB | 180/667 kB | 115/773 kBProgress (3): 311/373 kB | 180/667 kB | 115/773 kBProgress (3): 311/373 kB | 184/667 kB | 115/773 kBProgress (3): 311/373 kB | 188/667 kB | 115/773 kBProgress (3): 311/373 kB | 192/667 kB | 115/773 kBProgress (3): 311/373 kB | 196/667 kB | 115/773 kBProgress (3): 311/373 kB | 196/667 kB | 119/773 kBProgress (3): 311/373 kB | 196/667 kB | 123/773 kBProgress (3): 311/373 kB | 196/667 kB | 127/773 kBProgress (3): 311/373 kB | 196/667 kB | 131/773 kBProgress (3): 315/373 kB | 196/667 kB | 131/773 kBProgress (3): 319/373 kB | 196/667 kB | 131/773 kBProgress (3): 323/373 kB | 196/667 kB | 131/773 kBProgress (3): 327/373 kB | 196/667 kB | 131/773 kBProgress (3): 327/373 kB | 196/667 kB | 135/773 kBProgress (3): 327/373 kB | 196/667 kB | 139/773 kBProgress (3): 327/373 kB | 196/667 kB | 143/773 kBProgress (3): 327/373 kB | 196/667 kB | 147/773 kBProgress (3): 331/373 kB | 196/667 kB | 147/773 kBProgress (3): 335/373 kB | 196/667 kB | 147/773 kBProgress (3): 339/373 kB | 196/667 kB | 147/773 kBProgress (3): 344/373 kB | 196/667 kB | 147/773 kBProgress (3): 344/373 kB | 200/667 kB | 147/773 kBProgress (3): 344/373 kB | 204/667 kB | 147/773 kBProgress (3): 344/373 kB | 208/667 kB | 147/773 kBProgress (3): 344/373 kB | 212/667 kB | 147/773 kBProgress (3): 344/373 kB | 212/667 kB | 152/773 kBProgress (3): 344/373 kB | 217/667 kB | 152/773 kBProgress (3): 348/373 kB | 217/667 kB | 152/773 kBProgress (3): 348/373 kB | 221/667 kB | 152/773 kBProgress (3): 348/373 kB | 221/667 kB | 156/773 kBProgress (3): 348/373 kB | 225/667 kB | 156/773 kBProgress (3): 352/373 kB | 225/667 kB | 156/773 kBProgress (3): 352/373 kB | 229/667 kB | 156/773 kBProgress (3): 352/373 kB | 229/667 kB | 160/773 kBProgress (3): 356/373 kB | 229/667 kB | 160/773 kBProgress (3): 356/373 kB | 229/667 kB | 164/773 kBProgress (3): 360/373 kB | 229/667 kB | 164/773 kBProgress (3): 364/373 kB | 229/667 kB | 164/773 kBProgress (3): 368/373 kB | 229/667 kB | 164/773 kBProgress (3): 372/373 kB | 229/667 kB | 164/773 kBProgress (3): 373 kB | 229/667 kB | 164/773 kB    Progress (3): 373 kB | 229/667 kB | 168/773 kBProgress (3): 373 kB | 229/667 kB | 172/773 kBProgress (3): 373 kB | 229/667 kB | 176/773 kBProgress (3): 373 kB | 229/667 kB | 180/773 kBProgress (3): 373 kB | 233/667 kB | 180/773 kBProgress (3): 373 kB | 237/667 kB | 180/773 kBProgress (3): 373 kB | 241/667 kB | 180/773 kBProgress (3): 373 kB | 245/667 kB | 180/773 kBProgress (3): 373 kB | 245/667 kB | 184/773 kBProgress (3): 373 kB | 245/667 kB | 188/773 kBProgress (3): 373 kB | 245/667 kB | 193/773 kBProgress (3): 373 kB | 245/667 kB | 197/773 kBProgress (3): 373 kB | 249/667 kB | 197/773 kBProgress (3): 373 kB | 253/667 kB | 197/773 kBProgress (3): 373 kB | 258/667 kB | 197/773 kBProgress (3): 373 kB | 258/667 kB | 201/773 kBProgress (3): 373 kB | 262/667 kB | 201/773 kBProgress (3): 373 kB | 262/667 kB | 205/773 kBProgress (3): 373 kB | 262/667 kB | 209/773 kBProgress (3): 373 kB | 262/667 kB | 213/773 kBProgress (3): 373 kB | 262/667 kB | 217/773 kBProgress (3): 373 kB | 262/667 kB | 221/773 kBProgress (3): 373 kB | 262/667 kB | 225/773 kBProgress (3): 373 kB | 262/667 kB | 229/773 kBProgress (3): 373 kB | 266/667 kB | 229/773 kBProgress (3): 373 kB | 270/667 kB | 229/773 kBProgress (3): 373 kB | 274/667 kB | 229/773 kBProgress (3): 373 kB | 278/667 kB | 229/773 kBProgress (3): 373 kB | 278/667 kB | 233/773 kBProgress (3): 373 kB | 282/667 kB | 233/773 kBProgress (3): 373 kB | 282/667 kB | 238/773 kBProgress (3): 373 kB | 286/667 kB | 238/773 kBProgress (3): 373 kB | 286/667 kB | 242/773 kBProgress (3): 373 kB | 290/667 kB | 242/773 kBProgress (3): 373 kB | 290/667 kB | 246/773 kBProgress (3): 373 kB | 294/667 kB | 246/773 kBProgress (3): 373 kB | 298/667 kB | 246/773 kBProgress (3): 373 kB | 298/667 kB | 250/773 kBProgress (3): 373 kB | 303/667 kB | 250/773 kBProgress (3): 373 kB | 303/667 kB | 254/773 kBProgress (3): 373 kB | 307/667 kB | 254/773 kBProgress (3): 373 kB | 307/667 kB | 258/773 kBProgress (3): 373 kB | 311/667 kB | 258/773 kBProgress (3): 373 kB | 311/667 kB | 262/773 kBProgress (3): 373 kB | 311/667 kB | 266/773 kBProgress (3): 373 kB | 311/667 kB | 270/773 kBProgress (3): 373 kB | 311/667 kB | 274/773 kBProgress (3): 373 kB | 311/667 kB | 279/773 kBProgress (3): 373 kB | 315/667 kB | 279/773 kBProgress (3): 373 kB | 319/667 kB | 279/773 kBProgress (3): 373 kB | 323/667 kB | 279/773 kBProgress (3): 373 kB | 327/667 kB | 279/773 kBProgress (3): 373 kB | 327/667 kB | 283/773 kBProgress (3): 373 kB | 327/667 kB | 287/773 kBProgress (3): 373 kB | 327/667 kB | 291/773 kBProgress (3): 373 kB | 327/667 kB | 295/773 kBProgress (3): 373 kB | 331/667 kB | 295/773 kBProgress (3): 373 kB | 335/667 kB | 295/773 kBProgress (3): 373 kB | 339/667 kB | 295/773 kBProgress (3): 373 kB | 344/667 kB | 295/773 kBProgress (3): 373 kB | 344/667 kB | 299/773 kBProgress (3): 373 kB | 344/667 kB | 303/773 kBProgress (3): 373 kB | 344/667 kB | 307/773 kBProgress (3): 373 kB | 344/667 kB | 311/773 kBProgress (3): 373 kB | 348/667 kB | 311/773 kBProgress (3): 373 kB | 352/667 kB | 311/773 kBProgress (3): 373 kB | 356/667 kB | 311/773 kBProgress (3): 373 kB | 360/667 kB | 311/773 kBProgress (3): 373 kB | 360/667 kB | 315/773 kBProgress (3): 373 kB | 360/667 kB | 319/773 kBProgress (3): 373 kB | 360/667 kB | 324/773 kBProgress (3): 373 kB | 360/667 kB | 328/773 kBProgress (3): 373 kB | 360/667 kB | 332/773 kBProgress (3): 373 kB | 364/667 kB | 332/773 kBProgress (3): 373 kB | 364/667 kB | 336/773 kBProgress (3): 373 kB | 368/667 kB | 336/773 kBProgress (3): 373 kB | 368/667 kB | 340/773 kBProgress (3): 373 kB | 372/667 kB | 340/773 kBProgress (3): 373 kB | 372/667 kB | 344/773 kBProgress (3): 373 kB | 376/667 kB | 344/773 kBProgress (3): 373 kB | 376/667 kB | 348/773 kBProgress (3): 373 kB | 376/667 kB | 352/773 kBProgress (3): 373 kB | 380/667 kB | 352/773 kBProgress (3): 373 kB | 380/667 kB | 356/773 kBProgress (3): 373 kB | 384/667 kB | 356/773 kBProgress (3): 373 kB | 384/667 kB | 360/773 kBProgress (3): 373 kB | 389/667 kB | 360/773 kBProgress (3): 373 kB | 393/667 kB | 360/773 kBProgress (3): 373 kB | 397/667 kB | 360/773 kBProgress (3): 373 kB | 401/667 kB | 360/773 kBProgress (3): 373 kB | 401/667 kB | 365/773 kBProgress (3): 373 kB | 401/667 kB | 369/773 kBProgress (3): 373 kB | 401/667 kB | 373/773 kBProgress (3): 373 kB | 401/667 kB | 377/773 kBProgress (3): 373 kB | 401/667 kB | 381/773 kBProgress (3): 373 kB | 401/667 kB | 385/773 kBProgress (3): 373 kB | 401/667 kB | 389/773 kBProgress (3): 373 kB | 401/667 kB | 393/773 kBProgress (3): 373 kB | 405/667 kB | 393/773 kBProgress (3): 373 kB | 409/667 kB | 393/773 kBProgress (3): 373 kB | 413/667 kB | 393/773 kBProgress (3): 373 kB | 417/667 kB | 393/773 kBProgress (3): 373 kB | 417/667 kB | 397/773 kBProgress (3): 373 kB | 417/667 kB | 401/773 kBProgress (3): 373 kB | 417/667 kB | 406/773 kBProgress (3): 373 kB | 417/667 kB | 410/773 kBProgress (3): 373 kB | 421/667 kB | 410/773 kBProgress (3): 373 kB | 421/667 kB | 414/773 kBProgress (3): 373 kB | 425/667 kB | 414/773 kBProgress (3): 373 kB | 425/667 kB | 418/773 kBProgress (3): 373 kB | 430/667 kB | 418/773 kBProgress (3): 373 kB | 430/667 kB | 422/773 kBProgress (3): 373 kB | 434/667 kB | 422/773 kBProgress (3): 373 kB | 434/667 kB | 426/773 kBProgress (3): 373 kB | 434/667 kB | 430/773 kBProgress (3): 373 kB | 434/667 kB | 434/773 kBProgress (3): 373 kB | 434/667 kB | 438/773 kBProgress (3): 373 kB | 434/667 kB | 442/773 kBProgress (3): 373 kB | 438/667 kB | 442/773 kBProgress (3): 373 kB | 442/667 kB | 442/773 kBProgress (3): 373 kB | 446/667 kB | 442/773 kBProgress (3): 373 kB | 450/667 kB | 442/773 kBProgress (3): 373 kB | 450/667 kB | 446/773 kBProgress (3): 373 kB | 450/667 kB | 451/773 kBProgress (3): 373 kB | 450/667 kB | 455/773 kBProgress (3): 373 kB | 450/667 kB | 459/773 kBProgress (3): 373 kB | 454/667 kB | 459/773 kBProgress (3): 373 kB | 454/667 kB | 463/773 kBProgress (3): 373 kB | 458/667 kB | 463/773 kBProgress (3): 373 kB | 458/667 kB | 467/773 kBProgress (3): 373 kB | 462/667 kB | 467/773 kBProgress (3): 373 kB | 462/667 kB | 471/773 kBProgress (3): 373 kB | 466/667 kB | 471/773 kBProgress (3): 373 kB | 466/667 kB | 475/773 kBProgress (3): 373 kB | 466/667 kB | 479/773 kBProgress (3): 373 kB | 466/667 kB | 483/773 kBProgress (3): 373 kB | 466/667 kB | 487/773 kBProgress (3): 373 kB | 466/667 kB | 492/773 kBProgress (3): 373 kB | 470/667 kB | 492/773 kBProgress (3): 373 kB | 475/667 kB | 492/773 kBProgress (3): 373 kB | 479/667 kB | 492/773 kBProgress (3): 373 kB | 483/667 kB | 492/773 kBProgress (3): 373 kB | 483/667 kB | 496/773 kBProgress (3): 373 kB | 487/667 kB | 496/773 kBProgress (3): 373 kB | 487/667 kB | 500/773 kBProgress (3): 373 kB | 491/667 kB | 500/773 kBProgress (3): 373 kB | 491/667 kB | 504/773 kBProgress (3): 373 kB | 495/667 kB | 504/773 kBProgress (3): 373 kB | 495/667 kB | 508/773 kBProgress (3): 373 kB | 499/667 kB | 508/773 kBProgress (3): 373 kB | 499/667 kB | 512/773 kBProgress (3): 373 kB | 499/667 kB | 516/773 kBProgress (3): 373 kB | 499/667 kB | 520/773 kBProgress (3): 373 kB | 499/667 kB | 524/773 kBProgress (3): 373 kB | 503/667 kB | 524/773 kBProgress (3): 373 kB | 507/667 kB | 524/773 kBProgress (3): 373 kB | 511/667 kB | 524/773 kBProgress (3): 373 kB | 516/667 kB | 524/773 kBProgress (3): 373 kB | 516/667 kB | 528/773 kBProgress (3): 373 kB | 520/667 kB | 528/773 kBProgress (3): 373 kB | 520/667 kB | 532/773 kBProgress (3): 373 kB | 524/667 kB | 532/773 kBProgress (3): 373 kB | 524/667 kB | 537/773 kBProgress (3): 373 kB | 528/667 kB | 537/773 kBProgress (3): 373 kB | 528/667 kB | 541/773 kBProgress (3): 373 kB | 532/667 kB | 541/773 kBProgress (3): 373 kB | 536/667 kB | 541/773 kBProgress (3): 373 kB | 540/667 kB | 541/773 kBProgress (3): 373 kB | 544/667 kB | 541/773 kBProgress (3): 373 kB | 548/667 kB | 541/773 kBProgress (3): 373 kB | 548/667 kB | 545/773 kBProgress (3): 373 kB | 548/667 kB | 549/773 kBProgress (3): 373 kB | 548/667 kB | 553/773 kBProgress (3): 373 kB | 552/667 kB | 553/773 kBProgress (3): 373 kB | 552/667 kB | 557/773 kBProgress (3): 373 kB | 557/667 kB | 557/773 kBProgress (3): 373 kB | 561/667 kB | 557/773 kBProgress (3): 373 kB | 561/667 kB | 561/773 kBProgress (3): 373 kB | 565/667 kB | 561/773 kBProgress (3): 373 kB | 565/667 kB | 565/773 kBProgress (3): 373 kB | 565/667 kB | 569/773 kBProgress (3): 373 kB | 565/667 kB | 573/773 kBProgress (3): 373 kB | 565/667 kB | 578/773 kBProgress (3): 373 kB | 565/667 kB | 582/773 kBProgress (3): 373 kB | 569/667 kB | 582/773 kBProgress (3): 373 kB | 569/667 kB | 585/773 kBProgress (3): 373 kB | 573/667 kB | 585/773 kBProgress (3): 373 kB | 577/667 kB | 585/773 kBProgress (3): 373 kB | 581/667 kB | 585/773 kBProgress (3): 373 kB | 581/667 kB | 589/773 kBProgress (3): 373 kB | 581/667 kB | 593/773 kBProgress (3): 373 kB | 581/667 kB | 597/773 kBProgress (3): 373 kB | 581/667 kB | 601/773 kBProgress (3): 373 kB | 581/667 kB | 605/773 kBProgress (3): 373 kB | 581/667 kB | 609/773 kBProgress (3): 373 kB | 581/667 kB | 613/773 kBProgress (3): 373 kB | 581/667 kB | 617/773 kBProgress (3): 373 kB | 581/667 kB | 622/773 kBProgress (3): 373 kB | 581/667 kB | 626/773 kBProgress (3): 373 kB | 581/667 kB | 630/773 kBProgress (3): 373 kB | 581/667 kB | 634/773 kBProgress (3): 373 kB | 581/667 kB | 638/773 kBProgress (3): 373 kB | 581/667 kB | 642/773 kBProgress (3): 373 kB | 581/667 kB | 646/773 kBProgress (3): 373 kB | 581/667 kB | 650/773 kB                                              Downloaded from central: https://repo.maven.apache.org/maven2/com/alibaba/repackage-asm/0.0.12/repackage-asm-0.0.12.jar (373 kB at 771 kB/s)
+Progress (2): 585/667 kB | 650/773 kBProgress (2): 589/667 kB | 650/773 kBProgress (2): 593/667 kB | 650/773 kBProgress (2): 593/667 kB | 654/773 kBProgress (2): 597/667 kB | 654/773 kBProgress (2): 597/667 kB | 658/773 kBProgress (2): 597/667 kB | 663/773 kBProgress (2): 597/667 kB | 667/773 kBProgress (2): 602/667 kB | 667/773 kBProgress (2): 606/667 kB | 667/773 kBProgress (2): 610/667 kB | 667/773 kBProgress (2): 610/667 kB | 671/773 kBProgress (2): 614/667 kB | 671/773 kBProgress (2): 614/667 kB | 675/773 kBProgress (2): 614/667 kB | 679/773 kBProgress (2): 614/667 kB | 683/773 kBProgress (2): 614/667 kB | 687/773 kBProgress (2): 614/667 kB | 691/773 kBProgress (2): 614/667 kB | 695/773 kBProgress (2): 614/667 kB | 699/773 kBProgress (2): 618/667 kB | 699/773 kBProgress (2): 622/667 kB | 699/773 kBProgress (2): 626/667 kB | 699/773 kBProgress (2): 630/667 kB | 699/773 kBProgress (2): 634/667 kB | 699/773 kBProgress (2): 638/667 kB | 699/773 kBProgress (2): 643/667 kB | 699/773 kBProgress (2): 643/667 kB | 703/773 kBProgress (2): 647/667 kB | 703/773 kBProgress (2): 647/667 kB | 708/773 kBProgress (2): 647/667 kB | 712/773 kBProgress (2): 647/667 kB | 716/773 kBProgress (2): 651/667 kB | 716/773 kBProgress (2): 655/667 kB | 716/773 kBProgress (2): 658/667 kB | 716/773 kBProgress (2): 658/667 kB | 720/773 kBProgress (2): 658/667 kB | 724/773 kBProgress (2): 658/667 kB | 728/773 kBProgress (2): 658/667 kB | 732/773 kBProgress (2): 662/667 kB | 732/773 kBProgress (2): 666/667 kB | 732/773 kBProgress (2): 667 kB | 732/773 kB    Progress (2): 667 kB | 736/773 kBProgress (2): 667 kB | 740/773 kBProgress (2): 667 kB | 744/773 kBProgress (2): 667 kB | 749/773 kBProgress (2): 667 kB | 753/773 kBProgress (2): 667 kB | 757/773 kBProgress (2): 667 kB | 761/773 kBProgress (2): 667 kB | 765/773 kBProgress (2): 667 kB | 769/773 kBProgress (2): 667 kB | 773 kB                                 Downloaded from central: https://repo.maven.apache.org/maven2/com/alibaba/fastjson/1.2.83_noneautotype/fastjson-1.2.83_noneautotype.jar (667 kB at 1.1 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/com/alibaba/arthas/arthas-repackage-logger/0.0.12/arthas-repackage-logger-0.0.12.jar (773 kB at 1.2 MB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-core ---
+[INFO] 
+[INFO] --- flatten-maven-plugin:1.2.2:clean (flatten-clean) @ arthas-core ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 437 source files to /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/core/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[WARNING] /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/core/src/main/java/com/taobao/arthas/core/command/monitor200/ThreadSampler.java:[4,22] sun.management.HotspotThreadMBean is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/core/src/main/java/com/taobao/arthas/core/command/monitor200/ThreadSampler.java:[5,22] sun.management.ManagementFactoryHelper is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/core/src/main/java/com/taobao/arthas/core/command/monitor200/PerfCounterCommand.java:[24,30] sun.management.counter.Counter is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/core/src/main/java/com/taobao/arthas/core/command/monitor200/PerfCounterCommand.java:[25,35] sun.management.counter.perf.PerfInstrumentation is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/core/src/main/java/com/taobao/arthas/core/command/monitor200/ThreadSampler.java:[4,22] sun.management.HotspotThreadMBean is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/core/src/main/java/com/taobao/arthas/core/command/monitor200/ThreadSampler.java:[5,22] sun.management.ManagementFactoryHelper is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/core/src/main/java/com/taobao/arthas/core/command/monitor200/PerfCounterCommand.java:[24,30] sun.management.counter.Counter is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/core/src/main/java/com/taobao/arthas/core/command/monitor200/PerfCounterCommand.java:[25,35] sun.management.counter.perf.PerfInstrumentation is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/core/src/main/java/com/taobao/arthas/core/command/monitor200/ThreadSampler.java:[4,22] sun.management.HotspotThreadMBean is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/core/src/main/java/com/taobao/arthas/core/command/monitor200/ThreadSampler.java:[5,22] sun.management.ManagementFactoryHelper is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/core/src/main/java/com/taobao/arthas/core/command/monitor200/PerfCounterCommand.java:[24,30] sun.management.counter.Counter is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/core/src/main/java/com/taobao/arthas/core/command/monitor200/PerfCounterCommand.java:[25,35] sun.management.counter.perf.PerfInstrumentation is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/core/src/main/java/com/taobao/arthas/core/shell/term/impl/http/TtyWebSocketFrameHandler.java:[54,72] HANDSHAKE_COMPLETE in io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandler.ServerHandshakeStateEvent has been deprecated
+[WARNING] /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/core/src/main/java/com/taobao/arthas/core/util/UserStatUtil.java:[34,53] encode(java.lang.String) in java.net.URLEncoder has been deprecated
+[WARNING] /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/core/src/main/java/com/taobao/arthas/core/util/UserStatUtil.java:[63,50] encode(java.lang.String) in java.net.URLEncoder has been deprecated
+[WARNING] /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/core/src/main/java/com/taobao/arthas/core/util/UserStatUtil.java:[65,56] encode(java.lang.String) in java.net.URLEncoder has been deprecated
+[WARNING] /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/core/src/main/java/com/taobao/arthas/core/command/monitor200/ThreadSampler.java:[25,20] sun.management.HotspotThreadMBean is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/core/src/main/java/com/taobao/arthas/core/command/monitor200/ThreadSampler.java:[160,42] sun.management.ManagementFactoryHelper is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/core/src/main/java/com/taobao/arthas/core/command/monitor200/PerfCounterCommand.java:[53,14] sun.management.counter.Counter is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/core/src/main/java/com/taobao/arthas/core/command/monitor200/PerfCounterCommand.java:[63,14] sun.management.counter.Counter is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/core/src/main/java/com/taobao/arthas/core/command/monitor200/PerfCounterCommand.java:[75,25] sun.management.counter.Counter is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/core/src/main/java/com/taobao/arthas/core/command/monitor200/PerfCounterCommand.java:[105,13] sun.management.counter.perf.PerfInstrumentation is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/core/src/main/java/com/taobao/arthas/core/command/monitor200/PerfCounterCommand.java:[105,59] sun.management.counter.perf.PerfInstrumentation is internal proprietary API and may be removed in a future release
+[INFO] /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/core/src/main/java/com/taobao/arthas/core/advisor/Enhancer.java: Some input files use unchecked or unsafe operations.
+[INFO] /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/core/src/main/java/com/taobao/arthas/core/advisor/Enhancer.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] -------------------< com.taobao.arthas:arthas-agent >-------------------
+[INFO] Building arthas-agent 3.6.6                                      [10/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-agent ---
+[INFO] 
+[INFO] --- flatten-maven-plugin:1.2.2:clean (flatten-clean) @ arthas-agent ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-agent ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/agent/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] ------------------< com.taobao.arthas:arthas-client >-------------------
+[INFO] Building arthas-client 3.6.6                                     [11/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-client ---
+[INFO] 
+[INFO] --- flatten-maven-plugin:1.2.2:clean (flatten-clean) @ arthas-client ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-client ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 28 source files to /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/client/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] -------------------< com.taobao.arthas:arthas-boot >--------------------
+[INFO] Building arthas-boot 3.6.6                                       [12/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-boot ---
+[INFO] 
+[INFO] --- flatten-maven-plugin:1.2.2:clean (flatten-clean) @ arthas-boot ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-boot ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/boot/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] ---------------< com.taobao.arthas:arthas-agent-attach >----------------
+[INFO] Building arthas-agent-attach 3.6.6                               [13/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-agent-attach ---
+[INFO] 
+[INFO] --- flatten-maven-plugin:1.2.2:clean (flatten-clean) @ arthas-agent-attach ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-agent-attach ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/arthas-agent-attach/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] -------------------< com.taobao.arthas:arthas-site >--------------------
+[INFO] Building arthas-site 3.6.6                                       [14/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-site ---
+[INFO] 
+[INFO] --- flatten-maven-plugin:1.2.2:clean (flatten-clean) @ arthas-site ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-site ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] -----------------< com.taobao.arthas:arthas-packaging >-----------------
+[INFO] Building arthas-packaging 3.6.6                                  [15/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/com/taobao/arthas/arthas-site/3.6.6/arthas-site-3.6.6.jar
+Progress (1): 2.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/taobao/arthas/arthas-site/3.6.6/arthas-site-3.6.6.jar (2.7 kB at 10 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-packaging ---
+[INFO] 
+[INFO] --- flatten-maven-plugin:1.2.2:clean (flatten-clean) @ arthas-packaging ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-packaging ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] ------------< com.taobao.arthas:arthas-spring-boot-starter >------------
+[INFO] Building arthas-spring-boot-starter 3.6.6                        [16/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/com/taobao/arthas/arthas-packaging/3.6.6/arthas-packaging-3.6.6.jar
+Progress (1): 0.1/14 MBProgress (1): 0.1/14 MBProgress (1): 0.2/14 MBProgress (1): 0.3/14 MBProgress (1): 0.3/14 MBProgress (1): 0.4/14 MBProgress (1): 0.5/14 MBProgress (1): 0.5/14 MBProgress (1): 0.6/14 MBProgress (1): 0.7/14 MBProgress (1): 0.7/14 MBProgress (1): 0.8/14 MBProgress (1): 0.9/14 MBProgress (1): 0.9/14 MBProgress (1): 1.0/14 MBProgress (1): 1.0/14 MBProgress (1): 1.1/14 MBProgress (1): 1.2/14 MBProgress (1): 1.2/14 MBProgress (1): 1.3/14 MBProgress (1): 1.4/14 MBProgress (1): 1.4/14 MBProgress (1): 1.5/14 MBProgress (1): 1.6/14 MBProgress (1): 1.6/14 MBProgress (1): 1.7/14 MBProgress (1): 1.8/14 MBProgress (1): 1.8/14 MBProgress (1): 1.9/14 MBProgress (1): 2.0/14 MBProgress (1): 2.0/14 MBProgress (1): 2.1/14 MBProgress (1): 2.2/14 MBProgress (1): 2.2/14 MBProgress (1): 2.3/14 MBProgress (1): 2.4/14 MBProgress (1): 2.4/14 MBProgress (1): 2.5/14 MBProgress (1): 2.6/14 MBProgress (1): 2.6/14 MBProgress (1): 2.7/14 MBProgress (1): 2.8/14 MBProgress (1): 2.8/14 MBProgress (1): 2.9/14 MBProgress (1): 2.9/14 MBProgress (1): 3.0/14 MBProgress (1): 3.1/14 MBProgress (1): 3.1/14 MBProgress (1): 3.2/14 MBProgress (1): 3.3/14 MBProgress (1): 3.3/14 MBProgress (1): 3.4/14 MBProgress (1): 3.5/14 MBProgress (1): 3.5/14 MBProgress (1): 3.6/14 MBProgress (1): 3.7/14 MBProgress (1): 3.7/14 MBProgress (1): 3.8/14 MBProgress (1): 3.9/14 MBProgress (1): 3.9/14 MBProgress (1): 4.0/14 MBProgress (1): 4.1/14 MBProgress (1): 4.1/14 MBProgress (1): 4.2/14 MBProgress (1): 4.3/14 MBProgress (1): 4.3/14 MBProgress (1): 4.4/14 MBProgress (1): 4.5/14 MBProgress (1): 4.5/14 MBProgress (1): 4.6/14 MBProgress (1): 4.7/14 MBProgress (1): 4.7/14 MBProgress (1): 4.8/14 MBProgress (1): 4.8/14 MBProgress (1): 4.9/14 MBProgress (1): 5.0/14 MBProgress (1): 5.0/14 MBProgress (1): 5.1/14 MBProgress (1): 5.2/14 MBProgress (1): 5.2/14 MBProgress (1): 5.3/14 MBProgress (1): 5.4/14 MBProgress (1): 5.4/14 MBProgress (1): 5.5/14 MBProgress (1): 5.6/14 MBProgress (1): 5.6/14 MBProgress (1): 5.7/14 MBProgress (1): 5.8/14 MBProgress (1): 5.8/14 MBProgress (1): 5.9/14 MBProgress (1): 6.0/14 MBProgress (1): 6.0/14 MBProgress (1): 6.1/14 MBProgress (1): 6.2/14 MBProgress (1): 6.2/14 MBProgress (1): 6.3/14 MBProgress (1): 6.4/14 MBProgress (1): 6.4/14 MBProgress (1): 6.5/14 MBProgress (1): 6.6/14 MBProgress (1): 6.6/14 MBProgress (1): 6.7/14 MBProgress (1): 6.8/14 MBProgress (1): 6.8/14 MBProgress (1): 6.9/14 MBProgress (1): 6.9/14 MBProgress (1): 7.0/14 MBProgress (1): 7.1/14 MBProgress (1): 7.1/14 MBProgress (1): 7.2/14 MBProgress (1): 7.3/14 MBProgress (1): 7.3/14 MBProgress (1): 7.4/14 MBProgress (1): 7.5/14 MBProgress (1): 7.5/14 MBProgress (1): 7.6/14 MBProgress (1): 7.7/14 MBProgress (1): 7.7/14 MBProgress (1): 7.8/14 MBProgress (1): 7.9/14 MBProgress (1): 7.9/14 MBProgress (1): 8.0/14 MBProgress (1): 8.1/14 MBProgress (1): 8.1/14 MBProgress (1): 8.2/14 MBProgress (1): 8.3/14 MBProgress (1): 8.3/14 MBProgress (1): 8.4/14 MBProgress (1): 8.5/14 MBProgress (1): 8.5/14 MBProgress (1): 8.6/14 MBProgress (1): 8.7/14 MBProgress (1): 8.7/14 MBProgress (1): 8.8/14 MBProgress (1): 8.8/14 MBProgress (1): 8.9/14 MBProgress (1): 9.0/14 MBProgress (1): 9.0/14 MBProgress (1): 9.1/14 MBProgress (1): 9.2/14 MBProgress (1): 9.2/14 MBProgress (1): 9.3/14 MBProgress (1): 9.4/14 MBProgress (1): 9.4/14 MBProgress (1): 9.5/14 MBProgress (1): 9.6/14 MBProgress (1): 9.6/14 MBProgress (1): 9.7/14 MBProgress (1): 9.8/14 MBProgress (1): 9.8/14 MBProgress (1): 9.9/14 MBProgress (1): 10.0/14 MBProgress (1): 10/14 MB  Progress (1): 10/14 MBProgress (1): 10/14 MBProgress (1): 10/14 MBProgress (1): 10/14 MBProgress (1): 10/14 MBProgress (1): 10/14 MBProgress (1): 10/14 MBProgress (1): 11/14 MBProgress (1): 11/14 MBProgress (1): 11/14 MBProgress (1): 11/14 MBProgress (1): 11/14 MBProgress (1): 11/14 MBProgress (1): 11/14 MBProgress (1): 11/14 MBProgress (1): 11/14 MBProgress (1): 11/14 MBProgress (1): 11/14 MBProgress (1): 11/14 MBProgress (1): 11/14 MBProgress (1): 11/14 MBProgress (1): 11/14 MBProgress (1): 12/14 MBProgress (1): 12/14 MBProgress (1): 12/14 MBProgress (1): 12/14 MBProgress (1): 12/14 MBProgress (1): 12/14 MBProgress (1): 12/14 MBProgress (1): 12/14 MBProgress (1): 12/14 MBProgress (1): 12/14 MBProgress (1): 12/14 MBProgress (1): 12/14 MBProgress (1): 12/14 MBProgress (1): 12/14 MBProgress (1): 12/14 MBProgress (1): 13/14 MBProgress (1): 13/14 MBProgress (1): 13/14 MBProgress (1): 13/14 MBProgress (1): 13/14 MBProgress (1): 13/14 MBProgress (1): 13/14 MBProgress (1): 13/14 MBProgress (1): 13/14 MBProgress (1): 13/14 MBProgress (1): 13/14 MBProgress (1): 13/14 MBProgress (1): 13/14 MBProgress (1): 13/14 MBProgress (1): 13/14 MBProgress (1): 14/14 MBProgress (1): 14 MB                      Downloaded from central: https://repo.maven.apache.org/maven2/com/taobao/arthas/arthas-packaging/3.6.6/arthas-packaging-3.6.6.jar (14 MB at 5.5 MB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-spring-boot-starter ---
+[INFO] 
+[INFO] --- flatten-maven-plugin:1.2.2:clean (flatten-clean) @ arthas-spring-boot-starter ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-spring-boot-starter ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/arthas-spring-boot-starter/target/classes
+[INFO] 
+[INFO] -----------------< com.taobao.arthas:arthas-testcase >------------------
+[INFO] Building arthas-testcase 3.6.6                                   [17/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-testcase ---
+[INFO] 
+[INFO] --- flatten-maven-plugin:1.2.2:clean (flatten-clean) @ arthas-testcase ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-testcase ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/testcase/target/classes
+[INFO] /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/testcase/src/main/java/com/alibaba/arthas/Test.java: /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/testcase/src/main/java/com/alibaba/arthas/Test.java uses unchecked or unsafe operations.
+[INFO] /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/testcase/src/main/java/com/alibaba/arthas/Test.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] ---------------< com.taobao.arthas:arthas-tunnel-server >---------------
+[INFO] Building arthas-tunnel-server 3.6.6                              [18/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-tunnel-server ---
+[INFO] 
+[INFO] --- flatten-maven-plugin:1.2.2:clean (flatten-clean) @ arthas-tunnel-server ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-tunnel-server ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 25 source files to /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/tunnel-server/target/classes
+[WARNING] /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/tunnel-server/src/main/java/com/alibaba/arthas/tunnel/server/app/WebSecurityConfig.java:[7,72] org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter in org.springframework.security.config.annotation.web.configuration has been deprecated
+[WARNING] /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/tunnel-server/src/main/java/com/alibaba/arthas/tunnel/server/app/WebSecurityConfig.java:[7,72] org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter in org.springframework.security.config.annotation.web.configuration has been deprecated
+[WARNING] /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/tunnel-server/src/main/java/com/alibaba/arthas/tunnel/server/app/WebSecurityConfig.java:[7,72] org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter in org.springframework.security.config.annotation.web.configuration has been deprecated
+[WARNING] /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/tunnel-server/src/main/java/com/alibaba/arthas/tunnel/server/app/WebSecurityConfig.java:[17,40] org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter in org.springframework.security.config.annotation.web.configuration has been deprecated
+[INFO] /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/tunnel-server/src/main/java/com/alibaba/arthas/tunnel/server/cluster/InMemoryClusterStore.java: /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/tunnel-server/src/main/java/com/alibaba/arthas/tunnel/server/cluster/InMemoryClusterStore.java uses unchecked or unsafe operations.
+[INFO] /results/alibaba-arthas/RELEASES/3b38957dea3b9831da6743a6bf429570d7ba2677/tunnel-server/src/main/java/com/alibaba/arthas/tunnel/server/cluster/InMemoryClusterStore.java: Recompile with -Xlint:unchecked for details.
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for arthas-all 3.6.6:
+[INFO] 
+[INFO] arthas-all ......................................... SUCCESS [  0.258 s]
+[INFO] math-game .......................................... SUCCESS [  0.320 s]
+[INFO] arthas-common ...................................... SUCCESS [  0.374 s]
+[INFO] arthas-spy ......................................... SUCCESS [  0.023 s]
+[INFO] arthas-vmtool ...................................... SUCCESS [  0.147 s]
+[INFO] arthas-tunnel-common ............................... SUCCESS [  0.024 s]
+[INFO] arthas-tunnel-client ............................... SUCCESS [  0.169 s]
+[INFO] arthas-memorycompiler .............................. SUCCESS [  0.077 s]
+[INFO] arthas-core ........................................ SUCCESS [  4.392 s]
+[INFO] arthas-agent ....................................... SUCCESS [  0.026 s]
+[INFO] arthas-client ...................................... SUCCESS [  0.076 s]
+[INFO] arthas-boot ........................................ SUCCESS [  0.068 s]
+[INFO] arthas-agent-attach ................................ SUCCESS [  0.024 s]
+[INFO] arthas-site ........................................ SUCCESS [  0.016 s]
+[INFO] arthas-packaging ................................... SUCCESS [  0.277 s]
+[INFO] arthas-spring-boot-starter ......................... SUCCESS [  2.649 s]
+[INFO] arthas-testcase .................................... SUCCESS [  0.018 s]
+[INFO] arthas-tunnel-server ............................... SUCCESS [  0.380 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  9.941 s
+[INFO] Finished at: 2022-09-10T03:44:01Z
+[INFO] ------------------------------------------------------------------------

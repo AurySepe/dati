@@ -1,0 +1,25 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 48337  100 48337    0     0   271k      0 --:--:-- --:--:-- --:--:--  271k
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< org.mybatis:mybatis >-------------------------
+[INFO] Building mybatis 3.5.1
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.4.1/junit-jupiter-engine-5.4.1.pom
+Progress (1): 1.4/2.4 kBProgress (1): 2.4 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.4.1/junit-jupiter-engine-5.4.1.pom (2.4 kB at 6.6 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.4.1/junit-platform-engine-1.4.1.pom
+Progress (1): 1.4/2.4 kBProgress (1): 2.4 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.4.1/junit-platform-engine-1.4.1.pom (2.4 kB at 41 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ mybatis ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ mybatis ---
+[INFO] Compiling 382 source files to /results/mybatis-mybatis-3/RELEASES/0f8dc7f07b38a9912d2e6829c2e33efadd761546/target/classes
+[INFO] /results/mybatis-mybatis-3/RELEASES/0f8dc7f07b38a9912d2e6829c2e33efadd761546/src/main/java/org/apache/ibatis/reflection/MetaObject.java: Some input files use unchecked or unsafe operations.
+[INFO] /results/mybatis-mybatis-3/RELEASES/0f8dc7f07b38a9912d2e6829c2e33efadd761546/src/main/java/org/apache/ibatis/reflection/MetaObject.java: Recompile with -Xlint:unchecked for details.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.623 s
+[INFO] Finished at: 2022-09-10T01:14:54Z
+[INFO] ------------------------------------------------------------------------

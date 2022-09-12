@@ -1,0 +1,27 @@
+com/netflix/discovery/shared/transport/jersey2/AbstractJersey2EurekaHttpClient.java
+ com.netflix.discovery.shared.transport.jersey2.AbstractJersey2EurekaHttpClient
+com/netflix/discovery/shared/transport/jersey2/EurekaJersey2ClientImpl.java
+ com.netflix.discovery.shared.transport.jersey2.EurekaJersey2ClientImpl
+ com.netflix.discovery.shared.transport.jersey2.EurekaJersey2ClientImpl$1
+ com.netflix.discovery.shared.transport.jersey2.EurekaJersey2ClientImpl$ConnectionCleanerTask
+ com.netflix.discovery.shared.transport.jersey2.EurekaJersey2ClientImpl$EurekaJersey2ClientBuilder
+ com.netflix.discovery.shared.transport.jersey2.EurekaJersey2ClientImpl$EurekaJersey2ClientBuilder$MyDefaultApacheHttpClient4Config
+com/netflix/discovery/shared/transport/jersey2/Jersey2ApplicationClientFactory.java
+ com.netflix.discovery.shared.transport.jersey2.Jersey2ApplicationClientFactory
+ com.netflix.discovery.shared.transport.jersey2.Jersey2ApplicationClientFactory$Jersey2ApplicationClientFactoryBuilder
+ com.netflix.discovery.shared.transport.jersey2.Jersey2ApplicationClientFactory$Jersey2ApplicationClientFactoryBuilder$1
+com/netflix/discovery/shared/transport/jersey2/EurekaIdentityHeaderFilter.java
+ com.netflix.discovery.shared.transport.jersey2.EurekaIdentityHeaderFilter
+com/netflix/discovery/Jersey2DiscoveryClientOptionalArgs.java
+ com.netflix.discovery.Jersey2DiscoveryClientOptionalArgs
+com/netflix/discovery/shared/transport/jersey2/Jersey2ApplicationClient.java
+ com.netflix.discovery.shared.transport.jersey2.Jersey2ApplicationClient
+com/netflix/discovery/shared/transport/jersey2/Jersey2EurekaIdentityHeaderFilter.java
+ com.netflix.discovery.shared.transport.jersey2.Jersey2EurekaIdentityHeaderFilter
+com/netflix/discovery/shared/transport/jersey2/EurekaJersey2Client.java
+ com.netflix.discovery.shared.transport.jersey2.EurekaJersey2Client
+com/netflix/discovery/shared/transport/jersey2/Jersey2TransportClientFactories.java
+ com.netflix.discovery.shared.transport.jersey2.Jersey2TransportClientFactories
+ com.netflix.discovery.shared.transport.jersey2.Jersey2TransportClientFactories$1
+com/netflix/discovery/guice/Jersey2EurekaModule.java
+ com.netflix.discovery.guice.Jersey2EurekaModule

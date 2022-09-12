@@ -1,0 +1,195 @@
+Download https://jcenter.bintray.com/com/netflix/nebula/gradle-netflixoss-project-plugin/3.2.3/gradle-netflixoss-project-plugin-3.2.3.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/gradle-dependency-lock-plugin/4.2.0/gradle-dependency-lock-plugin-4.2.0.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/gradle-info-plugin/3.0.3/gradle-info-plugin-3.0.3.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-bintray-plugin/3.3.4/nebula-bintray-plugin-3.3.4.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-core/3.0.1/nebula-core-3.0.1.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-project-plugin/3.0.3/nebula-project-plugin-3.0.3.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-publishing-plugin/4.4.4/nebula-publishing-plugin-4.4.4.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-release-plugin/4.0.1/nebula-release-plugin-4.0.1.pom
+Download https://jcenter.bintray.com/com/jfrog/bintray/gradle/gradle-bintray-plugin/1.5/gradle-bintray-plugin-1.5.pom
+Download https://jcenter.bintray.com/org/jfrog/buildinfo/build-info-extractor-gradle/4.0.0/build-info-extractor-gradle-4.0.0.pom
+Download https://jcenter.bintray.com/org/ajoberstar/gradle-git/1.4.1/gradle-git-1.4.1.pom
+Download https://jcenter.bintray.com/org/jfrog/buildinfo/build-info-extractor/2.5.4/build-info-extractor-2.5.4.pom
+Download https://jcenter.bintray.com/org/jfrog/buildinfo/build-info-client/2.5.4/build-info-client-2.5.4.pom
+Download https://jcenter.bintray.com/org/jfrog/buildinfo/build-info-api/2.5.4/build-info-api-2.5.4.pom
+Download https://jcenter.bintray.com/org/eclipse/jgit/org.eclipse.jgit/4.1.1.201511131810-r/org.eclipse.jgit-4.1.1.201511131810-r.pom
+Download https://jcenter.bintray.com/org/eclipse/jdt/org.eclipse.jdt.annotation/1.1.0/org.eclipse.jdt.annotation-1.1.0.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/gradle-netflixoss-project-plugin/3.2.3/gradle-netflixoss-project-plugin-3.2.3.jar
+Download https://jcenter.bintray.com/com/netflix/nebula/gradle-dependency-lock-plugin/4.2.0/gradle-dependency-lock-plugin-4.2.0.jar
+Download https://jcenter.bintray.com/com/netflix/nebula/gradle-info-plugin/3.0.3/gradle-info-plugin-3.0.3.jar
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-bintray-plugin/3.3.4/nebula-bintray-plugin-3.3.4.jar
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-core/3.0.1/nebula-core-3.0.1.jar
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-project-plugin/3.0.3/nebula-project-plugin-3.0.3.jar
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-publishing-plugin/4.4.4/nebula-publishing-plugin-4.4.4.jar
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-release-plugin/4.0.1/nebula-release-plugin-4.0.1.jar
+Download https://jcenter.bintray.com/com/jfrog/bintray/gradle/gradle-bintray-plugin/1.5/gradle-bintray-plugin-1.5.jar
+Download https://jcenter.bintray.com/org/jfrog/buildinfo/build-info-extractor-gradle/4.0.0/build-info-extractor-gradle-4.0.0.jar
+Download https://jcenter.bintray.com/org/ajoberstar/gradle-git/1.4.1/gradle-git-1.4.1.jar
+Download https://jcenter.bintray.com/org/jfrog/buildinfo/build-info-extractor/2.5.4/build-info-extractor-2.5.4.jar
+Download https://jcenter.bintray.com/org/jfrog/buildinfo/build-info-client/2.5.4/build-info-client-2.5.4.jar
+Download https://jcenter.bintray.com/org/jfrog/buildinfo/build-info-api/2.5.4/build-info-api-2.5.4.jar
+Download https://jcenter.bintray.com/org/eclipse/jgit/org.eclipse.jgit/4.1.1.201511131810-r/org.eclipse.jgit-4.1.1.201511131810-r.jar
+Download https://jcenter.bintray.com/org/eclipse/jdt/org.eclipse.jdt.annotation/1.1.0/org.eclipse.jdt.annotation-1.1.0.jar
+Inferred project: eureka, version: 1.4.12-SNAPSHOT
+The testJar task is deprecated.  Please place common test harness code in its own project and publish separately.
+The testJar task is deprecated.  Please place common test harness code in its own project and publish separately.
+The testJar task is deprecated.  Please place common test harness code in its own project and publish separately.
+Publication nebula not found in project :.
+[buildinfo] Not using buildInfo properties file for this build.
+Publication named 'nebula' does not exist for project ':' in task ':artifactoryPublish'.
+:eureka-client:clean
+:eureka-client-archaius2:clean
+:eureka-client-jersey2:clean
+:eureka-core:clean
+:eureka-examples:clean
+:eureka-resources:clean
+:eureka-server:clean
+:eureka-server-governator:clean
+:eureka-test-utils:clean
+:eureka-client:compileJava
+Download https://jcenter.bintray.com/com/netflix/archaius/archaius-core/0.7.3/archaius-core-0.7.3.pom
+Download https://jcenter.bintray.com/com/netflix/servo/servo-core/0.10.1/servo-core-0.10.1.pom
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpclient/4.3.4/httpclient-4.3.4.pom
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpcomponents-client/4.3.4/httpcomponents-client-4.3.4.pom
+Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.5.4/jackson-annotations-2.5.4.pom
+Download https://jcenter.bintray.com/com/fasterxml/jackson/jackson-parent/2.5.1/jackson-parent-2.5.1.pom
+Download https://jcenter.bintray.com/com/fasterxml/oss-parent/19/oss-parent-19.pom
+Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.5.4/jackson-core-2.5.4.pom
+Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.5.4/jackson-databind-2.5.4.pom
+Download https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.5.4/jackson-dataformat-xml-2.5.4.pom
+Download https://jcenter.bintray.com/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.5.4/jackson-module-jaxb-annotations-2.5.4.pom
+Download https://jcenter.bintray.com/com/netflix/servo/servo-internal/0.10.1/servo-internal-0.10.1.pom
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.pom
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpcomponents-core/4.3.2/httpcomponents-core-4.3.2.pom
+Download https://jcenter.bintray.com/com/netflix/archaius/archaius-core/0.7.3/archaius-core-0.7.3.jar
+Download https://jcenter.bintray.com/com/netflix/servo/servo-core/0.10.1/servo-core-0.10.1.jar
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpclient/4.3.4/httpclient-4.3.4.jar
+Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.5.4/jackson-annotations-2.5.4.jar
+Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.5.4/jackson-core-2.5.4.jar
+Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.5.4/jackson-databind-2.5.4.jar
+Download https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.5.4/jackson-dataformat-xml-2.5.4.jar
+Download https://jcenter.bintray.com/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.5.4/jackson-module-jaxb-annotations-2.5.4.jar
+Download https://jcenter.bintray.com/com/netflix/servo/servo-internal/0.10.1/servo-internal-0.10.1.jar
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar
+warning: [options] bootstrap class path not set in conjunction with -source 1.7
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning
+:eureka-client:processResources UP-TO-DATE
+:eureka-client:classes
+:eureka-client:writeManifestProperties
+:eureka-client:jar
+:eureka-client-archaius2:compileJava
+Download https://jcenter.bintray.com/com/netflix/archaius/archaius2-core/2.1.5/archaius2-core-2.1.5.pom
+Download https://jcenter.bintray.com/com/netflix/archaius/archaius2-guice/2.1.5/archaius2-guice-2.1.5.pom
+Download https://jcenter.bintray.com/com/netflix/archaius/archaius2-api/2.1.5/archaius2-api-2.1.5.pom
+Download https://jcenter.bintray.com/com/google/inject/extensions/guice-multibindings/4.0/guice-multibindings-4.0.pom
+Download https://jcenter.bintray.com/com/google/inject/extensions/extensions-parent/4.0/extensions-parent-4.0.pom
+Download https://jcenter.bintray.com/com/google/inject/guice-parent/4.0/guice-parent-4.0.pom
+Download https://jcenter.bintray.com/com/netflix/archaius/archaius2-core/2.1.5/archaius2-core-2.1.5.jar
+Download https://jcenter.bintray.com/com/netflix/archaius/archaius2-guice/2.1.5/archaius2-guice-2.1.5.jar
+Download https://jcenter.bintray.com/com/netflix/archaius/archaius2-api/2.1.5/archaius2-api-2.1.5.jar
+Download https://jcenter.bintray.com/com/google/inject/extensions/guice-multibindings/4.0/guice-multibindings-4.0.jar
+warning: [options] bootstrap class path not set in conjunction with -source 1.7
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+1 warning
+:eureka-client-jersey2:compileJava
+Download https://jcenter.bintray.com/org/glassfish/jersey/core/jersey-client/2.8/jersey-client-2.8.pom
+Download https://jcenter.bintray.com/org/glassfish/jersey/project/2.8/project-2.8.pom
+Download https://jcenter.bintray.com/org/glassfish/hk2/hk2-bom/2.2.0/hk2-bom-2.2.0.pom
+Download https://jcenter.bintray.com/org/glassfish/jersey/core/jersey-common/2.8/jersey-common-2.8.pom
+Download https://jcenter.bintray.com/javax/ws/rs/javax.ws.rs-api/2.0/javax.ws.rs-api-2.0.pom
+Download https://jcenter.bintray.com/org/glassfish/hk2/hk2-api/2.2.0/hk2-api-2.2.0.pom
+Download https://jcenter.bintray.com/org/glassfish/hk2/hk2-public/2.2.0/hk2-public-2.2.0.pom
+Download https://jcenter.bintray.com/org/glassfish/hk2/hk2-parent/2.2.0/hk2-parent-2.2.0.pom
+Download https://jcenter.bintray.com/org/glassfish/hk2/external/javax.inject/2.2.0/javax.inject-2.2.0.pom
+Download https://jcenter.bintray.com/org/glassfish/hk2/external/2.2.0/external-2.2.0.pom
+Download https://jcenter.bintray.com/org/glassfish/hk2/hk2-locator/2.2.0/hk2-locator-2.2.0.pom
+Download https://jcenter.bintray.com/org/glassfish/hk2/hk2-kernel-parent/2.2.0/hk2-kernel-parent-2.2.0.pom
+Download https://jcenter.bintray.com/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.8/jersey-guava-2.8.pom
+Download https://jcenter.bintray.com/org/glassfish/jersey/bundles/repackaged/project/2.8/project-2.8.pom
+Download https://jcenter.bintray.com/org/glassfish/jersey/bundles/project/2.8/project-2.8.pom
+Download https://jcenter.bintray.com/org/glassfish/hk2/hk2-utils/2.2.0/hk2-utils-2.2.0.pom
+Download https://jcenter.bintray.com/org/glassfish/hk2/external/aopalliance-repackaged/2.2.0/aopalliance-repackaged-2.2.0.pom
+Download https://jcenter.bintray.com/org/glassfish/jersey/core/jersey-client/2.8/jersey-client-2.8.jar
+Download https://jcenter.bintray.com/org/glassfish/jersey/core/jersey-common/2.8/jersey-common-2.8.jar
+Download https://jcenter.bintray.com/javax/ws/rs/javax.ws.rs-api/2.0/javax.ws.rs-api-2.0.jar
+Download https://jcenter.bintray.com/org/glassfish/hk2/hk2-api/2.2.0/hk2-api-2.2.0.jar
+Download https://jcenter.bintray.com/org/glassfish/hk2/external/javax.inject/2.2.0/javax.inject-2.2.0.jar
+Download https://jcenter.bintray.com/org/glassfish/hk2/hk2-locator/2.2.0/hk2-locator-2.2.0.jar
+Download https://jcenter.bintray.com/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.8/jersey-guava-2.8.jar
+Download https://jcenter.bintray.com/org/glassfish/hk2/hk2-utils/2.2.0/hk2-utils-2.2.0.jar
+Download https://jcenter.bintray.com/org/glassfish/hk2/external/aopalliance-repackaged/2.2.0/aopalliance-repackaged-2.2.0.jar
+warning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+:eureka-core:compileJava
+Download https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-core/1.11.9/aws-java-sdk-core-1.11.9.pom
+Download https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-pom/1.11.9/aws-java-sdk-pom-1.11.9.pom
+Download https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-ec2/1.11.9/aws-java-sdk-ec2-1.11.9.pom
+Download https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-autoscaling/1.11.9/aws-java-sdk-autoscaling-1.11.9.pom
+Download https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-sts/1.11.9/aws-java-sdk-sts-1.11.9.pom
+Download https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-route53/1.11.9/aws-java-sdk-route53-1.11.9.pom
+Download https://jcenter.bintray.com/com/netflix/governator/governator/1.12.10/governator-1.12.10.pom
+Download https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.6.6/jackson-dataformat-cbor-2.6.6.pom
+Download https://jcenter.bintray.com/com/netflix/governator/governator-api/1.12.10/governator-api-1.12.10.pom
+Download https://jcenter.bintray.com/com/netflix/governator/governator-core/1.12.10/governator-core-1.12.10.pom
+Download https://jcenter.bintray.com/com/google/inject/extensions/guice-grapher/4.0/guice-grapher-4.0.pom
+Download https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom
+Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.6.6/jackson-databind-2.6.6.pom
+Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.6.0/jackson-annotations-2.6.0.pom
+Download https://jcenter.bintray.com/com/fasterxml/jackson/jackson-parent/2.6.1/jackson-parent-2.6.1.pom
+Download https://jcenter.bintray.com/com/fasterxml/oss-parent/23/oss-parent-23.pom
+Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.6.6/jackson-core-2.6.6.pom
+Download https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-core/1.11.9/aws-java-sdk-core-1.11.9.jar
+Download https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-ec2/1.11.9/aws-java-sdk-ec2-1.11.9.jar
+Download https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-autoscaling/1.11.9/aws-java-sdk-autoscaling-1.11.9.jar
+Download https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-sts/1.11.9/aws-java-sdk-sts-1.11.9.jar
+Download https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-route53/1.11.9/aws-java-sdk-route53-1.11.9.jar
+Download https://jcenter.bintray.com/com/netflix/governator/governator/1.12.10/governator-1.12.10.jar
+Download https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.6.6/jackson-dataformat-cbor-2.6.6.jar
+Download https://jcenter.bintray.com/com/netflix/governator/governator-api/1.12.10/governator-api-1.12.10.jar
+Download https://jcenter.bintray.com/com/netflix/governator/governator-core/1.12.10/governator-core-1.12.10.jar
+Download https://jcenter.bintray.com/com/google/inject/extensions/guice-grapher/4.0/guice-grapher-4.0.jar
+Download https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.jar
+Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.6.6/jackson-databind-2.6.6.jar
+Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.6.0/jackson-annotations-2.6.0.jar
+Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.6.6/jackson-core-2.6.6.jar
+warning: [options] bootstrap class path not set in conjunction with -source 1.7
+/results/Netflix-eureka/RELEASES/44671986b5b09dd2cd59a7517fb9692de1675f17/eureka-core/src/main/java/com/netflix/eureka/DefaultEurekaServerConfig.java:501: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+                        new String[]{propName, remoteRegionUrlWithNamePair, pairSplitChar});
+                        ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2 warnings
+:eureka-examples:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+
+:eureka-resources:compileJava UP-TO-DATE
+:eureka-core:processResources UP-TO-DATE
+:eureka-core:classes
+:eureka-core:writeManifestProperties
+:eureka-core:jar
+:eureka-server:compileJava UP-TO-DATE
+:eureka-server-governator:compileJava
+Download https://jcenter.bintray.com/com/netflix/governator/governator-servlet/1.12.10/governator-servlet-1.12.10.pom
+Download https://jcenter.bintray.com/com/google/inject/extensions/guice-servlet/4.0/guice-servlet-4.0.pom
+Download https://jcenter.bintray.com/com/netflix/governator/governator-servlet/1.12.10/governator-servlet-1.12.10.jar
+Download https://jcenter.bintray.com/com/google/inject/extensions/guice-servlet/4.0/guice-servlet-4.0.jar
+warning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+:eureka-test-utils:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+1 warning
+
+
+BUILD SUCCESSFUL
+
+Total time: 58.983 secs

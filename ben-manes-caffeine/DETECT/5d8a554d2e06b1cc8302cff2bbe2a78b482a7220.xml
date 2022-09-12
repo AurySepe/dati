@@ -1,0 +1,1002 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<pattern name="Factory Method">
+		<instance>
+			<role name="Creator" element="com.github.benmanes.caffeine.cache.AsyncLoadingCache" />
+			<role name="FactoryMethod()" element="com.github.benmanes.caffeine.cache.AsyncLoadingCache::synchronous():com.github.benmanes.caffeine.cache.LoadingCache" />
+		</instance>
+		<instance>
+			<role name="Creator" element="com.github.benmanes.caffeine.cache.LocalAsyncCache" />
+			<role name="FactoryMethod()" element="com.github.benmanes.caffeine.cache.LocalAsyncCache::policy():com.github.benmanes.caffeine.cache.Policy" />
+		</instance>
+		<instance>
+			<role name="Creator" element="com.github.benmanes.caffeine.cache.StripedBuffer" />
+			<role name="FactoryMethod()" element="com.github.benmanes.caffeine.cache.StripedBuffer::create(E):com.github.benmanes.caffeine.cache.Buffer" />
+		</instance>
+		<instance>
+			<role name="Creator" element="com.github.benmanes.caffeine.cache.NodeFactory" />
+			<role name="FactoryMethod()" element="com.github.benmanes.caffeine.cache.NodeFactory::newNode(K, java.lang.ref.ReferenceQueue, V, java.lang.ref.ReferenceQueue, int, long):com.github.benmanes.caffeine.cache.Node" />
+			<role name="FactoryMethod()" element="com.github.benmanes.caffeine.cache.NodeFactory::newNode(java.lang.Object, V, java.lang.ref.ReferenceQueue, int, long):com.github.benmanes.caffeine.cache.Node" />
+		</instance>
+		<instance>
+			<role name="Creator" element="com.github.benmanes.caffeine.cache.LinkedDeque" />
+			<role name="FactoryMethod()" element="com.github.benmanes.caffeine.cache.LinkedDeque::iterator():com.github.benmanes.caffeine.cache.LinkedDeque$PeekingIterator" />
+			<role name="FactoryMethod()" element="com.github.benmanes.caffeine.cache.LinkedDeque::descendingIterator():com.github.benmanes.caffeine.cache.LinkedDeque$PeekingIterator" />
+		</instance>
+	</pattern>
+	<pattern name="Prototype" />
+	<pattern name="Singleton">
+		<instance>
+			<role name="Singleton" element="com.github.benmanes.caffeine.jcache.CacheProxy$NullCompletionListener" />
+			<role name="uniqueInstance" element="com.github.benmanes.caffeine.jcache.CacheProxy$NullCompletionListener::INSTANCE:com.github.benmanes.caffeine.jcache.CacheProxy$NullCompletionListener" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.github.benmanes.caffeine.jcache.integration.DisabledCacheWriter" />
+			<role name="uniqueInstance" element="com.github.benmanes.caffeine.jcache.integration.DisabledCacheWriter::INSTANCE:com.github.benmanes.caffeine.jcache.integration.DisabledCacheWriter" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.github.benmanes.caffeine.jcache.copy.IdentityCopier" />
+			<role name="uniqueInstance" element="com.github.benmanes.caffeine.jcache.copy.IdentityCopier::INSTANCE:com.github.benmanes.caffeine.jcache.copy.IdentityCopier" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.github.benmanes.caffeine.cache.simulator.membership.DisabledMembership" />
+			<role name="uniqueInstance" element="com.github.benmanes.caffeine.cache.simulator.membership.DisabledMembership::INSTANCE:com.github.benmanes.caffeine.cache.simulator.membership.DisabledMembership" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.github.benmanes.caffeine.cache.simulator.policy.Policy$Characteristic" />
+			<role name="uniqueInstance" element="com.github.benmanes.caffeine.cache.simulator.policy.Policy$Characteristic::WEIGHTED:com.github.benmanes.caffeine.cache.simulator.policy.Policy$Characteristic" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.HillClimber$Adaptation" />
+			<role name="uniqueInstance" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.HillClimber$Adaptation::HOLD:com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.HillClimber$Adaptation" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.github.benmanes.caffeine.cache.simulator.admission.AlwaysAdmit" />
+			<role name="uniqueInstance" element="com.github.benmanes.caffeine.cache.simulator.admission.AlwaysAdmit::INSTANCE:com.github.benmanes.caffeine.cache.simulator.admission.AlwaysAdmit" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.github.benmanes.caffeine.cache.DisabledScheduler" />
+			<role name="uniqueInstance" element="com.github.benmanes.caffeine.cache.DisabledScheduler::INSTANCE:com.github.benmanes.caffeine.cache.DisabledScheduler" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.github.benmanes.caffeine.cache.stats.DisabledStatsCounter" />
+			<role name="uniqueInstance" element="com.github.benmanes.caffeine.cache.stats.DisabledStatsCounter::INSTANCE:com.github.benmanes.caffeine.cache.stats.DisabledStatsCounter" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.github.benmanes.caffeine.cache.stats.CacheStats" />
+			<role name="uniqueInstance" element="com.github.benmanes.caffeine.cache.stats.CacheStats::EMPTY_STATS:com.github.benmanes.caffeine.cache.stats.CacheStats" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.github.benmanes.caffeine.cache.DisabledFuture" />
+			<role name="uniqueInstance" element="com.github.benmanes.caffeine.cache.DisabledFuture::INSTANCE:com.github.benmanes.caffeine.cache.DisabledFuture" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.github.benmanes.caffeine.cache.SingletonWeigher" />
+			<role name="uniqueInstance" element="com.github.benmanes.caffeine.cache.SingletonWeigher::INSTANCE:com.github.benmanes.caffeine.cache.SingletonWeigher" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.github.benmanes.caffeine.cache.DisabledBuffer" />
+			<role name="uniqueInstance" element="com.github.benmanes.caffeine.cache.DisabledBuffer::INSTANCE:com.github.benmanes.caffeine.cache.DisabledBuffer" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.github.benmanes.caffeine.cache.SystemScheduler" />
+			<role name="uniqueInstance" element="com.github.benmanes.caffeine.cache.SystemScheduler::INSTANCE:com.github.benmanes.caffeine.cache.SystemScheduler" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.github.benmanes.caffeine.cache.DisabledTicker" />
+			<role name="uniqueInstance" element="com.github.benmanes.caffeine.cache.DisabledTicker::INSTANCE:com.github.benmanes.caffeine.cache.DisabledTicker" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.github.benmanes.caffeine.cache.SystemTicker" />
+			<role name="uniqueInstance" element="com.github.benmanes.caffeine.cache.SystemTicker::INSTANCE:com.github.benmanes.caffeine.cache.SystemTicker" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.github.benmanes.caffeine.cache.DisabledWriter" />
+			<role name="uniqueInstance" element="com.github.benmanes.caffeine.cache.DisabledWriter::INSTANCE:com.github.benmanes.caffeine.cache.DisabledWriter" />
+		</instance>
+	</pattern>
+	<pattern name="(Object)Adapter">
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.tinycache.WindowTinyCachePolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.tinycache.WindowTinyCachePolicy::policyStats:com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.tinycache.WindowTinyCachePolicy::record(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.tinycache.TinyCachePolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.tinycache.TinyCachePolicy::policyStats:com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.tinycache.TinyCachePolicy::record(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.tinycache.TinyCacheWithGhostCachePolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.tinycache.TinyCacheWithGhostCachePolicy::policyStats:com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.tinycache.TinyCacheWithGhostCachePolicy::record(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.LruWindowTinyLfuPolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.LruWindowTinyLfuPolicy::policyStats:com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.LruWindowTinyLfuPolicy::record(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.two_queue.TwoQueuePolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.two_queue.TwoQueuePolicy::policyStats:com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.two_queue.TwoQueuePolicy::record(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.irr.IndicatorFrdPolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.irr.IndicatorFrdPolicy::policyStats:com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.irr.IndicatorFrdPolicy::record(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.FrequentlyUsedPolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.FrequentlyUsedPolicy::policyStats:com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.FrequentlyUsedPolicy::record(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.HillClimberWindowTinyLfuPolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.HillClimberWindowTinyLfuPolicy::policyStats:com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.HillClimberWindowTinyLfuPolicy::record(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.adaptive.ArcPolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.adaptive.ArcPolicy::policyStats:com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.adaptive.ArcPolicy::record(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.adaptive.CarPolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.adaptive.CarPolicy::policyStats:com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.adaptive.CarPolicy::record(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.adaptive.CartPolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.adaptive.CartPolicy::policyStats:com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.adaptive.CartPolicy::record(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.irr.DClockPolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.irr.DClockPolicy::policyStats:com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.irr.DClockPolicy::record(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.irr.FrdPolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.irr.FrdPolicy::policyStats:com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.irr.FrdPolicy::record(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.irr.HillClimberFrdPolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.irr.HillClimberFrdPolicy::policyStats:com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.irr.HillClimberFrdPolicy::record(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.irr.LirsPolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.irr.LirsPolicy::policyStats:com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.irr.LirsPolicy::record(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.MultiQueuePolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.MultiQueuePolicy::policyStats:com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.MultiQueuePolicy::record(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.S4LruPolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.S4LruPolicy::policyStats:com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.S4LruPolicy::record(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.SegmentedLruPolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.SegmentedLruPolicy::policyStats:com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.SegmentedLruPolicy::record(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.sampled.SampledPolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.sampled.SampledPolicy::policyStats:com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sampled.SampledPolicy::record(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.WindowTinyLfuPolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.WindowTinyLfuPolicy::policyStats:com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.WindowTinyLfuPolicy::record(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.feedback.FeedbackTinyLfuPolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.feedback.FeedbackTinyLfuPolicy::policyStats:com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.feedback.FeedbackTinyLfuPolicy::record(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.feedback.FeedbackWindowTinyLfuPolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.feedback.FeedbackWindowTinyLfuPolicy::policyStats:com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.feedback.FeedbackWindowTinyLfuPolicy::record(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.FullySegmentedWindowTinyLfuPolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.FullySegmentedWindowTinyLfuPolicy::policyStats:com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.FullySegmentedWindowTinyLfuPolicy::record(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.RandomWindowTinyLfuPolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.RandomWindowTinyLfuPolicy::policyStats:com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.RandomWindowTinyLfuPolicy::record(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.S4WindowTinyLfuPolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.S4WindowTinyLfuPolicy::policyStats:com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.S4WindowTinyLfuPolicy::record(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.two_queue.TuQueuePolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.two_queue.TuQueuePolicy::policyStats:com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.two_queue.TuQueuePolicy::record(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.product.CollisionPolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.product.CollisionPolicy::policyStats:com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.product.CollisionPolicy::record(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.product.Ehcache3Policy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.product.Ehcache3Policy::policyStats:com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.product.Ehcache3Policy::record(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.product.ExpiringMapPolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.product.ExpiringMapPolicy::policyStats:com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.product.ExpiringMapPolicy::record(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.product.OhcPolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.product.OhcPolicy::policyStats:com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.product.OhcPolicy::record(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.product.TCachePolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.product.TCachePolicy::policyStats:com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.product.TCachePolicy::record(long):void" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.LinkedPolicy" />
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.LinkedPolicy::policyStats:com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.LinkedPolicy::record(com.github.benmanes.caffeine.cache.simulator.policy.AccessEvent):void" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.opt.UnboundedPolicy" />
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.opt.UnboundedPolicy::policyStats:com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.opt.UnboundedPolicy::record(com.github.benmanes.caffeine.cache.simulator.policy.AccessEvent):void" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.product.Cache2kPolicy" />
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.product.Cache2kPolicy::policyStats:com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.product.Cache2kPolicy::record(com.github.benmanes.caffeine.cache.simulator.policy.AccessEvent):void" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.product.CaffeinePolicy" />
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.product.CaffeinePolicy::policyStats:com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.product.CaffeinePolicy::record(com.github.benmanes.caffeine.cache.simulator.policy.AccessEvent):void" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.product.ElasticSearchPolicy" />
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.product.ElasticSearchPolicy::policyStats:com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.product.ElasticSearchPolicy::record(com.github.benmanes.caffeine.cache.simulator.policy.AccessEvent):void" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.product.GuavaPolicy" />
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.product.GuavaPolicy::policyStats:com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.product.GuavaPolicy::record(com.github.benmanes.caffeine.cache.simulator.policy.AccessEvent):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.admission.countmin64.CountMin64" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.admission.countmin64.CountMin64TinyLfu" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.admission.countmin64.CountMin64TinyLfu::sketch:com.github.benmanes.caffeine.cache.simulator.admission.countmin64.CountMin64" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.admission.countmin64.CountMin64TinyLfu::frequency(long):int" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.admission.countmin64.CountMin64TinyLfu::increment(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.Indicator" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.admission.countmin4.IndicatorResetCountMin4" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.admission.countmin4.IndicatorResetCountMin4::indicator:com.github.benmanes.caffeine.cache.simulator.policy.sketch.Indicator" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.admission.countmin4.IndicatorResetCountMin4::increment(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.admission.tinycache.TinyCacheSketch" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.admission.tinycache.TinyCacheAdapter" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.admission.tinycache.TinyCacheAdapter::tcs:com.github.benmanes.caffeine.cache.simulator.admission.tinycache.TinyCacheSketch" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.admission.tinycache.TinyCacheAdapter::frequency(long):int" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.admission.tinycache.TinyCacheAdapter::increment(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.admission.Admittor" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.FrequentlyUsedPolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.FrequentlyUsedPolicy::admittor:com.github.benmanes.caffeine.cache.simulator.admission.Admittor" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.FrequentlyUsedPolicy::record(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.admission.Admittor" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.S4LruPolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.S4LruPolicy::admittor:com.github.benmanes.caffeine.cache.simulator.admission.Admittor" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.S4LruPolicy::record(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.admission.Admittor" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.SegmentedLruPolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.SegmentedLruPolicy::admittor:com.github.benmanes.caffeine.cache.simulator.admission.Admittor" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.SegmentedLruPolicy::record(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.admission.Admittor" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.sampled.SampledPolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.sampled.SampledPolicy::admittor:com.github.benmanes.caffeine.cache.simulator.admission.Admittor" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sampled.SampledPolicy::record(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.admission.Admittor" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.HillClimberWindowTinyLfuPolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.HillClimberWindowTinyLfuPolicy::admittor:com.github.benmanes.caffeine.cache.simulator.admission.Admittor" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.HillClimberWindowTinyLfuPolicy::record(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.admission.Admittor" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.FullySegmentedWindowTinyLfuPolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.FullySegmentedWindowTinyLfuPolicy::admittor:com.github.benmanes.caffeine.cache.simulator.admission.Admittor" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.FullySegmentedWindowTinyLfuPolicy::record(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.admission.Admittor" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.LruWindowTinyLfuPolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.LruWindowTinyLfuPolicy::admittor:com.github.benmanes.caffeine.cache.simulator.admission.Admittor" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.LruWindowTinyLfuPolicy::record(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.admission.Admittor" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.RandomWindowTinyLfuPolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.RandomWindowTinyLfuPolicy::admittor:com.github.benmanes.caffeine.cache.simulator.admission.Admittor" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.RandomWindowTinyLfuPolicy::record(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.admission.Admittor" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.S4WindowTinyLfuPolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.S4WindowTinyLfuPolicy::admittor:com.github.benmanes.caffeine.cache.simulator.admission.Admittor" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.S4WindowTinyLfuPolicy::record(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.admission.TinyLfu" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.feedback.FeedbackTinyLfuPolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.feedback.FeedbackTinyLfuPolicy::admittor:com.github.benmanes.caffeine.cache.simulator.admission.TinyLfu" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.feedback.FeedbackTinyLfuPolicy::record(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.admission.TinyLfu" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.feedback.FeedbackWindowTinyLfuPolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.feedback.FeedbackWindowTinyLfuPolicy::admittor:com.github.benmanes.caffeine.cache.simulator.admission.TinyLfu" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.feedback.FeedbackWindowTinyLfuPolicy::record(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.Indicator" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.inference.IndicatorClimber" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.inference.IndicatorClimber::indicator:com.github.benmanes.caffeine.cache.simulator.policy.sketch.Indicator" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.inference.IndicatorClimber::onHit(long, com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.HillClimber$QueueType, boolean):void" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.inference.IndicatorClimber::onMiss(long, boolean):void" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.inference.IndicatorClimber::adapt(double, double, double, boolean):com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.HillClimber$Adaptation" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.gradient.Stochastic$Acceleration" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.gradient.Stochastic" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.gradient.Stochastic::acceleration:com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.gradient.Stochastic$Acceleration" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.gradient.Stochastic::adjust(double):double" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.AsyncCacheLoader" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.BoundedLocalCache$BoundedLocalAsyncLoadingCache$AsyncLoader" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.BoundedLocalCache$BoundedLocalAsyncLoadingCache$AsyncLoader::loader:com.github.benmanes.caffeine.cache.AsyncCacheLoader" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.BoundedLocalCache$BoundedLocalAsyncLoadingCache$AsyncLoader::load(K):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.LocalAsyncLoadingCache" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.LocalAsyncLoadingCache$LoadingCacheView" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.LocalAsyncLoadingCache$LoadingCacheView::asyncCache:com.github.benmanes.caffeine.cache.LocalAsyncLoadingCache" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.LocalAsyncLoadingCache$LoadingCacheView::get(K):java.lang.Object" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.LocalAsyncLoadingCache$LoadingCacheView::getAll(java.lang.Iterable):java.util.Map" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.LocalAsyncLoadingCache$LoadingCacheView::refresh(K):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.stats.StatsCounter" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.UnboundedLocalCache" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.UnboundedLocalCache::statsCounter:com.github.benmanes.caffeine.cache.stats.StatsCounter" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.UnboundedLocalCache::getIfPresent(java.lang.Object, boolean):java.lang.Object" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.UnboundedLocalCache::getAllPresent(java.lang.Iterable):java.util.Map" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.UnboundedLocalCache::computeIfAbsent(K, java.util.function.Function, boolean, boolean):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.admission.Frequency" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.admission.TinyLfu" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.admission.TinyLfu::sketch:com.github.benmanes.caffeine.cache.simulator.admission.Frequency" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.admission.TinyLfu::record(long):void" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.admission.TinyLfu::admit(long, long):boolean" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.BoundedLocalCache" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.BoundedLocalCache$BoundedPolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.BoundedLocalCache$BoundedPolicy::cache:com.github.benmanes.caffeine.cache.BoundedLocalCache" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.BoundedLocalCache$BoundedPolicy::isRecordingStats():boolean" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.BoundedLocalCache$BoundedPolicy::eviction():java.util.Optional" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.BoundedLocalCache$BoundedPolicy::expireAfterAccess():java.util.Optional" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.BoundedLocalCache$BoundedPolicy::expireAfterWrite():java.util.Optional" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.BoundedLocalCache$BoundedPolicy::refreshAfterWrite():java.util.Optional" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.NodeFactory" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.BoundedLocalCache" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.BoundedLocalCache::nodeFactory:com.github.benmanes.caffeine.cache.NodeFactory" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.BoundedLocalCache::getIfPresent(java.lang.Object, boolean):java.lang.Object" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.BoundedLocalCache::getIfPresentQuietly(java.lang.Object, long[]):java.lang.Object" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.BoundedLocalCache::getAllPresent(java.lang.Iterable):java.util.Map" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.BoundedLocalCache::computeIfAbsent(K, java.util.function.Function, boolean, boolean):java.lang.Object" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.BoundedLocalCache::compute(K, java.util.function.BiFunction, boolean, boolean, boolean):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.CacheWriter" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.UnboundedLocalCache" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.UnboundedLocalCache::writer:com.github.benmanes.caffeine.cache.CacheWriter" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.UnboundedLocalCache::put(K, V, boolean):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.admission.TinyLfu" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.admission.TinyLfu::policyStats:com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.admission.TinyLfu::admit(long, long):boolean" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.membership.Membership" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.feedback.FeedbackTinyLfuPolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.feedback.FeedbackTinyLfuPolicy::feedback:com.github.benmanes.caffeine.cache.simulator.membership.Membership" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.feedback.FeedbackTinyLfuPolicy::record(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.membership.Membership" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.feedback.FeedbackWindowTinyLfuPolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.feedback.FeedbackWindowTinyLfuPolicy::feedback:com.github.benmanes.caffeine.cache.simulator.membership.Membership" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.feedback.FeedbackWindowTinyLfuPolicy::record(long):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.LinkedPolicy$EvictionPolicy" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.LinkedPolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.LinkedPolicy::policy:com.github.benmanes.caffeine.cache.simulator.policy.linked.LinkedPolicy$EvictionPolicy" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.LinkedPolicy::record(com.github.benmanes.caffeine.cache.simulator.policy.AccessEvent):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.Cache" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.product.CaffeinePolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.product.CaffeinePolicy::cache:com.github.benmanes.caffeine.cache.Cache" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.product.CaffeinePolicy::record(com.github.benmanes.caffeine.cache.simulator.policy.AccessEvent):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.BasicSettings" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.report.TextReporter" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.report.TextReporter::settings:com.github.benmanes.caffeine.cache.simulator.BasicSettings" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.report.TextReporter::print():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.github.benmanes.caffeine.cache.simulator.admission.Admittor" />
+			<role name="Adapter" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.LinkedPolicy" />
+			<role name="adaptee" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.LinkedPolicy::admittor:com.github.benmanes.caffeine.cache.simulator.admission.Admittor" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.LinkedPolicy::record(com.github.benmanes.caffeine.cache.simulator.policy.AccessEvent):void" />
+		</instance>
+	</pattern>
+	<pattern name="Command" />
+	<pattern name="Composite" />
+	<pattern name="Decorator">
+		<instance>
+			<role name="Component" element="com.github.benmanes.caffeine.cache.Scheduler" />
+			<role name="Decorator" element="com.github.benmanes.caffeine.cache.GuardedScheduler" />
+			<role name="component" element="com.github.benmanes.caffeine.cache.GuardedScheduler::delegate:com.github.benmanes.caffeine.cache.Scheduler" />
+			<role name="Operation()" element="com.github.benmanes.caffeine.cache.GuardedScheduler::schedule(java.util.concurrent.Executor, java.lang.Runnable, long, java.util.concurrent.TimeUnit):java.util.concurrent.Future" />
+		</instance>
+		<instance>
+			<role name="Component" element="com.github.benmanes.caffeine.cache.stats.StatsCounter" />
+			<role name="Decorator" element="com.github.benmanes.caffeine.cache.stats.GuardedStatsCounter" />
+			<role name="component" element="com.github.benmanes.caffeine.cache.stats.GuardedStatsCounter::delegate:com.github.benmanes.caffeine.cache.stats.StatsCounter" />
+			<role name="Operation()" element="com.github.benmanes.caffeine.cache.stats.GuardedStatsCounter::recordHits(int):void" />
+			<role name="Operation()" element="com.github.benmanes.caffeine.cache.stats.GuardedStatsCounter::recordMisses(int):void" />
+			<role name="Operation()" element="com.github.benmanes.caffeine.cache.stats.GuardedStatsCounter::recordLoadSuccess(long):void" />
+			<role name="Operation()" element="com.github.benmanes.caffeine.cache.stats.GuardedStatsCounter::recordLoadFailure(long):void" />
+			<role name="Operation()" element="com.github.benmanes.caffeine.cache.stats.GuardedStatsCounter::recordEviction():void" />
+			<role name="Operation()" element="com.github.benmanes.caffeine.cache.stats.GuardedStatsCounter::snapshot():com.github.benmanes.caffeine.cache.stats.CacheStats" />
+		</instance>
+		<instance>
+			<role name="Component" element="com.github.benmanes.caffeine.cache.Weigher" />
+			<role name="Decorator" element="com.github.benmanes.caffeine.cache.BoundedWeigher" />
+			<role name="component" element="com.github.benmanes.caffeine.cache.BoundedWeigher::delegate:com.github.benmanes.caffeine.cache.Weigher" />
+			<role name="Operation()" element="com.github.benmanes.caffeine.cache.BoundedWeigher::weigh(K, V):int" />
+		</instance>
+	</pattern>
+	<pattern name="Observer" />
+	<pattern name="State">
+		<instance>
+			<role name="Context" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AsMapView" />
+			<role name="State" element="com.github.benmanes.caffeine.cache.LocalCache" />
+			<role name="state" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AsMapView::delegate:com.github.benmanes.caffeine.cache.LocalCache" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AsMapView::putIfAbsent(K, V):java.lang.Object" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AsMapView::remove(java.lang.Object, java.lang.Object):boolean" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AsMapView::replace(K, V):java.lang.Object" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AsMapView::replace(K, V, V):boolean" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AsMapView::computeIfAbsent(K, java.util.function.Function):java.lang.Object" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AsMapView::compute(K, java.util.function.BiFunction):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AsyncBulkCompleter" />
+			<role name="State" element="com.github.benmanes.caffeine.cache.LocalCache" />
+			<role name="state" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AsyncBulkCompleter::cache:com.github.benmanes.caffeine.cache.LocalCache" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AsyncBulkCompleter::accept(java.util.Map, java.lang.Throwable):void" />
+		</instance>
+		<instance>
+			<role name="State" element="com.github.benmanes.caffeine.cache.Node" />
+			<role name="Context" element="com.github.benmanes.caffeine.cache.BoundedLocalCache$AddTask" />
+			<role name="state" element="com.github.benmanes.caffeine.cache.BoundedLocalCache$AddTask::node:com.github.benmanes.caffeine.cache.Node" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.BoundedLocalCache$AddTask::run():void" />
+		</instance>
+		<instance>
+			<role name="State" element="com.github.benmanes.caffeine.cache.Node" />
+			<role name="Context" element="com.github.benmanes.caffeine.cache.BoundedLocalCache$EntryIterator" />
+			<role name="state" element="com.github.benmanes.caffeine.cache.BoundedLocalCache$EntryIterator::next:com.github.benmanes.caffeine.cache.Node" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.BoundedLocalCache$EntryIterator::hasNext():boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.github.benmanes.caffeine.cache.simulator.policy.PolicyActor" />
+			<role name="State" element="com.github.benmanes.caffeine.cache.simulator.policy.Policy" />
+			<role name="state" element="com.github.benmanes.caffeine.cache.simulator.policy.PolicyActor::policy:com.github.benmanes.caffeine.cache.simulator.policy.Policy" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.PolicyActor::process(java.util.List):void" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.PolicyActor::finish():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.github.benmanes.caffeine.cache.simulator.Simulator" />
+			<role name="State" element="com.github.benmanes.caffeine.cache.simulator.report.Reporter" />
+			<role name="state" element="com.github.benmanes.caffeine.cache.simulator.Simulator::reporter:com.github.benmanes.caffeine.cache.simulator.report.Reporter" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.Simulator::reportStats(com.github.benmanes.caffeine.cache.simulator.policy.PolicyStats):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.FrequentlyUsedPolicy" />
+			<role name="State" element="com.github.benmanes.caffeine.cache.simulator.admission.Admittor" />
+			<role name="state" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.FrequentlyUsedPolicy::admittor:com.github.benmanes.caffeine.cache.simulator.admission.Admittor" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.FrequentlyUsedPolicy::record(long):void" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.FrequentlyUsedPolicy::evict(com.github.benmanes.caffeine.cache.simulator.policy.linked.FrequentlyUsedPolicy$Node):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.S4LruPolicy" />
+			<role name="State" element="com.github.benmanes.caffeine.cache.simulator.admission.Admittor" />
+			<role name="state" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.S4LruPolicy::admittor:com.github.benmanes.caffeine.cache.simulator.admission.Admittor" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.S4LruPolicy::record(long):void" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.S4LruPolicy::evict(com.github.benmanes.caffeine.cache.simulator.policy.linked.S4LruPolicy$Node):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.SegmentedLruPolicy" />
+			<role name="State" element="com.github.benmanes.caffeine.cache.simulator.admission.Admittor" />
+			<role name="state" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.SegmentedLruPolicy::admittor:com.github.benmanes.caffeine.cache.simulator.admission.Admittor" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.SegmentedLruPolicy::record(long):void" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.SegmentedLruPolicy::evict(com.github.benmanes.caffeine.cache.simulator.policy.linked.SegmentedLruPolicy$Node):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.github.benmanes.caffeine.cache.simulator.policy.sampled.SampledPolicy" />
+			<role name="State" element="com.github.benmanes.caffeine.cache.simulator.admission.Admittor" />
+			<role name="state" element="com.github.benmanes.caffeine.cache.simulator.policy.sampled.SampledPolicy::admittor:com.github.benmanes.caffeine.cache.simulator.admission.Admittor" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sampled.SampledPolicy::record(long):void" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sampled.SampledPolicy::evict(com.github.benmanes.caffeine.cache.simulator.policy.sampled.SampledPolicy$Node):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.WindowTinyLfuPolicy" />
+			<role name="State" element="com.github.benmanes.caffeine.cache.simulator.admission.Admittor" />
+			<role name="state" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.WindowTinyLfuPolicy::admittor:com.github.benmanes.caffeine.cache.simulator.admission.Admittor" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.WindowTinyLfuPolicy::onMiss(long):void" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.WindowTinyLfuPolicy::onWindowHit(com.github.benmanes.caffeine.cache.simulator.policy.sketch.WindowTinyLfuPolicy$Node):void" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.WindowTinyLfuPolicy::onProbationHit(com.github.benmanes.caffeine.cache.simulator.policy.sketch.WindowTinyLfuPolicy$Node):void" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.WindowTinyLfuPolicy::onProtectedHit(com.github.benmanes.caffeine.cache.simulator.policy.sketch.WindowTinyLfuPolicy$Node):void" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.WindowTinyLfuPolicy::evict():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.HillClimberWindowTinyLfuPolicy" />
+			<role name="State" element="com.github.benmanes.caffeine.cache.simulator.admission.Admittor" />
+			<role name="state" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.HillClimberWindowTinyLfuPolicy::admittor:com.github.benmanes.caffeine.cache.simulator.admission.Admittor" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.HillClimberWindowTinyLfuPolicy::record(long):void" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.HillClimberWindowTinyLfuPolicy::evict():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.FullySegmentedWindowTinyLfuPolicy" />
+			<role name="State" element="com.github.benmanes.caffeine.cache.simulator.admission.Admittor" />
+			<role name="state" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.FullySegmentedWindowTinyLfuPolicy::admittor:com.github.benmanes.caffeine.cache.simulator.admission.Admittor" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.FullySegmentedWindowTinyLfuPolicy::record(long):void" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.FullySegmentedWindowTinyLfuPolicy::evict():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.LruWindowTinyLfuPolicy" />
+			<role name="State" element="com.github.benmanes.caffeine.cache.simulator.admission.Admittor" />
+			<role name="state" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.LruWindowTinyLfuPolicy::admittor:com.github.benmanes.caffeine.cache.simulator.admission.Admittor" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.LruWindowTinyLfuPolicy::record(long):void" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.LruWindowTinyLfuPolicy::evict():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.RandomWindowTinyLfuPolicy" />
+			<role name="State" element="com.github.benmanes.caffeine.cache.simulator.admission.Admittor" />
+			<role name="state" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.RandomWindowTinyLfuPolicy::admittor:com.github.benmanes.caffeine.cache.simulator.admission.Admittor" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.RandomWindowTinyLfuPolicy::record(long):void" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.RandomWindowTinyLfuPolicy::evict():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.S4WindowTinyLfuPolicy" />
+			<role name="State" element="com.github.benmanes.caffeine.cache.simulator.admission.Admittor" />
+			<role name="state" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.S4WindowTinyLfuPolicy::admittor:com.github.benmanes.caffeine.cache.simulator.admission.Admittor" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.S4WindowTinyLfuPolicy::record(long):void" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.segment.S4WindowTinyLfuPolicy::evict():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AsyncAsMapView" />
+			<role name="State" element="com.github.benmanes.caffeine.cache.LocalAsyncCache" />
+			<role name="state" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AsyncAsMapView::asyncCache:com.github.benmanes.caffeine.cache.LocalAsyncCache" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AsyncAsMapView::isEmpty():boolean" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AsyncAsMapView::size():int" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AsyncAsMapView::clear():void" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AsyncAsMapView::containsKey(java.lang.Object):boolean" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AsyncAsMapView::containsValue(java.lang.Object):boolean" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AsyncAsMapView::get(java.lang.Object):java.util.concurrent.CompletableFuture" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AsyncAsMapView::putIfAbsent(K, java.util.concurrent.CompletableFuture):java.util.concurrent.CompletableFuture" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AsyncAsMapView::put(K, java.util.concurrent.CompletableFuture):java.util.concurrent.CompletableFuture" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AsyncAsMapView::replace(K, java.util.concurrent.CompletableFuture):java.util.concurrent.CompletableFuture" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AsyncAsMapView::replace(K, java.util.concurrent.CompletableFuture, java.util.concurrent.CompletableFuture):boolean" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AsyncAsMapView::remove(java.lang.Object):java.util.concurrent.CompletableFuture" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AsyncAsMapView::remove(java.lang.Object, java.lang.Object):boolean" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AsyncAsMapView::computeIfAbsent(K, java.util.function.Function):java.util.concurrent.CompletableFuture" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AsyncAsMapView::computeIfPresent(K, java.util.function.BiFunction):java.util.concurrent.CompletableFuture" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AsyncAsMapView::compute(K, java.util.function.BiFunction):java.util.concurrent.CompletableFuture" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AsyncAsMapView::merge(K, java.util.concurrent.CompletableFuture, java.util.function.BiFunction):java.util.concurrent.CompletableFuture" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AsyncAsMapView::keySet():java.util.Set" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AsyncAsMapView::values():java.util.Collection" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AsyncAsMapView::entrySet():java.util.Set" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AsyncAsMapView::equals(java.lang.Object):boolean" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AsyncAsMapView::hashCode():int" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AsyncAsMapView::toString():java.lang.String" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AsyncAsMapView::lambda$computeIfAbsent$1(java.lang.Object, java.lang.Throwable):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.github.benmanes.caffeine.cache.BoundedLocalCache$BoundedLocalAsyncLoadingCache$AsyncLoader" />
+			<role name="State" element="com.github.benmanes.caffeine.cache.AsyncCacheLoader" />
+			<role name="state" element="com.github.benmanes.caffeine.cache.BoundedLocalCache$BoundedLocalAsyncLoadingCache$AsyncLoader::loader:com.github.benmanes.caffeine.cache.AsyncCacheLoader" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.BoundedLocalCache$BoundedLocalAsyncLoadingCache$AsyncLoader::load(K):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.github.benmanes.caffeine.cache.UnboundedLocalCache" />
+			<role name="State" element="com.github.benmanes.caffeine.cache.stats.StatsCounter" />
+			<role name="state" element="com.github.benmanes.caffeine.cache.UnboundedLocalCache::statsCounter:com.github.benmanes.caffeine.cache.stats.StatsCounter" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.UnboundedLocalCache::getIfPresent(java.lang.Object, boolean):java.lang.Object" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.UnboundedLocalCache::getAllPresent(java.lang.Iterable):java.util.Map" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.UnboundedLocalCache::computeIfAbsent(K, java.util.function.Function, boolean, boolean):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.github.benmanes.caffeine.cache.simulator.admission.TinyLfu" />
+			<role name="State" element="com.github.benmanes.caffeine.cache.simulator.admission.Frequency" />
+			<role name="state" element="com.github.benmanes.caffeine.cache.simulator.admission.TinyLfu::sketch:com.github.benmanes.caffeine.cache.simulator.admission.Frequency" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.admission.TinyLfu::frequency(long):int" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.admission.TinyLfu::record(long):void" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.admission.TinyLfu::admit(long, long):boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.github.benmanes.caffeine.guava.CaffeinatedGuavaCache" />
+			<role name="State" element="com.github.benmanes.caffeine.cache.Cache" />
+			<role name="state" element="com.github.benmanes.caffeine.guava.CaffeinatedGuavaCache::cache:com.github.benmanes.caffeine.cache.Cache" />
+			<role name="Request()" element="com.github.benmanes.caffeine.guava.CaffeinatedGuavaCache::getIfPresent(java.lang.Object):java.lang.Object" />
+			<role name="Request()" element="com.github.benmanes.caffeine.guava.CaffeinatedGuavaCache::get(K, java.util.concurrent.Callable):java.lang.Object" />
+			<role name="Request()" element="com.github.benmanes.caffeine.guava.CaffeinatedGuavaCache::getAllPresent(java.lang.Iterable):com.google.common.collect.ImmutableMap" />
+			<role name="Request()" element="com.github.benmanes.caffeine.guava.CaffeinatedGuavaCache::put(K, V):void" />
+			<role name="Request()" element="com.github.benmanes.caffeine.guava.CaffeinatedGuavaCache::putAll(java.util.Map):void" />
+			<role name="Request()" element="com.github.benmanes.caffeine.guava.CaffeinatedGuavaCache::invalidate(java.lang.Object):void" />
+			<role name="Request()" element="com.github.benmanes.caffeine.guava.CaffeinatedGuavaCache::invalidateAll(java.lang.Iterable):void" />
+			<role name="Request()" element="com.github.benmanes.caffeine.guava.CaffeinatedGuavaCache::invalidateAll():void" />
+			<role name="Request()" element="com.github.benmanes.caffeine.guava.CaffeinatedGuavaCache::size():long" />
+			<role name="Request()" element="com.github.benmanes.caffeine.guava.CaffeinatedGuavaCache::stats():com.google.common.cache.CacheStats" />
+			<role name="Request()" element="com.github.benmanes.caffeine.guava.CaffeinatedGuavaCache::cleanUp():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.github.benmanes.caffeine.cache.simulator.Simulator" />
+			<role name="State" element="com.github.benmanes.caffeine.cache.simulator.parser.TraceReader" />
+			<role name="state" element="com.github.benmanes.caffeine.cache.simulator.Simulator::traceReader:com.github.benmanes.caffeine.cache.simulator.parser.TraceReader" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.Simulator::broadcast():void" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.Simulator::makeRoutes():java.util.List" />
+		</instance>
+		<instance>
+			<role name="State" element="com.github.benmanes.caffeine.cache.simulator.membership.Membership" />
+			<role name="Context" element="com.github.benmanes.caffeine.cache.simulator.admission.countmin4.ClimberResetCountMin4" />
+			<role name="state" element="com.github.benmanes.caffeine.cache.simulator.admission.countmin4.ClimberResetCountMin4::doorkeeper:com.github.benmanes.caffeine.cache.simulator.membership.Membership" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.admission.countmin4.ClimberResetCountMin4::frequency(long):int" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.admission.countmin4.ClimberResetCountMin4::increment(long):void" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.admission.countmin4.ClimberResetCountMin4::tryReset(boolean):void" />
+		</instance>
+		<instance>
+			<role name="State" element="com.github.benmanes.caffeine.cache.simulator.membership.Membership" />
+			<role name="Context" element="com.github.benmanes.caffeine.cache.simulator.admission.countmin4.PeriodicResetCountMin4" />
+			<role name="state" element="com.github.benmanes.caffeine.cache.simulator.admission.countmin4.PeriodicResetCountMin4::doorkeeper:com.github.benmanes.caffeine.cache.simulator.membership.Membership" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.admission.countmin4.PeriodicResetCountMin4::frequency(long):int" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.admission.countmin4.PeriodicResetCountMin4::increment(long):void" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.admission.countmin4.PeriodicResetCountMin4::tryReset(boolean):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.github.benmanes.caffeine.cache.UnboundedLocalCache" />
+			<role name="State" element="com.github.benmanes.caffeine.cache.CacheWriter" />
+			<role name="state" element="com.github.benmanes.caffeine.cache.UnboundedLocalCache::writer:com.github.benmanes.caffeine.cache.CacheWriter" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.UnboundedLocalCache::lambda$replace$11(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object[], java.lang.Object, java.lang.Object):java.lang.Object" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.UnboundedLocalCache::lambda$replace$10(java.lang.Object, java.lang.Object, java.lang.Object[], java.lang.Object, java.lang.Object):java.lang.Object" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.UnboundedLocalCache::lambda$remove$9(java.lang.Object, java.lang.Object, java.lang.Object[], java.lang.Object, java.lang.Object):java.lang.Object" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.UnboundedLocalCache::lambda$remove$8(java.lang.Object, java.lang.Object[], java.lang.Object, java.lang.Object):java.lang.Object" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.UnboundedLocalCache::lambda$putIfAbsent$7(java.lang.Object, java.lang.Object, boolean[], java.lang.Object):java.lang.Object" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.UnboundedLocalCache::lambda$put$6(java.lang.Object, java.lang.Object, java.lang.Object[], java.lang.Object, java.lang.Object):java.lang.Object" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.UnboundedLocalCache::lambda$replaceAll$1(java.lang.Object[], java.lang.Object[], java.util.function.BiFunction, java.lang.Object, java.lang.Object):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.feedback.FeedbackTinyLfuPolicy" />
+			<role name="State" element="com.github.benmanes.caffeine.cache.simulator.membership.Membership" />
+			<role name="state" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.feedback.FeedbackTinyLfuPolicy::feedback:com.github.benmanes.caffeine.cache.simulator.membership.Membership" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.feedback.FeedbackTinyLfuPolicy::record(long):void" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.feedback.FeedbackTinyLfuPolicy::evict(com.github.benmanes.caffeine.cache.simulator.policy.sketch.feedback.FeedbackTinyLfuPolicy$Node):void" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.feedback.FeedbackTinyLfuPolicy::adapt(com.github.benmanes.caffeine.cache.simulator.policy.sketch.feedback.FeedbackTinyLfuPolicy$Node):boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.feedback.FeedbackWindowTinyLfuPolicy" />
+			<role name="State" element="com.github.benmanes.caffeine.cache.simulator.membership.Membership" />
+			<role name="state" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.feedback.FeedbackWindowTinyLfuPolicy::feedback:com.github.benmanes.caffeine.cache.simulator.membership.Membership" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.feedback.FeedbackWindowTinyLfuPolicy::record(long):void" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.feedback.FeedbackWindowTinyLfuPolicy::evict():void" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.feedback.FeedbackWindowTinyLfuPolicy::adapt(com.github.benmanes.caffeine.cache.simulator.policy.sketch.feedback.FeedbackWindowTinyLfuPolicy$Node):boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.HillClimberWindowTinyLfuPolicy" />
+			<role name="State" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.HillClimber" />
+			<role name="state" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.HillClimberWindowTinyLfuPolicy::climber:com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.HillClimber" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.HillClimberWindowTinyLfuPolicy::climb(long, com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.HillClimber$QueueType, boolean):void" />
+		</instance>
+		<instance>
+			<role name="State" element="com.github.benmanes.caffeine.cache.Scheduler" />
+			<role name="Context" element="com.github.benmanes.caffeine.cache.Pacer" />
+			<role name="state" element="com.github.benmanes.caffeine.cache.Pacer::scheduler:com.github.benmanes.caffeine.cache.Scheduler" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.Pacer::schedule(java.util.concurrent.Executor, java.lang.Runnable, long, long):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.github.benmanes.caffeine.jcache.CacheProxy" />
+			<role name="State" element="com.github.benmanes.caffeine.cache.Cache" />
+			<role name="state" element="com.github.benmanes.caffeine.jcache.CacheProxy::cache:com.github.benmanes.caffeine.cache.Cache" />
+			<role name="Request()" element="com.github.benmanes.caffeine.jcache.CacheProxy::containsKey(K):boolean" />
+			<role name="Request()" element="com.github.benmanes.caffeine.jcache.CacheProxy::get(K):java.lang.Object" />
+			<role name="Request()" element="com.github.benmanes.caffeine.jcache.CacheProxy::getAndFilterExpiredEntries(java.util.Set, boolean):java.util.Map" />
+			<role name="Request()" element="com.github.benmanes.caffeine.jcache.CacheProxy::putNoCopyOrAwait(K, V, boolean, int[]):java.lang.Object" />
+			<role name="Request()" element="com.github.benmanes.caffeine.jcache.CacheProxy::putIfAbsentNoAwait(K, V, boolean):boolean" />
+			<role name="Request()" element="com.github.benmanes.caffeine.jcache.CacheProxy::removeNoCopyOrAwait(K):java.lang.Object" />
+			<role name="Request()" element="com.github.benmanes.caffeine.jcache.CacheProxy::remove(K, V):boolean" />
+			<role name="Request()" element="com.github.benmanes.caffeine.jcache.CacheProxy::replace(K, V, V):boolean" />
+			<role name="Request()" element="com.github.benmanes.caffeine.jcache.CacheProxy::replaceNoCopyOrAwait(K, V):java.lang.Object" />
+			<role name="Request()" element="com.github.benmanes.caffeine.jcache.CacheProxy::removeAll():void" />
+			<role name="Request()" element="com.github.benmanes.caffeine.jcache.CacheProxy::clear():void" />
+			<role name="Request()" element="com.github.benmanes.caffeine.jcache.CacheProxy::invoke(, javax.cache.processor.EntryProcessor, java.lang.Object[]):java.lang.Object" />
+			<role name="Request()" element="com.github.benmanes.caffeine.jcache.CacheProxy::close():void" />
+			<role name="Request()" element="com.github.benmanes.caffeine.jcache.CacheProxy::lambda$loadAllAndKeepExisting$5(java.lang.Object):boolean" />
+			<role name="Request()" element="com.github.benmanes.caffeine.jcache.CacheProxy::lambda$getAndFilterExpiredEntries$3(long[], int[], boolean, java.util.Map$Entry):boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.github.benmanes.caffeine.jcache.LoadingCacheProxy" />
+			<role name="State" element="com.github.benmanes.caffeine.cache.LoadingCache" />
+			<role name="state" element="com.github.benmanes.caffeine.jcache.LoadingCacheProxy::cache:com.github.benmanes.caffeine.cache.LoadingCache" />
+			<role name="Request()" element="com.github.benmanes.caffeine.jcache.LoadingCacheProxy::getOrLoad(K):java.lang.Object" />
+			<role name="Request()" element="com.github.benmanes.caffeine.jcache.LoadingCacheProxy::getAll(java.util.Set, boolean):java.util.Map" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.LinkedPolicy" />
+			<role name="State" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.LinkedPolicy$EvictionPolicy" />
+			<role name="state" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.LinkedPolicy::policy:com.github.benmanes.caffeine.cache.simulator.policy.linked.LinkedPolicy$EvictionPolicy" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.LinkedPolicy::record(com.github.benmanes.caffeine.cache.simulator.policy.AccessEvent):void" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.LinkedPolicy::evict(com.github.benmanes.caffeine.cache.simulator.policy.linked.LinkedPolicy$Node):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.github.benmanes.caffeine.guava.CaffeinatedGuavaLoadingCache" />
+			<role name="State" element="com.github.benmanes.caffeine.cache.LoadingCache" />
+			<role name="state" element="com.github.benmanes.caffeine.guava.CaffeinatedGuavaLoadingCache::cache:com.github.benmanes.caffeine.cache.LoadingCache" />
+			<role name="Request()" element="com.github.benmanes.caffeine.guava.CaffeinatedGuavaLoadingCache::get(K):java.lang.Object" />
+			<role name="Request()" element="com.github.benmanes.caffeine.guava.CaffeinatedGuavaLoadingCache::getUnchecked(K):java.lang.Object" />
+			<role name="Request()" element="com.github.benmanes.caffeine.guava.CaffeinatedGuavaLoadingCache::getAll(java.lang.Iterable):com.google.common.collect.ImmutableMap" />
+			<role name="Request()" element="com.github.benmanes.caffeine.guava.CaffeinatedGuavaLoadingCache::apply(K):java.lang.Object" />
+			<role name="Request()" element="com.github.benmanes.caffeine.guava.CaffeinatedGuavaLoadingCache::refresh(K):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.github.benmanes.caffeine.cache.simulator.policy.product.CaffeinePolicy" />
+			<role name="State" element="com.github.benmanes.caffeine.cache.Cache" />
+			<role name="state" element="com.github.benmanes.caffeine.cache.simulator.policy.product.CaffeinePolicy::cache:com.github.benmanes.caffeine.cache.Cache" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.product.CaffeinePolicy::record(com.github.benmanes.caffeine.cache.simulator.policy.AccessEvent):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.LinkedPolicy" />
+			<role name="State" element="com.github.benmanes.caffeine.cache.simulator.admission.Admittor" />
+			<role name="state" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.LinkedPolicy::admittor:com.github.benmanes.caffeine.cache.simulator.admission.Admittor" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.LinkedPolicy::record(com.github.benmanes.caffeine.cache.simulator.policy.AccessEvent):void" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.linked.LinkedPolicy::evict(com.github.benmanes.caffeine.cache.simulator.policy.linked.LinkedPolicy$Node):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.github.benmanes.caffeine.cache.simulator.policy.sampled.SampledPolicy" />
+			<role name="State" element="com.github.benmanes.caffeine.cache.simulator.policy.sampled.SampledPolicy$EvictionPolicy" />
+			<role name="state" element="com.github.benmanes.caffeine.cache.simulator.policy.sampled.SampledPolicy::policy:com.github.benmanes.caffeine.cache.simulator.policy.sampled.SampledPolicy$EvictionPolicy" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.policy.sampled.SampledPolicy::evict(com.github.benmanes.caffeine.cache.simulator.policy.sampled.SampledPolicy$Node):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.github.benmanes.caffeine.jcache.CacheProxy" />
+			<role name="State" element="com.github.benmanes.caffeine.cache.Ticker" />
+			<role name="state" element="com.github.benmanes.caffeine.jcache.CacheProxy::ticker:com.github.benmanes.caffeine.cache.Ticker" />
+			<role name="Request()" element="com.github.benmanes.caffeine.jcache.CacheProxy::get(K):java.lang.Object" />
+			<role name="Request()" element="com.github.benmanes.caffeine.jcache.CacheProxy::getAll(java.util.Set):java.util.Map" />
+			<role name="Request()" element="com.github.benmanes.caffeine.jcache.CacheProxy::put(K, V):void" />
+			<role name="Request()" element="com.github.benmanes.caffeine.jcache.CacheProxy::getAndPut(K, V):java.lang.Object" />
+			<role name="Request()" element="com.github.benmanes.caffeine.jcache.CacheProxy::putAll(java.util.Map):void" />
+			<role name="Request()" element="com.github.benmanes.caffeine.jcache.CacheProxy::putIfAbsent(K, V):boolean" />
+			<role name="Request()" element="com.github.benmanes.caffeine.jcache.CacheProxy::remove(K):boolean" />
+			<role name="Request()" element="com.github.benmanes.caffeine.jcache.CacheProxy::remove(K, V):boolean" />
+			<role name="Request()" element="com.github.benmanes.caffeine.jcache.CacheProxy::getAndRemove(K):java.lang.Object" />
+			<role name="Request()" element="com.github.benmanes.caffeine.jcache.CacheProxy::replace(K, V, V):boolean" />
+			<role name="Request()" element="com.github.benmanes.caffeine.jcache.CacheProxy::replace(K, V):boolean" />
+			<role name="Request()" element="com.github.benmanes.caffeine.jcache.CacheProxy::getAndReplace(K, V):java.lang.Object" />
+			<role name="Request()" element="com.github.benmanes.caffeine.jcache.CacheProxy::removeAll(java.util.Set):void" />
+			<role name="Request()" element="com.github.benmanes.caffeine.jcache.CacheProxy::currentTimeMillis():long" />
+			<role name="Request()" element="com.github.benmanes.caffeine.jcache.CacheProxy::lambda$replace$16(long, java.lang.Object, boolean[], java.lang.Object, java.lang.Object, boolean[], java.lang.Object, com.github.benmanes.caffeine.jcache.Expirable):com.github.benmanes.caffeine.jcache.Expirable" />
+			<role name="Request()" element="com.github.benmanes.caffeine.jcache.CacheProxy::lambda$remove$13(long, java.lang.Object, java.lang.Object, boolean[], java.lang.Object, com.github.benmanes.caffeine.jcache.Expirable):com.github.benmanes.caffeine.jcache.Expirable" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.github.benmanes.caffeine.jcache.integration.JCacheLoaderAdapter" />
+			<role name="State" element="com.github.benmanes.caffeine.cache.Ticker" />
+			<role name="state" element="com.github.benmanes.caffeine.jcache.integration.JCacheLoaderAdapter::ticker:com.github.benmanes.caffeine.cache.Ticker" />
+			<role name="Request()" element="com.github.benmanes.caffeine.jcache.integration.JCacheLoaderAdapter::load(K):com.github.benmanes.caffeine.jcache.Expirable" />
+			<role name="Request()" element="com.github.benmanes.caffeine.jcache.integration.JCacheLoaderAdapter::loadAll(java.lang.Iterable):java.util.Map" />
+			<role name="Request()" element="com.github.benmanes.caffeine.jcache.integration.JCacheLoaderAdapter::expireTimeMS():long" />
+		</instance>
+	</pattern>
+	<pattern name="Strategy" />
+	<pattern name="Bridge">
+		<instance>
+			<role name="Abstraction" element="com.github.benmanes.caffeine.cache.BoundedLocalCache" />
+			<role name="Implementor" element="com.github.benmanes.caffeine.cache.NodeFactory" />
+			<role name="implementor" element="com.github.benmanes.caffeine.cache.BoundedLocalCache::nodeFactory:com.github.benmanes.caffeine.cache.NodeFactory" />
+			<role name="Operation()" element="com.github.benmanes.caffeine.cache.BoundedLocalCache::put(K, V, com.github.benmanes.caffeine.cache.Expiry, boolean, boolean):java.lang.Object" />
+			<role name="Operation()" element="com.github.benmanes.caffeine.cache.BoundedLocalCache::lambda$remap$16(boolean, java.lang.Object[], java.util.function.BiFunction, java.lang.Object, long[], int[], java.lang.Object, java.lang.Object[], java.lang.Object[], com.github.benmanes.caffeine.cache.RemovalCause[], com.github.benmanes.caffeine.cache.Node[], java.lang.Object, com.github.benmanes.caffeine.cache.Node):com.github.benmanes.caffeine.cache.Node" />
+			<role name="Operation()" element="com.github.benmanes.caffeine.cache.BoundedLocalCache::lambda$doComputeIfAbsent$14(java.lang.Object[], java.util.function.Function, java.lang.Object, long[], int[], java.lang.Object[], java.lang.Object[], com.github.benmanes.caffeine.cache.RemovalCause[], com.github.benmanes.caffeine.cache.Node[], java.lang.Object, com.github.benmanes.caffeine.cache.Node):com.github.benmanes.caffeine.cache.Node" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="com.github.benmanes.caffeine.cache.BoundedLocalCache" />
+			<role name="Implementor" element="com.github.benmanes.caffeine.cache.CacheWriter" />
+			<role name="implementor" element="com.github.benmanes.caffeine.cache.BoundedLocalCache::writer:com.github.benmanes.caffeine.cache.CacheWriter" />
+			<role name="Operation()" element="com.github.benmanes.caffeine.cache.BoundedLocalCache::put(K, V, com.github.benmanes.caffeine.cache.Expiry, boolean, boolean):java.lang.Object" />
+			<role name="Operation()" element="com.github.benmanes.caffeine.cache.BoundedLocalCache::lambda$remap$16(boolean, java.lang.Object[], java.util.function.BiFunction, java.lang.Object, long[], int[], java.lang.Object, java.lang.Object[], java.lang.Object[], com.github.benmanes.caffeine.cache.RemovalCause[], com.github.benmanes.caffeine.cache.Node[], java.lang.Object, com.github.benmanes.caffeine.cache.Node):com.github.benmanes.caffeine.cache.Node" />
+			<role name="Operation()" element="com.github.benmanes.caffeine.cache.BoundedLocalCache::lambda$doComputeIfAbsent$14(java.lang.Object[], java.util.function.Function, java.lang.Object, long[], int[], java.lang.Object[], java.lang.Object[], com.github.benmanes.caffeine.cache.RemovalCause[], com.github.benmanes.caffeine.cache.Node[], java.lang.Object, com.github.benmanes.caffeine.cache.Node):com.github.benmanes.caffeine.cache.Node" />
+			<role name="Operation()" element="com.github.benmanes.caffeine.cache.BoundedLocalCache::lambda$replaceAll$13(java.util.function.BiFunction, java.lang.Object, java.lang.Object):java.lang.Object" />
+			<role name="Operation()" element="com.github.benmanes.caffeine.cache.BoundedLocalCache::lambda$replace$12(java.lang.Object[], java.lang.Object[], int[], java.lang.Object, long[], java.lang.Object, java.lang.Object, int, boolean[], java.lang.Object, com.github.benmanes.caffeine.cache.Node):com.github.benmanes.caffeine.cache.Node" />
+			<role name="Operation()" element="com.github.benmanes.caffeine.cache.BoundedLocalCache::lambda$replace$11(java.lang.Object[], java.lang.Object[], int[], long[], java.lang.Object, java.lang.Object, int, java.lang.Object, com.github.benmanes.caffeine.cache.Node):com.github.benmanes.caffeine.cache.Node" />
+			<role name="Operation()" element="com.github.benmanes.caffeine.cache.BoundedLocalCache::lambda$remove$10(java.lang.Object[], java.lang.Object[], com.github.benmanes.caffeine.cache.RemovalCause[], java.lang.Object, com.github.benmanes.caffeine.cache.Node[], java.lang.Object, com.github.benmanes.caffeine.cache.Node):com.github.benmanes.caffeine.cache.Node" />
+			<role name="Operation()" element="com.github.benmanes.caffeine.cache.BoundedLocalCache::lambda$remove$9(java.lang.Object[], com.github.benmanes.caffeine.cache.RemovalCause[], java.lang.Object, com.github.benmanes.caffeine.cache.Node[], java.lang.Object, com.github.benmanes.caffeine.cache.Node):com.github.benmanes.caffeine.cache.Node" />
+			<role name="Operation()" element="com.github.benmanes.caffeine.cache.BoundedLocalCache::lambda$put$8(java.lang.Object, java.lang.Object, com.github.benmanes.caffeine.cache.Node, java.lang.Object):com.github.benmanes.caffeine.cache.Node" />
+			<role name="Operation()" element="com.github.benmanes.caffeine.cache.BoundedLocalCache::lambda$removeNode$7(com.github.benmanes.caffeine.cache.Node, java.lang.Object[], java.lang.Object, com.github.benmanes.caffeine.cache.RemovalCause[], long, java.lang.Object, com.github.benmanes.caffeine.cache.Node):com.github.benmanes.caffeine.cache.Node" />
+			<role name="Operation()" element="com.github.benmanes.caffeine.cache.BoundedLocalCache::lambda$evictEntry$2(com.github.benmanes.caffeine.cache.Node, java.lang.Object[], com.github.benmanes.caffeine.cache.RemovalCause[], java.lang.Object, com.github.benmanes.caffeine.cache.RemovalCause, long, boolean[], boolean[], java.lang.Object, com.github.benmanes.caffeine.cache.Node):com.github.benmanes.caffeine.cache.Node" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="com.github.benmanes.caffeine.cache.BoundedLocalCache" />
+			<role name="Implementor" element="com.github.benmanes.caffeine.cache.Buffer" />
+			<role name="implementor" element="com.github.benmanes.caffeine.cache.BoundedLocalCache::readBuffer:com.github.benmanes.caffeine.cache.Buffer" />
+			<role name="Operation()" element="com.github.benmanes.caffeine.cache.BoundedLocalCache::afterRead(com.github.benmanes.caffeine.cache.Node, long, boolean):void" />
+			<role name="Operation()" element="com.github.benmanes.caffeine.cache.BoundedLocalCache::drainReadBuffer():void" />
+			<role name="Operation()" element="com.github.benmanes.caffeine.cache.BoundedLocalCache::clear():void" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="com.github.benmanes.caffeine.cache.BoundedLocalCache" />
+			<role name="Implementor" element="com.github.benmanes.caffeine.cache.Weigher" />
+			<role name="implementor" element="com.github.benmanes.caffeine.cache.BoundedLocalCache::weigher:com.github.benmanes.caffeine.cache.Weigher" />
+			<role name="Operation()" element="com.github.benmanes.caffeine.cache.BoundedLocalCache::put(K, V, com.github.benmanes.caffeine.cache.Expiry, boolean, boolean):java.lang.Object" />
+			<role name="Operation()" element="com.github.benmanes.caffeine.cache.BoundedLocalCache::replace(K, V):java.lang.Object" />
+			<role name="Operation()" element="com.github.benmanes.caffeine.cache.BoundedLocalCache::replace(K, V, V):boolean" />
+			<role name="Operation()" element="com.github.benmanes.caffeine.cache.BoundedLocalCache::lambda$remap$16(boolean, java.lang.Object[], java.util.function.BiFunction, java.lang.Object, long[], int[], java.lang.Object, java.lang.Object[], java.lang.Object[], com.github.benmanes.caffeine.cache.RemovalCause[], com.github.benmanes.caffeine.cache.Node[], java.lang.Object, com.github.benmanes.caffeine.cache.Node):com.github.benmanes.caffeine.cache.Node" />
+			<role name="Operation()" element="com.github.benmanes.caffeine.cache.BoundedLocalCache::lambda$doComputeIfAbsent$14(java.lang.Object[], java.util.function.Function, java.lang.Object, long[], int[], java.lang.Object[], java.lang.Object[], com.github.benmanes.caffeine.cache.RemovalCause[], com.github.benmanes.caffeine.cache.Node[], java.lang.Object, com.github.benmanes.caffeine.cache.Node):com.github.benmanes.caffeine.cache.Node" />
+		</instance>
+	</pattern>
+	<pattern name="Template Method">
+		<instance>
+			<role name="AbstractClass" element="com.github.benmanes.caffeine.jcache.copy.AbstractCopier" />
+			<role name="TemplateMethod()" element="com.github.benmanes.caffeine.jcache.copy.AbstractCopier::roundtrip(, java.lang.ClassLoader):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.github.benmanes.caffeine.cache.simulator.report.TextReporter" />
+			<role name="TemplateMethod()" element="com.github.benmanes.caffeine.cache.simulator.report.TextReporter::print():void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.AbstractClimber" />
+			<role name="TemplateMethod()" element="com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.AbstractClimber::adapt(double, double, double, boolean):com.github.benmanes.caffeine.cache.simulator.policy.sketch.climbing.HillClimber$Adaptation" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.github.benmanes.caffeine.cache.Node" />
+			<role name="TemplateMethod()" element="com.github.benmanes.caffeine.cache.Node::toString():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.github.benmanes.caffeine.cache.BaseMpscLinkedArrayQueue" />
+			<role name="TemplateMethod()" element="com.github.benmanes.caffeine.cache.BaseMpscLinkedArrayQueue::offerSlowPath(long, long, long):int" />
+			<role name="TemplateMethod()" element="com.github.benmanes.caffeine.cache.BaseMpscLinkedArrayQueue::resize(long, E[], long, E):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.github.benmanes.caffeine.cache.AbstractLinkedDeque" />
+			<role name="TemplateMethod()" element="com.github.benmanes.caffeine.cache.AbstractLinkedDeque::offerFirst(E):boolean" />
+			<role name="TemplateMethod()" element="com.github.benmanes.caffeine.cache.AbstractLinkedDeque::offerLast(E):boolean" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.github.benmanes.caffeine.cache.StripedBuffer" />
+			<role name="TemplateMethod()" element="com.github.benmanes.caffeine.cache.StripedBuffer::expandOrRetry(E, boolean):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AbstractCacheView" />
+			<role name="TemplateMethod()" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AbstractCacheView::getIfPresent(java.lang.Object):java.lang.Object" />
+			<role name="TemplateMethod()" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AbstractCacheView::getAllPresent(java.lang.Iterable):java.util.Map" />
+			<role name="TemplateMethod()" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AbstractCacheView::get(K, java.util.function.Function):java.lang.Object" />
+			<role name="TemplateMethod()" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AbstractCacheView::getAll(java.lang.Iterable, java.util.function.Function):java.util.Map" />
+			<role name="TemplateMethod()" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AbstractCacheView::put(K, V):void" />
+			<role name="TemplateMethod()" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AbstractCacheView::invalidate(java.lang.Object):void" />
+			<role name="TemplateMethod()" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AbstractCacheView::invalidateAll(java.lang.Iterable):void" />
+			<role name="TemplateMethod()" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AbstractCacheView::invalidateAll():void" />
+			<role name="TemplateMethod()" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AbstractCacheView::estimatedSize():long" />
+			<role name="TemplateMethod()" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AbstractCacheView::stats():com.github.benmanes.caffeine.cache.stats.CacheStats" />
+			<role name="TemplateMethod()" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AbstractCacheView::cleanUp():void" />
+			<role name="TemplateMethod()" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AbstractCacheView::policy():com.github.benmanes.caffeine.cache.Policy" />
+			<role name="TemplateMethod()" element="com.github.benmanes.caffeine.cache.LocalAsyncCache$AbstractCacheView::asMap():java.util.concurrent.ConcurrentMap" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.github.benmanes.caffeine.cache.AbstractLinkedDeque$AbstractLinkedIterator" />
+			<role name="TemplateMethod()" element="com.github.benmanes.caffeine.cache.AbstractLinkedDeque$AbstractLinkedIterator::next():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.github.benmanes.caffeine.cache.node.NodeRule" />
+			<role name="TemplateMethod()" element="com.github.benmanes.caffeine.cache.node.NodeRule::accept(com.github.benmanes.caffeine.cache.node.NodeContext):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.github.benmanes.caffeine.cache.local.LocalCacheRule" />
+			<role name="TemplateMethod()" element="com.github.benmanes.caffeine.cache.local.LocalCacheRule::accept(com.github.benmanes.caffeine.cache.local.LocalCacheContext):void" />
+		</instance>
+	</pattern>
+	<pattern name="Visitor" />
+	<pattern name="Proxy">
+		<instance>
+			<role name="Proxy" element="com.github.benmanes.caffeine.cache.simulator.admission.countmin4.IndicatorResetCountMin4" />
+			<role name="RealSubject" element="com.github.benmanes.caffeine.cache.simulator.admission.countmin4.ClimberResetCountMin4" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.admission.countmin4.IndicatorResetCountMin4::frequency(long):int" />
+			<role name="Request()" element="com.github.benmanes.caffeine.cache.simulator.admission.countmin4.IndicatorResetCountMin4::increment(long):void" />
+		</instance>
+	</pattern>
+	<pattern name="Proxy2" />
+	<pattern name="Chain of Responsibility" />
+</system>
+

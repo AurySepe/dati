@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<pattern name="Factory Method">
+		<instance>
+			<role name="Creator" element="brut.directory.AbstractDirectory" />
+			<role name="FactoryMethod()" element="brut.directory.AbstractDirectory::createDirLocal(java.lang.String):brut.directory.AbstractDirectory" />
+		</instance>
+	</pattern>
+	<pattern name="Prototype" />
+	<pattern name="Singleton" />
+	<pattern name="(Object)Adapter">
+		<instance>
+			<role name="Adapter" element="brut.androlib.res.decoder.AXmlResourceParser" />
+			<role name="Adaptee" element="brut.androlib.res.decoder.AXmlResourceParser$NamespaceStack" />
+			<role name="adaptee" element="brut.androlib.res.decoder.AXmlResourceParser::m_namespaces:brut.androlib.res.decoder.AXmlResourceParser$NamespaceStack" />
+			<role name="Request()" element="brut.androlib.res.decoder.AXmlResourceParser::close():void" />
+		</instance>
+	</pattern>
+	<pattern name="Command" />
+	<pattern name="Composite" />
+	<pattern name="Decorator" />
+	<pattern name="Observer" />
+	<pattern name="State">
+		<instance>
+			<role name="Context" element="brut.directory.ExtFile" />
+			<role name="State" element="brut.directory.Directory" />
+			<role name="state" element="brut.directory.ExtFile::mDirectory:brut.directory.Directory" />
+			<role name="Request()" element="brut.directory.ExtFile::close():void" />
+		</instance>
+	</pattern>
+	<pattern name="Strategy" />
+	<pattern name="Bridge" />
+	<pattern name="Template Method">
+		<instance>
+			<role name="AbstractClass" element="brut.directory.AbstractDirectory" />
+			<role name="TemplateMethod()" element="brut.directory.AbstractDirectory::getFiles(boolean):java.util.Set" />
+			<role name="TemplateMethod()" element="brut.directory.AbstractDirectory::getFileInput(java.lang.String):java.io.InputStream" />
+			<role name="TemplateMethod()" element="brut.directory.AbstractDirectory::getFileOutput(java.lang.String):java.io.OutputStream" />
+			<role name="TemplateMethod()" element="brut.directory.AbstractDirectory::createDir(java.lang.String):brut.directory.Directory" />
+			<role name="TemplateMethod()" element="brut.directory.AbstractDirectory::removeFile(java.lang.String):boolean" />
+			<role name="TemplateMethod()" element="brut.directory.AbstractDirectory::getAbstractDirs(boolean):java.util.Map" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="brut.androlib.res.data.value.ResScalarValue" />
+			<role name="TemplateMethod()" element="brut.androlib.res.data.value.ResScalarValue::encodeAsResXmlAttr():java.lang.String" />
+			<role name="TemplateMethod()" element="brut.androlib.res.data.value.ResScalarValue::encodeAsResXmlValue():java.lang.String" />
+		</instance>
+	</pattern>
+	<pattern name="Visitor" />
+	<pattern name="Proxy" />
+	<pattern name="Proxy2" />
+	<pattern name="Chain of Responsibility" />
+</system>
+

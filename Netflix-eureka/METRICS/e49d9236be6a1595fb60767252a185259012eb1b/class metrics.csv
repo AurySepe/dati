@@ -1,0 +1,313 @@
+COH	DAC	ELOC	HALSTEADLENGHT	HALSTEADVOCABULARY	HALSTEADVOLUME	ID	LCC	LCOM	LOC	MCCABEMETRIC	MPC	NAME	NOA	NOO	NUMBEROFCHILDREN	NUMBEROFIMPORTS	NUMBOFATTRIBUTES	NUMBOFMETHODS	PATTERNROLE	PATTERNTYPE	RFC	TCC
+0	3	148	142	601	908.6004807039994	314	21	0	219	91	51	com.netflix.discovery.EurekaArchaius2ClientConfig	0	0	0	9	5	45			96	21
+0	3	65	159	437	966.7093780201988	313	1	3	117	17	17	com.netflix.discovery.Ec2EurekaArchaius2InstanceConfig	4	2	0	11	3	6			23	1
+0	3	102	113	463	693.5631571117444	315	10	0	179	55	31	com.netflix.discovery.EurekaArchaius2InstanceConfig	15	13	1	9	5	28			59	10
+0	7	98	135	524	845.3013773833407	230	-1	43	235	38	67	com.netflix.discovery.DiscoveryClientRedirectTest	0	0	0	27	9	11			78	0
+-1	0	103	115	614	738.2994167369213	204	-1	6	162	7	24	com.netflix.discovery.DiscoveryClientHealthTest	4	0	0	6	0	4			28	0
+0	4	132	156	618	1002.5321993633997	162	4	0	268	34	168	com.netflix.discovery.DiscoveryClientRegistryTest	0	0	0	35	6	14			182	4
+0	3	52	86	251	475.1889527653334	278	-1	1	120	14	48	com.netflix.discovery.DiscoveryClientEventBusTest	0	0	0	31	3	6			54	1
+-1	0	15	30	57	121.29153803503651	197	0	1	28	5	6	com.netflix.discovery.AbstractDiscoveryClientTester	2	0	2	3	0	2			8	0
+0	6	154	192	803	1284.1641050777782	194	0	11	240	27	74	com.netflix.discovery.DiscoveryStatusCheckerTest	0	0	0	27	14	14			88	0
+0	5	118	130	701	851.8260253144967	201	3	0	194	14	27	com.netflix.discovery.TimedSupervisorTaskTest	0	0	0	13	9	7			34	3
+0	4	131	148	654	959.4998880156654	277	-1	65	184	24	50	com.netflix.discovery.BaseDiscoveryClientTester	0	0	1	9	22	14			64	-1
+0	2	29	66	141	326.6181527649591	175	0	1	53	8	13	com.netflix.discovery.DiscoveryClientDisableRegistryTest	0	0	0	9	2	3			16	0
+0	3	73	95	322	548.5823968267188	268	2	0	112	15	33	com.netflix.discovery.DiscoveryClientRegisterUpdateTest	0	0	0	11	3	6			39	2
+0	4	142	183	740	1209.0169840742733	172	-1	20	195	31	80	com.netflix.discovery.BackUpRegistryTest	0	0	0	15	13	13			93	-1
+0	2	40	60	225	324.9660241322652	173	1	0	59	13	3	com.netflix.discovery.MockBackupRegistry	0	0	0	5	2	6			9	1
+0	1	18	38	94	172.64520172626015	243	0	1	31	6	9	com.netflix.discovery.DiscoveryClientCloseJerseyThreadTest	2	0	0	4	1	2			11	0
+0	5	90	100	486	618.6208623900494	443	0	9	183	13	60	com.netflix.discovery.EurekaClientLifecycleTest	0	0	0	33	7	6			66	0
+-1	0	54	49	271	274.5038222231054	167	-1	10	85	10	48	com.netflix.discovery.InstanceRegionCheckerTest	0	0	0	5	0	5			53	0
+0	8	246	322	2354	2499.9665546781116	196	-1	52	327	24	19	com.netflix.discovery.MockRemoteEurekaServer	0	0	0	25	17	12			31	-1
+0	3	55	69	249	380.7042498560648	269	1	0	99	17	40	com.netflix.discovery.InstanceInfoReplicatorTest	0	0	0	15	4	6			46	1
+-1	0	6	33	35	117.32648602915064	275	-1	0	11	0	0	com.netflix.discovery.CacheRefreshedEvent	0	0	0	0	0	0			0	-1
+-1	0	8	59	72	252.32330102194726	78	0	1	41	2	0	com.netflix.discovery.BackupRegistry	0	0	0	2	0	2			2	0
+0	32	1100	1401	8576	12688.468759518126	80	-1	1038	1638	214	323	com.netflix.discovery.DiscoveryClient	0	0	0	61	42	61	context	State	384	-1
+0	4	87	161	503	1001.515017386058	81	-1	36	149	24	6	com.netflix.discovery.DiscoveryManager	0	0	0	7	5	13	singleton	Singleton	19	-1
+0	6	181	261	980	1797.6512212044652	79	20	0	524	93	96	com.netflix.discovery.DefaultEurekaClientConfig	0	0	0	16	11	46			142	20
+-1	0	11	29	40	106.97750416930415	171	0	1	20	3	2	com.netflix.discovery.PropertyBasedAzToRegionMapper	1	1	0	3	0	2			4	0
+0	1	35	89	186	465.09145396047495	186	1	0	51	12	1	com.netflix.discovery.StatusChangeEvent	5	0	0	1	2	5			6	1
+-1	0	21	85	150	425.90399999818175	169	0	3	32	6	0	com.netflix.discovery.AzToRegionMapper	0	0	0	0	0	3	state	State	3	0
+-1	0	222	599	2395	4660.901967397164	82	0	903	545	142	0	com.netflix.discovery.EurekaClientConfig	0	0	0	4	0	43	state	State	43	0
+-1	0	86	274	868	1853.936529816936	234	0	91	176	43	0	com.netflix.discovery.EurekaClient	0	0	0	9	0	14	creator	Factory Method	14	0
+0	2	31	52	150	260.5530352930053	161	-1	0	47	10	7	com.netflix.discovery.InstanceRegionChecker	0	0	0	5	2	5	context	State	12	1
+0	5	103	208	784	1386.1970762328847	168	-1	18	148	19	23	com.netflix.discovery.AbstractAzToRegionMapper	0	0	2	14	6	8	abstractClass	Template Method	31	-1
+0	5	46	104	233	566.9079991708328	192	1	1	77	10	10	com.netflix.discovery.EurekaUpStatusResolver	0	0	0	11	5	6	context	State	16	1
+1	1	23	59	98	270.5130812415638	276	0	0	33	3	1	com.netflix.discovery.DiscoveryEvent	0	0	2	0	1	2			3	0
+0	8	61	118	349	690.8984868198863	200	0	0	88	6	15	com.netflix.discovery.TimedSupervisorTask	0	0	0	14	11	2	adaptee	(Object)Adapter	17	0
+-1	0	38	72	231	391.8540751575691	193	-1	0	77	1	3	com.netflix.discovery.InternalEurekaStatusModule	0	0	0	9	0	1			4	-1
+0	1	19	67	122	321.86940999712823	333	-1	0	49	1	0	com.netflix.discovery.EurekaClientNames	0	0	0	0	9	1			1	-1
+0	8	75	173	528	1084.5536570811832	267	2	0	114	15	30	com.netflix.discovery.InstanceInfoReplicator	0	0	0	11	10	6			36	2
+-1	0	16	45	74	193.68292919418766	170	0	1	30	4	3	com.netflix.discovery.DNSBasedAzToRegionMapper	1	1	0	5	0	2			5	0
+1	1	16	33	89	148.12500020116062	207	0	0	29	5	7	com.netflix.discovery.EurekaIdentityHeaderFilter	0	0	0	5	1	2	context	State	9	0
+-1	0	11	24	40	88.53310689873447	211	0	1	22	4	0	com.netflix.discovery.NotImplementedRegistryImpl	0	0	0	2	0	2			2	0
+0	2	46	61	193	321.024101523198	434	6	0	81	24	12	com.netflix.discovery.shared.transport.EurekaArchaius2TransportConfig	0	0	0	4	2	13			25	6
+0	2	20	42	84	186.09430555141915	404	0	0	61	7	13	com.netflix.discovery.shared.transport.SimpleEurekaHttpServerTest	0	3	0	6	2	3			16	0
+0	3	128	113	585	719.9921387371999	426	-1	7	220	55	180	com.netflix.discovery.shared.transport.EurekaHttpClientCompatibilityTestSuite	0	0	3	14	3	23			203	-1
+0	5	215	230	1487	1680.0386676858357	403	-1	41	280	62	131	com.netflix.discovery.shared.transport.SimpleEurekaHttpServer	0	0	0	22	5	15	context	State	146	-1
+0	11	139	174	719	1144.5478762434623	402	-1	0	299	16	106	com.netflix.discovery.shared.transport.EurekaHttpClientsTest	0	0	0	46	13	6			112	1
+0	4	89	113	528	708.4078800588076	379	0	1	134	22	3	com.netflix.discovery.shared.transport.EurekaHttpResponse	0	0	0	7	4	10			13	0
+-1	0	55	186	390	1109.7032934770068	437	0	55	84	33	0	com.netflix.discovery.shared.transport.EurekaTransportConfig	0	0	0	0	0	11	state	State	11	0
+-1	0	8	26	28	86.63731726455529	377	0	1	30	2	0	com.netflix.discovery.shared.transport.EurekaHttpClientFactory	0	0	0	0	0	2	creator	Factory Method	2	0
+0	2	45	71	217	381.9727121013726	436	5	0	75	23	22	com.netflix.discovery.shared.transport.DefaultEurekaTransportConfig	0	0	0	1	3	12			34	5
+-1	0	11	24	39	87.9254795071115	380	0	1	30	2	0	com.netflix.discovery.shared.transport.TransportException	0	0	0	0	0	2			2	0
+-1	0	20	37	88	165.66146213569365	381	-1	3	43	6	4	com.netflix.discovery.shared.transport.TransportUtils	0	0	0	1	0	3			7	-1
+0	2	118	197	903	1340.7273430231462	378	-1	171	310	45	54	com.netflix.discovery.shared.transport.EurekaHttpClients	0	0	0	19	2	19			73	-1
+-1	0	8	31	35	110.21578990617182	430	0	1	16	2	0	com.netflix.discovery.shared.transport.TransportClientFactory	0	0	0	1	0	2	creator	Factory Method	2	0
+-1	0	19	49	128	237.74948293206123	271	0	78	40	13	0	com.netflix.discovery.shared.transport.EurekaHttpClient	0	0	0	4	0	13	state	State	13	0
+0	10	117	134	516	836.9783065745294	429	-1	210	157	41	21	com.netflix.discovery.shared.transport.EurekaClientFactoryBuilder	0	0	0	9	24	21			42	-1
+-1	0	22	38	82	167.45533139604163	451	0	3	53	5	9	com.netflix.discovery.guice.LocalDevEurekaClientModule	0	0	0	17	0	3			12	0
+-1	0	24	49	98	224.66340645485803	450	0	3	58	5	9	com.netflix.discovery.guice.Ec2EurekaClientModule	0	0	0	18	0	3			12	0
+0	1	37	61	159	309.20315633543413	239	0	0	76	7	21	com.netflix.discovery.guice.EurekaModuleTest	0	0	0	18	1	4			25	0
+-1	0	12	23	39	84.26191786098187	235	-1	0	36	1	5	com.netflix.discovery.guice.EurekaModule	0	0	0	11	0	1			6	-1
+-1	0	12	22	41	81.69858546749478	341	0	0	42	2	8	com.netflix.discovery.util.InstanceInfoGeneratorTest	0	0	0	6	0	1			9	0
+-1	0	37	115	293	653.2198500369627	281	0	0	56	6	13	com.netflix.discovery.util.DiagnosticClient	0	0	0	6	0	1			14	0
+-1	0	92	135	383	802.9847235393871	232	-1	36	114	31	34	com.netflix.discovery.util.ApplicationFunctions	0	0	0	8	0	9			43	-1
+0	7	179	243	1140	1710.4244005574155	233	-1	41	286	39	72	com.netflix.discovery.util.InstanceInfoGenerator	0	0	0	18	13	14			86	-1
+0	2	37	64	217	344.3134306265894	270	0	4	74	5	7	com.netflix.discovery.util.RateLimiterTest	0	0	0	4	3	4			11	0
+-1	0	9	22	30	74.82634239656743	320	0	0	19	3	4	com.netflix.discovery.util.DiscoveryBuildInfoTest	0	0	0	4	0	1			5	0
+0	3	67	143	204	760.4911591197229	213	-1	13	112	19	11	com.netflix.discovery.util.RateLimiter	0	0	0	3	3	7			18	-1
+0	3	56	77	335	447.6880509505301	219	-1	6	73	10	12	com.netflix.discovery.util.StringCache	0	0	0	5	5	5	singleton	Singleton	17	-1
+0	3	67	153	484	945.8589907276447	334	1	0	104	12	11	com.netflix.discovery.util.ThresholdLevelsMetric	0	0	0	5	4	3	singleton	Singleton	14	1
+-1	0	37	114	300	650.2312021108069	389	-1	3	64	9	10	com.netflix.discovery.util.SystemUtil	0	0	0	4	0	3			13	-1
+0	2	54	97	304	554.5516870364036	319	-1	13	73	18	18	com.netflix.discovery.util.DiscoveryBuildInfo	0	0	0	8	3	6	singleton	Singleton	24	-1
+0	2	55	68	129	330.4672434965937	340	-1	15	84	16	3	com.netflix.discovery.util.EurekaEntityTransformers	0	0	0	2	4	6			9	0
+-1	0	306	202	2227	1557.098954785988	226	-1	78	361	48	77	com.netflix.discovery.util.EurekaEntityComparators	0	0	0	8	0	13			90	-1
+0	2	37	57	176	294.71758771717464	410	0	6	70	10	15	com.netflix.discovery.util.ExceptionsMetric	0	0	0	6	2	5	adaptee	(Object)Adapter	20	0
+0	1	40	60	229	326.0233202132544	411	-1	10	69	12	12	com.netflix.discovery.util.ServoUtil	0	0	0	5	1	5			17	-1
+0	1	237	261	1481	1905.4234045238954	339	-1	325	311	82	84	com.netflix.discovery.util.EurekaEntityFunctions	0	0	0	14	1	26			110	-1
+-1	0	17	46	90	206.9912448351922	447	0	1	37	5	2	com.netflix.discovery.util.StringUtil	0	0	0	0	0	2			4	0
+0	2	21	40	83	176.75362431186392	438	0	0	53	9	1	com.netflix.discovery.junit.resource.SimpleEurekaHttpServerResource	0	0	0	4	2	4			5	0
+0	12	247	285	1486	2081.5953192041457	425	-1	191	329	58	57	com.netflix.discovery.junit.resource.DiscoveryClientResource	0	0	0	29	17	22	context	State	79	-1
+0	1	18	39	84	172.8018551548892	444	-1	1	60	4	18	com.netflix.discovery.providers.DefaultEurekaClientConfigProviderTest	0	0	0	12	1	2			20	0
+1	2	15	46	76	199.21373365317123	190	0	0	35	3	2	com.netflix.discovery.providers.DefaultEurekaClientConfigProvider	0	0	0	6	2	1			3	0
+0	2	32	55	173	283.43103769737786	399	-1	1	68	8	11	com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClientTest	0	0	0	10	3	2			13	0
+0	10	141	161	753	1066.474501675783	408	3	0	252	25	84	com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClientTest	0	0	0	27	11	9			93	3
+0	4	58	64	254	354.38939308918634	400	1	0	131	11	38	com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClientTest	0	0	0	17	5	4			42	1
+0	1	145	95	1007	656.8994348082634	382	-1	114	236	73	36	com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator	0	0	4	6	1	37			73	-1
+0	6	52	143	314	822.1631969848802	383	1	0	101	10	17	com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient	4	1	0	12	8	5	context	State	22	1
+0	7	98	196	688	1280.6226122349353	384	-1	4	156	23	40	com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient	7	1	0	16	7	8	context	State	48	-1
+-1	0	7	69	89	309.7159095115176	406	0	0	32	1	0	com.netflix.discovery.shared.transport.decorator.ServerStatusEvaluator	0	0	0	1	0	1	state	State	1	0
+0	9	106	251	875	1700.3301954757612	385	-1	0	189	21	32	com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient	7	1	0	20	10	8	context	State	40	-1
+0	5	131	156	587	994.5038718931831	401	-1	0	225	27	32	com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient	12	1	0	20	5	13	adapter	(Object)Adapter	45	2
+0	1	46	74	302	422.5715992857404	407	0	10	68	13	0	com.netflix.discovery.shared.transport.decorator.ServerStatusEvaluators	0	0	0	1	2	5			5	0
+1	1	17	34	80	148.98890557891195	448	1	0	53	8	8	com.netflix.discovery.shared.transport.jersey.JerseyApplicationClientTest	0	3	0	6	1	3			11	1
+-1	0	10	19	24	60.38302277661097	318	0	1	16	2	0	com.netflix.discovery.shared.transport.jersey.EurekaJerseyClient	0	0	0	1	0	2	state	State	2	0
+-1	0	38	53	280	298.6438489679702	464	-1	15	71	12	14	com.netflix.discovery.shared.transport.jersey.TransportClientFactories	0	0	0	10	0	6			20	-1
+0	5	158	245	1102	1716.1960874796505	388	-1	10	289	18	43	com.netflix.discovery.shared.transport.jersey.JerseyEurekaHttpClientFactory	0	0	0	31	5	9	context	State	52	-1
+0	7	56	115	315	661.5458534649478	449	-1	6	107	9	19	com.netflix.discovery.shared.transport.jersey.ApacheHttpClientConnectionCleaner	0	0	0	14	7	5	adaptee	(Object)Adapter	24	-1
+1	1	18	55	105	255.96781925866378	387	0	0	47	4	3	com.netflix.discovery.shared.transport.jersey.JerseyApplicationClient	1	1	0	4	1	2			5	0
+0	3	215	193	1473	1407.9458883772877	272	-1	81	300	47	155	com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient	0	0	2	23	3	18	abstractClass	Template Method	173	1
+0	5	195	234	1488	1709.4140424019706	338	1	0	263	6	8	com.netflix.discovery.shared.transport.jersey.EurekaJerseyClientImpl	0	0	0	23	7	3	adapter	(Object)Adapter	11	1
+-1	0	26	61	133	298.311296821527	216	0	1	52	4	17	com.netflix.discovery.shared.ApplicationsTest	0	0	0	8	0	2			19	0
+0	8	374	544	2766	4311.285686650239	92	-1	220	550	70	76	com.netflix.discovery.shared.Applications	0	0	0	30	13	24			100	-1
+0	3	109	167	590	1065.4804636622607	241	-1	128	174	34	29	com.netflix.discovery.shared.NamedConnectionPool	0	0	0	18	8	20			49	1
+-1	0	32	175	323	1011.0891565639648	94	0	6	87	13	0	com.netflix.discovery.shared.LookupService	0	0	0	2	0	4			4	0
+0	2	26	55	134	269.3811889973001	95	1	0	51	7	0	com.netflix.discovery.shared.Pair	0	0	0	0	2	5	adaptee	(Object)Adapter	5	1
+-1	0	35	74	181	384.68878031367115	240	-1	28	68	13	4	com.netflix.discovery.shared.MonitoredConnectionManager	0	0	0	9	0	8			12	-1
+0	5	149	241	1010	1667.1670519703084	91	-1	20	261	32	34	com.netflix.discovery.shared.Application	0	0	0	23	5	16			50	-1
+-1	0	14	36	61	147.99145911023922	412	0	1	55	5	7	com.netflix.discovery.shared.resolver.StaticClusterResolverTest	0	0	0	5	0	2			9	0
+-1	0	24	36	98	165.0588292321406	396	-1	3	62	6	19	com.netflix.discovery.shared.resolver.ResolverUtilsTest	0	0	0	7	0	3			22	0
+0	2	50	83	258	460.89564554849426	395	0	0	104	9	20	com.netflix.discovery.shared.resolver.ReloadingClusterResolverTest	0	0	0	9	2	3			23	0
+0	3	43	52	167	266.1356782456713	439	1	0	96	7	32	com.netflix.discovery.shared.resolver.AsyncResolverTest	0	0	0	18	3	4			36	1
+0	3	31	71	159	359.89219835763646	375	1	0	71	9	8	com.netflix.discovery.shared.resolver.StaticClusterResolver	0	0	0	5	3	5			13	1
+-1	0	6	16	17	45.33141350489946	435	0	0	8	1	0	com.netflix.discovery.shared.resolver.ClosableResolver	0	0	0	0	0	1			1	0
+0	3	90	139	577	883.7400750446259	427	3	0	148	31	16	com.netflix.discovery.shared.resolver.DefaultEndpoint	0	0	1	4	5	13			29	3
+-1	0	7	17	18	49.136319884234794	366	0	1	29	2	0	com.netflix.discovery.shared.resolver.ClusterResolver	0	0	0	1	0	2	state	State	2	0
+0	1	12	29	45	110.39321220333927	367	0	1	33	2	0	com.netflix.discovery.shared.resolver.ClusterResolverException	0	0	0	0	1	2			2	0
+0	4	79	218	626	1403.7783808998215	373	-1	0	141	15	30	com.netflix.discovery.shared.resolver.ReloadingClusterResolver	0	0	0	8	9	5	context	State	35	1
+0	3	93	175	575	1112.0147571395364	374	-1	15	150	20	25	com.netflix.discovery.shared.resolver.ResolverUtils	0	0	0	16	3	6			31	0
+0	3	33	117	226	634.2025949148575	369	0	0	68	7	5	com.netflix.discovery.shared.resolver.DnsClusterResolver	0	0	0	5	3	3			8	0
+0	2	53	145	431	879.5856730650434	409	1	0	124	5	3	com.netflix.discovery.shared.resolver.LegacyClusterResolver	0	0	0	11	2	3	decorator	Decorator	6	1
+-1	0	6	15	15	40.62075301653315	368	0	0	25	1	0	com.netflix.discovery.shared.resolver.ClusterResolverFactory	0	0	0	0	0	1	state	State	1	0
+0	11	117	242	785	1613.0954597033428	431	-1	0	220	29	31	com.netflix.discovery.shared.resolver.AsyncResolver	0	0	0	18	13	11	context	State	42	-1
+-1	0	11	25	34	88.15901311540404	371	0	15	37	6	0	com.netflix.discovery.shared.resolver.EurekaEndpoint	0	0	0	0	0	6	state	State	6	0
+-1	0	25	34	111	160.12402684461935	398	-1	3	64	6	22	com.netflix.discovery.shared.resolver.aws.ZoneAffinityClusterResolverTest	0	0	0	6	0	3			25	0
+0	3	24	45	94	204.44826520215017	446	0	0	60	3	13	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolverTest	0	0	0	13	5	2			15	0
+0	6	38	50	146	249.1803310854168	440	1	0	86	5	42	com.netflix.discovery.shared.resolver.aws.ApplicationsResolverTest	0	0	0	16	6	4			46	1
+-1	0	9	32	42	119.60542778506779	442	0	0	16	1	0	com.netflix.discovery.shared.resolver.aws.TestEurekaHttpResolver	1	0	0	3	0	1			1	0
+0	2	23	47	128	228.045422404222	-1	0	0	93	6	1	com.netflix.discovery.shared.resolver.aws.SampleClusterBuilder	0	0	0	2	4	3			4	0
+0	7	46	65	198	343.7373569951448	441	1	0	90	10	52	com.netflix.discovery.shared.resolver.aws.EurekaHttpResolverTest	0	0	0	19	7	5			57	1
+0	4	75	229	666	1488.7953345537492	370	1	0	156	20	9	com.netflix.discovery.shared.resolver.aws.DnsTxtRecordClusterResolver	0	0	0	10	7	5			14	1
+0	1	46	98	322	565.906051463352	428	2	0	71	16	6	com.netflix.discovery.shared.resolver.aws.AwsEndpoint	3	4	0	4	2	7			13	2
+0	5	45	98	288	554.9701270533227	432	0	0	79	9	8	com.netflix.discovery.shared.resolver.aws.ApplicationsResolver	0	0	0	11	5	4	context	State	12	0
+0	5	62	113	434	686.2540323533458	433	1	0	112	13	17	com.netflix.discovery.shared.resolver.aws.EurekaHttpResolver	0	0	1	19	5	5	context	State	22	1
+0	3	52	104	316	598.5971902130389	445	1	0	95	14	26	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	0	0	0	11	3	5	context	State	31	1
+0	4	45	113	274	634.2834760218519	376	1	0	84	9	10	com.netflix.discovery.shared.resolver.aws.ZoneAffinityClusterResolver	0	0	0	6	4	4	decorator	Decorator	14	1
+-1	0	19	29	78	126.34455597399815	242	-1	1	40	4	20	com.netflix.discovery.converters.XmlCodecTest	0	0	0	7	0	2			22	0
+0	3	204	211	1499	1542.948788099648	298	-1	226	334	65	167	com.netflix.discovery.converters.EurekaCodecCompatibilityTest	0	0	0	26	4	24			191	-1
+0	10	235	282	1596	2079.822129398751	225	-1	118	301	60	69	com.netflix.discovery.converters.CodecLoadTester	0	0	0	17	14	17			86	-1
+0	4	130	103	628	663.5816371462245	227	5	0	229	24	66	com.netflix.discovery.converters.EurekaJacksonCodecTest	0	0	0	14	8	12			78	5
+0	1	23	49	109	229.87604622922802	220	-1	1	36	6	7	com.netflix.discovery.converters.StringCacheTest	0	0	0	3	1	2			9	-1
+0	2	155	151	778	1005.1657051509371	289	-1	409	259	65	125	com.netflix.discovery.converters.EurekaJsonAndXmlJacksonCodecTest	0	0	0	21	2	31			156	-1
+0	0	28	72	144	357.8265575694721	87	0	3	69	6	8	com.netflix.discovery.converters.XmlXStream	0	0	0	8	1	3	singleton	Singleton	11	0
+0	1	36	108	265	602.610821206512	85	-1	3	91	15	12	com.netflix.discovery.converters.EntityBodyConverter	0	0	0	6	2	3			15	0
+0	3	464	452	3900	3737.466788117217	84	-1	0	794	10	24	com.netflix.discovery.converters.Converters	0	0	0	27	8	2			26	-1
+0	6	535	539	4597	4545.472806539557	221	1	19	640	33	27	com.netflix.discovery.converters.EurekaJacksonCodec	0	0	0	42	40	11	singleton	Singleton	38	1
+0	1	35	81	199	428.7576908026839	290	0	0	51	11	5	com.netflix.discovery.converters.KeyFormatter	0	0	0	3	3	4	singleton	Singleton	9	0
+0	1	34	76	178	393.8155498221985	86	0	4	76	9	8	com.netflix.discovery.converters.JsonXStream	0	0	0	9	2	4	singleton	Singleton	12	0
+1	1	32	59	204	313.7690796368087	351	0	0	61	1	5	com.netflix.discovery.converters.wrappers.CodecWrappersTest	0	0	0	6	1	1			6	0
+-1	0	7	17	19	50.055462645829486	303	0	1	13	2	0	com.netflix.discovery.converters.wrappers.CodecWrapperBase	0	0	0	1	0	2			2	0
+0	1	250	218	952	1495.1671775845175	304	-1	33	390	27	28	com.netflix.discovery.converters.wrappers.CodecWrappers	0	0	0	14	1	10			38	-1
+-1	0	7	25	33	87.412689036662	307	0	1	13	4	0	com.netflix.discovery.converters.wrappers.EncoderWrapper	0	0	0	2	0	2			2	0
+-1	0	7	25	36	89.58797346140275	305	0	1	14	4	0	com.netflix.discovery.converters.wrappers.DecoderWrapper	0	0	0	2	0	2			2	0
+-1	0	6	18	19	52.99990162499593	306	-1	0	9	0	0	com.netflix.discovery.converters.wrappers.CodecWrapper	0	0	0	0	0	0			0	-1
+-1	0	11	54	108	252.83508626470788	217	0	0	37	2	3	com.netflix.appinfo.AmazonInfoTest	0	0	0	4	0	1			4	0
+0	4	28	47	104	218.2863722596445	454	0	4	59	6	17	com.netflix.appinfo.ApplicationInfoManagerTest	0	0	0	13	4	4			21	0
+-1	0	69	88	314	505.9465827599263	179	-1	28	142	16	63	com.netflix.appinfo.InstanceInfoTest	0	0	0	15	0	8			71	0
+0	3	88	96	404	576.1358282842705	455	-1	18	144	20	61	com.netflix.appinfo.CloudInstanceConfigTest	0	0	0	12	3	13			74	1
+-1	0	7	26	30	88.43113192321604	203	0	0	12	1	0	com.netflix.appinfo.HealthCheckHandler	0	0	0	0	0	1			1	0
+-1	0	137	448	1896	3381.280753901105	71	0	325	374	98	0	com.netflix.appinfo.EurekaInstanceConfig	0	0	0	2	0	26	state	State	26	0
+0	4	115	277	780	1844.6244157523677	68	2	0	198	30	32	com.netflix.appinfo.ApplicationInfoManager	0	0	0	9	5	12	context	State	44	2
+0	5	137	278	1030	1928.5733145801835	69	-1	6	220	37	38	com.netflix.appinfo.CloudInstanceConfig	11	2	0	13	5	13			51	-1
+1	1	18	45	85	199.91930654206425	202	1	0	28	5	1	com.netflix.appinfo.HealthCheckCallbackToHandlerBridge	0	0	0	0	1	3	context	State	4	1
+0	2	154	240	947	1644.7917823646587	75	0	16	247	22	0	com.netflix.appinfo.LeaseInfo	0	0	0	4	8	8			8	0
+0	4	163	279	927	1906.1150447928735	77	10	0	352	60	67	com.netflix.appinfo.PropertiesInstanceConfig	16	12	2	10	26	28			95	10
+0	6	80	118	384	702.1758212053518	66	-1	149	222	35	12	com.netflix.appinfo.AbstractInstanceConfig	0	0	2	6	11	18	adapter	(Object)Adapter	30	-1
+1	1	26	58	90	260.98896087915534	73	0	0	65	4	6	com.netflix.appinfo.HealthCheckResource	0	0	0	6	1	1			7	0
+-1	0	14	36	58	146.1759483796711	76	0	3	44	3	0	com.netflix.appinfo.MyDataCenterInstanceConfig	3	0	0	3	0	3			3	0
+-1	0	12	102	155	514.4293619257631	72	0	0	54	3	0	com.netflix.appinfo.HealthCheckCallback	0	0	0	0	0	1	state	State	1	0
+-1	0	7	23	25	74.03414397196862	180	0	0	10	1	0	com.netflix.appinfo.UniqueIdentifier	0	0	0	0	0	1			1	0
+1	1	12	28	43	105.31360323941975	282	0	0	22	3	0	com.netflix.appinfo.MyDataCenterInfo	0	0	0	2	1	2			2	0
+0	1	9	21	51	82.56833828721084	205	0	3	18	3	0	com.netflix.appinfo.AbstractEurekaIdentity	0	0	2	1	4	3	state	State	3	0
+0	6	73	128	447	781.1275001105369	67	-1	16	349	28	8	com.netflix.appinfo.AmazonInfo	0	0	0	21	11	9			17	-1
+1	1	10	29	33	101.39871928252792	70	0	0	38	1	0	com.netflix.appinfo.DataCenterInfo	0	0	0	5	1	1			1	0
+0	1	20	42	87	187.56814098349253	206	0	4	30	7	0	com.netflix.appinfo.EurekaClientIdentity	1	3	0	0	3	4			4	0
+0	13	199	334	1161	2357.0503518870955	74	-1	13	1364	20	17	com.netflix.appinfo.InstanceInfo	0	0	0	24	44	7	adaptee	(Object)Adapter	24	0
+-1	0	14	40	57	161.722050713382	393	0	1	39	4	0	com.netflix.discovery.shared.dns.DnsService	0	0	0	2	0	2	state	State	2	0
+-1	0	11	27	43	101.55240312372618	394	0	1	38	4	2	com.netflix.discovery.shared.dns.DnsServiceImpl	0	0	0	3	0	2			4	0
+-1	0	8	39	52	154.09850502467566	89	0	1	35	4	0	com.netflix.discovery.provider.ISerializer	0	0	0	4	0	2			2	0
+0	4	167	288	1357	2077.3531180324426	88	-1	53	253	49	45	com.netflix.discovery.provider.DiscoveryJerseyProvider	0	0	0	22	4	14			59	0
+0	3	117	178	737	1175.260644809702	229	0	9	147	26	22	com.netflix.discovery.endpoint.DnsResolver	0	0	0	15	9	6			28	0
+0	3	300	451	2519	3532.059391635027	349	-1	6	369	49	59	com.netflix.discovery.endpoint.EndpointUtils	0	0	0	13	4	9			68	-1
+0	2	43	103	230	560.1221688190891	336	0	4	85	9	12	com.netflix.discovery.converters.jackson.EurekaJsonJacksonCodec	3	1	0	12	3	4			16	0
+-1	0	21	42	145	209.02281718166412	295	-1	3	37	8	4	com.netflix.discovery.converters.jackson.EurekaJacksonJsonModifiers	0	0	0	10	0	3			7	0
+0	1	31	54	146	269.11475757225014	337	-1	4	71	9	13	com.netflix.discovery.converters.jackson.EurekaXmlJacksonCodec	3	1	0	14	1	4			17	-1
+0	1	40	76	243	417.47266969388164	335	-1	26	70	16	17	com.netflix.discovery.converters.jackson.AbstractEurekaJacksonCodec	0	0	2	16	1	8			25	-1
+-1	0	21	40	142	198.23308230405044	344	-1	3	53	8	4	com.netflix.discovery.converters.jackson.EurekaJacksonXmlModifiers	0	0	0	10	0	3			7	0
+0	1	24	58	119	277.1891626004687	294	-1	1	41	7	8	com.netflix.discovery.converters.jackson.DataCenterTypeInfoResolver	0	0	0	7	1	3			11	0
+-1	0	27	70	175	361.535018174646	461	0	1	55	7	7	com.netflix.discovery.converters.jackson.serializer.PortWrapperXmlDeserializer	0	0	0	7	0	2			9	0
+1	1	22	56	116	266.20105070195643	342	0	0	53	5	5	com.netflix.discovery.converters.jackson.serializer.ApplicationsJsonBeanSerializer	0	0	0	7	2	2			7	0
+-1	0	26	68	164	346.7909170920455	460	0	1	59	7	7	com.netflix.discovery.converters.jackson.serializer.ApplicationXmlDeserializer	0	0	0	11	0	2			9	0
+1	1	22	56	116	266.20105070195643	343	0	0	53	5	5	com.netflix.discovery.converters.jackson.serializer.ApplicationsXmlBeanSerializer	0	0	0	7	2	2			7	0
+0	3	38	92	206	490.16460752864145	345	0	0	76	5	12	com.netflix.discovery.converters.jackson.serializer.InstanceInfoJsonBeanSerializer	0	0	0	10	3	2			14	0
+-1	0	32	61	146	304.0000039242085	346	0	1	65	3	12	com.netflix.discovery.converters.jackson.serializer.InstanceInfoXmlBeanSerializer	0	0	0	8	0	2			14	0
+-1	0	6	28	28	93.30172628490571	347	0	0	36	1	0	com.netflix.discovery.converters.jackson.mixin.ApplicationXmlMixIn	0	0	0	6	0	1			1	0
+-1	0	5	11	11	26.376848000782076	283	-1	0	11	0	0	com.netflix.discovery.converters.jackson.mixin.DataCenterInfoXmlMixIn	0	0	0	2	0	0			0	-1
+-1	0	17	31	58	125.87373332693899	288	0	66	50	12	0	com.netflix.discovery.converters.jackson.mixin.MiniInstanceInfoMixIn	0	0	0	4	0	12			12	0
+-1	0	6	37	37	133.6039627678363	348	0	0	35	1	0	com.netflix.discovery.converters.jackson.mixin.ApplicationsXmlMixIn	0	0	0	5	0	1			1	0
+-1	0	6	23	24	73.09523809800275	405	0	0	31	1	0	com.netflix.discovery.converters.jackson.mixin.InstanceInfoJsonMixIn	0	0	0	3	0	1			1	0
+-1	0	5	18	18	52.02669164213096	458	-1	0	27	0	0	com.netflix.discovery.converters.jackson.mixin.ApplicationsJsonMixIn	0	0	0	2	0	0			0	-1
+-1	0	5	23	23	72.11636696637044	459	-1	0	27	0	0	com.netflix.discovery.converters.jackson.mixin.PortWrapperXmlMixIn	0	0	0	2	0	0			0	-1
+-1	0	8	26	32	90.10913347279289	457	0	0	34	1	0	com.netflix.discovery.converters.jackson.builder.ApplicationsXmlJacksonBuilder	0	1	0	3	0	1			1	0
+0	2	39	96	229	521.637312341207	299	0	1	78	8	8	com.netflix.discovery.converters.jackson.builder.StringInterningAmazonInfoBuilder	0	0	0	8	2	3			11	0
+0	4	37	112	263	624.0812516039097	456	0	0	71	8	5	com.netflix.discovery.converters.jackson.builder.ApplicationsJacksonBuilder	0	0	1	8	4	3			8	0
+1	2	20	44	104	204.3531995622204	187	0	0	35	4	2	com.netflix.appinfo.providers.CloudInstanceConfigProvider	0	0	0	5	2	1			3	0
+0	3	55	126	430	764.0369362946386	188	0	0	121	6	55	com.netflix.appinfo.providers.EurekaConfigBasedInstanceInfoProvider	0	0	0	14	3	2	context	State	57	0
+1	2	16	30	89	134.6590910919642	189	0	0	31	4	2	com.netflix.appinfo.providers.MyDataCenterInstanceConfigProvider	0	0	0	6	2	1			3	0
+0	1	27	46	109	215.8020025825406	361	-1	1	52	5	15	com.netflix.eureka.EurekaContextListener	0	0	0	8	1	3	context	State	18	0
+0	2	32	67	231	364.64198660496015	362	-1	1	64	8	17	com.netflix.eureka.EurekaInjectorCreator	0	0	0	15	2	2			19	-1
+0	3	95	170	662	1104.1951445092914	238	1	0	137	13	23	com.netflix.eureka.ExampleServiceBase	0	0	0	15	3	5	context	State	28	1
+0	1	55	144	419	869.4534124687877	121	-1	1	108	5	19	com.netflix.eureka.ExampleEurekaClient	0	0	0	12	1	2			21	-1
+-1	0	19	59	104	274.01906304934096	237	0	0	50	1	5	com.netflix.eureka.ExampleEurekaService	0	0	0	6	0	1			6	0
+-1	0	40	86	231	468.0479231048742	236	0	3	64	10	17	com.netflix.eureka.ExampleEurekaGovernatedService	0	0	0	7	0	3			20	0
+0	8	125	189	647	1223.2734496606702	199	0	25	198	22	53	com.netflix.eureka.AbstractTester	0	0	7	28	16	10			63	0
+0	5	75	91	346	532.0259285302529	214	2	0	162	17	43	com.netflix.eureka.RateLimitingFilterTest	0	0	0	20	9	6			49	2
+-1	0	49	77	281	434.1533095386984	165	-1	6	74	8	32	com.netflix.eureka.DefaultEurekaServerConfigTest	0	0	0	5	0	4			36	0
+-1	0	21	47	96	214.5243649989883	210	0	3	37	7	10	com.netflix.eureka.RemoteRegionSoftDependencyTest	1	2	0	5	0	3			13	0
+-1	0	69	157	557	992.6427426685837	317	-1	21	112	18	10	com.netflix.eureka.GzipEncodingEnforcingFilter	0	0	0	15	0	7			17	-1
+-1	1	11	57	76	246.85180039632087	332	-1	0	37	0	0	com.netflix.eureka.Names	0	0	0	0	3	0			0	-1
+0	1	20	42	87	187.56814098349253	208	0	4	32	7	0	com.netflix.eureka.EurekaServerIdentity	1	3	0	1	3	4			4	0
+-1	0	355	616	2744	4876.977945128998	126	0	2556	658	206	0	com.netflix.eureka.EurekaServerConfig	0	0	0	4	0	72	implementor	Bridge	72	0
+-1	0	12	27	37	97.49478364139405	353	0	21	43	9	0	com.netflix.eureka.EurekaServerContext	0	0	0	4	0	7	state	State	7	0
+0	2	39	93	236	508.1363578673818	209	0	15	77	12	14	com.netflix.eureka.ServerRequestAuthFilter	0	0	0	14	3	7	context	State	21	0
+0	4	125	257	761	1705.1007729704534	125	0	0	248	24	38	com.netflix.eureka.EurekaBootStrap	0	0	0	31	10	8	context	State	46	0
+0	6	46	82	222	443.0195453135269	352	1	4	103	15	5	com.netflix.eureka.DefaultEurekaServerContext	0	0	0	10	6	8	context	State	13	1
+-1	0	25	55	88	246.25352479630138	131	0	0	53	6	3	com.netflix.eureka.V1AwareInstanceInfoConverter	0	0	0	4	0	1			4	0
+0	1	20	42	84	186.09430555141915	354	0	0	45	6	0	com.netflix.eureka.EurekaServerContextHolder	0	0	0	0	2	4	singleton	Singleton	4	0
+0	1	19	80	136	393.0123908588842	130	0	3	79	7	5	com.netflix.eureka.StatusFilter	0	0	0	12	1	3			8	0
+0	8	319	436	1910	3293.9183151737348	124	-1	0	671	160	162	com.netflix.eureka.DefaultEurekaServerConfig	0	0	0	18	15	75			237	28
+0	6	123	321	1003	2218.3510029357813	212	0	9	232	28	33	com.netflix.eureka.RateLimitingFilter	0	0	0	23	7	11	context	State	44	0
+-1	0	21	37	79	161.6695705412798	392	0	3	49	5	7	com.netflix.eureka.guice.LocalDevEurekaServerModule	0	0	0	14	0	3			10	0
+-1	0	11	26	40	95.91086580696235	453	0	1	19	4	3	com.netflix.eureka.guice.LocalDevEurekaClientModule	0	0	0	1	0	2			5	0
+-1	0	22	38	83	167.91594309627072	363	0	3	51	5	7	com.netflix.eureka.guice.Ec2EurekaServerModule	0	0	0	15	0	3			10	0
+-1	0	11	26	40	95.91086580696235	452	0	1	19	4	3	com.netflix.eureka.guice.Ec2EurekaClientModule	0	0	0	1	0	2			5	0
+1	1	20	41	86	182.6282391463938	424	1	0	54	8	7	com.netflix.discovery.shared.transport.jersey2.Jersey2ApplicationClientTest	0	3	0	6	1	3			10	1
+0	4	218	189	1472	1378.6373095655872	422	-1	79	307	47	153	com.netflix.discovery.shared.transport.jersey2.Jersey2ApplicationClient	0	0	0	25	4	18			171	1
+0	3	79	133	592	849.0063824395727	423	0	0	134	6	2	com.netflix.discovery.shared.transport.jersey2.Jersey2ApplicationClientFactory	0	0	0	17	3	4			6	0
+0	10	166	259	893	1759.7979244470132	273	3	36	296	37	131	com.netflix.eureka.resources.EurekaClientServerRestIntegrationTest	0	0	0	35	10	16			147	3
+0	4	57	75	271	420.1589115659776	266	3	0	120	20	69	com.netflix.eureka.resources.PeerReplicationResourceTest	0	0	0	20	4	8			77	3
+0	3	34	45	152	226.07462343808243	218	2	0	69	11	36	com.netflix.eureka.resources.InstanceResourceTest	4	1	0	10	3	5			41	2
+0	2	83	92	432	558.2951541184582	310	2	0	150	14	65	com.netflix.eureka.resources.ApplicationResourceTest	5	1	0	22	2	6			71	2
+0	3	44	75	261	417.33903054920205	316	0	0	97	11	36	com.netflix.eureka.resources.AbstractVIPResourceTest	3	1	0	17	3	4			40	0
+0	2	56	67	333	389.14554682868976	311	2	0	129	13	46	com.netflix.eureka.resources.ApplicationsResourceTest	4	1	0	16	2	5			51	2
+0	1	21	87	137	428.03834054704686	123	0	1	56	5	2	com.netflix.eureka.resources.CurrentRequestVersion	0	0	0	1	1	3			5	0
+-1	0	15	52	78	226.54885898785878	160	0	3	61	4	4	com.netflix.eureka.resources.VIPResource	3	0	0	11	0	3			7	0
+0	2	25	70	128	339.6421184743732	140	0	1	72	7	12	com.netflix.eureka.resources.InstancesResource	0	0	0	15	2	3			15	0
+0	5	108	201	730	1325.2019513626299	137	2	0	195	21	33	com.netflix.eureka.resources.ApplicationResource	0	0	0	24	5	7	context	State	40	2
+0	4	52	129	343	753.0672276844062	136	0	2	126	14	19	com.netflix.eureka.resources.ASGResource	0	0	0	16	4	4	context	State	23	0
+0	4	112	244	848	1645.2628751332243	138	1	0	240	18	40	com.netflix.eureka.resources.ApplicationsResource	0	0	0	26	9	5	context	State	45	1
+0	1	18	41	70	174.18830492402373	302	0	1	42	5	7	com.netflix.eureka.resources.ServerInfoResource	0	0	0	11	1	3			10	0
+0	1	103	112	287	633.8620081650776	359	-1	37	161	22	8	com.netflix.eureka.resources.DefaultServerCodecs	0	0	0	8	4	11			19	-1
+0	3	36	77	186	402.3824938759165	158	0	1	81	6	13	com.netflix.eureka.resources.AbstractVIPResource	0	0	2	10	3	3	abstraction	Bridge	16	0
+-1	0	15	53	79	231.58073618075213	159	0	3	61	4	4	com.netflix.eureka.resources.SecureVIPResource	3	0	0	11	0	3			7	0
+0	5	186	314	1517	2299.889853515439	139	3	0	325	40	81	com.netflix.eureka.resources.InstanceResource	0	0	0	25	5	8	context	State	89	3
+0	4	103	183	423	1106.6691087654688	174	-1	40	173	29	54	com.netflix.eureka.resources.PeerReplicationResource	0	0	0	18	4	12			66	0
+-1	0	11	24	40	88.53310689873447	309	0	15	24	6	0	com.netflix.eureka.resources.ServerCodecs	0	0	0	4	0	6	state	State	6	0
+0	3	22	54	95	245.9093521464292	142	0	4	64	7	4	com.netflix.eureka.resources.StatusResource	0	0	0	12	3	4			8	0
+0	1	51	89	204	473.3126794521352	264	-1	15	124	15	23	com.netflix.eureka.cluster.ClusterSampleData	0	0	0	10	4	6			29	-1
+0	3	82	129	488	798.5506873550561	265	1	0	147	12	31	com.netflix.eureka.cluster.PeerEurekaNodesTest	0	0	0	20	5	4			35	1
+0	2	65	61	288	345.4405892882927	259	4	0	109	19	67	com.netflix.eureka.cluster.ReplicationTaskProcessorTest	0	0	0	11	2	9			76	4
+0	6	89	100	400	599.1464547107981	257	3	0	172	31	96	com.netflix.eureka.cluster.PeerEurekaNodeTest	0	0	0	25	6	13			109	3
+0	6	67	138	385	821.5475801317143	256	3	0	190	22	124	com.netflix.eureka.cluster.JerseyReplicationClientTest	0	0	0	29	6	10			134	3
+0	7	117	178	678	1160.4082172533904	260	1	130	189	40	30	com.netflix.eureka.cluster.TestableHttpReplicationClient	0	0	0	18	9	21			51	1
+0	4	58	88	309	504.53403236700166	261	0	7	97	12	4	com.netflix.eureka.cluster.TestableInstanceReplicationTask	6	0	0	4	6	6			10	0
+0	4	157	295	1145	2077.7321752165603	249	1	19	191	38	62	com.netflix.eureka.cluster.ReplicationTaskProcessor	0	0	0	13	4	10	context	State	72	1
+-1	0	7	23	27	75.80424791809958	246	0	1	18	2	0	com.netflix.eureka.cluster.HttpReplicationClient	0	0	0	5	0	2	state	State	2	0
+0	9	156	275	1034	1908.827265143803	263	-1	28	228	39	48	com.netflix.eureka.cluster.PeerEurekaNodes	0	0	0	23	9	12	context	State	60	-1
+0	4	48	90	231	489.8175939469614	280	0	0	71	14	2	com.netflix.eureka.cluster.InstanceReplicationTask	7	1	1	3	5	8			10	0
+0	2	22	52	103	241.00590738794108	279	0	0	34	7	0	com.netflix.eureka.cluster.AsgReplicationTask	3	1	0	2	2	4			4	0
+0	8	244	377	1804	2826.6561611347083	133	-1	50	396	74	73	com.netflix.eureka.cluster.PeerEurekaNode	0	0	0	14	15	25	context	State	98	-1
+0	2	59	93	346	543.7188060803684	274	0	4	87	11	18	com.netflix.eureka.cluster.DynamicGZIPContentEncodingFilter	0	0	0	13	2	4	context	State	22	0
+0	3	22	56	105	260.62177960882127	248	-1	13	37	9	2	com.netflix.eureka.cluster.ReplicationTask	0	0	2	4	3	6	abstractClass	Template Method	8	-1
+1	1	32	52	142	257.7030069952656	262	1	0	63	8	26	com.netflix.eureka.cluster.protocol.JacksonEncodingTest	0	0	0	6	1	4			30	1
+0	1	30	65	152	326.55223385500796	252	2	0	56	11	5	com.netflix.eureka.cluster.protocol.ReplicationList	0	0	0	6	1	7			12	2
+0	4	115	148	776	984.8145729871164	250	2	7	173	22	4	com.netflix.eureka.cluster.protocol.ReplicationInstance	0	0	0	4	7	11			15	2
+0	2	45	83	277	466.7934530135491	251	1	0	74	10	3	com.netflix.eureka.cluster.protocol.ReplicationInstanceResponse	0	0	0	3	2	5			8	1
+1	1	27	67	146	333.90164365445855	253	2	0	51	10	4	com.netflix.eureka.cluster.protocol.ReplicationListResponse	0	0	0	5	1	6			10	2
+0	3	70	89	379	528.440722252336	328	3	0	138	25	51	com.netflix.eureka.util.batcher.AcceptorExecutorTest	0	0	0	11	6	9			60	3
+0	1	55	71	134	347.7466257965147	329	-1	22	95	22	18	com.netflix.eureka.util.batcher.RecordingProcessor	0	0	0	8	3	8			26	-1
+0	4	85	130	546	819.3404668468377	330	1	0	170	14	20	com.netflix.eureka.util.batcher.TaskDispatchersTest	0	0	0	13	7	4			24	1
+0	5	55	68	238	372.1144058096603	331	3	0	124	21	46	com.netflix.eureka.util.batcher.TaskExecutorsTest	0	0	0	16	5	8			54	3
+-1	0	34	59	273	330.95883591591263	323	-1	15	60	8	10	com.netflix.eureka.util.batcher.TaskDispatchers	0	0	0	0	0	6			16	-1
+0	3	193	261	698	1709.0851858209792	324	2	0	271	13	7	com.netflix.eureka.util.batcher.TaskExecutors	0	0	0	15	3	6			13	2
+1	1	20	92	143	456.58170598391143	326	0	0	35	5	0	com.netflix.eureka.util.batcher.TaskProcessor	0	0	0	1	1	2			2	0
+-1	0	8	120	158	607.511403963236	322	0	1	23	2	0	com.netflix.eureka.util.batcher.TaskDispatcher	0	0	0	0	0	2	state	State	2	0
+0	3	27	35	102	161.87404846494948	325	0	2	35	9	1	com.netflix.eureka.util.batcher.TaskHolder	0	0	0	0	4	5			6	0
+0	1	47	104	298	592.4977225965621	327	0	0	77	8	3	com.netflix.eureka.util.batcher.TrafficShaper	0	0	0	1	5	3			6	0
+0	13	227	375	1873	2825.7362634165333	321	-1	44	329	22	24	com.netflix.eureka.util.batcher.AcceptorExecutor	0	0	0	24	21	12			36	0
+0	4	31	59	128	286.2697855712574	360	-1	3	68	6	14	com.netflix.eureka.util.AwsAsgUtilTest	0	0	0	18	4	3			17	0
+0	4	55	91	334	528.8138303608798	391	0	0	76	11	20	com.netflix.eureka.util.StatusUtil	0	0	0	9	4	3			23	0
+0	4	92	166	527	1040.3552910578662	147	-1	21	140	17	9	com.netflix.eureka.util.StatusInfo	0	0	0	12	5	7			16	0
+0	4	40	72	203	382.5508304910087	146	1	0	71	7	9	com.netflix.eureka.util.MeasuredRate	0	0	0	5	5	4	adaptee	(Object)Adapter	13	1
+0	2	40	76	222	410.60348102229324	198	1	0	94	13	22	com.netflix.eureka.registry.ResponseCacheTest	3	1	0	12	2	4			26	1
+-1	0	118	181	757	1199.9147488721783	164	-1	55	184	32	77	com.netflix.eureka.registry.InstanceRegistryTest	11	0	0	15	0	11			88	0
+0	2	55	123	377	729.6661580561054	355	0	0	122	11	9	com.netflix.eureka.registry.AwsInstanceRegistry	2	2	0	12	2	4			13	0
+-1	0	17	103	166	526.5347422007239	357	0	10	55	11	0	com.netflix.eureka.registry.PeerAwareInstanceRegistry	0	0	0	5	0	5	implementor	Bridge	5	0
+0	18	956	1120	8154	10087.015549384701	244	-1	407	1347	157	344	com.netflix.eureka.registry.AbstractInstanceRegistry	0	0	1	40	23	43	abstraction	Bridge	387	-1
+0	11	329	475	2462	3709.1464207035897	157	-1	8	489	68	132	com.netflix.eureka.registry.RemoteRegionRegistry	0	0	0	41	13	17	context	State	149	1
+-1	0	50	113	318	651.11180625416	356	0	231	97	33	0	com.netflix.eureka.registry.InstanceRegistry	0	0	0	10	0	22	state	State	22	0
+0	12	385	512	2390	3982.8729062018847	141	-1	100	540	80	120	com.netflix.eureka.registry.ResponseCacheImpl	0	0	0	39	23	21	context	State	141	-1
+0	7	78	117	371	692.1956413250699	364	-1	29	105	31	8	com.netflix.eureka.registry.Key	0	0	0	4	9	14			22	-1
+0	12	434	712	3351	5779.314030468965	245	-1	313	729	107	128	com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl	21	10	1	36	12	31	adapter	(Object)Adapter	159	-1
+-1	0	20	67	143	332.5105902274138	358	0	10	38	9	0	com.netflix.eureka.registry.ResponseCache	0	0	0	2	0	5	implementor	Bridge	5	0
+0	5	123	207	940	1417.0971341796583	166	0	33	185	24	28	com.netflix.eureka.mock.MockRemoteEurekaServer	0	0	0	21	7	10			38	0
+0	6	59	97	407	582.8548789879317	414	0	0	126	10	34	com.netflix.eureka.transport.JerseyRemoteRegionClientFactory	0	0	0	18	6	4	context	State	38	0
+0	1	29	65	161	330.2912837239901	413	-1	10	83	9	7	com.netflix.eureka.transport.EurekaServerHttpClients	0	0	0	14	1	5			12	-1
+0	3	115	191	741	1262.1281194315525	247	-1	6	187	23	71	com.netflix.eureka.transport.JerseyReplicationClient	4	4	0	29	3	8	context	State	79	1
+-1	0	33	120	270	671.810635079805	135	0	6	79	7	0	com.netflix.eureka.lease.LeaseManager	0	0	0	1	0	4			4	0
+0	4	97	229	641	1480.0337456348334	134	-1	38	158	25	6	com.netflix.eureka.lease.Lease	0	0	0	1	8	12			18	-1
+-1	0	7	25	29	84.18239574966185	418	0	1	9	4	0	com.netflix.eureka.aws.AwsBinder	0	0	0	0	0	2	state	State	2	0
+0	12	319	503	2369	3908.422271691869	143	-1	99	519	82	115	com.netflix.eureka.aws.AwsAsgUtil	0	0	0	53	13	23	context	State	138	-1
+0	7	228	300	1514	2196.753130199218	421	1	90	318	68	97	com.netflix.eureka.aws.Route53Binder	0	0	0	23	8	20	context	State	117	1
+1	1	22	47	72	201.0033075937546	419	1	0	47	8	3	com.netflix.eureka.aws.AwsBinderDelegate	0	0	0	8	1	3	decorator	Decorator	6	1
+0	8	275	497	2360	3859.9091983157687	144	-1	0	435	56	82	com.netflix.eureka.aws.EIPManager	0	0	0	30	8	12	context	State	94	-1

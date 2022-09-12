@@ -1,0 +1,54 @@
+Inferred version: 1.1.152-SNAPSHOT
+Inferred version: 1.1.152-SNAPSHOT
+Inferred version: 1.1.152-SNAPSHOT
+Inferred version: 1.1.152-SNAPSHOT
+Inferred version: 1.1.152-SNAPSHOT
+Publication mavenNebula not found in project :.
+[buildinfo] Properties file path was not found! (Relevant only for builds running on a CI Server)
+Publication named 'mavenNebula' does not exist for project ':' in task ':artifactoryPublish'.
+None of the specified publications matched for project ':' - nothing to publish.
+:clean
+:eureka-client:clean
+:eureka-core:clean
+:eureka-resources:clean
+:eureka-server:clean
+:eureka-client:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+/results/Netflix-eureka/RELEASES/66449d6ef070ce321d551107324f7283919ecf8b/eureka-client/src/main/java/com/netflix/discovery/DiscoveryClient.java:1146: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+                            new String[] {serviceUrl, urlPath, String.valueOf(response.getStatus())});
+                            ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2 warnings
+
+:eureka-client:processResources UP-TO-DATE
+:eureka-client:classes
+:eureka-client:writeManifestProperties
+:eureka-client:jar
+:eureka-core:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+/results/Netflix-eureka/RELEASES/66449d6ef070ce321d551107324f7283919ecf8b/eureka-core/src/main/java/com/netflix/eureka/DefaultEurekaServerConfig.java:464: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+                             new String[]{propName, remoteRegionUrlWithNamePair, pairSplitChar});
+                             ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /results/Netflix-eureka/RELEASES/66449d6ef070ce321d551107324f7283919ecf8b/eureka-core/src/main/java/com/netflix/eureka/cluster/PeerEurekaNode.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2 warnings
+
+:eureka-resources:compileJava UP-TO-DATE
+:eureka-core:processResources UP-TO-DATE
+:eureka-core:classes
+:eureka-core:writeManifestProperties
+:eureka-core:jar
+:eureka-server:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+
+
+BUILD SUCCESSFUL
+
+Total time: 10.971 secs

@@ -1,0 +1,207 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.taobao.arthas:arthas-tunnel-server:jar:3.1.2
+[WARNING] 'build.plugins.plugin.version' for org.springframework.boot:spring-boot-maven-plugin is missing. @ com.taobao.arthas:arthas-tunnel-server:[unknown-version], /results/alibaba-arthas/RELEASES/75faf476f02d2b8e2765a2ffbd1eb705b84071d8/tunnel-server/pom.xml, line 87, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] arthas-all                                                         [pom]
+[INFO] arthas-spy                                                         [jar]
+[INFO] arthas-common                                                      [jar]
+[INFO] arthas-tunnel-client                                               [jar]
+[INFO] arthas-memorycompiler                                              [jar]
+[INFO] arthas-core                                                        [jar]
+[INFO] arthas-agent                                                       [jar]
+[INFO] arthas-client                                                      [jar]
+[INFO] arthas-boot                                                        [jar]
+[INFO] arthas-demo                                                        [jar]
+[INFO] arthas-testcase                                                    [jar]
+[INFO] arthas-site                                                        [jar]
+[INFO] arthas-packaging                                                   [jar]
+[INFO] arthas-tunnel-server                                               [jar]
+[INFO] 
+[INFO] --------------------< com.taobao.arthas:arthas-all >--------------------
+[INFO] Building arthas-all 3.1.2                                         [1/14]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-all ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-all ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --------------------< com.taobao.arthas:arthas-spy >--------------------
+[INFO] Building arthas-spy 3.1.2                                         [2/14]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-spy ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-spy ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /results/alibaba-arthas/RELEASES/75faf476f02d2b8e2765a2ffbd1eb705b84071d8/spy/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] ------------------< com.taobao.arthas:arthas-common >-------------------
+[INFO] Building arthas-common 3.1.2                                      [3/14]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-common ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-common ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 11 source files to /results/alibaba-arthas/RELEASES/75faf476f02d2b8e2765a2ffbd1eb705b84071d8/common/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] ---------------< com.taobao.arthas:arthas-tunnel-client >---------------
+[INFO] Building arthas-tunnel-client 3.1.2                               [4/14]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-tunnel-client ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-tunnel-client ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 7 source files to /results/alibaba-arthas/RELEASES/75faf476f02d2b8e2765a2ffbd1eb705b84071d8/tunnel-client/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] --------------< com.taobao.arthas:arthas-memorycompiler >---------------
+[INFO] Building arthas-memorycompiler 3.1.2                              [5/14]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-memorycompiler ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-memorycompiler ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /results/alibaba-arthas/RELEASES/75faf476f02d2b8e2765a2ffbd1eb705b84071d8/memorycompiler/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] -------------------< com.taobao.arthas:arthas-core >--------------------
+[INFO] Building arthas-core 3.1.2                                        [6/14]
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/benf/cfr/0.145/cfr-0.145.pom
+Progress (1): 1.4/5.0 kBProgress (1): 2.7/5.0 kBProgress (1): 4.1/5.0 kBProgress (1): 5.0 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/benf/cfr/0.145/cfr-0.145.pom (5.0 kB at 8.3 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/benf/cfr/0.145/cfr-0.145.jar
+Progress (1): 0/1.7 MBProgress (1): 0/1.7 MBProgress (1): 0/1.7 MBProgress (1): 0/1.7 MBProgress (1): 0/1.7 MBProgress (1): 0/1.7 MBProgress (1): 0/1.7 MBProgress (1): 0/1.7 MBProgress (1): 0/1.7 MBProgress (1): 0/1.7 MBProgress (1): 0/1.7 MBProgress (1): 0/1.7 MBProgress (1): 0/1.7 MBProgress (1): 0/1.7 MBProgress (1): 0/1.7 MBProgress (1): 0/1.7 MBProgress (1): 0/1.7 MBProgress (1): 0/1.7 MBProgress (1): 0/1.7 MBProgress (1): 0/1.7 MBProgress (1): 0.1/1.7 MBProgress (1): 0.1/1.7 MBProgress (1): 0.1/1.7 MBProgress (1): 0.1/1.7 MBProgress (1): 0.1/1.7 MBProgress (1): 0.1/1.7 MBProgress (1): 0.1/1.7 MBProgress (1): 0.1/1.7 MBProgress (1): 0.1/1.7 MBProgress (1): 0.1/1.7 MBProgress (1): 0.1/1.7 MBProgress (1): 0.1/1.7 MBProgress (1): 0.1/1.7 MBProgress (1): 0.1/1.7 MBProgress (1): 0.1/1.7 MBProgress (1): 0.1/1.7 MBProgress (1): 0.1/1.7 MBProgress (1): 0.1/1.7 MBProgress (1): 0.1/1.7 MBProgress (1): 0.1/1.7 MBProgress (1): 0.1/1.7 MBProgress (1): 0.1/1.7 MBProgress (1): 0.1/1.7 MBProgress (1): 0.1/1.7 MBProgress (1): 0.2/1.7 MBProgress (1): 0.2/1.7 MBProgress (1): 0.2/1.7 MBProgress (1): 0.2/1.7 MBProgress (1): 0.2/1.7 MBProgress (1): 0.2/1.7 MBProgress (1): 0.2/1.7 MBProgress (1): 0.2/1.7 MBProgress (1): 0.2/1.7 MBProgress (1): 0.2/1.7 MBProgress (1): 0.2/1.7 MBProgress (1): 0.2/1.7 MBProgress (1): 0.2/1.7 MBProgress (1): 0.2/1.7 MBProgress (1): 0.2/1.7 MBProgress (1): 0.2/1.7 MBProgress (1): 0.2/1.7 MBProgress (1): 0.2/1.7 MBProgress (1): 0.2/1.7 MBProgress (1): 0.2/1.7 MBProgress (1): 0.2/1.7 MBProgress (1): 0.2/1.7 MBProgress (1): 0.2/1.7 MBProgress (1): 0.2/1.7 MBProgress (1): 0.2/1.7 MBProgress (1): 0.3/1.7 MBProgress (1): 0.3/1.7 MBProgress (1): 0.3/1.7 MBProgress (1): 0.3/1.7 MBProgress (1): 0.3/1.7 MBProgress (1): 0.3/1.7 MBProgress (1): 0.3/1.7 MBProgress (1): 0.3/1.7 MBProgress (1): 0.3/1.7 MBProgress (1): 0.3/1.7 MBProgress (1): 0.3/1.7 MBProgress (1): 0.3/1.7 MBProgress (1): 0.3/1.7 MBProgress (1): 0.3/1.7 MBProgress (1): 0.3/1.7 MBProgress (1): 0.3/1.7 MBProgress (1): 0.3/1.7 MBProgress (1): 0.3/1.7 MBProgress (1): 0.3/1.7 MBProgress (1): 0.3/1.7 MBProgress (1): 0.3/1.7 MBProgress (1): 0.3/1.7 MBProgress (1): 0.3/1.7 MBProgress (1): 0.3/1.7 MBProgress (1): 0.4/1.7 MBProgress (1): 0.4/1.7 MBProgress (1): 0.4/1.7 MBProgress (1): 0.4/1.7 MBProgress (1): 0.4/1.7 MBProgress (1): 0.4/1.7 MBProgress (1): 0.4/1.7 MBProgress (1): 0.4/1.7 MBProgress (1): 0.4/1.7 MBProgress (1): 0.4/1.7 MBProgress (1): 0.4/1.7 MBProgress (1): 0.4/1.7 MBProgress (1): 0.4/1.7 MBProgress (1): 0.4/1.7 MBProgress (1): 0.4/1.7 MBProgress (1): 0.4/1.7 MBProgress (1): 0.4/1.7 MBProgress (1): 0.4/1.7 MBProgress (1): 0.4/1.7 MBProgress (1): 0.4/1.7 MBProgress (1): 0.4/1.7 MBProgress (1): 0.4/1.7 MBProgress (1): 0.4/1.7 MBProgress (1): 0.4/1.7 MBProgress (1): 0.4/1.7 MBProgress (1): 0.5/1.7 MBProgress (1): 0.5/1.7 MBProgress (1): 0.5/1.7 MBProgress (1): 0.5/1.7 MBProgress (1): 0.5/1.7 MBProgress (1): 0.5/1.7 MBProgress (1): 0.5/1.7 MBProgress (1): 0.5/1.7 MBProgress (1): 0.5/1.7 MBProgress (1): 0.5/1.7 MBProgress (1): 0.5/1.7 MBProgress (1): 0.5/1.7 MBProgress (1): 0.5/1.7 MBProgress (1): 0.5/1.7 MBProgress (1): 0.5/1.7 MBProgress (1): 0.5/1.7 MBProgress (1): 0.5/1.7 MBProgress (1): 0.5/1.7 MBProgress (1): 0.5/1.7 MBProgress (1): 0.5/1.7 MBProgress (1): 0.5/1.7 MBProgress (1): 0.5/1.7 MBProgress (1): 0.5/1.7 MBProgress (1): 0.5/1.7 MBProgress (1): 0.5/1.7 MBProgress (1): 0.6/1.7 MBProgress (1): 0.6/1.7 MBProgress (1): 0.6/1.7 MBProgress (1): 0.6/1.7 MBProgress (1): 0.6/1.7 MBProgress (1): 0.6/1.7 MBProgress (1): 0.6/1.7 MBProgress (1): 0.6/1.7 MBProgress (1): 0.6/1.7 MBProgress (1): 0.6/1.7 MBProgress (1): 0.6/1.7 MBProgress (1): 0.6/1.7 MBProgress (1): 0.6/1.7 MBProgress (1): 0.6/1.7 MBProgress (1): 0.6/1.7 MBProgress (1): 0.6/1.7 MBProgress (1): 0.6/1.7 MBProgress (1): 0.6/1.7 MBProgress (1): 0.6/1.7 MBProgress (1): 0.6/1.7 MBProgress (1): 0.6/1.7 MBProgress (1): 0.6/1.7 MBProgress (1): 0.6/1.7 MBProgress (1): 0.6/1.7 MBProgress (1): 0.7/1.7 MBProgress (1): 0.7/1.7 MBProgress (1): 0.7/1.7 MBProgress (1): 0.7/1.7 MBProgress (1): 0.7/1.7 MBProgress (1): 0.7/1.7 MBProgress (1): 0.7/1.7 MBProgress (1): 0.7/1.7 MBProgress (1): 0.7/1.7 MBProgress (1): 0.7/1.7 MBProgress (1): 0.7/1.7 MBProgress (1): 0.7/1.7 MBProgress (1): 0.7/1.7 MBProgress (1): 0.7/1.7 MBProgress (1): 0.7/1.7 MBProgress (1): 0.7/1.7 MBProgress (1): 0.7/1.7 MBProgress (1): 0.7/1.7 MBProgress (1): 0.7/1.7 MBProgress (1): 0.7/1.7 MBProgress (1): 0.7/1.7 MBProgress (1): 0.7/1.7 MBProgress (1): 0.7/1.7 MBProgress (1): 0.7/1.7 MBProgress (1): 0.8/1.7 MBProgress (1): 0.8/1.7 MBProgress (1): 0.8/1.7 MBProgress (1): 0.8/1.7 MBProgress (1): 0.8/1.7 MBProgress (1): 0.8/1.7 MBProgress (1): 0.8/1.7 MBProgress (1): 0.8/1.7 MBProgress (1): 0.8/1.7 MBProgress (1): 0.8/1.7 MBProgress (1): 0.8/1.7 MBProgress (1): 0.8/1.7 MBProgress (1): 0.8/1.7 MBProgress (1): 0.8/1.7 MBProgress (1): 0.8/1.7 MBProgress (1): 0.8/1.7 MBProgress (1): 0.8/1.7 MBProgress (1): 0.8/1.7 MBProgress (1): 0.8/1.7 MBProgress (1): 0.8/1.7 MBProgress (1): 0.8/1.7 MBProgress (1): 0.8/1.7 MBProgress (1): 0.8/1.7 MBProgress (1): 0.8/1.7 MBProgress (1): 0.8/1.7 MBProgress (1): 0.9/1.7 MBProgress (1): 0.9/1.7 MBProgress (1): 0.9/1.7 MBProgress (1): 0.9/1.7 MBProgress (1): 0.9/1.7 MBProgress (1): 0.9/1.7 MBProgress (1): 0.9/1.7 MBProgress (1): 0.9/1.7 MBProgress (1): 0.9/1.7 MBProgress (1): 0.9/1.7 MBProgress (1): 0.9/1.7 MBProgress (1): 0.9/1.7 MBProgress (1): 0.9/1.7 MBProgress (1): 0.9/1.7 MBProgress (1): 0.9/1.7 MBProgress (1): 0.9/1.7 MBProgress (1): 0.9/1.7 MBProgress (1): 0.9/1.7 MBProgress (1): 0.9/1.7 MBProgress (1): 0.9/1.7 MBProgress (1): 0.9/1.7 MBProgress (1): 0.9/1.7 MBProgress (1): 0.9/1.7 MBProgress (1): 0.9/1.7 MBProgress (1): 1.0/1.7 MBProgress (1): 1.0/1.7 MBProgress (1): 1.0/1.7 MBProgress (1): 1.0/1.7 MBProgress (1): 1.0/1.7 MBProgress (1): 1.0/1.7 MBProgress (1): 1.0/1.7 MBProgress (1): 1.0/1.7 MBProgress (1): 1.0/1.7 MBProgress (1): 1.0/1.7 MBProgress (1): 1.0/1.7 MBProgress (1): 1.0/1.7 MBProgress (1): 1.0/1.7 MBProgress (1): 1.0/1.7 MBProgress (1): 1.0/1.7 MBProgress (1): 1.0/1.7 MBProgress (1): 1.0/1.7 MBProgress (1): 1.0/1.7 MBProgress (1): 1.0/1.7 MBProgress (1): 1.0/1.7 MBProgress (1): 1.0/1.7 MBProgress (1): 1.0/1.7 MBProgress (1): 1.0/1.7 MBProgress (1): 1.0/1.7 MBProgress (1): 1.0/1.7 MBProgress (1): 1.1/1.7 MBProgress (1): 1.1/1.7 MBProgress (1): 1.1/1.7 MBProgress (1): 1.1/1.7 MBProgress (1): 1.1/1.7 MBProgress (1): 1.1/1.7 MBProgress (1): 1.1/1.7 MBProgress (1): 1.1/1.7 MBProgress (1): 1.1/1.7 MBProgress (1): 1.1/1.7 MBProgress (1): 1.1/1.7 MBProgress (1): 1.1/1.7 MBProgress (1): 1.1/1.7 MBProgress (1): 1.1/1.7 MBProgress (1): 1.1/1.7 MBProgress (1): 1.1/1.7 MBProgress (1): 1.1/1.7 MBProgress (1): 1.1/1.7 MBProgress (1): 1.1/1.7 MBProgress (1): 1.1/1.7 MBProgress (1): 1.1/1.7 MBProgress (1): 1.1/1.7 MBProgress (1): 1.1/1.7 MBProgress (1): 1.1/1.7 MBProgress (1): 1.2/1.7 MBProgress (1): 1.2/1.7 MBProgress (1): 1.2/1.7 MBProgress (1): 1.2/1.7 MBProgress (1): 1.2/1.7 MBProgress (1): 1.2/1.7 MBProgress (1): 1.2/1.7 MBProgress (1): 1.2/1.7 MBProgress (1): 1.2/1.7 MBProgress (1): 1.2/1.7 MBProgress (1): 1.2/1.7 MBProgress (1): 1.2/1.7 MBProgress (1): 1.2/1.7 MBProgress (1): 1.2/1.7 MBProgress (1): 1.2/1.7 MBProgress (1): 1.2/1.7 MBProgress (1): 1.2/1.7 MBProgress (1): 1.2/1.7 MBProgress (1): 1.2/1.7 MBProgress (1): 1.2/1.7 MBProgress (1): 1.2/1.7 MBProgress (1): 1.2/1.7 MBProgress (1): 1.2/1.7 MBProgress (1): 1.2/1.7 MBProgress (1): 1.2/1.7 MBProgress (1): 1.3/1.7 MBProgress (1): 1.3/1.7 MBProgress (1): 1.3/1.7 MBProgress (1): 1.3/1.7 MBProgress (1): 1.3/1.7 MBProgress (1): 1.3/1.7 MBProgress (1): 1.3/1.7 MBProgress (1): 1.3/1.7 MBProgress (1): 1.3/1.7 MBProgress (1): 1.3/1.7 MBProgress (1): 1.3/1.7 MBProgress (1): 1.3/1.7 MBProgress (1): 1.3/1.7 MBProgress (1): 1.3/1.7 MBProgress (1): 1.3/1.7 MBProgress (1): 1.3/1.7 MBProgress (1): 1.3/1.7 MBProgress (1): 1.3/1.7 MBProgress (1): 1.3/1.7 MBProgress (1): 1.3/1.7 MBProgress (1): 1.3/1.7 MBProgress (1): 1.3/1.7 MBProgress (1): 1.3/1.7 MBProgress (1): 1.3/1.7 MBProgress (1): 1.3/1.7 MBProgress (1): 1.4/1.7 MBProgress (1): 1.4/1.7 MBProgress (1): 1.4/1.7 MBProgress (1): 1.4/1.7 MBProgress (1): 1.4/1.7 MBProgress (1): 1.4/1.7 MBProgress (1): 1.4/1.7 MBProgress (1): 1.4/1.7 MBProgress (1): 1.4/1.7 MBProgress (1): 1.4/1.7 MBProgress (1): 1.4/1.7 MBProgress (1): 1.4/1.7 MBProgress (1): 1.4/1.7 MBProgress (1): 1.4/1.7 MBProgress (1): 1.4/1.7 MBProgress (1): 1.4/1.7 MBProgress (1): 1.4/1.7 MBProgress (1): 1.4/1.7 MBProgress (1): 1.4/1.7 MBProgress (1): 1.4/1.7 MBProgress (1): 1.4/1.7 MBProgress (1): 1.4/1.7 MBProgress (1): 1.4/1.7 MBProgress (1): 1.4/1.7 MBProgress (1): 1.5/1.7 MBProgress (1): 1.5/1.7 MBProgress (1): 1.5/1.7 MBProgress (1): 1.5/1.7 MBProgress (1): 1.5/1.7 MBProgress (1): 1.5/1.7 MBProgress (1): 1.5/1.7 MBProgress (1): 1.5/1.7 MBProgress (1): 1.5/1.7 MBProgress (1): 1.5/1.7 MBProgress (1): 1.5/1.7 MBProgress (1): 1.5/1.7 MBProgress (1): 1.5/1.7 MBProgress (1): 1.5/1.7 MBProgress (1): 1.5/1.7 MBProgress (1): 1.5/1.7 MBProgress (1): 1.5/1.7 MBProgress (1): 1.5/1.7 MBProgress (1): 1.5/1.7 MBProgress (1): 1.5/1.7 MBProgress (1): 1.5/1.7 MBProgress (1): 1.5/1.7 MBProgress (1): 1.5/1.7 MBProgress (1): 1.5/1.7 MBProgress (1): 1.5/1.7 MBProgress (1): 1.6/1.7 MBProgress (1): 1.6/1.7 MBProgress (1): 1.6/1.7 MBProgress (1): 1.6/1.7 MBProgress (1): 1.6/1.7 MBProgress (1): 1.6/1.7 MBProgress (1): 1.6/1.7 MBProgress (1): 1.6/1.7 MBProgress (1): 1.6/1.7 MBProgress (1): 1.6/1.7 MBProgress (1): 1.6/1.7 MBProgress (1): 1.6/1.7 MBProgress (1): 1.6/1.7 MBProgress (1): 1.6/1.7 MBProgress (1): 1.6/1.7 MBProgress (1): 1.6/1.7 MBProgress (1): 1.6/1.7 MBProgress (1): 1.6/1.7 MBProgress (1): 1.6/1.7 MBProgress (1): 1.6/1.7 MBProgress (1): 1.6/1.7 MBProgress (1): 1.6/1.7 MBProgress (1): 1.6/1.7 MBProgress (1): 1.6/1.7 MBProgress (1): 1.7/1.7 MBProgress (1): 1.7/1.7 MBProgress (1): 1.7/1.7 MBProgress (1): 1.7/1.7 MBProgress (1): 1.7/1.7 MBProgress (1): 1.7/1.7 MBProgress (1): 1.7/1.7 MBProgress (1): 1.7/1.7 MBProgress (1): 1.7/1.7 MBProgress (1): 1.7/1.7 MBProgress (1): 1.7/1.7 MBProgress (1): 1.7/1.7 MBProgress (1): 1.7/1.7 MBProgress (1): 1.7/1.7 MBProgress (1): 1.7/1.7 MBProgress (1): 1.7/1.7 MBProgress (1): 1.7/1.7 MBProgress (1): 1.7/1.7 MBProgress (1): 1.7/1.7 MBProgress (1): 1.7/1.7 MBProgress (1): 1.7/1.7 MBProgress (1): 1.7 MB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/benf/cfr/0.145/cfr-0.145.jar (1.7 MB at 2.9 MB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-core ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 203 source files to /results/alibaba-arthas/RELEASES/75faf476f02d2b8e2765a2ffbd1eb705b84071d8/core/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[WARNING] /results/alibaba-arthas/RELEASES/75faf476f02d2b8e2765a2ffbd1eb705b84071d8/core/src/main/java/com/taobao/arthas/core/util/UserStatUtil.java:[21,53] encode(java.lang.String) in java.net.URLEncoder has been deprecated
+[WARNING] /results/alibaba-arthas/RELEASES/75faf476f02d2b8e2765a2ffbd1eb705b84071d8/core/src/main/java/com/taobao/arthas/core/util/UserStatUtil.java:[27,57] encode(java.lang.String) in java.net.URLEncoder has been deprecated
+[WARNING] /results/alibaba-arthas/RELEASES/75faf476f02d2b8e2765a2ffbd1eb705b84071d8/core/src/main/java/com/taobao/arthas/core/util/UserStatUtil.java:[42,49] encode(java.lang.String) in java.net.URLEncoder has been deprecated
+[WARNING] /results/alibaba-arthas/RELEASES/75faf476f02d2b8e2765a2ffbd1eb705b84071d8/core/src/main/java/com/taobao/arthas/core/util/UserStatUtil.java:[44,55] encode(java.lang.String) in java.net.URLEncoder has been deprecated
+[INFO] /results/alibaba-arthas/RELEASES/75faf476f02d2b8e2765a2ffbd1eb705b84071d8/core/src/main/java/com/taobao/arthas/core/util/reflect/ArthasReflectUtils.java: Some input files use unchecked or unsafe operations.
+[INFO] /results/alibaba-arthas/RELEASES/75faf476f02d2b8e2765a2ffbd1eb705b84071d8/core/src/main/java/com/taobao/arthas/core/util/reflect/ArthasReflectUtils.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] -------------------< com.taobao.arthas:arthas-agent >-------------------
+[INFO] Building arthas-agent 3.1.2                                       [7/14]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-agent ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-agent ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /results/alibaba-arthas/RELEASES/75faf476f02d2b8e2765a2ffbd1eb705b84071d8/agent/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] ------------------< com.taobao.arthas:arthas-client >-------------------
+[INFO] Building arthas-client 3.1.2                                      [8/14]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-client ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-client ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 28 source files to /results/alibaba-arthas/RELEASES/75faf476f02d2b8e2765a2ffbd1eb705b84071d8/client/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] -------------------< com.taobao.arthas:arthas-boot >--------------------
+[INFO] Building arthas-boot 3.1.2                                        [9/14]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-boot ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-boot ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /results/alibaba-arthas/RELEASES/75faf476f02d2b8e2765a2ffbd1eb705b84071d8/boot/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] -------------------< com.taobao.arthas:arthas-demo >--------------------
+[INFO] Building arthas-demo 3.1.2                                       [10/14]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-demo ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-demo ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /results/alibaba-arthas/RELEASES/75faf476f02d2b8e2765a2ffbd1eb705b84071d8/demo/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] -----------------< com.taobao.arthas:arthas-testcase >------------------
+[INFO] Building arthas-testcase 3.1.2                                   [11/14]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-testcase ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-testcase ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /results/alibaba-arthas/RELEASES/75faf476f02d2b8e2765a2ffbd1eb705b84071d8/testcase/target/classes
+[INFO] /results/alibaba-arthas/RELEASES/75faf476f02d2b8e2765a2ffbd1eb705b84071d8/testcase/src/main/java/com/alibaba/arthas/Test.java: /results/alibaba-arthas/RELEASES/75faf476f02d2b8e2765a2ffbd1eb705b84071d8/testcase/src/main/java/com/alibaba/arthas/Test.java uses unchecked or unsafe operations.
+[INFO] /results/alibaba-arthas/RELEASES/75faf476f02d2b8e2765a2ffbd1eb705b84071d8/testcase/src/main/java/com/alibaba/arthas/Test.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] -------------------< com.taobao.arthas:arthas-site >--------------------
+[INFO] Building arthas-site 3.1.2                                       [12/14]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-site ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-site ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] -----------------< com.taobao.arthas:arthas-packaging >-----------------
+[INFO] Building arthas-packaging 3.1.2                                  [13/14]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-packaging ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-packaging ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] ---------------< com.taobao.arthas:arthas-tunnel-server >---------------
+[INFO] Building arthas-tunnel-server 3.1.2                              [14/14]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-tunnel-server ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-tunnel-server ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 13 source files to /results/alibaba-arthas/RELEASES/75faf476f02d2b8e2765a2ffbd1eb705b84071d8/tunnel-server/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] arthas-all 3.1.2 ................................... SUCCESS [  0.258 s]
+[INFO] arthas-spy ......................................... SUCCESS [  0.304 s]
+[INFO] arthas-common ...................................... SUCCESS [  0.232 s]
+[INFO] arthas-tunnel-client ............................... SUCCESS [  0.174 s]
+[INFO] arthas-memorycompiler .............................. SUCCESS [  0.089 s]
+[INFO] arthas-core ........................................ SUCCESS [  2.550 s]
+[INFO] arthas-agent ....................................... SUCCESS [  0.078 s]
+[INFO] arthas-client ...................................... SUCCESS [  0.112 s]
+[INFO] arthas-boot ........................................ SUCCESS [  0.070 s]
+[INFO] arthas-demo ........................................ SUCCESS [  0.019 s]
+[INFO] arthas-testcase .................................... SUCCESS [  0.020 s]
+[INFO] arthas-site ........................................ SUCCESS [  0.007 s]
+[INFO] arthas-packaging ................................... SUCCESS [  0.016 s]
+[INFO] arthas-tunnel-server 3.1.2 ......................... SUCCESS [  0.547 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.957 s
+[INFO] Finished at: 2022-09-10T03:46:00Z
+[INFO] ------------------------------------------------------------------------

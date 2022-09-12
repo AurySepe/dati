@@ -1,0 +1,725 @@
+jadx/core/xmlgen/entry/ValuesParser.java
+ jadx.core.xmlgen.entry.ValuesParser
+jadx/core/deobf/Deobfuscator.java
+ jadx.core.deobf.Deobfuscator
+jadx/core/dex/visitors/MarkMethodsForInline.java
+ jadx.core.dex.visitors.MarkMethodsForInline
+jadx/core/utils/android/ExtDataInput.java
+ jadx.core.utils.android.ExtDataInput
+jadx/api/JavaField.java
+ jadx.api.JavaField
+jadx/core/utils/files/FileUtils.java
+ jadx.core.utils.files.FileUtils
+jadx/core/dex/visitors/regions/TernaryMod.java
+ jadx.core.dex.visitors.regions.TernaryMod
+jadx/core/dex/attributes/nodes/GenericInfoAttr.java
+ jadx.core.dex.attributes.nodes.GenericInfoAttr
+jadx/core/utils/android/DataInputDelegate.java
+ jadx.core.utils.android.DataInputDelegate
+jadx/core/dex/visitors/typeinference/TypeSearch.java
+ jadx.core.dex.visitors.typeinference.TypeSearch
+ jadx.core.dex.visitors.typeinference.TypeSearch$1
+ jadx.core.dex.visitors.typeinference.TypeSearch$2
+ jadx.core.dex.visitors.typeinference.TypeSearch$3
+jadx/core/dex/visitors/InlineMethods.java
+ jadx.core.dex.visitors.InlineMethods
+jadx/core/dex/nodes/ILoadable.java
+ jadx.core.dex.nodes.ILoadable
+jadx/core/dex/info/FieldInfo.java
+ jadx.core.dex.info.FieldInfo
+jadx/core/dex/visitors/AbstractVisitor.java
+ jadx.core.dex.visitors.AbstractVisitor
+jadx/core/dex/attributes/nodes/RegDebugInfoAttr.java
+ jadx.core.dex.attributes.nodes.RegDebugInfoAttr
+jadx/core/dex/nodes/parser/SignatureParser.java
+ jadx.core.dex.nodes.parser.SignatureParser
+jadx/core/dex/visitors/typeinference/TypeInfo.java
+ jadx.core.dex.visitors.typeinference.TypeInfo
+jadx/core/dex/visitors/regions/DepthRegionTraversal.java
+ jadx.core.dex.visitors.regions.DepthRegionTraversal
+jadx/core/dex/instructions/mods/TernaryInsn.java
+ jadx.core.dex.instructions.mods.TernaryInsn
+jadx/core/dex/visitors/typeinference/TypeCompare.java
+ jadx.core.dex.visitors.typeinference.TypeCompare
+ jadx.core.dex.visitors.typeinference.TypeCompare$1
+ jadx.core.dex.visitors.typeinference.TypeCompare$ArgTypeComparator
+jadx/core/dex/regions/loops/LoopType.java
+ jadx.core.dex.regions.loops.LoopType
+jadx/core/dex/nodes/LoadStage.java
+ jadx.core.dex.nodes.LoadStage
+jadx/core/dex/nodes/Edge.java
+ jadx.core.dex.nodes.Edge
+jadx/core/dex/instructions/IfOp.java
+ jadx.core.dex.instructions.IfOp
+ jadx.core.dex.instructions.IfOp$1
+jadx/core/dex/visitors/blocksmaker/BlockSplitter.java
+ jadx.core.dex.visitors.blocksmaker.BlockSplitter
+jadx/core/xmlgen/CommonBinaryParser.java
+ jadx.core.xmlgen.CommonBinaryParser
+jadx/core/dex/visitors/EnumVisitor.java
+ jadx.core.dex.visitors.EnumVisitor
+ jadx.core.dex.visitors.EnumVisitor$1
+jadx/core/dex/instructions/args/RegisterArg.java
+ jadx.core.dex.instructions.args.RegisterArg
+jadx/core/codegen/ConditionGen.java
+ jadx.core.codegen.ConditionGen
+ jadx.core.codegen.ConditionGen$1
+ jadx.core.codegen.ConditionGen$CondStack
+jadx/core/codegen/json/cls/JsonNode.java
+ jadx.core.codegen.json.cls.JsonNode
+jadx/core/dex/visitors/MoveInlineVisitor.java
+ jadx.core.dex.visitors.MoveInlineVisitor
+jadx/core/dex/visitors/typeinference/TypeSearchVarInfo.java
+ jadx.core.dex.visitors.typeinference.TypeSearchVarInfo
+jadx/core/dex/instructions/ArithNode.java
+ jadx.core.dex.instructions.ArithNode
+jadx/api/JadxDecompiler.java
+ jadx.api.JadxDecompiler
+jadx/api/JavaNode.java
+ jadx.api.JavaNode
+jadx/core/dex/instructions/args/Named.java
+ jadx.core.dex.instructions.args.Named
+jadx/api/JavaClass.java
+ jadx.api.JavaClass
+jadx/core/dex/visitors/DeboxingVisitor.java
+ jadx.core.dex.visitors.DeboxingVisitor
+jadx/core/codegen/json/JsonMappingGen.java
+ jadx.core.codegen.json.JsonMappingGen
+jadx/core/xmlgen/XMLChar.java
+ jadx.core.xmlgen.XMLChar
+jadx/core/utils/android/Res9patchStreamDecoder.java
+ jadx.core.utils.android.Res9patchStreamDecoder
+ jadx.core.utils.android.Res9patchStreamDecoder$NinePatch
+jadx/core/dex/visitors/typeinference/TypeSearchState.java
+ jadx.core.dex.visitors.typeinference.TypeSearchState
+jadx/core/utils/InsnRemover.java
+ jadx.core.utils.InsnRemover
+jadx/api/ICodeCache.java
+ jadx.api.ICodeCache
+jadx/core/dex/visitors/ssa/LiveVarAnalysis.java
+ jadx.core.dex.visitors.ssa.LiveVarAnalysis
+jadx/core/dex/attributes/AType.java
+ jadx.core.dex.attributes.AType
+jadx/core/dex/nodes/FieldNode.java
+ jadx.core.dex.nodes.FieldNode
+jadx/core/dex/nodes/ClassNode.java
+ jadx.core.dex.nodes.ClassNode
+jadx/core/dex/attributes/nodes/SkipMethodArgsAttr.java
+ jadx.core.dex.attributes.nodes.SkipMethodArgsAttr
+jadx/core/utils/StringUtils.java
+ jadx.core.utils.StringUtils
+jadx/core/dex/instructions/NewArrayNode.java
+ jadx.core.dex.instructions.NewArrayNode
+jadx/core/dex/instructions/ConstStringNode.java
+ jadx.core.dex.instructions.ConstStringNode
+jadx/core/utils/ErrorsCounter.java
+ jadx.core.utils.ErrorsCounter
+jadx/core/dex/visitors/SimplifyVisitor.java
+ jadx.core.dex.visitors.SimplifyVisitor
+ jadx.core.dex.visitors.SimplifyVisitor$1
+jadx/core/dex/attributes/EmptyAttrStorage.java
+ jadx.core.dex.attributes.EmptyAttrStorage
+jadx/core/dex/instructions/InsnType.java
+ jadx.core.dex.instructions.InsnType
+jadx/core/dex/visitors/regions/TracedRegionVisitor.java
+ jadx.core.dex.visitors.regions.TracedRegionVisitor
+jadx/core/dex/visitors/usage/UsageInfo.java
+ jadx.core.dex.visitors.usage.UsageInfo
+jadx/core/dex/visitors/ClassModifier.java
+ jadx.core.dex.visitors.ClassModifier
+jadx/core/dex/visitors/regions/IRegionIterativeVisitor.java
+ jadx.core.dex.visitors.regions.IRegionIterativeVisitor
+jadx/core/codegen/json/cls/JsonMethod.java
+ jadx.core.codegen.json.cls.JsonMethod
+jadx/core/xmlgen/BinaryXMLParser.java
+ jadx.core.xmlgen.BinaryXMLParser
+jadx/core/dex/trycatch/CatchAttr.java
+ jadx.core.dex.trycatch.CatchAttr
+jadx/core/dex/visitors/MarkFinallyVisitor.java
+ jadx.core.dex.visitors.MarkFinallyVisitor
+jadx/core/codegen/MethodGen.java
+ jadx.core.codegen.MethodGen
+ jadx.core.codegen.MethodGen$FallbackOption
+jadx/core/dex/regions/conditions/IfRegion.java
+ jadx.core.dex.regions.conditions.IfRegion
+jadx/api/ResourceFileContent.java
+ jadx.api.ResourceFileContent
+jadx/core/xmlgen/ParserStream.java
+ jadx.core.xmlgen.ParserStream
+jadx/core/dex/instructions/FillArrayInsn.java
+ jadx.core.dex.instructions.FillArrayInsn
+jadx/core/dex/attributes/nodes/IgnoreEdgeAttr.java
+ jadx.core.dex.attributes.nodes.IgnoreEdgeAttr
+jadx/core/dex/visitors/regions/AbstractRegionVisitor.java
+ jadx.core.dex.visitors.regions.AbstractRegionVisitor
+jadx/core/dex/instructions/args/VarName.java
+ jadx.core.dex.instructions.args.VarName
+jadx/core/dex/instructions/GotoNode.java
+ jadx.core.dex.instructions.GotoNode
+jadx/core/codegen/json/cls/JsonField.java
+ jadx.core.codegen.json.cls.JsonField
+jadx/core/xmlgen/ResourcesSaver.java
+ jadx.core.xmlgen.ResourcesSaver
+ jadx.core.xmlgen.ResourcesSaver$1
+jadx/core/dex/visitors/InitCodeVariables.java
+ jadx.core.dex.visitors.InitCodeVariables
+jadx/core/utils/android/AndroidResourcesUtils.java
+ jadx.core.utils.android.AndroidResourcesUtils
+jadx/core/dex/visitors/ProcessAnonymous.java
+ jadx.core.dex.visitors.ProcessAnonymous
+jadx/api/ResourceFile.java
+ jadx.api.ResourceFile
+ jadx.api.ResourceFile$ZipRef
+jadx/core/codegen/json/cls/JsonCodeLine.java
+ jadx.core.codegen.json.cls.JsonCodeLine
+jadx/core/dex/nodes/IDexNode.java
+ jadx.core.dex.nodes.IDexNode
+jadx/core/dex/visitors/RenameVisitor.java
+ jadx.core.dex.visitors.RenameVisitor
+jadx/core/xmlgen/ResXmlGen.java
+ jadx.core.xmlgen.ResXmlGen
+jadx/core/dex/attributes/nodes/RenameReasonAttr.java
+ jadx.core.dex.attributes.nodes.RenameReasonAttr
+jadx/api/JadxArgsValidator.java
+ jadx.api.JadxArgsValidator
+jadx/core/xmlgen/entry/RawValue.java
+ jadx.core.xmlgen.entry.RawValue
+jadx/core/dex/visitors/ExtractFieldInit.java
+ jadx.core.dex.visitors.ExtractFieldInit
+ jadx.core.dex.visitors.ExtractFieldInit$1
+ jadx.core.dex.visitors.ExtractFieldInit$InitInfo
+jadx/core/dex/visitors/AttachMethodDetails.java
+ jadx.core.dex.visitors.AttachMethodDetails
+jadx/core/dex/visitors/PrepareForCodeGen.java
+ jadx.core.dex.visitors.PrepareForCodeGen
+ jadx.core.dex.visitors.PrepareForCodeGen$1
+jadx/core/codegen/RegionGen.java
+ jadx.core.codegen.RegionGen
+jadx/core/dex/nodes/ICodeNode.java
+ jadx.core.dex.nodes.ICodeNode
+jadx/core/deobf/PackageNode.java
+ jadx.core.deobf.PackageNode
+jadx/core/dex/visitors/blocksmaker/helpers/InsnsSlice.java
+ jadx.core.dex.visitors.blocksmaker.helpers.InsnsSlice
+jadx/core/dex/visitors/regions/CheckRegions.java
+ jadx.core.dex.visitors.regions.CheckRegions
+ jadx.core.dex.visitors.regions.CheckRegions$1
+ jadx.core.dex.visitors.regions.CheckRegions$2
+jadx/core/dex/instructions/SwitchData.java
+ jadx.core.dex.instructions.SwitchData
+jadx/core/dex/visitors/typeinference/TypeUpdate.java
+ jadx.core.dex.visitors.typeinference.TypeUpdate
+ jadx.core.dex.visitors.typeinference.TypeUpdate$1
+jadx/api/ICodeInfo.java
+ jadx.api.ICodeInfo
+jadx/core/dex/visitors/DepthTraversal.java
+ jadx.core.dex.visitors.DepthTraversal
+jadx/core/utils/CodeGenUtils.java
+ jadx.core.utils.CodeGenUtils
+jadx/core/codegen/json/cls/JsonClass.java
+ jadx.core.codegen.json.cls.JsonClass
+jadx/core/dex/nodes/IContainer.java
+ jadx.core.dex.nodes.IContainer
+jadx/core/utils/EmptyBitSet.java
+ jadx.core.utils.EmptyBitSet
+jadx/core/dex/visitors/DotGraphVisitor.java
+ jadx.core.dex.visitors.DotGraphVisitor
+ jadx.core.dex.visitors.DotGraphVisitor$DumpDotGraph
+jadx/core/utils/EncodedValueUtils.java
+ jadx.core.utils.EncodedValueUtils
+ jadx.core.utils.EncodedValueUtils$1
+jadx/core/dex/visitors/blocksmaker/BlockExceptionHandler.java
+ jadx.core.dex.visitors.blocksmaker.BlockExceptionHandler
+jadx/core/dex/visitors/FixAccessModifiers.java
+ jadx.core.dex.visitors.FixAccessModifiers
+jadx/core/utils/CacheStorage.java
+ jadx.core.utils.CacheStorage
+jadx/core/codegen/json/JsonCodeGen.java
+ jadx.core.codegen.json.JsonCodeGen
+jadx/core/dex/visitors/blocksmaker/BlockFinish.java
+ jadx.core.dex.visitors.blocksmaker.BlockFinish
+jadx/core/dex/instructions/InvokeType.java
+ jadx.core.dex.instructions.InvokeType
+jadx/core/dex/trycatch/SplitterBlockAttr.java
+ jadx.core.dex.trycatch.SplitterBlockAttr
+jadx/core/dex/visitors/JadxVisitor.java
+ jadx.core.dex.visitors.JadxVisitor
+jadx/api/impl/InMemoryCodeCache.java
+ jadx.api.impl.InMemoryCodeCache
+jadx/core/dex/trycatch/ExceptionHandler.java
+ jadx.core.dex.trycatch.ExceptionHandler
+jadx/core/dex/visitors/methods/MutableMethodDetails.java
+ jadx.core.dex.visitors.methods.MutableMethodDetails
+jadx/core/dex/visitors/typeinference/TypeUpdateFlags.java
+ jadx.core.dex.visitors.typeinference.TypeUpdateFlags
+jadx/core/dex/nodes/InsnContainer.java
+ jadx.core.dex.nodes.InsnContainer
+jadx/core/dex/info/AccessInfo.java
+ jadx.core.dex.info.AccessInfo
+ jadx.core.dex.info.AccessInfo$1
+ jadx.core.dex.info.AccessInfo$AFType
+jadx/core/utils/BlockInsnPair.java
+ jadx.core.utils.BlockInsnPair
+jadx/core/deobf/NameMapper.java
+ jadx.core.deobf.NameMapper
+jadx/core/dex/instructions/TargetInsnNode.java
+ jadx.core.dex.instructions.TargetInsnNode
+jadx/core/codegen/AnnotationGen.java
+ jadx.core.codegen.AnnotationGen
+ jadx.core.codegen.AnnotationGen$1
+jadx/core/dex/attributes/nodes/EnumMapAttr.java
+ jadx.core.dex.attributes.nodes.EnumMapAttr
+ jadx.core.dex.attributes.nodes.EnumMapAttr$KeyValueMap
+jadx/core/xmlgen/ResTableParser.java
+ jadx.core.xmlgen.ResTableParser
+ jadx.core.xmlgen.ResTableParser$1
+ jadx.core.xmlgen.ResTableParser$PackageChunk
+jadx/core/dex/visitors/SignatureProcessor.java
+ jadx.core.dex.visitors.SignatureProcessor
+jadx/core/dex/visitors/typeinference/TypeBoundInvokeUse.java
+ jadx.core.dex.visitors.typeinference.TypeBoundInvokeUse
+jadx/core/dex/nodes/MethodNode.java
+ jadx.core.dex.nodes.MethodNode
+jadx/core/xmlgen/ResourceStorage.java
+ jadx.core.xmlgen.ResourceStorage
+jadx/core/utils/BlockUtils.java
+ jadx.core.utils.BlockUtils
+jadx/core/dex/visitors/ssa/SSATransform.java
+ jadx.core.dex.visitors.ssa.SSATransform
+jadx/core/dex/visitors/IDexTreeVisitor.java
+ jadx.core.dex.visitors.IDexTreeVisitor
+jadx/api/impl/SimpleCodeInfo.java
+ jadx.api.impl.SimpleCodeInfo
+jadx/core/dex/visitors/usage/UseSet.java
+ jadx.core.dex.visitors.usage.UseSet
+jadx/core/utils/exceptions/DecodeException.java
+ jadx.core.utils.exceptions.DecodeException
+jadx/core/xmlgen/entry/EntryConfig.java
+ jadx.core.xmlgen.entry.EntryConfig
+jadx/core/dex/visitors/blocksmaker/helpers/FinallyExtractInfo.java
+ jadx.core.dex.visitors.blocksmaker.helpers.FinallyExtractInfo
+jadx/core/dex/visitors/ShadowFieldVisitor.java
+ jadx.core.dex.visitors.ShadowFieldVisitor
+ jadx.core.dex.visitors.ShadowFieldVisitor$1
+ jadx.core.dex.visitors.ShadowFieldVisitor$FieldFixInfo
+ jadx.core.dex.visitors.ShadowFieldVisitor$FieldFixType
+jadx/core/dex/instructions/ConstClassNode.java
+ jadx.core.dex.instructions.ConstClassNode
+jadx/core/clsp/ClspMethod.java
+ jadx.core.clsp.ClspMethod
+jadx/core/dex/visitors/regions/RegionStack.java
+ jadx.core.dex.visitors.regions.RegionStack
+ jadx.core.dex.visitors.regions.RegionStack$State
+jadx/core/dex/regions/SynchronizedRegion.java
+ jadx.core.dex.regions.SynchronizedRegion
+jadx/core/dex/instructions/args/NamedArg.java
+ jadx.core.dex.instructions.args.NamedArg
+jadx/core/dex/attributes/annotations/MethodParameters.java
+ jadx.core.dex.attributes.annotations.MethodParameters
+jadx/core/clsp/ClspClass.java
+ jadx.core.clsp.ClspClass
+jadx/core/export/ExportGradleProject.java
+ jadx.core.export.ExportGradleProject
+jadx/core/dex/nodes/IUsageInfoNode.java
+ jadx.core.dex.nodes.IUsageInfoNode
+jadx/core/dex/visitors/regions/CleanRegions.java
+ jadx.core.dex.visitors.regions.CleanRegions
+ jadx.core.dex.visitors.regions.CleanRegions$1
+ jadx.core.dex.visitors.regions.CleanRegions$RemoveRegionVisitor
+jadx/api/ResourceType.java
+ jadx.api.ResourceType
+jadx/core/dex/regions/conditions/Compare.java
+ jadx.core.dex.regions.conditions.Compare
+jadx/core/dex/visitors/typeinference/ITypeConstraint.java
+ jadx.core.dex.visitors.typeinference.ITypeConstraint
+jadx/core/dex/instructions/ArithOp.java
+ jadx.core.dex.instructions.ArithOp
+ jadx.core.dex.instructions.ArithOp$1
+jadx/core/dex/regions/conditions/IfCondition.java
+ jadx.core.dex.regions.conditions.IfCondition
+ jadx.core.dex.regions.conditions.IfCondition$1
+ jadx.core.dex.regions.conditions.IfCondition$Mode
+jadx/core/dex/visitors/typeinference/TypeUpdateInfo.java
+ jadx.core.dex.visitors.typeinference.TypeUpdateInfo
+jadx/core/dex/visitors/shrink/CodeShrinkVisitor.java
+ jadx.core.dex.visitors.shrink.CodeShrinkVisitor
+jadx/core/dex/attributes/nodes/NotificationAttrNode.java
+ jadx.core.dex.attributes.nodes.NotificationAttrNode
+jadx/core/dex/nodes/utils/MethodUtils.java
+ jadx.core.dex.nodes.utils.MethodUtils
+jadx/core/dex/visitors/typeinference/TypeCompareEnum.java
+ jadx.core.dex.visitors.typeinference.TypeCompareEnum
+ jadx.core.dex.visitors.typeinference.TypeCompareEnum$1
+jadx/core/dex/visitors/blocksmaker/BlockProcessor.java
+ jadx.core.dex.visitors.blocksmaker.BlockProcessor
+jadx/api/JavaPackage.java
+ jadx.api.JavaPackage
+jadx/api/impl/NoOpCodeCache.java
+ jadx.api.impl.NoOpCodeCache
+jadx/core/dex/attributes/nodes/JadxError.java
+ jadx.core.dex.attributes.nodes.JadxError
+jadx/api/JavaMethod.java
+ jadx.api.JavaMethod
+jadx/core/clsp/ClsSet.java
+ jadx.core.clsp.ClsSet
+ jadx.core.clsp.ClsSet$1
+ jadx.core.clsp.ClsSet$TypeEnum
+jadx/core/dex/visitors/ssa/RenameState.java
+ jadx.core.dex.visitors.ssa.RenameState
+jadx/core/clsp/SimpleMethodDetails.java
+ jadx.core.clsp.SimpleMethodDetails
+jadx/core/dex/visitors/regions/variables/ProcessVariables.java
+ jadx.core.dex.visitors.regions.variables.ProcessVariables
+ jadx.core.dex.visitors.regions.variables.ProcessVariables$1
+jadx/core/dex/attributes/nodes/LoopInfo.java
+ jadx.core.dex.attributes.nodes.LoopInfo
+jadx/core/dex/attributes/nodes/ForceReturnAttr.java
+ jadx.core.dex.attributes.nodes.ForceReturnAttr
+jadx/core/xmlgen/entry/ResourceEntry.java
+ jadx.core.xmlgen.entry.ResourceEntry
+jadx/core/dex/visitors/shrink/WrapInfo.java
+ jadx.core.dex.visitors.shrink.WrapInfo
+jadx/core/dex/nodes/ProcessState.java
+ jadx.core.dex.nodes.ProcessState
+jadx/core/dex/visitors/regions/RegionMakerVisitor.java
+ jadx.core.dex.visitors.regions.RegionMakerVisitor
+ jadx.core.dex.visitors.regions.RegionMakerVisitor$1
+ jadx.core.dex.visitors.regions.RegionMakerVisitor$PostRegionVisitor
+jadx/core/dex/attributes/nodes/MethodInlineAttr.java
+ jadx.core.dex.attributes.nodes.MethodInlineAttr
+jadx/core/dex/attributes/nodes/MethodTypeVarsAttr.java
+ jadx.core.dex.attributes.nodes.MethodTypeVarsAttr
+jadx/core/dex/visitors/typeinference/AbstractTypeConstraint.java
+ jadx.core.dex.visitors.typeinference.AbstractTypeConstraint
+jadx/core/dex/attributes/annotations/AnnotationsList.java
+ jadx.core.dex.attributes.annotations.AnnotationsList
+jadx/core/dex/attributes/nodes/EdgeInsnAttr.java
+ jadx.core.dex.attributes.nodes.EdgeInsnAttr
+jadx/core/dex/trycatch/ExcHandlerAttr.java
+ jadx.core.dex.trycatch.ExcHandlerAttr
+jadx/core/dex/nodes/IBlock.java
+ jadx.core.dex.nodes.IBlock
+jadx/core/deobf/DeobfClsInfo.java
+ jadx.core.deobf.DeobfClsInfo
+jadx/core/dex/visitors/ConstInlineVisitor.java
+ jadx.core.dex.visitors.ConstInlineVisitor
+ jadx.core.dex.visitors.ConstInlineVisitor$1
+jadx/core/dex/instructions/PhiInsn.java
+ jadx.core.dex.instructions.PhiInsn
+jadx/core/dex/attributes/nodes/FieldReplaceAttr.java
+ jadx.core.dex.attributes.nodes.FieldReplaceAttr
+ jadx.core.dex.attributes.nodes.FieldReplaceAttr$ReplaceWith
+jadx/core/dex/visitors/FallbackModeVisitor.java
+ jadx.core.dex.visitors.FallbackModeVisitor
+ jadx.core.dex.visitors.FallbackModeVisitor$1
+jadx/core/dex/regions/SwitchRegion.java
+ jadx.core.dex.regions.SwitchRegion
+ jadx.core.dex.regions.SwitchRegion$CaseInfo
+jadx/core/Consts.java
+ jadx.core.Consts
+jadx/api/JadxArgs.java
+ jadx.api.JadxArgs
+ jadx.api.JadxArgs$OutputFormatEnum
+ jadx.api.JadxArgs$RenameEnum
+jadx/core/dex/attributes/nodes/LineAttrNode.java
+ jadx.core.dex.attributes.nodes.LineAttrNode
+jadx/core/utils/exceptions/JadxArgsValidateException.java
+ jadx.core.utils.exceptions.JadxArgsValidateException
+jadx/core/dex/visitors/shrink/ArgsInfo.java
+ jadx.core.dex.visitors.shrink.ArgsInfo
+jadx/core/ProcessClass.java
+ jadx.core.ProcessClass
+jadx/core/dex/instructions/BaseInvokeNode.java
+ jadx.core.dex.instructions.BaseInvokeNode
+jadx/core/dex/nodes/BlockNode.java
+ jadx.core.dex.nodes.BlockNode
+jadx/core/dex/visitors/typeinference/BoundEnum.java
+ jadx.core.dex.visitors.typeinference.BoundEnum
+jadx/core/dex/attributes/nodes/SourceFileAttr.java
+ jadx.core.dex.attributes.nodes.SourceFileAttr
+jadx/core/deobf/DeobfPresets.java
+ jadx.core.deobf.DeobfPresets
+jadx/core/dex/visitors/typeinference/TypeUpdateRegistry.java
+ jadx.core.dex.visitors.typeinference.TypeUpdateRegistry
+jadx/core/dex/visitors/MethodInvokeVisitor.java
+ jadx.core.dex.visitors.MethodInvokeVisitor
+jadx/core/dex/visitors/GenericTypesVisitor.java
+ jadx.core.dex.visitors.GenericTypesVisitor
+jadx/core/dex/attributes/nodes/MethodOverrideAttr.java
+ jadx.core.dex.attributes.nodes.MethodOverrideAttr
+jadx/core/dex/instructions/args/InsnArg.java
+ jadx.core.dex.instructions.args.InsnArg
+ jadx.core.dex.instructions.args.InsnArg$1
+jadx/core/clsp/ClspGraph.java
+ jadx.core.clsp.ClspGraph
+jadx/core/dex/regions/loops/LoopRegion.java
+ jadx.core.dex.regions.loops.LoopRegion
+jadx/core/dex/attributes/nodes/LocalVarsDebugInfoAttr.java
+ jadx.core.dex.attributes.nodes.LocalVarsDebugInfoAttr
+jadx/core/dex/info/ConstStorage.java
+ jadx.core.dex.info.ConstStorage
+ jadx.core.dex.info.ConstStorage$1
+ jadx.core.dex.info.ConstStorage$ValueStorage
+jadx/core/dex/visitors/regions/ReturnVisitor.java
+ jadx.core.dex.visitors.regions.ReturnVisitor
+ jadx.core.dex.visitors.regions.ReturnVisitor$1
+ jadx.core.dex.visitors.regions.ReturnVisitor$ReturnRemoverVisitor
+jadx/core/dex/nodes/IRegion.java
+ jadx.core.dex.nodes.IRegion
+jadx/core/xmlgen/ResContainer.java
+ jadx.core.xmlgen.ResContainer
+ jadx.core.xmlgen.ResContainer$DataType
+jadx/core/dex/info/InfoStorage.java
+ jadx.core.dex.info.InfoStorage
+jadx/core/dex/visitors/usage/UsageInfoVisitor.java
+ jadx.core.dex.visitors.usage.UsageInfoVisitor
+ jadx.core.dex.visitors.usage.UsageInfoVisitor$1
+jadx/core/dex/visitors/regions/RegionMaker.java
+ jadx.core.dex.visitors.regions.RegionMaker
+ jadx.core.dex.visitors.regions.RegionMaker$1
+jadx/core/dex/visitors/regions/ProcessTryCatchRegions.java
+ jadx.core.dex.visitors.regions.ProcessTryCatchRegions
+jadx/core/utils/exceptions/JadxRuntimeException.java
+ jadx.core.utils.exceptions.JadxRuntimeException
+jadx/core/utils/kotlin/KotlinMetadataUtils.java
+ jadx.core.utils.kotlin.KotlinMetadataUtils
+jadx/core/dex/regions/loops/ForEachLoop.java
+ jadx.core.dex.regions.loops.ForEachLoop
+jadx/core/codegen/CodeGen.java
+ jadx.core.codegen.CodeGen
+ jadx.core.codegen.CodeGen$1
+jadx/core/dex/regions/AbstractRegion.java
+ jadx.core.dex.regions.AbstractRegion
+jadx/core/dex/visitors/regions/IRegionVisitor.java
+ jadx.core.dex.visitors.regions.IRegionVisitor
+jadx/core/codegen/json/mapping/JsonFieldMapping.java
+ jadx.core.codegen.json.mapping.JsonFieldMapping
+jadx/core/xmlgen/XmlDeobf.java
+ jadx.core.xmlgen.XmlDeobf
+jadx/core/dex/regions/TryCatchRegion.java
+ jadx.core.dex.regions.TryCatchRegion
+jadx/core/dex/instructions/args/LiteralArg.java
+ jadx.core.dex.instructions.args.LiteralArg
+jadx/core/dex/visitors/ProcessInstructionsVisitor.java
+ jadx.core.dex.visitors.ProcessInstructionsVisitor
+ jadx.core.dex.visitors.ProcessInstructionsVisitor$1
+jadx/core/dex/instructions/InsnDecoder.java
+ jadx.core.dex.instructions.InsnDecoder
+ jadx.core.dex.instructions.InsnDecoder$1
+jadx/core/export/TemplateFile.java
+ jadx.core.export.TemplateFile
+ jadx.core.export.TemplateFile$1
+ jadx.core.export.TemplateFile$ParserState
+ jadx.core.export.TemplateFile$State
+jadx/core/dex/instructions/IndexInsnNode.java
+ jadx.core.dex.instructions.IndexInsnNode
+ jadx.core.dex.instructions.IndexInsnNode$1
+jadx/core/utils/exceptions/CodegenException.java
+ jadx.core.utils.exceptions.CodegenException
+jadx/core/dex/regions/conditions/IfInfo.java
+ jadx.core.dex.regions.conditions.IfInfo
+jadx/core/utils/RegionUtils.java
+ jadx.core.utils.RegionUtils
+jadx/core/dex/nodes/utils/TypeUtils.java
+ jadx.core.dex.nodes.utils.TypeUtils
+jadx/core/xmlgen/ParserConstants.java
+ jadx.core.xmlgen.ParserConstants
+jadx/core/dex/visitors/typeinference/TypeBoundCheckCastAssign.java
+ jadx.core.dex.visitors.typeinference.TypeBoundCheckCastAssign
+jadx/core/utils/Utils.java
+ jadx.core.utils.Utils
+ jadx.core.utils.Utils$1
+jadx/core/dex/visitors/typeinference/ITypeBound.java
+ jadx.core.dex.visitors.typeinference.ITypeBound
+jadx/core/dex/regions/Region.java
+ jadx.core.dex.regions.Region
+jadx/core/dex/visitors/regions/variables/CollectUsageRegionVisitor.java
+ jadx.core.dex.visitors.regions.variables.CollectUsageRegionVisitor
+jadx/api/CodePosition.java
+ jadx.api.CodePosition
+jadx/core/dex/visitors/AttachTryCatchVisitor.java
+ jadx.core.dex.visitors.AttachTryCatchVisitor
+jadx/core/dex/instructions/FilledNewArrayNode.java
+ jadx.core.dex.instructions.FilledNewArrayNode
+jadx/core/dex/attributes/IAttribute.java
+ jadx.core.dex.attributes.IAttribute
+jadx/core/dex/visitors/ModVisitor.java
+ jadx.core.dex.visitors.ModVisitor
+ jadx.core.dex.visitors.ModVisitor$1
+jadx/core/dex/instructions/FillArrayData.java
+ jadx.core.dex.instructions.FillArrayData
+jadx/core/dex/visitors/typeinference/ITypeBoundDynamic.java
+ jadx.core.dex.visitors.typeinference.ITypeBoundDynamic
+jadx/core/dex/attributes/nodes/EnumClassAttr.java
+ jadx.core.dex.attributes.nodes.EnumClassAttr
+ jadx.core.dex.attributes.nodes.EnumClassAttr$EnumField
+jadx/core/dex/nodes/IMethodDetails.java
+ jadx.core.dex.nodes.IMethodDetails
+jadx/core/dex/info/MethodInfo.java
+ jadx.core.dex.info.MethodInfo
+jadx/core/utils/InsnList.java
+ jadx.core.utils.InsnList
+jadx/core/dex/nodes/RootNode.java
+ jadx.core.dex.nodes.RootNode
+jadx/core/dex/instructions/args/Typed.java
+ jadx.core.dex.instructions.args.Typed
+jadx/core/codegen/InsnGen.java
+ jadx.core.codegen.InsnGen
+ jadx.core.codegen.InsnGen$1
+ jadx.core.codegen.InsnGen$Flags
+jadx/core/dex/visitors/typeinference/TypeBoundConst.java
+ jadx.core.dex.visitors.typeinference.TypeBoundConst
+jadx/core/dex/info/ClassInfo.java
+ jadx.core.dex.info.ClassInfo
+jadx/core/dex/attributes/AFlag.java
+ jadx.core.dex.attributes.AFlag
+jadx/core/dex/instructions/args/SSAVar.java
+ jadx.core.dex.instructions.args.SSAVar
+jadx/core/dex/instructions/SwitchInsn.java
+ jadx.core.dex.instructions.SwitchInsn
+jadx/core/codegen/ClassGen.java
+ jadx.core.codegen.ClassGen
+jadx/core/dex/attributes/AttributeStorage.java
+ jadx.core.dex.attributes.AttributeStorage
+jadx/core/codegen/json/mapping/JsonMthMapping.java
+ jadx.core.codegen.json.mapping.JsonMthMapping
+jadx/core/dex/instructions/args/ArgType.java
+ jadx.core.dex.instructions.args.ArgType
+ jadx.core.dex.instructions.args.ArgType$1
+ jadx.core.dex.instructions.args.ArgType$ArrayArg
+ jadx.core.dex.instructions.args.ArgType$GenericObject
+ jadx.core.dex.instructions.args.ArgType$GenericType
+ jadx.core.dex.instructions.args.ArgType$KnownType
+ jadx.core.dex.instructions.args.ArgType$ObjectType
+ jadx.core.dex.instructions.args.ArgType$OuterGenericObject
+ jadx.core.dex.instructions.args.ArgType$PrimitiveArg
+ jadx.core.dex.instructions.args.ArgType$UnknownArg
+ jadx.core.dex.instructions.args.ArgType$WildcardBound
+ jadx.core.dex.instructions.args.ArgType$WildcardType
+jadx/core/dex/visitors/typeinference/TypeUpdateEntry.java
+ jadx.core.dex.visitors.typeinference.TypeUpdateEntry
+jadx/core/dex/attributes/nodes/JumpInfo.java
+ jadx.core.dex.attributes.nodes.JumpInfo
+jadx/core/dex/nodes/InsnNode.java
+ jadx.core.dex.nodes.InsnNode
+ jadx.core.dex.nodes.InsnNode$1
+jadx/core/dex/attributes/AttrNode.java
+ jadx.core.dex.attributes.AttrNode
+jadx/core/dex/visitors/debuginfo/DebugInfoAttachVisitor.java
+ jadx.core.dex.visitors.debuginfo.DebugInfoAttachVisitor
+jadx/core/utils/DebugChecks.java
+ jadx.core.utils.DebugChecks
+jadx/core/dex/visitors/regions/IfMakerHelper.java
+ jadx.core.dex.visitors.regions.IfMakerHelper
+jadx/core/dex/visitors/typeinference/TypeBoundInvokeAssign.java
+ jadx.core.dex.visitors.typeinference.TypeBoundInvokeAssign
+jadx/core/xmlgen/entry/RawNamedValue.java
+ jadx.core.xmlgen.entry.RawNamedValue
+jadx/core/dex/attributes/IAttributeNode.java
+ jadx.core.dex.attributes.IAttributeNode
+jadx/api/ResourcesLoader.java
+ jadx.api.ResourcesLoader
+ jadx.api.ResourcesLoader$1
+ jadx.api.ResourcesLoader$ResourceDecoder
+jadx/core/dex/instructions/IfNode.java
+ jadx.core.dex.instructions.IfNode
+jadx/core/utils/ImmutableList.java
+ jadx.core.utils.ImmutableList
+ jadx.core.utils.ImmutableList$1
+jadx/core/dex/visitors/regions/variables/UsePlace.java
+ jadx.core.dex.visitors.regions.variables.UsePlace
+jadx/core/dex/attributes/nodes/DeclareVariablesAttr.java
+ jadx.core.dex.attributes.nodes.DeclareVariablesAttr
+jadx/core/dex/visitors/regions/LoopRegionVisitor.java
+ jadx.core.dex.visitors.regions.LoopRegionVisitor
+jadx/core/dex/trycatch/TryCatchBlock.java
+ jadx.core.dex.trycatch.TryCatchBlock
+jadx/core/dex/visitors/debuginfo/DebugInfoApplyVisitor.java
+ jadx.core.dex.visitors.debuginfo.DebugInfoApplyVisitor
+jadx/core/dex/attributes/nodes/LoopLabelAttr.java
+ jadx.core.dex.attributes.nodes.LoopLabelAttr
+jadx/core/dex/visitors/typeinference/TypeInferenceVisitor.java
+ jadx.core.dex.visitors.typeinference.TypeInferenceVisitor
+ jadx.core.dex.visitors.typeinference.TypeInferenceVisitor$1
+jadx/core/utils/InsnUtils.java
+ jadx.core.utils.InsnUtils
+ jadx.core.utils.InsnUtils$1
+jadx/core/dex/instructions/mods/ConstructorInsn.java
+ jadx.core.dex.instructions.mods.ConstructorInsn
+ jadx.core.dex.instructions.mods.ConstructorInsn$CallType
+jadx/core/dex/visitors/OverrideMethodVisitor.java
+ jadx.core.dex.visitors.OverrideMethodVisitor
+jadx/core/xmlgen/ManifestAttributes.java
+ jadx.core.xmlgen.ManifestAttributes
+ jadx.core.xmlgen.ManifestAttributes$MAttr
+ jadx.core.xmlgen.ManifestAttributes$MAttrType
+jadx/core/dex/nodes/IBranchRegion.java
+ jadx.core.dex.nodes.IBranchRegion
+jadx/core/dex/attributes/FieldInitAttr.java
+ jadx.core.dex.attributes.FieldInitAttr
+ jadx.core.dex.attributes.FieldInitAttr$InitType
+jadx/core/utils/exceptions/JadxOverflowException.java
+ jadx.core.utils.exceptions.JadxOverflowException
+jadx/core/dex/instructions/args/InsnWrapArg.java
+ jadx.core.dex.instructions.args.InsnWrapArg
+jadx/core/dex/instructions/InvokeNode.java
+ jadx.core.dex.instructions.InvokeNode
+jadx/core/dex/attributes/nodes/PhiListAttr.java
+ jadx.core.dex.attributes.nodes.PhiListAttr
+jadx/core/codegen/TypeGen.java
+ jadx.core.codegen.TypeGen
+ jadx.core.codegen.TypeGen$1
+jadx/core/Jadx.java
+ jadx.core.Jadx
+jadx/core/dex/info/ClassAliasInfo.java
+ jadx.core.dex.info.ClassAliasInfo
+jadx/core/xmlgen/XmlSecurity.java
+ jadx.core.xmlgen.XmlSecurity
+jadx/core/dex/attributes/AttrList.java
+ jadx.core.dex.attributes.AttrList
+jadx/core/utils/exceptions/JadxException.java
+ jadx.core.utils.exceptions.JadxException
+jadx/core/codegen/json/mapping/JsonClsMapping.java
+ jadx.core.codegen.json.mapping.JsonClsMapping
+jadx/core/codegen/CodeWriter.java
+ jadx.core.codegen.CodeWriter
+ jadx.core.codegen.CodeWriter$1
+ jadx.core.codegen.CodeWriter$DefinitionWrapper
+jadx/core/dex/visitors/typeinference/ITypeListener.java
+ jadx.core.dex.visitors.typeinference.ITypeListener
+jadx/core/utils/DebugUtils.java
+ jadx.core.utils.DebugUtils
+ jadx.core.utils.DebugUtils$1
+ jadx.core.utils.DebugUtils$2
+ jadx.core.utils.DebugUtils$3
+jadx/core/dex/instructions/args/PrimitiveType.java
+ jadx.core.dex.instructions.args.PrimitiveType
+jadx/core/deobf/OverridedMethodsNode.java
+ jadx.core.deobf.OverridedMethodsNode
+jadx/core/dex/visitors/ConstructorVisitor.java
+ jadx.core.dex.visitors.ConstructorVisitor
+jadx/core/codegen/NameGen.java
+ jadx.core.codegen.NameGen
+ jadx.core.codegen.NameGen$1
+jadx/core/dex/visitors/typeinference/TypeUpdateResult.java
+ jadx.core.dex.visitors.typeinference.TypeUpdateResult
+jadx/core/codegen/json/mapping/JsonMapping.java
+ jadx.core.codegen.json.mapping.JsonMapping
+jadx/core/dex/regions/loops/ForLoop.java
+ jadx.core.dex.regions.loops.ForLoop
+jadx/core/dex/visitors/regions/variables/VarUsage.java
+ jadx.core.dex.visitors.regions.variables.VarUsage
+jadx/core/dex/visitors/ReSugarCode.java
+ jadx.core.dex.visitors.ReSugarCode
+ jadx.core.dex.visitors.ReSugarCode$1
+ jadx.core.dex.visitors.ReSugarCode$EnumMapInfo
+jadx/core/dex/instructions/args/CodeVar.java
+ jadx.core.dex.instructions.args.CodeVar
+jadx/core/dex/visitors/regions/IfRegionVisitor.java
+ jadx.core.dex.visitors.regions.IfRegionVisitor
+ jadx.core.dex.visitors.regions.IfRegionVisitor$1
+ jadx.core.dex.visitors.regions.IfRegionVisitor$ProcessIfRegionVisitor
+ jadx.core.dex.visitors.regions.IfRegionVisitor$RemoveRedundantElseVisitor
+jadx/core/dex/visitors/SaveCode.java
+ jadx.core.dex.visitors.SaveCode
+ jadx.core.dex.visitors.SaveCode$1

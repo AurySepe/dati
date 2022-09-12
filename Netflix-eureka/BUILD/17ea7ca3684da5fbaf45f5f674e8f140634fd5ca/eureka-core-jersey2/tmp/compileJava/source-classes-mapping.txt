@@ -1,0 +1,11 @@
+com/netflix/eureka/Jersey2EurekaBootStrap.java
+ com.netflix.eureka.Jersey2EurekaBootStrap
+com/netflix/eureka/transport/Jersey2ReplicationClient.java
+ com.netflix.eureka.transport.Jersey2ReplicationClient
+com/netflix/eureka/resources/EurekaServerContextBinder.java
+ com.netflix.eureka.resources.EurekaServerContextBinder
+ com.netflix.eureka.resources.EurekaServerContextBinder$EurekaServerContextFactory
+com/netflix/eureka/cluster/Jersey2PeerEurekaNodes.java
+ com.netflix.eureka.cluster.Jersey2PeerEurekaNodes
+com/netflix/eureka/transport/Jersey2DynamicGZIPContentEncodingFilter.java
+ com.netflix.eureka.transport.Jersey2DynamicGZIPContentEncodingFilter

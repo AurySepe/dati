@@ -1,0 +1,256 @@
+CLASSDATASHOULDBEPRIVATE	COMPLEXCLASS	FUNCTIONALDECOMPOSITION	GODCLASS	ID	NAME	PATTERNROLE	PATTERNTYPE	SPAGHETTICODE
+false	false	false	false	338	com.netflix.zuul.passport.CurrentPassportTest			false
+false	false	false	false	316	com.netflix.zuul.passport.StartAndEnd			false
+false	false	false	false	313	com.netflix.zuul.passport.CurrentPassport			false
+false	false	false	false	314	com.netflix.zuul.passport.PassportItem			false
+false	false	false	false	345	com.netflix.zuul.init2.TestZuulFilter2			false
+false	false	false	false	194	com.netflix.zuul.init.ZuulFiltersModuleTest			false
+false	false	false	false	193	com.netflix.zuul.init.ZuulFiltersModuleIntegTest			false
+false	false	false	false	192	com.netflix.zuul.init.TestZuulFilter			false
+false	false	false	false	196	com.netflix.zuul.init.ZuulFiltersModule			false
+false	false	false	false	365	com.netflix.zuul.com.netflix.zuul.netty.server.push.PushConnectionTest			false
+false	false	false	false	191	com.netflix.zuul.guice.TestGuiceFieldFilter			false
+false	false	false	false	190	com.netflix.zuul.guice.TestGuiceConstructorFilter			false
+false	false	false	false	189	com.netflix.zuul.guice.GuiceFilterFactoryIntegTest			false
+false	false	false	false	188	com.netflix.zuul.guice.GuiceFilterFactory			false
+false	false	false	false	363	io.netty.bootstrap.ZuulBootstrap			false
+false	false	false	false	324	io.netty.handler.codec.http2.DefaultHttp2PushPromiseFrame			false
+false	false	false	false	325	io.netty.handler.codec.http2.Http2FrameCodec			false
+false	false	false	false	328	io.netty.handler.codec.http2.Http2PushPromiseFrame			false
+false	false	false	false	198	com.netflix.config.PatternListStringProperty			false
+false	false	false	false	197	com.netflix.config.DynamicIntegerSetProperty			false
+false	false	false	false	136	com.netflix.zuul.BasicRequestCompleteHandler	context	State	false
+false	false	false	false	6	com.netflix.zuul.FilterFileManager			false
+false	false	false	false	5	com.netflix.zuul.DynamicCodeCompiler	state	State	false
+false	false	false	false	7	com.netflix.zuul.FilterLoader	context	State	false
+false	false	false	false	195	com.netflix.zuul.BasicFilterUsageNotifier			false
+false	false	false	false	72	com.netflix.zuul.FilterUsageNotifier	implementor	Bridge	false
+false	false	false	false	66	com.netflix.zuul.DefaultFilterFactory			false
+false	false	false	false	36	com.netflix.zuul.ZuulApplicationInfo			false
+false	false	false	false	67	com.netflix.zuul.FilterFactory	state	State	false
+false	false	false	false	98	com.netflix.zuul.RequestCompleteHandler	state	State	false
+false	false	false	false	47	com.netflix.zuul.event.ZuulEvent			false
+false	false	false	false	60	com.netflix.zuul.stats.ZuulEvent			false
+false	false	false	false	56	com.netflix.zuul.stats.ErrorStatsManager	singleton	Singleton	false
+false	false	false	false	140	com.netflix.zuul.stats.Timings			false
+false	false	false	false	59	com.netflix.zuul.stats.StatsManager	singleton	Singleton	false
+false	false	false	false	55	com.netflix.zuul.stats.ErrorStatsData			false
+false	false	false	false	80	com.netflix.zuul.stats.Timing			false
+false	false	false	false	137	com.netflix.zuul.stats.BasicRequestMetricsPublisher			false
+false	false	false	false	54	com.netflix.zuul.stats.AmazonInfoHolder			false
+false	false	false	false	102	com.netflix.zuul.stats.RequestMetricsPublisher	state	State	false
+false	false	false	false	57	com.netflix.zuul.stats.NamedCountingMonitor			false
+false	false	false	false	58	com.netflix.zuul.stats.RouteStatusCodeMonitor			false
+false	false	false	false	62	com.netflix.zuul.stats.monitoring.MonitorRegistry	context	State	false
+false	false	false	false	61	com.netflix.zuul.stats.monitoring.Monitor	state	State	false
+false	false	false	false	63	com.netflix.zuul.stats.monitoring.NamedCount			false
+false	false	false	false	317	com.netflix.zuul.stats.status.StatusCategory			false
+false	false	false	false	318	com.netflix.zuul.stats.status.StatusCategoryGroup			false
+false	false	false	false	319	com.netflix.zuul.stats.status.StatusCategoryUtils			false
+false	false	false	false	33	com.netflix.zuul.plugins.MetricPoller			false
+false	false	false	false	32	com.netflix.zuul.plugins.Counter			false
+false	false	false	false	35	com.netflix.zuul.plugins.Tracer			false
+false	false	false	false	34	com.netflix.zuul.plugins.ServoMonitor			false
+false	false	false	false	109	com.netflix.zuul.origins.LoadBalancer			false
+false	false	false	false	110	com.netflix.zuul.origins.LoadBalancerFactory			false
+false	false	false	false	343	com.netflix.zuul.origins.OriginThrottledException			false
+false	false	false	false	111	com.netflix.zuul.origins.Origin			false
+false	false	false	false	309	com.netflix.zuul.origins.BasicNettyOrigin	context	State	false
+false	false	false	false	310	com.netflix.zuul.origins.BasicNettyOriginManager			false
+false	false	false	false	116	com.netflix.zuul.origins.ServerInfo			false
+false	false	false	false	311	com.netflix.zuul.origins.InstrumentedOrigin			false
+false	false	false	false	312	com.netflix.zuul.origins.NettyOrigin	state	State	false
+false	false	false	false	112	com.netflix.zuul.origins.OriginManager			false
+false	false	false	false	342	com.netflix.zuul.origins.OriginConcurrencyExceededException			false
+false	false	false	false	252	com.netflix.zuul.logging.Http2FrameLoggingPerClientIpHandler			false
+false	false	false	false	251	com.netflix.zuul.logging.FilteredPatternLayout			false
+false	false	false	false	17	com.netflix.zuul.exception.ZuulException			false
+false	false	false	false	242	com.netflix.zuul.exception.OutboundException			false
+false	false	false	false	336	com.netflix.zuul.exception.ZuulFilterConcurrencyExceededException			false
+false	false	false	false	240	com.netflix.zuul.exception.ErrorType			false
+false	false	false	false	108	com.netflix.zuul.metrics.OriginStatsFactory			false
+false	false	false	false	107	com.netflix.zuul.metrics.OriginStats			false
+false	false	false	false	26	com.netflix.zuul.monitoring.MonitoringHelper			false
+false	false	false	false	25	com.netflix.zuul.monitoring.CounterFactory	singleton	Singleton	false
+false	false	false	false	27	com.netflix.zuul.monitoring.Tracer			false
+false	false	false	false	28	com.netflix.zuul.monitoring.TracerFactory	creator	Factory Method	false
+false	false	false	false	131	com.netflix.zuul.filters.http.HttpOutboundFilter			false
+false	false	false	false	132	com.netflix.zuul.filters.http.HttpOutboundSyncFilter			false
+false	false	false	false	129	com.netflix.zuul.filters.http.HttpInboundFilter			false
+false	false	false	false	130	com.netflix.zuul.filters.http.HttpInboundSyncFilter			false
+false	false	false	false	141	com.netflix.zuul.filters.http.HttpSyncEndpoint			false
+false	false	false	false	248	com.netflix.zuul.filters.passport.InboundPassportStampingFilter			false
+false	false	false	false	250	com.netflix.zuul.filters.passport.PassportStampingFilter			false
+false	false	false	false	249	com.netflix.zuul.filters.passport.OutboundPassportStampingFilter			false
+false	false	false	false	10	com.netflix.zuul.filters.BaseFilter			false
+false	false	false	false	18	com.netflix.zuul.filters.FilterRegistry			false
+false	false	false	false	124	com.netflix.zuul.filters.Endpoint			false
+false	false	false	false	178	com.netflix.zuul.filters.SyncZuulFilter			false
+false	false	false	false	182	com.netflix.zuul.filters.BaseFilterTest	abstraction	Bridge	false
+false	false	false	false	243	com.netflix.zuul.filters.SyncZuulFilterAdapter			false
+false	false	false	false	99	com.netflix.zuul.filters.BaseSyncFilter			false
+false	false	false	false	90	com.netflix.zuul.filters.FilterError			false
+false	false	false	false	9	com.netflix.zuul.filters.ZuulFilter	state	State	false
+false	false	false	false	91	com.netflix.zuul.filters.ShouldFilter			false
+false	false	false	false	123	com.netflix.zuul.filters.TestSyncFilter			false
+false	false	false	false	245	com.netflix.zuul.filters.common.SurgicalDebugFilter			false
+false	false	false	false	244	com.netflix.zuul.filters.common.GZipResponseFilter			false
+false	false	false	true	247	com.netflix.zuul.filters.endpoint.ProxyEndpoint	context	State	true
+false	false	false	false	246	com.netflix.zuul.filters.endpoint.MissingEndpointHandlingFilter			false
+false	false	false	false	48	com.netflix.zuul.scriptManager.FilterInfo			false
+false	false	false	false	50	com.netflix.zuul.scriptManager.FilterVerifier	singleton	Singleton	false
+false	false	false	false	81	com.netflix.zuul.util.HttpUtils			false
+false	false	false	false	323	com.netflix.zuul.util.VipUtils			false
+false	false	false	false	322	com.netflix.zuul.util.Gzipper			false
+false	false	false	false	29	com.netflix.zuul.util.DeepCopy			false
+false	false	false	false	65	com.netflix.zuul.util.JsonUtility			false
+false	false	false	false	138	com.netflix.zuul.util.ProxyUtils			false
+false	false	false	false	20	com.netflix.zuul.groovy.GroovyCompiler			false
+false	false	false	false	21	com.netflix.zuul.groovy.GroovyFileFilter			false
+false	false	false	false	147	com.netflix.zuul.message.ZuulMessageImpl	adapter	(Object)Adapter	false
+false	false	false	false	149	com.netflix.zuul.message.HeaderName			false
+false	false	false	false	79	com.netflix.zuul.message.ZuulMessage	creator	Factory Method	false
+false	false	false	false	74	com.netflix.zuul.message.Headers	adaptee	(Object)Adapter	false
+false	false	false	false	148	com.netflix.zuul.message.Header			false
+false	false	false	false	146	com.netflix.zuul.message.http.HttpResponseMessageImpl	context	State	false
+false	false	false	false	144	com.netflix.zuul.message.http.HttpResponseInfo	decorated	Decorator	false
+false	false	false	false	155	com.netflix.zuul.message.http.HttpHeaderNamesCache			false
+false	false	false	false	75	com.netflix.zuul.message.http.HttpQueryParams			false
+false	false	false	true	145	com.netflix.zuul.message.http.HttpRequestMessageImpl	decorator	Decorator	false
+false	false	false	false	142	com.netflix.zuul.message.http.Cookies			false
+true	false	false	false	154	com.netflix.zuul.message.http.HttpHeaderNames			false
+false	false	false	false	139	com.netflix.zuul.message.http.HttpRequestInfo	implementor	Bridge	false
+false	false	false	false	77	com.netflix.zuul.message.http.HttpResponseMessage	implementor	Bridge	false
+false	false	false	false	76	com.netflix.zuul.message.http.HttpRequestMessage	implementor	Bridge	false
+false	false	false	false	308	com.netflix.zuul.niws.RequestAttempts			false
+false	false	false	false	307	com.netflix.zuul.niws.RequestAttempt			false
+false	false	false	false	255	com.netflix.zuul.netty.RequestCancelledEvent			false
+false	false	false	false	254	com.netflix.zuul.netty.NettyRequestAttemptFactory	adaptee	(Object)Adapter	false
+false	false	false	false	256	com.netflix.zuul.netty.SpectatorUtils			false
+false	false	false	false	253	com.netflix.zuul.netty.ChannelUtils			false
+false	false	false	false	287	com.netflix.zuul.netty.server.ClientConnectionsShutdown			false
+true	false	false	false	295	com.netflix.zuul.netty.server.ZuulDependencyKeys			false
+false	false	false	false	285	com.netflix.zuul.netty.server.BaseServerStartup	abstractClass	Template Method	false
+false	false	false	false	292	com.netflix.zuul.netty.server.MethodBinding	singleton	Singleton	false
+false	false	false	false	291	com.netflix.zuul.netty.server.Http1MutualSslChannelInitializer	context	State	false
+false	false	false	false	335	com.netflix.zuul.netty.server.EventLoopConfig	state	State	false
+false	false	false	false	289	com.netflix.zuul.netty.server.ClientResponseWriter	context	State	false
+false	false	false	false	293	com.netflix.zuul.netty.server.OriginResponseReceiver			false
+false	false	false	false	294	com.netflix.zuul.netty.server.Server	context	State	false
+false	false	false	false	334	com.netflix.zuul.netty.server.DefaultEventLoopConfig			false
+false	false	false	false	288	com.netflix.zuul.netty.server.ClientRequestReceiver	context	State	false
+false	false	false	false	290	com.netflix.zuul.netty.server.DirectMemoryMonitor			false
+false	false	false	false	286	com.netflix.zuul.netty.server.BaseZuulChannelInitializer			false
+false	false	false	false	296	com.netflix.zuul.netty.server.ZuulServerChannelInitializer			false
+false	false	false	false	370	com.netflix.zuul.netty.server.ServerTimeout			false
+false	false	false	false	304	com.netflix.zuul.netty.server.ssl.SslHandshakeInfoHandler			false
+false	false	false	false	351	com.netflix.zuul.netty.server.push.PushMessageSenderInitializer	abstractClass	Template Method	false
+false	false	false	false	353	com.netflix.zuul.netty.server.push.PushUserAuth	state	State	false
+false	false	false	false	350	com.netflix.zuul.netty.server.push.PushMessageSender	abstractClass	Template Method	false
+false	false	false	false	352	com.netflix.zuul.netty.server.push.PushRegistrationHandler	context	State	false
+false	false	false	false	340	com.netflix.zuul.netty.server.push.PushConnectionRegistry			false
+false	false	false	false	364	com.netflix.zuul.netty.server.push.PushConnection			false
+false	false	false	false	349	com.netflix.zuul.netty.server.push.PushChannelInitializer	abstractClass	Template Method	false
+false	false	false	false	348	com.netflix.zuul.netty.server.push.PushAuthHandler	abstractClass	Template Method	false
+false	false	false	false	366	com.netflix.zuul.netty.server.push.PushClientProtocolHandler	context	State	false
+false	false	false	false	367	com.netflix.zuul.netty.server.push.PushMessageFactory	abstractClass	Template Method	false
+false	false	false	false	303	com.netflix.zuul.netty.server.http2.Http2StreamInitializer			false
+false	false	false	false	298	com.netflix.zuul.netty.server.http2.Http2Configuration			false
+false	false	false	false	300	com.netflix.zuul.netty.server.http2.Http2ResetFrameHandler			false
+false	false	false	false	299	com.netflix.zuul.netty.server.http2.Http2OrHttpHandler			false
+false	false	false	false	344	com.netflix.zuul.netty.server.http2.Http2StreamErrorHandler			false
+false	false	false	false	301	com.netflix.zuul.netty.server.http2.Http2SslChannelInitializer			false
+false	false	false	false	297	com.netflix.zuul.netty.server.http2.DummyChannelHandler			false
+false	false	false	false	302	com.netflix.zuul.netty.server.http2.Http2StreamHeaderCleaner			false
+false	false	false	false	272	com.netflix.zuul.netty.connectionpool.ZuulNettyExceptionMapper			false
+false	false	false	false	259	com.netflix.zuul.netty.connectionpool.ConnectionPoolConfig	state	State	false
+false	false	false	false	265	com.netflix.zuul.netty.connectionpool.NettyClientConnectionFactory	context	State	false
+false	false	false	false	371	com.netflix.zuul.netty.connectionpool.ClientTimeoutHandler			false
+false	false	false	false	270	com.netflix.zuul.netty.connectionpool.PooledConnectionFactory	state	State	false
+false	false	false	false	263	com.netflix.zuul.netty.connectionpool.DefaultOriginChannelInitializer	context	State	false
+false	false	false	false	271	com.netflix.zuul.netty.connectionpool.RequestStat	state	State	false
+false	false	false	false	257	com.netflix.zuul.netty.connectionpool.BasicRequestStat			false
+false	false	false	false	264	com.netflix.zuul.netty.connectionpool.IConnectionPool			false
+false	false	false	false	260	com.netflix.zuul.netty.connectionpool.ConnectionPoolConfigImpl			false
+false	false	false	false	269	com.netflix.zuul.netty.connectionpool.PooledConnection	context	State	false
+false	false	false	false	266	com.netflix.zuul.netty.connectionpool.OriginChannelInitializer	state	State	false
+false	false	false	false	262	com.netflix.zuul.netty.connectionpool.DefaultClientChannelManager	context	State	false
+false	false	false	false	268	com.netflix.zuul.netty.connectionpool.PerServerConnectionPool	context	State	false
+false	false	false	false	267	com.netflix.zuul.netty.connectionpool.OriginConnectException			false
+false	false	false	false	258	com.netflix.zuul.netty.connectionpool.ClientChannelManager	state	State	false
+false	false	false	false	261	com.netflix.zuul.netty.connectionpool.ConnectionPoolHandler			false
+false	false	false	false	280	com.netflix.zuul.netty.insights.PassportStateHttpServerHandler			false
+false	false	false	false	281	com.netflix.zuul.netty.insights.PassportStateListener			false
+false	false	false	false	279	com.netflix.zuul.netty.insights.PassportStateHttpClientHandler			false
+false	false	false	false	283	com.netflix.zuul.netty.insights.PassportStateServerHandler			false
+false	false	false	false	278	com.netflix.zuul.netty.insights.PassportLoggingHandler			false
+false	false	false	false	282	com.netflix.zuul.netty.insights.PassportStateOriginHandler			false
+false	false	false	false	305	com.netflix.zuul.netty.ssl.BaseSslContextFactory	adapter	(Object)Adapter	false
+false	false	false	false	306	com.netflix.zuul.netty.ssl.SslContextFactory	state	State	false
+false	false	false	false	347	com.netflix.zuul.netty.ssl.ClientSslContextFactory			false
+false	false	false	false	284	com.netflix.zuul.netty.ratelimiting.NullChannelHandlerProvider			false
+false	false	false	false	274	com.netflix.zuul.netty.filter.FilterRunner	state	State	false
+false	false	false	false	277	com.netflix.zuul.netty.filter.ZuulFilterChainRunner	context	State	false
+false	false	false	false	275	com.netflix.zuul.netty.filter.ZuulEndPointRunner			false
+false	false	false	false	276	com.netflix.zuul.netty.filter.ZuulFilterChainHandler			false
+false	false	false	false	273	com.netflix.zuul.netty.filter.BaseZuulFilterRunner	abstraction	Bridge	false
+false	false	false	false	78	com.netflix.zuul.context.SessionContext	adaptee	(Object)Adapter	false
+false	false	false	false	83	com.netflix.zuul.context.SessionContextFactory			false
+false	false	false	false	82	com.netflix.zuul.context.SessionContextDecorator	state	State	false
+false	false	false	false	15	com.netflix.zuul.context.Debug			false
+false	false	false	false	239	com.netflix.zuul.context.ZuulSessionContextDecorator			false
+true	false	false	false	238	com.netflix.zuul.context.CommonContextKeys			false
+false	false	false	false	151	com.netflix.zuul.context.SessionCleaner			false
+true	false	false	false	12	com.netflix.zuul.constants.ZuulConstants			false
+true	false	false	false	13	com.netflix.zuul.constants.ZuulHeaders			false
+false	false	false	false	216	com.netflix.netty.common.accesslog.AccessLogPublisher			false
+false	false	false	false	215	com.netflix.netty.common.accesslog.AccessLogChannelHandler			false
+false	false	false	false	210	com.netflix.netty.common.HttpRequestReadTimeoutHandler			false
+false	false	false	false	199	com.netflix.netty.common.AbstrHttpConnectionExpiryHandler	abstractClass	Template Method	false
+false	false	false	false	337	com.netflix.netty.common.CloseOnIdleStateHandler			false
+false	false	false	false	203	com.netflix.netty.common.Http1ConnectionExpiryHandler			false
+false	false	false	false	205	com.netflix.netty.common.Http2ConnectionExpiryHandler			false
+false	false	false	false	204	com.netflix.netty.common.Http2ConnectionCloseHandler			false
+false	false	false	false	208	com.netflix.netty.common.HttpLifecycleChannelHandler			false
+false	false	false	false	211	com.netflix.netty.common.HttpServerLifecycleChannelHandler			false
+false	false	false	false	207	com.netflix.netty.common.HttpClientLifecycleChannelHandler			false
+false	false	false	false	206	com.netflix.netty.common.HttpChannelFlags			false
+false	false	false	false	214	com.netflix.netty.common.SourceAddressChannelHandler			false
+false	false	false	false	202	com.netflix.netty.common.Http1ConnectionCloseHandler			false
+false	false	false	false	212	com.netflix.netty.common.LeastConnsEventLoopChooserFactory			false
+false	false	false	false	200	com.netflix.netty.common.CategorizedThreadFactory			false
+false	false	false	false	213	com.netflix.netty.common.RequestResponseCompleteEvent			false
+false	false	false	false	209	com.netflix.netty.common.HttpRequestReadTimeoutEvent	singleton	Singleton	false
+false	false	false	false	237	com.netflix.netty.common.throttle.MaxInboundConnectionsHandler			false
+false	false	false	false	223	com.netflix.netty.common.metrics.EventLoopMetrics			false
+false	false	false	false	228	com.netflix.netty.common.metrics.PerEventLoopMetricsChannelHandler			false
+false	false	false	false	224	com.netflix.netty.common.metrics.Http2MetricsChannelHandlers			false
+false	false	false	false	225	com.netflix.netty.common.metrics.HttpBodySizeRecordingChannelHandler			false
+false	false	false	false	227	com.netflix.netty.common.metrics.InstrumentedResourceLeakDetector			false
+false	false	false	false	222	com.netflix.netty.common.metrics.EventLoopGroupMetrics			false
+false	false	false	false	226	com.netflix.netty.common.metrics.HttpMetricsChannelHandler			false
+false	false	false	false	229	com.netflix.netty.common.metrics.ServerChannelMetrics			false
+false	false	false	false	235	com.netflix.netty.common.status.ServerStatusHeaderHandler			false
+false	false	false	false	236	com.netflix.netty.common.status.ServerStatusManager			false
+false	false	false	false	234	com.netflix.netty.common.ssl.SslHandshakeInfo			false
+false	false	false	false	233	com.netflix.netty.common.ssl.ServerSslConfig	adaptee	(Object)Adapter	false
+false	false	false	false	231	com.netflix.netty.common.proxyprotocol.OptionalHAProxyMessageDecoder			false
+false	false	false	false	230	com.netflix.netty.common.proxyprotocol.ElbProxyProtocolChannelHandler			false
+false	false	false	false	232	com.netflix.netty.common.proxyprotocol.StripUntrustedProxyHeadersHandler			false
+false	false	false	false	221	com.netflix.netty.common.http2.DynamicHttp2FrameLogger			false
+false	false	false	false	219	com.netflix.netty.common.channel.config.ChannelConfigValue			false
+false	false	false	false	217	com.netflix.netty.common.channel.config.ChannelConfig			false
+true	false	false	false	220	com.netflix.netty.common.channel.config.CommonChannelConfigKeys			false
+false	false	false	false	218	com.netflix.netty.common.channel.config.ChannelConfigKey			false
+false	false	false	false	330	com.netflix.zuul.sample.Bootstrap			false
+false	false	false	false	331	com.netflix.zuul.sample.SampleServerStartup			false
+false	false	false	false	332	com.netflix.zuul.sample.SampleService			false
+false	false	false	false	333	com.netflix.zuul.sample.ZuulSampleModule			false
+false	false	false	false	359	com.netflix.zuul.sample.push.SamplePushUserAuth			false
+false	false	false	false	368	com.netflix.zuul.sample.push.SampleWebSocketPushClientProtocolHandler			false
+false	false	false	false	356	com.netflix.zuul.sample.push.SamplePushMessageSender			false
+false	false	false	false	357	com.netflix.zuul.sample.push.SamplePushMessageSenderInitializer			false
+false	false	false	false	361	com.netflix.zuul.sample.push.SampleSSEPushClientProtocolHandler			false
+false	false	false	false	354	com.netflix.zuul.sample.push.SamplePushAuthHandler			false
+false	false	false	false	360	com.netflix.zuul.sample.push.SampleSSEPushChannelInitializer			false
+false	false	false	false	355	com.netflix.zuul.sample.push.SampleWebSocketPushChannelInitializer			false

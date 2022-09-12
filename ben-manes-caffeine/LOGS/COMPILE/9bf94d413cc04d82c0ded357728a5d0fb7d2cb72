@@ -1,0 +1,37 @@
+To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/4.0/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+Download http://repo.spring.io/plugins-release/gradle/plugin/io/morethan/jmhreport/gradle-jmh-report/0.4.1/gradle-jmh-report-0.4.1.pom
+Download http://repo.spring.io/plugins-release/com/puppycrawl/tools/checkstyle/8.0/checkstyle-8.0.pom
+[Fatal Error] gradle-jmh-report-0.4.1.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] checkstyle-8.0.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+Download http://repo.spring.io/plugins-release/gradle/plugin/com/github/spotbugs/gradlePlugin/1.0/gradlePlugin-1.0.pom
+[Fatal Error] gradlePlugin-1.0.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+Download https://plugins.gradle.org/m2/com/puppycrawl/tools/checkstyle/8.0/checkstyle-8.0.pom
+Download https://plugins.gradle.org/m2/gradle/plugin/io/morethan/jmhreport/gradle-jmh-report/0.4.1/gradle-jmh-report-0.4.1.pom
+Download https://plugins.gradle.org/m2/gradle/plugin/com/github/spotbugs/gradlePlugin/1.0/gradlePlugin-1.0.pom
+Download http://repo.spring.io/plugins-release/com/github/spotbugs/spotbugs/3.1.0-RC2/spotbugs-3.1.0-RC2.pom
+[Fatal Error] spotbugs-3.1.0-RC2.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+Download https://plugins.gradle.org/m2/com/github/spotbugs/spotbugs/3.1.0-RC2/spotbugs-3.1.0-RC2.pom
+Download http://repo.spring.io/plugins-release/jdepend/jdepend/2.9.1/jdepend-2.9.1.pom
+Download http://repo.spring.io/plugins-release/com/github/spotbugs/spotbugs-annotations/3.1.0-RC2/spotbugs-annotations-3.1.0-RC2.pom
+[Fatal Error] jdepend-2.9.1.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+[Fatal Error] spotbugs-annotations-3.1.0-RC2.pom:7:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+Download https://plugins.gradle.org/m2/jdepend/jdepend/2.9.1/jdepend-2.9.1.pom
+Download https://plugins.gradle.org/m2/com/github/spotbugs/spotbugs-annotations/3.1.0-RC2/spotbugs-annotations-3.1.0-RC2.pom
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'caffeine'.
+> Could not resolve all files for configuration ':classpath'.
+   > Could not resolve io.spring.gradle:propdeps-plugin:0.0.10.RELEASE.
+     Required by:
+         project :
+      > Could not resolve io.spring.gradle:propdeps-plugin:0.0.10.RELEASE.
+         > Failed to download SHA1 for resource 'http://repo.spring.io/plugins-release/io/spring/gradle/propdeps-plugin/0.0.10.RELEASE/propdeps-plugin-0.0.10.RELEASE.pom'.
+            > For input string: "<ht"
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED in 14s

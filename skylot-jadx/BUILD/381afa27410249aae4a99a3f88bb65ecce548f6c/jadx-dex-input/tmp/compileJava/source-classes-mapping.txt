@@ -1,0 +1,102 @@
+jadx/plugins/input/dex/smali/SmaliPrinter.java
+ jadx.plugins.input.dex.smali.SmaliPrinter
+jadx/plugins/input/dex/smali/InsnFormatterInfo.java
+ jadx.plugins.input.dex.smali.InsnFormatterInfo
+jadx/plugins/input/dex/sections/DexMethodData.java
+ jadx.plugins.input.dex.sections.DexMethodData
+jadx/plugins/input/dex/sections/SectionReader.java
+ jadx.plugins.input.dex.sections.SectionReader
+jadx/plugins/input/dex/sections/debuginfo/LocalVar.java
+ jadx.plugins.input.dex.sections.debuginfo.LocalVar
+jadx/plugins/input/dex/DexFileLoader.java
+ jadx.plugins.input.dex.DexFileLoader
+jadx/plugins/input/dex/insns/DexInsnData.java
+ jadx.plugins.input.dex.insns.DexInsnData
+jadx/plugins/input/dex/sections/DexMethodRef.java
+ jadx.plugins.input.dex.sections.DexMethodRef
+jadx/plugins/input/dex/smali/SmaliInsnFormat.java
+ jadx.plugins.input.dex.smali.SmaliInsnFormat
+jadx/plugins/input/dex/insns/DexOpcodes.java
+ jadx.plugins.input.dex.insns.DexOpcodes
+jadx/plugins/input/dex/utils/Utils.java
+ jadx.plugins.input.dex.utils.Utils
+jadx/plugins/input/dex/sections/trycatch/DexCatch.java
+ jadx.plugins.input.dex.sections.trycatch.DexCatch
+jadx/plugins/input/dex/sections/DexFieldData.java
+ jadx.plugins.input.dex.sections.DexFieldData
+jadx/plugins/input/dex/sections/trycatch/DexTryData.java
+ jadx.plugins.input.dex.sections.trycatch.DexTryData
+jadx/plugins/input/dex/utils/SmaliUtils.java
+ jadx.plugins.input.dex.utils.SmaliUtils
+jadx/plugins/input/dex/sections/annotations/AnnotationsParser.java
+ jadx.plugins.input.dex.sections.annotations.AnnotationsParser
+jadx/plugins/input/dex/insns/DexInsnFormat.java
+ jadx.plugins.input.dex.insns.DexInsnFormat
+ jadx.plugins.input.dex.insns.DexInsnFormat$1
+ jadx.plugins.input.dex.insns.DexInsnFormat$10
+ jadx.plugins.input.dex.insns.DexInsnFormat$11
+ jadx.plugins.input.dex.insns.DexInsnFormat$12
+ jadx.plugins.input.dex.insns.DexInsnFormat$13
+ jadx.plugins.input.dex.insns.DexInsnFormat$14
+ jadx.plugins.input.dex.insns.DexInsnFormat$15
+ jadx.plugins.input.dex.insns.DexInsnFormat$16
+ jadx.plugins.input.dex.insns.DexInsnFormat$17
+ jadx.plugins.input.dex.insns.DexInsnFormat$18
+ jadx.plugins.input.dex.insns.DexInsnFormat$19
+ jadx.plugins.input.dex.insns.DexInsnFormat$2
+ jadx.plugins.input.dex.insns.DexInsnFormat$20
+ jadx.plugins.input.dex.insns.DexInsnFormat$21
+ jadx.plugins.input.dex.insns.DexInsnFormat$22
+ jadx.plugins.input.dex.insns.DexInsnFormat$23
+ jadx.plugins.input.dex.insns.DexInsnFormat$24
+ jadx.plugins.input.dex.insns.DexInsnFormat$25
+ jadx.plugins.input.dex.insns.DexInsnFormat$26
+ jadx.plugins.input.dex.insns.DexInsnFormat$27
+ jadx.plugins.input.dex.insns.DexInsnFormat$28
+ jadx.plugins.input.dex.insns.DexInsnFormat$29
+ jadx.plugins.input.dex.insns.DexInsnFormat$3
+ jadx.plugins.input.dex.insns.DexInsnFormat$30
+ jadx.plugins.input.dex.insns.DexInsnFormat$4
+ jadx.plugins.input.dex.insns.DexInsnFormat$5
+ jadx.plugins.input.dex.insns.DexInsnFormat$6
+ jadx.plugins.input.dex.insns.DexInsnFormat$7
+ jadx.plugins.input.dex.insns.DexInsnFormat$8
+ jadx.plugins.input.dex.insns.DexInsnFormat$9
+jadx/plugins/input/dex/DexReader.java
+ jadx.plugins.input.dex.DexReader
+jadx/plugins/input/dex/DexInputPlugin.java
+ jadx.plugins.input.dex.DexInputPlugin
+jadx/plugins/input/dex/smali/SmaliCodeWriter.java
+ jadx.plugins.input.dex.smali.SmaliCodeWriter
+jadx/plugins/input/dex/sections/DexCodeReader.java
+ jadx.plugins.input.dex.sections.DexCodeReader
+jadx/plugins/input/dex/sections/DexConsts.java
+ jadx.plugins.input.dex.sections.DexConsts
+jadx/plugins/input/dex/sections/DexHeader.java
+ jadx.plugins.input.dex.sections.DexHeader
+jadx/plugins/input/dex/utils/MUtf8.java
+ jadx.plugins.input.dex.utils.MUtf8
+jadx/plugins/input/dex/sections/DexClassData.java
+ jadx.plugins.input.dex.sections.DexClassData
+jadx/plugins/input/dex/insns/payloads/DexArrayPayload.java
+ jadx.plugins.input.dex.insns.payloads.DexArrayPayload
+jadx/plugins/input/dex/DexException.java
+ jadx.plugins.input.dex.DexException
+jadx/plugins/input/dex/sections/debuginfo/DebugInfoParser.java
+ jadx.plugins.input.dex.sections.debuginfo.DebugInfoParser
+jadx/plugins/input/dex/sections/annotations/DexAnnotation.java
+ jadx.plugins.input.dex.sections.annotations.DexAnnotation
+jadx/plugins/input/dex/insns/DexInsnInfo.java
+ jadx.plugins.input.dex.insns.DexInsnInfo
+jadx/plugins/input/dex/smali/InsnFormatter.java
+ jadx.plugins.input.dex.smali.InsnFormatter
+jadx/plugins/input/dex/sections/annotations/EncodedValueParser.java
+ jadx.plugins.input.dex.sections.annotations.EncodedValueParser
+jadx/plugins/input/dex/sections/debuginfo/DebugInfo.java
+ jadx.plugins.input.dex.sections.debuginfo.DebugInfo
+jadx/plugins/input/dex/insns/payloads/DexSwitchPayload.java
+ jadx.plugins.input.dex.insns.payloads.DexSwitchPayload
+jadx/plugins/input/dex/DexLoadResult.java
+ jadx.plugins.input.dex.DexLoadResult
+jadx/plugins/input/dex/utils/Leb128.java
+ jadx.plugins.input.dex.utils.Leb128

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<pattern name="Factory Method">
+		<instance>
+			<role name="Creator" element="org.springframework.data.jpa.repository.query.QueryParameterSetterFactory" />
+			<role name="FactoryMethod()" element="org.springframework.data.jpa.repository.query.QueryParameterSetterFactory::create(org.springframework.data.jpa.repository.query.StringQuery$ParameterBinding, org.springframework.data.jpa.repository.query.DeclaredQuery):org.springframework.data.jpa.repository.query.QueryParameterSetter" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.springframework.data.jpa.repository.support.QueryHints" />
+			<role name="FactoryMethod()" element="org.springframework.data.jpa.repository.support.QueryHints::withFetchGraphs(javax.persistence.EntityManager):org.springframework.data.jpa.repository.support.QueryHints" />
+			<role name="FactoryMethod()" element="org.springframework.data.jpa.repository.support.QueryHints::forCounts():org.springframework.data.jpa.repository.support.QueryHints" />
+		</instance>
+	</pattern>
+	<pattern name="Prototype" />
+	<pattern name="Singleton">
+		<instance>
+			<role name="Singleton" element="org.springframework.data.jpa.domain.QAbstractAuditable" />
+			<role name="uniqueInstance" element="org.springframework.data.jpa.domain.QAbstractAuditable::abstractAuditable:org.springframework.data.jpa.domain.QAbstractAuditable" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.springframework.data.jpa.domain.QAbstractPersistable" />
+			<role name="uniqueInstance" element="org.springframework.data.jpa.domain.QAbstractPersistable::abstractPersistable:org.springframework.data.jpa.domain.QAbstractPersistable" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.springframework.data.jpa.repository.query.StoredProcedureAttributeSource" />
+			<role name="uniqueInstance" element="org.springframework.data.jpa.repository.query.StoredProcedureAttributeSource::INSTANCE:org.springframework.data.jpa.repository.query.StoredProcedureAttributeSource" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.springframework.data.jpa.repository.query.JpaResultConverters$BlobToByteArrayConverter" />
+			<role name="uniqueInstance" element="org.springframework.data.jpa.repository.query.JpaResultConverters$BlobToByteArrayConverter::INSTANCE:org.springframework.data.jpa.repository.query.JpaResultConverters$BlobToByteArrayConverter" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.springframework.data.jpa.repository.query.QueryParameterSetter" />
+			<role name="uniqueInstance" element="org.springframework.data.jpa.repository.query.QueryParameterSetter::NOOP:org.springframework.data.jpa.repository.query.QueryParameterSetter" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.springframework.data.jpa.repository.query.JpaQueryFactory" />
+			<role name="uniqueInstance" element="org.springframework.data.jpa.repository.query.JpaQueryFactory::INSTANCE:org.springframework.data.jpa.repository.query.JpaQueryFactory" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.springframework.data.jpa.repository.query.StringQuery$ParameterBindingParser" />
+			<role name="uniqueInstance" element="org.springframework.data.jpa.repository.query.StringQuery$ParameterBindingParser::INSTANCE:org.springframework.data.jpa.repository.query.StringQuery$ParameterBindingParser" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.springframework.data.jpa.repository.query.EscapeCharacter" />
+			<role name="uniqueInstance" element="org.springframework.data.jpa.repository.query.EscapeCharacter::DEFAULT:org.springframework.data.jpa.repository.query.EscapeCharacter" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.springframework.data.jpa.repository.support.QueryHints$NoHints" />
+			<role name="uniqueInstance" element="org.springframework.data.jpa.repository.support.QueryHints$NoHints::INSTANCE:org.springframework.data.jpa.repository.support.QueryHints$NoHints" />
+		</instance>
+	</pattern>
+	<pattern name="(Object)Adapter">
+		<instance>
+			<role name="Adaptee" element="org.springframework.data.jpa.repository.query.QueryParameterSetter$QueryMetadataCache" />
+			<role name="Adapter" element="org.springframework.data.jpa.repository.query.AbstractStringBasedJpaQuery" />
+			<role name="adaptee" element="org.springframework.data.jpa.repository.query.AbstractStringBasedJpaQuery::metadataCache:org.springframework.data.jpa.repository.query.QueryParameterSetter$QueryMetadataCache" />
+			<role name="Request()" element="org.springframework.data.jpa.repository.query.AbstractStringBasedJpaQuery::doCreateQuery(org.springframework.data.jpa.repository.query.JpaParametersParameterAccessor):javax.persistence.Query" />
+			<role name="Request()" element="org.springframework.data.jpa.repository.query.AbstractStringBasedJpaQuery::doCreateCountQuery(org.springframework.data.jpa.repository.query.JpaParametersParameterAccessor):javax.persistence.Query" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.springframework.data.jpa.repository.query.QueryParameterSetter$QueryMetadataCache" />
+			<role name="Adapter" element="org.springframework.data.jpa.repository.query.NamedQuery" />
+			<role name="adaptee" element="org.springframework.data.jpa.repository.query.NamedQuery::metadataCache:org.springframework.data.jpa.repository.query.QueryParameterSetter$QueryMetadataCache" />
+			<role name="Request()" element="org.springframework.data.jpa.repository.query.NamedQuery::doCreateQuery(org.springframework.data.jpa.repository.query.JpaParametersParameterAccessor):javax.persistence.Query" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.springframework.data.jpa.repository.query.JpaParameters" />
+			<role name="Adapter" element="org.springframework.data.jpa.repository.query.QueryParameterSetterFactory$BasicQueryParameterSetterFactory" />
+			<role name="adaptee" element="org.springframework.data.jpa.repository.query.QueryParameterSetterFactory$BasicQueryParameterSetterFactory::parameters:org.springframework.data.jpa.repository.query.JpaParameters" />
+			<role name="Request()" element="org.springframework.data.jpa.repository.query.QueryParameterSetterFactory$BasicQueryParameterSetterFactory::create(org.springframework.data.jpa.repository.query.StringQuery$ParameterBinding, org.springframework.data.jpa.repository.query.DeclaredQuery):org.springframework.data.jpa.repository.query.QueryParameterSetter" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.springframework.data.jpa.repository.query.JpaParameters" />
+			<role name="Adapter" element="org.springframework.data.jpa.repository.query.QueryParameterSetterFactory$CriteriaQueryParameterSetterFactory" />
+			<role name="adaptee" element="org.springframework.data.jpa.repository.query.QueryParameterSetterFactory$CriteriaQueryParameterSetterFactory::parameters:org.springframework.data.jpa.repository.query.JpaParameters" />
+			<role name="Request()" element="org.springframework.data.jpa.repository.query.QueryParameterSetterFactory$CriteriaQueryParameterSetterFactory::create(org.springframework.data.jpa.repository.query.StringQuery$ParameterBinding, org.springframework.data.jpa.repository.query.DeclaredQuery):org.springframework.data.jpa.repository.query.QueryParameterSetter" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.springframework.data.jpa.repository.query.DeclaredQuery" />
+			<role name="Adapter" element="org.springframework.data.jpa.repository.query.AbstractStringBasedJpaQuery" />
+			<role name="adaptee" element="org.springframework.data.jpa.repository.query.AbstractStringBasedJpaQuery::query:org.springframework.data.jpa.repository.query.DeclaredQuery" />
+			<role name="adaptee" element="org.springframework.data.jpa.repository.query.AbstractStringBasedJpaQuery::countQuery:org.springframework.data.jpa.repository.query.DeclaredQuery" />
+			<role name="Request()" element="org.springframework.data.jpa.repository.query.AbstractStringBasedJpaQuery::doCreateQuery(org.springframework.data.jpa.repository.query.JpaParametersParameterAccessor):javax.persistence.Query" />
+			<role name="Request()" element="org.springframework.data.jpa.repository.query.AbstractStringBasedJpaQuery::doCreateCountQuery(org.springframework.data.jpa.repository.query.JpaParametersParameterAccessor):javax.persistence.Query" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.springframework.data.jpa.repository.query.PartTreeJpaQuery$QueryPreparer" />
+			<role name="Adapter" element="org.springframework.data.jpa.repository.query.PartTreeJpaQuery" />
+			<role name="adaptee" element="org.springframework.data.jpa.repository.query.PartTreeJpaQuery::query:org.springframework.data.jpa.repository.query.PartTreeJpaQuery$QueryPreparer" />
+			<role name="Request()" element="org.springframework.data.jpa.repository.query.PartTreeJpaQuery::doCreateQuery(org.springframework.data.jpa.repository.query.JpaParametersParameterAccessor):javax.persistence.Query" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.springframework.data.jpa.repository.support.JpaEntityInformation" />
+			<role name="Adapter" element="org.springframework.data.jpa.repository.support.SimpleJpaRepository$ByIdsSpecification" />
+			<role name="adaptee" element="org.springframework.data.jpa.repository.support.SimpleJpaRepository$ByIdsSpecification::entityInformation:org.springframework.data.jpa.repository.support.JpaEntityInformation" />
+			<role name="Request()" element="org.springframework.data.jpa.repository.support.SimpleJpaRepository$ByIdsSpecification::toPredicate(javax.persistence.criteria.Root, javax.persistence.criteria.CriteriaQuery, javax.persistence.criteria.CriteriaBuilder):javax.persistence.criteria.Predicate" />
+		</instance>
+	</pattern>
+	<pattern name="Command" />
+	<pattern name="Composite" />
+	<pattern name="Decorator" />
+	<pattern name="Observer" />
+	<pattern name="State">
+		<instance>
+			<role name="Context" element="org.springframework.data.jpa.repository.query.NamedQuery" />
+			<role name="State" element="org.springframework.data.jpa.repository.query.DeclaredQuery" />
+			<role name="state" element="org.springframework.data.jpa.repository.query.NamedQuery::declaredQuery:org.springframework.data.jpa.repository.query.DeclaredQuery" />
+			<role name="Request()" element="org.springframework.data.jpa.repository.query.NamedQuery::doCreateCountQuery(org.springframework.data.jpa.repository.query.JpaParametersParameterAccessor):javax.persistence.TypedQuery" />
+			<role name="Request()" element="org.springframework.data.jpa.repository.query.NamedQuery::getTypeToRead(org.springframework.data.repository.query.ReturnedType):java.lang.Class" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.springframework.data.jpa.mapping.JpaPersistentEntityImpl$JpaProxyAwareIdentifierAccessor" />
+			<role name="State" element="org.springframework.data.jpa.provider.ProxyIdAccessor" />
+			<role name="state" element="org.springframework.data.jpa.mapping.JpaPersistentEntityImpl$JpaProxyAwareIdentifierAccessor::proxyIdAccessor:org.springframework.data.jpa.provider.ProxyIdAccessor" />
+			<role name="Request()" element="org.springframework.data.jpa.mapping.JpaPersistentEntityImpl$JpaProxyAwareIdentifierAccessor::getIdentifier():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.springframework.data.jpa.repository.query.JpaParameters$JpaParameter" />
+			<role name="State" element="org.springframework.data.jpa.repository.Temporal" />
+			<role name="state" element="org.springframework.data.jpa.repository.query.JpaParameters$JpaParameter::annotation:org.springframework.data.jpa.repository.Temporal" />
+			<role name="Request()" element="org.springframework.data.jpa.repository.query.JpaParameters$JpaParameter::getTemporalType():javax.persistence.TemporalType" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.springframework.data.jpa.repository.support.SimpleJpaRepository" />
+			<role name="State" element="org.springframework.data.jpa.repository.support.JpaEntityInformation" />
+			<role name="state" element="org.springframework.data.jpa.repository.support.SimpleJpaRepository::entityInformation:org.springframework.data.jpa.repository.support.JpaEntityInformation" />
+			<role name="Request()" element="org.springframework.data.jpa.repository.support.SimpleJpaRepository::existsById(ID):boolean" />
+			<role name="Request()" element="org.springframework.data.jpa.repository.support.SimpleJpaRepository::findAllById(java.lang.Iterable):java.util.List" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.springframework.data.jpa.repository.support.DefaultQueryHints" />
+			<role name="State" element="org.springframework.data.jpa.repository.support.CrudMethodMetadata" />
+			<role name="state" element="org.springframework.data.jpa.repository.support.DefaultQueryHints::metadata:org.springframework.data.jpa.repository.support.CrudMethodMetadata" />
+			<role name="Request()" element="org.springframework.data.jpa.repository.support.DefaultQueryHints::combineHints():org.springframework.data.jpa.repository.support.QueryHints" />
+			<role name="Request()" element="org.springframework.data.jpa.repository.support.DefaultQueryHints::getFetchGraphs():org.springframework.data.jpa.repository.support.QueryHints" />
+			<role name="Request()" element="org.springframework.data.jpa.repository.support.DefaultQueryHints::getEntityGraph(org.springframework.data.jpa.repository.EntityGraph):org.springframework.data.jpa.repository.query.JpaEntityGraph" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.springframework.data.jpa.repository.support.SimpleJpaRepository" />
+			<role name="State" element="org.springframework.data.jpa.repository.support.CrudMethodMetadata" />
+			<role name="state" element="org.springframework.data.jpa.repository.support.SimpleJpaRepository::metadata:org.springframework.data.jpa.repository.support.CrudMethodMetadata" />
+			<role name="Request()" element="org.springframework.data.jpa.repository.support.SimpleJpaRepository::findById(ID):java.util.Optional" />
+			<role name="Request()" element="org.springframework.data.jpa.repository.support.SimpleJpaRepository::applyRepositoryMethodMetadata():javax.persistence.TypedQuery" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.springframework.data.jpa.repository.support.SimpleJpaRepository$ByIdsSpecification" />
+			<role name="State" element="org.springframework.data.jpa.repository.support.JpaEntityInformation" />
+			<role name="state" element="org.springframework.data.jpa.repository.support.SimpleJpaRepository$ByIdsSpecification::entityInformation:org.springframework.data.jpa.repository.support.JpaEntityInformation" />
+			<role name="Request()" element="org.springframework.data.jpa.repository.support.SimpleJpaRepository$ByIdsSpecification::toPredicate(javax.persistence.criteria.Root, javax.persistence.criteria.CriteriaQuery, javax.persistence.criteria.CriteriaBuilder):javax.persistence.criteria.Predicate" />
+		</instance>
+	</pattern>
+	<pattern name="Strategy" />
+	<pattern name="Bridge">
+		<instance>
+			<role name="Abstraction" element="org.springframework.data.jpa.repository.query.AbstractStringBasedJpaQuery" />
+			<role name="Implementor" element="org.springframework.data.jpa.repository.query.DeclaredQuery" />
+			<role name="implementor" element="org.springframework.data.jpa.repository.query.AbstractStringBasedJpaQuery::query:org.springframework.data.jpa.repository.query.DeclaredQuery" />
+			<role name="implementor" element="org.springframework.data.jpa.repository.query.AbstractStringBasedJpaQuery::countQuery:org.springframework.data.jpa.repository.query.DeclaredQuery" />
+			<role name="Operation()" element="org.springframework.data.jpa.repository.query.AbstractStringBasedJpaQuery::doCreateQuery(org.springframework.data.jpa.repository.query.JpaParametersParameterAccessor):javax.persistence.Query" />
+			<role name="Operation()" element="org.springframework.data.jpa.repository.query.AbstractStringBasedJpaQuery::doCreateCountQuery(org.springframework.data.jpa.repository.query.JpaParametersParameterAccessor):javax.persistence.Query" />
+			<role name="Operation()" element="org.springframework.data.jpa.repository.query.AbstractStringBasedJpaQuery::createJpaQuery(java.lang.String, org.springframework.data.repository.query.ReturnedType):javax.persistence.Query" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="org.springframework.data.jpa.repository.support.JpaEntityInformationSupport" />
+			<role name="Implementor" element="org.springframework.data.jpa.repository.query.JpaEntityMetadata" />
+			<role name="implementor" element="org.springframework.data.jpa.repository.support.JpaEntityInformationSupport::metadata:org.springframework.data.jpa.repository.query.JpaEntityMetadata" />
+			<role name="Operation()" element="org.springframework.data.jpa.repository.support.JpaEntityInformationSupport::getEntityName():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy" />
+			<role name="Implementor" element="org.springframework.data.jpa.repository.query.JpaQueryMethodFactory" />
+			<role name="implementor" element="org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy::queryMethodFactory:org.springframework.data.jpa.repository.query.JpaQueryMethodFactory" />
+			<role name="Operation()" element="org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy::resolveQuery(java.lang.reflect.Method, org.springframework.data.repository.core.RepositoryMetadata, org.springframework.data.projection.ProjectionFactory, org.springframework.data.repository.core.NamedQueries):org.springframework.data.repository.query.RepositoryQuery" />
+		</instance>
+	</pattern>
+	<pattern name="Template Method">
+		<instance>
+			<role name="AbstractClass" element="org.springframework.data.jpa.repository.query.AbstractJpaQuery" />
+			<role name="TemplateMethod()" element="org.springframework.data.jpa.repository.query.AbstractJpaQuery::createQuery(org.springframework.data.jpa.repository.query.JpaParametersParameterAccessor):javax.persistence.Query" />
+			<role name="TemplateMethod()" element="org.springframework.data.jpa.repository.query.AbstractJpaQuery::createCountQuery(org.springframework.data.jpa.repository.query.JpaParametersParameterAccessor):javax.persistence.Query" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.springframework.data.jpa.repository.query.JpaQueryExecution" />
+			<role name="TemplateMethod()" element="org.springframework.data.jpa.repository.query.JpaQueryExecution::execute(org.springframework.data.jpa.repository.query.AbstractJpaQuery, org.springframework.data.jpa.repository.query.JpaParametersParameterAccessor):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy" />
+			<role name="TemplateMethod()" element="org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy::resolveQuery(java.lang.reflect.Method, org.springframework.data.repository.core.RepositoryMetadata, org.springframework.data.projection.ProjectionFactory, org.springframework.data.repository.core.NamedQueries):org.springframework.data.repository.query.RepositoryQuery" />
+		</instance>
+	</pattern>
+	<pattern name="Visitor" />
+	<pattern name="Proxy">
+		<instance>
+			<role name="Proxy" element="org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy" />
+			<role name="RealSubject" element="org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateQueryLookupStrategy" />
+			<role name="Request()" element="org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy::resolveQuery(org.springframework.data.jpa.repository.query.JpaQueryMethod, javax.persistence.EntityManager, org.springframework.data.repository.core.NamedQueries):org.springframework.data.repository.query.RepositoryQuery" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy" />
+			<role name="RealSubject" element="org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$DeclaredQueryLookupStrategy" />
+			<role name="Request()" element="org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy::resolveQuery(org.springframework.data.jpa.repository.query.JpaQueryMethod, javax.persistence.EntityManager, org.springframework.data.repository.core.NamedQueries):org.springframework.data.repository.query.RepositoryQuery" />
+		</instance>
+	</pattern>
+	<pattern name="Proxy2" />
+	<pattern name="Chain of Responsibility" />
+</system>
+

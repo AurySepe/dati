@@ -1,0 +1,181 @@
+Downloading https://services.gradle.org/distributions/gradle-2.7-bin.zip
+................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Unzipping /root/.gradle/wrapper/dists/gradle-2.7-bin/4s0fcuuppw3tjb1sxpzh16mne/gradle-2.7-bin.zip to /root/.gradle/wrapper/dists/gradle-2.7-bin/4s0fcuuppw3tjb1sxpzh16mne
+Set executable permissions for: /root/.gradle/wrapper/dists/gradle-2.7-bin/4s0fcuuppw3tjb1sxpzh16mne/gradle-2.7/bin/gradle
+Download https://jcenter.bintray.com/com/netflix/nebula/gradle-netflixoss-project-plugin/3.1.2/gradle-netflixoss-project-plugin-3.1.2.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/gradle-contacts-plugin/2.2.0/gradle-contacts-plugin-2.2.0.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/gradle-dependency-lock-plugin/3.0.0/gradle-dependency-lock-plugin-3.0.0.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/gradle-info-plugin/2.2.4/gradle-info-plugin-2.2.4.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-bintray-plugin/3.1.0/nebula-bintray-plugin-3.1.0.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-core/3.0.0/nebula-core-3.0.0.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-project-plugin/3.0.1/nebula-project-plugin-3.0.1.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-publishing-plugin/4.2.1/nebula-publishing-plugin-4.2.1.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-release-plugin/3.0.2/nebula-release-plugin-3.0.2.pom
+Download https://jcenter.bintray.com/org/tmatesoft/svnkit/svnkit/1.8.5/svnkit-1.8.5.pom
+Download https://jcenter.bintray.com/com/jfrog/bintray/gradle/gradle-bintray-plugin/1.3.1/gradle-bintray-plugin-1.3.1.pom
+Download https://jcenter.bintray.com/org/jfrog/buildinfo/build-info-extractor-gradle/3.1.1/build-info-extractor-gradle-3.1.1.pom
+Download https://jcenter.bintray.com/org/ajoberstar/gradle-git/1.3.0/gradle-git-1.3.0.pom
+Download https://jcenter.bintray.com/net/java/dev/jna/jna/3.5.2/jna-3.5.2.pom
+Download https://jcenter.bintray.com/net/java/dev/jna/platform/3.5.2/platform-3.5.2.pom
+Download https://jcenter.bintray.com/de/regnis/q/sequence/sequence-library/1.0.2/sequence-library-1.0.2.pom
+Download https://jcenter.bintray.com/com/trilead/trilead-ssh2/1.0.0-build217/trilead-ssh2-1.0.0-build217.pom
+Download https://jcenter.bintray.com/org/jfrog/buildinfo/build-info-extractor/2.5.1/build-info-extractor-2.5.1.pom
+Download https://jcenter.bintray.com/org/ajoberstar/grgit/1.3.0/grgit-1.3.0.pom
+Download https://jcenter.bintray.com/org/jfrog/buildinfo/build-info-client/2.5.1/build-info-client-2.5.1.pom
+Download https://jcenter.bintray.com/org/eclipse/jgit/org.eclipse.jgit.ui/3.7.0.201502260915-r/org.eclipse.jgit.ui-3.7.0.201502260915-r.pom
+Download https://jcenter.bintray.com/org/eclipse/jgit/org.eclipse.jgit-parent/3.7.0.201502260915-r/org.eclipse.jgit-parent-3.7.0.201502260915-r.pom
+Download https://jcenter.bintray.com/org/jfrog/buildinfo/build-info-api/2.5.1/build-info-api-2.5.1.pom
+Download https://jcenter.bintray.com/org/eclipse/jgit/org.eclipse.jgit/3.7.0.201502260915-r/org.eclipse.jgit-3.7.0.201502260915-r.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/gradle-netflixoss-project-plugin/3.1.2/gradle-netflixoss-project-plugin-3.1.2.jar
+Download https://jcenter.bintray.com/com/netflix/nebula/gradle-contacts-plugin/2.2.0/gradle-contacts-plugin-2.2.0.jar
+Download https://jcenter.bintray.com/com/netflix/nebula/gradle-dependency-lock-plugin/3.0.0/gradle-dependency-lock-plugin-3.0.0.jar
+Download https://jcenter.bintray.com/com/netflix/nebula/gradle-info-plugin/2.2.4/gradle-info-plugin-2.2.4.jar
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-bintray-plugin/3.1.0/nebula-bintray-plugin-3.1.0.jar
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-core/3.0.0/nebula-core-3.0.0.jar
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-project-plugin/3.0.1/nebula-project-plugin-3.0.1.jar
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-publishing-plugin/4.2.1/nebula-publishing-plugin-4.2.1.jar
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-release-plugin/3.0.2/nebula-release-plugin-3.0.2.jar
+Download https://jcenter.bintray.com/org/tmatesoft/svnkit/svnkit/1.8.5/svnkit-1.8.5.jar
+Download https://jcenter.bintray.com/com/jfrog/bintray/gradle/gradle-bintray-plugin/1.3.1/gradle-bintray-plugin-1.3.1.jar
+Download https://jcenter.bintray.com/org/jfrog/buildinfo/build-info-extractor-gradle/3.1.1/build-info-extractor-gradle-3.1.1.jar
+Download https://jcenter.bintray.com/org/ajoberstar/gradle-git/1.3.0/gradle-git-1.3.0.jar
+Download https://jcenter.bintray.com/net/java/dev/jna/jna/3.5.2/jna-3.5.2.jar
+Download https://jcenter.bintray.com/net/java/dev/jna/platform/3.5.2/platform-3.5.2.jar
+Download https://jcenter.bintray.com/de/regnis/q/sequence/sequence-library/1.0.2/sequence-library-1.0.2.jar
+Download https://jcenter.bintray.com/com/trilead/trilead-ssh2/1.0.0-build217/trilead-ssh2-1.0.0-build217.jar
+Download https://jcenter.bintray.com/org/jfrog/buildinfo/build-info-extractor/2.5.1/build-info-extractor-2.5.1.jar
+Download https://jcenter.bintray.com/org/ajoberstar/grgit/1.3.0/grgit-1.3.0.jar
+Download https://jcenter.bintray.com/org/jfrog/buildinfo/build-info-client/2.5.1/build-info-client-2.5.1.jar
+Download https://jcenter.bintray.com/org/eclipse/jgit/org.eclipse.jgit.ui/3.7.0.201502260915-r/org.eclipse.jgit.ui-3.7.0.201502260915-r.jar
+Download https://jcenter.bintray.com/org/jfrog/buildinfo/build-info-api/2.5.1/build-info-api-2.5.1.jar
+Download https://jcenter.bintray.com/org/eclipse/jgit/org.eclipse.jgit/3.7.0.201502260915-r/org.eclipse.jgit-3.7.0.201502260915-r.jar
+Inferred project: hystrix, version: 1.5.0-SNAPSHOT
+Publication nebula not found in project :.
+[buildinfo] Not using buildInfo properties file for this build.
+Publication named 'nebula' does not exist for project ':' in task ':artifactoryPublish'.
+None of the specified publications matched for project ':' - nothing to publish.
+:clean UP-TO-DATE
+:hystrix-clj:clean
+:hystrix-codahale-metrics-publisher:clean
+:hystrix-core:clean
+:hystrix-dashboard:clean
+:hystrix-examples:clean
+:hystrix-examples-webapp:clean
+:hystrix-javanica:clean
+:hystrix-metrics-event-stream:clean
+:hystrix-network-auditor-agent:clean
+:hystrix-request-servlet:clean
+:hystrix-rx-netty-metrics-stream:clean
+:hystrix-servo-metrics-publisher:clean
+:hystrix-yammer-metrics-publisher:clean
+:compileJava UP-TO-DATE
+:hystrix-core:compileJava
+Download https://jcenter.bintray.com/io/reactivex/rxjava/1.1.0/rxjava-1.1.0.pom
+Download https://jcenter.bintray.com/io/reactivex/rxjava/1.1.0/rxjava-1.1.0.jar
+warning: [options] bootstrap class path not set in conjunction with -source 1.6
+/results/Netflix-Hystrix/RELEASES/4d4f2255fa5d913d173a3ed685ae6be557915f3d/hystrix-core/src/main/java/com/netflix/hystrix/util/Striped64.java:118: warning: Unsafe is internal proprietary API and may be removed in a future release
+        private static final sun.misc.Unsafe UNSAFE;
+                                     ^
+/results/Netflix-Hystrix/RELEASES/4d4f2255fa5d913d173a3ed685ae6be557915f3d/hystrix-core/src/main/java/com/netflix/hystrix/util/Striped64.java:316: warning: Unsafe is internal proprietary API and may be removed in a future release
+    private static final sun.misc.Unsafe UNSAFE;
+                                 ^
+/results/Netflix-Hystrix/RELEASES/4d4f2255fa5d913d173a3ed685ae6be557915f3d/hystrix-core/src/main/java/com/netflix/hystrix/util/Striped64.java:339: warning: Unsafe is internal proprietary API and may be removed in a future release
+    private static sun.misc.Unsafe getUnsafe() {
+                           ^
+/results/Netflix-Hystrix/RELEASES/4d4f2255fa5d913d173a3ed685ae6be557915f3d/hystrix-core/src/main/java/com/netflix/hystrix/util/Striped64.java:341: warning: Unsafe is internal proprietary API and may be removed in a future release
+            return sun.misc.Unsafe.getUnsafe();
+                           ^
+/results/Netflix-Hystrix/RELEASES/4d4f2255fa5d913d173a3ed685ae6be557915f3d/hystrix-core/src/main/java/com/netflix/hystrix/util/Striped64.java:346: warning: Unsafe is internal proprietary API and may be removed in a future release
+                     .PrivilegedExceptionAction<sun.misc.Unsafe>() {
+                                                        ^
+/results/Netflix-Hystrix/RELEASES/4d4f2255fa5d913d173a3ed685ae6be557915f3d/hystrix-core/src/main/java/com/netflix/hystrix/util/Striped64.java:347: warning: Unsafe is internal proprietary API and may be removed in a future release
+                        public sun.misc.Unsafe run() throws Exception {
+                                       ^
+/results/Netflix-Hystrix/RELEASES/4d4f2255fa5d913d173a3ed685ae6be557915f3d/hystrix-core/src/main/java/com/netflix/hystrix/util/Striped64.java:349: warning: Unsafe is internal proprietary API and may be removed in a future release
+                                .Unsafe.class.getDeclaredField("theUnsafe");
+                                ^
+/results/Netflix-Hystrix/RELEASES/4d4f2255fa5d913d173a3ed685ae6be557915f3d/hystrix-core/src/main/java/com/netflix/hystrix/util/Striped64.java:351: warning: Unsafe is internal proprietary API and may be removed in a future release
+                            return (sun.misc.Unsafe) f.get(null);
+                                            ^
+Note: /results/Netflix-Hystrix/RELEASES/4d4f2255fa5d913d173a3ed685ae6be557915f3d/hystrix-core/src/main/java/com/netflix/hystrix/AbstractCommand.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+9 warnings
+:hystrix-core:processResources UP-TO-DATE
+:hystrix-core:classes
+:hystrix-core:writeManifestProperties
+:hystrix-core:jar
+:hystrix-clj:compileJava UP-TO-DATE
+:hystrix-codahale-metrics-publisher:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:hystrix-dashboard:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:hystrix-examples:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:hystrix-examples:processResources UP-TO-DATE
+:hystrix-examples:classes
+:hystrix-examples:writeManifestProperties
+:hystrix-examples:jar
+:hystrix-metrics-event-stream:compileJava
+Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.5.2/jackson-core-2.5.2.pom
+Download https://jcenter.bintray.com/com/fasterxml/jackson/jackson-parent/2.5/jackson-parent-2.5.pom
+Download https://jcenter.bintray.com/com/fasterxml/oss-parent/18/oss-parent-18.pom
+Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.5.2/jackson-core-2.5.2.jar
+warning: [options] bootstrap class path not set in conjunction with -source 1.6
+Note: /results/Netflix-Hystrix/RELEASES/4d4f2255fa5d913d173a3ed685ae6be557915f3d/hystrix-contrib/hystrix-metrics-event-stream/src/main/java/com/netflix/hystrix/contrib/metrics/eventstream/HystrixMetricsPoller.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+1 warning
+:hystrix-metrics-event-stream:processResources UP-TO-DATE
+:hystrix-metrics-event-stream:classes
+:hystrix-metrics-event-stream:writeManifestProperties
+:hystrix-metrics-event-stream:jar
+:hystrix-request-servlet:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:hystrix-request-servlet:processResources UP-TO-DATE
+:hystrix-request-servlet:classes
+:hystrix-request-servlet:writeManifestProperties
+:hystrix-request-servlet:jar
+:hystrix-examples-webapp:compileJava UP-TO-DATE
+:hystrix-javanica:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:hystrix-network-auditor-agent:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:hystrix-rx-netty-metrics-stream:compileJava
+Download https://jcenter.bintray.com/io/reactivex/rxnetty/0.4.12/rxnetty-0.4.12.pom
+Download https://jcenter.bintray.com/io/netty/netty-codec-http/4.1.0.Beta6/netty-codec-http-4.1.0.Beta6.pom
+Download https://jcenter.bintray.com/io/netty/netty-parent/4.1.0.Beta6/netty-parent-4.1.0.Beta6.pom
+Download https://jcenter.bintray.com/io/netty/netty-handler/4.1.0.Beta6/netty-handler-4.1.0.Beta6.pom
+Download https://jcenter.bintray.com/io/netty/netty-transport-native-epoll/4.1.0.Beta6/netty-transport-native-epoll-4.1.0.Beta6.pom
+Download https://jcenter.bintray.com/io/netty/netty-codec/4.1.0.Beta6/netty-codec-4.1.0.Beta6.pom
+Download https://jcenter.bintray.com/io/netty/netty-buffer/4.1.0.Beta6/netty-buffer-4.1.0.Beta6.pom
+Download https://jcenter.bintray.com/io/netty/netty-transport/4.1.0.Beta6/netty-transport-4.1.0.Beta6.pom
+Download https://jcenter.bintray.com/io/netty/netty-common/4.1.0.Beta6/netty-common-4.1.0.Beta6.pom
+Download https://jcenter.bintray.com/io/netty/netty-resolver/4.1.0.Beta6/netty-resolver-4.1.0.Beta6.pom
+Download https://jcenter.bintray.com/io/reactivex/rxnetty/0.4.12/rxnetty-0.4.12.jar
+Download https://jcenter.bintray.com/io/netty/netty-codec-http/4.1.0.Beta6/netty-codec-http-4.1.0.Beta6.jar
+Download https://jcenter.bintray.com/io/netty/netty-handler/4.1.0.Beta6/netty-handler-4.1.0.Beta6.jar
+Download https://jcenter.bintray.com/io/netty/netty-transport-native-epoll/4.1.0.Beta6/netty-transport-native-epoll-4.1.0.Beta6.jar
+Download https://jcenter.bintray.com/io/netty/netty-codec/4.1.0.Beta6/netty-codec-4.1.0.Beta6.jar
+Download https://jcenter.bintray.com/io/netty/netty-buffer/4.1.0.Beta6/netty-buffer-4.1.0.Beta6.jar
+Download https://jcenter.bintray.com/io/netty/netty-transport/4.1.0.Beta6/netty-transport-4.1.0.Beta6.jar
+Download https://jcenter.bintray.com/io/netty/netty-common/4.1.0.Beta6/netty-common-4.1.0.Beta6.jar
+Download https://jcenter.bintray.com/io/netty/netty-resolver/4.1.0.Beta6/netty-resolver-4.1.0.Beta6.jar
+warning: [options] bootstrap class path not set in conjunction with -source 1.6
+Note: /results/Netflix-Hystrix/RELEASES/4d4f2255fa5d913d173a3ed685ae6be557915f3d/hystrix-contrib/hystrix-rx-netty-metrics-stream/src/main/java/com/netflix/hystrix/contrib/rxnetty/metricsstream/HystrixMetricsStreamHandler.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+1 warning
+:hystrix-servo-metrics-publisher:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:hystrix-yammer-metrics-publisher:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+
+BUILD SUCCESSFUL
+
+Total time: 1 mins 20.573 secs

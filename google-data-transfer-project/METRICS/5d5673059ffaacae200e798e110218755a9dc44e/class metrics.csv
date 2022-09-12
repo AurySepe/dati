@@ -1,0 +1,488 @@
+COH	DAC	ELOC	HALSTEADLENGHT	HALSTEADVOCABULARY	HALSTEADVOLUME	ID	LCC	LCOM	LOC	MCCABEMETRIC	MPC	NAME	NOA	NOO	NUMBEROFCHILDREN	NUMBEROFIMPORTS	NUMBOFATTRIBUTES	NUMBOFMETHODS	PATTERNROLE	PATTERNTYPE	RFC	TCC
+0	4	39	81	217	435.77168563677725	532	0	2	96	12	6	org.datatransferproject.auth.rememberthemilk.RememberTheMilkAuthServiceExtension	0	0	0	12	7	5			11	0
+1	1	37	84	220	453.0647138935984	533	0	0	80	7	22	org.datatransferproject.auth.rememberthemilk.RememberTheMilkSignatureGenerator	0	0	0	14	1	2	adaptee	(Object)Adapter	24	0
+0	6	51	111	317	639.2380969003781	531	1	0	118	11	19	org.datatransferproject.auth.rememberthemilk.RememberTheMilkAuthDataGenerator	0	0	0	22	9	4	adapter	(Object)Adapter	23	1
+-1	2	7	24	28	79.97290824420489	535	-1	0	28	0	0	org.datatransferproject.auth.rememberthemilk.model.RememberTheMilkResponse	0	0	6	1	2	0			0	-1
+1	1	25	67	155	337.90948283358955	534	0	0	70	2	0	org.datatransferproject.auth.rememberthemilk.model.AuthElement	1	0	0	1	1	1			1	0
+-1	0	26	39	101	179.98970015680914	684	-1	21	65	14	2	org.datatransferproject.auth.smugmug.SmugMugOAuthConfig	0	0	0	5	0	7			9	0
+-1	0	8	25	30	85.02993454155389	565	0	0	30	1	0	org.datatransferproject.auth.smugmug.SmugMugAuthServiceExtension	1	0	0	2	0	1			1	0
+-1	0	20	35	78	152.4848089341357	773	-1	10	56	10	2	org.datatransferproject.auth.imgur.ImgurOAuthConfig	0	0	0	5	0	5			7	0
+-1	0	8	25	30	85.02993454155389	772	0	0	31	1	0	org.datatransferproject.auth.imgur.ImgurAuthServiceExtension	1	0	0	2	0	1			1	0
+-1	0	14	41	64	170.51420641774652	733	-1	3	57	6	8	org.datatransferproject.auth.google.BloggerOAuthConfig	0	3	0	4	0	3			11	0
+-1	0	23	36	87	160.772692271565	670	-1	15	83	13	9	org.datatransferproject.auth.google.GoogleOAuthConfig	0	0	1	5	0	6			15	0
+-1	0	8	25	30	85.02993454155389	732	0	0	30	1	0	org.datatransferproject.auth.google.BloggerAuthServiceExtension	1	0	0	2	0	1			1	0
+-1	0	8	25	30	85.02993454155389	460	0	0	30	1	0	org.datatransferproject.auth.google.GoogleAuthServiceExtension	1	0	0	2	0	1			1	0
+-1	0	8	25	30	85.02993454155389	554	0	0	30	1	0	org.datatransferproject.auth.instagram.InstagramAuthServiceExtension	1	0	0	2	0	1			1	0
+-1	0	20	34	76	147.24493356973525	671	-1	10	58	10	2	org.datatransferproject.auth.instagram.InstagramOAuthConfig	0	0	0	5	0	5			7	0
+0	1	45	100	241	548.4796933490654	299	-1	2	90	11	20	org.datatransferproject.auth.microsoft.harness.AuthTestDriver	0	0	0	14	5	4			24	-1
+-1	0	43	73	282	411.8592161784823	300	0	28	67	19	7	org.datatransferproject.auth.microsoft.harness.TestHelper	0	0	0	9	0	8			15	0
+-1	0	2	3	3	3.295836866004329	486	-1	0	21	0	0	org.datatransferproject.auth.flickr.FlickrAuthDataGeneratorTest	0	0	0	0	0	0			0	-1
+-1	0	8	25	30	85.02993454155389	485	0	0	30	1	0	org.datatransferproject.auth.flickr.FlickrAuthServiceExtension	1	0	0	2	0	1			1	0
+-1	0	26	39	101	179.98970015680914	683	-1	21	65	14	2	org.datatransferproject.auth.flickr.FlickrOAuthConfig	0	0	0	5	0	7			9	0
+-1	0	5	11	16	30.498475944637594	660	0	0	24	1	0	org.datatransferproject.auth.facebook.FacebookAuthServiceExtension	1	0	0	1	0	1			1	0
+0	1	23	38	93	172.23878073982374	695	-1	10	62	10	2	org.datatransferproject.auth.facebook.FacebookOAuthConfig	0	0	0	5	3	5			7	0
+0	1	12	60	94	272.5976869362002	602	0	1	47	4	1	org.datatransferproject.auth.offline.OfflineDemoAuthDataGenerator	0	0	0	6	1	2			3	0
+0	2	21	63	116	299.476182039701	603	0	8	60	9	0	org.datatransferproject.auth.offline.OfflineDemoAuthServiceExtension	0	0	0	6	2	5			5	0
+-1	0	8	25	30	85.02993454155389	736	0	0	30	2	0	org.datatransferproject.auth.spotify.SpotifyAuthServiceExtension	1	0	0	2	0	1			1	0
+-1	0	23	36	87	160.772692271565	737	-1	15	65	16	9	org.datatransferproject.auth.spotify.SpotifyOAuthConfig	0	0	0	5	0	6			15	0
+-1	0	17	23	66	96.36205906660778	686	-1	10	61	10	8	org.datatransferproject.auth.microsoft.MicrosoftOAuthConfig	0	0	0	5	0	5			13	0
+-1	0	5	11	16	30.498475944637594	302	0	0	25	1	0	org.datatransferproject.auth.microsoft.MicrosoftAuthServiceExtension	1	0	0	1	0	1			1	0
+0	1	31	59	143	292.8078331853345	749	-1	21	91	16	14	org.datatransferproject.auth.deezer.DeezerOAuthConfig	0	0	0	13	1	7			21	-1
+-1	0	8	25	30	85.02993454155389	748	0	0	30	1	0	org.datatransferproject.auth.deezer.DeezerAuthServiceExtension	1	0	0	2	0	1			1	0
+-1	0	29	44	115	208.777013647983	685	-1	28	72	16	2	org.datatransferproject.auth.twitter.TwitterOAuthConfig	0	0	0	5	0	8			10	0
+-1	0	8	25	30	85.02993454155389	575	0	0	30	1	0	org.datatransferproject.auth.twitter.TwitterAuthServiceExtension	1	0	0	2	0	1			1	0
+0	6	39	60	190	314.8214443296292	568	1	0	97	13	27	org.datatransferproject.cloud.google.GoogleJobStoreTest	0	0	0	15	6	6			33	1
+0	6	49	61	215	327.6089197157874	831	1	0	90	11	47	org.datatransferproject.cloud.google.GoogleCloudIdempotentImportExecutorTest	0	0	0	11	7	5			52	1
+-1	0	11	15	38	54.56379239589579	416	-1	3	49	3	5	org.datatransferproject.cloud.google.GoogleCloudModuleTest	0	0	0	6	0	3			8	0
+0	1	42	84	292	476.8473193905357	830	0	3	56	9	9	org.datatransferproject.cloud.google.GoogleCloudUtils	0	0	0	8	1	3			12	0
+0	6	78	192	557	1213.9325260660385	451	-1	11	158	20	24	org.datatransferproject.cloud.google.GoogleAppCredentialStore	0	0	0	21	12	7			31	0
+0	8	122	177	814	1186.2469847824495	795	-1	0	369	18	93	org.datatransferproject.cloud.google.GoogleDtpInternalMetricRecorder	0	0	0	20	28	14	singleton	Singleton	107	-1
+0	2	30	62	128	300.8258763630162	439	0	2	73	7	10	org.datatransferproject.cloud.google.GoogleCloudExtension	0	0	0	12	2	5			15	0
+0	1	22	48	106	223.8450765173792	645	-1	0	58	8	7	org.datatransferproject.cloud.google.GoogleTempFileStore	0	0	0	8	1	4			11	-1
+0	2	67	100	436	607.7642243349035	788	-1	20	111	14	26	org.datatransferproject.cloud.google.StackdriverMonitor	0	0	0	14	4	8			34	-1
+0	6	100	288	769	1913.7861992176256	208	-1	46	239	34	26	org.datatransferproject.cloud.google.GoogleCloudExtensionModule	11	1	0	27	9	12			38	-1
+-1	0	8	16	31	54.94379527176234	632	0	1	27	2	0	org.datatransferproject.cloud.google.GoogleCredentialException	0	0	0	0	0	2			2	0
+0	2	27	69	149	345.2722951102367	413	0	0	77	8	15	org.datatransferproject.cloud.google.GoogleAppSecretDecrypter	0	0	0	12	3	2			17	0
+1	1	18	50	92	226.08942885245202	789	0	0	46	5	9	org.datatransferproject.cloud.google.StackdriverMonitorExtension	0	0	0	9	1	2			11	0
+0	4	267	373	1909	2817.766889249704	142	-1	0	436	84	158	org.datatransferproject.cloud.google.GoogleJobStore	22	2	0	36	10	24			182	-1
+0	1	20	38	103	176.11970155272616	829	0	3	42	9	9	org.datatransferproject.cloud.google.GoogleCloudIdempotentImportExecutorExtension	0	0	0	7	1	3			12	0
+-1	0	10	27	55	108.19799600127672	794	0	0	36	3	2	org.datatransferproject.cloud.google.GoogleDtpInternalMetricExtension	0	0	0	4	0	1			3	0
+0	7	139	169	862	1142.314140742164	828	-1	0	253	51	88	org.datatransferproject.cloud.google.GoogleCloudIdempotentImportExecutor	0	0	0	22	13	17	adapter	(Object)Adapter	105	-1
+0	3	61	239	643	1545.4085890927909	488	0	2	151	13	16	org.datatransferproject.cloud.microsoft.cosmos.MicrosoftCloudExtension	0	0	0	7	10	5			21	0
+1	1	39	55	263	306.46847176977707	799	5	0	147	11	10	org.datatransferproject.cloud.microsoft.cosmos.AzureDtpInternalMetricRecorder	0	0	0	4	1	11	adapter	(Object)Adapter	21	5
+0	1	30	49	124	236.19379671464682	540	1	3	35	8	0	org.datatransferproject.cloud.microsoft.cosmos.DataWrapper	0	0	0	1	2	6			6	1
+-1	0	14	27	54	107.70256925723541	310	0	3	32	3	0	org.datatransferproject.cloud.microsoft.cosmos.MicrosoftStorageException	0	0	0	0	0	3			3	0
+-1	0	5	15	21	45.667836565851346	798	0	0	30	1	2	org.datatransferproject.cloud.microsoft.cosmos.AzureDtpInternalMetricExtension	0	0	0	3	0	1			3	0
+0	2	39	89	229	483.60125831632735	487	1	0	57	10	8	org.datatransferproject.cloud.microsoft.cosmos.AzureKeyVaultStore	0	0	0	7	3	4			12	1
+0	5	187	215	1287	1539.4148796331674	539	-1	79	311	65	94	org.datatransferproject.cloud.microsoft.cosmos.AzureTableStore	17	2	0	26	10	19	adapter	(Object)Adapter	113	-1
+0	2	62	66	325	381.73246203376266	541	0	10	79	10	0	org.datatransferproject.cloud.microsoft.cosmos.TableStoreConfiguration	0	0	0	2	5	5	adaptee	(Object)Adapter	5	0
+0	3	25	33	104	153.2648996716653	826	1	0	61	4	19	org.datatransferproject.cloud.local.LocalJobStoreTest	0	0	0	6	3	4			23	1
+-1	0	18	53	119	253.29354513491106	452	0	1	39	5	1	org.datatransferproject.cloud.local.LocalAppCredentialStore	0	0	0	7	0	2			3	0
+0	1	14	29	52	114.5860678388614	449	0	1	44	5	1	org.datatransferproject.cloud.local.LocalCloudExtension	0	0	0	5	1	3			4	0
+1	1	18	42	110	197.4201753632815	657	0	0	47	6	3	org.datatransferproject.cloud.local.LocalTempFileStore	0	0	0	6	1	2			5	0
+0	6	154	263	1081	1837.2237980391117	110	-1	113	242	55	47	org.datatransferproject.cloud.local.LocalJobStore	16	2	0	19	6	18			65	-1
+0	3	19	41	105	190.81237435645843	52	0	0	57	4	8	org.datatransferproject.transfer.rememberthemilk.tasks.RememberTheMilkSignatureGeneratorTest	0	0	0	6	5	2			10	0
+0	2	79	132	593	842.8456606676998	528	0	0	151	21	20	org.datatransferproject.transfer.rememberthemilk.tasks.RememberTheMilkTasksExporter	0	0	0	25	2	6			26	0
+0	5	72	138	417	832.5658986082346	527	-1	0	184	27	36	org.datatransferproject.transfer.rememberthemilk.tasks.RememberTheMilkService	0	0	0	25	6	11			47	-1
+1	2	41	89	239	487.4052561219045	511	0	0	86	7	24	org.datatransferproject.transfer.rememberthemilk.tasks.RememberTheMilkSignatureGenerator	0	0	0	15	2	2			26	0
+0	3	47	90	309	516.0007149207971	529	0	0	118	14	22	org.datatransferproject.transfer.rememberthemilk.tasks.RememberTheMilkTasksImporter	0	0	0	15	3	5			27	0
+1	1	40	124	472	763.4653942126088	538	3	0	139	16	24	org.datatransferproject.transfer.rememberthemilk.model.tasks.ModelTest	0	0	0	4	1	7			31	3
+1	2	7	19	28	63.311885693328875	516	0	0	36	2	3	org.datatransferproject.transfer.rememberthemilk.model.tasks.ListAddResponse	1	0	0	2	2	1			4	0
+0	2	13	33	50	129.0967591791288	525	0	0	41	3	4	org.datatransferproject.transfer.rememberthemilk.model.tasks.Tasks	0	0	0	4	2	2			6	0
+1	1	9	27	34	95.21173416463637	519	0	0	33	2	3	org.datatransferproject.transfer.rememberthemilk.model.tasks.Notes	0	0	0	3	1	1			4	0
+1	1	7	16	26	52.129544608343714	537	0	0	36	2	3	org.datatransferproject.transfer.rememberthemilk.model.tasks.Transaction	0	0	0	2	2	1			4	0
+1	2	10	29	40	106.97750416930415	520	0	0	34	2	3	org.datatransferproject.transfer.rememberthemilk.model.tasks.RememberTheMilkResponse	0	0	6	2	2	1			4	0
+1	2	7	19	28	63.311885693328875	522	0	0	36	2	3	org.datatransferproject.transfer.rememberthemilk.model.tasks.TaskUpdateResponse	1	0	0	2	2	1			4	0
+1	1	6	15	23	47.032413238937245	526	0	0	30	2	3	org.datatransferproject.transfer.rememberthemilk.model.tasks.TimelineCreateResponse	1	0	0	2	1	1			4	0
+0	2	13	41	59	167.1790352001345	523	0	0	41	3	4	org.datatransferproject.transfer.rememberthemilk.model.tasks.TaskList	0	0	0	4	2	2			6	0
+1	2	13	28	56	112.70984734058419	517	0	0	60	2	3	org.datatransferproject.transfer.rememberthemilk.model.tasks.ListInfo	0	0	0	2	8	1			4	0
+1	1	6	16	23	50.167907454866395	515	0	0	32	2	3	org.datatransferproject.transfer.rememberthemilk.model.tasks.GetListsResponse	1	0	0	3	1	1			4	0
+1	2	17	37	69	156.6619406700986	521	0	0	65	2	3	org.datatransferproject.transfer.rememberthemilk.model.tasks.Task	0	0	0	2	9	1			4	0
+1	2	10	23	34	81.10629206617172	513	0	0	34	2	3	org.datatransferproject.transfer.rememberthemilk.model.tasks.Error	0	0	0	2	2	1			4	0
+0	5	23	57	101	263.0618694599518	524	0	0	86	4	4	org.datatransferproject.transfer.rememberthemilk.model.tasks.TaskSeries	0	0	0	6	12	2			6	0
+1	1	6	16	23	50.167907454866395	514	0	0	31	2	3	org.datatransferproject.transfer.rememberthemilk.model.tasks.GetListResponse	1	0	0	3	1	1			4	0
+0	5	37	64	196	337.7993381907531	512	0	0	90	10	8	org.datatransferproject.transfer.rememberthemilk.RememberTheMilkTransferExtension	0	0	0	13	6	4			12	0
+1	2	13	38	71	161.98183532757	725	0	0	51	2	6	org.datatransferproject.transfer.mastodon.contacts.ManualTest	0	0	0	9	3	1			7	0
+0	5	95	185	550	1167.3348814719054	724	-1	22	154	33	34	org.datatransferproject.transfer.mastodon.social.MastodonHttpUtilities	0	0	0	18	9	9			43	1
+0	1	38	109	261	606.5327243981736	722	0	1	118	8	36	org.datatransferproject.transfer.mastodon.social.MastodonActivityExport	0	0	0	21	1	2			38	0
+-1	0	25	91	204	483.94891943982367	723	0	1	82	7	17	org.datatransferproject.transfer.mastodon.social.MastodonActivityImport	0	0	0	11	0	2			19	0
+0	2	50	65	222	351.1740298216981	721	1	25	97	19	1	org.datatransferproject.transfer.mastodon.model.Status	0	0	0	4	8	10			11	1
+0	3	42	58	180	301.1914973516322	720	0	14	82	15	0	org.datatransferproject.transfer.mastodon.model.Account	0	0	0	3	7	8			8	0
+-1	0	4	10	12	24.849066497880003	551	0	0	32	1	0	org.datatransferproject.transfer.instagram.photos.InstagramPhotoExporterTest	0	0	0	4	0	1			1	0
+0	3	51	120	331	696.2542050452475	549	0	4	125	16	27	org.datatransferproject.transfer.instagram.photos.InstagramPhotoExporter	0	0	0	26	4	4			31	0
+0	3	29	60	153	301.8262752835461	548	0	0	76	9	7	org.datatransferproject.transfer.instagram.InstagramTransferExtension	0	0	0	13	3	4			11	0
+0	3	25	40	97	182.9884391401353	559	0	10	51	10	0	org.datatransferproject.transfer.instagram.photos.model.MediaFeedData	0	0	0	0	5	5			5	0
+0	2	17	36	68	151.90227738633985	557	0	3	39	6	0	org.datatransferproject.transfer.instagram.photos.model.ImageData	0	0	0	0	3	3			3	0
+0	1	17	33	67	138.75485643990186	556	0	3	39	6	0	org.datatransferproject.transfer.instagram.photos.model.Caption	0	0	0	0	3	3			3	0
+0	2	13	35	55	140.2566614831365	560	0	1	35	4	0	org.datatransferproject.transfer.instagram.photos.model.MediaResponse	0	0	0	1	2	2			2	0
+1	1	9	30	39	109.9068493838894	561	0	0	27	2	0	org.datatransferproject.transfer.instagram.photos.model.Meta	0	0	0	0	1	1			1	0
+0	1	17	40	72	171.06664476064222	558	0	3	46	6	0	org.datatransferproject.transfer.instagram.photos.model.ImageObject	0	0	0	1	3	3			3	0
+-1	0	9	48	62	198.1024504821644	604	0	0	42	2	2	org.datatransferproject.transfer.offline.OfflineDemoImporter	0	0	0	6	0	1			3	0
+0	1	17	53	89	237.8977275958034	605	0	6	33	7	0	org.datatransferproject.transfer.offline.OfflineDemoTransferExtension	0	0	0	4	1	4			4	0
+-1	0	8	22	37	79.44019407817294	576	0	0	40	2	10	org.datatransferproject.transfer.twitter.TwitterApiWrapper	0	0	0	5	0	1			11	0
+0	2	30	69	200	365.5838982918145	578	0	1	82	9	14	org.datatransferproject.transfer.twitter.TwitterPhotosImporter	0	0	0	17	2	3			17	0
+0	5	43	100	258	555.2959584921617	579	0	0	104	12	10	org.datatransferproject.transfer.twitter.TwitterTransferExtension	0	0	0	12	6	4			14	0
+0	3	40	100	320	576.8320995793772	577	0	0	99	7	15	org.datatransferproject.transfer.twitter.TwitterPhotosExporter	0	0	0	22	3	2			17	0
+0	3	28	36	101	166.14433860628534	758	0	5	44	13	1	org.datatransferproject.transfer.deezer.model.PlaylistSummary	0	0	1	1	5	6			7	0
+1	1	9	21	28	69.97629471367928	759	0	0	13	2	0	org.datatransferproject.transfer.deezer.model.PlaylistsResponse	0	0	0	0	1	1			1	0
+0	6	56	56	209	299.1707181100294	760	0	72	77	27	1	org.datatransferproject.transfer.deezer.model.Track	0	0	0	1	12	13			14	0
+0	2	16	25	66	104.74136855066062	756	0	0	23	8	2	org.datatransferproject.transfer.deezer.model.InsertResponse	0	0	0	1	2	3			5	0
+0	2	24	30	83	132.56521823389795	753	0	6	32	11	1	org.datatransferproject.transfer.deezer.model.Album	0	0	0	0	4	5			6	0
+0	2	17	21	62	86.66982208594692	755	0	0	24	9	1	org.datatransferproject.transfer.deezer.model.Error	0	0	0	0	3	4			5	0
+1	1	9	17	32	58.91751034759535	761	0	0	17	3	0	org.datatransferproject.transfer.deezer.model.TrackCollection	0	0	0	2	1	2			2	0
+0	2	20	29	69	122.78908863332053	754	0	0	28	9	1	org.datatransferproject.transfer.deezer.model.Artist	0	0	0	0	3	4			5	0
+1	1	6	14	22	43.274594347016425	757	0	0	12	2	0	org.datatransferproject.transfer.deezer.model.PlaylistDetails	1	0	0	1	1	1			1	0
+0	2	20	29	69	122.78908863332053	762	0	0	27	9	1	org.datatransferproject.transfer.deezer.model.User	0	0	0	0	3	4			5	0
+0	4	70	132	436	802.2487761220725	751	2	0	164	32	37	org.datatransferproject.transfer.deezer.DeezerApi	0	0	0	27	5	10			47	2
+0	4	32	58	162	295.08058744347824	752	0	0	78	9	7	org.datatransferproject.transfer.deezer.DeezerTransferExtension	0	0	0	13	4	4			11	0
+0	3	56	125	404	750.1768597451438	764	0	6	140	20	19	org.datatransferproject.transfer.deezer.playlists.DeezerPlaylistImporter	0	0	0	21	3	5			24	0
+0	3	37	87	219	468.8492404940356	763	0	6	110	16	21	org.datatransferproject.transfer.deezer.playlists.DeezerPlaylistExporter	0	0	0	24	3	5			26	0
+0	7	57	102	262	567.9711393836319	780	0	1	136	11	34	org.datatransferproject.datatransfer.google.videos.GoogleVideosExporterTest	0	0	0	28	9	3			37	0
+0	3	23	45	118	214.68080810095492	781	0	0	79	5	14	org.datatransferproject.datatransfer.google.videos.GoogleVideosImporterTest	0	0	0	13	9	2			16	0
+0	6	89	162	514	1011.2401690037368	779	-1	3	183	24	46	org.datatransferproject.datatransfer.google.videos.GoogleVideosInterface	0	0	0	37	14	7			53	-1
+0	5	85	163	563	1032.3245793867695	778	-1	0	201	21	51	org.datatransferproject.datatransfer.google.videos.GoogleVideosImporter	0	0	0	32	5	5			56	-1
+0	3	56	109	330	632.1010993361973	777	-1	20	139	21	22	org.datatransferproject.datatransfer.google.videos.GoogleVideosExporter	0	0	0	23	3	8			30	-1
+-1	0	2	4	4	5.545177444479562	482	-1	0	21	0	0	org.datatransferproject.datatransfer.google.tasks.GoogleTasksExporterTest	0	0	0	0	0	0			0	-1
+0	4	81	128	482	790.7768465984768	480	1	7	179	21	47	org.datatransferproject.datatransfer.google.tasks.GoogleTasksExporter	0	0	0	27	4	7			54	1
+0	2	39	87	264	485.1075719737295	481	0	2	103	11	24	org.datatransferproject.datatransfer.google.tasks.GoogleTasksImporter	0	0	0	18	2	5			29	0
+0	14	110	144	513	898.5997217045908	464	2	0	248	24	90	org.datatransferproject.datatransfer.google.calendar.GoogleCalendarExporterTest	0	0	0	35	16	7			97	2
+0	8	44	75	190	393.5268054120365	465	0	0	105	6	17	org.datatransferproject.datatransfer.google.calendar.GoogleCalendarImporterTest	0	0	0	17	8	2			19	0
+0	2	63	121	376	717.4802863501773	424	-1	47	149	28	62	org.datatransferproject.datatransfer.google.calendar.GoogleCalendarImporter	0	0	0	20	2	11			73	-1
+0	2	146	187	402	1121.336540571757	423	0	58	272	39	93	org.datatransferproject.datatransfer.google.calendar.GoogleCalendarExporter	0	0	0	37	2	12			105	0
+0	7	147	182	694	1190.7298968122384	477	3	0	330	26	136	org.datatransferproject.datatransfer.google.photos.GooglePhotosExporterTest	0	0	0	42	12	9			145	3
+0	9	63	112	294	636.5609339419323	478	1	0	148	11	45	org.datatransferproject.datatransfer.google.photos.GooglePhotosImporterTest	0	0	0	28	15	3			48	1
+0	6	181	270	1274	1930.4775457556693	475	-1	42	344	46	90	org.datatransferproject.datatransfer.google.photos.GooglePhotosExporter	0	0	0	35	7	13			103	-1
+0	7	87	145	550	914.9381503428449	476	-1	14	198	25	37	org.datatransferproject.datatransfer.google.photos.GooglePhotosImporter	0	0	0	22	7	8			45	0
+0	9	138	203	800	1356.9761807165892	608	-1	21	272	42	68	org.datatransferproject.datatransfer.google.photos.GooglePhotosInterface	0	0	0	41	16	11			79	-1
+0	5	93	157	493	973.4799403247023	454	1	16	270	12	67	org.datatransferproject.datatransfer.google.contacts.GoogleContactsExportConversionTest	0	0	0	24	6	8			75	1
+0	13	71	111	323	641.3194078777149	455	1	0	168	12	57	org.datatransferproject.datatransfer.google.contacts.GoogleContactsExporterTest	0	0	0	34	14	4			61	1
+0	5	36	74	184	385.90524606306496	457	0	0	92	7	21	org.datatransferproject.datatransfer.google.contacts.GoogleContactsImporterTest	0	0	0	22	5	2			23	0
+0	1	115	156	551	984.6306302278547	456	-1	16	275	13	70	org.datatransferproject.datatransfer.google.contacts.GoogleContactsImportConversionTest	0	0	0	21	1	8			78	1
+0	2	135	213	799	1423.5558814482165	447	0	95	276	41	87	org.datatransferproject.datatransfer.google.contacts.GoogleContactsExporter	0	0	0	40	2	15			102	0
+0	3	114	187	646	1210.0395072073466	448	-1	44	237	37	75	org.datatransferproject.datatransfer.google.contacts.GoogleContactsImporter	0	0	0	30	4	12			87	-1
+0	12	66	108	307	618.4995567394172	545	1	0	175	13	54	org.datatransferproject.datatransfer.google.mail.GoogleMailExporterTest	0	0	0	36	15	4			58	1
+0	15	48	90	223	486.6454594314107	546	0	0	120	8	29	org.datatransferproject.datatransfer.google.mail.GoogleMailImporterTest	0	0	0	34	17	2			31	0
+0	4	77	157	529	984.545183801753	544	0	47	250	27	35	org.datatransferproject.datatransfer.google.mail.GoogleMailImporter	0	0	0	25	5	11			46	0
+0	4	60	97	357	570.140370832625	543	1	0	126	12	25	org.datatransferproject.datatransfer.google.mail.GoogleMailExporter	0	0	0	23	4	5			30	1
+0	5	65	124	412	746.6068953193413	692	0	0	146	20	43	org.datatransferproject.datatransfer.google.drive.DriveImporter	0	0	0	19	5	5			48	0
+0	6	91	188	675	1224.7659858840357	690	0	0	192	15	44	org.datatransferproject.datatransfer.google.drive.DriveExporter	0	0	0	26	9	5			49	0
+0	1	14	26	59	106.01597354154872	691	0	0	30	5	0	org.datatransferproject.datatransfer.google.drive.DriveFolderMapping	3	0	0	4	2	3			3	0
+0	5	57	99	282	558.5488000228733	453	0	0	124	10	13	org.datatransferproject.datatransfer.google.GoogleTransferExtension	0	0	0	30	5	4			17	0
+0	5	43	69	206	367.6234556464811	734	0	0	113	10	13	org.datatransferproject.datatransfer.google.BloggerTransferExtension	0	0	0	15	5	4			17	0
+0	2	81	143	494	886.962578957873	730	0	5	190	21	58	org.datatransferproject.datatransfer.google.gplus.GooglePlusExporter	0	0	0	25	2	6			64	0
+0	4	126	209	922	1426.7479517233282	735	0	10	265	29	79	org.datatransferproject.datatransfer.google.blogger.GoogleBloggerImporter	0	0	0	28	4	9			88	0
+0	1	19	38	76	164.56786693088057	612	0	2	38	6	0	org.datatransferproject.datatransfer.google.mediaModels.GoogleAlbum	0	0	0	1	2	4			4	0
+0	2	13	33	51	129.75024587990274	609	0	1	38	4	0	org.datatransferproject.datatransfer.google.mediaModels.AlbumListResponse	0	0	0	1	2	2			2	0
+0	2	21	82	151	411.4169466188238	667	1	0	57	6	0	org.datatransferproject.datatransfer.google.mediaModels.NewMediaItem	0	0	0	3	2	4			4	1
+-1	2	11	31	47	119.3545756530118	618	-1	0	42	0	0	org.datatransferproject.datatransfer.google.mediaModels.Photo	0	0	0	1	6	0			0	-1
+0	2	13	32	51	125.81842024717842	611	0	1	38	4	0	org.datatransferproject.datatransfer.google.mediaModels.Status	0	0	0	1	2	2			2	0
+0	3	14	38	60	155.5850933644398	619	0	1	44	4	0	org.datatransferproject.datatransfer.google.mediaModels.NewMediaItemResult	0	0	0	2	3	2			2	0
+0	2	17	42	77	182.43982771785474	668	0	0	51	5	0	org.datatransferproject.datatransfer.google.mediaModels.NewMediaItemUpload	0	0	0	5	2	3			3	0
+1	1	12	29	45	110.39321220333927	614	0	0	36	3	0	org.datatransferproject.datatransfer.google.mediaModels.SimpleMediaItem	0	0	0	1	1	2			2	0
+0	2	51	70	214	375.61832105152956	613	0	66	73	20	0	org.datatransferproject.datatransfer.google.mediaModels.GoogleMediaItem	0	0	0	1	7	13			13	0
+0	2	19	33	72	141.12998192752983	616	0	2	45	6	0	org.datatransferproject.datatransfer.google.mediaModels.MediaMetadata	0	0	0	1	2	4			4	0
+-1	4	12	32	43	120.358403702194	621	-1	0	43	0	0	org.datatransferproject.datatransfer.google.mediaModels.Video	0	0	0	1	5	0			0	-1
+0	2	13	28	46	107.20195910169465	615	0	1	36	4	0	org.datatransferproject.datatransfer.google.mediaModels.MediaItemSearchResponse	0	0	0	1	2	2			2	0
+1	1	9	17	34	59.948128918474744	731	0	0	37	3	0	org.datatransferproject.datatransfer.google.mediaModels.BatchMediaItemResponse	0	0	0	3	1	2			2	0
+-1	2	20	36	91	162.3909422346066	425	-1	0	52	0	0	org.datatransferproject.datatransfer.google.common.GoogleStaticObjects	0	0	0	6	9	0			0	-1
+0	5	43	85	253	470.33810654183924	542	2	0	107	15	26	org.datatransferproject.datatransfer.google.common.GoogleCredentialFactory	0	0	0	14	5	7			33	2
+1	1	12	24	48	92.90882426178939	410	0	0	40	2	7	org.datatransferproject.transfer.microsoft.transformer.calendar.ToCalendarEventTimeTransformerTest	0	0	0	6	1	1			8	0
+1	1	15	30	64	124.76649250079015	408	0	0	44	2	7	org.datatransferproject.transfer.microsoft.transformer.calendar.ToCalendarAttendeeModelTransformerTest	0	0	0	6	1	1			8	0
+0	4	29	160	1228	1138.102737393134	409	0	0	136	5	22	org.datatransferproject.transfer.microsoft.transformer.calendar.ToCalendarEventModelTransformerTest	0	0	0	10	4	2			24	0
+0	4	18	61	250	336.809115989597	411	0	0	65	5	6	org.datatransferproject.transfer.microsoft.transformer.calendar.ToCalendarModelTransformerTest	0	0	0	9	4	2			8	0
+-1	0	15	48	80	210.3372784643463	397	0	0	45	4	5	org.datatransferproject.transfer.microsoft.transformer.calendar.ToCalendarAttendeeModelTransformer	0	0	0	5	0	1			6	0
+-1	0	23	56	137	275.518931846375	399	0	0	60	5	6	org.datatransferproject.transfer.microsoft.transformer.calendar.ToCalendarEventTimeTransformer	0	0	0	9	0	1			7	0
+-1	0	49	84	256	465.79490533628325	402	0	10	105	14	20	org.datatransferproject.transfer.microsoft.transformer.calendar.ToGraphEventTransformer	0	0	0	10	0	5			25	0
+-1	0	10	38	53	150.87109271498065	401	0	0	37	3	2	org.datatransferproject.transfer.microsoft.transformer.calendar.ToGraphCalendarTransformer	0	0	0	5	0	1			3	0
+-1	0	18	48	105	223.39009680756112	400	0	0	46	4	2	org.datatransferproject.transfer.microsoft.transformer.calendar.ToCalendarModelTransformer	0	0	0	4	0	1			3	0
+-1	0	33	75	209	400.6750688973608	398	0	0	79	4	8	org.datatransferproject.transfer.microsoft.transformer.calendar.ToCalendarEventModelTransformer	0	0	0	10	0	1			9	0
+-1	0	12	37	58	150.2363913902175	327	0	0	29	2	5	org.datatransferproject.transfer.microsoft.integration.LocalExportTestRunner	0	0	0	8	0	1			6	0
+-1	0	31	69	154	347.54972956654046	328	0	1	71	5	11	org.datatransferproject.transfer.microsoft.integration.LocalImportTestRunner	0	0	0	13	0	2			13	0
+0	6	37	207	2790	1642.2959530867902	406	1	0	273	7	18	org.datatransferproject.transfer.microsoft.integration.MicrosoftCalendarExportTest	0	0	0	16	8	3			21	1
+0	7	80	274	2599	2154.4296774917684	407	1	0	307	7	24	org.datatransferproject.transfer.microsoft.integration.MicrosoftCalendarImportTest	0	0	0	26	8	3			27	1
+0	6	147	133	672	865.8643592895789	822	2	0	331	24	124	org.datatransferproject.transfer.microsoft.photos.MicrosoftPhotosExporterTest	0	0	0	26	10	8			132	2
+0	7	151	258	1170	1822.7078291702849	570	0	0	272	19	60	org.datatransferproject.transfer.microsoft.photos.MicrosoftPhotosImporter	0	0	0	31	10	5			65	0
+0	6	70	138	425	835.1883053115696	821	0	11	127	20	36	org.datatransferproject.transfer.microsoft.photos.MicrosoftPhotosInterface	0	0	0	15	7	6			42	0
+0	5	109	186	700	1218.5009423180732	569	-1	35	223	33	39	org.datatransferproject.transfer.microsoft.photos.MicrosoftPhotosExporter	0	0	0	26	5	11			50	-1
+0	2	45	85	287	481.0559883395678	404	-1	70	97	26	16	org.datatransferproject.transfer.microsoft.helper.MockJobStore	11	2	0	14	2	13			29	0
+0	2	20	42	90	188.99200615387113	405	0	4	52	9	4	org.datatransferproject.transfer.microsoft.helper.TestTransformerContext	0	0	0	6	2	5			9	0
+1	1	12	41	58	166.4781634324032	326	0	0	40	3	0	org.datatransferproject.transfer.microsoft.types.GraphPagination	2	0	0	4	1	2			2	0
+-1	1	8	24	25	77.25301979683681	820	-1	0	32	0	0	org.datatransferproject.transfer.microsoft.driveModels.MicrosoftSpecialFolder	0	0	0	0	1	0			0	-1
+-1	4	12	36	51	141.5457227780757	816	-1	0	47	0	0	org.datatransferproject.transfer.microsoft.driveModels.MicrosoftDriveItem	0	0	0	1	7	0			0	-1
+-1	3	12	33	49	128.43006983765068	819	-1	0	49	0	0	org.datatransferproject.transfer.microsoft.driveModels.MicrosoftPhotoMetadata	0	0	0	2	7	0			0	-1
+-1	1	6	19	19	55.94434060416236	818	-1	0	29	0	0	org.datatransferproject.transfer.microsoft.driveModels.MicrosoftFileMetadata	0	0	0	1	1	0			0	-1
+0	2	13	33	51	129.75024587990274	817	0	1	39	4	0	org.datatransferproject.transfer.microsoft.driveModels.MicrosoftDriveItemsResponse	0	0	0	1	2	2			2	0
+-1	1	6	20	20	59.914645471079815	815	-1	0	28	0	0	org.datatransferproject.transfer.microsoft.driveModels.MicrosoftDriveFolder	0	0	0	1	1	0			0	-1
+0	4	88	146	688	953.9331703382682	393	0	0	174	13	23	org.datatransferproject.transfer.microsoft.calendar.MicrosoftCalendarExporter	0	0	0	23	7	4			27	0
+0	4	54	119	342	694.34247771045	394	0	0	133	17	26	org.datatransferproject.transfer.microsoft.calendar.MicrosoftCalendarImporter	0	0	0	19	6	4			30	0
+-1	0	18	42	100	193.41714781149986	319	0	1	40	4	0	org.datatransferproject.transfer.microsoft.transformer.TransformerService	0	0	0	1	0	2			2	0
+0	2	20	34	76	147.24493356973525	317	1	0	41	9	1	org.datatransferproject.transfer.microsoft.transformer.TransformResult	0	0	0	1	2	4			5	1
+-1	0	31	86	163	438.06251726938154	318	0	10	57	10	0	org.datatransferproject.transfer.microsoft.transformer.TransformerContext	0	0	0	1	0	5			5	0
+0	1	81	146	532	916.3899494438801	320	-1	9	171	16	11	org.datatransferproject.transfer.microsoft.transformer.TransformerServiceImpl	0	0	0	22	1	6			17	-1
+-1	1	6	16	17	45.33141350489946	396	-1	0	7	0	0	org.datatransferproject.transfer.microsoft.transformer.TransformConstants	0	0	0	0	1	0			0	-1
+-1	0	15	42	73	180.19929652823242	322	0	0	45	3	6	org.datatransferproject.transfer.microsoft.transformer.contacts.ToGraphAddressTransformer	0	0	0	6	0	1			7	0
+-1	0	77	117	486	723.7864089963577	323	0	21	150	17	44	org.datatransferproject.transfer.microsoft.transformer.contacts.ToGraphContactTransformer	0	0	0	15	0	7			51	0
+-1	0	52	89	266	496.9311714815712	325	0	21	158	18	28	org.datatransferproject.transfer.microsoft.transformer.contacts.ToVCardTransformer	0	0	0	14	0	7			35	0
+-1	0	14	40	65	166.97549079582546	324	0	0	40	3	6	org.datatransferproject.transfer.microsoft.transformer.contacts.ToVCardAddressTransformer	0	0	0	4	0	1			7	0
+-1	0	28	56	156	282.79193640597407	321	-1	21	59	15	13	org.datatransferproject.transfer.microsoft.transformer.common.TransformerHelper	0	0	0	4	0	7			20	-1
+0	5	68	116	339	675.8160124561322	419	0	2	147	14	18	org.datatransferproject.transfer.microsoft.MicrosoftTransferExtension	0	0	0	27	12	5			23	0
+0	4	32	85	194	447.7679435203829	314	0	0	103	6	10	org.datatransferproject.transfer.microsoft.contacts.MicrosoftContactsImporter	0	0	0	20	5	2			12	0
+0	4	67	136	457	832.9569411616119	313	0	0	127	18	25	org.datatransferproject.transfer.microsoft.contacts.MicrosoftContactsExporter	0	0	0	22	6	4			29	0
+0	4	30	64	143	317.62205633663405	814	1	0	83	10	22	org.datatransferproject.transfer.microsoft.common.MicrosoftCredentialFactory	0	0	0	11	4	5			27	1
+0	1	77	137	513	854.9177907883955	395	-1	3	129	9	18	org.datatransferproject.transfer.microsoft.common.RequestHelper	0	0	0	14	1	3			21	0
+0	3	69	140	519	875.2665436432244	606	0	2	125	15	19	org.datatransferproject.transfer.microsoft.offline.MicrosoftOfflineDataExporter	0	0	0	15	5	4			23	0
+1	1	12	38	55	152.27866103883392	607	0	0	35	3	0	org.datatransferproject.transfer.microsoft.spi.types.MicrosoftOfflineData	2	0	0	1	1	2			2	0
+0	4	26	51	128	247.45354345990046	715	-1	2	75	11	7	org.datatransferproject.transfer.solid.contacts.ManualTest	0	0	0	10	6	4			11	-1
+-1	0	32	70	193	368.388313223342	716	-1	6	96	8	31	org.datatransferproject.transfer.solid.contacts.RoundTripToRdfTest	0	0	0	9	0	4			35	0
+-1	1	4	169	229	918.2990186006665	717	-1	0	110	0	0	org.datatransferproject.transfer.solid.contacts.TestData	0	0	0	0	2	0			0	-1
+0	4	155	246	1145	1732.6173393331317	714	-1	33	368	35	80	org.datatransferproject.transfer.solid.contacts.SolidContactsImport	0	0	0	39	10	10			90	0
+0	3	96	152	628	979.2661053031661	713	0	13	246	26	42	org.datatransferproject.transfer.solid.contacts.SolidContactsExport	0	0	0	37	3	6			48	0
+0	1	40	89	222	480.83828698663285	712	0	4	91	12	21	org.datatransferproject.transfer.solid.SslHelper	0	0	0	15	3	4			25	0
+0	5	123	215	724	1415.7301493629288	711	-1	52	236	35	67	org.datatransferproject.transfer.solid.SolidUtilities	0	0	0	26	5	12			79	-1
+0	3	62	101	300	576.0820299402762	666	2	0	162	10	53	org.datatransferproject.transfer.facebook.photos.FacebookPhotosExporterTest	0	0	0	25	8	5			58	2
+0	3	100	162	625	1042.915767257297	663	0	16	204	25	53	org.datatransferproject.transfer.facebook.photos.FacebookPhotosExporter	0	0	0	23	4	8			61	0
+1	1	18	37	86	164.81084996137977	665	1	0	54	8	13	org.datatransferproject.transfer.facebook.photos.RestFbFacebookPhotos	0	0	0	10	1	3			16	1
+-1	0	4	14	19	41.22214570833016	664	0	1	29	2	0	org.datatransferproject.transfer.facebook.photos.FacebookPhotosInterface	0	0	0	4	0	2			2	0
+0	5	38	62	186	323.99629377021853	662	0	0	86	10	13	org.datatransferproject.transfer.facebook.FacebookTransferExtension	0	0	0	12	5	4			17	0
+-1	0	21	39	106	181.8741246703706	473	-1	1	49	4	13	org.datatransferproject.datatransfer.flickr.photos.FlickrTestUtils	0	0	0	5	0	2			15	0
+0	7	78	120	376	711.5506972067874	468	-1	2	181	7	76	org.datatransferproject.datatransfer.flickr.photos.FlickrPhotosExporterTest	0	0	0	35	11	4			80	0
+0	14	48	94	238	514.3934433251186	472	0	0	140	4	26	org.datatransferproject.datatransfer.flickr.photos.FlickrPhotosImporterTest	0	0	0	34	22	1			27	0
+-1	0	8	30	48	116.13603032723674	471	0	0	39	3	7	org.datatransferproject.datatransfer.flickr.photos.FlickrUtils	0	0	0	8	0	1			8	0
+0	7	117	158	318	910.4041184792679	467	-1	5	224	26	57	org.datatransferproject.datatransfer.flickr.photos.FlickrPhotosExporter	0	0	0	37	8	7			64	-1
+0	1	14	26	61	106.8827204685061	784	0	0	28	5	0	org.datatransferproject.datatransfer.flickr.photos.FlickrTempPhotoData	3	0	0	4	2	3			3	0
+0	8	111	209	759	1386.0883714756867	470	1	12	258	26	52	org.datatransferproject.datatransfer.flickr.photos.FlickrPhotosImporter	0	0	0	31	9	9			61	1
+0	7	41	63	200	333.7939940925263	479	0	0	95	10	8	org.datatransferproject.datatransfer.flickr.FlickrTransferExtension	0	0	0	15	9	4			12	0
+-1	0	20	39	89	175.05681841955345	827	-1	15	72	6	12	org.datatransferproject.transfer.smugmug.photos.SmugMugInterfaceTest	0	0	0	2	0	6			18	0
+0	6	126	203	742	1341.6978963629783	497	-1	27	276	37	76	org.datatransferproject.transfer.smugmug.photos.SmugMugInterface	0	0	0	36	9	10			86	-1
+0	7	68	133	441	809.8429684344305	499	1	0	165	22	24	org.datatransferproject.transfer.smugmug.photos.SmugMugPhotosImporter	0	0	0	20	7	7			31	1
+-1	0	11	22	47	84.70324723762128	563	0	3	43	6	1	org.datatransferproject.transfer.smugmug.photos.SmugMugOauthApi	0	0	0	2	0	3			4	0
+0	7	130	188	812	1259.5060639503954	498	1	0	264	31	48	org.datatransferproject.transfer.smugmug.photos.SmugMugPhotosExporter	0	0	0	30	9	7			55	1
+0	2	10	21	40	77.46646853639267	506	0	0	40	2	0	org.datatransferproject.transfer.smugmug.photos.model.SmugMugPageInfo	0	0	0	1	5	1			1	0
+0	3	16	25	62	103.17835962612729	505	0	3	49	6	0	org.datatransferproject.transfer.smugmug.photos.model.SmugMugAlbumsResponse	0	0	0	2	5	3			3	0
+1	2	19	36	94	163.55861216172013	500	0	0	74	2	3	org.datatransferproject.transfer.smugmug.photos.model.SmugMugImageUploadResponse	0	0	0	2	5	1			4	0
+0	1	30	31	116	147.3612959242973	501	0	21	57	14	0	org.datatransferproject.transfer.smugmug.photos.model.SmugMugAlbum	0	0	0	2	7	7			7	0
+0	3	17	32	63	132.58031124452904	507	0	3	43	6	0	org.datatransferproject.transfer.smugmug.photos.model.SmugMugResponse	0	0	0	1	3	3			3	0
+0	3	13	24	51	94.36381518538381	503	0	1	45	4	0	org.datatransferproject.transfer.smugmug.photos.model.SmugMugAlbumInfoResponse	0	0	0	2	5	2			2	0
+0	3	34	43	138	211.87190846175983	502	0	22	79	14	0	org.datatransferproject.transfer.smugmug.photos.model.SmugMugImage	0	0	0	3	8	8			8	0
+0	1	25	39	98	178.81373166815231	508	0	10	57	10	0	org.datatransferproject.transfer.smugmug.photos.model.SmugMugUrl	0	0	0	1	5	5			5	0
+0	2	12	21	46	80.401469326271	504	0	1	41	4	0	org.datatransferproject.transfer.smugmug.photos.model.SmugMugAlbumResponse	0	0	0	1	4	2			2	0
+0	2	10	17	36	60.91982195375387	658	0	1	36	4	0	org.datatransferproject.transfer.smugmug.photos.model.SmugMugAlbumImageResponse	0	0	0	2	2	2			2	0
+0	2	13	25	44	94.60474084795652	509	0	1	37	4	0	org.datatransferproject.transfer.smugmug.photos.model.SmugMugUser	0	0	0	2	2	2			2	0
+0	2	21	30	75	129.5246434060893	510	0	6	50	8	0	org.datatransferproject.transfer.smugmug.photos.model.SmugMugUserResponse	0	0	0	1	4	4			4	0
+0	5	42	80	236	437.1065444020488	496	0	0	107	12	10	org.datatransferproject.transfer.smugmug.SmugMugTransferExtension	0	0	0	18	6	4			14	0
+0	9	89	120	436	729.3170692018841	793	3	0	251	20	67	org.datatransferproject.transfer.imgur.photos.ImgurPhotoExporterTest	0	0	0	28	15	7			74	3
+0	5	92	178	568	1128.897612532365	783	0	4	194	22	49	org.datatransferproject.datatransfer.imgur.photos.ImgurPhotosImporter	0	0	0	20	7	5			54	0
+0	7	166	281	1086	1964.2620766387804	776	0	7	315	32	54	org.datatransferproject.datatransfer.imgur.photos.ImgurPhotosExporter	0	0	0	31	11	7			61	0
+0	5	37	78	194	410.8929364069396	775	0	0	88	9	8	org.datatransferproject.datatransfer.imgur.ImgurTransferExtension	0	0	0	13	6	4			12	0
+0	4	40	66	209	352.59406062967753	739	0	0	98	13	14	org.datatransferproject.transfer.spotify.SpotifyTransferExtension	0	0	0	15	4	4			18	0
+0	2	55	103	326	596.0504302807709	740	0	0	140	23	40	org.datatransferproject.transfer.spotify.playlists.SpotifyPlaylistExporter	0	0	0	26	2	5			45	0
+0	2	39	108	277	607.3938906682325	741	0	4	128	18	26	org.datatransferproject.transfer.spotify.playlists.SpotifyPlaylistImporter	0	0	0	17	2	5			31	0
+0	1	50	54	232	294.12381806998076	582	-1	48	73	25	11	org.datatransferproject.transport.jettyrest.http.JettyMonitor	0	0	0	2	1	16			27	-1
+0	7	77	144	483	889.9223981259704	583	0	0	136	12	22	org.datatransferproject.transport.jettyrest.http.JettyTransport	0	0	0	21	8	4			26	0
+0	2	23	54	103	250.27536536440033	581	1	0	59	3	7	org.datatransferproject.transport.jettyrest.JettyRestExtension	0	0	0	8	2	3			10	1
+1	1	12	39	56	156.98871593867085	588	0	0	45	3	1	org.datatransferproject.transport.jettyrest.rest.TransferServicesController	0	0	0	9	1	2			3	0
+0	2	13	41	59	167.1790352001345	584	0	0	45	3	1	org.datatransferproject.transport.jettyrest.rest.DataTypesController	0	0	0	8	2	2			3	0
+0	6	36	73	185	381.0859752307177	587	-1	9	90	13	6	org.datatransferproject.transport.jettyrest.rest.TransferController	0	0	0	9	6	7			13	0
+0	2	29	77	166	393.62305970345386	585	1	0	83	5	6	org.datatransferproject.transport.jettyrest.rest.JerseyTransportBinder	0	0	0	11	2	3			9	1
+-1	1	6	10	12	24.849066497880003	586	-1	0	22	0	0	org.datatransferproject.transport.jettyrest.rest.RESTConstants	0	0	0	0	2	0			0	-1
+0	1	29	39	113	184.3681249297813	491	0	0	68	2	12	org.datatransferproject.config.yaml.YamlSettingsExtensionTest	0	0	0	7	2	2			14	0
+0	2	56	89	324	514.4861729055173	489	-1	9	116	17	15	org.datatransferproject.config.yaml.YamlSettingsExtension	0	0	0	11	9	6			21	-1
+0	1	39	77	212	412.4571431497449	650	0	8	73	14	10	org.datatransferproject.security.jwe.JWEAuthDataDecryptService	0	0	0	13	1	5			15	0
+-1	0	29	64	151	321.10590955615515	651	0	6	60	13	9	org.datatransferproject.security.jwe.JWEPublicKeySerializer	0	0	0	11	0	4			13	0
+0	2	21	51	93	231.16257415081606	652	0	2	53	7	3	org.datatransferproject.security.jwe.JWESecurityExtension	0	0	0	8	2	4	context	State	7	0
+0	2	36	60	193	315.76141133429314	810	-1	8	65	11	16	org.datatransferproject.security.jwe.JWEKeyGenerator	0	0	0	6	2	5	adapter	(Object)Adapter	21	0
+0	1	19	43	92	194.43690881310874	647	0	1	46	7	2	org.datatransferproject.security.cleartext.ClearTextAuthDataDecryptService	0	0	0	5	1	3			5	0
+0	2	21	50	93	226.6299746576628	649	0	2	53	7	3	org.datatransferproject.security.cleartext.ClearTextSecurityExtension	0	0	0	8	2	4	context	State	7	0
+0	2	34	78	204	414.81335951984886	809	-1	8	66	11	15	org.datatransferproject.security.cleartext.ClearTextKeyGenerator	0	0	0	6	2	5	adapter	(Object)Adapter	20	0
+-1	0	10	25	41	92.8393016676077	648	0	1	36	5	3	org.datatransferproject.security.cleartext.ClearTextPublicKeySerializer	0	0	0	4	0	2			5	0
+0	1	32	52	216	279.5144771995766	707	0	1	64	8	8	org.datatransferproject.launcher.monitor.MonitorLoader	0	0	0	6	1	2			10	0
+0	4	58	105	396	628.0484921817205	706	-1	0	92	13	11	org.datatransferproject.launcher.monitor.ConsoleMonitor	0	0	0	6	7	6			17	1
+1	1	36	62	230	337.16091715323813	708	2	0	66	12	5	org.datatransferproject.launcher.monitor.MultiplexMonitor	0	0	0	3	1	6			11	2
+0	1	24	49	138	241.43543057270304	782	0	0	32	3	0	org.datatransferproject.launcher.monitor.events.EventCode	0	0	0	0	16	2			2	0
+1	1	21	45	94	204.44826520215017	230	1	0	45	6	3	org.datatransferproject.launcher.types.TypeManagerImpl	0	0	0	3	1	4			7	1
+0	1	47	74	315	425.69037527309683	797	4	0	159	13	13	org.datatransferproject.launcher.metrics.LoggingDtpInternalMetricRecorder	0	0	0	5	1	12	adapter	(Object)Adapter	25	4
+1	2	23	63	142	312.21710462887944	803	2	0	58	5	5	org.datatransferproject.launcher.metrics.ServiceAwareMetricRecorder	0	0	0	4	2	5	context	State	10	2
+-1	0	9	29	36	103.92204921522719	703	0	0	22	1	0	org.datatransferproject.api.launcher.BootExtension	0	0	0	0	0	1			1	0
+-1	0	33	85	288	481.3516408115554	801	0	45	67	10	0	org.datatransferproject.api.launcher.DtpInternalMetricRecorder	0	0	0	1	0	10	state	State	10	0
+-1	0	10	30	41	111.40716200112924	331	0	0	27	1	0	org.datatransferproject.api.launcher.AbstractExtension	0	0	0	0	0	1			1	0
+-1	0	35	79	168	404.79315437285743	332	0	21	66	12	0	org.datatransferproject.api.launcher.ExtensionContext	0	0	0	1	0	7	state	State	7	0
+0	2	40	71	194	374.0179292934963	800	-1	0	83	17	14	org.datatransferproject.api.launcher.DelegatingExtensionContext	0	0	0	3	2	9	decorator	Decorator	23	-1
+-1	0	31	77	168	394.54522641405094	333	0	6	57	5	0	org.datatransferproject.api.launcher.Monitor	0	0	0	1	0	4	adaptee	(Object)Adapter	4	0
+-1	0	15	70	104	325.10736293989606	705	0	1	34	3	0	org.datatransferproject.api.launcher.SystemExtension	0	0	0	0	0	2			2	0
+-1	0	32	63	241	345.54220680991125	802	0	6	59	8	0	org.datatransferproject.api.launcher.MetricRecorder	0	0	0	1	0	4			4	0
+-1	0	6	28	31	96.1516417255841	790	0	0	9	2	0	org.datatransferproject.api.launcher.JobAwareMonitor	0	0	0	0	0	1			1	0
+-1	1	5	8	10	18.420680743952367	494	-1	0	26	0	0	org.datatransferproject.api.launcher.Constants	0	0	0	0	1	0			0	-1
+-1	0	9	21	27	69.2125741860909	704	0	0	23	1	0	org.datatransferproject.api.launcher.MonitorExtension	0	0	0	0	0	1	creator	Factory Method	1	0
+0	1	33	57	159	288.9275395265532	792	0	3	54	5	0	org.datatransferproject.api.launcher.Version	0	0	0	4	3	3			3	0
+-1	0	19	59	116	280.4618212752755	235	0	3	44	3	0	org.datatransferproject.api.launcher.TypeManager	0	0	0	1	0	3	state	State	3	0
+-1	0	18	30	76	129.92200020858994	273	0	0	60	3	14	org.datatransferproject.types.client.transfer.TransferJobTest	0	0	0	4	0	1			15	0
+-1	0	12	24	51	94.36381518538381	266	0	0	51	3	8	org.datatransferproject.types.client.transfer.CreateTransferJobTest	0	0	0	3	0	1			9	0
+1	1	12	41	60	167.86812705110611	641	0	0	21	4	0	org.datatransferproject.types.client.transfer.ReserveWorker	0	0	0	3	1	2			2	0
+0	2	22	47	99	215.97063295632572	276	0	0	55	7	0	org.datatransferproject.types.client.transfer.TransferServices	0	0	0	4	3	4			4	0
+0	2	42	80	234	436.42568922861614	640	2	0	93	17	0	org.datatransferproject.types.client.transfer.CreateTransferJob	0	0	0	6	7	8			8	2
+1	1	16	36	59	146.7913479806059	241	0	0	36	3	0	org.datatransferproject.types.client.transfer.ServiceAuthData	0	0	0	1	1	2			2	0
+0	4	61	83	276	466.4932718545234	642	0	35	110	21	0	org.datatransferproject.types.client.transfer.TransferJob	0	0	0	3	12	11			11	0
+0	3	30	64	143	317.62205633663405	598	0	2	63	9	0	org.datatransferproject.types.client.transfer.GenerateServiceAuthData	0	0	0	1	5	5			5	0
+1	1	12	32	54	127.64748949005678	264	0	0	36	3	0	org.datatransferproject.types.client.transfer.ReservedWorker	0	0	0	3	1	2			2	0
+0	1	17	32	67	134.5501638205109	600	0	0	39	5	0	org.datatransferproject.types.client.transfer.StartTransferJob	0	0	0	1	2	3			3	0
+1	1	12	35	60	143.3020596777735	599	0	0	35	3	0	org.datatransferproject.types.client.transfer.GetReservedWorker	0	0	0	3	1	2			2	0
+1	1	12	28	47	107.80413284788163	275	0	0	35	3	0	org.datatransferproject.types.client.transfer.GetTransferJob	0	0	0	3	1	2			2	0
+1	1	13	33	53	131.01963314722002	369	0	0	32	3	1	org.datatransferproject.types.client.transfer.GetTransferServices	0	0	0	1	1	2			3	0
+-1	0	5	18	19	52.99990162499593	365	-1	0	19	0	0	org.datatransferproject.types.client.datatype.GetDataTypes	0	0	0	0	0	0			0	-1
+1	1	12	36	52	142.2447738689314	596	0	0	36	3	0	org.datatransferproject.types.client.datatype.DataTypes	0	0	0	3	1	2			2	0
+-1	0	29	47	138	231.58092320238865	355	-1	1	106	7	36	org.datatransferproject.spi.cloud.types.PortabilityJobTest	0	0	0	11	0	2			38	0
+0	2	133	217	802	1451.1025679070337	234	-1	112	294	29	59	org.datatransferproject.spi.cloud.types.PortabilityJob	0	0	1	13	16	16	abstractClass	Template Method	75	-1
+0	1	58	104	389	620.2122517363184	342	0	43	128	13	1	org.datatransferproject.spi.cloud.types.JobAuthorization	0	0	1	5	1	10	creator	Factory Method	11	0
+0	5	186	188	1222	1336.3498982695296	-1	1	18	282	29	1	org.datatransferproject.spi.cloud.types.AutoValue_PortabilityJob	3	10	0	5	9	13			14	1
+0	2	147	189	998	1305.1873692228667	-1	2	2	248	27	10	org.datatransferproject.spi.cloud.types.AutoValue_JobAuthorization	4	9	0	3	8	13			23	2
+-1	0	61	140	442	852.7833834908777	813	-1	55	142	25	37	org.datatransferproject.spi.cloud.storage.JobStoreWithValidator	0	0	4	10	0	11	abstractClass	Template Method	48	0
+-1	0	38	95	260	528.2647549464751	791	0	21	53	17	4	org.datatransferproject.spi.cloud.storage.TemporaryPerJobDataStore	0	0	0	7	0	7			11	0
+-1	0	6	33	36	118.25612496905163	415	0	0	30	2	0	org.datatransferproject.spi.cloud.storage.CryptoKeyStore	0	0	0	1	0	1			1	0
+-1	0	77	209	647	1352.7203755506882	233	0	91	127	44	0	org.datatransferproject.spi.cloud.storage.JobStore	0	0	0	8	0	14	state	State	14	0
+-1	0	6	42	45	159.87982457035343	414	0	0	33	2	0	org.datatransferproject.spi.cloud.storage.AppCredentialStore	0	0	0	2	0	1			1	0
+-1	0	14	43	63	178.1547932348359	709	0	1	37	4	8	org.datatransferproject.spi.cloud.extension.CloudExtensionLoader	0	0	0	3	0	2			10	0
+-1	0	9	51	59	207.9544096391917	440	-1	0	35	1	1	org.datatransferproject.spi.cloud.extension.CloudExtensionModule	0	0	1	3	0	1			2	-1
+-1	0	15	40	63	165.7253890556613	334	0	1	38	4	0	org.datatransferproject.spi.cloud.extension.CloudExtension	0	0	0	3	0	2	creator	Factory Method	2	0
+1	1	51	78	342	455.11523749088315	832	2	0	90	14	26	org.datatransferproject.types.transfer.auth.AuthDataSerializationTest	0	0	0	7	1	5			31	2
+0	1	14	21	57	84.90407662452556	295	0	0	37	5	0	org.datatransferproject.types.transfer.auth.AppCredentials	0	0	0	1	2	3			3	0
+0	2	20	55	100	253.28436022934505	718	0	2	36	7	0	org.datatransferproject.types.transfer.auth.CookiesAndUrlAuthData	3	1	0	5	2	4			4	0
+1	1	12	28	45	106.58654971356896	329	0	0	21	3	0	org.datatransferproject.types.transfer.auth.TokenAuthData	1	1	0	3	1	2			2	0
+0	1	25	41	105	190.81237435645843	463	-1	4	42	9	1	org.datatransferproject.types.transfer.auth.TokensAndUrlAuthData	4	1	0	4	3	5			6	-1
+-1	0	6	19	21	57.845926316745036	270	0	0	23	1	0	org.datatransferproject.types.transfer.auth.AuthData	1	0	4	1	0	1			1	0
+0	1	17	33	69	139.72551465170957	469	0	0	28	5	0	org.datatransferproject.types.transfer.auth.TokenSecretAuthData	2	1	0	3	2	3			3	0
+0	1	17	35	69	148.1937276609041	646	0	0	41	5	0	org.datatransferproject.types.transfer.auth.AuthDataPair	0	0	0	2	2	3			3	0
+0	1	21	61	144	303.15861127413604	808	0	6	69	5	0	org.datatransferproject.types.transfer.errors.ErrorDetail	0	0	1	7	1	4			4	0
+0	1	86	103	549	649.7341394754816	-1	2	0	131	15	5	org.datatransferproject.types.transfer.errors.AutoValue_ErrorDetail	4	3	0	2	3	7			12	2
+0	2	26	70	150	350.74447058673786	629	1	0	64	13	2	org.datatransferproject.types.transfer.retry.UniformRetryStrategy	0	0	0	2	2	5			7	1
+-1	0	19	42	88	188.0481462080847	630	0	10	46	9	0	org.datatransferproject.types.transfer.retry.NoRetryStrategy	0	0	0	0	0	5			5	0
+0	6	56	101	431	612.6769171004785	628	0	0	103	8	12	org.datatransferproject.types.transfer.retry.RetryingCallable	0	0	0	6	6	2			14	0
+0	2	29	89	192	467.91708811047255	631	1	0	68	12	3	org.datatransferproject.types.transfer.retry.RetryMapping	0	0	0	2	2	5			8	1
+0	2	29	169	305	966.7326902466526	627	1	0	79	10	3	org.datatransferproject.types.transfer.retry.RetryStrategyLibrary	0	0	0	3	2	4			7	1
+-1	0	17	82	121	393.25482473893277	626	0	3	55	5	0	org.datatransferproject.types.transfer.retry.RetryStrategy	0	0	0	4	0	3			3	0
+0	1	16	37	67	155.57362691746573	625	0	1	39	5	0	org.datatransferproject.types.transfer.retry.RetryException	0	0	0	0	1	3			3	0
+0	3	30	85	189	445.5484962800696	624	2	0	70	9	5	org.datatransferproject.types.transfer.retry.ExponentialBackoffStrategy	0	0	0	2	3	5			10	2
+1	1	16	47	72	201.0033075937546	805	0	0	42	5	1	org.datatransferproject.types.transfer.serviceconfig.TransferServiceConfigSpecification	0	0	0	2	1	2			3	0
+0	2	26	75	137	368.9985694371094	804	0	4	61	14	4	org.datatransferproject.types.transfer.serviceconfig.TransferServiceConfig	0	0	0	6	2	4			8	0
+-1	0	5	37	38	134.59068790987627	428	-1	0	13	0	0	org.datatransferproject.types.transfer.models.ItemResource	0	0	1	1	0	0			0	-1
+0	1	22	57	111	268.443221474803	698	0	0	42	9	0	org.datatransferproject.types.transfer.models.blob.DtpDigitalDocument	0	0	0	2	3	4			4	0
+0	2	22	64	127	310.02797353334984	697	0	0	40	7	0	org.datatransferproject.types.transfer.models.blob.DigitalDocumentWrapper	4	0	0	3	3	4			4	0
+0	3	27	70	151	351.2095885770447	693	0	2	49	9	1	org.datatransferproject.types.transfer.models.blob.BlobbyStorageContainerResource	5	0	0	5	4	5			6	0
+-1	0	15	30	60	122.83033686666302	257	0	0	30	3	11	org.datatransferproject.spi.transfer.types.ContinuationDataTest	0	0	0	5	0	1			12	0
+0	4	47	73	233	397.9258071102961	474	-1	0	114	16	9	org.datatransferproject.spi.transfer.types.TempPhotosData	11	0	0	10	4	11			20	2
+1	1	22	33	102	152.62410283838094	426	1	0	35	8	7	org.datatransferproject.spi.transfer.types.IdOnlyResource	4	0	0	2	1	4			11	1
+0	2	29	63	129	306.16818147478534	253	0	2	42	6	1	org.datatransferproject.spi.transfer.types.ContinuationData	4	0	0	8	2	4			5	0
+-1	0	5	14	21	42.62331412812792	825	0	0	23	1	0	org.datatransferproject.transfer.DestinationMemoryFullException	1	0	0	1	0	1			1	0
+-1	0	5	14	21	42.62331412812792	701	0	0	22	1	0	org.datatransferproject.transfer.CopyException	0	0	1	0	0	1			1	0
+-1	0	11	33	51	129.75024587990274	567	0	0	35	3	3	org.datatransferproject.transfer.ImageStreamProvider	0	0	0	4	0	1			4	0
+0	5	72	92	369	543.7932912517285	177	-1	26	184	20	44	org.datatransferproject.transfer.JobPollingServiceTest	0	0	0	29	5	8			52	0
+0	1	42	49	233	267.1008842247193	643	0	24	69	13	12	org.datatransferproject.transfer.WorkerModuleTest	0	0	0	10	4	9			21	0
+0	8	109	163	626	1049.614110489316	219	0	0	189	15	41	org.datatransferproject.transfer.JobProcessor	0	0	0	22	8	6	context	State	47	0
+-1	0	7	14	17	39.66498681678703	806	-1	0	30	1	0	org.datatransferproject.transfer.Annotations	0	0	0	3	0	1			1	-1
+1	5	29	63	153	316.9175890477234	622	0	0	73	6	9	org.datatransferproject.transfer.CallableExporter	0	0	0	11	5	2	context	State	11	0
+1	3	18	37	73	158.74699932249047	421	0	0	41	2	3	org.datatransferproject.transfer.Worker	0	0	0	1	3	2			5	0
+1	1	10	20	40	73.77758908227872	719	0	0	16	3	0	org.datatransferproject.transfer.CredsTimeoutException	0	0	0	1	1	2			2	0
+0	1	58	115	283	649.2263932289724	151	-1	4	160	9	32	org.datatransferproject.transfer.WorkerMain	0	0	0	31	1	4			36	-1
+0	6	43	75	203	398.490448428134	441	1	12	98	14	9	org.datatransferproject.transfer.WorkerExtensionContext	0	0	0	13	6	8	adapter	(Object)Adapter	17	1
+1	1	13	43	62	177.46677855693895	420	0	0	40	2	2	org.datatransferproject.transfer.JobPoller	0	0	0	1	1	2			4	0
+-1	0	6	23	30	78.22753977822957	337	0	0	35	3	0	org.datatransferproject.transfer.InMemoryDataCopier	0	0	0	7	0	1	state	State	1	0
+0	7	110	156	564	988.2684632336973	220	2	63	256	46	51	org.datatransferproject.transfer.WorkerModule	19	0	0	37	7	19	context	State	70	2
+0	3	29	62	147	309.40682038028166	807	0	0	58	6	7	org.datatransferproject.transfer.JobCancelWatchingService	0	0	0	5	3	3	context	State	10	0
+1	6	38	92	231	500.70242936800497	623	0	0	87	6	16	org.datatransferproject.transfer.CallableImporter	0	0	0	13	6	2	context	State	18	0
+0	3	48	87	261	484.1132754370744	157	-1	0	93	15	12	org.datatransferproject.transfer.JobMetadata	0	0	0	2	5	8			20	2
+0	7	126	200	748	1323.4805955948955	156	0	0	255	22	52	org.datatransferproject.transfer.JobPollingService	0	0	0	19	7	7	context	State	59	0
+0	8	103	234	782	1558.8740092876028	338	0	0	219	12	31	org.datatransferproject.transfer.PortabilityInMemoryDataCopier	0	0	0	27	8	3	context	State	34	0
+0	4	55	101	334	586.9252402906468	787	-1	9	117	19	22	org.datatransferproject.spi.transfer.idempotentexecutor.InMemoryIdempotentImportExecutor	0	0	0	13	4	7	adapter	(Object)Adapter	29	-1
+-1	0	41	205	506	1276.4400172039304	785	0	15	97	19	0	org.datatransferproject.spi.transfer.idempotentexecutor.IdempotentImportExecutor	0	0	0	6	0	6	state	State	6	0
+-1	0	3	11	12	27.333973147668004	823	0	0	8	1	0	org.datatransferproject.spi.transfer.idempotentexecutor.IdempotentImportExecutorExtension	0	0	0	2	0	1	creator	Factory Method	1	0
+-1	0	20	37	102	171.12399409151803	824	0	1	28	7	10	org.datatransferproject.spi.transfer.idempotentexecutor.IdempotentImportExecutorLoader	0	0	0	3	0	2			12	0
+-1	0	25	53	111	249.6051006695537	251	0	6	39	5	0	org.datatransferproject.spi.transfer.store.TransferStore	0	0	0	1	0	4			4	0
+1	1	19	50	109	234.56739411145716	729	1	0	39	5	2	org.datatransferproject.spi.transfer.hooks.MultiplexJobHooks	0	0	0	1	1	3			5	1
+-1	0	12	33	47	127.05487085643193	728	0	1	40	4	5	org.datatransferproject.spi.transfer.hooks.JobHooksLoader	0	0	0	3	0	2			7	0
+-1	0	5	16	17	45.33141350489946	700	-1	0	19	0	0	org.datatransferproject.spi.transfer.hooks.DefaultJobHooks	0	0	0	0	0	0			0	-1
+-1	0	15	57	91	257.1189918714604	710	0	1	36	2	0	org.datatransferproject.spi.transfer.hooks.JobHooks	0	0	0	1	0	2			2	0
+-1	0	9	29	38	105.48999863206518	727	0	0	25	1	0	org.datatransferproject.spi.transfer.hooks.JobHooksExtension	0	0	0	1	0	1			1	0
+-1	0	7	26	32	90.10913347279289	654	0	1	26	3	0	org.datatransferproject.spi.transfer.security.PublicKeySerializer	0	0	0	1	0	2	state	State	2	0
+-1	0	23	54	123	259.85795519011054	812	-1	0	34	1	0	org.datatransferproject.spi.transfer.security.TransferKeyGenerator	0	0	0	0	0	1	creator	Factory Method	1	-1
+-1	0	7	17	23	53.303401670795544	655	0	0	23	1	0	org.datatransferproject.spi.transfer.security.SecurityException	0	0	0	0	0	1			1	0
+-1	0	13	43	65	179.49865260551238	811	0	0	38	3	9	org.datatransferproject.spi.transfer.security.SecurityExtensionLoader	0	0	0	4	0	1			10	0
+-1	0	13	39	62	160.95824101675856	653	0	1	30	4	0	org.datatransferproject.spi.transfer.security.AuthDataDecryptService	0	0	0	2	0	2	state	State	2	0
+-1	0	8	23	26	74.93622037449408	656	0	3	28	3	0	org.datatransferproject.spi.transfer.security.SecurityExtension	0	0	0	1	0	3	creator	Factory Method	3	0
+-1	0	17	43	71	183.29523471277656	336	0	3	33	3	0	org.datatransferproject.spi.transfer.extension.TransferExtension	0	0	0	3	0	3	creator	Factory Method	3	0
+0	5	77	91	301	519.3470340921476	245	1	0	113	21	6	org.datatransferproject.spi.transfer.provider.ExportResult	0	0	0	4	7	9			15	1
+-1	0	14	54	77	234.56549278009894	248	0	0	42	4	0	org.datatransferproject.spi.transfer.provider.Importer	0	0	0	4	0	1			1	0
+0	4	65	102	290	578.327854144013	247	2	0	79	18	2	org.datatransferproject.spi.transfer.provider.ImportResult	0	0	0	2	5	7	singleton	Singleton	9	2
+-1	0	12	55	77	238.90929820195262	246	0	0	41	4	0	org.datatransferproject.spi.transfer.provider.Exporter	0	0	0	5	0	1			1	0
+0	3	72	129	431	782.5279436233834	450	-1	2	118	12	23	org.datatransferproject.bootstrap.vm.SingleVMMain	0	0	0	14	3	5			28	-1
+-1	0	19	63	123	303.16761438846225	688	-1	1	56	7	9	org.datatransferproject.auth.OAuthUtils	0	0	0	11	0	2			11	-1
+0	5	55	111	296	631.6298994299707	675	1	0	127	17	20	org.datatransferproject.auth.OAuth2ServiceExtension	0	0	8	15	6	7	context	State	27	1
+-1	0	38	90	198	475.9440327625082	673	-1	21	77	16	4	org.datatransferproject.auth.OAuth2Config	0	0	0	6	0	7	state	State	11	-1
+0	1	59	105	318	605.0153951919186	680	0	45	100	21	0	org.datatransferproject.auth.OAuth1Config	0	0	0	3	1	10	state	State	10	0
+0	4	76	151	454	923.8326769042436	681	1	0	150	11	35	org.datatransferproject.auth.OAuth1DataGenerator	0	0	0	17	7	4	context	State	39	1
+0	6	56	112	297	637.6979995459023	682	1	0	129	17	20	org.datatransferproject.auth.OAuth1ServiceExtension	0	0	3	15	7	7	context	State	27	1
+0	1	11	19	42	71.015722747384	687	0	1	42	4	0	org.datatransferproject.auth.OAuth2TokenResponse	0	0	0	3	3	2			2	0
+0	4	60	138	389	822.9739494193456	674	1	0	134	13	35	org.datatransferproject.auth.OAuth2DataGenerator	0	0	0	21	5	4	context	State	39	1
+-1	0	23	72	174	371.4519815434461	492	-1	0	56	6	11	org.datatransferproject.config.FlagBindingModule	0	0	2	8	0	1			12	-1
+-1	0	26	55	146	274.0983641939585	445	0	1	53	5	3	org.datatransferproject.config.ConfigUtils	0	0	0	3	0	2			5	0
+-1	0	14	43	63	178.1547932348359	702	0	1	37	4	8	org.datatransferproject.config.extension.SettingsExtensionLoader	0	0	0	3	0	2			10	0
+-1	0	11	42	60	171.9624716133282	493	0	0	29	3	0	org.datatransferproject.config.extension.SettingsExtension	0	0	0	1	0	1	adaptee	(Object)Adapter	1	0
+-1	0	9	23	32	79.71192576439371	373	0	0	23	1	0	org.datatransferproject.security.Encrypter	0	0	0	0	0	1			1	0
+1	3	31	77	191	404.4250539595905	388	0	0	70	8	7	org.datatransferproject.security.DecrypterImpl	0	0	0	11	3	2	adapter	(Object)Adapter	9	0
+1	3	29	64	160	324.8111241749649	374	0	0	67	7	9	org.datatransferproject.security.EncrypterImpl	0	0	0	12	3	2	adapter	(Object)Adapter	11	0
+1	1	30	55	155	277.3883814305586	387	1	0	61	10	9	org.datatransferproject.security.DecrypterFactory	0	0	0	5	1	4			13	1
+1	1	30	55	155	277.3883814305586	389	1	0	61	10	9	org.datatransferproject.security.EncrypterFactory	0	0	0	5	1	4			13	1
+0	2	23	54	117	257.15739247907885	371	0	0	51	7	3	org.datatransferproject.security.AesSymmetricKeyGenerator	0	0	0	5	2	3	adapter	(Object)Adapter	6	0
+-1	0	13	29	47	111.6542804495917	376	0	1	28	2	0	org.datatransferproject.security.SymmetricKeyGenerator	0	0	0	1	0	2	state	State	2	0
+-1	0	9	23	32	79.71192576439371	386	0	0	23	1	0	org.datatransferproject.security.Decrypter	0	0	0	0	0	1			1	0
+0	1	79	71	388	423.23137911325244	350	-1	28	192	11	42	org.datatransferproject.api.auth.PortabilityAuthServiceExtensionRegistryTest	0	0	0	15	1	8			50	0
+0	2	43	94	172	483.86448082046456	349	2	0	131	16	24	org.datatransferproject.api.auth.PortabilityAuthServiceProviderRegistry	0	0	0	12	3	5			29	2
+-1	0	22	31	87	138.44315167829208	635	-1	1	40	2	12	org.datatransferproject.api.action.datatype.DataTypesActionTest	0	0	0	11	0	2			14	0
+0	2	24	65	124	313.31830176432743	363	0	1	58	6	3	org.datatransferproject.api.action.datatype.DataTypesAction	0	0	0	7	2	3	context	State	6	0
+0	5	67	113	394	675.3276527506665	435	1	5	109	24	22	org.datatransferproject.api.token.JWTTokenManager	0	0	0	13	8	6	adapter	(Object)Adapter	28	1
+0	6	54	84	259	466.7735571827611	458	1	25	109	18	8	org.datatransferproject.api.ApiExtensionContext	0	0	0	9	8	10	adapter	(Object)Adapter	18	1
+0	8	56	101	299	575.7448009124594	589	0	0	119	7	13	org.datatransferproject.api.ApiServicesModule	3	0	0	29	8	3	context	State	16	0
+0	2	91	134	445	817.1419538102762	356	-1	16	219	18	31	org.datatransferproject.api.ApiMain	0	0	0	40	2	8			39	-1
+-1	0	19	46	87	205.43177345811085	358	-1	3	43	7	11	org.datatransferproject.api.action.ActionUtils	0	0	0	5	0	3			14	0
+-1	0	14	35	59	142.71381053670018	385	0	1	30	4	0	org.datatransferproject.api.action.Action	0	0	0	0	0	2			2	0
+0	1	27	70	156	353.4899205074676	367	0	1	61	8	5	org.datatransferproject.api.action.transfer.GetTransferServicesAction	0	0	0	7	1	3	context	State	8	0
+0	2	22	53	99	243.54135205713325	592	0	1	48	6	8	org.datatransferproject.api.action.transfer.GetTransferJobAction	0	0	0	12	2	3	context	State	11	0
+0	6	51	129	345	753.8172297970455	591	0	1	122	9	26	org.datatransferproject.api.action.transfer.GenerateServiceAuthDataAction	0	0	0	23	6	3	context	State	29	0
+0	2	26	68	141	336.51567254571546	637	0	1	58	7	8	org.datatransferproject.api.action.transfer.GetReservedWorkerAction	0	0	0	13	2	3	context	State	11	0
+0	6	77	153	461	938.4099005784873	636	0	6	209	16	51	org.datatransferproject.api.action.transfer.CreateTransferJobAction	0	0	0	29	6	5	context	State	56	0
+0	2	39	91	213	487.8775870795577	639	0	0	90	10	17	org.datatransferproject.api.action.transfer.StartTransferJobAction	0	0	0	17	2	4	context	State	21	0
+-1	0	8	25	31	85.84968011212865	364	-1	0	28	1	1	org.datatransferproject.api.action.transfer.TransferServicesActionModule	0	0	0	2	0	1			2	-1
+0	2	30	68	151	341.17502890341484	638	0	4	57	9	6	org.datatransferproject.api.action.transfer.ReserveWorkerAction	0	0	0	12	2	4	context	State	10	0
+-1	0	5	29	32	100.50634118119207	442	-1	0	29	0	0	org.datatransferproject.spi.service.extension.ServiceExtension	0	0	0	1	0	0			0	-1
+-1	0	16	41	81	180.17241534157	771	0	0	56	3	10	org.datatransferproject.types.common.models.videos.VideosContainerResourceTest	0	0	0	6	0	1			11	0
+0	2	30	68	175	351.205446226799	769	-1	0	84	11	19	org.datatransferproject.types.common.models.videos.VideoObject	5	0	0	5	3	5			24	-1
+0	1	32	66	166	337.3911940315319	768	1	0	68	12	4	org.datatransferproject.types.common.models.videos.VideoAlbum	0	0	0	4	3	6			10	1
+0	3	25	58	149	290.22888574483665	770	-1	0	67	11	8	org.datatransferproject.types.common.models.videos.VideosContainerResource	5	0	0	8	4	5			13	-1
+-1	0	17	46	90	206.9912448351922	293	0	0	43	3	11	org.datatransferproject.types.common.models.tasks.TasksModelWrapperTest	0	0	0	10	0	1			12	0
+0	2	29	39	130	189.8338435677677	289	0	5	59	11	0	org.datatransferproject.types.common.models.tasks.TaskModel	0	0	0	4	5	6			6	0
+0	2	17	50	92	226.08942885245202	287	0	0	46	5	1	org.datatransferproject.types.common.models.tasks.TaskContainerResource	3	0	0	6	2	3			4	0
+0	1	14	25	60	102.35861405555251	288	0	0	39	5	0	org.datatransferproject.types.common.models.tasks.TaskListModel	3	0	0	3	2	3			3	0
+-1	0	18	42	88	188.0481462080847	290	0	0	52	3	12	org.datatransferproject.types.common.models.calendar.CalendarContainerResourceTest	0	0	0	9	0	1			13	0
+0	6	276	297	1942	2248.7276737088273	573	-1	12	416	27	45	org.datatransferproject.types.common.models.calendar.RecurrenceRule	0	0	0	11	19	8			53	0
+0	1	19	28	82	123.3881389233991	280	0	0	47	7	0	org.datatransferproject.types.common.models.calendar.CalendarModel	0	0	0	2	3	4			4	0
+0	4	58	71	290	402.5615455316169	279	0	20	106	17	0	org.datatransferproject.types.common.models.calendar.CalendarEventModel	0	0	0	4	8	9			9	0
+0	2	19	29	82	127.79485817066335	277	0	0	47	7	0	org.datatransferproject.types.common.models.calendar.CalendarAttendeeModel	0	0	0	2	3	4			4	0
+-1	0	3	6	6	10.75055681536833	417	0	0	70	1	0	org.datatransferproject.types.common.models.calendar.Property	0	0	0	0	0	1			1	0
+0	2	17	50	92	226.08942885245202	278	0	0	46	5	1	org.datatransferproject.types.common.models.calendar.CalendarContainerResource	3	0	0	6	2	3			4	0
+0	3	71	93	441	566.2811734165567	-1	1	0	110	13	5	org.datatransferproject.types.common.models.calendar.AutoValue_RecurrenceRule_RDate	0	0	0	3	3	6			11	1
+0	5	107	128	694	837.436410944871	-1	1	0	170	19	8	org.datatransferproject.types.common.models.calendar.AutoValue_RecurrenceRule_RRule	0	0	0	3	6	9			17	1
+0	3	71	93	445	567.1209082414604	-1	1	0	110	13	5	org.datatransferproject.types.common.models.calendar.AutoValue_RecurrenceRule_ExDate	0	0	0	3	3	6			11	1
+-1	0	16	40	80	175.28106538695525	292	0	0	40	3	10	org.datatransferproject.types.common.models.photos.PhotosContainerResourceTest	0	0	0	6	0	1			11	0
+0	2	51	83	271	464.9758621330152	285	-1	15	105	23	12	org.datatransferproject.types.common.models.photos.PhotoModel	0	0	0	4	7	10			22	-1
+0	3	31	80	181	415.8797625012661	286	-1	5	76	13	11	org.datatransferproject.types.common.models.photos.PhotosContainerResource	6	0	0	9	4	6			17	-1
+0	1	32	66	167	337.78759161950586	284	1	0	66	12	4	org.datatransferproject.types.common.models.photos.PhotoAlbum	0	0	0	4	3	6			10	1
+-1	0	16	35	75	151.11208397377086	291	0	0	42	3	10	org.datatransferproject.types.common.models.mail.MailContainerResourceTest	0	0	0	9	0	1			11	0
+0	1	17	26	71	110.82967680307421	281	1	0	45	7	3	org.datatransferproject.types.common.models.mail.MailContainerModel	0	0	0	3	2	4			7	1
+0	2	23	52	107	242.9870993920191	283	1	0	52	8	6	org.datatransferproject.types.common.models.mail.MailMessageModel	0	0	0	5	2	4			10	1
+0	2	20	54	104	250.7971085536341	282	1	0	55	7	5	org.datatransferproject.types.common.models.mail.MailContainerResource	4	0	0	7	2	4			9	1
+1	1	16	37	60	151.49074880221772	255	0	0	26	3	0	org.datatransferproject.types.common.IntPaginationToken	2	0	0	4	1	2			2	0
+-1	1	8	17	21	51.75688144129819	644	-1	0	11	0	0	org.datatransferproject.types.common.PortabilityCommon	0	0	0	0	1	0			0	-1
+0	2	37	94	261	523.0649182883332	297	-1	6	61	13	7	org.datatransferproject.types.common.ExportInformation	5	0	0	5	2	5			12	-1
+-1	0	2	9	9	19.775021196025975	689	-1	0	18	0	0	org.datatransferproject.types.common.PaginationData	0	0	3	2	0	0			0	-1
+1	1	16	35	59	142.71381053670018	427	0	0	28	3	0	org.datatransferproject.types.common.StringPaginationToken	2	0	0	4	1	2			2	0
+-1	0	5	32	32	110.90354888959125	269	-1	0	29	0	0	org.datatransferproject.types.common.PortableType	0	0	6	2	0	0			0	-1
+0	1	12	21	46	80.401469326271	765	0	1	34	5	0	org.datatransferproject.types.common.models.CreativeWork	3	0	4	0	1	3			3	0
+-1	0	5	40	40	147.55517816455745	252	-1	0	24	0	0	org.datatransferproject.types.common.models.ContainerResource	0	0	9	6	0	0			0	-1
+-1	0	8	22	27	72.50841105209524	271	0	0	26	2	0	org.datatransferproject.types.common.models.DataModel	1	0	9	2	0	1			1	0
+0	2	27	35	117	166.67608771792146	766	0	7	54	10	1	org.datatransferproject.types.common.models.MediaObject	6	0	1	2	2	6			7	0
+0	1	26	39	113	184.3681249297813	767	0	9	53	12	1	org.datatransferproject.types.common.models.Thing	0	0	1	0	3	6			7	0
+1	1	26	49	115	232.50167428979927	254	1	0	37	6	4	org.datatransferproject.types.common.models.IdOnlyContainerResource	3	0	0	3	1	3			7	1
+0	3	22	87	158	440.44576787334614	726	0	0	60	7	1	org.datatransferproject.types.common.models.social.SocialActivityContainerResource	4	0	0	6	3	4			5	0
+1	1	12	31	47	119.3545756530118	330	0	0	19	3	0	org.datatransferproject.types.common.models.contacts.ContactsModelWrapper	2	0	0	3	1	2			2	0
+1	1	12	22	37	79.44019407817294	744	0	0	18	3	0	org.datatransferproject.types.common.models.playlists.MusicGroup	0	0	0	0	1	2			2	0
+1	1	12	22	37	79.44019407817294	742	0	0	18	3	0	org.datatransferproject.types.common.models.playlists.CreativeWork	0	0	4	0	1	2			2	0
+0	3	27	45	114	213.1289301777523	746	-1	4	46	12	5	org.datatransferproject.types.common.models.playlists.MusicRecording	5	0	0	1	3	5			10	-1
+1	1	11	23	47	88.55339483933135	745	0	0	23	4	2	org.datatransferproject.types.common.models.playlists.MusicPlaylist	2	0	0	2	1	2			4	0
+1	1	12	36	54	143.6034256763139	747	0	0	25	3	1	org.datatransferproject.types.common.models.playlists.PlaylistContainerResource	2	0	0	6	1	2			3	0
+-1	0	9	20	30	68.02394763324311	743	0	0	15	2	1	org.datatransferproject.types.common.models.playlists.MusicAlbum	1	0	0	1	0	1			2	0
+0	3	55	89	266	496.9311714815712	243	1	0	71	12	0	org.datatransferproject.spi.api.types.AuthFlowConfiguration	6	0	0	6	4	6			6	1
+0	1	33	90	209	480.81008267683296	239	0	6	46	7	0	org.datatransferproject.spi.api.auth.AuthServiceProviderRegistry	0	0	0	2	1	4	state	State	4	0
+-1	0	26	106	211	567.2969621484631	237	0	3	43	10	0	org.datatransferproject.spi.api.auth.AuthDataGenerator	0	0	0	2	0	3	creator	Factory Method	3	0
+-1	0	24	76	132	371.0929461165642	238	0	6	39	9	0	org.datatransferproject.spi.api.auth.extension.AuthServiceExtension	0	0	0	4	0	4	creator	Factory Method	4	0
+-1	0	10	30	40	110.66638362341808	595	0	0	29	1	0	org.datatransferproject.spi.api.transport.TransportBinder	0	0	0	1	0	1			1	0
+-1	0	17	43	77	186.78363313970843	438	0	3	31	6	0	org.datatransferproject.spi.api.token.TokenManager	0	0	0	1	0	3			3	0
+0	1	40	80	274	449.05024851104565	786	-1	9	70	19	13	org.datatransferproject.test.types.FakeIdempotentImportExecutor	0	0	0	10	1	6			19	-1
+-1	0	11	22	35	78.21765735276709	258	0	1	16	3	1	org.datatransferproject.test.types.ObjectMapperFactory	0	0	0	2	0	2			3	0

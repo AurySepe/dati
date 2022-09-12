@@ -1,0 +1,91 @@
+Inferred project: eureka, version: 1.8.4-SNAPSHOT
+The testJar task is deprecated.  Please place common test harness code in its own project and publish separately.
+The testJar task is deprecated.  Please place common test harness code in its own project and publish separately.
+The testJar task is deprecated.  Please place common test harness code in its own project and publish separately.
+Publication nebula not found in project :.
+[buildinfo] Not using buildInfo properties file for this build.
+Publication named 'nebula' does not exist for project ':' in task ':artifactoryPublish'.
+:eureka-client:clean
+:eureka-client-archaius2:clean
+:eureka-client-jersey2:clean
+:eureka-core:clean
+:eureka-core-jersey2:clean
+:eureka-examples:clean
+:eureka-resources:clean
+:eureka-server:clean
+:eureka-server-governator:clean
+:eureka-test-utils:clean
+:eureka-client:compileJava
+Download https://jcenter.bintray.com/com/netflix/archaius/archaius-core/0.7.5/archaius-core-0.7.5.pom
+Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.8.7/jackson-annotations-2.8.7.pom
+Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.8.7/jackson-core-2.8.7.pom
+Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.8.7/jackson-databind-2.8.7.pom
+Download https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.8.7/jackson-dataformat-xml-2.8.7.pom
+Download https://jcenter.bintray.com/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.8.7/jackson-module-jaxb-annotations-2.8.7.pom
+Download https://jcenter.bintray.com/com/fasterxml/jackson/jackson-bom/2.8.7/jackson-bom-2.8.7.pom
+Download https://jcenter.bintray.com/com/netflix/archaius/archaius-core/0.7.5/archaius-core-0.7.5.jar
+Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.8.7/jackson-annotations-2.8.7.jar
+Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.8.7/jackson-core-2.8.7.jar
+Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.8.7/jackson-databind-2.8.7.jar
+Download https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.8.7/jackson-dataformat-xml-2.8.7.jar
+Download https://jcenter.bintray.com/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.8.7/jackson-module-jaxb-annotations-2.8.7.jar
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:eureka-client:processResources UP-TO-DATE
+:eureka-client:classes
+:eureka-client:writeManifestProperties
+:eureka-client:jar
+:eureka-client-archaius2:compileJavaNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:eureka-client-jersey2:compileJavaNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /results/Netflix-eureka/RELEASES/d2dbee8a79b3c6dd9b553eb3f702f7721797bcd6/eureka-client-jersey2/src/main/java/com/netflix/discovery/shared/transport/jersey2/EurekaJersey2ClientImpl.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:eureka-core:compileJava
+Download https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-core/1.11.105/aws-java-sdk-core-1.11.105.pom
+Download https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-pom/1.11.105/aws-java-sdk-pom-1.11.105.pom
+Download https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-ec2/1.11.105/aws-java-sdk-ec2-1.11.105.pom
+Download https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-autoscaling/1.11.105/aws-java-sdk-autoscaling-1.11.105.pom
+Download https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-sts/1.11.105/aws-java-sdk-sts-1.11.105.pom
+Download https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-route53/1.11.105/aws-java-sdk-route53-1.11.105.pom
+Download https://jcenter.bintray.com/com/amazonaws/jmespath-java/1.11.105/jmespath-java-1.11.105.pom
+Download https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-core/1.11.105/aws-java-sdk-core-1.11.105.jar
+Download https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-ec2/1.11.105/aws-java-sdk-ec2-1.11.105.jar
+Download https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-autoscaling/1.11.105/aws-java-sdk-autoscaling-1.11.105.jar
+Download https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-sts/1.11.105/aws-java-sdk-sts-1.11.105.jar
+Download https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-route53/1.11.105/aws-java-sdk-route53-1.11.105.jar
+Download https://jcenter.bintray.com/com/amazonaws/jmespath-java/1.11.105/jmespath-java-1.11.105.jar
+/results/Netflix-eureka/RELEASES/d2dbee8a79b3c6dd9b553eb3f702f7721797bcd6/eureka-core/src/main/java/com/netflix/eureka/DefaultEurekaServerConfig.java:501: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+                        new String[]{propName, remoteRegionUrlWithNamePair, pairSplitChar});
+                        ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning
+:eureka-client-jersey2:processResources UP-TO-DATE
+:eureka-client-jersey2:classes
+:eureka-client-jersey2:writeManifestProperties
+:eureka-client-jersey2:jar
+:eureka-core:processResources UP-TO-DATE
+:eureka-core:classes
+:eureka-core:writeManifestProperties
+:eureka-core:jar
+:eureka-core-jersey2:compileJava
+:eureka-examples:compileJava
+:eureka-resources:compileJava UP-TO-DATE
+:eureka-server:compileJava UP-TO-DATE
+:eureka-server-governator:compileJava
+:eureka-test-utils:compileJavaNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+
+BUILD SUCCESSFUL
+
+Total time: 19.703 secs

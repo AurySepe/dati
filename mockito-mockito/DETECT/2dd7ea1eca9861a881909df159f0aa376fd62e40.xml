@@ -1,0 +1,1014 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<pattern name="Factory Method">
+		<instance>
+			<role name="Creator" element="org.mockito.internal.verification.VerificationWrapper" />
+			<role name="FactoryMethod()" element="org.mockito.internal.verification.VerificationWrapper::copySelfWithNewVerificationMode(org.mockito.verification.VerificationMode):org.mockito.verification.VerificationMode" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.mockito.verification.VerificationStrategy" />
+			<role name="FactoryMethod()" element="org.mockito.verification.VerificationStrategy::maybeVerifyLazily(org.mockito.verification.VerificationMode):org.mockito.verification.VerificationMode" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.mockito.plugins.InstantiatorProvider" />
+			<role name="FactoryMethod()" element="org.mockito.plugins.InstantiatorProvider::getInstantiator(org.mockito.mock.MockCreationSettings):org.mockito.internal.creation.instance.Instantiator" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.mockito.plugins.InstantiatorProvider2" />
+			<role name="FactoryMethod()" element="org.mockito.plugins.InstantiatorProvider2::getInstantiator(org.mockito.mock.MockCreationSettings):org.mockito.creation.instance.Instantiator" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.mockito.session.MockitoSessionBuilder" />
+			<role name="FactoryMethod()" element="org.mockito.session.MockitoSessionBuilder::startMocking():org.mockito.MockitoSession" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.mockito.BDDMockito$BDDMyOngoingStubbing" />
+			<role name="FactoryMethod()" element="org.mockito.BDDMockito$BDDMyOngoingStubbing::willAnswer(org.mockito.stubbing.Answer):org.mockito.BDDMockito$BDDMyOngoingStubbing" />
+			<role name="FactoryMethod()" element="org.mockito.BDDMockito$BDDMyOngoingStubbing::will(org.mockito.stubbing.Answer):org.mockito.BDDMockito$BDDMyOngoingStubbing" />
+			<role name="FactoryMethod()" element="org.mockito.BDDMockito$BDDMyOngoingStubbing::willReturn(T):org.mockito.BDDMockito$BDDMyOngoingStubbing" />
+			<role name="FactoryMethod()" element="org.mockito.BDDMockito$BDDMyOngoingStubbing::willReturn(T, T[]):org.mockito.BDDMockito$BDDMyOngoingStubbing" />
+			<role name="FactoryMethod()" element="org.mockito.BDDMockito$BDDMyOngoingStubbing::willThrow(java.lang.Throwable[]):org.mockito.BDDMockito$BDDMyOngoingStubbing" />
+			<role name="FactoryMethod()" element="org.mockito.BDDMockito$BDDMyOngoingStubbing::willThrow(java.lang.Class):org.mockito.BDDMockito$BDDMyOngoingStubbing" />
+			<role name="FactoryMethod()" element="org.mockito.BDDMockito$BDDMyOngoingStubbing::willThrow(java.lang.Class, java.lang.Class):org.mockito.BDDMockito$BDDMyOngoingStubbing" />
+			<role name="FactoryMethod()" element="org.mockito.BDDMockito$BDDMyOngoingStubbing::willCallRealMethod():org.mockito.BDDMockito$BDDMyOngoingStubbing" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.mockito.BDDMockito$BDDStubber" />
+			<role name="FactoryMethod()" element="org.mockito.BDDMockito$BDDStubber::willAnswer(org.mockito.stubbing.Answer):org.mockito.BDDMockito$BDDStubber" />
+			<role name="FactoryMethod()" element="org.mockito.BDDMockito$BDDStubber::will(org.mockito.stubbing.Answer):org.mockito.BDDMockito$BDDStubber" />
+			<role name="FactoryMethod()" element="org.mockito.BDDMockito$BDDStubber::willDoNothing():org.mockito.BDDMockito$BDDStubber" />
+			<role name="FactoryMethod()" element="org.mockito.BDDMockito$BDDStubber::willReturn(java.lang.Object):org.mockito.BDDMockito$BDDStubber" />
+			<role name="FactoryMethod()" element="org.mockito.BDDMockito$BDDStubber::willReturn(java.lang.Object, java.lang.Object[]):org.mockito.BDDMockito$BDDStubber" />
+			<role name="FactoryMethod()" element="org.mockito.BDDMockito$BDDStubber::willThrow(java.lang.Throwable[]):org.mockito.BDDMockito$BDDStubber" />
+			<role name="FactoryMethod()" element="org.mockito.BDDMockito$BDDStubber::willThrow(java.lang.Class):org.mockito.BDDMockito$BDDStubber" />
+			<role name="FactoryMethod()" element="org.mockito.BDDMockito$BDDStubber::willThrow(java.lang.Class, java.lang.Class):org.mockito.BDDMockito$BDDStubber" />
+			<role name="FactoryMethod()" element="org.mockito.BDDMockito$BDDStubber::willCallRealMethod():org.mockito.BDDMockito$BDDStubber" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.mockito.configuration.IMockitoConfiguration" />
+			<role name="FactoryMethod()" element="org.mockito.configuration.IMockitoConfiguration::getDefaultAnswer():org.mockito.stubbing.Answer" />
+			<role name="FactoryMethod()" element="org.mockito.configuration.IMockitoConfiguration::getAnnotationEngine():org.mockito.configuration.AnnotationEngine" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.mockito.MockitoFramework" />
+			<role name="FactoryMethod()" element="org.mockito.MockitoFramework::getInvocationFactory():org.mockito.invocation.InvocationFactory" />
+		</instance>
+	</pattern>
+	<pattern name="Prototype" />
+	<pattern name="Singleton">
+		<instance>
+			<role name="Singleton" element="org.mockito.internal.invocation.RealMethod$IsIllegal" />
+			<role name="uniqueInstance" element="org.mockito.internal.invocation.RealMethod$IsIllegal::INSTANCE:org.mockito.internal.invocation.RealMethod$IsIllegal" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.mockito.internal.stubbing.answers.DoesNothing" />
+			<role name="uniqueInstance" element="org.mockito.internal.stubbing.answers.DoesNothing::SINGLETON:org.mockito.internal.stubbing.answers.DoesNothing" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.mockito.internal.matchers.Null" />
+			<role name="uniqueInstance" element="org.mockito.internal.matchers.Null::NULL:org.mockito.internal.matchers.Null" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.mockito.internal.matchers.Any" />
+			<role name="uniqueInstance" element="org.mockito.internal.matchers.Any::ANY:org.mockito.internal.matchers.Any" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.mockito.internal.matchers.NotNull" />
+			<role name="uniqueInstance" element="org.mockito.internal.matchers.NotNull::NOT_NULL:org.mockito.internal.matchers.NotNull" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.mockito.internal.configuration.injection.filter.OngoingInjector" />
+			<role name="uniqueInstance" element="org.mockito.internal.configuration.injection.filter.OngoingInjector::nop:org.mockito.internal.configuration.injection.filter.OngoingInjector" />
+		</instance>
+	</pattern>
+	<pattern name="(Object)Adapter">
+		<instance>
+			<role name="Adaptee" element="org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilter" />
+			<role name="Adapter" element="org.mockito.internal.stubbing.answers.AbstractThrowsException" />
+			<role name="adaptee" element="org.mockito.internal.stubbing.answers.AbstractThrowsException::filter:org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilter" />
+			<role name="Request()" element="org.mockito.internal.stubbing.answers.AbstractThrowsException::answer(org.mockito.invocation.InvocationOnMock):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.invocation.InvocationOnMock" />
+			<role name="Adapter" element="org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls$ThrowsSmartNullPointer" />
+			<role name="adaptee" element="org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls$ThrowsSmartNullPointer::unstubbedInvocation:org.mockito.invocation.InvocationOnMock" />
+			<role name="Request()" element="org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls$ThrowsSmartNullPointer::answer(org.mockito.invocation.InvocationOnMock):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="org.mockito.internal.verification.VerificationOverTimeImpl" />
+			<role name="Adaptee" element="org.mockito.internal.util.Timer" />
+			<role name="adaptee" element="org.mockito.internal.verification.VerificationOverTimeImpl::timer:org.mockito.internal.util.Timer" />
+			<role name="Request()" element="org.mockito.internal.verification.VerificationOverTimeImpl::verify(org.mockito.internal.verification.api.VerificationData):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.internal.util.concurrent.DetachedThreadLocal" />
+			<role name="Adapter" element="org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMaker" />
+			<role name="adaptee" element="org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMaker::mockedStatics:org.mockito.internal.util.concurrent.DetachedThreadLocal" />
+			<role name="Request()" element="org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMaker::clearMock(java.lang.Object):void" />
+			<role name="Request()" element="org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMaker::clearAllMocks():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.internal.debugging.Localized" />
+			<role name="Adapter" element="org.mockito.internal.progress.MockingProgressImpl" />
+			<role name="adaptee" element="org.mockito.internal.progress.MockingProgressImpl::verificationMode:org.mockito.internal.debugging.Localized" />
+			<role name="Request()" element="org.mockito.internal.progress.MockingProgressImpl::pullVerificationMode():org.mockito.verification.VerificationMode" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.internal.creation.bytebuddy.ConstructionCallback" />
+			<role name="Adapter" element="org.mockito.internal.creation.bytebuddy.MockMethodAdvice" />
+			<role name="adaptee" element="org.mockito.internal.creation.bytebuddy.MockMethodAdvice::onConstruction:org.mockito.internal.creation.bytebuddy.ConstructionCallback" />
+			<role name="Request()" element="org.mockito.internal.creation.bytebuddy.MockMethodAdvice::handleConstruction(java.lang.Class, java.lang.Object, java.lang.Object[], java.lang.String[]):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.internal.creation.bytebuddy.MockMethodAdvice$SelfCallInfo" />
+			<role name="Adapter" element="org.mockito.internal.creation.bytebuddy.MockMethodAdvice" />
+			<role name="adaptee" element="org.mockito.internal.creation.bytebuddy.MockMethodAdvice::selfCallInfo:org.mockito.internal.creation.bytebuddy.MockMethodAdvice$SelfCallInfo" />
+			<role name="Request()" element="org.mockito.internal.creation.bytebuddy.MockMethodAdvice::isMocked(java.lang.Object):boolean" />
+			<role name="Request()" element="org.mockito.internal.creation.bytebuddy.MockMethodAdvice::isMockedStatic(java.lang.Class):boolean" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.internal.util.concurrent.DetachedThreadLocal" />
+			<role name="Adapter" element="org.mockito.internal.creation.bytebuddy.MockMethodAdvice" />
+			<role name="adaptee" element="org.mockito.internal.creation.bytebuddy.MockMethodAdvice::mockedStatics:org.mockito.internal.util.concurrent.DetachedThreadLocal" />
+			<role name="Request()" element="org.mockito.internal.creation.bytebuddy.MockMethodAdvice::handleStatic(java.lang.Class, java.lang.reflect.Method, java.lang.Object[]):java.util.concurrent.Callable" />
+			<role name="Request()" element="org.mockito.internal.creation.bytebuddy.MockMethodAdvice::isMockedStatic(java.lang.Class):boolean" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.internal.util.reflection.InstrumentationMemberAccessor$Dispatcher" />
+			<role name="Adapter" element="org.mockito.internal.util.reflection.InstrumentationMemberAccessor" />
+			<role name="adaptee" element="org.mockito.internal.util.reflection.InstrumentationMemberAccessor::DISPATCHER:org.mockito.internal.util.reflection.InstrumentationMemberAccessor$Dispatcher" />
+			<role name="Request()" element="org.mockito.internal.util.reflection.InstrumentationMemberAccessor::newInstance(java.lang.reflect.Constructor, java.lang.Object[]):java.lang.Object" />
+			<role name="Request()" element="org.mockito.internal.util.reflection.InstrumentationMemberAccessor::invoke(java.lang.reflect.Method, java.lang.Object, java.lang.Object[]):java.lang.Object" />
+			<role name="Request()" element="org.mockito.internal.util.reflection.InstrumentationMemberAccessor::get(java.lang.reflect.Field, java.lang.Object):java.lang.Object" />
+			<role name="Request()" element="org.mockito.internal.util.reflection.InstrumentationMemberAccessor::set(java.lang.reflect.Field, java.lang.Object, java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.internal.invocation.MatchersBinder" />
+			<role name="Adapter" element="org.mockito.internal.handler.MockHandlerImpl" />
+			<role name="adaptee" element="org.mockito.internal.handler.MockHandlerImpl::matchersBinder:org.mockito.internal.invocation.MatchersBinder" />
+			<role name="Request()" element="org.mockito.internal.handler.MockHandlerImpl::handle(org.mockito.invocation.Invocation):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.quality.Strictness" />
+			<role name="Adapter" element="org.mockito.internal.junit.UniversalTestListener" />
+			<role name="adaptee" element="org.mockito.internal.junit.UniversalTestListener::currentStrictness:org.mockito.quality.Strictness" />
+			<role name="Request()" element="org.mockito.internal.junit.UniversalTestListener::testFinished(org.mockito.internal.junit.TestFinishedEvent):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.internal.MockitoCore" />
+			<role name="Adapter" element="org.mockito.internal.InOrderImpl" />
+			<role name="adaptee" element="org.mockito.internal.InOrderImpl::mockitoCore:org.mockito.internal.MockitoCore" />
+			<role name="Request()" element="org.mockito.internal.InOrderImpl::verify(, org.mockito.verification.VerificationMode):java.lang.Object" />
+			<role name="Request()" element="org.mockito.internal.InOrderImpl::verifyNoMoreInteractions():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.internal.util.collections.IdentitySet" />
+			<role name="Adapter" element="org.mockito.internal.verification.InOrderContextImpl" />
+			<role name="adaptee" element="org.mockito.internal.verification.InOrderContextImpl::verified:org.mockito.internal.util.collections.IdentitySet" />
+			<role name="Request()" element="org.mockito.internal.verification.InOrderContextImpl::isVerified(org.mockito.invocation.Invocation):boolean" />
+			<role name="Request()" element="org.mockito.internal.verification.InOrderContextImpl::markVerified(org.mockito.invocation.Invocation):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.stubbing.OngoingStubbing" />
+			<role name="Adapter" element="org.mockito.BDDMockito$BDDOngoingStubbingImpl" />
+			<role name="adaptee" element="org.mockito.BDDMockito$BDDOngoingStubbingImpl::mockitoOngoingStubbing:org.mockito.stubbing.OngoingStubbing" />
+			<role name="Request()" element="org.mockito.BDDMockito$BDDOngoingStubbingImpl::willAnswer(org.mockito.stubbing.Answer):org.mockito.BDDMockito$BDDMyOngoingStubbing" />
+			<role name="Request()" element="org.mockito.BDDMockito$BDDOngoingStubbingImpl::will(org.mockito.stubbing.Answer):org.mockito.BDDMockito$BDDMyOngoingStubbing" />
+			<role name="Request()" element="org.mockito.BDDMockito$BDDOngoingStubbingImpl::willReturn(T):org.mockito.BDDMockito$BDDMyOngoingStubbing" />
+			<role name="Request()" element="org.mockito.BDDMockito$BDDOngoingStubbingImpl::willReturn(T, T[]):org.mockito.BDDMockito$BDDMyOngoingStubbing" />
+			<role name="Request()" element="org.mockito.BDDMockito$BDDOngoingStubbingImpl::willThrow(java.lang.Throwable[]):org.mockito.BDDMockito$BDDMyOngoingStubbing" />
+			<role name="Request()" element="org.mockito.BDDMockito$BDDOngoingStubbingImpl::willThrow(java.lang.Class):org.mockito.BDDMockito$BDDMyOngoingStubbing" />
+			<role name="Request()" element="org.mockito.BDDMockito$BDDOngoingStubbingImpl::willThrow(java.lang.Class, java.lang.Class):org.mockito.BDDMockito$BDDMyOngoingStubbing" />
+			<role name="Request()" element="org.mockito.BDDMockito$BDDOngoingStubbingImpl::willCallRealMethod():org.mockito.BDDMockito$BDDMyOngoingStubbing" />
+			<role name="Request()" element="org.mockito.BDDMockito$BDDOngoingStubbingImpl::getMock():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.internal.creation.bytebuddy.BytecodeGenerator" />
+			<role name="Adapter" element="org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMaker" />
+			<role name="adaptee" element="org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMaker::bytecodeGenerator:org.mockito.internal.creation.bytebuddy.BytecodeGenerator" />
+			<role name="Request()" element="org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMaker::createMockType():java.lang.Class" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.internal.creation.bytebuddy.BytecodeGenerator" />
+			<role name="Adapter" element="org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMaker" />
+			<role name="adaptee" element="org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMaker::cachingMockBytecodeGenerator:org.mockito.internal.creation.bytebuddy.BytecodeGenerator" />
+			<role name="Request()" element="org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMaker::createMockType():java.lang.Class" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.stubbing.Stubber" />
+			<role name="Adapter" element="org.mockito.BDDMockito$BDDStubberImpl" />
+			<role name="adaptee" element="org.mockito.BDDMockito$BDDStubberImpl::mockitoStubber:org.mockito.stubbing.Stubber" />
+			<role name="Request()" element="org.mockito.BDDMockito$BDDStubberImpl::given():java.lang.Object" />
+			<role name="Request()" element="org.mockito.BDDMockito$BDDStubberImpl::willAnswer(org.mockito.stubbing.Answer):org.mockito.BDDMockito$BDDStubber" />
+			<role name="Request()" element="org.mockito.BDDMockito$BDDStubberImpl::will(org.mockito.stubbing.Answer):org.mockito.BDDMockito$BDDStubber" />
+			<role name="Request()" element="org.mockito.BDDMockito$BDDStubberImpl::willDoNothing():org.mockito.BDDMockito$BDDStubber" />
+			<role name="Request()" element="org.mockito.BDDMockito$BDDStubberImpl::willReturn(java.lang.Object):org.mockito.BDDMockito$BDDStubber" />
+			<role name="Request()" element="org.mockito.BDDMockito$BDDStubberImpl::willReturn(java.lang.Object, java.lang.Object[]):org.mockito.BDDMockito$BDDStubber" />
+			<role name="Request()" element="org.mockito.BDDMockito$BDDStubberImpl::willThrow(java.lang.Throwable[]):org.mockito.BDDMockito$BDDStubber" />
+			<role name="Request()" element="org.mockito.BDDMockito$BDDStubberImpl::willThrow(java.lang.Class):org.mockito.BDDMockito$BDDStubber" />
+			<role name="Request()" element="org.mockito.BDDMockito$BDDStubberImpl::willThrow(java.lang.Class, java.lang.Class):org.mockito.BDDMockito$BDDStubber" />
+			<role name="Request()" element="org.mockito.BDDMockito$BDDStubberImpl::willCallRealMethod():org.mockito.BDDMockito$BDDStubber" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.internal.creation.bytebuddy.MockMethodAdvice$SelfCallInfo" />
+			<role name="Adapter" element="org.mockito.internal.creation.bytebuddy.MockMethodAdvice$RealMethodCall" />
+			<role name="adaptee" element="org.mockito.internal.creation.bytebuddy.MockMethodAdvice$RealMethodCall::selfCallInfo:org.mockito.internal.creation.bytebuddy.MockMethodAdvice$SelfCallInfo" />
+			<role name="Request()" element="org.mockito.internal.creation.bytebuddy.MockMethodAdvice$RealMethodCall::invoke():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.internal.creation.bytebuddy.MockMethodAdvice$SelfCallInfo" />
+			<role name="Adapter" element="org.mockito.internal.creation.bytebuddy.MockMethodAdvice$StaticMethodCall" />
+			<role name="adaptee" element="org.mockito.internal.creation.bytebuddy.MockMethodAdvice$StaticMethodCall::selfCallInfo:org.mockito.internal.creation.bytebuddy.MockMethodAdvice$SelfCallInfo" />
+			<role name="Request()" element="org.mockito.internal.creation.bytebuddy.MockMethodAdvice$StaticMethodCall::invoke():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.internal.stubbing.InvocationContainerImpl" />
+			<role name="Adapter" element="org.mockito.internal.handler.MockHandlerImpl" />
+			<role name="adaptee" element="org.mockito.internal.handler.MockHandlerImpl::invocationContainer:org.mockito.internal.stubbing.InvocationContainerImpl" />
+			<role name="Request()" element="org.mockito.internal.handler.MockHandlerImpl::handle(org.mockito.invocation.Invocation):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.internal.util.concurrent.WeakConcurrentMap" />
+			<role name="Adapter" element="org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMaker" />
+			<role name="adaptee" element="org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMaker::mocks:org.mockito.internal.util.concurrent.WeakConcurrentMap" />
+			<role name="Request()" element="org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMaker::clearMock(java.lang.Object):void" />
+			<role name="Request()" element="org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMaker::clearAllMocks():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.internal.creation.bytebuddy.ModuleHandler" />
+			<role name="Adapter" element="org.mockito.internal.creation.bytebuddy.SubclassBytecodeGenerator" />
+			<role name="adaptee" element="org.mockito.internal.creation.bytebuddy.SubclassBytecodeGenerator::handler:org.mockito.internal.creation.bytebuddy.ModuleHandler" />
+			<role name="Request()" element="org.mockito.internal.creation.bytebuddy.SubclassBytecodeGenerator::mockClass():java.lang.Class" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.invocation.Invocation" />
+			<role name="Adapter" element="org.mockito.internal.invocation.InvocationMatcher" />
+			<role name="adaptee" element="org.mockito.internal.invocation.InvocationMatcher::invocation:org.mockito.invocation.Invocation" />
+			<role name="Request()" element="org.mockito.internal.invocation.InvocationMatcher::matches(org.mockito.invocation.Invocation):boolean" />
+			<role name="Request()" element="org.mockito.internal.invocation.InvocationMatcher::hasSameMethod(org.mockito.invocation.Invocation):boolean" />
+			<role name="Request()" element="org.mockito.internal.invocation.InvocationMatcher::getLocation():org.mockito.invocation.Location" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.internal.junit.UniversalTestListener" />
+			<role name="Adapter" element="org.mockito.internal.framework.DefaultMockitoSession" />
+			<role name="adaptee" element="org.mockito.internal.framework.DefaultMockitoSession::listener:org.mockito.internal.junit.UniversalTestListener" />
+			<role name="Request()" element="org.mockito.internal.framework.DefaultMockitoSession::setStrictness(org.mockito.quality.Strictness):void" />
+			<role name="Request()" element="org.mockito.internal.framework.DefaultMockitoSession::finishMocking(java.lang.Throwable):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.internal.invocation.mockref.MockReference" />
+			<role name="Adapter" element="org.mockito.internal.creation.bytebuddy.MockMethodAdvice$SerializableRealMethodCall" />
+			<role name="adaptee" element="org.mockito.internal.creation.bytebuddy.MockMethodAdvice$SerializableRealMethodCall::instanceRef:org.mockito.internal.invocation.mockref.MockReference" />
+			<role name="Request()" element="org.mockito.internal.creation.bytebuddy.MockMethodAdvice$SerializableRealMethodCall::invoke():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.internal.invocation.mockref.MockWeakReference" />
+			<role name="Adapter" element="org.mockito.internal.creation.bytebuddy.MockMethodAdvice$RealMethodCall" />
+			<role name="adaptee" element="org.mockito.internal.creation.bytebuddy.MockMethodAdvice$RealMethodCall::instanceRef:org.mockito.internal.invocation.mockref.MockWeakReference" />
+			<role name="Request()" element="org.mockito.internal.creation.bytebuddy.MockMethodAdvice$RealMethodCall::invoke():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.internal.util.concurrent.WeakConcurrentMap" />
+			<role name="Adapter" element="org.mockito.internal.creation.bytebuddy.MockMethodAdvice" />
+			<role name="adaptee" element="org.mockito.internal.creation.bytebuddy.MockMethodAdvice::interceptors:org.mockito.internal.util.concurrent.WeakConcurrentMap" />
+			<role name="adaptee" element="org.mockito.internal.creation.bytebuddy.MockMethodAdvice::graphs:org.mockito.internal.util.concurrent.WeakConcurrentMap" />
+			<role name="Request()" element="org.mockito.internal.creation.bytebuddy.MockMethodAdvice::handle(java.lang.Object, java.lang.reflect.Method, java.lang.Object[]):java.util.concurrent.Callable" />
+			<role name="Request()" element="org.mockito.internal.creation.bytebuddy.MockMethodAdvice::isMock(java.lang.Object):boolean" />
+			<role name="Request()" element="org.mockito.internal.creation.bytebuddy.MockMethodAdvice::isOverridden(java.lang.Object, java.lang.reflect.Method):boolean" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.internal.junit.JUnitSessionStore" />
+			<role name="Adapter" element="org.mockito.internal.junit.JUnitRule" />
+			<role name="adaptee" element="org.mockito.internal.junit.JUnitRule::sessionStore:org.mockito.internal.junit.JUnitSessionStore" />
+			<role name="Request()" element="org.mockito.internal.junit.JUnitRule::strictness(org.mockito.quality.Strictness):org.mockito.junit.MockitoRule" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.internal.junit.JUnitSessionStore" />
+			<role name="Adapter" element="org.mockito.internal.junit.JUnitTestRule" />
+			<role name="adaptee" element="org.mockito.internal.junit.JUnitTestRule::sessionStore:org.mockito.internal.junit.JUnitSessionStore" />
+			<role name="Request()" element="org.mockito.internal.junit.JUnitTestRule::strictness(org.mockito.quality.Strictness):org.mockito.junit.MockitoTestRule" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.internal.MockitoCore" />
+			<role name="Adapter" element="org.mockito.internal.stubbing.DefaultLenientStubber" />
+			<role name="adaptee" element="org.mockito.internal.stubbing.DefaultLenientStubber::MOCKITO_CORE:org.mockito.internal.MockitoCore" />
+			<role name="Request()" element="org.mockito.internal.stubbing.DefaultLenientStubber::when():org.mockito.stubbing.OngoingStubbing" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.MockingDetails" />
+			<role name="Adapter" element="org.mockito.internal.listeners.VerificationStartedNotifier$Event" />
+			<role name="adaptee" element="org.mockito.internal.listeners.VerificationStartedNotifier$Event::originalMockingDetails:org.mockito.MockingDetails" />
+			<role name="Request()" element="org.mockito.internal.listeners.VerificationStartedNotifier$Event::setMock(java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.internal.invocation.UnusedStubsFinder" />
+			<role name="Adapter" element="org.mockito.internal.debugging.MockitoDebuggerImpl" />
+			<role name="adaptee" element="org.mockito.internal.debugging.MockitoDebuggerImpl::unusedStubsFinder:org.mockito.internal.invocation.UnusedStubsFinder" />
+			<role name="Request()" element="org.mockito.internal.debugging.MockitoDebuggerImpl::printInvocations(java.lang.Object[]):java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.internal.creation.bytebuddy.SubclassLoader" />
+			<role name="Adapter" element="org.mockito.internal.creation.bytebuddy.SubclassBytecodeGenerator" />
+			<role name="adaptee" element="org.mockito.internal.creation.bytebuddy.SubclassBytecodeGenerator::loader:org.mockito.internal.creation.bytebuddy.SubclassLoader" />
+			<role name="Request()" element="org.mockito.internal.creation.bytebuddy.SubclassBytecodeGenerator::mockClass():java.lang.Class" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.internal.InOrderImpl" />
+			<role name="Adapter" element="org.mockito.internal.verification.InOrderWrapper" />
+			<role name="adaptee" element="org.mockito.internal.verification.InOrderWrapper::inOrder:org.mockito.internal.InOrderImpl" />
+			<role name="Request()" element="org.mockito.internal.verification.InOrderWrapper::verify(org.mockito.internal.verification.api.VerificationData):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.plugins.MockMaker$ConstructionMockControl" />
+			<role name="Adapter" element="org.mockito.internal.MockedConstructionImpl" />
+			<role name="adaptee" element="org.mockito.internal.MockedConstructionImpl::control:org.mockito.plugins.MockMaker$ConstructionMockControl" />
+			<role name="Request()" element="org.mockito.internal.MockedConstructionImpl::constructed():java.util.List" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.internal.invocation.SerializableMethod" />
+			<role name="Adapter" element="org.mockito.internal.creation.bytebuddy.MockMethodAdvice$SerializableRealMethodCall" />
+			<role name="adaptee" element="org.mockito.internal.creation.bytebuddy.MockMethodAdvice$SerializableRealMethodCall::origin:org.mockito.internal.invocation.SerializableMethod" />
+			<role name="Request()" element="org.mockito.internal.creation.bytebuddy.MockMethodAdvice$SerializableRealMethodCall::invoke():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.invocation.InvocationFactory$RealMethodBehavior" />
+			<role name="Adapter" element="org.mockito.internal.invocation.RealMethod$FromBehavior" />
+			<role name="adaptee" element="org.mockito.internal.invocation.RealMethod$FromBehavior::behavior:org.mockito.invocation.InvocationFactory$RealMethodBehavior" />
+			<role name="Request()" element="org.mockito.internal.invocation.RealMethod$FromBehavior::invoke():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.internal.invocation.MockitoMethod" />
+			<role name="Adapter" element="org.mockito.internal.invocation.InterceptedInvocation" />
+			<role name="adaptee" element="org.mockito.internal.invocation.InterceptedInvocation::mockitoMethod:org.mockito.internal.invocation.MockitoMethod" />
+			<role name="Request()" element="org.mockito.internal.invocation.InterceptedInvocation::getRawReturnType():java.lang.Class" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.mock.MockCreationSettings" />
+			<role name="Adapter" element="org.mockito.internal.handler.MockHandlerImpl" />
+			<role name="adaptee" element="org.mockito.internal.handler.MockHandlerImpl::mockSettings:org.mockito.mock.MockCreationSettings" />
+			<role name="Request()" element="org.mockito.internal.handler.MockHandlerImpl::handle(org.mockito.invocation.Invocation):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.plugins.MockMaker$StaticMockControl" />
+			<role name="Adapter" element="org.mockito.internal.MockedStaticImpl" />
+			<role name="adaptee" element="org.mockito.internal.MockedStaticImpl::control:org.mockito.plugins.MockMaker$StaticMockControl" />
+			<role name="Request()" element="org.mockito.internal.MockedStaticImpl::verify(org.mockito.verification.VerificationMode, org.mockito.MockedStatic$Verification):void" />
+			<role name="Request()" element="org.mockito.internal.MockedStaticImpl::reset():void" />
+			<role name="Request()" element="org.mockito.internal.MockedStaticImpl::clearInvocations():void" />
+			<role name="Request()" element="org.mockito.internal.MockedStaticImpl::verifyNoMoreInteractions():void" />
+			<role name="Request()" element="org.mockito.internal.MockedStaticImpl::verifyNoInteractions():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.plugins.MockitoLogger" />
+			<role name="Adapter" element="org.mockito.internal.session.MockitoSessionLoggerAdapter" />
+			<role name="adaptee" element="org.mockito.internal.session.MockitoSessionLoggerAdapter::logger:org.mockito.plugins.MockitoLogger" />
+			<role name="Request()" element="org.mockito.internal.session.MockitoSessionLoggerAdapter::log(java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.session.MockitoSessionLogger" />
+			<role name="Adapter" element="org.mockito.internal.session.MockitoLoggerAdapter" />
+			<role name="adaptee" element="org.mockito.internal.session.MockitoLoggerAdapter::logger:org.mockito.session.MockitoSessionLogger" />
+			<role name="Request()" element="org.mockito.internal.session.MockitoLoggerAdapter::log(java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.verification.VerificationStrategy" />
+			<role name="Adapter" element="org.mockito.internal.progress.MockingProgressImpl" />
+			<role name="adaptee" element="org.mockito.internal.progress.MockingProgressImpl::verificationStrategy:org.mockito.verification.VerificationStrategy" />
+			<role name="Request()" element="org.mockito.internal.progress.MockingProgressImpl::maybeVerifyLazily(org.mockito.verification.VerificationMode):org.mockito.verification.VerificationMode" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.plugins.MemberAccessor" />
+			<role name="Adapter" element="org.mockito.internal.configuration.injection.SpyOnInjectedFieldsHandler" />
+			<role name="adaptee" element="org.mockito.internal.configuration.injection.SpyOnInjectedFieldsHandler::accessor:org.mockito.plugins.MemberAccessor" />
+			<role name="Request()" element="org.mockito.internal.configuration.injection.SpyOnInjectedFieldsHandler::processInjection(java.lang.reflect.Field, java.lang.Object, java.util.Set):boolean" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.internal.creation.bytebuddy.SubclassLoader" />
+			<role name="Adapter" element="org.mockito.internal.creation.bytebuddy.ModuleHandler$ModuleSystemFound" />
+			<role name="adaptee" element="org.mockito.internal.creation.bytebuddy.ModuleHandler$ModuleSystemFound::loader:org.mockito.internal.creation.bytebuddy.SubclassLoader" />
+			<role name="Request()" element="org.mockito.internal.creation.bytebuddy.ModuleHandler$ModuleSystemFound::injectionBase(java.lang.ClassLoader, java.lang.String):java.lang.Class" />
+			<role name="Request()" element="org.mockito.internal.creation.bytebuddy.ModuleHandler$ModuleSystemFound::adjustModuleGraph(java.lang.Class, java.lang.Class, boolean, boolean):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.internal.util.reflection.FieldInitializer$ConstructorArgumentResolver" />
+			<role name="Adapter" element="org.mockito.internal.util.reflection.FieldInitializer$ParameterizedConstructorInstantiator" />
+			<role name="adaptee" element="org.mockito.internal.util.reflection.FieldInitializer$ParameterizedConstructorInstantiator::argResolver:org.mockito.internal.util.reflection.FieldInitializer$ConstructorArgumentResolver" />
+			<role name="Request()" element="org.mockito.internal.util.reflection.FieldInitializer$ParameterizedConstructorInstantiator::instantiate():org.mockito.internal.util.reflection.FieldInitializationReport" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.internal.stubbing.InvocationContainerImpl" />
+			<role name="Adapter" element="org.mockito.internal.verification.VerificationDataImpl" />
+			<role name="adaptee" element="org.mockito.internal.verification.VerificationDataImpl::invocations:org.mockito.internal.stubbing.InvocationContainerImpl" />
+			<role name="Request()" element="org.mockito.internal.verification.VerificationDataImpl::getAllInvocations():java.util.List" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.invocation.DescribedInvocation" />
+			<role name="Adapter" element="org.mockito.internal.invocation.StubInfoImpl" />
+			<role name="adaptee" element="org.mockito.internal.invocation.StubInfoImpl::stubbedAt:org.mockito.invocation.DescribedInvocation" />
+			<role name="Request()" element="org.mockito.internal.invocation.StubInfoImpl::stubbedAt():org.mockito.invocation.Location" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.invocation.Invocation" />
+			<role name="Adapter" element="org.mockito.internal.handler.NotifiedMethodInvocationReport" />
+			<role name="adaptee" element="org.mockito.internal.handler.NotifiedMethodInvocationReport::invocation:org.mockito.invocation.Invocation" />
+			<role name="Request()" element="org.mockito.internal.handler.NotifiedMethodInvocationReport::getLocationOfStubbing():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.mockito.internal.verification.api.VerificationInOrderMode" />
+			<role name="Adapter" element="org.mockito.internal.verification.InOrderWrapper" />
+			<role name="adaptee" element="org.mockito.internal.verification.InOrderWrapper::mode:org.mockito.internal.verification.api.VerificationInOrderMode" />
+			<role name="Request()" element="org.mockito.internal.verification.InOrderWrapper::verify(org.mockito.internal.verification.api.VerificationData):void" />
+		</instance>
+	</pattern>
+	<pattern name="Command" />
+	<pattern name="Composite" />
+	<pattern name="Decorator">
+		<instance>
+			<role name="Component" element="org.mockito.internal.util.reflection.GenericMetadataSupport" />
+			<role name="Decorator" element="org.mockito.internal.util.reflection.GenericMetadataSupport$GenericArrayReturnType" />
+			<role name="component" element="org.mockito.internal.util.reflection.GenericMetadataSupport$GenericArrayReturnType::genericArrayType:org.mockito.internal.util.reflection.GenericMetadataSupport" />
+			<role name="Operation()" element="org.mockito.internal.util.reflection.GenericMetadataSupport$GenericArrayReturnType::rawType():java.lang.Class" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.mockito.stubbing.Answer" />
+			<role name="Decorator" element="org.mockito.Answers" />
+			<role name="component" element="org.mockito.Answers::implementation:org.mockito.stubbing.Answer" />
+			<role name="Operation()" element="org.mockito.Answers::answer(org.mockito.invocation.InvocationOnMock):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.mockito.stubbing.Answer" />
+			<role name="Decorator" element="org.mockito.internal.stubbing.answers.AnswersWithDelay" />
+			<role name="component" element="org.mockito.internal.stubbing.answers.AnswersWithDelay::answer:org.mockito.stubbing.Answer" />
+			<role name="Operation()" element="org.mockito.internal.stubbing.answers.AnswersWithDelay::answer(org.mockito.invocation.InvocationOnMock):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.mockito.stubbing.Answer" />
+			<role name="Decorator" element="org.mockito.internal.stubbing.defaultanswers.ReturnsMocks" />
+			<role name="component" element="org.mockito.internal.stubbing.defaultanswers.ReturnsMocks::delegate:org.mockito.stubbing.Answer" />
+			<role name="Operation()" element="org.mockito.internal.stubbing.defaultanswers.ReturnsMocks::answer(org.mockito.invocation.InvocationOnMock):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.mockito.stubbing.Answer" />
+			<role name="Decorator" element="org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValues" />
+			<role name="component" element="org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValues::delegate:org.mockito.stubbing.Answer" />
+			<role name="Operation()" element="org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValues::answer(org.mockito.invocation.InvocationOnMock):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.mockito.stubbing.Answer" />
+			<role name="Decorator" element="org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls" />
+			<role name="component" element="org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls::delegate:org.mockito.stubbing.Answer" />
+			<role name="Operation()" element="org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls::answer(org.mockito.invocation.InvocationOnMock):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.mockito.verification.VerificationMode" />
+			<role name="Decorator" element="org.mockito.internal.junit.VerificationCollectorImpl$VerificationWrapper" />
+			<role name="component" element="org.mockito.internal.junit.VerificationCollectorImpl$VerificationWrapper::delegate:org.mockito.verification.VerificationMode" />
+			<role name="Operation()" element="org.mockito.internal.junit.VerificationCollectorImpl$VerificationWrapper::verify(org.mockito.internal.verification.api.VerificationData):void" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.mockito.verification.VerificationMode" />
+			<role name="Decorator" element="org.mockito.internal.verification.Description" />
+			<role name="component" element="org.mockito.internal.verification.Description::verification:org.mockito.verification.VerificationMode" />
+			<role name="Operation()" element="org.mockito.internal.verification.Description::verify(org.mockito.internal.verification.api.VerificationData):void" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.mockito.verification.VerificationMode" />
+			<role name="Decorator" element="org.mockito.internal.verification.MockAwareVerificationMode" />
+			<role name="component" element="org.mockito.internal.verification.MockAwareVerificationMode::mode:org.mockito.verification.VerificationMode" />
+			<role name="Operation()" element="org.mockito.internal.verification.MockAwareVerificationMode::verify(org.mockito.internal.verification.api.VerificationData):void" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.mockito.verification.VerificationMode" />
+			<role name="Decorator" element="org.mockito.internal.verification.VerificationOverTimeImpl" />
+			<role name="component" element="org.mockito.internal.verification.VerificationOverTimeImpl::delegate:org.mockito.verification.VerificationMode" />
+			<role name="Operation()" element="org.mockito.internal.verification.VerificationOverTimeImpl::verify(org.mockito.internal.verification.api.VerificationData):void" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.mockito.verification.VerificationMode" />
+			<role name="Decorator" element="org.mockito.internal.verification.VerificationWrapper" />
+			<role name="component" element="org.mockito.internal.verification.VerificationWrapper::wrappedVerification:org.mockito.verification.VerificationMode" />
+			<role name="Operation()" element="org.mockito.internal.verification.VerificationWrapper::verify(org.mockito.internal.verification.api.VerificationData):void" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.mockito.verification.VerificationMode" />
+			<role name="Decorator" element="org.mockito.internal.verification.VerificationWrapperInOrderWrapper" />
+			<role name="component" element="org.mockito.internal.verification.VerificationWrapperInOrderWrapper::delegate:org.mockito.verification.VerificationMode" />
+			<role name="Operation()" element="org.mockito.internal.verification.VerificationWrapperInOrderWrapper::verify(org.mockito.internal.verification.api.VerificationData):void" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.mockito.internal.creation.bytebuddy.SubclassLoader" />
+			<role name="Decorator" element="org.mockito.internal.creation.bytebuddy.SubclassInjectionLoader" />
+			<role name="component" element="org.mockito.internal.creation.bytebuddy.SubclassInjectionLoader::loader:org.mockito.internal.creation.bytebuddy.SubclassLoader" />
+			<role name="Operation()" element="org.mockito.internal.creation.bytebuddy.SubclassInjectionLoader::isDisrespectingOpenness():boolean" />
+			<role name="Operation()" element="org.mockito.internal.creation.bytebuddy.SubclassInjectionLoader::resolveStrategy(java.lang.Class, java.lang.ClassLoader, boolean):net.bytebuddy.dynamic.loading.ClassLoadingStrategy" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.mockito.plugins.MockMaker" />
+			<role name="Decorator" element="org.mockito.android.internal.creation.AndroidByteBuddyMockMaker" />
+			<role name="component" element="org.mockito.android.internal.creation.AndroidByteBuddyMockMaker::delegate:org.mockito.plugins.MockMaker" />
+			<role name="Operation()" element="org.mockito.android.internal.creation.AndroidByteBuddyMockMaker::getHandler(java.lang.Object):org.mockito.invocation.MockHandler" />
+			<role name="Operation()" element="org.mockito.android.internal.creation.AndroidByteBuddyMockMaker::resetMock(java.lang.Object, org.mockito.invocation.MockHandler, org.mockito.mock.MockCreationSettings):void" />
+			<role name="Operation()" element="org.mockito.android.internal.creation.AndroidByteBuddyMockMaker::isTypeMockable(java.lang.Class):org.mockito.plugins.MockMaker$TypeMockability" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.mockito.invocation.MockHandler" />
+			<role name="Decorator" element="org.mockito.internal.handler.InvocationNotifierHandler" />
+			<role name="component" element="org.mockito.internal.handler.InvocationNotifierHandler::mockHandler:org.mockito.invocation.MockHandler" />
+			<role name="Operation()" element="org.mockito.internal.handler.InvocationNotifierHandler::handle(org.mockito.invocation.Invocation):java.lang.Object" />
+			<role name="Operation()" element="org.mockito.internal.handler.InvocationNotifierHandler::getMockSettings():org.mockito.mock.MockCreationSettings" />
+			<role name="Operation()" element="org.mockito.internal.handler.InvocationNotifierHandler::getInvocationContainer():org.mockito.invocation.InvocationContainer" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.mockito.invocation.MockHandler" />
+			<role name="Decorator" element="org.mockito.internal.handler.NullResultGuardian" />
+			<role name="component" element="org.mockito.internal.handler.NullResultGuardian::delegate:org.mockito.invocation.MockHandler" />
+			<role name="Operation()" element="org.mockito.internal.handler.NullResultGuardian::handle(org.mockito.invocation.Invocation):java.lang.Object" />
+			<role name="Operation()" element="org.mockito.internal.handler.NullResultGuardian::getMockSettings():org.mockito.mock.MockCreationSettings" />
+			<role name="Operation()" element="org.mockito.internal.handler.NullResultGuardian::getInvocationContainer():org.mockito.invocation.InvocationContainer" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.mockito.internal.verification.api.InOrderContext" />
+			<role name="Decorator" element="org.mockito.internal.InOrderImpl" />
+			<role name="component" element="org.mockito.internal.InOrderImpl::inOrderContext:org.mockito.internal.verification.api.InOrderContext" />
+			<role name="Operation()" element="org.mockito.internal.InOrderImpl::isVerified(org.mockito.invocation.Invocation):boolean" />
+			<role name="Operation()" element="org.mockito.internal.InOrderImpl::markVerified(org.mockito.invocation.Invocation):void" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.mockito.plugins.MemberAccessor" />
+			<role name="Decorator" element="org.mockito.internal.util.reflection.ModuleMemberAccessor" />
+			<role name="component" element="org.mockito.internal.util.reflection.ModuleMemberAccessor::delegate:org.mockito.plugins.MemberAccessor" />
+			<role name="Operation()" element="org.mockito.internal.util.reflection.ModuleMemberAccessor::newInstance(java.lang.reflect.Constructor, java.lang.Object[]):java.lang.Object" />
+			<role name="Operation()" element="org.mockito.internal.util.reflection.ModuleMemberAccessor::invoke(java.lang.reflect.Method, java.lang.Object, java.lang.Object[]):java.lang.Object" />
+			<role name="Operation()" element="org.mockito.internal.util.reflection.ModuleMemberAccessor::get(java.lang.reflect.Field, java.lang.Object):java.lang.Object" />
+			<role name="Operation()" element="org.mockito.internal.util.reflection.ModuleMemberAccessor::set(java.lang.reflect.Field, java.lang.Object, java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.mockito.internal.configuration.injection.filter.MockCandidateFilter" />
+			<role name="Decorator" element="org.mockito.internal.configuration.injection.filter.NameBasedCandidateFilter" />
+			<role name="component" element="org.mockito.internal.configuration.injection.filter.NameBasedCandidateFilter::next:org.mockito.internal.configuration.injection.filter.MockCandidateFilter" />
+			<role name="Operation()" element="org.mockito.internal.configuration.injection.filter.NameBasedCandidateFilter::filterCandidate(java.util.Collection, java.lang.reflect.Field, java.util.List, java.lang.Object):org.mockito.internal.configuration.injection.filter.OngoingInjector" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.mockito.internal.configuration.injection.filter.MockCandidateFilter" />
+			<role name="Decorator" element="org.mockito.internal.configuration.injection.filter.TypeBasedCandidateFilter" />
+			<role name="component" element="org.mockito.internal.configuration.injection.filter.TypeBasedCandidateFilter::next:org.mockito.internal.configuration.injection.filter.MockCandidateFilter" />
+			<role name="Operation()" element="org.mockito.internal.configuration.injection.filter.TypeBasedCandidateFilter::filterCandidate(java.util.Collection, java.lang.reflect.Field, java.util.List, java.lang.Object):org.mockito.internal.configuration.injection.filter.OngoingInjector" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.mockito.internal.runners.InternalRunner" />
+			<role name="Decorator" element="org.mockito.internal.runners.StrictRunner" />
+			<role name="component" element="org.mockito.internal.runners.StrictRunner::runner:org.mockito.internal.runners.InternalRunner" />
+			<role name="Operation()" element="org.mockito.internal.runners.StrictRunner::run(org.junit.runner.notification.RunNotifier):void" />
+			<role name="Operation()" element="org.mockito.internal.runners.StrictRunner::getDescription():org.junit.runner.Description" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.mockito.internal.creation.bytebuddy.BytecodeGenerator" />
+			<role name="Decorator" element="org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator" />
+			<role name="component" element="org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator::bytecodeGenerator:org.mockito.internal.creation.bytebuddy.BytecodeGenerator" />
+			<role name="Operation()" element="org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator::mockClassStatic(java.lang.Class):void" />
+			<role name="Operation()" element="org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator::mockClassConstruction(java.lang.Class):void" />
+		</instance>
+	</pattern>
+	<pattern name="Observer" />
+	<pattern name="State">
+		<instance>
+			<role name="Context" element="org.mockito.internal.junit.ExceptionFactory" />
+			<role name="State" element="org.mockito.internal.junit.ExceptionFactory$ExceptionFactoryImpl" />
+			<role name="state" element="org.mockito.internal.junit.ExceptionFactory::factory:org.mockito.internal.junit.ExceptionFactory$ExceptionFactoryImpl" />
+			<role name="Request()" element="org.mockito.internal.junit.ExceptionFactory::createArgumentsAreDifferentException(java.lang.String, java.lang.String, java.lang.String):java.lang.AssertionError" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls$ThrowsSmartNullPointer" />
+			<role name="State" element="org.mockito.invocation.InvocationOnMock" />
+			<role name="state" element="org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls$ThrowsSmartNullPointer::unstubbedInvocation:org.mockito.invocation.InvocationOnMock" />
+			<role name="Request()" element="org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls$ThrowsSmartNullPointer::answer(org.mockito.invocation.InvocationOnMock):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.mockito.internal.util.MockUtil" />
+			<role name="State" element="org.mockito.plugins.MockMaker" />
+			<role name="state" element="org.mockito.internal.util.MockUtil::mockMaker:org.mockito.plugins.MockMaker" />
+			<role name="Request()" element="org.mockito.internal.util.MockUtil::typeMockabilityOf(java.lang.Class):org.mockito.plugins.MockMaker$TypeMockability" />
+			<role name="Request()" element="org.mockito.internal.util.MockUtil::resetMock():void" />
+			<role name="Request()" element="org.mockito.internal.util.MockUtil::getMockHandler():org.mockito.invocation.MockHandler" />
+			<role name="Request()" element="org.mockito.internal.util.MockUtil::isMock(java.lang.Object):boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.mockito.internal.creation.bytebuddy.MockMethodAdvice" />
+			<role name="State" element="org.mockito.internal.creation.bytebuddy.ConstructionCallback" />
+			<role name="state" element="org.mockito.internal.creation.bytebuddy.MockMethodAdvice::onConstruction:org.mockito.internal.creation.bytebuddy.ConstructionCallback" />
+			<role name="Request()" element="org.mockito.internal.creation.bytebuddy.MockMethodAdvice::handleConstruction(java.lang.Class, java.lang.Object, java.lang.Object[], java.lang.String[]):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.mockito.internal.stubbing.answers.InvocationInfo" />
+			<role name="State" element="org.mockito.invocation.InvocationOnMock" />
+			<role name="state" element="org.mockito.internal.stubbing.answers.InvocationInfo::invocation:org.mockito.invocation.InvocationOnMock" />
+			<role name="Request()" element="org.mockito.internal.stubbing.answers.InvocationInfo::isVoid():boolean" />
+		</instance>
+		<instance>
+			<role name="State" element="org.mockito.plugins.MemberAccessor" />
+			<role name="Context" element="org.mockito.internal.util.reflection.FieldReader" />
+			<role name="state" element="org.mockito.internal.util.reflection.FieldReader::accessor:org.mockito.plugins.MemberAccessor" />
+			<role name="Request()" element="org.mockito.internal.util.reflection.FieldReader::read():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="State" element="org.mockito.plugins.MemberAccessor" />
+			<role name="Context" element="org.mockito.internal.util.reflection.LenientCopyTool" />
+			<role name="state" element="org.mockito.internal.util.reflection.LenientCopyTool::accessor:org.mockito.plugins.MemberAccessor" />
+			<role name="Request()" element="org.mockito.internal.util.reflection.LenientCopyTool::copyValues(, T, java.lang.Class):void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.mockito.internal.util.reflection.InstrumentationMemberAccessor$Dispatcher" />
+			<role name="Context" element="org.mockito.internal.util.reflection.InstrumentationMemberAccessor" />
+			<role name="state" element="org.mockito.internal.util.reflection.InstrumentationMemberAccessor::DISPATCHER:org.mockito.internal.util.reflection.InstrumentationMemberAccessor$Dispatcher" />
+			<role name="Request()" element="org.mockito.internal.util.reflection.InstrumentationMemberAccessor::newInstance(java.lang.reflect.Constructor, java.lang.Object[]):java.lang.Object" />
+			<role name="Request()" element="org.mockito.internal.util.reflection.InstrumentationMemberAccessor::invoke(java.lang.reflect.Method, java.lang.Object, java.lang.Object[]):java.lang.Object" />
+			<role name="Request()" element="org.mockito.internal.util.reflection.InstrumentationMemberAccessor::get(java.lang.reflect.Field, java.lang.Object):java.lang.Object" />
+			<role name="Request()" element="org.mockito.internal.util.reflection.InstrumentationMemberAccessor::set(java.lang.reflect.Field, java.lang.Object, java.lang.Object):void" />
+			<role name="Request()" element="org.mockito.internal.util.reflection.InstrumentationMemberAccessor::assureOpen(java.lang.Object, java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.mockito.internal.creation.bytebuddy.MockMethodInterceptor" />
+			<role name="State" element="org.mockito.invocation.MockHandler" />
+			<role name="state" element="org.mockito.internal.creation.bytebuddy.MockMethodInterceptor::handler:org.mockito.invocation.MockHandler" />
+			<role name="Request()" element="org.mockito.internal.creation.bytebuddy.MockMethodInterceptor::doIntercept(java.lang.Object, java.lang.reflect.Method, java.lang.Object[], org.mockito.internal.invocation.RealMethod, org.mockito.invocation.Location):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="State" element="org.mockito.internal.runners.InternalRunner" />
+			<role name="Context" element="org.mockito.runners.ConsoleSpammingMockitoJUnitRunner" />
+			<role name="state" element="org.mockito.runners.ConsoleSpammingMockitoJUnitRunner::runner:org.mockito.internal.runners.InternalRunner" />
+			<role name="Request()" element="org.mockito.runners.ConsoleSpammingMockitoJUnitRunner::run(org.junit.runner.notification.RunNotifier):void" />
+			<role name="Request()" element="org.mockito.runners.ConsoleSpammingMockitoJUnitRunner::getDescription():org.junit.runner.Description" />
+		</instance>
+		<instance>
+			<role name="State" element="org.mockito.internal.runners.InternalRunner" />
+			<role name="Context" element="org.mockito.runners.VerboseMockitoJUnitRunner" />
+			<role name="state" element="org.mockito.runners.VerboseMockitoJUnitRunner::runner:org.mockito.internal.runners.InternalRunner" />
+			<role name="Request()" element="org.mockito.runners.VerboseMockitoJUnitRunner::run(org.junit.runner.notification.RunNotifier):void" />
+			<role name="Request()" element="org.mockito.runners.VerboseMockitoJUnitRunner::getDescription():org.junit.runner.Description" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.mockito.BDDMockito$BDDOngoingStubbingImpl" />
+			<role name="State" element="org.mockito.stubbing.OngoingStubbing" />
+			<role name="state" element="org.mockito.BDDMockito$BDDOngoingStubbingImpl::mockitoOngoingStubbing:org.mockito.stubbing.OngoingStubbing" />
+			<role name="Request()" element="org.mockito.BDDMockito$BDDOngoingStubbingImpl::willAnswer(org.mockito.stubbing.Answer):org.mockito.BDDMockito$BDDMyOngoingStubbing" />
+			<role name="Request()" element="org.mockito.BDDMockito$BDDOngoingStubbingImpl::will(org.mockito.stubbing.Answer):org.mockito.BDDMockito$BDDMyOngoingStubbing" />
+			<role name="Request()" element="org.mockito.BDDMockito$BDDOngoingStubbingImpl::willReturn(T):org.mockito.BDDMockito$BDDMyOngoingStubbing" />
+			<role name="Request()" element="org.mockito.BDDMockito$BDDOngoingStubbingImpl::willThrow(java.lang.Throwable[]):org.mockito.BDDMockito$BDDMyOngoingStubbing" />
+			<role name="Request()" element="org.mockito.BDDMockito$BDDOngoingStubbingImpl::willThrow(java.lang.Class):org.mockito.BDDMockito$BDDMyOngoingStubbing" />
+			<role name="Request()" element="org.mockito.BDDMockito$BDDOngoingStubbingImpl::willCallRealMethod():org.mockito.BDDMockito$BDDMyOngoingStubbing" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.mockito.internal.util.reflection.FieldInitializer" />
+			<role name="State" element="org.mockito.internal.util.reflection.FieldInitializer$ConstructorInstantiator" />
+			<role name="state" element="org.mockito.internal.util.reflection.FieldInitializer::instantiator:org.mockito.internal.util.reflection.FieldInitializer$ConstructorInstantiator" />
+			<role name="Request()" element="org.mockito.internal.util.reflection.FieldInitializer::acquireFieldInstance():org.mockito.internal.util.reflection.FieldInitializationReport" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMaker" />
+			<role name="State" element="org.mockito.internal.creation.bytebuddy.BytecodeGenerator" />
+			<role name="state" element="org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMaker::bytecodeGenerator:org.mockito.internal.creation.bytebuddy.BytecodeGenerator" />
+			<role name="Request()" element="org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMaker::createStaticMock(, org.mockito.mock.MockCreationSettings, org.mockito.invocation.MockHandler):org.mockito.plugins.MockMaker$StaticMockControl" />
+			<role name="Request()" element="org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMaker::createConstructionMock(, java.util.function.Function, java.util.function.Function, org.mockito.MockedConstruction$MockInitializer):org.mockito.plugins.MockMaker$ConstructionMockControl" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilter" />
+			<role name="State" element="org.mockito.configuration.IMockitoConfiguration" />
+			<role name="state" element="org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilter::config:org.mockito.configuration.IMockitoConfiguration" />
+			<role name="Request()" element="org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilter::filter(java.lang.Throwable):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.mockito.internal.stubbing.InvocationContainerImpl" />
+			<role name="State" element="org.mockito.internal.verification.RegisteredInvocations" />
+			<role name="state" element="org.mockito.internal.stubbing.InvocationContainerImpl::registeredInvocations:org.mockito.internal.verification.RegisteredInvocations" />
+			<role name="Request()" element="org.mockito.internal.stubbing.InvocationContainerImpl::setInvocationForPotentialStubbing(org.mockito.invocation.MatchableInvocation):void" />
+			<role name="Request()" element="org.mockito.internal.stubbing.InvocationContainerImpl::addAnswer(org.mockito.stubbing.Answer, org.mockito.quality.Strictness):void" />
+			<role name="Request()" element="org.mockito.internal.stubbing.InvocationContainerImpl::hasInvocationForPotentialStubbing():boolean" />
+			<role name="Request()" element="org.mockito.internal.stubbing.InvocationContainerImpl::getInvocations():java.util.List" />
+			<role name="Request()" element="org.mockito.internal.stubbing.InvocationContainerImpl::clearInvocations():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.mockito.internal.stubbing.InvocationContainerImpl" />
+			<role name="State" element="org.mockito.invocation.MatchableInvocation" />
+			<role name="state" element="org.mockito.internal.stubbing.InvocationContainerImpl::invocationForStubbing:org.mockito.invocation.MatchableInvocation" />
+			<role name="Request()" element="org.mockito.internal.stubbing.InvocationContainerImpl::setInvocationForPotentialStubbing(org.mockito.invocation.MatchableInvocation):void" />
+			<role name="Request()" element="org.mockito.internal.stubbing.InvocationContainerImpl::addAnswer(org.mockito.stubbing.Answer, boolean, org.mockito.quality.Strictness):org.mockito.internal.stubbing.StubbedInvocationMatcher" />
+			<role name="Request()" element="org.mockito.internal.stubbing.InvocationContainerImpl::invokedMock():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.mockito.junit.MockitoJUnitRunner" />
+			<role name="State" element="org.mockito.internal.runners.InternalRunner" />
+			<role name="state" element="org.mockito.junit.MockitoJUnitRunner::runner:org.mockito.internal.runners.InternalRunner" />
+			<role name="Request()" element="org.mockito.junit.MockitoJUnitRunner::run(org.junit.runner.notification.RunNotifier):void" />
+			<role name="Request()" element="org.mockito.junit.MockitoJUnitRunner::getDescription():org.junit.runner.Description" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.mockito.internal.junit.JUnitSessionStore" />
+			<role name="State" element="org.mockito.MockitoSession" />
+			<role name="state" element="org.mockito.internal.junit.JUnitSessionStore::session:org.mockito.MockitoSession" />
+			<role name="Request()" element="org.mockito.internal.junit.JUnitSessionStore::setStrictness(org.mockito.quality.Strictness):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.mockito.internal.creation.bytebuddy.SubclassBytecodeGenerator" />
+			<role name="State" element="org.mockito.internal.creation.bytebuddy.ModuleHandler" />
+			<role name="state" element="org.mockito.internal.creation.bytebuddy.SubclassBytecodeGenerator::handler:org.mockito.internal.creation.bytebuddy.ModuleHandler" />
+			<role name="Request()" element="org.mockito.internal.creation.bytebuddy.SubclassBytecodeGenerator::mockClass():java.lang.Class" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.mockito.internal.invocation.InvocationMatcher" />
+			<role name="State" element="org.mockito.invocation.Invocation" />
+			<role name="state" element="org.mockito.internal.invocation.InvocationMatcher::invocation:org.mockito.invocation.Invocation" />
+			<role name="Request()" element="org.mockito.internal.invocation.InvocationMatcher::getLocation():org.mockito.invocation.Location" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.mockito.internal.configuration.injection.PropertyAndSetterInjection" />
+			<role name="State" element="org.mockito.internal.configuration.injection.filter.MockCandidateFilter" />
+			<role name="state" element="org.mockito.internal.configuration.injection.PropertyAndSetterInjection::mockCandidateFilter:org.mockito.internal.configuration.injection.filter.MockCandidateFilter" />
+			<role name="Request()" element="org.mockito.internal.configuration.injection.PropertyAndSetterInjection::injectMockCandidatesOnFields(java.util.Set, java.lang.Object, boolean, java.util.List):boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.mockito.internal.creation.bytebuddy.MockMethodAdvice$SerializableRealMethodCall" />
+			<role name="State" element="org.mockito.internal.invocation.mockref.MockReference" />
+			<role name="state" element="org.mockito.internal.creation.bytebuddy.MockMethodAdvice$SerializableRealMethodCall::instanceRef:org.mockito.internal.invocation.mockref.MockReference" />
+			<role name="Request()" element="org.mockito.internal.creation.bytebuddy.MockMethodAdvice$SerializableRealMethodCall::invoke():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMaker$InlineConstructionMockControl" />
+			<role name="State" element="org.mockito.MockedConstruction$MockInitializer" />
+			<role name="state" element="org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMaker$InlineConstructionMockControl::mockInitializer:org.mockito.MockedConstruction$MockInitializer" />
+			<role name="Request()" element="org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMaker$InlineConstructionMockControl::lambda$enable$0(java.lang.Object, org.mockito.MockedConstruction$Context):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.mockito.internal.listeners.VerificationStartedNotifier$Event" />
+			<role name="State" element="org.mockito.MockingDetails" />
+			<role name="state" element="org.mockito.internal.listeners.VerificationStartedNotifier$Event::originalMockingDetails:org.mockito.MockingDetails" />
+			<role name="Request()" element="org.mockito.internal.listeners.VerificationStartedNotifier$Event::setMock(java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.mockito.internal.creation.bytebuddy.SubclassBytecodeGenerator" />
+			<role name="State" element="org.mockito.internal.creation.bytebuddy.SubclassLoader" />
+			<role name="state" element="org.mockito.internal.creation.bytebuddy.SubclassBytecodeGenerator::loader:org.mockito.internal.creation.bytebuddy.SubclassLoader" />
+			<role name="Request()" element="org.mockito.internal.creation.bytebuddy.SubclassBytecodeGenerator::mockClass():java.lang.Class" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.mockito.internal.invocation.InterceptedInvocation" />
+			<role name="State" element="org.mockito.internal.invocation.RealMethod" />
+			<role name="state" element="org.mockito.internal.invocation.InterceptedInvocation::realMethod:org.mockito.internal.invocation.RealMethod" />
+			<role name="Request()" element="org.mockito.internal.invocation.InterceptedInvocation::callRealMethod():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.mockito.internal.MockedConstructionImpl" />
+			<role name="State" element="org.mockito.invocation.Location" />
+			<role name="state" element="org.mockito.internal.MockedConstructionImpl::location:org.mockito.invocation.Location" />
+			<role name="Request()" element="org.mockito.internal.MockedConstructionImpl::assertNotClosed():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.mockito.internal.MockedConstructionImpl" />
+			<role name="State" element="org.mockito.plugins.MockMaker$ConstructionMockControl" />
+			<role name="state" element="org.mockito.internal.MockedConstructionImpl::control:org.mockito.plugins.MockMaker$ConstructionMockControl" />
+			<role name="Request()" element="org.mockito.internal.MockedConstructionImpl::constructed():java.util.List" />
+			<role name="Request()" element="org.mockito.internal.MockedConstructionImpl::close():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.mockito.internal.exceptions.stacktrace.StackTraceFilter" />
+			<role name="State" element="org.mockito.exceptions.stacktrace.StackTraceCleaner" />
+			<role name="state" element="org.mockito.internal.exceptions.stacktrace.StackTraceFilter::CLEANER:org.mockito.exceptions.stacktrace.StackTraceCleaner" />
+			<role name="Request()" element="org.mockito.internal.exceptions.stacktrace.StackTraceFilter::filter(java.lang.StackTraceElement[], boolean):java.lang.StackTraceElement[]" />
+			<role name="Request()" element="org.mockito.internal.exceptions.stacktrace.StackTraceFilter::filterFirst(java.lang.Throwable, boolean):java.lang.StackTraceElement" />
+			<role name="Request()" element="org.mockito.internal.exceptions.stacktrace.StackTraceFilter::findSourceFile(java.lang.StackTraceElement[], java.lang.String):java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.mockito.internal.invocation.RealMethod$FromBehavior" />
+			<role name="State" element="org.mockito.invocation.InvocationFactory$RealMethodBehavior" />
+			<role name="state" element="org.mockito.internal.invocation.RealMethod$FromBehavior::behavior:org.mockito.invocation.InvocationFactory$RealMethodBehavior" />
+			<role name="Request()" element="org.mockito.internal.invocation.RealMethod$FromBehavior::invoke():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.mockito.internal.invocation.InterceptedInvocation" />
+			<role name="State" element="org.mockito.internal.invocation.MockitoMethod" />
+			<role name="state" element="org.mockito.internal.invocation.InterceptedInvocation::mockitoMethod:org.mockito.internal.invocation.MockitoMethod" />
+			<role name="Request()" element="org.mockito.internal.invocation.InterceptedInvocation::getRawReturnType():java.lang.Class" />
+			<role name="Request()" element="org.mockito.internal.invocation.InterceptedInvocation::getMethod():java.lang.reflect.Method" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.mockito.internal.MockedStaticImpl" />
+			<role name="State" element="org.mockito.invocation.Location" />
+			<role name="state" element="org.mockito.internal.MockedStaticImpl::location:org.mockito.invocation.Location" />
+			<role name="Request()" element="org.mockito.internal.MockedStaticImpl::assertNotClosed():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.mockito.internal.handler.MockHandlerImpl" />
+			<role name="State" element="org.mockito.mock.MockCreationSettings" />
+			<role name="state" element="org.mockito.internal.handler.MockHandlerImpl::mockSettings:org.mockito.mock.MockCreationSettings" />
+			<role name="Request()" element="org.mockito.internal.handler.MockHandlerImpl::handle(org.mockito.invocation.Invocation):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.mockito.internal.MockedStaticImpl" />
+			<role name="State" element="org.mockito.plugins.MockMaker$StaticMockControl" />
+			<role name="state" element="org.mockito.internal.MockedStaticImpl::control:org.mockito.plugins.MockMaker$StaticMockControl" />
+			<role name="Request()" element="org.mockito.internal.MockedStaticImpl::verify(org.mockito.verification.VerificationMode, org.mockito.MockedStatic$Verification):void" />
+			<role name="Request()" element="org.mockito.internal.MockedStaticImpl::reset():void" />
+			<role name="Request()" element="org.mockito.internal.MockedStaticImpl::clearInvocations():void" />
+			<role name="Request()" element="org.mockito.internal.MockedStaticImpl::verifyNoMoreInteractions():void" />
+			<role name="Request()" element="org.mockito.internal.MockedStaticImpl::verifyNoInteractions():void" />
+			<role name="Request()" element="org.mockito.internal.MockedStaticImpl::close():void" />
+			<role name="Request()" element="org.mockito.internal.MockedStaticImpl::toString():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.mockito.internal.session.MockitoLoggerAdapter" />
+			<role name="State" element="org.mockito.session.MockitoSessionLogger" />
+			<role name="state" element="org.mockito.internal.session.MockitoLoggerAdapter::logger:org.mockito.session.MockitoSessionLogger" />
+			<role name="Request()" element="org.mockito.internal.session.MockitoLoggerAdapter::log(java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.mockito.internal.session.MockitoSessionLoggerAdapter" />
+			<role name="State" element="org.mockito.plugins.MockitoLogger" />
+			<role name="state" element="org.mockito.internal.session.MockitoSessionLoggerAdapter::logger:org.mockito.plugins.MockitoLogger" />
+			<role name="Request()" element="org.mockito.internal.session.MockitoSessionLoggerAdapter::log(java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.mockito.internal.configuration.plugins.PluginFinder" />
+			<role name="State" element="org.mockito.plugins.PluginSwitch" />
+			<role name="state" element="org.mockito.internal.configuration.plugins.PluginFinder::pluginSwitch:org.mockito.plugins.PluginSwitch" />
+			<role name="Request()" element="org.mockito.internal.configuration.plugins.PluginFinder::findPluginClass(java.lang.Iterable):java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.mockito.internal.configuration.injection.SpyOnInjectedFieldsHandler" />
+			<role name="State" element="org.mockito.plugins.MemberAccessor" />
+			<role name="state" element="org.mockito.internal.configuration.injection.SpyOnInjectedFieldsHandler::accessor:org.mockito.plugins.MemberAccessor" />
+			<role name="Request()" element="org.mockito.internal.configuration.injection.SpyOnInjectedFieldsHandler::processInjection(java.lang.reflect.Field, java.lang.Object, java.util.Set):boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.mockito.internal.creation.bytebuddy.ModuleHandler$ModuleSystemFound" />
+			<role name="State" element="org.mockito.internal.creation.bytebuddy.SubclassLoader" />
+			<role name="state" element="org.mockito.internal.creation.bytebuddy.ModuleHandler$ModuleSystemFound::loader:org.mockito.internal.creation.bytebuddy.SubclassLoader" />
+			<role name="Request()" element="org.mockito.internal.creation.bytebuddy.ModuleHandler$ModuleSystemFound::injectionBase(java.lang.ClassLoader, java.lang.String):java.lang.Class" />
+			<role name="Request()" element="org.mockito.internal.creation.bytebuddy.ModuleHandler$ModuleSystemFound::adjustModuleGraph(java.lang.Class, java.lang.Class, boolean, boolean):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.mockito.internal.invocation.InvocationsFinder$RemoveUnverifiedInOrder" />
+			<role name="State" element="org.mockito.internal.verification.api.InOrderContext" />
+			<role name="state" element="org.mockito.internal.invocation.InvocationsFinder$RemoveUnverifiedInOrder::orderingContext:org.mockito.internal.verification.api.InOrderContext" />
+			<role name="Request()" element="org.mockito.internal.invocation.InvocationsFinder$RemoveUnverifiedInOrder::isOut(org.mockito.invocation.Invocation):boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.mockito.internal.invocation.InterceptedInvocation" />
+			<role name="State" element="org.mockito.internal.invocation.mockref.MockReference" />
+			<role name="state" element="org.mockito.internal.invocation.InterceptedInvocation::mockRef:org.mockito.internal.invocation.mockref.MockReference" />
+			<role name="Request()" element="org.mockito.internal.invocation.InterceptedInvocation::getMock():java.lang.Object" />
+			<role name="Request()" element="org.mockito.internal.invocation.InterceptedInvocation::equals(java.lang.Object):boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.mockito.internal.invocation.StubInfoImpl" />
+			<role name="State" element="org.mockito.invocation.DescribedInvocation" />
+			<role name="state" element="org.mockito.internal.invocation.StubInfoImpl::stubbedAt:org.mockito.invocation.DescribedInvocation" />
+			<role name="Request()" element="org.mockito.internal.invocation.StubInfoImpl::stubbedAt():org.mockito.invocation.Location" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.mockito.internal.handler.NotifiedMethodInvocationReport" />
+			<role name="State" element="org.mockito.invocation.Invocation" />
+			<role name="state" element="org.mockito.internal.handler.NotifiedMethodInvocationReport::invocation:org.mockito.invocation.Invocation" />
+			<role name="Request()" element="org.mockito.internal.handler.NotifiedMethodInvocationReport::getLocationOfStubbing():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.mockito.internal.invocation.InvocationsFinder$RemoveNotMatching" />
+			<role name="State" element="org.mockito.invocation.MatchableInvocation" />
+			<role name="state" element="org.mockito.internal.invocation.InvocationsFinder$RemoveNotMatching::wanted:org.mockito.invocation.MatchableInvocation" />
+			<role name="Request()" element="org.mockito.internal.invocation.InvocationsFinder$RemoveNotMatching::isOut(org.mockito.invocation.Invocation):boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.mockito.internal.verification.InOrderWrapper" />
+			<role name="State" element="org.mockito.internal.verification.api.VerificationInOrderMode" />
+			<role name="state" element="org.mockito.internal.verification.InOrderWrapper::mode:org.mockito.internal.verification.api.VerificationInOrderMode" />
+			<role name="Request()" element="org.mockito.internal.verification.InOrderWrapper::verify(org.mockito.internal.verification.api.VerificationData):void" />
+		</instance>
+	</pattern>
+	<pattern name="Strategy">
+		<instance>
+			<role name="Context" element="org.mockito.internal.progress.MockingProgressImpl" />
+			<role name="Strategy" element="org.mockito.verification.VerificationStrategy" />
+			<role name="strategy" element="org.mockito.internal.progress.MockingProgressImpl::verificationStrategy:org.mockito.verification.VerificationStrategy" />
+			<role name="ContextInterface()" element="org.mockito.internal.progress.MockingProgressImpl::maybeVerifyLazily(org.mockito.verification.VerificationMode):org.mockito.verification.VerificationMode" />
+		</instance>
+	</pattern>
+	<pattern name="Bridge" />
+	<pattern name="Template Method">
+		<instance>
+			<role name="AbstractClass" element="org.mockito.errorprone.bugpatterns.AbstractMockitoAnyForPrimitiveType" />
+			<role name="TemplateMethod()" element="org.mockito.errorprone.bugpatterns.AbstractMockitoAnyForPrimitiveType::matchMethodInvocation(com.sun.source.tree.MethodInvocationTree, com.google.errorprone.VisitorState):com.google.errorprone.matchers.Description" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.mockito.internal.verification.VerificationWrapper" />
+			<role name="TemplateMethod()" element="org.mockito.internal.verification.VerificationWrapper::times(int):org.mockito.verification.VerificationMode" />
+			<role name="TemplateMethod()" element="org.mockito.internal.verification.VerificationWrapper::never():org.mockito.verification.VerificationMode" />
+			<role name="TemplateMethod()" element="org.mockito.internal.verification.VerificationWrapper::atLeastOnce():org.mockito.verification.VerificationMode" />
+			<role name="TemplateMethod()" element="org.mockito.internal.verification.VerificationWrapper::atLeast(int):org.mockito.verification.VerificationMode" />
+			<role name="TemplateMethod()" element="org.mockito.internal.verification.VerificationWrapper::atMostOnce():org.mockito.verification.VerificationMode" />
+			<role name="TemplateMethod()" element="org.mockito.internal.verification.VerificationWrapper::atMost(int):org.mockito.verification.VerificationMode" />
+			<role name="TemplateMethod()" element="org.mockito.internal.verification.VerificationWrapper::only():org.mockito.verification.VerificationMode" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.mockito.internal.stubbing.answers.AbstractThrowsException" />
+			<role name="TemplateMethod()" element="org.mockito.internal.stubbing.answers.AbstractThrowsException::answer(org.mockito.invocation.InvocationOnMock):java.lang.Object" />
+			<role name="TemplateMethod()" element="org.mockito.internal.stubbing.answers.AbstractThrowsException::validateFor(org.mockito.invocation.InvocationOnMock):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.mockito.internal.util.reflection.GenericMetadataSupport" />
+			<role name="TemplateMethod()" element="org.mockito.internal.util.reflection.GenericMetadataSupport::actualTypeArguments():java.util.Map" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.mockito.internal.matchers.CompareTo" />
+			<role name="TemplateMethod()" element="org.mockito.internal.matchers.CompareTo::matches(T):boolean" />
+			<role name="TemplateMethod()" element="org.mockito.internal.matchers.CompareTo::toString():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.mockito.internal.configuration.injection.MockInjectionStrategy" />
+			<role name="TemplateMethod()" element="org.mockito.internal.configuration.injection.MockInjectionStrategy::process(java.lang.reflect.Field, java.lang.Object, java.util.Set):boolean" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.mockito.internal.creation.bytebuddy.inject.MockMethodDispatcher" />
+			<role name="TemplateMethod()" element="org.mockito.internal.creation.bytebuddy.inject.MockMethodDispatcher::isConstructorMock(java.lang.String, java.lang.Class):boolean" />
+			<role name="TemplateMethod()" element="org.mockito.internal.creation.bytebuddy.inject.MockMethodDispatcher::handleConstruction(java.lang.String, java.lang.Class, java.lang.Object, java.lang.Object[], java.lang.String[]):java.lang.Object" />
+		</instance>
+	</pattern>
+	<pattern name="Visitor" />
+	<pattern name="Proxy" />
+	<pattern name="Proxy2">
+		<instance>
+			<role name="Subject" element="org.mockito.stubbing.Answer" />
+			<role name="Proxy" element="org.mockito.internal.stubbing.defaultanswers.ReturnsMocks" />
+			<role name="RealSubject" element="org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValues" />
+			<role name="subject" element="org.mockito.internal.stubbing.defaultanswers.ReturnsMocks::delegate:org.mockito.stubbing.Answer" />
+			<role name="Request()" element="org.mockito.internal.stubbing.defaultanswers.ReturnsMocks::answer(org.mockito.invocation.InvocationOnMock):java.lang.Object" />
+			<role name="subject" element="org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValues::delegate:org.mockito.stubbing.Answer" />
+			<role name="Request()" element="org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValues::answer(org.mockito.invocation.InvocationOnMock):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Subject" element="org.mockito.stubbing.Answer" />
+			<role name="Proxy" element="org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls" />
+			<role name="RealSubject" element="org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValues" />
+			<role name="subject" element="org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls::delegate:org.mockito.stubbing.Answer" />
+			<role name="Request()" element="org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls::answer(org.mockito.invocation.InvocationOnMock):java.lang.Object" />
+			<role name="subject" element="org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValues::delegate:org.mockito.stubbing.Answer" />
+			<role name="Request()" element="org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValues::answer(org.mockito.invocation.InvocationOnMock):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="org.mockito.internal.creation.bytebuddy.SubclassInjectionLoader" />
+			<role name="RealSubject" element="org.mockito.internal.creation.bytebuddy.SubclassInjectionLoader$WithReflection" />
+			<role name="Subject" element="org.mockito.internal.creation.bytebuddy.SubclassLoader" />
+			<role name="subject" element="org.mockito.internal.creation.bytebuddy.SubclassInjectionLoader::loader:org.mockito.internal.creation.bytebuddy.SubclassLoader" />
+			<role name="Request()" element="org.mockito.internal.creation.bytebuddy.SubclassInjectionLoader::isDisrespectingOpenness():boolean" />
+			<role name="Request()" element="org.mockito.internal.creation.bytebuddy.SubclassInjectionLoader::resolveStrategy(java.lang.Class, java.lang.ClassLoader, boolean):net.bytebuddy.dynamic.loading.ClassLoadingStrategy" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="org.mockito.android.internal.creation.AndroidByteBuddyMockMaker" />
+			<role name="RealSubject" element="org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMaker" />
+			<role name="Subject" element="org.mockito.plugins.MockMaker" />
+			<role name="subject" element="org.mockito.android.internal.creation.AndroidByteBuddyMockMaker::delegate:org.mockito.plugins.MockMaker" />
+			<role name="Request()" element="org.mockito.android.internal.creation.AndroidByteBuddyMockMaker::getHandler(java.lang.Object):org.mockito.invocation.MockHandler" />
+			<role name="Request()" element="org.mockito.android.internal.creation.AndroidByteBuddyMockMaker::resetMock(java.lang.Object, org.mockito.invocation.MockHandler, org.mockito.mock.MockCreationSettings):void" />
+			<role name="Request()" element="org.mockito.android.internal.creation.AndroidByteBuddyMockMaker::isTypeMockable(java.lang.Class):org.mockito.plugins.MockMaker$TypeMockability" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="org.mockito.internal.InOrderImpl" />
+			<role name="RealSubject" element="org.mockito.internal.verification.InOrderContextImpl" />
+			<role name="Subject" element="org.mockito.internal.verification.api.InOrderContext" />
+			<role name="subject" element="org.mockito.internal.InOrderImpl::inOrderContext:org.mockito.internal.verification.api.InOrderContext" />
+			<role name="Request()" element="org.mockito.internal.InOrderImpl::isVerified(org.mockito.invocation.Invocation):boolean" />
+			<role name="Request()" element="org.mockito.internal.InOrderImpl::markVerified(org.mockito.invocation.Invocation):void" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="org.mockito.internal.util.reflection.ModuleMemberAccessor" />
+			<role name="RealSubject" element="org.mockito.internal.util.reflection.InstrumentationMemberAccessor" />
+			<role name="Subject" element="org.mockito.plugins.MemberAccessor" />
+			<role name="subject" element="org.mockito.internal.util.reflection.ModuleMemberAccessor::delegate:org.mockito.plugins.MemberAccessor" />
+			<role name="Request()" element="org.mockito.internal.util.reflection.ModuleMemberAccessor::newInstance(java.lang.reflect.Constructor, java.lang.Object[]):java.lang.Object" />
+			<role name="Request()" element="org.mockito.internal.util.reflection.ModuleMemberAccessor::invoke(java.lang.reflect.Method, java.lang.Object, java.lang.Object[]):java.lang.Object" />
+			<role name="Request()" element="org.mockito.internal.util.reflection.ModuleMemberAccessor::get(java.lang.reflect.Field, java.lang.Object):java.lang.Object" />
+			<role name="Request()" element="org.mockito.internal.util.reflection.ModuleMemberAccessor::set(java.lang.reflect.Field, java.lang.Object, java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="org.mockito.internal.util.reflection.ModuleMemberAccessor" />
+			<role name="RealSubject" element="org.mockito.internal.util.reflection.ReflectionMemberAccessor" />
+			<role name="Subject" element="org.mockito.plugins.MemberAccessor" />
+			<role name="subject" element="org.mockito.internal.util.reflection.ModuleMemberAccessor::delegate:org.mockito.plugins.MemberAccessor" />
+			<role name="Request()" element="org.mockito.internal.util.reflection.ModuleMemberAccessor::newInstance(java.lang.reflect.Constructor, java.lang.Object[]):java.lang.Object" />
+			<role name="Request()" element="org.mockito.internal.util.reflection.ModuleMemberAccessor::invoke(java.lang.reflect.Method, java.lang.Object, java.lang.Object[]):java.lang.Object" />
+			<role name="Request()" element="org.mockito.internal.util.reflection.ModuleMemberAccessor::get(java.lang.reflect.Field, java.lang.Object):java.lang.Object" />
+			<role name="Request()" element="org.mockito.internal.util.reflection.ModuleMemberAccessor::set(java.lang.reflect.Field, java.lang.Object, java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="RealSubject" element="org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator" />
+			<role name="Subject" element="org.mockito.internal.creation.bytebuddy.BytecodeGenerator" />
+			<role name="subject" element="org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator::bytecodeGenerator:org.mockito.internal.creation.bytebuddy.BytecodeGenerator" />
+			<role name="Request()" element="org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator::mockClassStatic(java.lang.Class):void" />
+			<role name="Request()" element="org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator::mockClassConstruction(java.lang.Class):void" />
+		</instance>
+	</pattern>
+	<pattern name="Chain of Responsibility">
+		<instance>
+			<role name="Handler" element="org.mockito.internal.configuration.injection.MockInjectionStrategy" />
+			<role name="successor" element="org.mockito.internal.configuration.injection.MockInjectionStrategy::nextStrategy:org.mockito.internal.configuration.injection.MockInjectionStrategy" />
+		</instance>
+	</pattern>
+</system>
+

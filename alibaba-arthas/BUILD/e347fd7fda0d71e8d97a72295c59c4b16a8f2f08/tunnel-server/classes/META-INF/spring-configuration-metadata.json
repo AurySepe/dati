@@ -1,0 +1,54 @@
+{
+  "groups": [
+    {
+      "name": "arthas",
+      "type": "com.alibaba.arthas.tunnel.server.app.ArthasProperties",
+      "sourceType": "com.alibaba.arthas.tunnel.server.app.ArthasProperties"
+    },
+    {
+      "name": "arthas.server",
+      "type": "com.alibaba.arthas.tunnel.server.app.ArthasProperties$Server",
+      "sourceType": "com.alibaba.arthas.tunnel.server.app.ArthasProperties",
+      "sourceMethod": "getServer()"
+    },
+    {
+      "name": "management.endpoint.arthas",
+      "type": "com.alibaba.arthas.tunnel.server.endpoint.ArthasEndpoint",
+      "sourceType": "com.alibaba.arthas.tunnel.server.endpoint.ArthasEndpoint"
+    }
+  ],
+  "properties": [
+    {
+      "name": "arthas.server.host",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.arthas.tunnel.server.app.ArthasProperties$Server"
+    },
+    {
+      "name": "arthas.server.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.arthas.tunnel.server.app.ArthasProperties$Server",
+      "defaultValue": 0
+    },
+    {
+      "name": "arthas.server.ssl",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.arthas.tunnel.server.app.ArthasProperties$Server",
+      "defaultValue": false
+    },
+    {
+      "name": "management.endpoint.arthas.cache.time-to-live",
+      "type": "java.time.Duration",
+      "description": "Maximum time that a response can be cached.",
+      "sourceType": "com.alibaba.arthas.tunnel.server.endpoint.ArthasEndpoint",
+      "defaultValue": "0ms"
+    },
+    {
+      "name": "management.endpoint.arthas.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Whether to enable the arthas endpoint.",
+      "sourceType": "com.alibaba.arthas.tunnel.server.endpoint.ArthasEndpoint",
+      "defaultValue": true
+    }
+  ],
+  "hints": []
+}

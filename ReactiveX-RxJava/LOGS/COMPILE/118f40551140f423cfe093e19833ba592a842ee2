@@ -1,0 +1,24 @@
+Downloading https://services.gradle.org/distributions/gradle-5.6-bin.zip
+.........................................................................................
+Unzipping /root/.gradle/wrapper/dists/gradle-5.6-bin/ez4di095eg6cfomw17rqphhsg/gradle-5.6-bin.zip to /root/.gradle/wrapper/dists/gradle-5.6-bin/ez4di095eg6cfomw17rqphhsg
+Set executable permissions for: /root/.gradle/wrapper/dists/gradle-5.6-bin/ez4di095eg6cfomw17rqphhsg/gradle-5.6/bin/gradle
+
+Welcome to Gradle 5.6!
+
+Here are the highlights of this release:
+ - Incremental Groovy compilation
+ - Groovy compile avoidance
+ - Test fixtures for Java projects
+ - Manage plugin versions via settings script
+
+For more details see https://docs.gradle.org/5.6/release-notes.html
+
+
+> Configure project :
+JMH: [.*me.champeau.gradle.JMHPluginExtension_Decorated@73a5d86c.*]
+
+> Task :clean UP-TO-DATE
+> Task :compileJava
+
+BUILD SUCCESSFUL in 43s
+2 actionable tasks: 1 executed, 1 up-to-date

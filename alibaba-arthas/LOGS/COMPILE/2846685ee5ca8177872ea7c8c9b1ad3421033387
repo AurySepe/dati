@@ -1,0 +1,204 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] arthas-all                                                         [pom]
+[INFO] arthas-spy                                                         [jar]
+[INFO] arthas-common                                                      [jar]
+[INFO] arthas-memorycompiler                                              [jar]
+[INFO] arthas-core                                                        [jar]
+[INFO] arthas-agent                                                       [jar]
+[INFO] arthas-client                                                      [jar]
+[INFO] arthas-boot                                                        [jar]
+[INFO] arthas-demo                                                        [jar]
+[INFO] arthas-testcase                                                    [jar]
+[INFO] arthas-site                                                        [jar]
+[INFO] arthas-packaging                                                   [jar]
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/cobertura-maven-plugin/2.7/cobertura-maven-plugin-2.7.pom
+Progress (1): 1.4/13 kBProgress (1): 2.7/13 kBProgress (1): 4.1/13 kBProgress (1): 5.5/13 kBProgress (1): 6.9/13 kBProgress (1): 8.2/13 kBProgress (1): 9.6/13 kBProgress (1): 11/13 kB Progress (1): 12/13 kBProgress (1): 13 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/cobertura-maven-plugin/2.7/cobertura-maven-plugin-2.7.pom (13 kB at 26 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/34/mojo-parent-34.pom
+Progress (1): 1.4/24 kBProgress (1): 2.7/24 kBProgress (1): 4.1/24 kBProgress (1): 5.5/24 kBProgress (1): 6.9/24 kBProgress (1): 8.2/24 kBProgress (1): 9.6/24 kBProgress (1): 11/24 kB Progress (1): 12/24 kBProgress (1): 14/24 kBProgress (1): 15/24 kBProgress (1): 16/24 kBProgress (1): 18/24 kBProgress (1): 19/24 kBProgress (1): 21/24 kBProgress (1): 22/24 kBProgress (1): 23/24 kBProgress (1): 24 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/34/mojo-parent-34.pom (24 kB at 236 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/codehaus-parent/4/codehaus-parent-4.pom
+Progress (1): 1.4/4.8 kBProgress (1): 2.7/4.8 kBProgress (1): 4.1/4.8 kBProgress (1): 4.8 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/codehaus-parent/4/codehaus-parent-4.pom (4.8 kB at 85 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/cobertura-maven-plugin/2.7/cobertura-maven-plugin-2.7.jar
+Progress (1): 4.1/57 kBProgress (1): 8.2/57 kBProgress (1): 12/57 kB Progress (1): 16/57 kBProgress (1): 20/57 kBProgress (1): 25/57 kBProgress (1): 29/57 kBProgress (1): 33/57 kBProgress (1): 37/57 kBProgress (1): 41/57 kBProgress (1): 45/57 kBProgress (1): 49/57 kBProgress (1): 53/57 kBProgress (1): 57/57 kBProgress (1): 57 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/cobertura-maven-plugin/2.7/cobertura-maven-plugin-2.7.jar (57 kB at 604 kB/s)
+[INFO] 
+[INFO] --------------------< com.taobao.arthas:arthas-all >--------------------
+[INFO] Building arthas-all 3.1.0                                         [1/12]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-all ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-all ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --------------------< com.taobao.arthas:arthas-spy >--------------------
+[INFO] Building arthas-spy 3.1.0                                         [2/12]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-spy ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-spy ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /results/alibaba-arthas/RELEASES/2846685ee5ca8177872ea7c8c9b1ad3421033387/spy/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] ------------------< com.taobao.arthas:arthas-common >-------------------
+[INFO] Building arthas-common 3.1.0                                      [3/12]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-common ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-common ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /results/alibaba-arthas/RELEASES/2846685ee5ca8177872ea7c8c9b1ad3421033387/common/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] --------------< com.taobao.arthas:arthas-memorycompiler >---------------
+[INFO] Building arthas-memorycompiler 3.1.0                              [4/12]
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.pom
+Progress (1): 4.1/13 kBProgress (1): 8.2/13 kBProgress (1): 12/13 kB Progress (1): 13 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.pom (13 kB at 227 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-parent/1.1.3/logback-parent-1.1.3.pom
+Progress (1): 4.1/16 kBProgress (1): 8.2/16 kBProgress (1): 12/16 kB Progress (1): 16 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-parent/1.1.3/logback-parent-1.1.3.pom (16 kB at 268 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.1.3/logback-core-1.1.3.pom
+Progress (1): 4.1/4.2 kBProgress (1): 4.2 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.1.3/logback-core-1.1.3.pom (4.2 kB at 78 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-memorycompiler ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-memorycompiler ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /results/alibaba-arthas/RELEASES/2846685ee5ca8177872ea7c8c9b1ad3421033387/memorycompiler/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] -------------------< com.taobao.arthas:arthas-core >--------------------
+[INFO] Building arthas-core 3.1.0                                        [5/12]
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from in-project: file:///results/alibaba-arthas/RELEASES/2846685ee5ca8177872ea7c8c9b1ad3421033387/core/../lib/com/alibaba/middleware/termd-core/1.1.7.2/termd-core-1.1.7.2.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/alibaba/middleware/termd-core/1.1.7.2/termd-core-1.1.7.2.pom
+Progress (1): 4.1/22 kBProgress (1): 8.2/22 kBProgress (1): 12/22 kB Progress (1): 16/22 kBProgress (1): 20/22 kBProgress (1): 22 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/com/alibaba/middleware/termd-core/1.1.7.2/termd-core-1.1.7.2.pom (22 kB at 86 kB/s)
+Downloading from in-project: file:///results/alibaba-arthas/RELEASES/2846685ee5ca8177872ea7c8c9b1ad3421033387/core/../lib/org/benf/cfr/0.132/cfr-0.132.pom
+Progress (1): 384 B[WARNING] Could not validate integrity of download from file:///results/alibaba-arthas/RELEASES/2846685ee5ca8177872ea7c8c9b1ad3421033387/core/../lib/org/benf/cfr/0.132/cfr-0.132.pom: Checksum validation failed, no checksums available
+                   [WARNING] Checksum validation failed, no checksums available from in-project for file:///results/alibaba-arthas/RELEASES/2846685ee5ca8177872ea7c8c9b1ad3421033387/core/../lib/org/benf/cfr/0.132/cfr-0.132.pom
+Downloaded from in-project: file:///results/alibaba-arthas/RELEASES/2846685ee5ca8177872ea7c8c9b1ad3421033387/core/../lib/org/benf/cfr/0.132/cfr-0.132.pom (384 B at 192 kB/s)
+Downloading from in-project: file:///results/alibaba-arthas/RELEASES/2846685ee5ca8177872ea7c8c9b1ad3421033387/core/../lib/com/alibaba/middleware/termd-core/1.1.7.2/termd-core-1.1.7.2.jar
+Downloading from in-project: file:///results/alibaba-arthas/RELEASES/2846685ee5ca8177872ea7c8c9b1ad3421033387/core/../lib/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar
+Downloading from in-project: file:///results/alibaba-arthas/RELEASES/2846685ee5ca8177872ea7c8c9b1ad3421033387/core/../lib/org/benf/cfr/0.132/cfr-0.132.jar
+Downloading from in-project: file:///results/alibaba-arthas/RELEASES/2846685ee5ca8177872ea7c8c9b1ad3421033387/core/../lib/ch/qos/logback/logback-core/1.1.3/logback-core-1.1.3.jar
+Progress (1): 0/1.6 MBProgress (1): 0/1.6 MBProgress (1): 0/1.6 MB                      Progress (1): 0/1.6 MBProgress (1): 0/1.6 MBProgress (1): 0/1.6 MBProgress (1): 0/1.6 MBProgress (1): 0/1.6 MBProgress (1): 0/1.6 MBProgress (1): 0/1.6 MBProgress (1): 0/1.6 MBProgress (1): 0/1.6 MBProgress (1): 0.1/1.6 MBProgress (1): 0.1/1.6 MBProgress (1): 0.1/1.6 MBProgress (1): 0.1/1.6 MBProgress (1): 0.1/1.6 MBProgress (1): 0.1/1.6 MBProgress (1): 0.1/1.6 MBProgress (1): 0.1/1.6 MBProgress (1): 0.1/1.6 MBProgress (1): 0.1/1.6 MBProgress (1): 0.1/1.6 MBProgress (1): 0.1/1.6 MBProgress (1): 0.1/1.6 MBProgress (1): 0.1/1.6 MBProgress (1): 0.1/1.6 MBProgress (1): 0.1/1.6 MBProgress (1): 0.1/1.6 MBProgress (1): 0.1/1.6 MBProgress (1): 0.1/1.6 MBProgress (1): 0.1/1.6 MBProgress (1): 0.1/1.6 MBProgress (1): 0.1/1.6 MBProgress (1): 0.1/1.6 MBProgress (1): 0.1/1.6 MBProgress (1): 0.2/1.6 MBProgress (1): 0.2/1.6 MBProgress (1): 0.2/1.6 MBProgress (1): 0.2/1.6 MBProgress (1): 0.2/1.6 MBProgress (1): 0.2/1.6 MBProgress (1): 0.2/1.6 MBProgress (1): 0.2/1.6 MBProgress (1): 0.2/1.6 MBProgress (1): 0.2/1.6 MBProgress (1): 0.2/1.6 MBProgress (1): 0.2/1.6 MBProgress (1): 0.2/1.6 MBProgress (1): 0.2/1.6 MBProgress (1): 0.2/1.6 MBProgress (1): 0.2/1.6 MBProgress (1): 0.2/1.6 MBProgress (1): 0.2/1.6 MBProgress (1): 0.2/1.6 MBProgress (1): 0.2/1.6 MBProgress (1): 0.2/1.6 MBProgress (1): 0.2/1.6 MBProgress (1): 0.2/1.6 MBProgress (1): 0.2/1.6 MBProgress (1): 0.2/1.6 MBProgress (1): 0.3/1.6 MBProgress (1): 0.3/1.6 MBProgress (1): 0.3/1.6 MBProgress (1): 0.3/1.6 MBProgress (1): 0.3/1.6 MBProgress (1): 0.3/1.6 MBProgress (1): 0.3/1.6 MBProgress (1): 0.3/1.6 MBProgress (1): 0.3/1.6 MBProgress (1): 0.3/1.6 MBProgress (1): 0.3/1.6 MBProgress (1): 0.3/1.6 MBProgress (1): 0.3/1.6 MBProgress (1): 0.3/1.6 MBProgress (1): 0.3/1.6 MBProgress (1): 0.3/1.6 MBProgress (1): 0.3/1.6 MBProgress (1): 0.3/1.6 MBProgress (1): 0.3/1.6 MBProgress (1): 0.3/1.6 MBProgress (1): 0.3/1.6 MBProgress (1): 0.3/1.6 MBProgress (1): 0.3/1.6 MBProgress (1): 0.3/1.6 MBProgress (1): 0.4/1.6 MBProgress (1): 0.4/1.6 MBProgress (1): 0.4/1.6 MBProgress (1): 0.4/1.6 MBProgress (1): 0.4/1.6 MBProgress (1): 0.4/1.6 MBProgress (1): 0.4/1.6 MBProgress (1): 0.4/1.6 MBProgress (1): 0.4/1.6 MBProgress (1): 0.4/1.6 MBProgress (1): 0.4/1.6 MBProgress (1): 0.4/1.6 MBProgress (1): 0.4/1.6 MBProgress (1): 0.4/1.6 MBProgress (1): 0.4/1.6 MBProgress (1): 0.4/1.6 MBProgress (1): 0.4/1.6 MBProgress (1): 0.4/1.6 MBProgress (1): 0.4/1.6 MBProgress (1): 0.4/1.6 MBProgress (1): 0.4/1.6 MBProgress (1): 0.4/1.6 MBProgress (1): 0.4/1.6 MBProgress (1): 0.4/1.6 MBProgress (1): 0.5/1.6 MBProgress (1): 0.5/1.6 MBProgress (1): 0.5/1.6 MBProgress (1): 0.5/1.6 MBProgress (1): 0.5/1.6 MBProgress (1): 0.5/1.6 MBProgress (1): 0.5/1.6 MBProgress (1): 0.5/1.6 MBProgress (1): 0.5/1.6 MBProgress (1): 0.5/1.6 MBProgress (1): 0.5/1.6 MBProgress (1): 0.5/1.6 MBProgress (1): 0.5/1.6 MBProgress (1): 0.5/1.6 MBProgress (1): 0.5/1.6 MBProgress (1): 0.5/1.6 MBProgress (1): 0.5/1.6 MBProgress (1): 0.5/1.6 MBProgress (1): 0.5/1.6 MBProgress (1): 0.5/1.6 MBProgress (1): 0.5/1.6 MBProgress (1): 0.5/1.6 MBProgress (1): 0.5/1.6 MBProgress (1): 0.5/1.6 MBProgress (1): 0.5/1.6 MBProgress (1): 0.6/1.6 MBProgress (1): 0.6/1.6 MBProgress (1): 0.6/1.6 MBProgress (1): 0.6/1.6 MBProgress (1): 0.6/1.6 MBProgress (1): 0.6/1.6 MBProgress (1): 0.6/1.6 MBProgress (1): 0.6/1.6 MBProgress (1): 0.6/1.6 MBProgress (1): 0.6/1.6 MBProgress (1): 0.6/1.6 MBProgress (1): 0.6/1.6 MBProgress (1): 0.6/1.6 MBProgress (1): 0.6/1.6 MBProgress (1): 0.6/1.6 MBProgress (1): 0.6/1.6 MBProgress (1): 0.6/1.6 MBProgress (1): 0.6/1.6 MBProgress (1): 0.6/1.6 MBProgress (1): 0.6/1.6 MBProgress (1): 0.6/1.6 MBProgress (1): 0.6/1.6 MBProgress (1): 0.6/1.6 MBProgress (1): 0.6/1.6 MBProgress (1): 0.7/1.6 MBProgress (1): 0.7/1.6 MBProgress (1): 0.7/1.6 MBProgress (1): 0.7/1.6 MBProgress (1): 0.7/1.6 MBProgress (1): 0.7/1.6 MBProgress (1): 0.7/1.6 MBProgress (1): 0.7/1.6 MBProgress (1): 0.7/1.6 MBProgress (1): 0.7/1.6 MBProgress (1): 0.7/1.6 MBProgress (1): 0.7/1.6 MBProgress (1): 0.7/1.6 MBProgress (1): 0.7/1.6 MBProgress (1): 0.7/1.6 MBProgress (1): 0.7/1.6 MBProgress (1): 0.7/1.6 MBProgress (1): 0.7/1.6 MBProgress (1): 0.7/1.6 MBProgress (1): 0.7/1.6 MBProgress (1): 0.7/1.6 MBProgress (1): 0.7/1.6 MBProgress (1): 0.7/1.6 MBProgress (1): 0.7/1.6 MBProgress (1): 0.7/1.6 MBProgress (1): 0.8/1.6 MBProgress (1): 0.8/1.6 MBProgress (1): 0.8/1.6 MBProgress (1): 0.8/1.6 MBProgress (1): 0.8/1.6 MBProgress (1): 0.8/1.6 MBProgress (1): 0.8/1.6 MBProgress (1): 0.8/1.6 MBProgress (1): 0.8/1.6 MBProgress (1): 0.8/1.6 MBProgress (1): 0.8/1.6 MBProgress (1): 0.8/1.6 MBProgress (1): 0.8/1.6 MBProgress (1): 0.8/1.6 MBProgress (1): 0.8/1.6 MBProgress (1): 0.8/1.6 MBProgress (1): 0.8/1.6 MBProgress (1): 0.8/1.6 MBProgress (1): 0.8/1.6 MBProgress (1): 0.8/1.6 MBProgress (1): 0.8/1.6 MBProgress (1): 0.8/1.6 MBProgress (1): 0.8/1.6 MBProgress (1): 0.8/1.6 MBProgress (1): 0.9/1.6 MBProgress (1): 0.9/1.6 MBProgress (1): 0.9/1.6 MBProgress (1): 0.9/1.6 MBProgress (1): 0.9/1.6 MBProgress (1): 0.9/1.6 MBProgress (1): 0.9/1.6 MBProgress (1): 0.9/1.6 MBProgress (1): 0.9/1.6 MBProgress (1): 0.9/1.6 MBProgress (1): 0.9/1.6 MBProgress (1): 0.9/1.6 MBProgress (1): 0.9/1.6 MBProgress (1): 0.9/1.6 MBProgress (1): 0.9/1.6 MBProgress (1): 0.9/1.6 MBProgress (1): 0.9/1.6 MBProgress (1): 0.9/1.6 MBProgress (1): 0.9/1.6 MBProgress (1): 0.9/1.6 MBProgress (1): 0.9/1.6 MBProgress (1): 0.9/1.6 MBProgress (1): 0.9/1.6 MBProgress (1): 0.9/1.6 MBProgress (1): 1.0/1.6 MBProgress (1): 1.0/1.6 MBProgress (1): 1.0/1.6 MBProgress (1): 1.0/1.6 MBProgress (1): 1.0/1.6 MBProgress (1): 1.0/1.6 MBProgress (1): 1.0/1.6 MBProgress (1): 1.0/1.6 MBProgress (1): 1.0/1.6 MBProgress (1): 1.0/1.6 MBProgress (1): 1.0/1.6 MBProgress (1): 1.0/1.6 MBProgress (1): 1.0/1.6 MBProgress (1): 1.0/1.6 MBProgress (1): 1.0/1.6 MBProgress (1): 1.0/1.6 MBProgress (1): 1.0/1.6 MBProgress (1): 1.0/1.6 MBProgress (1): 1.0/1.6 MBProgress (1): 1.0/1.6 MBProgress (1): 1.0/1.6 MBProgress (1): 1.0/1.6 MBProgress (1): 1.0/1.6 MBProgress (1): 1.0/1.6 MBProgress (1): 1.0/1.6 MBProgress (1): 1.1/1.6 MBProgress (1): 1.1/1.6 MBProgress (1): 1.1/1.6 MBProgress (1): 1.1/1.6 MBProgress (1): 1.1/1.6 MBProgress (1): 1.1/1.6 MBProgress (1): 1.1/1.6 MBProgress (1): 1.1/1.6 MBProgress (1): 1.1/1.6 MBProgress (1): 1.1/1.6 MBProgress (1): 1.1/1.6 MBProgress (1): 1.1/1.6 MBProgress (1): 1.1/1.6 MBProgress (1): 1.1/1.6 MBProgress (1): 1.1/1.6 MBProgress (1): 1.1/1.6 MBProgress (1): 1.1/1.6 MBProgress (1): 1.1/1.6 MBProgress (1): 1.1/1.6 MBProgress (1): 1.1/1.6 MBProgress (1): 1.1/1.6 MBProgress (1): 1.1/1.6 MBProgress (1): 1.1/1.6 MBProgress (1): 1.1/1.6 MBProgress (1): 1.2/1.6 MBProgress (1): 1.2/1.6 MBProgress (1): 1.2/1.6 MBProgress (1): 1.2/1.6 MBProgress (1): 1.2/1.6 MBProgress (1): 1.2/1.6 MBProgress (1): 1.2/1.6 MBProgress (1): 1.2/1.6 MBProgress (1): 1.2/1.6 MBProgress (1): 1.2/1.6 MBProgress (1): 1.2/1.6 MBProgress (1): 1.2/1.6 MBProgress (1): 1.2/1.6 MBProgress (1): 1.2/1.6 MBProgress (1): 1.2/1.6 MBProgress (1): 1.2/1.6 MBProgress (1): 1.2/1.6 MBProgress (1): 1.2/1.6 MBProgress (1): 1.2/1.6 MBProgress (1): 1.2/1.6 MBProgress (1): 1.2/1.6 MBProgress (1): 1.2/1.6 MBProgress (1): 1.2/1.6 MBProgress (1): 1.2/1.6 MBProgress (1): 1.2/1.6 MBProgress (1): 1.3/1.6 MBProgress (1): 1.3/1.6 MBProgress (1): 1.3/1.6 MBProgress (1): 1.3/1.6 MBProgress (1): 1.3/1.6 MBProgress (1): 1.3/1.6 MBProgress (1): 1.3/1.6 MBProgress (1): 1.3/1.6 MBProgress (1): 1.3/1.6 MBProgress (1): 1.3/1.6 MBProgress (1): 1.3/1.6 MBProgress (1): 1.3/1.6 MBProgress (1): 1.3/1.6 MBProgress (1): 1.3/1.6 MBProgress (1): 1.3/1.6 MBProgress (1): 1.3/1.6 MBProgress (1): 1.3/1.6 MBProgress (1): 1.3/1.6 MBProgress (1): 1.3/1.6 MBProgress (1): 1.3/1.6 MBProgress (1): 1.3/1.6 MBProgress (1): 1.3/1.6 MBProgress (1): 1.3/1.6 MBProgress (1): 1.3/1.6 MBProgress (1): 1.4/1.6 MBProgress (1): 1.4/1.6 MBProgress (1): 1.4/1.6 MBProgress (1): 1.4/1.6 MBProgress (1): 1.4/1.6 MBProgress (1): 1.4/1.6 MBProgress (1): 1.4/1.6 MBProgress (1): 1.4/1.6 MBProgress (1): 1.4/1.6 MBProgress (1): 1.4/1.6 MBProgress (1): 1.4/1.6 MBProgress (1): 1.4/1.6 MBProgress (1): 1.4/1.6 MBProgress (1): 1.4/1.6 MBProgress (1): 1.4/1.6 MBProgress (1): 1.4/1.6 MBProgress (1): 1.4/1.6 MBProgress (1): 1.4/1.6 MBProgress (1): 1.4/1.6 MBProgress (1): 1.4/1.6 MBProgress (1): 1.4/1.6 MBProgress (1): 1.4/1.6 MBProgress (1): 1.4/1.6 MBProgress (1): 1.4/1.6 MBProgress (1): 1.4/1.6 MBProgress (1): 1.5/1.6 MBProgress (1): 1.5/1.6 MBProgress (1): 1.5/1.6 MBProgress (1): 1.5/1.6 MBProgress (1): 1.5/1.6 MBProgress (1): 1.5/1.6 MBProgress (1): 1.5/1.6 MBProgress (1): 1.5/1.6 MBProgress (1): 1.5/1.6 MBProgress (1): 1.5/1.6 MBProgress (1): 1.5/1.6 MBProgress (1): 1.5/1.6 MBProgress (1): 1.5/1.6 MBProgress (1): 1.5/1.6 MBProgress (1): 1.5/1.6 MBProgress (1): 1.5/1.6 MBProgress (1): 1.5/1.6 MBProgress (1): 1.5/1.6 MBProgress (1): 1.5/1.6 MBProgress (1): 1.5/1.6 MBProgress (1): 1.5/1.6 MBProgress (1): 1.5/1.6 MBProgress (1): 1.5/1.6 MBProgress (1): 1.5/1.6 MBProgress (1): 1.6/1.6 MBProgress (1): 1.6/1.6 MBProgress (1): 1.6/1.6 MBProgress (1): 1.6/1.6 MBProgress (1): 1.6/1.6 MBProgress (1): 1.6/1.6 MBProgress (1): 1.6/1.6 MBProgress (1): 1.6/1.6 MBProgress (1): 1.6/1.6 MBProgress (1): 1.6/1.6 MBProgress (1): 1.6/1.6 MBProgress (1): 1.6/1.6 MBProgress (1): 1.6/1.6 MBProgress (1): 1.6/1.6 MBProgress (1): 1.6/1.6 MBProgress (1): 1.6/1.6 MBProgress (1): 1.6/1.6 MBProgress (1): 1.6/1.6 MBProgress (1): 1.6/1.6 MBProgress (1): 1.6/1.6 MBProgress (1): 1.6 MB    [WARNING] Could not validate integrity of download from file:///results/alibaba-arthas/RELEASES/2846685ee5ca8177872ea7c8c9b1ad3421033387/core/../lib/org/benf/cfr/0.132/cfr-0.132.jar: Checksum validation failed, no checksums available
+                    [WARNING] Checksum validation failed, no checksums available from in-project for file:///results/alibaba-arthas/RELEASES/2846685ee5ca8177872ea7c8c9b1ad3421033387/core/../lib/org/benf/cfr/0.132/cfr-0.132.jar
+Downloaded from in-project: file:///results/alibaba-arthas/RELEASES/2846685ee5ca8177872ea7c8c9b1ad3421033387/core/../lib/org/benf/cfr/0.132/cfr-0.132.jar (1.6 MB at 39 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/alibaba/middleware/termd-core/1.1.7.2/termd-core-1.1.7.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar
+Downloading from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.1.3/logback-core-1.1.3.jar
+Progress (1): 1.4/281 kBProgress (1): 2.7/281 kBProgress (1): 4.1/281 kBProgress (1): 5.5/281 kBProgress (1): 6.9/281 kBProgress (1): 8.2/281 kBProgress (1): 9.6/281 kBProgress (1): 11/281 kB Progress (1): 12/281 kBProgress (1): 14/281 kBProgress (1): 15/281 kBProgress (1): 16/281 kBProgress (2): 16/281 kB | 4.1/455 kBProgress (2): 16/281 kB | 8.2/455 kBProgress (2): 16/281 kB | 12/455 kB Progress (2): 16/281 kB | 16/455 kBProgress (2): 20/281 kB | 16/455 kBProgress (2): 24/281 kB | 16/455 kBProgress (2): 28/281 kB | 16/455 kBProgress (2): 32/281 kB | 16/455 kBProgress (2): 32/281 kB | 20/455 kBProgress (2): 32/281 kB | 25/455 kBProgress (2): 32/281 kB | 29/455 kBProgress (2): 32/281 kB | 33/455 kBProgress (2): 36/281 kB | 33/455 kBProgress (2): 40/281 kB | 33/455 kBProgress (2): 45/281 kB | 33/455 kBProgress (2): 49/281 kB | 33/455 kBProgress (2): 49/281 kB | 37/455 kBProgress (2): 49/281 kB | 41/455 kBProgress (2): 53/281 kB | 41/455 kBProgress (2): 53/281 kB | 45/455 kBProgress (2): 57/281 kB | 45/455 kBProgress (2): 57/281 kB | 49/455 kBProgress (2): 61/281 kB | 49/455 kBProgress (2): 65/281 kB | 49/455 kBProgress (2): 65/281 kB | 53/455 kBProgress (2): 69/281 kB | 53/455 kBProgress (2): 69/281 kB | 57/455 kBProgress (2): 73/281 kB | 57/455 kBProgress (2): 73/281 kB | 61/455 kBProgress (2): 77/281 kB | 61/455 kBProgress (2): 77/281 kB | 66/455 kBProgress (2): 81/281 kB | 66/455 kBProgress (2): 85/281 kB | 66/455 kBProgress (2): 90/281 kB | 66/455 kBProgress (2): 94/281 kB | 66/455 kBProgress (2): 98/281 kB | 66/455 kBProgress (2): 98/281 kB | 70/455 kBProgress (2): 98/281 kB | 74/455 kBProgress (2): 98/281 kB | 78/455 kBProgress (2): 98/281 kB | 82/455 kBProgress (2): 102/281 kB | 82/455 kBProgress (2): 106/281 kB | 82/455 kBProgress (2): 110/281 kB | 82/455 kBProgress (2): 114/281 kB | 82/455 kBProgress (2): 114/281 kB | 86/455 kBProgress (2): 114/281 kB | 90/455 kBProgress (2): 114/281 kB | 94/455 kBProgress (2): 114/281 kB | 98/455 kBProgress (2): 114/281 kB | 102/455 kBProgress (2): 114/281 kB | 106/455 kBProgress (2): 114/281 kB | 111/455 kBProgress (2): 114/281 kB | 115/455 kBProgress (2): 118/281 kB | 115/455 kBProgress (2): 122/281 kB | 115/455 kBProgress (2): 126/281 kB | 115/455 kBProgress (2): 131/281 kB | 115/455 kBProgress (2): 135/281 kB | 115/455 kBProgress (2): 139/281 kB | 115/455 kBProgress (2): 143/281 kB | 115/455 kBProgress (2): 147/281 kB | 115/455 kBProgress (2): 147/281 kB | 119/455 kBProgress (2): 147/281 kB | 123/455 kBProgress (2): 147/281 kB | 127/455 kBProgress (2): 147/281 kB | 131/455 kBProgress (2): 151/281 kB | 131/455 kBProgress (2): 155/281 kB | 131/455 kBProgress (2): 159/281 kB | 131/455 kBProgress (2): 163/281 kB | 131/455 kBProgress (2): 163/281 kB | 135/455 kBProgress (2): 163/281 kB | 139/455 kBProgress (2): 163/281 kB | 143/455 kBProgress (2): 163/281 kB | 147/455 kBProgress (2): 167/281 kB | 147/455 kBProgress (2): 171/281 kB | 147/455 kBProgress (2): 176/281 kB | 147/455 kBProgress (2): 180/281 kB | 147/455 kBProgress (2): 180/281 kB | 152/455 kBProgress (2): 180/281 kB | 156/455 kBProgress (2): 180/281 kB | 160/455 kBProgress (2): 180/281 kB | 164/455 kBProgress (2): 184/281 kB | 164/455 kBProgress (2): 188/281 kB | 164/455 kBProgress (2): 192/281 kB | 164/455 kBProgress (2): 196/281 kB | 164/455 kBProgress (2): 196/281 kB | 168/455 kBProgress (2): 196/281 kB | 172/455 kBProgress (2): 196/281 kB | 176/455 kBProgress (2): 196/281 kB | 180/455 kBProgress (2): 200/281 kB | 180/455 kBProgress (2): 204/281 kB | 180/455 kBProgress (2): 208/281 kB | 180/455 kBProgress (2): 212/281 kB | 180/455 kBProgress (2): 212/281 kB | 184/455 kBProgress (2): 212/281 kB | 188/455 kBProgress (2): 212/281 kB | 193/455 kBProgress (2): 217/281 kB | 193/455 kBProgress (2): 217/281 kB | 197/455 kBProgress (2): 221/281 kB | 197/455 kBProgress (2): 225/281 kB | 197/455 kBProgress (2): 229/281 kB | 197/455 kBProgress (2): 229/281 kB | 201/455 kBProgress (2): 229/281 kB | 205/455 kBProgress (2): 229/281 kB | 209/455 kBProgress (2): 229/281 kB | 213/455 kBProgress (2): 233/281 kB | 213/455 kBProgress (2): 237/281 kB | 213/455 kBProgress (2): 241/281 kB | 213/455 kBProgress (2): 245/281 kB | 213/455 kBProgress (2): 245/281 kB | 217/455 kBProgress (2): 245/281 kB | 221/455 kBProgress (2): 245/281 kB | 225/455 kBProgress (2): 245/281 kB | 229/455 kBProgress (2): 245/281 kB | 233/455 kBProgress (2): 245/281 kB | 238/455 kBProgress (2): 245/281 kB | 242/455 kBProgress (2): 245/281 kB | 246/455 kBProgress (2): 249/281 kB | 246/455 kBProgress (2): 253/281 kB | 246/455 kBProgress (2): 258/281 kB | 246/455 kBProgress (2): 262/281 kB | 246/455 kBProgress (2): 262/281 kB | 250/455 kBProgress (2): 262/281 kB | 254/455 kBProgress (2): 262/281 kB | 256/455 kBProgress (2): 266/281 kB | 256/455 kBProgress (2): 270/281 kB | 256/455 kBProgress (2): 274/281 kB | 256/455 kBProgress (2): 278/281 kB | 256/455 kBProgress (2): 281 kB | 256/455 kB    Progress (2): 281 kB | 260/455 kBProgress (2): 281 kB | 264/455 kBProgress (2): 281 kB | 268/455 kBProgress (2): 281 kB | 272/455 kBProgress (2): 281 kB | 276/455 kBProgress (2): 281 kB | 280/455 kBProgress (2): 281 kB | 284/455 kBProgress (2): 281 kB | 289/455 kBProgress (2): 281 kB | 293/455 kBProgress (2): 281 kB | 297/455 kBProgress (2): 281 kB | 301/455 kBProgress (2): 281 kB | 305/455 kBProgress (2): 281 kB | 309/455 kBProgress (2): 281 kB | 313/455 kBProgress (2): 281 kB | 317/455 kBProgress (2): 281 kB | 321/455 kBProgress (2): 281 kB | 325/455 kBProgress (2): 281 kB | 330/455 kBProgress (2): 281 kB | 334/455 kBProgress (2): 281 kB | 338/455 kBProgress (2): 281 kB | 342/455 kBProgress (2): 281 kB | 346/455 kBProgress (2): 281 kB | 350/455 kBProgress (2): 281 kB | 354/455 kBProgress (2): 281 kB | 358/455 kBProgress (2): 281 kB | 362/455 kBProgress (2): 281 kB | 366/455 kBProgress (2): 281 kB | 370/455 kBProgress (2): 281 kB | 375/455 kBProgress (2): 281 kB | 379/455 kBProgress (2): 281 kB | 383/455 kBProgress (2): 281 kB | 387/455 kBProgress (2): 281 kB | 391/455 kBProgress (2): 281 kB | 395/455 kBProgress (2): 281 kB | 399/455 kBProgress (2): 281 kB | 403/455 kBProgress (2): 281 kB | 407/455 kB                                 Downloaded from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar (281 kB at 1.4 MB/s)
+Progress (1): 411/455 kBProgress (1): 416/455 kBProgress (1): 420/455 kBProgress (1): 424/455 kBProgress (1): 428/455 kBProgress (1): 432/455 kBProgress (1): 436/455 kBProgress (1): 440/455 kBProgress (1): 444/455 kBProgress (1): 448/455 kBProgress (1): 452/455 kBProgress (1): 455 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.1.3/logback-core-1.1.3.jar (455 kB at 2.0 MB/s)
+Progress (1): 4.1/722 kBProgress (1): 8.2/722 kBProgress (1): 12/722 kB Progress (1): 16/722 kBProgress (1): 20/722 kBProgress (1): 25/722 kBProgress (1): 29/722 kBProgress (1): 33/722 kBProgress (1): 37/722 kBProgress (1): 41/722 kBProgress (1): 45/722 kBProgress (1): 49/722 kBProgress (1): 53/722 kBProgress (1): 57/722 kBProgress (1): 61/722 kBProgress (1): 66/722 kBProgress (1): 70/722 kBProgress (1): 74/722 kBProgress (1): 78/722 kBProgress (1): 82/722 kBProgress (1): 86/722 kBProgress (1): 90/722 kBProgress (1): 94/722 kBProgress (1): 98/722 kBProgress (1): 102/722 kBProgress (1): 106/722 kBProgress (1): 111/722 kBProgress (1): 115/722 kBProgress (1): 119/722 kBProgress (1): 123/722 kBProgress (1): 127/722 kBProgress (1): 131/722 kBProgress (1): 135/722 kBProgress (1): 139/722 kBProgress (1): 143/722 kBProgress (1): 147/722 kBProgress (1): 152/722 kBProgress (1): 156/722 kBProgress (1): 160/722 kBProgress (1): 164/722 kBProgress (1): 168/722 kBProgress (1): 172/722 kBProgress (1): 176/722 kBProgress (1): 180/722 kBProgress (1): 184/722 kBProgress (1): 188/722 kBProgress (1): 193/722 kBProgress (1): 197/722 kBProgress (1): 201/722 kBProgress (1): 205/722 kBProgress (1): 209/722 kBProgress (1): 213/722 kBProgress (1): 217/722 kBProgress (1): 221/722 kBProgress (1): 225/722 kBProgress (1): 229/722 kBProgress (1): 233/722 kBProgress (1): 238/722 kBProgress (1): 242/722 kBProgress (1): 246/722 kBProgress (1): 250/722 kBProgress (1): 254/722 kBProgress (1): 258/722 kBProgress (1): 262/722 kBProgress (1): 266/722 kBProgress (1): 270/722 kBProgress (1): 274/722 kBProgress (1): 279/722 kBProgress (1): 283/722 kBProgress (1): 287/722 kBProgress (1): 291/722 kBProgress (1): 295/722 kBProgress (1): 299/722 kBProgress (1): 303/722 kBProgress (1): 307/722 kBProgress (1): 311/722 kBProgress (1): 315/722 kBProgress (1): 319/722 kBProgress (1): 324/722 kBProgress (1): 328/722 kBProgress (1): 332/722 kBProgress (1): 336/722 kBProgress (1): 340/722 kBProgress (1): 344/722 kBProgress (1): 348/722 kBProgress (1): 352/722 kBProgress (1): 356/722 kBProgress (1): 360/722 kBProgress (1): 365/722 kBProgress (1): 369/722 kBProgress (1): 373/722 kBProgress (1): 377/722 kBProgress (1): 381/722 kBProgress (1): 385/722 kBProgress (1): 389/722 kBProgress (1): 393/722 kBProgress (1): 397/722 kBProgress (1): 401/722 kBProgress (1): 406/722 kBProgress (1): 410/722 kBProgress (1): 414/722 kBProgress (1): 418/722 kBProgress (1): 422/722 kBProgress (1): 426/722 kBProgress (1): 430/722 kBProgress (1): 434/722 kBProgress (1): 438/722 kBProgress (1): 442/722 kBProgress (1): 446/722 kBProgress (1): 451/722 kBProgress (1): 455/722 kBProgress (1): 459/722 kBProgress (1): 463/722 kBProgress (1): 467/722 kBProgress (1): 471/722 kBProgress (1): 475/722 kBProgress (1): 479/722 kBProgress (1): 483/722 kBProgress (1): 487/722 kBProgress (1): 492/722 kBProgress (1): 496/722 kBProgress (1): 500/722 kBProgress (1): 504/722 kBProgress (1): 508/722 kBProgress (1): 512/722 kBProgress (1): 516/722 kBProgress (1): 520/722 kBProgress (1): 524/722 kBProgress (1): 528/722 kBProgress (1): 532/722 kBProgress (1): 537/722 kBProgress (1): 541/722 kBProgress (1): 545/722 kBProgress (1): 549/722 kBProgress (1): 553/722 kBProgress (1): 557/722 kBProgress (1): 561/722 kBProgress (1): 565/722 kBProgress (1): 569/722 kBProgress (1): 573/722 kBProgress (1): 578/722 kBProgress (1): 582/722 kBProgress (1): 585/722 kBProgress (1): 589/722 kBProgress (1): 593/722 kBProgress (1): 597/722 kBProgress (1): 601/722 kBProgress (1): 605/722 kBProgress (1): 609/722 kBProgress (1): 613/722 kBProgress (1): 617/722 kBProgress (1): 622/722 kBProgress (1): 626/722 kBProgress (1): 630/722 kBProgress (1): 634/722 kBProgress (1): 638/722 kBProgress (1): 642/722 kBProgress (1): 646/722 kBProgress (1): 650/722 kBProgress (1): 654/722 kBProgress (1): 658/722 kBProgress (1): 663/722 kBProgress (1): 667/722 kBProgress (1): 671/722 kBProgress (1): 675/722 kBProgress (1): 679/722 kBProgress (1): 683/722 kBProgress (1): 687/722 kBProgress (1): 691/722 kBProgress (1): 695/722 kBProgress (1): 699/722 kBProgress (1): 703/722 kBProgress (1): 708/722 kBProgress (1): 712/722 kBProgress (1): 716/722 kBProgress (1): 720/722 kBProgress (1): 722 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/com/alibaba/middleware/termd-core/1.1.7.2/termd-core-1.1.7.2.jar (722 kB at 1.1 MB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-core ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 195 source files to /results/alibaba-arthas/RELEASES/2846685ee5ca8177872ea7c8c9b1ad3421033387/core/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[WARNING] /results/alibaba-arthas/RELEASES/2846685ee5ca8177872ea7c8c9b1ad3421033387/core/src/main/java/com/taobao/arthas/core/util/UserStatUtil.java:[21,53] encode(java.lang.String) in java.net.URLEncoder has been deprecated
+[WARNING] /results/alibaba-arthas/RELEASES/2846685ee5ca8177872ea7c8c9b1ad3421033387/core/src/main/java/com/taobao/arthas/core/util/UserStatUtil.java:[27,57] encode(java.lang.String) in java.net.URLEncoder has been deprecated
+[WARNING] /results/alibaba-arthas/RELEASES/2846685ee5ca8177872ea7c8c9b1ad3421033387/core/src/main/java/com/taobao/arthas/core/util/UserStatUtil.java:[42,49] encode(java.lang.String) in java.net.URLEncoder has been deprecated
+[WARNING] /results/alibaba-arthas/RELEASES/2846685ee5ca8177872ea7c8c9b1ad3421033387/core/src/main/java/com/taobao/arthas/core/util/UserStatUtil.java:[44,55] encode(java.lang.String) in java.net.URLEncoder has been deprecated
+[INFO] /results/alibaba-arthas/RELEASES/2846685ee5ca8177872ea7c8c9b1ad3421033387/core/src/main/java/com/taobao/arthas/core/util/StringUtils.java: Some input files use unchecked or unsafe operations.
+[INFO] /results/alibaba-arthas/RELEASES/2846685ee5ca8177872ea7c8c9b1ad3421033387/core/src/main/java/com/taobao/arthas/core/util/StringUtils.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] -------------------< com.taobao.arthas:arthas-agent >-------------------
+[INFO] Building arthas-agent 3.1.0                                       [6/12]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-agent ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-agent ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /results/alibaba-arthas/RELEASES/2846685ee5ca8177872ea7c8c9b1ad3421033387/agent/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] ------------------< com.taobao.arthas:arthas-client >-------------------
+[INFO] Building arthas-client 3.1.0                                      [7/12]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-client ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-client ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 28 source files to /results/alibaba-arthas/RELEASES/2846685ee5ca8177872ea7c8c9b1ad3421033387/client/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] -------------------< com.taobao.arthas:arthas-boot >--------------------
+[INFO] Building arthas-boot 3.1.0                                        [8/12]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-boot ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-boot ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /results/alibaba-arthas/RELEASES/2846685ee5ca8177872ea7c8c9b1ad3421033387/boot/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] -------------------< com.taobao.arthas:arthas-demo >--------------------
+[INFO] Building arthas-demo 3.1.0                                        [9/12]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-demo ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-demo ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /results/alibaba-arthas/RELEASES/2846685ee5ca8177872ea7c8c9b1ad3421033387/demo/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] -----------------< com.taobao.arthas:arthas-testcase >------------------
+[INFO] Building arthas-testcase 3.1.0                                   [10/12]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-testcase ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-testcase ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /results/alibaba-arthas/RELEASES/2846685ee5ca8177872ea7c8c9b1ad3421033387/testcase/target/classes
+[INFO] /results/alibaba-arthas/RELEASES/2846685ee5ca8177872ea7c8c9b1ad3421033387/testcase/src/main/java/com/alibaba/arthas/Test.java: /results/alibaba-arthas/RELEASES/2846685ee5ca8177872ea7c8c9b1ad3421033387/testcase/src/main/java/com/alibaba/arthas/Test.java uses unchecked or unsafe operations.
+[INFO] /results/alibaba-arthas/RELEASES/2846685ee5ca8177872ea7c8c9b1ad3421033387/testcase/src/main/java/com/alibaba/arthas/Test.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] -------------------< com.taobao.arthas:arthas-site >--------------------
+[INFO] Building arthas-site 3.1.0                                       [11/12]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-site ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-site ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] -----------------< com.taobao.arthas:arthas-packaging >-----------------
+[INFO] Building arthas-packaging 3.1.0                                  [12/12]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-packaging ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-packaging ---
+[INFO] No sources to compile
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] arthas-all 3.1.0 ................................... SUCCESS [  0.216 s]
+[INFO] arthas-spy ......................................... SUCCESS [  0.321 s]
+[INFO] arthas-common ...................................... SUCCESS [  0.193 s]
+[INFO] arthas-memorycompiler .............................. SUCCESS [  0.328 s]
+[INFO] arthas-core ........................................ SUCCESS [  2.088 s]
+[INFO] arthas-agent ....................................... SUCCESS [  0.057 s]
+[INFO] arthas-client ...................................... SUCCESS [  0.101 s]
+[INFO] arthas-boot ........................................ SUCCESS [  0.059 s]
+[INFO] arthas-demo ........................................ SUCCESS [  0.018 s]
+[INFO] arthas-testcase .................................... SUCCESS [  0.021 s]
+[INFO] arthas-site ........................................ SUCCESS [  0.008 s]
+[INFO] arthas-packaging 3.1.0 ............................. SUCCESS [  0.007 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.722 s
+[INFO] Finished at: 2022-09-10T03:46:24Z
+[INFO] ------------------------------------------------------------------------

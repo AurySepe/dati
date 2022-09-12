@@ -1,0 +1,1070 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<pattern name="Factory Method">
+		<instance>
+			<role name="Creator" element="com.netflix.appinfo.providers.EurekaInstanceConfigFactory" />
+			<role name="FactoryMethod()" element="com.netflix.appinfo.providers.EurekaInstanceConfigFactory::get():com.netflix.appinfo.EurekaInstanceConfig" />
+		</instance>
+		<instance>
+			<role name="Creator" element="com.netflix.discovery.EurekaClient" />
+			<role name="FactoryMethod()" element="com.netflix.discovery.EurekaClient::getHealthCheckHandler():com.netflix.appinfo.HealthCheckHandler" />
+		</instance>
+		<instance>
+			<role name="Creator" element="com.netflix.discovery.shared.transport.EurekaHttpClientFactory" />
+			<role name="FactoryMethod()" element="com.netflix.discovery.shared.transport.EurekaHttpClientFactory::newClient():com.netflix.discovery.shared.transport.EurekaHttpClient" />
+		</instance>
+		<instance>
+			<role name="Creator" element="com.netflix.discovery.shared.transport.TransportClientFactory" />
+			<role name="FactoryMethod()" element="com.netflix.discovery.shared.transport.TransportClientFactory::newClient(com.netflix.discovery.shared.resolver.EurekaEndpoint):com.netflix.discovery.shared.transport.EurekaHttpClient" />
+		</instance>
+		<instance>
+			<role name="Creator" element="com.netflix.eureka.util.batcher.TaskExecutors$WorkerRunnableFactory" />
+			<role name="FactoryMethod()" element="com.netflix.eureka.util.batcher.TaskExecutors$WorkerRunnableFactory::create(int):com.netflix.eureka.util.batcher.TaskExecutors$WorkerRunnable" />
+		</instance>
+	</pattern>
+	<pattern name="Prototype" />
+	<pattern name="Singleton">
+		<instance>
+			<role name="Singleton" element="com.netflix.discovery.util.DiscoveryBuildInfo" />
+			<role name="uniqueInstance" element="com.netflix.discovery.util.DiscoveryBuildInfo::INSTANCE:com.netflix.discovery.util.DiscoveryBuildInfo" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.discovery.util.StringCache" />
+			<role name="uniqueInstance" element="com.netflix.discovery.util.StringCache::INSTANCE:com.netflix.discovery.util.StringCache" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.discovery.util.ThresholdLevelsMetric" />
+			<role name="uniqueInstance" element="com.netflix.discovery.util.ThresholdLevelsMetric::NO_OP_METRIC:com.netflix.discovery.util.ThresholdLevelsMetric" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.discovery.shared.transport.jersey.SSLSocketFactoryAdapter$DummyX509HostnameVerifier" />
+			<role name="uniqueInstance" element="com.netflix.discovery.shared.transport.jersey.SSLSocketFactoryAdapter$DummyX509HostnameVerifier::INSTANCE:com.netflix.discovery.shared.transport.jersey.SSLSocketFactoryAdapter$DummyX509HostnameVerifier" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.discovery.shared.transport.jersey.SSLSocketFactoryAdapter$DummySSLSocketFactory" />
+			<role name="uniqueInstance" element="com.netflix.discovery.shared.transport.jersey.SSLSocketFactoryAdapter$DummySSLSocketFactory::INSTANCE:com.netflix.discovery.shared.transport.jersey.SSLSocketFactoryAdapter$DummySSLSocketFactory" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.discovery.DiscoveryManager" />
+			<role name="uniqueInstance" element="com.netflix.discovery.DiscoveryManager::s_instance:com.netflix.discovery.DiscoveryManager" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.discovery.converters.EurekaJacksonCodec" />
+			<role name="uniqueInstance" element="com.netflix.discovery.converters.EurekaJacksonCodec::INSTANCE:com.netflix.discovery.converters.EurekaJacksonCodec" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.discovery.converters.XmlXStream" />
+			<role name="uniqueInstance" element="com.netflix.discovery.converters.XmlXStream::s_instance:com.netflix.discovery.converters.XmlXStream" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.discovery.converters.KeyFormatter" />
+			<role name="uniqueInstance" element="com.netflix.discovery.converters.KeyFormatter::DEFAULT_KEY_FORMATTER:com.netflix.discovery.converters.KeyFormatter" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.discovery.converters.JsonXStream" />
+			<role name="uniqueInstance" element="com.netflix.discovery.converters.JsonXStream::s_instance:com.netflix.discovery.converters.JsonXStream" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.appinfo.ApplicationInfoManager" />
+			<role name="uniqueInstance" element="com.netflix.appinfo.ApplicationInfoManager::instance:com.netflix.appinfo.ApplicationInfoManager" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.discovery.shared.transport.jersey2.Jersey2TransportClientFactories" />
+			<role name="uniqueInstance" element="com.netflix.discovery.shared.transport.jersey2.Jersey2TransportClientFactories::INSTANCE:com.netflix.discovery.shared.transport.jersey2.Jersey2TransportClientFactories" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.eureka.registry.rule.StatusOverrideResult" />
+			<role name="uniqueInstance" element="com.netflix.eureka.registry.rule.StatusOverrideResult::NO_MATCH:com.netflix.eureka.registry.rule.StatusOverrideResult" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.eureka.EurekaServerContextHolder" />
+			<role name="uniqueInstance" element="com.netflix.eureka.EurekaServerContextHolder::holder:com.netflix.eureka.EurekaServerContextHolder" />
+		</instance>
+	</pattern>
+	<pattern name="(Object)Adapter">
+		<instance>
+			<role name="Adapter" element="com.netflix.discovery.DiscoveryClient" />
+			<role name="Adaptee" element="com.netflix.appinfo.ApplicationInfoManager" />
+			<role name="adaptee" element="com.netflix.discovery.DiscoveryClient::applicationInfoManager:com.netflix.appinfo.ApplicationInfoManager" />
+			<role name="Request()" element="com.netflix.discovery.DiscoveryClient::shutdown():void" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="com.netflix.discovery.DiscoveryClient" />
+			<role name="Adaptee" element="com.netflix.discovery.InstanceInfoReplicator" />
+			<role name="adaptee" element="com.netflix.discovery.DiscoveryClient::instanceInfoReplicator:com.netflix.discovery.InstanceInfoReplicator" />
+			<role name="Request()" element="com.netflix.discovery.DiscoveryClient::registerHealthCheck(com.netflix.appinfo.HealthCheckHandler):void" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="com.netflix.discovery.DiscoveryClient" />
+			<role name="Adaptee" element="com.netflix.discovery.DiscoveryClient$EurekaTransport" />
+			<role name="adaptee" element="com.netflix.discovery.DiscoveryClient::eurekaTransport:com.netflix.discovery.DiscoveryClient$EurekaTransport" />
+			<role name="Request()" element="com.netflix.discovery.DiscoveryClient::getApplications(java.lang.String):com.netflix.discovery.shared.Applications" />
+			<role name="Request()" element="com.netflix.discovery.DiscoveryClient::shutdown():void" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="com.netflix.discovery.DiscoveryClient" />
+			<role name="Adaptee" element="com.netflix.discovery.InstanceRegionChecker" />
+			<role name="adaptee" element="com.netflix.discovery.DiscoveryClient::instanceRegionChecker:com.netflix.discovery.InstanceRegionChecker" />
+			<role name="Request()" element="com.netflix.discovery.DiscoveryClient::getApplicationsForARegion(java.lang.String):com.netflix.discovery.shared.Applications" />
+			<role name="Request()" element="com.netflix.discovery.DiscoveryClient::getAllKnownRegions():java.util.Set" />
+			<role name="Request()" element="com.netflix.discovery.DiscoveryClient::getInstancesByVipAddress(java.lang.String, boolean):java.util.List" />
+			<role name="Request()" element="com.netflix.discovery.DiscoveryClient::getInstancesByVipAddress(java.lang.String, boolean, java.lang.String):java.util.List" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient" />
+			<role name="Adaptee" element="com.netflix.discovery.util.ExceptionsMetric" />
+			<role name="adaptee" element="com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient::exceptionsMetric:com.netflix.discovery.util.ExceptionsMetric" />
+			<role name="Request()" element="com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient::execute():com.netflix.discovery.shared.transport.EurekaHttpResponse" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.eureka.util.MeasuredRate" />
+			<role name="Adapter" element="com.netflix.eureka.registry.AbstractInstanceRegistry" />
+			<role name="adaptee" element="com.netflix.eureka.registry.AbstractInstanceRegistry::renewsLastMin:com.netflix.eureka.util.MeasuredRate" />
+			<role name="Request()" element="com.netflix.eureka.registry.AbstractInstanceRegistry::getNumOfRenewsInLastMin():long" />
+			<role name="Request()" element="com.netflix.eureka.registry.AbstractInstanceRegistry::shutdown():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.eureka.util.MeasuredRate" />
+			<role name="Adapter" element="com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl" />
+			<role name="adaptee" element="com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl::numberOfReplicationsLastMin:com.netflix.eureka.util.MeasuredRate" />
+			<role name="Request()" element="com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl::init(com.netflix.eureka.cluster.PeerEurekaNodes):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.appinfo.RefreshableAmazonInfoProvider" />
+			<role name="Adapter" element="com.netflix.appinfo.CloudInstanceConfig" />
+			<role name="adaptee" element="com.netflix.appinfo.CloudInstanceConfig::amazonInfoHolder:com.netflix.appinfo.RefreshableAmazonInfoProvider" />
+			<role name="Request()" element="com.netflix.appinfo.CloudInstanceConfig::resolveDefaultAddress(boolean):java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.appinfo.RefreshableAmazonInfoProvider" />
+			<role name="Adapter" element="com.netflix.appinfo.Ec2EurekaArchaius2InstanceConfig" />
+			<role name="adaptee" element="com.netflix.appinfo.Ec2EurekaArchaius2InstanceConfig::amazonInfoHolder:com.netflix.appinfo.RefreshableAmazonInfoProvider" />
+			<role name="Request()" element="com.netflix.appinfo.Ec2EurekaArchaius2InstanceConfig::resolveDefaultAddress(boolean):java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.discovery.shared.Pair" />
+			<role name="Adapter" element="com.netflix.appinfo.AbstractInstanceConfig" />
+			<role name="adaptee" element="com.netflix.appinfo.AbstractInstanceConfig::hostInfo:com.netflix.discovery.shared.Pair" />
+			<role name="Request()" element="com.netflix.appinfo.AbstractInstanceConfig::getHostName(boolean):java.lang.String" />
+			<role name="Request()" element="com.netflix.appinfo.AbstractInstanceConfig::getIpAddress():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.discovery.internal.util.InternalPrefixedConfig" />
+			<role name="Adapter" element="com.netflix.discovery.EurekaArchaius2ClientConfig" />
+			<role name="adaptee" element="com.netflix.discovery.EurekaArchaius2ClientConfig::prefixedConfig:com.netflix.discovery.internal.util.InternalPrefixedConfig" />
+			<role name="Request()" element="com.netflix.discovery.EurekaArchaius2ClientConfig::getRegistryFetchIntervalSeconds():int" />
+			<role name="Request()" element="com.netflix.discovery.EurekaArchaius2ClientConfig::getInstanceInfoReplicationIntervalSeconds():int" />
+			<role name="Request()" element="com.netflix.discovery.EurekaArchaius2ClientConfig::getInitialInstanceInfoReplicationIntervalSeconds():int" />
+			<role name="Request()" element="com.netflix.discovery.EurekaArchaius2ClientConfig::getEurekaServiceUrlPollIntervalSeconds():int" />
+			<role name="Request()" element="com.netflix.discovery.EurekaArchaius2ClientConfig::getProxyHost():java.lang.String" />
+			<role name="Request()" element="com.netflix.discovery.EurekaArchaius2ClientConfig::getProxyPort():java.lang.String" />
+			<role name="Request()" element="com.netflix.discovery.EurekaArchaius2ClientConfig::getProxyUserName():java.lang.String" />
+			<role name="Request()" element="com.netflix.discovery.EurekaArchaius2ClientConfig::getProxyPassword():java.lang.String" />
+			<role name="Request()" element="com.netflix.discovery.EurekaArchaius2ClientConfig::shouldGZipContent():boolean" />
+			<role name="Request()" element="com.netflix.discovery.EurekaArchaius2ClientConfig::getEurekaServerReadTimeoutSeconds():int" />
+			<role name="Request()" element="com.netflix.discovery.EurekaArchaius2ClientConfig::getEurekaServerConnectTimeoutSeconds():int" />
+			<role name="Request()" element="com.netflix.discovery.EurekaArchaius2ClientConfig::getBackupRegistryImpl():java.lang.String" />
+			<role name="Request()" element="com.netflix.discovery.EurekaArchaius2ClientConfig::getEurekaServerTotalConnections():int" />
+			<role name="Request()" element="com.netflix.discovery.EurekaArchaius2ClientConfig::getEurekaServerTotalConnectionsPerHost():int" />
+			<role name="Request()" element="com.netflix.discovery.EurekaArchaius2ClientConfig::getEurekaServerURLContext():java.lang.String" />
+			<role name="Request()" element="com.netflix.discovery.EurekaArchaius2ClientConfig::getEurekaServerPort():java.lang.String" />
+			<role name="Request()" element="com.netflix.discovery.EurekaArchaius2ClientConfig::getEurekaServerDNSName():java.lang.String" />
+			<role name="Request()" element="com.netflix.discovery.EurekaArchaius2ClientConfig::shouldUseDnsForFetchingServiceUrls():boolean" />
+			<role name="Request()" element="com.netflix.discovery.EurekaArchaius2ClientConfig::shouldRegisterWithEureka():boolean" />
+			<role name="Request()" element="com.netflix.discovery.EurekaArchaius2ClientConfig::shouldUnregisterOnShutdown():boolean" />
+			<role name="Request()" element="com.netflix.discovery.EurekaArchaius2ClientConfig::shouldPreferSameZoneEureka():boolean" />
+			<role name="Request()" element="com.netflix.discovery.EurekaArchaius2ClientConfig::allowRedirects():boolean" />
+			<role name="Request()" element="com.netflix.discovery.EurekaArchaius2ClientConfig::shouldLogDeltaDiff():boolean" />
+			<role name="Request()" element="com.netflix.discovery.EurekaArchaius2ClientConfig::shouldDisableDelta():boolean" />
+			<role name="Request()" element="com.netflix.discovery.EurekaArchaius2ClientConfig::fetchRegistryForRemoteRegions():java.lang.String" />
+			<role name="Request()" element="com.netflix.discovery.EurekaArchaius2ClientConfig::getRegion():java.lang.String" />
+			<role name="Request()" element="com.netflix.discovery.EurekaArchaius2ClientConfig::getAvailabilityZones(java.lang.String):java.lang.String[]" />
+			<role name="Request()" element="com.netflix.discovery.EurekaArchaius2ClientConfig::getEurekaServerServiceUrls(java.lang.String):java.util.List" />
+			<role name="Request()" element="com.netflix.discovery.EurekaArchaius2ClientConfig::shouldFilterOnlyUpInstances():boolean" />
+			<role name="Request()" element="com.netflix.discovery.EurekaArchaius2ClientConfig::getEurekaConnectionIdleTimeoutSeconds():int" />
+			<role name="Request()" element="com.netflix.discovery.EurekaArchaius2ClientConfig::shouldFetchRegistry():boolean" />
+			<role name="Request()" element="com.netflix.discovery.EurekaArchaius2ClientConfig::getRegistryRefreshSingleVipAddress():java.lang.String" />
+			<role name="Request()" element="com.netflix.discovery.EurekaArchaius2ClientConfig::getHeartbeatExecutorThreadPoolSize():int" />
+			<role name="Request()" element="com.netflix.discovery.EurekaArchaius2ClientConfig::getHeartbeatExecutorExponentialBackOffBound():int" />
+			<role name="Request()" element="com.netflix.discovery.EurekaArchaius2ClientConfig::getCacheRefreshExecutorThreadPoolSize():int" />
+			<role name="Request()" element="com.netflix.discovery.EurekaArchaius2ClientConfig::getCacheRefreshExecutorExponentialBackOffBound():int" />
+			<role name="Request()" element="com.netflix.discovery.EurekaArchaius2ClientConfig::getDollarReplacement():java.lang.String" />
+			<role name="Request()" element="com.netflix.discovery.EurekaArchaius2ClientConfig::getEscapeCharReplacement():java.lang.String" />
+			<role name="Request()" element="com.netflix.discovery.EurekaArchaius2ClientConfig::shouldOnDemandUpdateStatusChange():boolean" />
+			<role name="Request()" element="com.netflix.discovery.EurekaArchaius2ClientConfig::getEncoderName():java.lang.String" />
+			<role name="Request()" element="com.netflix.discovery.EurekaArchaius2ClientConfig::getDecoderName():java.lang.String" />
+			<role name="Request()" element="com.netflix.discovery.EurekaArchaius2ClientConfig::getClientDataAccept():java.lang.String" />
+			<role name="Request()" element="com.netflix.discovery.EurekaArchaius2ClientConfig::getExperimental(java.lang.String):java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.discovery.EurekaClientConfig" />
+			<role name="Adapter" element="com.netflix.discovery.DiscoveryClient" />
+			<role name="adaptee" element="com.netflix.discovery.DiscoveryClient::clientConfig:com.netflix.discovery.EurekaClientConfig" />
+			<role name="Request()" element="com.netflix.discovery.DiscoveryClient::getApplications(java.lang.String):com.netflix.discovery.shared.Applications" />
+			<role name="Request()" element="com.netflix.discovery.DiscoveryClient::shutdown():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.discovery.shared.transport.jersey.ApacheHttpClientConnectionCleaner" />
+			<role name="Adapter" element="com.netflix.discovery.shared.transport.jersey.JerseyEurekaHttpClientFactory" />
+			<role name="adaptee" element="com.netflix.discovery.shared.transport.jersey.JerseyEurekaHttpClientFactory::cleaner:com.netflix.discovery.shared.transport.jersey.ApacheHttpClientConnectionCleaner" />
+			<role name="Request()" element="com.netflix.discovery.shared.transport.jersey.JerseyEurekaHttpClientFactory::shutdown():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.eureka.aws.AwsAsgUtil" />
+			<role name="Adapter" element="com.netflix.eureka.registry.rule.AsgEnabledRule" />
+			<role name="adaptee" element="com.netflix.eureka.registry.rule.AsgEnabledRule::awsAsgUtil:com.netflix.eureka.aws.AwsAsgUtil" />
+			<role name="Request()" element="com.netflix.eureka.registry.rule.AsgEnabledRule::apply(com.netflix.appinfo.InstanceInfo, com.netflix.eureka.lease.Lease, boolean):com.netflix.eureka.registry.rule.StatusOverrideResult" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.eureka.EurekaServerConfig" />
+			<role name="Adapter" element="com.netflix.eureka.aws.EIPManager" />
+			<role name="adaptee" element="com.netflix.eureka.aws.EIPManager::serverConfig:com.netflix.eureka.EurekaServerConfig" />
+			<role name="Request()" element="com.netflix.eureka.aws.EIPManager::shutdown():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.eureka.EurekaServerConfig" />
+			<role name="Adapter" element="com.netflix.eureka.aws.ElasticNetworkInterfaceBinder" />
+			<role name="adaptee" element="com.netflix.eureka.aws.ElasticNetworkInterfaceBinder::serverConfig:com.netflix.eureka.EurekaServerConfig" />
+			<role name="Request()" element="com.netflix.eureka.aws.ElasticNetworkInterfaceBinder::start():void" />
+			<role name="Request()" element="com.netflix.eureka.aws.ElasticNetworkInterfaceBinder::shutdown():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.eureka.EurekaServerConfig" />
+			<role name="Adapter" element="com.netflix.eureka.aws.Route53Binder" />
+			<role name="adaptee" element="com.netflix.eureka.aws.Route53Binder::serverConfig:com.netflix.eureka.EurekaServerConfig" />
+			<role name="Request()" element="com.netflix.eureka.aws.Route53Binder::start():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.discovery.internal.util.InternalPrefixedConfig" />
+			<role name="Adapter" element="com.netflix.discovery.shared.transport.EurekaArchaius2TransportConfig" />
+			<role name="adaptee" element="com.netflix.discovery.shared.transport.EurekaArchaius2TransportConfig::prefixedConfig:com.netflix.discovery.internal.util.InternalPrefixedConfig" />
+			<role name="Request()" element="com.netflix.discovery.shared.transport.EurekaArchaius2TransportConfig::getSessionedClientReconnectIntervalSeconds():int" />
+			<role name="Request()" element="com.netflix.discovery.shared.transport.EurekaArchaius2TransportConfig::getRetryableClientQuarantineRefreshPercentage():double" />
+			<role name="Request()" element="com.netflix.discovery.shared.transport.EurekaArchaius2TransportConfig::getApplicationsResolverDataStalenessThresholdSeconds():int" />
+			<role name="Request()" element="com.netflix.discovery.shared.transport.EurekaArchaius2TransportConfig::applicationsResolverUseIp():boolean" />
+			<role name="Request()" element="com.netflix.discovery.shared.transport.EurekaArchaius2TransportConfig::getAsyncResolverRefreshIntervalMs():int" />
+			<role name="Request()" element="com.netflix.discovery.shared.transport.EurekaArchaius2TransportConfig::getAsyncResolverWarmUpTimeoutMs():int" />
+			<role name="Request()" element="com.netflix.discovery.shared.transport.EurekaArchaius2TransportConfig::getAsyncExecutorThreadPoolSize():int" />
+			<role name="Request()" element="com.netflix.discovery.shared.transport.EurekaArchaius2TransportConfig::getWriteClusterVip():java.lang.String" />
+			<role name="Request()" element="com.netflix.discovery.shared.transport.EurekaArchaius2TransportConfig::getReadClusterVip():java.lang.String" />
+			<role name="Request()" element="com.netflix.discovery.shared.transport.EurekaArchaius2TransportConfig::getBootstrapResolverStrategy():java.lang.String" />
+			<role name="Request()" element="com.netflix.discovery.shared.transport.EurekaArchaius2TransportConfig::useBootstrapResolverForQuery():boolean" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.discovery.internal.util.InternalPrefixedConfig" />
+			<role name="Adapter" element="com.netflix.appinfo.Archaius2AmazonInfoConfig" />
+			<role name="adaptee" element="com.netflix.appinfo.Archaius2AmazonInfoConfig::prefixedConfig:com.netflix.discovery.internal.util.InternalPrefixedConfig" />
+			<role name="Request()" element="com.netflix.appinfo.Archaius2AmazonInfoConfig::shouldLogAmazonMetadataErrors():boolean" />
+			<role name="Request()" element="com.netflix.appinfo.Archaius2AmazonInfoConfig::getReadTimeout():int" />
+			<role name="Request()" element="com.netflix.appinfo.Archaius2AmazonInfoConfig::getConnectTimeout():int" />
+			<role name="Request()" element="com.netflix.appinfo.Archaius2AmazonInfoConfig::getNumRetries():int" />
+			<role name="Request()" element="com.netflix.appinfo.Archaius2AmazonInfoConfig::shouldFailFastOnFirstLoad():boolean" />
+			<role name="Request()" element="com.netflix.appinfo.Archaius2AmazonInfoConfig::shouldValidateInstanceId():boolean" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.discovery.EurekaClientConfig" />
+			<role name="Adapter" element="com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver" />
+			<role name="adaptee" element="com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver::clientConfig:com.netflix.discovery.EurekaClientConfig" />
+			<role name="Request()" element="com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver::getRegion():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.discovery.EurekaClientConfig" />
+			<role name="Adapter" element="com.netflix.discovery.shared.resolver.aws.EurekaHttpResolver" />
+			<role name="adaptee" element="com.netflix.discovery.shared.resolver.aws.EurekaHttpResolver::clientConfig:com.netflix.discovery.EurekaClientConfig" />
+			<role name="Request()" element="com.netflix.discovery.shared.resolver.aws.EurekaHttpResolver::getRegion():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.discovery.TimedSupervisorTask" />
+			<role name="Adapter" element="com.netflix.discovery.shared.resolver.AsyncResolver" />
+			<role name="adaptee" element="com.netflix.discovery.shared.resolver.AsyncResolver::backgroundTask:com.netflix.discovery.TimedSupervisorTask" />
+			<role name="Request()" element="com.netflix.discovery.shared.resolver.AsyncResolver::shutdown():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.discovery.shared.transport.TransportClientFactory" />
+			<role name="Adapter" element="com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient" />
+			<role name="adaptee" element="com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient::factory:com.netflix.discovery.shared.transport.TransportClientFactory" />
+			<role name="Request()" element="com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient::execute():com.netflix.discovery.shared.transport.EurekaHttpResponse" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.discovery.shared.transport.TransportClientFactory" />
+			<role name="Adapter" element="com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient" />
+			<role name="adaptee" element="com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient::clientFactory:com.netflix.discovery.shared.transport.TransportClientFactory" />
+			<role name="Request()" element="com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient::execute():com.netflix.discovery.shared.transport.EurekaHttpResponse" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.discovery.shared.transport.EurekaHttpClientFactory" />
+			<role name="Adapter" element="com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient" />
+			<role name="adaptee" element="com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient::clientFactory:com.netflix.discovery.shared.transport.EurekaHttpClientFactory" />
+			<role name="Request()" element="com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient::execute():com.netflix.discovery.shared.transport.EurekaHttpResponse" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.discovery.EurekaClient" />
+			<role name="Adapter" element="com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl" />
+			<role name="adaptee" element="com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl::eurekaClient:com.netflix.discovery.EurekaClient" />
+			<role name="Request()" element="com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl::syncUp():int" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.appinfo.ApplicationInfoManager$StatusChangeListener" />
+			<role name="Adapter" element="com.netflix.discovery.DiscoveryClient" />
+			<role name="adaptee" element="com.netflix.discovery.DiscoveryClient::statusChangeListener:com.netflix.appinfo.ApplicationInfoManager$StatusChangeListener" />
+			<role name="Request()" element="com.netflix.discovery.DiscoveryClient::shutdown():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.discovery.shared.transport.jersey.EurekaJerseyClient" />
+			<role name="Adapter" element="com.netflix.discovery.shared.transport.jersey.JerseyEurekaHttpClientFactory" />
+			<role name="adaptee" element="com.netflix.discovery.shared.transport.jersey.JerseyEurekaHttpClientFactory::jerseyClient:com.netflix.discovery.shared.transport.jersey.EurekaJerseyClient" />
+			<role name="Request()" element="com.netflix.discovery.shared.transport.jersey.JerseyEurekaHttpClientFactory::shutdown():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.discovery.shared.transport.jersey.EurekaJerseyClient" />
+			<role name="Adapter" element="com.netflix.eureka.transport.JerseyRemoteRegionClientFactory" />
+			<role name="adaptee" element="com.netflix.eureka.transport.JerseyRemoteRegionClientFactory::jerseyClient:com.netflix.discovery.shared.transport.jersey.EurekaJerseyClient" />
+			<role name="Request()" element="com.netflix.eureka.transport.JerseyRemoteRegionClientFactory::shutdown():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.discovery.shared.transport.jersey.ApacheHttpClientConnectionCleaner" />
+			<role name="Adapter" element="com.netflix.discovery.shared.transport.jersey.EurekaJerseyClientImpl" />
+			<role name="adaptee" element="com.netflix.discovery.shared.transport.jersey.EurekaJerseyClientImpl::apacheHttpClientConnectionCleaner:com.netflix.discovery.shared.transport.jersey.ApacheHttpClientConnectionCleaner" />
+			<role name="Request()" element="com.netflix.discovery.shared.transport.jersey.EurekaJerseyClientImpl::destroyResources():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.discovery.util.ThresholdLevelsMetric" />
+			<role name="Adapter" element="com.netflix.discovery.DiscoveryClient" />
+			<role name="adaptee" element="com.netflix.discovery.DiscoveryClient::heartbeatStalenessMonitor:com.netflix.discovery.util.ThresholdLevelsMetric" />
+			<role name="adaptee" element="com.netflix.discovery.DiscoveryClient::registryStalenessMonitor:com.netflix.discovery.util.ThresholdLevelsMetric" />
+			<role name="Request()" element="com.netflix.discovery.DiscoveryClient::shutdown():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.eureka.cluster.PeerEurekaNodes" />
+			<role name="Adapter" element="com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl" />
+			<role name="adaptee" element="com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl::peerEurekaNodes:com.netflix.eureka.cluster.PeerEurekaNodes" />
+			<role name="Request()" element="com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl::statusUpdate(java.lang.String, com.netflix.eureka.resources.ASGResource$ASGStatus, boolean):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.appinfo.InstanceInfo" />
+			<role name="Adapter" element="com.netflix.discovery.endpoint.EndpointUtils$InstanceInfoBasedUrlRandomizer" />
+			<role name="adaptee" element="com.netflix.discovery.endpoint.EndpointUtils$InstanceInfoBasedUrlRandomizer::instanceInfo:com.netflix.appinfo.InstanceInfo" />
+			<role name="Request()" element="com.netflix.discovery.endpoint.EndpointUtils$InstanceInfoBasedUrlRandomizer::randomize(java.util.List):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.eureka.cluster.PeerEurekaNodes" />
+			<role name="Adapter" element="com.netflix.eureka.DefaultEurekaServerContext" />
+			<role name="adaptee" element="com.netflix.eureka.DefaultEurekaServerContext::peerEurekaNodes:com.netflix.eureka.cluster.PeerEurekaNodes" />
+			<role name="Request()" element="com.netflix.eureka.DefaultEurekaServerContext::initialize():void" />
+			<role name="Request()" element="com.netflix.eureka.DefaultEurekaServerContext::shutdown():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.eureka.registry.PeerAwareInstanceRegistry" />
+			<role name="Adapter" element="com.netflix.eureka.DefaultEurekaServerContext" />
+			<role name="adaptee" element="com.netflix.eureka.DefaultEurekaServerContext::registry:com.netflix.eureka.registry.PeerAwareInstanceRegistry" />
+			<role name="Request()" element="com.netflix.eureka.DefaultEurekaServerContext::initialize():void" />
+			<role name="Request()" element="com.netflix.eureka.DefaultEurekaServerContext::shutdown():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.appinfo.HealthCheckCallback" />
+			<role name="Adapter" element="com.netflix.appinfo.HealthCheckCallbackToHandlerBridge" />
+			<role name="adaptee" element="com.netflix.appinfo.HealthCheckCallbackToHandlerBridge::callback:com.netflix.appinfo.HealthCheckCallback" />
+			<role name="Request()" element="com.netflix.appinfo.HealthCheckCallbackToHandlerBridge::getStatus(com.netflix.appinfo.InstanceInfo$InstanceStatus):com.netflix.appinfo.InstanceInfo$InstanceStatus" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.discovery.shared.transport.decorator.ServerStatusEvaluator" />
+			<role name="Adapter" element="com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient" />
+			<role name="adaptee" element="com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient::serverStatusEvaluator:com.netflix.discovery.shared.transport.decorator.ServerStatusEvaluator" />
+			<role name="Request()" element="com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient::execute():com.netflix.discovery.shared.transport.EurekaHttpResponse" />
+		</instance>
+	</pattern>
+	<pattern name="Command" />
+	<pattern name="Composite" />
+	<pattern name="Decorator">
+		<instance>
+			<role name="Component" element="com.netflix.discovery.shared.resolver.ClusterResolver" />
+			<role name="Decorator" element="com.netflix.discovery.shared.resolver.LegacyClusterResolver" />
+			<role name="component" element="com.netflix.discovery.shared.resolver.LegacyClusterResolver::delegate:com.netflix.discovery.shared.resolver.ClusterResolver" />
+			<role name="Operation()" element="com.netflix.discovery.shared.resolver.LegacyClusterResolver::getRegion():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Component" element="com.netflix.discovery.shared.resolver.ClusterResolver" />
+			<role name="Decorator" element="com.netflix.discovery.shared.resolver.aws.ZoneAffinityClusterResolver" />
+			<role name="component" element="com.netflix.discovery.shared.resolver.aws.ZoneAffinityClusterResolver::delegate:com.netflix.discovery.shared.resolver.ClusterResolver" />
+			<role name="Operation()" element="com.netflix.discovery.shared.resolver.aws.ZoneAffinityClusterResolver::getRegion():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Component" element="com.netflix.eureka.registry.rule.InstanceStatusOverrideRule" />
+			<role name="Decorator" element="com.netflix.eureka.registry.rule.FirstMatchWinsCompositeRule" />
+			<role name="component" element="com.netflix.eureka.registry.rule.FirstMatchWinsCompositeRule::rules:com.netflix.eureka.registry.rule.InstanceStatusOverrideRule[]" />
+			<role name="component" element="com.netflix.eureka.registry.rule.FirstMatchWinsCompositeRule::defaultRule:com.netflix.eureka.registry.rule.InstanceStatusOverrideRule" />
+			<role name="Operation()" element="com.netflix.eureka.registry.rule.FirstMatchWinsCompositeRule::apply(com.netflix.appinfo.InstanceInfo, com.netflix.eureka.lease.Lease, boolean):com.netflix.eureka.registry.rule.StatusOverrideResult" />
+		</instance>
+		<instance>
+			<role name="Component" element="com.netflix.eureka.aws.AwsBinder" />
+			<role name="Decorator" element="com.netflix.eureka.aws.AwsBinderDelegate" />
+			<role name="component" element="com.netflix.eureka.aws.AwsBinderDelegate::delegate:com.netflix.eureka.aws.AwsBinder" />
+			<role name="Operation()" element="com.netflix.eureka.aws.AwsBinderDelegate::start():void" />
+			<role name="Operation()" element="com.netflix.eureka.aws.AwsBinderDelegate::shutdown():void" />
+		</instance>
+	</pattern>
+	<pattern name="Observer" />
+	<pattern name="State">
+		<instance>
+			<role name="Context" element="com.netflix.discovery.junit.resource.DiscoveryClientResource" />
+			<role name="State" element="com.netflix.discovery.EurekaClient" />
+			<role name="state" element="com.netflix.discovery.junit.resource.DiscoveryClientResource::client:com.netflix.discovery.EurekaClient" />
+			<role name="Request()" element="com.netflix.discovery.junit.resource.DiscoveryClientResource::after():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.eureka.ExampleEurekaClient" />
+			<role name="State" element="com.netflix.discovery.EurekaClient" />
+			<role name="state" element="com.netflix.eureka.ExampleEurekaClient::eurekaClient:com.netflix.discovery.EurekaClient" />
+			<role name="Request()" element="com.netflix.eureka.ExampleEurekaClient::main(java.lang.String[]):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.eureka.ExampleServiceBase" />
+			<role name="State" element="com.netflix.discovery.EurekaClient" />
+			<role name="state" element="com.netflix.eureka.ExampleServiceBase::eurekaClient:com.netflix.discovery.EurekaClient" />
+			<role name="Request()" element="com.netflix.eureka.ExampleServiceBase::stop():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.discovery.EurekaUpStatusResolver" />
+			<role name="State" element="com.netflix.discovery.EurekaClient" />
+			<role name="state" element="com.netflix.discovery.EurekaUpStatusResolver::client:com.netflix.discovery.EurekaClient" />
+			<role name="Request()" element="com.netflix.discovery.EurekaUpStatusResolver::init():void" />
+		</instance>
+		<instance>
+			<role name="State" element="com.netflix.discovery.shared.transport.EurekaHttpClient" />
+			<role name="Context" element="com.netflix.discovery.DiscoveryClient$EurekaTransport" />
+			<role name="state" element="com.netflix.discovery.DiscoveryClient$EurekaTransport::registrationClient:com.netflix.discovery.shared.transport.EurekaHttpClient" />
+			<role name="state" element="com.netflix.discovery.DiscoveryClient$EurekaTransport::queryClient:com.netflix.discovery.shared.transport.EurekaHttpClient" />
+			<role name="Request()" element="com.netflix.discovery.DiscoveryClient$EurekaTransport::shutdown():void" />
+		</instance>
+		<instance>
+			<role name="State" element="com.netflix.discovery.shared.transport.EurekaHttpClient" />
+			<role name="Context" element="com.netflix.discovery.shared.transport.SimpleEurekaHttpServer" />
+			<role name="state" element="com.netflix.discovery.shared.transport.SimpleEurekaHttpServer::requestHandler:com.netflix.discovery.shared.transport.EurekaHttpClient" />
+			<role name="Request()" element="com.netflix.discovery.shared.transport.SimpleEurekaHttpServer::handleAppsGET(com.sun.net.httpserver.HttpExchange):void" />
+			<role name="Request()" element="com.netflix.discovery.shared.transport.SimpleEurekaHttpServer::handleAppsPost(com.sun.net.httpserver.HttpExchange):void" />
+			<role name="Request()" element="com.netflix.discovery.shared.transport.SimpleEurekaHttpServer::handleAppsPut(com.sun.net.httpserver.HttpExchange):void" />
+			<role name="Request()" element="com.netflix.discovery.shared.transport.SimpleEurekaHttpServer::handleAppsDelete(com.sun.net.httpserver.HttpExchange):void" />
+			<role name="Request()" element="com.netflix.discovery.shared.transport.SimpleEurekaHttpServer::handleVipsGET(com.sun.net.httpserver.HttpExchange):void" />
+			<role name="Request()" element="com.netflix.discovery.shared.transport.SimpleEurekaHttpServer::handleSecureVipsGET(com.sun.net.httpserver.HttpExchange):void" />
+			<role name="Request()" element="com.netflix.discovery.shared.transport.SimpleEurekaHttpServer::handleInstanceGET(com.sun.net.httpserver.HttpExchange):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.eureka.aws.AwsAsgUtil" />
+			<role name="State" element="com.netflix.eureka.registry.InstanceRegistry" />
+			<role name="state" element="com.netflix.eureka.aws.AwsAsgUtil::registry:com.netflix.eureka.registry.InstanceRegistry" />
+			<role name="Request()" element="com.netflix.eureka.aws.AwsAsgUtil::getCacheKeys():java.util.Set" />
+			<role name="Request()" element="com.netflix.eureka.aws.AwsAsgUtil::getASGAccount(java.lang.String):java.lang.String" />
+		</instance>
+		<instance>
+			<role name="State" element="com.netflix.eureka.registry.PeerAwareInstanceRegistry" />
+			<role name="Context" element="com.netflix.eureka.resources.ASGResource" />
+			<role name="state" element="com.netflix.eureka.resources.ASGResource::registry:com.netflix.eureka.registry.PeerAwareInstanceRegistry" />
+			<role name="Request()" element="com.netflix.eureka.resources.ASGResource::statusUpdate(java.lang.String, java.lang.String, java.lang.String):javax.ws.rs.core.Response" />
+		</instance>
+		<instance>
+			<role name="State" element="com.netflix.eureka.registry.PeerAwareInstanceRegistry" />
+			<role name="Context" element="com.netflix.eureka.resources.InstanceResource" />
+			<role name="state" element="com.netflix.eureka.resources.InstanceResource::registry:com.netflix.eureka.registry.PeerAwareInstanceRegistry" />
+			<role name="Request()" element="com.netflix.eureka.resources.InstanceResource::updateMetadata(javax.ws.rs.core.UriInfo):javax.ws.rs.core.Response" />
+		</instance>
+		<instance>
+			<role name="State" element="com.netflix.eureka.registry.PeerAwareInstanceRegistry" />
+			<role name="Context" element="com.netflix.eureka.cluster.PeerEurekaNode" />
+			<role name="state" element="com.netflix.eureka.cluster.PeerEurekaNode::registry:com.netflix.eureka.registry.PeerAwareInstanceRegistry" />
+			<role name="Request()" element="com.netflix.eureka.cluster.PeerEurekaNode::syncInstancesIfTimestampDiffers(java.lang.String, java.lang.String, com.netflix.appinfo.InstanceInfo, com.netflix.appinfo.InstanceInfo):void" />
+		</instance>
+		<instance>
+			<role name="State" element="com.netflix.eureka.registry.PeerAwareInstanceRegistry" />
+			<role name="Context" element="com.netflix.eureka.resources.ApplicationResource" />
+			<role name="state" element="com.netflix.eureka.resources.ApplicationResource::registry:com.netflix.eureka.registry.PeerAwareInstanceRegistry" />
+			<role name="Request()" element="com.netflix.eureka.resources.ApplicationResource::getApplication(java.lang.String, java.lang.String, java.lang.String):javax.ws.rs.core.Response" />
+			<role name="Request()" element="com.netflix.eureka.resources.ApplicationResource::addInstance(com.netflix.appinfo.InstanceInfo, java.lang.String):javax.ws.rs.core.Response" />
+		</instance>
+		<instance>
+			<role name="State" element="com.netflix.eureka.registry.PeerAwareInstanceRegistry" />
+			<role name="Context" element="com.netflix.eureka.resources.ApplicationsResource" />
+			<role name="state" element="com.netflix.eureka.resources.ApplicationsResource::registry:com.netflix.eureka.registry.PeerAwareInstanceRegistry" />
+			<role name="Request()" element="com.netflix.eureka.resources.ApplicationsResource::getContainers(java.lang.String, java.lang.String, java.lang.String, java.lang.String, javax.ws.rs.core.UriInfo, java.lang.String):javax.ws.rs.core.Response" />
+			<role name="Request()" element="com.netflix.eureka.resources.ApplicationsResource::getContainerDifferential(java.lang.String, java.lang.String, java.lang.String, java.lang.String, javax.ws.rs.core.UriInfo, java.lang.String):javax.ws.rs.core.Response" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.appinfo.ApplicationInfoManager" />
+			<role name="State" element="com.netflix.appinfo.EurekaInstanceConfig" />
+			<role name="state" element="com.netflix.appinfo.ApplicationInfoManager::config:com.netflix.appinfo.EurekaInstanceConfig" />
+			<role name="Request()" element="com.netflix.appinfo.ApplicationInfoManager::refreshDataCenterInfoIfRequired():void" />
+			<role name="Request()" element="com.netflix.appinfo.ApplicationInfoManager::refreshLeaseInfoIfRequired():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.appinfo.providers.EurekaConfigBasedInstanceInfoProvider" />
+			<role name="State" element="com.netflix.appinfo.EurekaInstanceConfig" />
+			<role name="state" element="com.netflix.appinfo.providers.EurekaConfigBasedInstanceInfoProvider::config:com.netflix.appinfo.EurekaInstanceConfig" />
+			<role name="Request()" element="com.netflix.appinfo.providers.EurekaConfigBasedInstanceInfoProvider::get():com.netflix.appinfo.InstanceInfo" />
+		</instance>
+		<instance>
+			<role name="State" element="com.netflix.eureka.EurekaServerConfig" />
+			<role name="Context" element="com.netflix.eureka.RateLimitingFilter" />
+			<role name="state" element="com.netflix.eureka.RateLimitingFilter::serverConfig:com.netflix.eureka.EurekaServerConfig" />
+			<role name="Request()" element="com.netflix.eureka.RateLimitingFilter::doFilter(javax.servlet.ServletRequest, javax.servlet.ServletResponse, javax.servlet.FilterChain):void" />
+			<role name="Request()" element="com.netflix.eureka.RateLimitingFilter::isPrivileged(javax.servlet.http.HttpServletRequest):boolean" />
+			<role name="Request()" element="com.netflix.eureka.RateLimitingFilter::isOverloaded(com.netflix.eureka.RateLimitingFilter$Target):boolean" />
+			<role name="Request()" element="com.netflix.eureka.RateLimitingFilter::incrementStats(com.netflix.eureka.RateLimitingFilter$Target):void" />
+		</instance>
+		<instance>
+			<role name="State" element="com.netflix.eureka.EurekaServerConfig" />
+			<role name="Context" element="com.netflix.eureka.resources.InstanceResource" />
+			<role name="state" element="com.netflix.eureka.resources.InstanceResource::serverConfig:com.netflix.eureka.EurekaServerConfig" />
+			<role name="Request()" element="com.netflix.eureka.resources.InstanceResource::renewLease(java.lang.String, java.lang.String, java.lang.String, java.lang.String):javax.ws.rs.core.Response" />
+		</instance>
+		<instance>
+			<role name="State" element="com.netflix.eureka.EurekaServerConfig" />
+			<role name="Context" element="com.netflix.eureka.ServerRequestAuthFilter" />
+			<role name="state" element="com.netflix.eureka.ServerRequestAuthFilter::serverConfig:com.netflix.eureka.EurekaServerConfig" />
+			<role name="Request()" element="com.netflix.eureka.ServerRequestAuthFilter::logAuth(javax.servlet.ServletRequest):void" />
+		</instance>
+		<instance>
+			<role name="State" element="com.netflix.eureka.EurekaServerConfig" />
+			<role name="Context" element="com.netflix.eureka.aws.AwsAsgUtil" />
+			<role name="state" element="com.netflix.eureka.aws.AwsAsgUtil::serverConfig:com.netflix.eureka.EurekaServerConfig" />
+			<role name="Request()" element="com.netflix.eureka.aws.AwsAsgUtil::initializeStsSession(java.lang.String):com.amazonaws.services.securitytoken.model.Credentials" />
+			<role name="Request()" element="com.netflix.eureka.aws.AwsAsgUtil::retrieveAutoScalingGroupCrossAccount(java.lang.String, java.lang.String):com.amazonaws.services.autoscaling.model.AutoScalingGroup" />
+			<role name="Request()" element="com.netflix.eureka.aws.AwsAsgUtil::getAmazonAutoScalingClient():com.amazonaws.services.autoscaling.AmazonAutoScaling" />
+		</instance>
+		<instance>
+			<role name="State" element="com.netflix.eureka.EurekaServerConfig" />
+			<role name="Context" element="com.netflix.eureka.cluster.DynamicGZIPContentEncodingFilter" />
+			<role name="state" element="com.netflix.eureka.cluster.DynamicGZIPContentEncodingFilter::config:com.netflix.eureka.EurekaServerConfig" />
+			<role name="Request()" element="com.netflix.eureka.cluster.DynamicGZIPContentEncodingFilter::isCompressionEnabled():boolean" />
+		</instance>
+		<instance>
+			<role name="State" element="com.netflix.eureka.EurekaServerConfig" />
+			<role name="Context" element="com.netflix.eureka.resources.ApplicationResource" />
+			<role name="state" element="com.netflix.eureka.resources.ApplicationResource::serverConfig:com.netflix.eureka.EurekaServerConfig" />
+			<role name="Request()" element="com.netflix.eureka.resources.ApplicationResource::addInstance(com.netflix.appinfo.InstanceInfo, java.lang.String):javax.ws.rs.core.Response" />
+		</instance>
+		<instance>
+			<role name="State" element="com.netflix.eureka.EurekaServerConfig" />
+			<role name="Context" element="com.netflix.eureka.resources.ApplicationsResource" />
+			<role name="state" element="com.netflix.eureka.resources.ApplicationsResource::serverConfig:com.netflix.eureka.EurekaServerConfig" />
+			<role name="Request()" element="com.netflix.eureka.resources.ApplicationsResource::getContainerDifferential(java.lang.String, java.lang.String, java.lang.String, java.lang.String, javax.ws.rs.core.UriInfo, java.lang.String):javax.ws.rs.core.Response" />
+		</instance>
+		<instance>
+			<role name="State" element="com.netflix.eureka.EurekaServerConfig" />
+			<role name="Context" element="com.netflix.eureka.transport.Jersey2DynamicGZIPContentEncodingFilter" />
+			<role name="state" element="com.netflix.eureka.transport.Jersey2DynamicGZIPContentEncodingFilter::config:com.netflix.eureka.EurekaServerConfig" />
+			<role name="Request()" element="com.netflix.eureka.transport.Jersey2DynamicGZIPContentEncodingFilter::isCompressionEnabled():boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.eureka.resources.ApplicationResource" />
+			<role name="State" element="com.netflix.eureka.registry.ResponseCache" />
+			<role name="state" element="com.netflix.eureka.resources.ApplicationResource::responseCache:com.netflix.eureka.registry.ResponseCache" />
+			<role name="Request()" element="com.netflix.eureka.resources.ApplicationResource::getApplication(java.lang.String, java.lang.String, java.lang.String):javax.ws.rs.core.Response" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.eureka.resources.ApplicationsResource" />
+			<role name="State" element="com.netflix.eureka.registry.ResponseCache" />
+			<role name="state" element="com.netflix.eureka.resources.ApplicationsResource::responseCache:com.netflix.eureka.registry.ResponseCache" />
+			<role name="Request()" element="com.netflix.eureka.resources.ApplicationsResource::getContainers(java.lang.String, java.lang.String, java.lang.String, java.lang.String, javax.ws.rs.core.UriInfo, java.lang.String):javax.ws.rs.core.Response" />
+			<role name="Request()" element="com.netflix.eureka.resources.ApplicationsResource::getContainerDifferential(java.lang.String, java.lang.String, java.lang.String, java.lang.String, javax.ws.rs.core.UriInfo, java.lang.String):javax.ws.rs.core.Response" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.eureka.aws.AwsAsgUtil" />
+			<role name="State" element="com.netflix.discovery.EurekaClientConfig" />
+			<role name="state" element="com.netflix.eureka.aws.AwsAsgUtil::clientConfig:com.netflix.discovery.EurekaClientConfig" />
+			<role name="Request()" element="com.netflix.eureka.aws.AwsAsgUtil::initializeStsSession(java.lang.String):com.amazonaws.services.securitytoken.model.Credentials" />
+			<role name="Request()" element="com.netflix.eureka.aws.AwsAsgUtil::retrieveAutoScalingGroupCrossAccount(java.lang.String, java.lang.String):com.amazonaws.services.autoscaling.model.AutoScalingGroup" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.discovery.DiscoveryClient" />
+			<role name="State" element="com.netflix.discovery.EurekaClientConfig" />
+			<role name="state" element="com.netflix.discovery.DiscoveryClient::clientConfig:com.netflix.discovery.EurekaClientConfig" />
+			<role name="state" element="com.netflix.discovery.DiscoveryClient::staticClientConfig:com.netflix.discovery.EurekaClientConfig" />
+			<role name="Request()" element="com.netflix.discovery.DiscoveryClient::scheduleServerEndpointTask(com.netflix.discovery.DiscoveryClient$EurekaTransport, com.netflix.discovery.AbstractDiscoveryClientOptionalArgs):void" />
+			<role name="Request()" element="com.netflix.discovery.DiscoveryClient::getApplications(java.lang.String):com.netflix.discovery.shared.Applications" />
+			<role name="Request()" element="com.netflix.discovery.DiscoveryClient::shutdown():void" />
+			<role name="Request()" element="com.netflix.discovery.DiscoveryClient::fetchRegistry(boolean):boolean" />
+			<role name="Request()" element="com.netflix.discovery.DiscoveryClient::getAndStoreFullRegistry():void" />
+			<role name="Request()" element="com.netflix.discovery.DiscoveryClient::getAndUpdateDelta(com.netflix.discovery.shared.Applications):void" />
+			<role name="Request()" element="com.netflix.discovery.DiscoveryClient::reconcileAndLogDifference(com.netflix.discovery.shared.Applications, java.lang.String):void" />
+			<role name="Request()" element="com.netflix.discovery.DiscoveryClient::updateDelta(com.netflix.discovery.shared.Applications):void" />
+			<role name="Request()" element="com.netflix.discovery.DiscoveryClient::initScheduledTasks():void" />
+			<role name="Request()" element="com.netflix.discovery.DiscoveryClient::refreshRegistry():void" />
+			<role name="Request()" element="com.netflix.discovery.DiscoveryClient::filterAndShuffle(com.netflix.discovery.shared.Applications):com.netflix.discovery.shared.Applications" />
+			<role name="Request()" element="com.netflix.discovery.DiscoveryClient::getZone(com.netflix.appinfo.InstanceInfo):java.lang.String" />
+			<role name="Request()" element="com.netflix.discovery.DiscoveryClient::getRegion():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="State" element="com.netflix.discovery.shared.transport.TransportClientFactory" />
+			<role name="Context" element="com.netflix.discovery.DiscoveryClient$EurekaTransport" />
+			<role name="state" element="com.netflix.discovery.DiscoveryClient$EurekaTransport::transportClientFactory:com.netflix.discovery.shared.transport.TransportClientFactory" />
+			<role name="Request()" element="com.netflix.discovery.DiscoveryClient$EurekaTransport::shutdown():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.eureka.aws.EIPManager" />
+			<role name="State" element="com.netflix.eureka.EurekaServerConfig" />
+			<role name="state" element="com.netflix.eureka.aws.EIPManager::serverConfig:com.netflix.eureka.EurekaServerConfig" />
+			<role name="Request()" element="com.netflix.eureka.aws.EIPManager::shutdown():void" />
+			<role name="Request()" element="com.netflix.eureka.aws.EIPManager::handleEIPBinding():void" />
+			<role name="Request()" element="com.netflix.eureka.aws.EIPManager::getEC2Service():com.amazonaws.services.ec2.AmazonEC2" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.eureka.aws.ElasticNetworkInterfaceBinder" />
+			<role name="State" element="com.netflix.eureka.EurekaServerConfig" />
+			<role name="state" element="com.netflix.eureka.aws.ElasticNetworkInterfaceBinder::serverConfig:com.netflix.eureka.EurekaServerConfig" />
+			<role name="Request()" element="com.netflix.eureka.aws.ElasticNetworkInterfaceBinder::start():void" />
+			<role name="Request()" element="com.netflix.eureka.aws.ElasticNetworkInterfaceBinder::shutdown():void" />
+			<role name="Request()" element="com.netflix.eureka.aws.ElasticNetworkInterfaceBinder::getEC2Service():com.amazonaws.services.ec2.AmazonEC2" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.eureka.aws.Route53Binder" />
+			<role name="State" element="com.netflix.eureka.EurekaServerConfig" />
+			<role name="state" element="com.netflix.eureka.aws.Route53Binder::serverConfig:com.netflix.eureka.EurekaServerConfig" />
+			<role name="Request()" element="com.netflix.eureka.aws.Route53Binder::start():void" />
+			<role name="Request()" element="com.netflix.eureka.aws.Route53Binder::doBind():void" />
+			<role name="Request()" element="com.netflix.eureka.aws.Route53Binder::executeChangeWithRetry(com.amazonaws.services.route53.model.Change, com.amazonaws.services.route53.model.HostedZone):boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.eureka.EurekaContextListener" />
+			<role name="State" element="com.netflix.eureka.EurekaServerContext" />
+			<role name="state" element="com.netflix.eureka.EurekaContextListener::serverContext:com.netflix.eureka.EurekaServerContext" />
+			<role name="Request()" element="com.netflix.eureka.EurekaContextListener::contextInitialized(javax.servlet.ServletContextEvent):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.appinfo.AmazonInfo$Builder" />
+			<role name="State" element="com.netflix.appinfo.AmazonInfoConfig" />
+			<role name="state" element="com.netflix.appinfo.AmazonInfo$Builder::config:com.netflix.appinfo.AmazonInfoConfig" />
+			<role name="Request()" element="com.netflix.appinfo.AmazonInfo$Builder::autoBuild(java.lang.String):com.netflix.appinfo.AmazonInfo" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.appinfo.RefreshableAmazonInfoProvider" />
+			<role name="State" element="com.netflix.appinfo.AmazonInfoConfig" />
+			<role name="state" element="com.netflix.appinfo.RefreshableAmazonInfoProvider::amazonInfoConfig:com.netflix.appinfo.AmazonInfoConfig" />
+			<role name="Request()" element="com.netflix.appinfo.RefreshableAmazonInfoProvider::refresh():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.eureka.registry.RemoteRegionRegistry" />
+			<role name="State" element="com.netflix.eureka.EurekaServerConfig" />
+			<role name="state" element="com.netflix.eureka.registry.RemoteRegionRegistry::serverConfig:com.netflix.eureka.EurekaServerConfig" />
+			<role name="Request()" element="com.netflix.eureka.registry.RemoteRegionRegistry::fetchRegistry():boolean" />
+			<role name="Request()" element="com.netflix.eureka.registry.RemoteRegionRegistry::shouldUseExperimentalTransport():boolean" />
+		</instance>
+		<instance>
+			<role name="State" element="com.netflix.discovery.EurekaClientConfig" />
+			<role name="Context" element="com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver" />
+			<role name="state" element="com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver::clientConfig:com.netflix.discovery.EurekaClientConfig" />
+			<role name="Request()" element="com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver::getRegion():java.lang.String" />
+			<role name="Request()" element="com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver::getClusterEndpoints():java.util.List" />
+			<role name="Request()" element="com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver::getClusterEndpointsFromDns():java.util.List" />
+			<role name="Request()" element="com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver::getClusterEndpointsFromConfig():java.util.List" />
+			<role name="Request()" element="com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver::getDNSName():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="State" element="com.netflix.discovery.EurekaClientConfig" />
+			<role name="Context" element="com.netflix.discovery.shared.resolver.aws.EurekaHttpResolver" />
+			<role name="state" element="com.netflix.discovery.shared.resolver.aws.EurekaHttpResolver::clientConfig:com.netflix.discovery.EurekaClientConfig" />
+			<role name="Request()" element="com.netflix.discovery.shared.resolver.aws.EurekaHttpResolver::getRegion():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.discovery.DiscoveryClient$EurekaTransport" />
+			<role name="State" element="com.netflix.discovery.shared.resolver.ClosableResolver" />
+			<role name="state" element="com.netflix.discovery.DiscoveryClient$EurekaTransport::bootstrapResolver:com.netflix.discovery.shared.resolver.ClosableResolver" />
+			<role name="Request()" element="com.netflix.discovery.DiscoveryClient$EurekaTransport::shutdown():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient" />
+			<role name="State" element="com.netflix.discovery.shared.transport.TransportClientFactory" />
+			<role name="state" element="com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient::factory:com.netflix.discovery.shared.transport.TransportClientFactory" />
+			<role name="Request()" element="com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient::execute():com.netflix.discovery.shared.transport.EurekaHttpResponse" />
+			<role name="Request()" element="com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient::executeOnNewServer(, java.util.concurrent.atomic.AtomicReference):com.netflix.discovery.shared.transport.EurekaHttpResponse" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient" />
+			<role name="State" element="com.netflix.discovery.shared.transport.TransportClientFactory" />
+			<role name="state" element="com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient::clientFactory:com.netflix.discovery.shared.transport.TransportClientFactory" />
+			<role name="Request()" element="com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient::execute():com.netflix.discovery.shared.transport.EurekaHttpResponse" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.eureka.cluster.PeerEurekaNode" />
+			<role name="State" element="com.netflix.eureka.util.batcher.TaskDispatcher" />
+			<role name="state" element="com.netflix.eureka.cluster.PeerEurekaNode::batchingDispatcher:com.netflix.eureka.util.batcher.TaskDispatcher" />
+			<role name="state" element="com.netflix.eureka.cluster.PeerEurekaNode::nonBatchingDispatcher:com.netflix.eureka.util.batcher.TaskDispatcher" />
+			<role name="Request()" element="com.netflix.eureka.cluster.PeerEurekaNode::shutDown():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.discovery.EurekaIdentityHeaderFilter" />
+			<role name="State" element="com.netflix.appinfo.AbstractEurekaIdentity" />
+			<role name="state" element="com.netflix.discovery.EurekaIdentityHeaderFilter::authInfo:com.netflix.appinfo.AbstractEurekaIdentity" />
+			<role name="Request()" element="com.netflix.discovery.EurekaIdentityHeaderFilter::handle(com.sun.jersey.api.client.ClientRequest):com.sun.jersey.api.client.ClientResponse" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.discovery.shared.transport.jersey2.EurekaIdentityHeaderFilter" />
+			<role name="State" element="com.netflix.appinfo.AbstractEurekaIdentity" />
+			<role name="state" element="com.netflix.discovery.shared.transport.jersey2.EurekaIdentityHeaderFilter::authInfo:com.netflix.appinfo.AbstractEurekaIdentity" />
+			<role name="Request()" element="com.netflix.discovery.shared.transport.jersey2.EurekaIdentityHeaderFilter::filter(javax.ws.rs.client.ClientRequestContext):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.discovery.shared.transport.jersey2.Jersey2EurekaIdentityHeaderFilter" />
+			<role name="State" element="com.netflix.appinfo.AbstractEurekaIdentity" />
+			<role name="state" element="com.netflix.discovery.shared.transport.jersey2.Jersey2EurekaIdentityHeaderFilter::authInfo:com.netflix.appinfo.AbstractEurekaIdentity" />
+			<role name="Request()" element="com.netflix.discovery.shared.transport.jersey2.Jersey2EurekaIdentityHeaderFilter::filter(javax.ws.rs.client.ClientRequestContext):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient" />
+			<role name="State" element="com.netflix.discovery.shared.transport.EurekaHttpClientFactory" />
+			<role name="state" element="com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient::clientFactory:com.netflix.discovery.shared.transport.EurekaHttpClientFactory" />
+			<role name="Request()" element="com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient::execute():com.netflix.discovery.shared.transport.EurekaHttpResponse" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.eureka.registry.RemoteRegionRegistry" />
+			<role name="State" element="com.netflix.discovery.shared.transport.EurekaHttpClient" />
+			<role name="state" element="com.netflix.eureka.registry.RemoteRegionRegistry::eurekaHttpClient:com.netflix.discovery.shared.transport.EurekaHttpClient" />
+			<role name="Request()" element="com.netflix.eureka.registry.RemoteRegionRegistry::fetchRemoteRegistry(boolean):com.netflix.discovery.shared.Applications" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.eureka.transport.JerseyRemoteRegionClientFactory" />
+			<role name="State" element="com.netflix.eureka.EurekaServerConfig" />
+			<role name="state" element="com.netflix.eureka.transport.JerseyRemoteRegionClientFactory::serverConfig:com.netflix.eureka.EurekaServerConfig" />
+			<role name="Request()" element="com.netflix.eureka.transport.JerseyRemoteRegionClientFactory::getOrCreateJerseyClient(java.lang.String, com.netflix.discovery.shared.resolver.EurekaEndpoint):com.netflix.discovery.shared.transport.jersey.EurekaJerseyClient" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.eureka.aws.EIPManager" />
+			<role name="State" element="com.netflix.discovery.EurekaClientConfig" />
+			<role name="state" element="com.netflix.eureka.aws.EIPManager::clientConfig:com.netflix.discovery.EurekaClientConfig" />
+			<role name="Request()" element="com.netflix.eureka.aws.EIPManager::getCandidateEIPs(java.lang.String, java.lang.String):java.util.Collection" />
+			<role name="Request()" element="com.netflix.eureka.aws.EIPManager::getEIPsForZoneFromConfig(java.lang.String):java.util.Collection" />
+			<role name="Request()" element="com.netflix.eureka.aws.EIPManager::getEIPsFromServiceUrls(java.util.List):java.util.Collection" />
+			<role name="Request()" element="com.netflix.eureka.aws.EIPManager::getEC2Service():com.amazonaws.services.ec2.AmazonEC2" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.eureka.aws.ElasticNetworkInterfaceBinder" />
+			<role name="State" element="com.netflix.discovery.EurekaClientConfig" />
+			<role name="state" element="com.netflix.eureka.aws.ElasticNetworkInterfaceBinder::clientConfig:com.netflix.discovery.EurekaClientConfig" />
+			<role name="Request()" element="com.netflix.eureka.aws.ElasticNetworkInterfaceBinder::getCandidateIps():java.util.List" />
+			<role name="Request()" element="com.netflix.eureka.aws.ElasticNetworkInterfaceBinder::getIPsForZoneFromConfig(java.lang.String):java.util.Collection" />
+			<role name="Request()" element="com.netflix.eureka.aws.ElasticNetworkInterfaceBinder::getEC2Service():com.amazonaws.services.ec2.AmazonEC2" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.eureka.aws.Route53Binder" />
+			<role name="State" element="com.netflix.discovery.EurekaClientConfig" />
+			<role name="state" element="com.netflix.eureka.aws.Route53Binder::clientConfig:com.netflix.discovery.EurekaClientConfig" />
+			<role name="Request()" element="com.netflix.eureka.aws.Route53Binder::getDeclaredDomains():java.util.List" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.discovery.shared.resolver.LegacyClusterResolver$LegacyClusterResolverFactory" />
+			<role name="State" element="com.netflix.discovery.EurekaClientConfig" />
+			<role name="state" element="com.netflix.discovery.shared.resolver.LegacyClusterResolver$LegacyClusterResolverFactory::clientConfig:com.netflix.discovery.EurekaClientConfig" />
+			<role name="Request()" element="com.netflix.discovery.shared.resolver.LegacyClusterResolver$LegacyClusterResolverFactory::createClusterResolver():com.netflix.discovery.shared.resolver.ClusterResolver" />
+			<role name="Request()" element="com.netflix.discovery.shared.resolver.LegacyClusterResolver$LegacyClusterResolverFactory::createEurekaEndpointsFromConfig():java.util.List" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.discovery.shared.resolver.ReloadingClusterResolver" />
+			<role name="State" element="com.netflix.discovery.shared.resolver.ClusterResolverFactory" />
+			<role name="state" element="com.netflix.discovery.shared.resolver.ReloadingClusterResolver::factory:com.netflix.discovery.shared.resolver.ClusterResolverFactory" />
+			<role name="Request()" element="com.netflix.discovery.shared.resolver.ReloadingClusterResolver::reload():com.netflix.discovery.shared.resolver.ClusterResolver" />
+		</instance>
+		<instance>
+			<role name="State" element="com.netflix.discovery.shared.transport.EurekaHttpClientFactory" />
+			<role name="Context" element="com.netflix.discovery.DiscoveryClient$EurekaTransport" />
+			<role name="state" element="com.netflix.discovery.DiscoveryClient$EurekaTransport::registrationClientFactory:com.netflix.discovery.shared.transport.EurekaHttpClientFactory" />
+			<role name="state" element="com.netflix.discovery.DiscoveryClient$EurekaTransport::queryClientFactory:com.netflix.discovery.shared.transport.EurekaHttpClientFactory" />
+			<role name="Request()" element="com.netflix.discovery.DiscoveryClient$EurekaTransport::shutdown():void" />
+		</instance>
+		<instance>
+			<role name="State" element="com.netflix.appinfo.ApplicationInfoManager$StatusChangeListener" />
+			<role name="Context" element="com.netflix.discovery.DiscoveryClient" />
+			<role name="state" element="com.netflix.discovery.DiscoveryClient::statusChangeListener:com.netflix.appinfo.ApplicationInfoManager$StatusChangeListener" />
+			<role name="Request()" element="com.netflix.discovery.DiscoveryClient::shutdown():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient" />
+			<role name="State" element="com.netflix.discovery.shared.resolver.ClusterResolver" />
+			<role name="state" element="com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient::clusterResolver:com.netflix.discovery.shared.resolver.ClusterResolver" />
+			<role name="Request()" element="com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient::getHostCandidates():java.util.List" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.discovery.shared.transport.jersey.JerseyEurekaHttpClientFactory" />
+			<role name="State" element="com.netflix.discovery.shared.transport.jersey.EurekaJerseyClient" />
+			<role name="state" element="com.netflix.discovery.shared.transport.jersey.JerseyEurekaHttpClientFactory::jerseyClient:com.netflix.discovery.shared.transport.jersey.EurekaJerseyClient" />
+			<role name="Request()" element="com.netflix.discovery.shared.transport.jersey.JerseyEurekaHttpClientFactory::shutdown():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.eureka.transport.JerseyRemoteRegionClientFactory" />
+			<role name="State" element="com.netflix.discovery.shared.transport.jersey.EurekaJerseyClient" />
+			<role name="state" element="com.netflix.eureka.transport.JerseyRemoteRegionClientFactory::jerseyClient:com.netflix.discovery.shared.transport.jersey.EurekaJerseyClient" />
+			<role name="Request()" element="com.netflix.eureka.transport.JerseyRemoteRegionClientFactory::shutdown():void" />
+			<role name="Request()" element="com.netflix.eureka.transport.JerseyRemoteRegionClientFactory::getOrCreateJerseyClient(java.lang.String, com.netflix.discovery.shared.resolver.EurekaEndpoint):com.netflix.discovery.shared.transport.jersey.EurekaJerseyClient" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.appinfo.InstanceInfo$Builder" />
+			<role name="State" element="com.netflix.appinfo.providers.VipAddressResolver" />
+			<role name="state" element="com.netflix.appinfo.InstanceInfo$Builder::vipAddressResolver:com.netflix.appinfo.providers.VipAddressResolver" />
+			<role name="Request()" element="com.netflix.appinfo.InstanceInfo$Builder::setVIPAddress(java.lang.String):com.netflix.appinfo.InstanceInfo$Builder" />
+			<role name="Request()" element="com.netflix.appinfo.InstanceInfo$Builder::setSecureVIPAddress(java.lang.String):com.netflix.appinfo.InstanceInfo$Builder" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.discovery.InstanceRegionChecker" />
+			<role name="State" element="com.netflix.discovery.AzToRegionMapper" />
+			<role name="state" element="com.netflix.discovery.InstanceRegionChecker::azToRegionMapper:com.netflix.discovery.AzToRegionMapper" />
+			<role name="Request()" element="com.netflix.discovery.InstanceRegionChecker::getInstanceRegion(com.netflix.appinfo.InstanceInfo):java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.discovery.shared.resolver.AsyncResolver" />
+			<role name="State" element="com.netflix.discovery.shared.resolver.ClusterResolver" />
+			<role name="state" element="com.netflix.discovery.shared.resolver.AsyncResolver::delegate:com.netflix.discovery.shared.resolver.ClusterResolver" />
+			<role name="Request()" element="com.netflix.discovery.shared.resolver.AsyncResolver::getRegion():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.eureka.EurekaBootStrap" />
+			<role name="State" element="com.netflix.discovery.EurekaClient" />
+			<role name="state" element="com.netflix.eureka.EurekaBootStrap::eurekaClient:com.netflix.discovery.EurekaClient" />
+			<role name="Request()" element="com.netflix.eureka.EurekaBootStrap::initEurekaServerContext():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.eureka.EurekaBootStrap" />
+			<role name="State" element="com.netflix.eureka.EurekaServerContext" />
+			<role name="state" element="com.netflix.eureka.EurekaBootStrap::serverContext:com.netflix.eureka.EurekaServerContext" />
+			<role name="Request()" element="com.netflix.eureka.EurekaBootStrap::initEurekaServerContext():void" />
+			<role name="Request()" element="com.netflix.eureka.EurekaBootStrap::destroyEurekaServerContext():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.eureka.EurekaBootStrap" />
+			<role name="State" element="com.netflix.eureka.aws.AwsBinder" />
+			<role name="state" element="com.netflix.eureka.EurekaBootStrap::awsBinder:com.netflix.eureka.aws.AwsBinder" />
+			<role name="Request()" element="com.netflix.eureka.EurekaBootStrap::initEurekaServerContext():void" />
+			<role name="Request()" element="com.netflix.eureka.EurekaBootStrap::destroyEurekaServerContext():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.eureka.cluster.PeerEurekaNodes" />
+			<role name="State" element="com.netflix.discovery.EurekaClientConfig" />
+			<role name="state" element="com.netflix.eureka.cluster.PeerEurekaNodes::clientConfig:com.netflix.discovery.EurekaClientConfig" />
+			<role name="Request()" element="com.netflix.eureka.cluster.PeerEurekaNodes::resolvePeerUrls():java.util.List" />
+			<role name="Request()" element="com.netflix.eureka.cluster.PeerEurekaNodes::isInstanceURL(java.lang.String, com.netflix.appinfo.InstanceInfo):boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.appinfo.ApplicationInfoManager" />
+			<role name="State" element="com.netflix.appinfo.ApplicationInfoManager$InstanceStatusMapper" />
+			<role name="state" element="com.netflix.appinfo.ApplicationInfoManager::instanceStatusMapper:com.netflix.appinfo.ApplicationInfoManager$InstanceStatusMapper" />
+			<role name="Request()" element="com.netflix.appinfo.ApplicationInfoManager::setInstanceStatus(com.netflix.appinfo.InstanceInfo$InstanceStatus):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient" />
+			<role name="State" element="com.netflix.discovery.shared.dns.DnsService" />
+			<role name="state" element="com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient::dnsService:com.netflix.discovery.shared.dns.DnsService" />
+			<role name="Request()" element="com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient::getRedirectBaseUri(java.net.URI):java.net.URI" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient" />
+			<role name="State" element="com.netflix.discovery.shared.resolver.EurekaEndpoint" />
+			<role name="state" element="com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient::serviceEndpoint:com.netflix.discovery.shared.resolver.EurekaEndpoint" />
+			<role name="Request()" element="com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient::executeOnNewServer(, java.util.concurrent.atomic.AtomicReference):com.netflix.discovery.shared.transport.EurekaHttpResponse" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.eureka.transport.JerseyReplicationClient" />
+			<role name="State" element="com.netflix.discovery.shared.transport.jersey.EurekaJerseyClient" />
+			<role name="state" element="com.netflix.eureka.transport.JerseyReplicationClient::jerseyClient:com.netflix.discovery.shared.transport.jersey.EurekaJerseyClient" />
+			<role name="Request()" element="com.netflix.eureka.transport.JerseyReplicationClient::sendHeartBeat(java.lang.String, java.lang.String, com.netflix.appinfo.InstanceInfo, com.netflix.appinfo.InstanceInfo$InstanceStatus):com.netflix.discovery.shared.transport.EurekaHttpResponse" />
+			<role name="Request()" element="com.netflix.eureka.transport.JerseyReplicationClient::shutdown():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.eureka.transport.Jersey2ReplicationClient" />
+			<role name="State" element="com.netflix.discovery.shared.transport.jersey2.EurekaJersey2Client" />
+			<role name="state" element="com.netflix.eureka.transport.Jersey2ReplicationClient::eurekaJersey2Client:com.netflix.discovery.shared.transport.jersey2.EurekaJersey2Client" />
+			<role name="Request()" element="com.netflix.eureka.transport.Jersey2ReplicationClient::shutdown():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.discovery.shared.resolver.aws.ApplicationsResolver" />
+			<role name="State" element="com.netflix.discovery.shared.transport.EurekaTransportConfig" />
+			<role name="state" element="com.netflix.discovery.shared.resolver.aws.ApplicationsResolver::transportConfig:com.netflix.discovery.shared.transport.EurekaTransportConfig" />
+			<role name="Request()" element="com.netflix.discovery.shared.resolver.aws.ApplicationsResolver::getClusterEndpoints():java.util.List" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.eureka.cluster.PeerEurekaNodes" />
+			<role name="State" element="com.netflix.eureka.EurekaServerConfig" />
+			<role name="state" element="com.netflix.eureka.cluster.PeerEurekaNodes::serverConfig:com.netflix.eureka.EurekaServerConfig" />
+			<role name="Request()" element="com.netflix.eureka.cluster.PeerEurekaNodes::getMinNumberOfAvailablePeers():int" />
+			<role name="Request()" element="com.netflix.eureka.cluster.PeerEurekaNodes::start():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.eureka.DefaultEurekaServerContext" />
+			<role name="State" element="com.netflix.eureka.registry.PeerAwareInstanceRegistry" />
+			<role name="state" element="com.netflix.eureka.DefaultEurekaServerContext::registry:com.netflix.eureka.registry.PeerAwareInstanceRegistry" />
+			<role name="Request()" element="com.netflix.eureka.DefaultEurekaServerContext::initialize():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.appinfo.HealthCheckCallbackToHandlerBridge" />
+			<role name="State" element="com.netflix.appinfo.HealthCheckCallback" />
+			<role name="state" element="com.netflix.appinfo.HealthCheckCallbackToHandlerBridge::callback:com.netflix.appinfo.HealthCheckCallback" />
+			<role name="Request()" element="com.netflix.appinfo.HealthCheckCallbackToHandlerBridge::getStatus(com.netflix.appinfo.InstanceInfo$InstanceStatus):com.netflix.appinfo.InstanceInfo$InstanceStatus" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.discovery.shared.resolver.aws.ApplicationsResolver" />
+			<role name="State" element="com.netflix.discovery.shared.resolver.aws.ApplicationsResolver$ApplicationsSource" />
+			<role name="state" element="com.netflix.discovery.shared.resolver.aws.ApplicationsResolver::applicationsSource:com.netflix.discovery.shared.resolver.aws.ApplicationsResolver$ApplicationsSource" />
+			<role name="Request()" element="com.netflix.discovery.shared.resolver.aws.ApplicationsResolver::getClusterEndpoints():java.util.List" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient" />
+			<role name="State" element="com.netflix.discovery.shared.transport.EurekaTransportConfig" />
+			<role name="state" element="com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient::transportConfig:com.netflix.discovery.shared.transport.EurekaTransportConfig" />
+			<role name="Request()" element="com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient::getHostCandidates():java.util.List" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient" />
+			<role name="State" element="com.netflix.discovery.shared.transport.decorator.ServerStatusEvaluator" />
+			<role name="state" element="com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient::serverStatusEvaluator:com.netflix.discovery.shared.transport.decorator.ServerStatusEvaluator" />
+			<role name="Request()" element="com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient::execute():com.netflix.discovery.shared.transport.EurekaHttpResponse" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.discovery.shared.resolver.aws.EurekaHttpResolver" />
+			<role name="State" element="com.netflix.discovery.shared.transport.EurekaHttpClientFactory" />
+			<role name="state" element="com.netflix.discovery.shared.resolver.aws.EurekaHttpResolver::clientFactory:com.netflix.discovery.shared.transport.EurekaHttpClientFactory" />
+			<role name="Request()" element="com.netflix.discovery.shared.resolver.aws.EurekaHttpResolver::getClusterEndpoints():java.util.List" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.eureka.transport.JerseyRemoteRegionClientFactory" />
+			<role name="State" element="com.netflix.eureka.resources.ServerCodecs" />
+			<role name="state" element="com.netflix.eureka.transport.JerseyRemoteRegionClientFactory::serverCodecs:com.netflix.eureka.resources.ServerCodecs" />
+			<role name="Request()" element="com.netflix.eureka.transport.JerseyRemoteRegionClientFactory::getOrCreateJerseyClient(java.lang.String, com.netflix.discovery.shared.resolver.EurekaEndpoint):com.netflix.discovery.shared.transport.jersey.EurekaJerseyClient" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.eureka.cluster.ReplicationTaskProcessor" />
+			<role name="State" element="com.netflix.eureka.cluster.HttpReplicationClient" />
+			<role name="state" element="com.netflix.eureka.cluster.ReplicationTaskProcessor::replicationClient:com.netflix.eureka.cluster.HttpReplicationClient" />
+			<role name="Request()" element="com.netflix.eureka.cluster.ReplicationTaskProcessor::process(java.util.List):com.netflix.eureka.util.batcher.TaskProcessor$ProcessingResult" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.eureka.registry.ResponseCacheImpl" />
+			<role name="State" element="com.netflix.eureka.resources.ServerCodecs" />
+			<role name="state" element="com.netflix.eureka.registry.ResponseCacheImpl::serverCodecs:com.netflix.eureka.resources.ServerCodecs" />
+			<role name="Request()" element="com.netflix.eureka.registry.ResponseCacheImpl::getPayLoad(com.netflix.eureka.registry.Key, com.netflix.discovery.shared.Applications):java.lang.String" />
+			<role name="Request()" element="com.netflix.eureka.registry.ResponseCacheImpl::getPayLoad(com.netflix.eureka.registry.Key, com.netflix.discovery.shared.Application):java.lang.String" />
+		</instance>
+	</pattern>
+	<pattern name="Strategy" />
+	<pattern name="Bridge">
+		<instance>
+			<role name="Abstraction" element="com.netflix.eureka.registry.AbstractInstanceRegistry" />
+			<role name="Implementor" element="com.netflix.eureka.EurekaServerConfig" />
+			<role name="implementor" element="com.netflix.eureka.registry.AbstractInstanceRegistry::serverConfig:com.netflix.eureka.EurekaServerConfig" />
+			<role name="Operation()" element="com.netflix.eureka.registry.AbstractInstanceRegistry::initRemoteRegionRegistry():void" />
+			<role name="Operation()" element="com.netflix.eureka.registry.AbstractInstanceRegistry::register(com.netflix.appinfo.InstanceInfo, int, boolean):void" />
+			<role name="Operation()" element="com.netflix.eureka.registry.AbstractInstanceRegistry::evict(long):void" />
+			<role name="Operation()" element="com.netflix.eureka.registry.AbstractInstanceRegistry::getApplication(java.lang.String):com.netflix.discovery.shared.Application" />
+			<role name="Operation()" element="com.netflix.eureka.registry.AbstractInstanceRegistry::getApplications():com.netflix.discovery.shared.Applications" />
+			<role name="Operation()" element="com.netflix.eureka.registry.AbstractInstanceRegistry::shouldFetchFromRemoteRegistry(java.lang.String, java.lang.String):boolean" />
+			<role name="Operation()" element="com.netflix.eureka.registry.AbstractInstanceRegistry::getApplicationDeltas():com.netflix.discovery.shared.Applications" />
+			<role name="Operation()" element="com.netflix.eureka.registry.AbstractInstanceRegistry::postInit():void" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="com.netflix.eureka.registry.AbstractInstanceRegistry" />
+			<role name="Implementor" element="com.netflix.eureka.registry.ResponseCache" />
+			<role name="implementor" element="com.netflix.eureka.registry.AbstractInstanceRegistry::responseCache:com.netflix.eureka.registry.ResponseCache" />
+			<role name="Operation()" element="com.netflix.eureka.registry.AbstractInstanceRegistry::getApplicationDeltas():com.netflix.discovery.shared.Applications" />
+			<role name="Operation()" element="com.netflix.eureka.registry.AbstractInstanceRegistry::getApplicationDeltasFromMultipleRegions(java.lang.String[]):com.netflix.discovery.shared.Applications" />
+			<role name="Operation()" element="com.netflix.eureka.registry.AbstractInstanceRegistry::invalidateCache(java.lang.String, java.lang.String, java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="com.netflix.eureka.resources.AbstractVIPResource" />
+			<role name="Implementor" element="com.netflix.eureka.registry.PeerAwareInstanceRegistry" />
+			<role name="implementor" element="com.netflix.eureka.resources.AbstractVIPResource::registry:com.netflix.eureka.registry.PeerAwareInstanceRegistry" />
+			<role name="Operation()" element="com.netflix.eureka.resources.AbstractVIPResource::getVipResponse(java.lang.String, java.lang.String, java.lang.String, com.netflix.appinfo.EurekaAccept, com.netflix.eureka.registry.Key$EntityType):javax.ws.rs.core.Response" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="com.netflix.eureka.resources.AbstractVIPResource" />
+			<role name="Implementor" element="com.netflix.eureka.registry.ResponseCache" />
+			<role name="implementor" element="com.netflix.eureka.resources.AbstractVIPResource::responseCache:com.netflix.eureka.registry.ResponseCache" />
+			<role name="Operation()" element="com.netflix.eureka.resources.AbstractVIPResource::getVipResponse(java.lang.String, java.lang.String, java.lang.String, com.netflix.appinfo.EurekaAccept, com.netflix.eureka.registry.Key$EntityType):javax.ws.rs.core.Response" />
+		</instance>
+	</pattern>
+	<pattern name="Template Method">
+		<instance>
+			<role name="AbstractClass" element="com.netflix.discovery.AbstractAzToRegionMapper" />
+			<role name="TemplateMethod()" element="com.netflix.discovery.AbstractAzToRegionMapper::setRegionsToFetch(java.lang.String[]):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient" />
+			<role name="TemplateMethod()" element="com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient::register(com.netflix.appinfo.InstanceInfo):com.netflix.discovery.shared.transport.EurekaHttpResponse" />
+			<role name="TemplateMethod()" element="com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient::cancel(java.lang.String, java.lang.String):com.netflix.discovery.shared.transport.EurekaHttpResponse" />
+			<role name="TemplateMethod()" element="com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient::sendHeartBeat(java.lang.String, java.lang.String, com.netflix.appinfo.InstanceInfo, com.netflix.appinfo.InstanceInfo$InstanceStatus):com.netflix.discovery.shared.transport.EurekaHttpResponse" />
+			<role name="TemplateMethod()" element="com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient::statusUpdate(java.lang.String, java.lang.String, com.netflix.appinfo.InstanceInfo$InstanceStatus, com.netflix.appinfo.InstanceInfo):com.netflix.discovery.shared.transport.EurekaHttpResponse" />
+			<role name="TemplateMethod()" element="com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient::deleteStatusOverride(java.lang.String, java.lang.String, com.netflix.appinfo.InstanceInfo):com.netflix.discovery.shared.transport.EurekaHttpResponse" />
+			<role name="TemplateMethod()" element="com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient::getApplicationsInternal(java.lang.String, java.lang.String[]):com.netflix.discovery.shared.transport.EurekaHttpResponse" />
+			<role name="TemplateMethod()" element="com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient::getApplication(java.lang.String):com.netflix.discovery.shared.transport.EurekaHttpResponse" />
+			<role name="TemplateMethod()" element="com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient::getInstanceInternal(java.lang.String):com.netflix.discovery.shared.transport.EurekaHttpResponse" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.netflix.discovery.shared.transport.jersey2.AbstractJersey2EurekaHttpClient" />
+			<role name="TemplateMethod()" element="com.netflix.discovery.shared.transport.jersey2.AbstractJersey2EurekaHttpClient::register(com.netflix.appinfo.InstanceInfo):com.netflix.discovery.shared.transport.EurekaHttpResponse" />
+			<role name="TemplateMethod()" element="com.netflix.discovery.shared.transport.jersey2.AbstractJersey2EurekaHttpClient::cancel(java.lang.String, java.lang.String):com.netflix.discovery.shared.transport.EurekaHttpResponse" />
+			<role name="TemplateMethod()" element="com.netflix.discovery.shared.transport.jersey2.AbstractJersey2EurekaHttpClient::sendHeartBeat(java.lang.String, java.lang.String, com.netflix.appinfo.InstanceInfo, com.netflix.appinfo.InstanceInfo$InstanceStatus):com.netflix.discovery.shared.transport.EurekaHttpResponse" />
+			<role name="TemplateMethod()" element="com.netflix.discovery.shared.transport.jersey2.AbstractJersey2EurekaHttpClient::statusUpdate(java.lang.String, java.lang.String, com.netflix.appinfo.InstanceInfo$InstanceStatus, com.netflix.appinfo.InstanceInfo):com.netflix.discovery.shared.transport.EurekaHttpResponse" />
+			<role name="TemplateMethod()" element="com.netflix.discovery.shared.transport.jersey2.AbstractJersey2EurekaHttpClient::deleteStatusOverride(java.lang.String, java.lang.String, com.netflix.appinfo.InstanceInfo):com.netflix.discovery.shared.transport.EurekaHttpResponse" />
+			<role name="TemplateMethod()" element="com.netflix.discovery.shared.transport.jersey2.AbstractJersey2EurekaHttpClient::getApplication(java.lang.String):com.netflix.discovery.shared.transport.EurekaHttpResponse" />
+			<role name="TemplateMethod()" element="com.netflix.discovery.shared.transport.jersey2.AbstractJersey2EurekaHttpClient::getApplicationsInternal(java.lang.String, java.lang.String[]):com.netflix.discovery.shared.transport.EurekaHttpResponse" />
+			<role name="TemplateMethod()" element="com.netflix.discovery.shared.transport.jersey2.AbstractJersey2EurekaHttpClient::getInstanceInternal(java.lang.String):com.netflix.discovery.shared.transport.EurekaHttpResponse" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.netflix.eureka.cluster.ReplicationTask" />
+			<role name="TemplateMethod()" element="com.netflix.eureka.cluster.ReplicationTask::handleFailure(int, java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.netflix.eureka.registry.AbstractInstanceRegistry" />
+			<role name="TemplateMethod()" element="com.netflix.eureka.registry.AbstractInstanceRegistry::getOverriddenInstanceStatus(com.netflix.appinfo.InstanceInfo, com.netflix.eureka.lease.Lease, boolean):com.netflix.appinfo.InstanceInfo$InstanceStatus" />
+		</instance>
+	</pattern>
+	<pattern name="Visitor" />
+	<pattern name="Proxy">
+		<instance>
+			<role name="Proxy" element="com.netflix.discovery.shared.transport.EurekaHttpClients$2" />
+			<role name="RealSubject" element="com.netflix.discovery.shared.resolver.aws.ApplicationsResolver" />
+			<role name="Request()" element="com.netflix.discovery.shared.transport.EurekaHttpClients$2::getClusterEndpoints():java.util.List" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="com.netflix.discovery.shared.transport.EurekaHttpClients$2" />
+			<role name="RealSubject" element="com.netflix.discovery.shared.resolver.aws.EurekaHttpResolver" />
+			<role name="Request()" element="com.netflix.discovery.shared.transport.EurekaHttpClients$2::getClusterEndpoints():java.util.List" />
+		</instance>
+	</pattern>
+	<pattern name="Proxy2">
+		<instance>
+			<role name="Proxy" element="com.netflix.discovery.shared.resolver.LegacyClusterResolver" />
+			<role name="RealSubject" element="com.netflix.discovery.shared.resolver.ReloadingClusterResolver" />
+			<role name="Subject" element="com.netflix.discovery.shared.resolver.ClusterResolver" />
+			<role name="subject" element="com.netflix.discovery.shared.resolver.LegacyClusterResolver::delegate:com.netflix.discovery.shared.resolver.ClusterResolver" />
+			<role name="Request()" element="com.netflix.discovery.shared.resolver.LegacyClusterResolver::getRegion():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="com.netflix.eureka.registry.rule.FirstMatchWinsCompositeRule" />
+			<role name="RealSubject" element="com.netflix.eureka.registry.rule.AlwaysMatchInstanceStatusRule" />
+			<role name="Subject" element="com.netflix.eureka.registry.rule.InstanceStatusOverrideRule" />
+			<role name="subject" element="com.netflix.eureka.registry.rule.FirstMatchWinsCompositeRule::defaultRule:com.netflix.eureka.registry.rule.InstanceStatusOverrideRule" />
+			<role name="subject" element="com.netflix.eureka.registry.rule.FirstMatchWinsCompositeRule::rules:com.netflix.eureka.registry.rule.InstanceStatusOverrideRule[]" />
+			<role name="Request()" element="com.netflix.eureka.registry.rule.FirstMatchWinsCompositeRule::apply(com.netflix.appinfo.InstanceInfo, com.netflix.eureka.lease.Lease, boolean):com.netflix.eureka.registry.rule.StatusOverrideResult" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="com.netflix.eureka.aws.AwsBinderDelegate" />
+			<role name="RealSubject" element="com.netflix.eureka.aws.EIPManager" />
+			<role name="Subject" element="com.netflix.eureka.aws.AwsBinder" />
+			<role name="subject" element="com.netflix.eureka.aws.AwsBinderDelegate::delegate:com.netflix.eureka.aws.AwsBinder" />
+			<role name="Request()" element="com.netflix.eureka.aws.AwsBinderDelegate::start():void" />
+			<role name="Request()" element="com.netflix.eureka.aws.AwsBinderDelegate::shutdown():void" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="com.netflix.eureka.aws.AwsBinderDelegate" />
+			<role name="RealSubject" element="com.netflix.eureka.aws.ElasticNetworkInterfaceBinder" />
+			<role name="Subject" element="com.netflix.eureka.aws.AwsBinder" />
+			<role name="subject" element="com.netflix.eureka.aws.AwsBinderDelegate::delegate:com.netflix.eureka.aws.AwsBinder" />
+			<role name="Request()" element="com.netflix.eureka.aws.AwsBinderDelegate::start():void" />
+			<role name="Request()" element="com.netflix.eureka.aws.AwsBinderDelegate::shutdown():void" />
+		</instance>
+		<instance>
+			<role name="Proxy" element="com.netflix.eureka.aws.AwsBinderDelegate" />
+			<role name="RealSubject" element="com.netflix.eureka.aws.Route53Binder" />
+			<role name="Subject" element="com.netflix.eureka.aws.AwsBinder" />
+			<role name="subject" element="com.netflix.eureka.aws.AwsBinderDelegate::delegate:com.netflix.eureka.aws.AwsBinder" />
+			<role name="Request()" element="com.netflix.eureka.aws.AwsBinderDelegate::start():void" />
+			<role name="Request()" element="com.netflix.eureka.aws.AwsBinderDelegate::shutdown():void" />
+		</instance>
+	</pattern>
+	<pattern name="Chain of Responsibility" />
+</system>
+

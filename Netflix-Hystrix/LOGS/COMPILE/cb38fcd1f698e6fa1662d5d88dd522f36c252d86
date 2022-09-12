@@ -1,0 +1,45 @@
+Downloading https://services.gradle.org/distributions/gradle-1.12-bin.zip
+........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Unzipping /root/.gradle/wrapper/dists/gradle-1.12-bin/2qvnajdoo11hasdfkikjaci26k/gradle-1.12-bin.zip to /root/.gradle/wrapper/dists/gradle-1.12-bin/2qvnajdoo11hasdfkikjaci26k
+Set executable permissions for: /root/.gradle/wrapper/dists/gradle-1.12-bin/2qvnajdoo11hasdfkikjaci26k/gradle-1.12/bin/gradle
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'hystrix'.
+> Could not resolve all dependencies for configuration ':classpath'.
+   > Could not resolve nl.javadude.gradle.plugins:license-gradle-plugin:0.6.1.
+     Required by:
+         :hystrix:1.4.0-RC6
+      > java.lang.NullPointerException (no error message)
+      > Could not GET 'http://repo1.maven.org/maven2/nl/javadude/gradle/plugins/license-gradle-plugin/0.6.1/license-gradle-plugin-0.6.1.pom'. Received status code 501 from server: HTTPS Required
+      > Could not GET 'http://dl.bintray.com/content/netflixoss/external-gradle-plugins/nl/javadude/gradle/plugins/license-gradle-plugin/0.6.1/license-gradle-plugin-0.6.1.pom'.
+         > The target server failed to respond
+   > Could not resolve com.mapvine:gradle-cobertura-plugin:0.1.
+     Required by:
+         :hystrix:1.4.0-RC6
+      > java.lang.NullPointerException (no error message)
+      > Could not GET 'http://repo1.maven.org/maven2/com/mapvine/gradle-cobertura-plugin/0.1/gradle-cobertura-plugin-0.1.pom'. Received status code 501 from server: HTTPS Required
+      > Could not GET 'http://dl.bintray.com/content/netflixoss/external-gradle-plugins/com/mapvine/gradle-cobertura-plugin/0.1/gradle-cobertura-plugin-0.1.pom'.
+         > The target server failed to respond
+   > Could not resolve gradle-release:gradle-release:1.1.5.
+     Required by:
+         :hystrix:1.4.0-RC6
+      > java.lang.NullPointerException (no error message)
+      > Could not GET 'http://repo1.maven.org/maven2/gradle-release/gradle-release/1.1.5/gradle-release-1.1.5.pom'. Received status code 501 from server: HTTPS Required
+      > Could not GET 'http://dl.bintray.com/content/netflixoss/external-gradle-plugins/gradle-release/gradle-release/1.1.5/gradle-release-1.1.5.pom'.
+         > The target server failed to respond
+   > Could not resolve org.ajoberstar:gradle-git:0.5.0.
+     Required by:
+         :hystrix:1.4.0-RC6
+      > java.lang.NullPointerException (no error message)
+      > Could not GET 'http://repo1.maven.org/maven2/org/ajoberstar/gradle-git/0.5.0/gradle-git-0.5.0.pom'. Received status code 501 from server: HTTPS Required
+      > Could not GET 'http://dl.bintray.com/content/netflixoss/external-gradle-plugins/org/ajoberstar/gradle-git/0.5.0/gradle-git-0.5.0.pom'.
+         > The target server failed to respond
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 10.679 secs

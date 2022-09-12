@@ -1,0 +1,701 @@
+COH	DAC	ELOC	HALSTEADLENGHT	HALSTEADVOCABULARY	HALSTEADVOLUME	ID	LCC	LCOM	LOC	MCCABEMETRIC	MPC	NAME	NOA	NOO	NUMBEROFCHILDREN	NUMBEROFIMPORTS	NUMBOFATTRIBUTES	NUMBOFMETHODS	PATTERNROLE	PATTERNTYPE	RFC	TCC
+1	1	19	43	130	209.30398136959005	358	0	0	61	3	9	com.ctrip.framework.apollo.assembly.LocalApolloApplication	0	0	0	12	1	1			10	0
+1	1	19	43	130	209.30398136959005	354	0	0	62	3	9	com.ctrip.framework.apollo.assembly.ApolloApplication	0	0	0	12	1	1			10	0
+-1	0	18	52	108	243.47082381045942	667	0	0	32	5	9	com.ctrip.framework.apollo.demo.spring.javaConfigDemo.AnnotationApplication	0	0	0	8	0	1			10	0
+0	3	17	39	75	168.3820364279161	727	0	0	38	3	3	com.ctrip.framework.apollo.demo.spring.springBootDemo.refresh.SpringBootApolloRefreshConfig	0	0	0	9	3	2			5	0
+0	5	33	124	238	678.5615635352628	683	0	0	100	11	2	com.ctrip.framework.apollo.demo.spring.springBootDemo.config.SampleRedisConfig	0	0	0	11	6	7			9	0
+-1	0	28	73	180	379.08585011498536	682	0	0	49	6	10	com.ctrip.framework.apollo.demo.spring.springBootDemo.SpringBootSampleApplication	0	0	0	11	0	1			11	0
+0	2	25	49	110	230.3235379238284	728	1	0	37	9	3	com.ctrip.framework.apollo.demo.spring.xmlConfigDemo.bean.XmlBean	0	0	0	2	3	5			8	1
+-1	0	18	52	108	243.47082381045942	668	0	0	33	5	9	com.ctrip.framework.apollo.demo.spring.xmlConfigDemo.XmlApplication	0	0	0	8	0	1			10	0
+0	3	38	93	220	501.60736181076965	669	1	0	70	7	4	com.ctrip.framework.apollo.demo.spring.common.bean.AnnotatedBean	0	0	0	6	5	4			8	1
+-1	0	5	12	12	29.818879797456006	673	-1	0	13	0	0	com.ctrip.framework.apollo.demo.spring.common.config.AppConfig	0	0	0	2	0	0			0	-1
+-1	0	5	12	12	29.818879797456006	672	-1	0	13	0	0	com.ctrip.framework.apollo.demo.spring.common.config.AnotherAppConfig	0	0	0	2	0	0			0	-1
+0	5	114	167	410	1004.6982456696251	134	1	14	150	25	55	com.ctrip.framework.apollo.demo.api.ApolloConfigDemo	0	0	0	17	8	9	context	State	64	1
+0	3	43	100	292	567.6753802268282	551	0	0	66	11	29	com.ctrip.framework.apollo.demo.api.SimpleApolloConfigDemo	0	0	0	11	3	4	context	State	33	0
+-1	0	5	14	20	41.94025182975587	280	0	0	11	1	1	com.ctrip.framework.apollo.LocalPortalApplication	0	0	0	2	0	1			2	0
+-1	0	21	43	94	195.36167563761018	841	-1	3	47	6	14	com.ctrip.framework.apollo.SkipAuthorizationConfiguration	0	0	0	10	0	3			17	0
+0	2	70	156	489	966.0085483580801	264	0	13	109	20	25	com.ctrip.framework.apollo.BaseIntegrationTest	0	0	4	18	2	6			31	0
+-1	1	6	18	18	52.02669164213096	272	-1	0	9	0	0	com.ctrip.framework.apollo.Apollo	0	0	0	0	1	0			0	-1
+0	1	104	115	610	737.5477800742461	205	-1	15	181	13	21	com.ctrip.framework.apollo.ConfigServiceTest	0	0	0	13	1	6			27	0
+0	6	161	242	984	1667.7734670866453	264	0	56	251	35	35	com.ctrip.framework.apollo.BaseIntegrationTest	0	0	4	25	13	12			47	0
+0	2	83	97	455	593.6688496382421	177	-1	42	114	27	13	com.ctrip.framework.apollo.ConfigService	0	0	0	6	3	12	singleton	Singleton	25	-1
+-1	0	10	32	40	118.04414253164596	240	0	0	14	2	0	com.ctrip.framework.apollo.ConfigChangeListener	0	0	0	1	0	1			1	0
+-1	0	11	39	48	150.97683942540775	849	0	0	18	5	0	com.ctrip.framework.apollo.PropertiesCompatibleConfigFile	0	0	0	1	0	1	state	State	1	0
+-1	0	10	31	39	113.57041103001903	713	0	0	14	2	0	com.ctrip.framework.apollo.ConfigFileChangeListener	0	0	0	1	0	1			1	0
+-1	0	156	261	1638	1931.721360011797	176	0	210	237	63	0	com.ctrip.framework.apollo.Config	0	0	0	5	0	21	state	State	21	0
+-1	0	41	77	196	406.4148287607498	448	0	21	55	17	0	com.ctrip.framework.apollo.ConfigFile	0	0	0	2	0	7			7	0
+-1	0	5	15	21	45.667836565851346	175	0	0	13	1	1	com.ctrip.framework.apollo.LocalAdminServiceApplication	0	0	0	3	0	1			2	0
+-1	0	2	7	7	13.621371043387192	229	-1	0	19	0	0	com.ctrip.framework.apollo.AdminServiceTestConfiguration	0	0	0	7	0	0			0	-1
+-1	0	2	7	7	13.621371043387192	252	-1	0	18	0	0	com.ctrip.framework.apollo.ConfigServiceTestConfiguration	0	0	0	7	0	0			0	-1
+-1	0	5	15	21	45.667836565851346	173	0	0	13	1	1	com.ctrip.framework.apollo.LocalConfigServiceApplication	0	0	0	3	0	1			2	0
+-1	0	22	46	123	221.3604803471312	844	0	0	43	3	6	com.ctrip.framework.apollo.portal.controller.CommitControllerTest	1	0	0	7	0	1			7	0
+0	5	32	58	158	293.63051191556406	926	1	3	76	19	15	com.ctrip.framework.apollo.portal.controller.ItemControllerTest	0	0	0	17	5	6			21	1
+-1	0	35	57	182	296.6283811633773	845	-1	1	63	4	16	com.ctrip.framework.apollo.portal.controller.ServerConfigControllerTest	2	0	0	10	0	2			18	0
+0	9	132	240	916	1636.8039275217911	342	-1	0	287	45	81	com.ctrip.framework.apollo.portal.controller.NamespaceController	0	0	0	42	9	15	context	State	96	-1
+1	1	13	50	71	213.13399385206577	436	0	0	30	2	1	com.ctrip.framework.apollo.portal.controller.SsoHeartbeatController	0	0	0	6	1	2	context	State	3	0
+0	2	32	57	185	297.5602820294645	901	2	0	72	8	21	com.ctrip.framework.apollo.portal.controller.AccessKeyController	0	0	0	8	2	6			27	2
+1	1	12	27	42	100.91707969365095	417	0	0	29	3	1	com.ctrip.framework.apollo.portal.controller.OrganizationController	0	0	0	5	1	2			3	0
+0	3	39	126	255	698.1992066899617	838	-1	0	101	7	19	com.ctrip.framework.apollo.portal.controller.ConfigsExportController	0	0	0	24	3	3			22	0
+1	1	12	31	80	135.84282567489032	444	1	0	37	5	4	com.ctrip.framework.apollo.portal.controller.NamespaceLockController	0	0	0	7	1	3			7	1
+1	1	18	43	92	194.43690881310874	552	2	0	52	7	4	com.ctrip.framework.apollo.portal.controller.FavoriteController	0	0	0	12	1	5			9	2
+0	6	107	180	687	1175.820172600023	207	5	0	223	39	68	com.ctrip.framework.apollo.portal.controller.AppController	0	0	0	41	6	12	context	State	80	5
+0	2	13	25	57	101.07628169586376	883	0	0	31	4	2	com.ctrip.framework.apollo.portal.controller.PrefixPathController	0	0	0	5	2	2			4	0
+-1	0	8	22	31	75.54771849867322	744	0	0	19	2	0	com.ctrip.framework.apollo.portal.controller.SignInController	0	0	0	3	0	1			1	0
+0	5	47	130	408	781.464732672541	581	3	0	148	21	32	com.ctrip.framework.apollo.portal.controller.NamespaceBranchController	0	0	0	23	5	7			39	3
+1	1	12	24	49	93.40368715465503	678	0	0	27	3	4	com.ctrip.framework.apollo.portal.controller.PageSettingController	0	0	0	4	1	2			6	0
+1	2	14	48	103	222.46699143502252	426	0	0	43	4	4	com.ctrip.framework.apollo.portal.controller.CommitController	0	0	0	15	2	2			6	0
+0	2	55	100	382	594.5420608606576	517	1	0	107	12	23	com.ctrip.framework.apollo.portal.controller.ConsumerController	0	0	0	15	2	4			27	1
+0	2	27	48	128	232.89745266814163	369	1	0	56	6	11	com.ctrip.framework.apollo.portal.controller.ServerConfigController	0	0	0	12	2	3	context	State	14	1
+0	4	120	212	870	1434.9205608695095	109	-1	6	254	39	80	com.ctrip.framework.apollo.portal.controller.ItemController	0	0	0	38	4	13	context	State	93	-1
+0	6	82	132	573	838.3169146063457	802	1	1	135	19	28	com.ctrip.framework.apollo.portal.controller.SystemInfoController	0	0	0	19	7	7			35	1
+0	2	21	47	128	228.045422404222	432	1	0	57	8	12	com.ctrip.framework.apollo.portal.controller.ClusterController	0	0	0	15	2	4			16	1
+1	2	14	38	89	170.5681820498213	582	0	0	42	4	4	com.ctrip.framework.apollo.portal.controller.ReleaseHistoryController	0	0	0	10	2	2			6	0
+1	1	13	30	65	125.2316180968691	310	0	0	31	4	3	com.ctrip.framework.apollo.portal.controller.EnvController	0	0	0	7	1	2			5	0
+0	5	82	135	584	859.9366326818107	461	3	0	194	29	64	com.ctrip.framework.apollo.portal.controller.ReleaseController	0	0	0	28	5	8	context	State	72	3
+0	6	183	186	1120	1305.92161735778	403	-1	0	343	67	156	com.ctrip.framework.apollo.portal.controller.PermissionController	0	0	0	28	6	23	context	State	179	8
+1	1	21	71	130	345.59494598234636	927	0	0	48	5	7	com.ctrip.framework.apollo.portal.controller.ConfigsImportController	0	0	0	10	1	2			9	0
+0	2	24	66	191	346.6500462510776	542	2	0	76	11	15	com.ctrip.framework.apollo.portal.controller.InstanceController	0	0	0	16	2	5			20	2
+0	3	33	84	195	442.93196291935476	375	1	0	79	13	8	com.ctrip.framework.apollo.portal.controller.UserInfoController	0	0	0	19	3	6	context	State	14	1
+0	2	36	65	176	336.0814596774798	291	0	1	77	5	22	com.ctrip.framework.apollo.portal.ServiceExceptionTest	2	0	0	19	2	2			24	0
+0	2	11	32	50	125.18473617370067	14	-1	1	37	3	2	com.ctrip.framework.apollo.portal.AbstractIntegrationTest	0	0	18	10	2	2			4	-1
+0	8	69	98	360	576.8381950821152	483	2	0	147	15	57	com.ctrip.framework.apollo.portal.RetryableRestTemplateTest	8	0	0	25	13	8			65	2
+-1	0	2	6	6	10.75055681536833	470	-1	0	9	0	0	com.ctrip.framework.apollo.portal.AbstractUnitTest	0	0	17	2	0	0			0	-1
+-1	0	5	19	26	61.90383422240816	3	0	0	23	2	1	com.ctrip.framework.apollo.portal.PortalApplication	0	0	0	8	0	1			2	0
+-1	0	9	27	34	95.21173416463637	848	-1	0	18	2	1	com.ctrip.framework.apollo.portal.ServletInitializer	0	0	0	2	0	1			2	-1
+0	6	137	173	642	1118.3737765383632	274	1	9	219	15	82	com.ctrip.framework.apollo.portal.service.ConfigServiceTest	7	0	0	25	6	7			89	1
+0	3	68	80	303	457.0986244407495	556	4	0	138	15	46	com.ctrip.framework.apollo.portal.service.FavoriteServiceTest	12	0	0	11	3	12			58	4
+0	11	127	139	566	881.0645768702425	344	2	15	229	17	83	com.ctrip.framework.apollo.portal.service.NamespaceServiceTest	10	0	0	25	13	10			93	2
+0	2	111	75	475	462.2486103025981	471	6	0	219	16	94	com.ctrip.framework.apollo.portal.service.AppNamespaceServiceTest	15	0	0	10	2	15			109	6
+1	1	23	41	131	199.8830902512472	902	2	0	43	8	7	com.ctrip.framework.apollo.portal.service.AccessKeyService	0	0	0	8	1	6			13	2
+0	7	132	204	818	1368.1999166669602	458	-1	0	216	41	70	com.ctrip.framework.apollo.portal.service.AppNamespaceService	0	0	0	17	7	14	context	State	84	-1
+1	1	18	41	127	198.61167054480225	544	2	0	41	9	4	com.ctrip.framework.apollo.portal.service.InstanceService	0	0	0	7	1	5			9	2
+0	2	27	62	161	315.04707062903674	636	0	3	56	6	9	com.ctrip.framework.apollo.portal.service.PortalDBPropertySource	2	1	0	10	2	3	adapter	(Object)Adapter	12	0
+0	4	74	119	440	724.3261925025645	555	2	0	128	16	34	com.ctrip.framework.apollo.portal.service.FavoriteService	0	0	0	12	4	7	context	State	41	2
+0	6	88	188	579	1195.9248657837231	929	0	20	178	20	33	com.ctrip.framework.apollo.portal.service.ConfigsExportService	0	0	0	26	6	8			41	0
+0	6	81	123	592	785.1713160907327	584	-1	20	163	29	41	com.ctrip.framework.apollo.portal.service.NamespaceBranchService	0	0	0	17	6	13	context	State	54	-1
+0	9	117	149	642	963.2236572498042	411	4	0	198	38	63	com.ctrip.framework.apollo.portal.service.AppService	0	0	0	22	9	14	context	State	77	4
+0	12	207	308	1366	2223.6497483602666	343	-1	14	341	58	103	com.ctrip.framework.apollo.portal.service.NamespaceService	0	0	0	29	12	17	context	State	120	-1
+-1	0	51	93	260	517.143391684444	396	0	66	74	13	0	com.ctrip.framework.apollo.portal.service.RolePermissionService	0	0	0	5	0	12	implementor	Bridge	12	0
+0	2	19	44	112	207.61395033698415	445	1	0	38	5	6	com.ctrip.framework.apollo.portal.service.NamespaceLockService	0	0	0	6	2	3			9	1
+0	6	204	272	1370	1964.5379571196304	113	-1	0	323	56	98	com.ctrip.framework.apollo.portal.service.ItemService	0	0	0	32	7	18	context	State	116	-1
+1	1	9	28	52	110.63482412027997	427	0	0	24	3	1	com.ctrip.framework.apollo.portal.service.CommitService	0	0	0	5	1	2			3	0
+-1	0	8	20	67	84.09385238781931	412	0	15	19	7	0	com.ctrip.framework.apollo.portal.service.RoleInitializationService	0	0	0	1	0	6			6	0
+0	5	36	53	178	274.6345281654805	873	-1	1	66	12	7	com.ctrip.framework.apollo.portal.service.SystemRoleManagerService	0	0	0	8	8	6			13	-1
+0	3	88	137	542	862.4514421972316	585	1	9	136	26	67	com.ctrip.framework.apollo.portal.service.ReleaseHistoryService	0	0	0	19	3	7			74	1
+0	3	61	142	392	847.9191812502456	930	0	6	121	11	19	com.ctrip.framework.apollo.portal.service.ConfigsImportService	0	0	0	12	3	5			24	0
+0	3	113	169	771	1123.4593351322026	463	-1	0	203	32	57	com.ctrip.framework.apollo.portal.service.ReleaseService	0	0	0	27	3	13			70	-1
+0	2	25	48	139	236.8547487902732	211	2	0	48	11	11	com.ctrip.framework.apollo.portal.service.ClusterService	0	0	0	9	2	5			16	2
+0	1	92	97	397	580.4418192266575	275	5	0	145	20	72	com.ctrip.framework.apollo.portal.component.txtresolver.PropertyResolverTest	14	0	0	10	1	14			86	5
+1	3	25	40	105	186.15841400630092	473	0	0	54	3	21	com.ctrip.framework.apollo.portal.component.txtresolver.FileTextResolverTest	2	0	0	9	3	2			23	0
+-1	0	27	46	150	230.48922352842774	459	0	1	44	8	13	com.ctrip.framework.apollo.portal.component.txtresolver.FileTextResolver	0	0	0	7	0	2			15	0
+0	1	132	207	925	1413.767303665072	247	0	105	201	48	71	com.ctrip.framework.apollo.portal.component.txtresolver.PropertyResolver	0	0	0	11	2	15			86	0
+-1	0	6	26	29	87.54969157964833	234	0	0	15	1	0	com.ctrip.framework.apollo.portal.component.txtresolver.ConfigTextResolver	0	0	0	3	0	1	creator	Factory Method	1	0
+1	2	34	43	143	213.402319101176	637	1	0	74	4	20	com.ctrip.framework.apollo.portal.config.ConfigTest	4	0	0	8	2	4			24	1
+-1	0	12	19	48	73.55281920724993	836	-1	1	24	5	5	com.ctrip.framework.apollo.portal.util.RoleUtilsTest	0	0	0	2	0	2			7	0
+-1	0	26	33	134	161.62871339838006	911	-1	1	42	4	14	com.ctrip.framework.apollo.portal.util.KeyValueUtilsTest	0	0	0	5	0	2			16	0
+0	1	49	53	206	282.3774369458478	933	-1	36	84	9	15	com.ctrip.framework.apollo.portal.util.ConfigFileUtilsTest	0	0	0	6	1	9			24	-1
+0	3	76	118	485	729.7295691306231	586	-1	28	98	18	22	com.ctrip.framework.apollo.portal.util.RelativeDateFormat	0	0	0	3	9	8			30	-1
+-1	0	45	90	270	503.85797630985377	932	-1	1	72	10	15	com.ctrip.framework.apollo.portal.util.NamespaceBOUtils	0	0	0	9	0	2			17	-1
+-1	0	113	170	723	1119.17956776699	931	-1	55	163	36	31	com.ctrip.framework.apollo.portal.util.ConfigFileUtils	0	0	0	9	0	11			42	-1
+-1	0	52	105	341	612.3476601147693	906	-1	3	74	13	16	com.ctrip.framework.apollo.portal.util.KeyValueUtils	0	0	0	3	0	3			19	-1
+-1	0	19	42	92	189.9151202360597	839	0	1	31	6	6	com.ctrip.framework.apollo.portal.util.ConfigToFileUtils	0	0	0	7	0	2			8	0
+0	2	63	66	377	391.52818237156873	414	-1	28	92	39	24	com.ctrip.framework.apollo.portal.util.RoleUtils	0	0	0	5	2	16			40	-1
+0	3	26	40	103	185.38915952918543	918	1	0	57	4	13	com.ctrip.framework.apollo.portal.environment.DatabasePortalMetaServerProviderTest	0	0	0	11	3	3			16	1
+-1	0	49	53	195	279.46897660387856	908	-1	36	84	10	35	com.ctrip.framework.apollo.portal.environment.EnvTest	0	0	0	4	0	9			44	-1
+0	2	64	148	459	907.0994310889607	907	-1	8	91	17	19	com.ctrip.framework.apollo.portal.environment.BaseIntegrationTest	0	0	4	11	2	5			24	0
+0	1	35	59	150	295.6274823516791	910	-1	0	62	7	13	com.ctrip.framework.apollo.portal.environment.DefaultPortalMetaServerProviderTest	4	0	0	7	1	4			17	0
+0	2	40	73	210	390.3388497423752	909	1	0	82	7	26	com.ctrip.framework.apollo.portal.environment.PortalMetaDomainServiceTest	5	0	0	13	2	5			31	1
+-1	0	20	52	91	234.5646943388762	905	0	3	31	5	0	com.ctrip.framework.apollo.portal.environment.PortalMetaServerProvider	0	0	0	0	0	3			3	0
+0	3	169	248	524	1552.8499377116184	903	-1	34	214	39	31	com.ctrip.framework.apollo.portal.environment.Env	0	0	0	7	12	13			44	-1
+0	3	26	57	113	269.46110566660343	916	1	0	44	7	6	com.ctrip.framework.apollo.portal.environment.DatabasePortalMetaServerProvider	0	0	0	4	3	4	adapter	(Object)Adapter	10	1
+0	7	133	237	946	1623.981488865295	904	-1	12	217	29	45	com.ctrip.framework.apollo.portal.environment.PortalMetaDomainService	0	0	0	20	7	9			54	-1
+0	3	54	119	292	675.5337024699255	917	-1	22	99	17	25	com.ctrip.framework.apollo.portal.environment.DefaultPortalMetaServerProvider	0	0	0	8	3	8			33	-1
+0	5	94	99	392	591.1549221392557	472	2	0	171	21	91	com.ctrip.framework.apollo.portal.spi.defaultImpl.RoleInitializationServiceTest	10	0	0	22	9	10			101	2
+0	6	174	157	877	1063.9115978024327	397	5	0	325	41	96	com.ctrip.framework.apollo.portal.spi.defaultImpl.RolePermissionServiceTest	16	0	0	23	7	16			112	5
+0	5	124	128	581	814.6880968770446	431	3	3	235	20	78	com.ctrip.framework.apollo.portal.spi.ctrip.CtripUserServiceTest	10	0	0	23	6	10			88	3
+-1	0	12	29	52	114.5860678388614	433	0	0	23	2	1	com.ctrip.framework.apollo.portal.spi.ctrip.CtripSsoHeartbeatHandler	0	0	0	4	0	1			2	0
+0	4	58	87	296	495.06127252619325	624	0	0	100	11	20	com.ctrip.framework.apollo.portal.spi.ctrip.CtripEmailRequestBuilder	0	0	0	12	13	4	adaptee	(Object)Adapter	24	0
+0	2	17	33	76	142.91420022944894	374	0	1	52	5	2	com.ctrip.framework.apollo.portal.spi.ctrip.WebContextConfiguration	0	0	0	11	2	3			5	0
+1	2	33	56	175	289.2280145397168	370	0	0	48	8	8	com.ctrip.framework.apollo.portal.spi.ctrip.CtripUserInfoHolder	0	0	0	3	2	2			10	0
+1	1	12	26	50	101.71259814113179	386	0	0	27	5	2	com.ctrip.framework.apollo.portal.spi.ctrip.BizLoggingCustomizer	1	2	0	4	1	3	adapter	(Object)Adapter	5	0
+1	1	21	49	116	232.92591936421186	377	0	0	44	4	9	com.ctrip.framework.apollo.portal.spi.ctrip.CtripLogoutHandler	0	0	0	8	1	1	adapter	(Object)Adapter	10	0
+0	4	149	155	775	1031.1937695497688	428	-1	14	233	21	56	com.ctrip.framework.apollo.portal.spi.ctrip.CtripUserService	0	0	0	18	4	9	adapter	(Object)Adapter	65	-1
+0	7	100	137	573	870.0713431899194	676	0	2	174	9	32	com.ctrip.framework.apollo.portal.spi.ctrip.CtripMQService	0	0	0	19	7	4	adapter	(Object)Adapter	36	0
+0	5	43	74	245	407.09310758030983	625	0	0	85	8	17	com.ctrip.framework.apollo.portal.spi.ctrip.CtripEmailService	0	0	0	9	6	3	adapter	(Object)Adapter	20	0
+1	1	24	49	112	231.20644469345962	843	0	0	46	3	14	com.ctrip.framework.apollo.openapi.v1.controller.NamespaceControllerTest	1	0	0	11	1	1			15	0
+0	3	16	46	69	194.76889921147395	842	-1	1	39	3	3	com.ctrip.framework.apollo.openapi.v1.controller.AbstractControllerTest	0	0	8	10	3	2			5	-1
+0	5	49	111	342	647.6639918139491	515	1	0	126	16	26	com.ctrip.framework.apollo.openapi.v1.controller.NamespaceController	0	0	0	28	5	5			31	1
+0	3	32	64	178	331.63414721869344	528	0	0	67	9	14	com.ctrip.framework.apollo.openapi.v1.controller.AppController	0	0	0	16	3	3			17	0
+0	4	60	127	506	790.7701569995081	834	2	0	153	22	35	com.ctrip.framework.apollo.openapi.v1.controller.NamespaceBranchController	0	0	0	27	4	6			41	2
+0	2	66	136	546	857.1561807013071	514	2	0	145	19	43	com.ctrip.framework.apollo.openapi.v1.controller.ItemController	0	0	0	22	2	5			48	2
+0	2	29	87	212	466.02300589646507	878	1	0	75	9	16	com.ctrip.framework.apollo.openapi.v1.controller.ClusterController	0	0	0	20	2	3			19	1
+0	4	78	123	601	787.0271769478305	516	-1	0	186	28	65	com.ctrip.framework.apollo.openapi.v1.controller.ReleaseController	0	0	0	28	4	7			72	2
+0	1	23	47	101	216.9106642915392	519	0	1	50	5	3	com.ctrip.framework.apollo.openapi.service.ConsumerRolePermissionServiceTest	2	0	0	7	1	2			5	0
+0	9	142	171	663	1110.9485233217824	520	-1	17	244	31	84	com.ctrip.framework.apollo.openapi.service.ConsumerServiceTest	14	0	0	28	12	14			98	3
+0	10	149	219	864	1480.784436368088	511	-1	53	244	41	74	com.ctrip.framework.apollo.openapi.service.ConsumerService	0	0	0	27	10	15	context	State	89	-1
+1	3	37	68	201	360.62473374801715	510	0	0	64	5	10	com.ctrip.framework.apollo.openapi.service.ConsumerRolePermissionService	0	0	0	11	3	2			12	0
+0	5	37	62	157	313.48723993159507	526	1	0	84	8	19	com.ctrip.framework.apollo.openapi.util.ConsumerAuditUtilTest	0	0	0	19	5	3			22	1
+0	3	37	53	159	268.6519227176723	521	2	0	74	16	23	com.ctrip.framework.apollo.openapi.util.ConsumerAuthUtilTest	0	0	0	9	3	6			29	2
+0	7	41	75	185	391.5266868808743	525	0	2	86	7	15	com.ctrip.framework.apollo.openapi.util.ConsumerAuditUtil	0	0	0	17	8	4			19	0
+0	2	25	51	116	242.4330997464246	512	0	2	37	8	5	com.ctrip.framework.apollo.openapi.util.ConsumerAuthUtil	0	0	0	3	2	4			9	0
+0	2	95	135	481	833.7420814642777	513	-1	91	176	47	61	com.ctrip.framework.apollo.openapi.util.OpenApiBeanUtils	0	0	0	31	2	14			75	0
+0	6	34	55	142	272.57048816806935	518	1	0	75	9	23	com.ctrip.framework.apollo.openapi.filter.ConsumerAuthenticationFilterTest	0	0	0	17	6	3			26	1
+0	2	28	59	135	289.4112119278673	506	0	4	59	8	6	com.ctrip.framework.apollo.openapi.filter.ConsumerAuthenticationFilter	0	0	0	11	2	4			10	0
+0	2	23	44	108	206.0137739934657	553	0	9	50	9	0	com.ctrip.framework.apollo.portal.entity.po.Favorite	6	0	0	6	3	6			6	0
+0	3	47	61	188	319.4229597326269	745	-1	45	79	17	5	com.ctrip.framework.apollo.portal.entity.po.UserPO	0	0	0	7	5	11			16	-1
+0	1	29	56	133	273.8595511804182	365	1	3	59	11	3	com.ctrip.framework.apollo.portal.entity.po.ServerConfig	6	1	0	7	3	7			10	1
+0	1	19	43	85	191.0340040290836	390	0	2	41	6	0	com.ctrip.framework.apollo.portal.entity.po.RolePermission	4	0	0	6	2	4			4	0
+1	1	12	37	56	148.93801255720052	389	0	0	30	3	0	com.ctrip.framework.apollo.portal.entity.po.Role	2	0	0	6	1	2			2	0
+0	2	19	44	85	195.47665528557394	391	0	2	41	6	0	com.ctrip.framework.apollo.portal.entity.po.UserRole	4	0	0	6	2	4			4	0
+0	1	19	43	85	191.0340040290836	388	0	2	41	6	0	com.ctrip.framework.apollo.portal.entity.po.Permission	4	0	0	6	2	4			4	0
+0	3	37	38	144	188.85290538388801	628	0	35	53	17	0	com.ctrip.framework.apollo.portal.entity.bo.ItemBO	0	0	0	1	5	10			10	0
+0	1	20	23	79	100.49730060674149	488	1	0	28	7	0	com.ctrip.framework.apollo.portal.entity.bo.KVEntity	0	0	0	0	2	5			5	1
+0	1	38	43	171	221.0915329296144	376	0	20	55	14	1	com.ctrip.framework.apollo.portal.entity.bo.UserInfo	0	0	0	0	3	9			10	0
+0	2	16	22	60	90.07558036888621	462	0	2	30	6	0	com.ctrip.framework.apollo.portal.entity.bo.ReleaseBO	0	0	0	3	2	4			4	0
+0	5	63	59	246	324.8145606200094	209	-1	116	87	30	3	com.ctrip.framework.apollo.portal.entity.bo.NamespaceBO	0	0	0	2	8	17			20	-1
+0	3	49	75	244	412.2876168969902	928	-1	3	86	21	5	com.ctrip.framework.apollo.portal.entity.bo.ConfigBO	0	0	0	3	7	10			15	-1
+0	7	114	97	452	593.0271714437265	583	0	464	172	48	0	com.ctrip.framework.apollo.portal.entity.bo.ReleaseHistoryBO	0	0	0	4	16	32			32	0
+0	2	30	32	116	152.11488611540366	619	0	20	45	12	0	com.ctrip.framework.apollo.portal.entity.bo.Email	0	0	0	1	4	8			8	0
+0	2	54	61	218	328.45419883013443	259	-1	71	79	25	3	com.ctrip.framework.apollo.portal.entity.model.NamespaceTextModel	0	0	0	3	7	15			18	1
+-1	0	3	7	7	13.621371043387192	258	0	0	7	1	0	com.ctrip.framework.apollo.portal.entity.model.Verifiable	0	0	0	0	0	1			1	0
+0	2	16	22	60	90.07558036888621	416	0	2	27	6	0	com.ctrip.framework.apollo.portal.entity.model.NamespaceCreationModel	0	0	0	1	2	4			4	0
+1	1	9	20	36	71.6703787691222	835	0	0	15	3	0	com.ctrip.framework.apollo.portal.entity.model.NamespaceGrayDelReleaseModel	2	0	0	1	1	2			2	0
+0	2	27	40	133	195.61396512887015	338	1	0	43	12	2	com.ctrip.framework.apollo.portal.entity.model.NamespaceSyncModel	0	0	0	4	2	5			7	1
+0	2	61	59	242	323.8473258432445	260	1	100	86	26	2	com.ctrip.framework.apollo.portal.entity.model.NamespaceReleaseModel	0	0	1	2	8	17			19	1
+0	2	44	56	198	296.142953718894	645	0	54	79	18	0	com.ctrip.framework.apollo.portal.entity.model.AppModel	0	0	0	4	6	12			12	0
+1	1	12	17	44	64.33122377661044	543	1	0	17	4	0	com.ctrip.framework.apollo.portal.entity.vo.Number	0	0	0	0	1	3			3	1
+0	2	16	22	60	90.07558036888621	679	0	2	24	6	0	com.ctrip.framework.apollo.portal.entity.vo.PageSetting	0	0	0	0	2	4			4	0
+0	2	16	22	60	90.07558036888621	643	0	2	23	6	0	com.ctrip.framework.apollo.portal.entity.vo.LockInfo	0	0	0	0	2	4			4	0
+0	2	20	24	79	104.86674845920851	490	1	0	32	7	0	com.ctrip.framework.apollo.portal.entity.vo.Change	0	0	0	3	2	5			5	1
+1	1	9	16	32	55.451774444795625	406	0	0	14	3	0	com.ctrip.framework.apollo.portal.entity.vo.PermissionCondition	0	0	0	0	1	2			2	0
+0	3	44	45	172	231.63725145660538	803	0	54	64	18	2	com.ctrip.framework.apollo.portal.entity.vo.EnvironmentInfo	0	0	0	2	6	12			14	0
+0	2	16	22	60	90.07558036888621	404	0	2	27	6	0	com.ctrip.framework.apollo.portal.entity.vo.AppRolesAssignedUsers	0	0	0	2	2	4			4	0
+0	2	16	24	60	98.2642694933304	804	0	2	27	6	1	com.ctrip.framework.apollo.portal.entity.vo.SystemInfo	0	0	0	2	2	4			5	0
+0	2	19	25	72	106.91665297540138	351	0	2	32	7	3	com.ctrip.framework.apollo.portal.entity.vo.EnvClusterInfo	0	0	0	3	2	5			8	0
+0	1	36	53	161	269.31443134417657	337	1	7	60	17	2	com.ctrip.framework.apollo.portal.entity.vo.NamespaceIdentifier	0	0	0	3	4	10			12	1
+0	3	26	29	100	133.54993539365466	336	0	11	37	15	0	com.ctrip.framework.apollo.portal.entity.vo.ItemDiffs	0	0	0	1	3	7			7	0
+0	2	30	32	116	152.11488611540366	405	0	20	48	14	0	com.ctrip.framework.apollo.portal.entity.vo.NamespaceRolesAssignedUsers	0	0	1	2	4	8			8	0
+0	1	19	28	66	117.3103327767399	418	0	2	25	6	0	com.ctrip.framework.apollo.portal.entity.vo.Organization	0	0	0	0	2	4			4	0
+1	1	15	30	65	125.2316180968691	489	1	0	30	6	2	com.ctrip.framework.apollo.portal.entity.vo.ReleaseCompareResult	0	0	0	5	1	4			6	1
+1	1	9	20	34	70.52721049232323	793	0	0	15	3	2	com.ctrip.framework.apollo.portal.entity.vo.NamespaceEnvRolesAssignedUsers	2	0	0	1	1	2			4	0
+-1	1	16	20	46	76.57282792978191	482	-1	0	32	0	0	com.ctrip.framework.apollo.portal.constant.TracerEventType	0	0	0	0	14	0			0	-1
+-1	1	21	23	55	92.16866326034683	401	-1	0	33	0	0	com.ctrip.framework.apollo.portal.constant.PermissionType	0	0	0	0	7	0			0	-1
+1	1	8	20	41	74.27144133408616	402	0	0	15	2	1	com.ctrip.framework.apollo.portal.constant.RoleType	0	0	0	0	3	1			2	0
+0	3	22	41	92	185.39333165901067	279	0	4	51	8	8	com.ctrip.framework.apollo.portal.component.RestTemplateFactory	0	0	0	11	3	4			12	0
+0	5	76	96	431	582.3463766499598	400	-1	33	144	43	57	com.ctrip.framework.apollo.portal.component.PermissionValidator	0	0	0	10	5	18	context	State	75	-1
+-1	0	50	67	326	387.72212455156944	580	0	3	83	11	23	com.ctrip.framework.apollo.portal.component.ItemsComparator	0	0	0	10	0	3			26	0
+0	11	71	128	466	786.4557611680826	480	0	0	129	12	19	com.ctrip.framework.apollo.portal.component.AdminServiceAddressLocator	0	0	0	21	12	5			24	0
+0	7	90	150	749	992.8108475275828	128	0	0	159	11	8	com.ctrip.framework.apollo.portal.component.PortalSettings	0	0	0	20	7	5			13	0
+0	6	140	190	896	1291.6086784652368	481	-1	58	231	45	56	com.ctrip.framework.apollo.portal.component.RetryableRestTemplate	0	0	0	24	6	13			69	0
+0	4	194	199	877	1348.5248914820645	635	-1	699	277	90	59	com.ctrip.framework.apollo.portal.component.config.PortalConfig	37	1	0	16	5	38	adaptee	(Object)Adapter	97	0
+0	8	163	214	931	1462.9594853372923	614	0	62	273	33	77	com.ctrip.framework.apollo.portal.component.emailbuilder.ConfigPublishEmailBuilder	0	0	4	29	24	12	abstraction	Bridge	89	0
+0	1	15	31	68	130.8047388604593	617	-1	6	35	9	3	com.ctrip.framework.apollo.portal.component.emailbuilder.NormalPublishEmailBuilder	0	4	0	3	1	4			7	-1
+0	1	15	31	68	130.8047388604593	616	-1	6	35	9	3	com.ctrip.framework.apollo.portal.component.emailbuilder.MergeEmailBuilder	0	4	0	3	1	4			7	-1
+0	3	35	70	193	368.388313223342	615	0	10	77	13	16	com.ctrip.framework.apollo.portal.component.emailbuilder.GrayPublishEmailBuilder	1	4	0	12	3	5			21	0
+0	1	15	31	68	130.8047388604593	618	-1	6	35	9	3	com.ctrip.framework.apollo.portal.component.emailbuilder.RollbackEmailBuilder	0	4	0	3	1	4			7	-1
+-1	0	9	26	39	95.2526027993708	746	0	6	21	4	0	com.ctrip.framework.apollo.portal.repository.UserRepository	0	0	0	3	0	4	state	State	4	0
+-1	0	10	41	50	160.39294322255398	393	0	1	25	3	0	com.ctrip.framework.apollo.portal.repository.RolePermissionRepository	0	0	0	6	0	2	adaptee	(Object)Adapter	2	0
+-1	0	3	11	12	27.333973147668004	366	0	0	10	1	0	com.ctrip.framework.apollo.portal.repository.ServerConfigRepository	0	0	0	2	0	1	state	State	1	0
+-1	0	12	66	118	314.8651852147339	394	0	6	33	7	0	com.ctrip.framework.apollo.portal.repository.RoleRepository	0	0	0	6	0	4	adaptee	(Object)Adapter	4	0
+-1	0	8	36	66	150.8275707129513	410	0	15	30	7	0	com.ctrip.framework.apollo.portal.repository.AppRepository	0	0	0	8	0	6			6	0
+-1	0	9	39	80	170.89903875228137	409	0	21	28	9	0	com.ctrip.framework.apollo.portal.repository.AppNamespaceRepository	0	0	0	5	0	7			7	0
+-1	0	18	49	86	218.26301751642185	395	0	6	35	5	0	com.ctrip.framework.apollo.portal.repository.UserRoleRepository	0	0	0	6	0	4	adaptee	(Object)Adapter	4	0
+-1	0	7	31	57	125.33458930287105	554	0	10	25	6	0	com.ctrip.framework.apollo.portal.repository.FavoriteRepository	0	0	0	6	0	5	state	State	5	0
+-1	0	16	65	115	308.42058834361126	392	0	10	37	6	0	com.ctrip.framework.apollo.portal.repository.PermissionRepository	0	0	0	7	0	5	adaptee	(Object)Adapter	5	0
+0	1	126	102	682	665.5530251000332	620	5	0	169	25	10	com.ctrip.framework.apollo.portal.listener.ConfigPublishEvent	0	0	0	2	1	13			23	5
+0	3	23	55	155	277.3883814305586	650	0	0	43	4	8	com.ctrip.framework.apollo.portal.listener.AppInfoChangedListener	0	0	0	11	3	2			10	0
+-1	0	9	20	35	71.10696122978827	791	0	1	17	3	1	com.ctrip.framework.apollo.portal.listener.AppNamespaceDeletionEvent	0	0	0	3	0	2			3	0
+-1	0	9	20	35	71.10696122978827	407	0	1	19	3	1	com.ctrip.framework.apollo.portal.listener.AppCreationEvent	0	0	0	3	0	2			3	0
+-1	0	9	20	35	71.10696122978827	415	0	1	19	3	1	com.ctrip.framework.apollo.portal.listener.AppNamespaceCreationEvent	0	0	0	3	0	2			3	0
+0	9	95	138	565	874.4819508982089	621	0	1	154	5	4	com.ctrip.framework.apollo.portal.listener.ConfigPublishListener	0	0	0	19	9	3			7	0
+0	4	42	72	298	410.1907310283891	792	1	0	70	9	19	com.ctrip.framework.apollo.portal.listener.DeletionListener	0	0	0	12	4	3			22	1
+-1	0	9	20	35	71.10696122978827	649	0	1	19	3	1	com.ctrip.framework.apollo.portal.listener.AppInfoChangedEvent	0	0	0	3	0	2			3	0
+0	4	37	64	266	357.34376376202874	408	1	0	63	7	16	com.ctrip.framework.apollo.portal.listener.CreationListener	0	0	0	12	4	3			19	1
+-1	0	9	20	35	71.10696122978827	790	0	1	17	3	1	com.ctrip.framework.apollo.portal.listener.AppDeletionEvent	0	0	0	3	0	2			3	0
+-1	0	3	11	13	28.214442932076903	379	0	0	10	1	0	com.ctrip.framework.apollo.portal.spi.LogoutHandler	0	0	0	2	0	1	state	State	1	0
+-1	0	3	9	10	20.723265836946414	622	0	0	9	1	0	com.ctrip.framework.apollo.portal.spi.EmailService	0	0	0	1	0	1			1	0
+-1	0	8	24	34	84.63265259078787	430	0	3	17	3	0	com.ctrip.framework.apollo.portal.spi.UserService	0	0	0	2	0	3	implementor	Bridge	3	0
+-1	0	6	17	19	50.055462645829486	435	0	0	11	1	0	com.ctrip.framework.apollo.portal.spi.SsoHeartbeatHandler	0	0	0	2	0	1	state	State	1	0
+-1	0	6	22	23	68.98087275044129	588	0	0	13	1	0	com.ctrip.framework.apollo.portal.spi.UserInfoHolder	0	0	0	1	0	1	state	State	1	0
+-1	0	3	11	13	28.214442932076903	674	0	0	10	1	0	com.ctrip.framework.apollo.portal.spi.MQService	0	0	0	2	0	1			1	0
+0	2	32	65	195	342.74497130664355	638	0	13	63	15	12	com.ctrip.framework.apollo.portal.spi.ctrip.filters.UserAccessFilter	0	0	0	8	2	6			18	0
+-1	0	27	46	126	222.468967719768	429	-1	6	45	10	10	com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultUserService	0	0	0	5	0	4			14	0
+0	6	160	204	900	1387.6885317181595	712	-1	0	295	32	91	com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRolePermissionService	0	0	0	27	6	12	adapter	(Object)Adapter	103	-1
+-1	0	12	29	52	114.5860678388614	434	0	0	23	2	1	com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultSsoHeartbeatHandler	0	0	0	4	0	1			2	0
+-1	0	4	15	19	44.1665846874966	677	0	0	14	1	0	com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultMQService	0	0	0	3	0	1			1	0
+-1	0	12	23	37	83.05111199081716	371	0	1	22	3	1	com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultUserInfoHolder	0	0	0	2	0	2			3	0
+-1	0	4	13	16	36.04365338911715	626	0	0	12	1	0	com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultEmailService	0	0	0	2	0	1			1	0
+0	3	112	133	619	854.9380012670513	711	-1	0	205	26	67	com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRoleInitializationService	0	0	0	22	3	12	context	State	79	-1
+-1	0	10	25	54	99.72460116410686	378	0	0	20	3	1	com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultLogoutHandler	0	0	0	4	0	1			2	0
+0	6	127	169	572	1073.0044895431859	808	1	0	303	22	53	com.ctrip.framework.apollo.portal.spi.ldap.LdapUserService	0	0	0	29	16	7			60	1
+0	1	41	93	236	508.1363578673818	871	0	4	82	9	15	com.ctrip.framework.apollo.portal.spi.ldap.ApolloLdapAuthenticationProvider	0	0	0	12	1	5			20	0
+0	4	39	79	199	418.17108115323487	856	0	0	99	7	9	com.ctrip.framework.apollo.portal.spi.ldap.FilterLdapByGroupUserSearch	0	0	0	13	10	3			12	0
+0	4	54	86	266	480.1806825552261	748	1	0	106	13	31	com.ctrip.framework.apollo.portal.spi.springsecurity.SpringSecurityUserService	0	0	0	20	4	5	context	State	36	1
+-1	0	17	30	82	132.2015774179276	747	0	1	31	5	8	com.ctrip.framework.apollo.portal.spi.springsecurity.SpringSecurityUserInfoHolder	0	0	0	5	0	2			10	0
+0	1	36	41	121	196.62741236946638	869	0	9	50	9	0	com.ctrip.framework.apollo.portal.spi.configuration.LdapGroupProperties	0	0	0	0	3	6			6	0
+-1	0	8	21	38	76.3893093542541	627	0	0	26	2	2	com.ctrip.framework.apollo.portal.spi.configuration.AuthFilterConfiguration	0	0	0	6	0	1			3	0
+0	5	89	117	360	688.6741716796682	807	0	89	122	26	5	com.ctrip.framework.apollo.portal.spi.configuration.LdapProperties	0	0	0	6	8	15			20	0
+-1	0	11	23	37	83.05111199081716	710	0	1	24	4	0	com.ctrip.framework.apollo.portal.spi.configuration.RoleConfiguration	0	0	0	6	0	2			2	0
+-1	1	241	290	1700	2157.131223712849	373	-1	0	469	0	0	com.ctrip.framework.apollo.portal.spi.configuration.AuthConfiguration	0	0	0	52	1	0			0	-1
+0	1	56	55	191	288.87503854256465	870	0	35	76	15	0	com.ctrip.framework.apollo.portal.spi.configuration.LdapMappingProperties	0	0	0	0	5	10			10	0
+-1	0	21	33	95	150.27793742281784	623	-1	0	51	0	0	com.ctrip.framework.apollo.portal.spi.configuration.EmailConfiguration	0	0	0	9	0	0			0	-1
+-1	0	15	29	67	121.93608596233801	675	-1	0	37	0	0	com.ctrip.framework.apollo.portal.spi.configuration.MQConfiguration	0	0	0	6	0	0			0	-1
+0	2	20	30	70	127.45485726148078	855	0	2	35	6	0	com.ctrip.framework.apollo.portal.spi.configuration.LdapExtendProperties	0	0	0	1	2	4			4	0
+-1	1	3	10	10	23.02585092994046	119	-1	0	13	0	0	com.ctrip.framework.apollo.portal.api.API	0	0	0	2	1	0			0	-1
+-1	0	256	286	2641	2253.3690929169798	120	-1	0	511	0	0	com.ctrip.framework.apollo.portal.api.AdminServiceAPI	0	0	0	14	0	0			0	-1
+0	1	22	47	97	215.01141598965899	504	1	0	46	8	3	com.ctrip.framework.apollo.openapi.entity.ConsumerRole	4	1	0	6	2	5			8	1
+0	3	29	54	126	261.1592229753798	505	1	3	60	11	3	com.ctrip.framework.apollo.openapi.entity.ConsumerToken	6	1	0	7	3	7			10	1
+0	3	58	73	244	401.29328044640374	523	1	45	111	25	4	com.ctrip.framework.apollo.openapi.entity.ConsumerAudit	0	0	0	9	6	14			18	1
+0	1	47	64	207	341.2940027689836	503	1	42	92	20	3	com.ctrip.framework.apollo.openapi.entity.Consumer	12	1	0	6	6	13			16	1
+1	2	26	42	154	211.55200930137244	498	2	0	57	11	12	com.ctrip.framework.apollo.openapi.auth.ConsumerPermissionValidator	0	0	0	6	2	5			17	2
+-1	0	12	35	56	140.88730917573025	509	0	1	22	2	0	com.ctrip.framework.apollo.openapi.repository.ConsumerTokenRepository	0	0	0	3	0	2			2	0
+-1	0	6	17	18	49.136319884234794	507	0	0	14	1	0	com.ctrip.framework.apollo.openapi.repository.ConsumerRepository	0	0	0	2	0	1			1	0
+-1	0	5	12	12	29.818879797456006	524	-1	0	11	0	0	com.ctrip.framework.apollo.openapi.repository.ConsumerAuditRepository	0	0	0	2	0	0			0	-1
+-1	0	16	49	79	214.10294477088405	508	0	6	32	5	0	com.ctrip.framework.apollo.openapi.repository.ConsumerRoleRepository	0	0	0	5	0	4	adaptee	(Object)Adapter	4	0
+-1	0	2	7	7	13.621371043387192	550	-1	0	12	0	0	com.ctrip.framework.apollo.openapi.PortalOpenApiConfig	0	0	0	3	0	0			0	-1
+-1	0	14	21	55	84.1539968898819	825	-1	1	27	2	11	com.ctrip.framework.apollo.openapi.client.ApolloOpenApiClientTest	0	0	0	2	0	2			13	0
+0	6	191	257	1047	1787.096842193728	815	1	126	268	44	24	com.ctrip.framework.apollo.openapi.client.ApolloOpenApiClient	0	0	0	25	7	21			45	1
+1	2	52	62	236	338.75757191158783	880	2	0	104	15	42	com.ctrip.framework.apollo.openapi.client.service.ClusterOpenApiServiceTest	4	1	0	13	3	5			47	2
+1	5	14	31	59	126.4036607610773	826	0	0	42	3	8	com.ctrip.framework.apollo.openapi.client.service.AbstractOpenApiServiceTest	0	0	5	13	5	1			9	0
+0	2	75	73	342	425.9411838055702	829	4	0	145	27	72	com.ctrip.framework.apollo.openapi.client.service.NamespaceOpenApiServiceTest	8	1	0	11	5	9			81	4
+0	2	64	73	293	414.65260045824596	830	3	0	127	21	52	com.ctrip.framework.apollo.openapi.client.service.ReleaseOpenApiServiceTest	6	1	0	12	5	7			59	3
+1	2	123	92	568	583.4751705223459	828	5	0	223	34	100	com.ctrip.framework.apollo.openapi.client.service.ItemOpenApiServiceTest	10	1	0	16	5	11			111	5
+1	2	22	41	99	188.39991385551818	827	1	0	52	9	18	com.ctrip.framework.apollo.openapi.client.service.AppOpenApiServiceTest	2	1	0	9	2	3			21	1
+0	1	71	89	442	542.1265795049151	821	-1	10	109	25	38	com.ctrip.framework.apollo.openapi.client.service.NamespaceOpenApiService	5	0	0	13	1	5			43	0
+-1	0	102	94	683	613.4905167996543	820	-1	15	150	29	41	com.ctrip.framework.apollo.openapi.client.service.ItemOpenApiService	6	0	0	8	0	6			47	0
+-1	0	51	79	328	457.6480750623474	822	-1	6	79	17	23	com.ctrip.framework.apollo.openapi.client.service.ReleaseOpenApiService	4	0	0	8	0	4			27	0
+0	1	34	68	189	356.4387970240557	819	-1	3	50	13	16	com.ctrip.framework.apollo.openapi.client.service.AppOpenApiService	3	0	0	10	2	3			19	0
+-1	0	32	61	198	322.58428887236664	879	-1	3	52	12	18	com.ctrip.framework.apollo.openapi.client.service.ClusterOpenApiService	3	0	0	7	0	3			21	0
+0	4	59	104	327	602.1558577733143	818	0	31	106	33	22	com.ctrip.framework.apollo.openapi.client.service.AbstractOpenApiService	0	0	5	20	5	11			33	0
+-1	2	6	11	16	30.498475944637594	816	-1	0	9	0	0	com.ctrip.framework.apollo.openapi.client.constant.ApolloOpenApiConstants	0	0	0	0	4	0			0	-1
+1	1	10	33	55	132.24199511267156	817	0	0	16	4	1	com.ctrip.framework.apollo.openapi.client.exception.ApolloOpenApiException	0	0	0	0	1	2			3	0
+0	3	54	79	257	438.3770107067224	502	1	63	93	24	0	com.ctrip.framework.apollo.openapi.dto.OpenReleaseDTO	15	0	0	1	7	15			15	1
+0	2	26	40	114	189.44793793577983	501	1	3	41	11	0	com.ctrip.framework.apollo.openapi.dto.OpenNamespaceLockDTO	0	0	0	0	3	7			7	1
+0	2	16	22	60	90.07558036888621	833	0	2	24	6	0	com.ctrip.framework.apollo.openapi.dto.OpenGrayReleaseRuleItemDTO	0	0	0	1	2	4			4	0
+0	2	30	32	116	152.11488611540366	824	0	20	42	12	0	com.ctrip.framework.apollo.openapi.dto.NamespaceReleaseDTO	0	0	1	0	4	8			8	0
+0	2	37	39	146	194.36065824662512	832	0	35	55	15	0	com.ctrip.framework.apollo.openapi.dto.OpenGrayReleaseRuleDTO	10	0	0	1	5	10			10	0
+0	1	19	42	99	192.99503370565276	877	1	0	36	9	0	com.ctrip.framework.apollo.openapi.dto.OpenClusterDTO	5	0	0	0	2	5			5	1
+0	1	26	49	131	238.8846688368564	499	1	3	47	12	0	com.ctrip.framework.apollo.openapi.dto.OpenItemDTO	7	0	0	0	3	7			7	1
+0	2	30	32	116	152.11488611540366	823	0	20	46	16	0	com.ctrip.framework.apollo.openapi.dto.BaseDTO	0	0	19	1	4	8			8	0
+1	1	9	18	34	63.47448944309091	831	0	0	16	3	0	com.ctrip.framework.apollo.openapi.dto.NamespaceGrayDelReleaseDTO	2	0	0	1	1	2			2	0
+0	2	47	72	225	389.95922895871826	715	1	42	80	24	0	com.ctrip.framework.apollo.openapi.dto.OpenAppNamespaceDTO	13	0	0	0	6	13			13	1
+0	2	19	33	82	145.42173515972036	527	1	0	33	8	0	com.ctrip.framework.apollo.openapi.dto.OpenEnvClusterDTO	0	0	0	1	2	5			5	1
+0	3	54	79	257	438.3770107067224	500	1	63	93	27	0	com.ctrip.framework.apollo.openapi.dto.OpenNamespaceDTO	15	0	0	1	7	15			15	1
+0	1	59	62	246	341.3305552278065	857	1	42	81	21	2	com.ctrip.framework.apollo.openapi.dto.OpenAppDTO	13	0	0	0	6	13			15	1
+-1	0	54	61	215	327.6089197157874	608	-1	21	88	12	9	com.ctrip.framework.foundation.internals.ServiceBootstrapTest	0	0	0	4	0	7			16	0
+0	1	12	27	58	109.63196128475332	687	0	1	23	6	1	com.ctrip.framework.foundation.internals.NullProviderManager	0	0	0	2	1	3			4	0
+-1	0	31	61	208	325.58982286178036	688	-1	10	54	16	19	com.ctrip.framework.foundation.internals.ServiceBootstrap	0	0	0	7	0	5			24	-1
+0	2	45	90	274	505.18152957492634	685	-1	0	77	13	13	com.ctrip.framework.foundation.internals.DefaultProviderManager	0	0	0	9	2	5			18	-1
+-1	0	12	20	53	79.40583827104244	689	-1	1	17	5	6	com.ctrip.framework.foundation.internals.Utils	0	0	0	1	0	2			8	-1
+0	2	38	45	170	231.1109296672618	704	2	0	65	11	23	com.ctrip.framework.foundation.internals.provider.DefaultApplicationProviderTest	0	0	0	7	2	5			28	2
+0	1	56	56	252	309.6480289006397	705	-1	0	95	16	33	com.ctrip.framework.foundation.internals.provider.DefaultServerProviderTest	0	0	0	10	1	8			41	2
+-1	0	27	49	151	245.8467120039313	695	-1	15	45	12	7	com.ctrip.framework.foundation.internals.provider.DefaultNetworkProvider	0	0	0	3	0	6			13	-1
+-1	0	42	41	177	212.222139035527	697	0	91	80	26	0	com.ctrip.framework.foundation.internals.provider.NullProvider	0	0	0	5	0	14			14	0
+0	3	115	164	784	1092.9630793374668	696	-1	17	168	29	30	com.ctrip.framework.foundation.internals.provider.DefaultServerProvider	0	0	0	12	6	11			41	-1
+0	3	106	132	671	859.1575260802621	694	-1	11	162	25	28	com.ctrip.framework.foundation.internals.provider.DefaultApplicationProvider	0	0	0	10	5	10			38	-1
+-1	0	14	26	61	106.8827204685061	788	-1	3	33	3	8	com.ctrip.framework.foundation.FoundationTest	0	0	0	6	0	3			11	0
+0	3	61	60	356	352.49584385112183	684	1	0	77	17	14	com.ctrip.framework.foundation.Foundation	0	0	0	8	3	5			19	1
+-1	0	20	29	85	128.83688643821918	800	-1	3	36	5	6	com.ctrip.framework.apollo.core.internals.LegacyMetaServerProviderTest	0	0	0	4	0	3			9	0
+0	2	37	69	176	356.76339565763243	796	0	8	60	9	10	com.ctrip.framework.apollo.core.internals.LegacyMetaServerProvider	0	0	0	7	2	5			15	0
+-1	0	12	21	40	77.46646853639267	899	0	0	22	1	2	com.ctrip.framework.apollo.core.signature.HmacSha1UtilsTest	0	0	0	2	0	1			3	0
+-1	0	21	30	80	131.46079904021644	900	0	1	37	2	5	com.ctrip.framework.apollo.core.signature.SignatureTest	0	0	0	4	0	2			7	0
+1	1	18	38	91	171.4126612476403	897	0	0	31	4	7	com.ctrip.framework.apollo.core.signature.HmacSha1Utils	0	0	0	6	2	1			8	0
+0	1	41	78	235	425.8476701032444	898	-1	3	55	12	11	com.ctrip.framework.apollo.core.signature.Signature	0	0	0	4	4	3			14	-1
+-1	0	19	36	87	160.772692271565	786	-1	3	37	6	10	com.ctrip.framework.apollo.core.utils.NetUtilTest	3	0	0	6	0	3			13	0
+-1	0	58	58	225	314.13382332785636	868	-1	66	100	12	32	com.ctrip.framework.apollo.core.utils.StringUtilsTest	0	0	0	5	0	12			44	0
+-1	0	22	26	81	114.25567802148342	874	-1	10	38	5	10	com.ctrip.framework.apollo.core.utils.ByteUtilTest	0	0	0	3	0	5			15	0
+0	5	69	137	463	840.8686064098141	92	-1	13	93	19	25	com.ctrip.framework.apollo.core.utils.ApolloThreadFactory	0	0	0	8	5	7			32	-1
+0	2	44	76	331	440.9609965286568	335	0	1	63	8	11	com.ctrip.framework.apollo.core.utils.MachineUtil	0	0	0	7	2	2			13	0
+0	3	43	65	235	354.87305841937035	63	0	3	61	8	1	com.ctrip.framework.apollo.core.utils.ClassLoaderUtil	0	0	0	5	3	3			4	0
+-1	0	34	73	162	371.394532471964	468	-1	1	42	7	7	com.ctrip.framework.apollo.core.utils.PropertiesUtil	0	0	0	3	0	2			9	-1
+0	2	77	99	589	631.4641921815071	125	0	1	102	15	26	com.ctrip.framework.apollo.core.utils.ResourceUtils	0	0	0	10	2	3			29	0
+-1	0	12	31	76	134.25273354887625	93	0	0	23	5	3	com.ctrip.framework.apollo.core.utils.DNSUtil	0	0	0	4	0	1			4	0
+0	1	178	343	1953	2598.9528222907006	94	-1	103	371	56	27	com.ctrip.framework.apollo.core.utils.StringUtils	0	0	0	2	1	15			42	-1
+0	1	27	53	151	265.915831351191	334	0	10	36	11	0	com.ctrip.framework.apollo.core.utils.ByteUtil	0	0	0	0	1	5			5	0
+0	1	63	99	425	599.1568277235173	785	0	1	76	8	11	com.ctrip.framework.apollo.core.utils.NetUtil	0	0	0	7	1	2			13	0
+-1	0	16	27	76	116.92980018773093	799	-1	3	28	7	11	com.ctrip.framework.apollo.core.enums.EnvUtilsTest	0	0	0	2	0	3			14	0
+-1	0	27	36	62	148.5768378616233	315	0	0	32	5	3	com.ctrip.framework.apollo.core.enums.EnvUtils	0	0	0	1	0	1			4	0
+-1	0	43	75	257	416.1807063671415	126	-1	6	81	7	16	com.ctrip.framework.apollo.core.MetaDomainTest	3	1	0	11	0	4			20	0
+-1	2	10	15	28	49.98306765262806	103	-1	0	12	0	0	com.ctrip.framework.apollo.core.ConfigConsts	0	0	0	0	8	0			0	-1
+0	8	129	230	962	1579.8733236531125	90	-1	14	211	29	51	com.ctrip.framework.apollo.core.MetaDomainConsts	0	0	0	21	8	9			60	-1
+-1	1	6	10	16	27.725887222397812	43	-1	0	12	0	0	com.ctrip.framework.apollo.core.ServiceNameConsts	0	0	0	0	4	0			0	-1
+1	1	14	32	55	128.23466192743908	613	0	0	28	5	2	com.ctrip.framework.apollo.tracer.internals.NullMessageProducerTest	0	0	0	4	1	2			4	0
+1	1	12	29	45	110.39321220333927	612	0	0	25	5	2	com.ctrip.framework.apollo.tracer.internals.NullMessageProducerManagerTest	0	0	0	4	1	2			4	0
+1	1	12	27	43	101.55240312372618	611	0	0	20	3	0	com.ctrip.framework.apollo.tracer.internals.MockMessageProducerManager	0	0	0	2	1	2			2	0
+1	1	12	29	45	110.39321220333927	610	0	0	26	5	2	com.ctrip.framework.apollo.tracer.internals.DefaultMessageProducerManagerTest	0	0	0	4	1	2			4	0
+-1	0	13	28	52	110.63482412027997	601	0	6	24	4	0	com.ctrip.framework.apollo.tracer.internals.NullTransaction	0	0	0	1	0	4			4	0
+1	1	9	25	31	85.84968011212865	600	0	0	16	2	0	com.ctrip.framework.apollo.tracer.internals.NullMessageProducerManager	0	0	0	2	1	1			1	0
+1	1	17	30	64	124.76649250079015	598	0	0	27	5	2	com.ctrip.framework.apollo.tracer.internals.DefaultMessageProducerManager	0	0	0	5	1	2			4	0
+0	1	17	38	92	171.82796592786354	599	0	10	32	6	0	com.ctrip.framework.apollo.tracer.internals.NullMessageProducer	0	0	0	2	1	5			5	0
+1	1	81	65	363	383.13618422721527	609	5	0	144	33	51	com.ctrip.framework.apollo.tracer.TracerTest	0	0	0	13	1	11			62	5
+0	3	69	92	443	560.6084188441525	597	2	0	84	20	18	com.ctrip.framework.apollo.tracer.Tracer	0	0	0	7	4	6	abstraction	Bridge	24	2
+0	4	145	224	775	1490.2413185751498	691	2	0	187	24	12	com.ctrip.framework.foundation.internals.io.ByteOrderMark	0	0	0	1	9	8			20	2
+0	6	244	428	1895	3230.1049222970732	690	-1	105	375	67	26	com.ctrip.framework.foundation.internals.io.BOMInputStream	12	6	0	6	9	18			44	-1
+-1	1	3	9	10	20.723265836946414	692	-1	0	5	0	0	com.ctrip.framework.foundation.internals.io.IOUtils	0	0	0	0	1	0			0	-1
+-1	0	160	280	1187	1982.171630490707	693	-1	78	237	52	21	com.ctrip.framework.foundation.internals.io.ProxyInputStream	0	0	1	4	0	13			34	-1
+-1	0	17	50	90	224.99048351651325	701	0	3	22	6	0	com.ctrip.framework.foundation.spi.provider.Provider	0	0	0	0	0	3			3	0
+-1	0	21	45	83	198.84782735084693	699	0	6	28	8	0	com.ctrip.framework.foundation.spi.provider.ApplicationProvider	0	0	0	1	0	4			4	0
+-1	0	26	53	111	249.6051006695537	702	0	10	36	13	0	com.ctrip.framework.foundation.spi.provider.ServerProvider	0	0	0	2	0	5			5	0
+-1	0	13	26	42	97.17941007536758	700	0	1	16	4	0	com.ctrip.framework.foundation.spi.provider.NetworkProvider	0	0	0	0	0	2			2	0
+-1	0	4	15	23	47.032413238937245	698	0	1	9	2	0	com.ctrip.framework.foundation.spi.ProviderManager	0	0	0	1	0	2			2	0
+-1	0	8	17	19	50.055462645829486	333	0	1	11	2	0	com.ctrip.framework.apollo.core.schedule.SchedulePolicy	0	0	0	0	0	2	state	State	2	0
+0	1	26	45	109	211.11065470031144	332	0	0	35	6	1	com.ctrip.framework.apollo.core.schedule.ExponentialSchedulePolicy	0	0	0	0	3	3			4	0
+0	3	42	60	195	316.3799735138248	282	1	8	58	20	1	com.ctrip.framework.apollo.core.dto.ApolloConfigNotification	0	0	0	0	3	9			10	1
+0	2	58	63	235	343.953887391082	70	1	30	84	19	2	com.ctrip.framework.apollo.core.dto.ApolloConfig	0	0	0	1	5	13			15	1
+0	1	44	64	202	339.7291326336771	739	-1	0	64	23	13	com.ctrip.framework.apollo.core.dto.ApolloNotificationMessages	0	0	0	3	1	10			23	-1
+0	1	31	38	125	183.47592201748745	91	1	3	44	11	2	com.ctrip.framework.apollo.core.dto.ServiceDTO	0	0	0	0	3	7			9	1
+-1	0	9	54	63	223.72927522514277	797	0	0	16	1	0	com.ctrip.framework.apollo.core.spi.MetaServerProvider	0	0	0	1	0	1			1	0
+0	1	23	89	156	449.4371846452088	798	0	0	39	3	0	com.ctrip.framework.apollo.core.spi.Ordered	0	0	0	0	2	1			1	0
+-1	1	13	20	34	70.52721049232323	603	-1	0	16	0	0	com.ctrip.framework.apollo.tracer.internals.cat.CatNames	0	0	0	0	8	0			0	-1
+0	2	65	66	365	389.39322533644446	602	-1	10	84	16	5	com.ctrip.framework.apollo.tracer.internals.cat.CatMessageProducer	0	0	0	3	6	5			10	0
+0	3	60	61	304	348.7386897857795	604	1	0	76	14	4	com.ctrip.framework.apollo.tracer.internals.cat.CatTransaction	0	0	0	2	6	6			10	1
+0	1	24	52	99	238.94623220699867	607	0	6	32	4	0	com.ctrip.framework.apollo.tracer.spi.Transaction	0	0	0	0	1	4			4	0
+-1	0	9	18	22	55.63876416044969	606	0	0	11	2	0	com.ctrip.framework.apollo.tracer.spi.MessageProducerManager	0	0	0	0	0	1	implementor	Bridge	1	0
+-1	0	35	68	209	363.27872913360716	605	0	10	46	6	0	com.ctrip.framework.apollo.tracer.spi.MessageProducer	0	0	0	0	0	5	creator	Factory Method	5	0
+0	5	147	125	715	821.5353178367509	853	2	0	234	26	91	com.ctrip.framework.apollo.internals.YamlConfigFileTest	0	0	0	18	5	11			102	2
+-1	0	15	33	73	141.5851615578969	787	0	1	33	4	8	com.ctrip.framework.apollo.internals.ConfigServiceLocatorTest	0	0	0	5	0	2			10	0
+0	3	136	99	672	644.5155757117918	453	-1	22	227	25	89	com.ctrip.framework.apollo.internals.XmlConfigFileTest	0	0	0	23	3	13			102	2
+0	2	19	36	84	159.50940475835927	859	0	0	43	5	10	com.ctrip.framework.apollo.internals.TxtConfigFileTest	0	0	0	10	2	2			12	0
+0	4	87	108	416	651.3140081082164	224	-1	9	153	15	40	com.ctrip.framework.apollo.internals.SimpleConfigTest	0	0	0	23	4	7			47	0
+0	7	601	432	3074	3469.2774872105697	216	-1	141	966	94	281	com.ctrip.framework.apollo.internals.DefaultConfigTest	0	0	0	43	7	43			324	9
+0	8	251	245	1342	1764.4694977952488	217	-1	1	431	42	137	com.ctrip.framework.apollo.internals.RemoteConfigRepositoryTest	0	0	0	49	12	15			152	3
+0	3	55	67	259	372.307480133869	852	2	0	118	16	36	com.ctrip.framework.apollo.internals.PropertiesCompatibleFileConfigRepositoryTest	0	0	0	15	3	6			42	2
+0	7	378	223	2319	1728.0027682079835	475	-1	73	562	104	212	com.ctrip.framework.apollo.internals.RemoteConfigLongPollServiceTest	0	0	0	39	10	23			235	3
+-1	0	12	28	58	113.69240429529974	795	0	1	30	4	4	com.ctrip.framework.apollo.internals.DefaultMetaServerProviderTest	0	0	0	6	0	2			6	0
+0	3	86	90	414	542.3279376442782	452	-1	6	154	22	63	com.ctrip.framework.apollo.internals.PropertiesConfigFileTest	0	0	0	22	3	9			72	1
+0	5	132	179	678	1166.9273645413307	223	2	0	223	32	67	com.ctrip.framework.apollo.internals.LocalFileConfigRepositoryTest	0	0	0	26	9	11			78	2
+0	3	76	66	336	383.92933655757145	595	2	0	133	13	48	com.ctrip.framework.apollo.internals.JsonConfigFileTest	0	0	0	14	3	6			54	2
+0	2	83	113	719	743.2983334224783	215	1	0	149	15	15	com.ctrip.framework.apollo.internals.DefaultConfigManagerTest	0	0	0	17	2	6			21	1
+0	1	43	74	231	402.7389105786127	707	-1	1	70	10	6	com.ctrip.framework.apollo.internals.DefaultInjector	0	0	0	16	1	3			9	-1
+0	3	39	75	225	406.2075301653315	242	0	2	60	10	12	com.ctrip.framework.apollo.internals.AbstractConfigRepository	0	0	3	9	3	5	abstractClass	Template Method	17	0
+0	3	34	71	196	374.7461408053667	794	0	4	58	9	9	com.ctrip.framework.apollo.internals.DefaultMetaServerProvider	0	0	0	7	3	4			13	0
+-1	0	8	20	33	69.93015122932961	858	0	1	15	3	0	com.ctrip.framework.apollo.internals.TxtConfigFile	2	0	0	1	0	2			2	0
+0	2	51	87	258	483.1074838881807	593	0	19	76	22	14	com.ctrip.framework.apollo.internals.YamlConfigFile	6	1	1	10	2	7			21	0
+0	1	39	76	192	399.5696482741114	450	-1	9	68	16	12	com.ctrip.framework.apollo.internals.PropertiesConfigFile	5	1	0	9	1	6			18	-1
+-1	0	23	43	102	198.87383097122364	592	-1	6	35	8	6	com.ctrip.framework.apollo.internals.PlainTextConfigFile	3	1	4	2	0	4			10	-1
+0	18	233	290	1630	2144.937235202234	474	-1	30	320	42	104	com.ctrip.framework.apollo.internals.RemoteConfigLongPollService	0	0	0	42	19	13			117	-1
+0	17	228	324	1574	2385.085638988661	21	-1	35	337	39	93	com.ctrip.framework.apollo.internals.RemoteConfigRepository	13	1	0	40	18	14	context	State	107	0
+0	17	394	315	2860	2506.9517247013778	241	-1	352	538	106	122	com.ctrip.framework.apollo.internals.AbstractConfig	0	0	2	32	19	28	abstraction	Bridge	150	-1
+0	5	70	122	378	724.0570918655898	222	-1	6	108	18	24	com.ctrip.framework.apollo.internals.SimpleConfig	6	2	0	14	5	8	context	State	32	-1
+0	7	155	210	716	1380.4728350617356	197	-1	1	234	34	56	com.ctrip.framework.apollo.internals.DefaultConfig	9	1	0	21	7	10	context	State	66	-1
+-1	0	11	27	39	98.91616444550046	591	0	1	18	3	0	com.ctrip.framework.apollo.internals.JsonConfigFile	2	0	0	1	0	2			2	0
+0	7	213	222	1263	1585.356417161809	221	-1	49	282	53	83	com.ctrip.framework.apollo.internals.LocalFileConfigRepository	14	1	0	23	8	15			98	-1
+-1	0	11	33	46	126.34516608414013	243	0	0	15	1	0	com.ctrip.framework.apollo.internals.RepositoryChangeListener	0	0	0	1	0	1	observer	Observer	1	0
+0	8	94	135	566	855.7102005574297	449	0	17	140	21	38	com.ctrip.framework.apollo.internals.AbstractConfigFile	0	0	2	19	8	10	abstraction	Bridge	48	0
+-1	0	30	59	126	285.3406325101372	212	0	10	40	8	0	com.ctrip.framework.apollo.internals.ConfigRepository	0	0	0	2	0	5	implementor	Bridge	5	0
+0	3	40	55	239	301.2054953562331	198	1	0	66	8	11	com.ctrip.framework.apollo.internals.DefaultConfigManager	0	0	0	8	3	3	context	State	14	1
+-1	0	11	27	39	98.91616444550046	594	0	1	17	3	0	com.ctrip.framework.apollo.internals.YmlConfigFile	1	1	0	1	0	2			2	0
+-1	0	11	27	39	98.91616444550046	451	0	1	18	3	0	com.ctrip.framework.apollo.internals.XmlConfigFile	2	0	0	1	0	2			2	0
+-1	0	18	35	88	156.70678850673724	196	0	1	25	8	0	com.ctrip.framework.apollo.internals.ConfigManager	0	0	0	3	0	2			2	0
+0	2	31	54	151	270.9331111880059	850	-1	7	56	11	9	com.ctrip.framework.apollo.internals.PropertiesCompatibleFileConfigRepository	5	1	0	6	2	6	context	State	15	0
+0	8	144	191	806	1278.187994818766	88	0	42	210	29	64	com.ctrip.framework.apollo.internals.ConfigServiceLocator	0	0	0	28	8	12			76	0
+-1	0	13	30	55	120.21999555697414	708	0	1	17	4	0	com.ctrip.framework.apollo.internals.Injector	0	0	0	0	0	2			2	0
+0	2	413	266	2119	2037.2140824993676	664	-1	98	658	43	194	com.ctrip.framework.apollo.spring.JavaConfigPlaceholderTest	21	0	0	23	7	21			215	2
+-1	1	219	124	1391	897.4844957985069	762	-1	0	448	0	0	com.ctrip.framework.apollo.spring.BootstrapConfigTest	0	0	0	30	2	0			0	-1
+0	2	394	252	1978	1912.6400610700296	774	-1	0	637	27	131	com.ctrip.framework.apollo.spring.XmlConfigPlaceholderAutoUpdateTest	13	0	0	16	5	13			144	5
+0	3	118	163	674	1061.656508078706	662	0	76	199	25	28	com.ctrip.framework.apollo.spring.AbstractSpringIntegrationTest	0	0	6	28	4	13			41	0
+0	2	800	419	3946	3469.5117706780925	773	-1	140	1363	68	278	com.ctrip.framework.apollo.spring.JavaConfigPlaceholderAutoUpdateTest	29	0	0	30	7	29			307	4
+0	1	300	214	1619	1581.366686087014	663	-1	67	505	41	102	com.ctrip.framework.apollo.spring.JavaConfigAnnotationTest	14	0	0	32	2	14			116	0
+0	1	147	146	805	976.8629725031103	665	-1	30	258	24	53	com.ctrip.framework.apollo.spring.XMLConfigAnnotationTest	9	0	0	24	1	9			62	0
+0	2	108	86	522	538.159412557907	666	-1	4	165	17	62	com.ctrip.framework.apollo.spring.XmlConfigPlaceholderTest	9	0	0	10	5	9			71	2
+0	2	44	65	219	350.2896624380726	775	-1	0	98	17	33	com.ctrip.framework.apollo.spring.config.ConfigPropertySourceTest	0	0	0	22	2	6			39	1
+0	5	70	144	404	864.2037424264057	659	0	8	146	21	28	com.ctrip.framework.apollo.spring.config.PropertySourcesProcessor	0	0	1	26	5	8			36	0
+0	1	34	67	226	363.17584495124316	658	0	0	57	1	1	com.ctrip.framework.apollo.spring.config.NamespaceHandler	0	0	0	8	1	1			2	0
+-1	1	7	11	19	32.38882877083084	761	-1	0	9	0	0	com.ctrip.framework.apollo.spring.config.PropertySourcesConstants	0	0	0	0	5	0			0	-1
+1	1	11	24	47	92.4035424410414	768	0	0	23	4	2	com.ctrip.framework.apollo.spring.config.ConfigPropertySourceFactory	0	0	0	3	1	2			4	0
+0	1	23	52	102	240.49858629078207	656	0	6	39	7	6	com.ctrip.framework.apollo.spring.config.ConfigPropertySource	0	0	0	4	1	4			10	0
+1	1	10	37	45	140.84651212150183	657	0	0	23	2	1	com.ctrip.framework.apollo.spring.config.ConfigPropertySourcesProcessor	1	0	0	5	1	1	context	State	2	0
+0	1	60	59	262	328.5323257219047	801	1	0	95	11	18	com.ctrip.framework.apollo.spring.boot.ApolloApplicationContextInitializerTest	0	0	0	8	1	5			23	1
+-1	0	5	15	20	44.93598410330986	759	0	0	20	2	0	com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration	0	0	0	7	0	1			1	0
+0	5	84	212	589	1352.2263509341362	760	-1	17	182	20	20	com.ctrip.framework.apollo.spring.boot.ApolloApplicationContextInitializer	0	0	0	19	6	7			27	-1
+-1	0	9	22	39	80.59835621485222	865	0	0	22	1	5	com.ctrip.framework.apollo.spring.spi.ConfigPropertySourcesProcessorHelperTest	0	0	0	5	0	1			6	0
+-1	0	9	22	39	80.59835621485222	864	0	0	22	1	5	com.ctrip.framework.apollo.spring.spi.ApolloConfigRegistrarHelperTest	0	0	0	5	0	1			6	0
+-1	0	8	21	35	74.66230929127768	867	0	1	18	3	0	com.ctrip.framework.apollo.spring.spi.TestRegistrarHelper	0	2	0	2	0	2			2	0
+-1	0	8	21	35	74.66230929127768	866	0	1	18	4	0	com.ctrip.framework.apollo.spring.spi.TestProcessorHelper	0	2	0	2	0	2			2	0
+-1	0	21	66	114	312.58909759403673	863	0	3	50	6	5	com.ctrip.framework.apollo.spring.spi.DefaultConfigPropertySourcesProcessorHelper	0	0	1	11	0	3			8	0
+-1	0	19	36	84	159.50940475835927	862	0	1	51	3	9	com.ctrip.framework.apollo.spring.spi.DefaultApolloConfigRegistrarHelper	0	0	1	15	0	2			11	0
+-1	0	3	13	15	35.20465261432873	860	0	0	10	1	0	com.ctrip.framework.apollo.spring.spi.ApolloConfigRegistrarHelper	0	0	0	3	0	1	state	State	1	0
+-1	0	3	14	15	37.91270281543094	861	0	0	10	2	0	com.ctrip.framework.apollo.spring.spi.ConfigPropertySourcesProcessorHelper	0	0	0	3	0	1	state	State	1	0
+0	1	53	70	241	383.93578534434585	776	-1	9	83	14	13	com.ctrip.framework.apollo.spring.property.PlaceholderHelperTest	0	0	0	5	1	7			20	0
+0	1	19	24	78	104.56101184055021	771	0	0	26	7	0	com.ctrip.framework.apollo.spring.property.SpringValueDefinition	0	0	0	0	3	4			4	0
+0	4	56	104	378	617.2289963444372	772	0	4	103	13	18	com.ctrip.framework.apollo.spring.property.SpringValueDefinitionProcessor	0	0	0	18	4	5			23	0
+0	8	89	136	512	848.4121490053731	780	0	5	125	18	26	com.ctrip.framework.apollo.spring.property.AutoUpdateConfigChangeListener	0	0	0	18	8	6	adapter	(Object)Adapter	32	0
+0	1	113	168	793	1121.5383012346545	769	0	1	164	25	32	com.ctrip.framework.apollo.spring.property.PlaceholderHelper	0	0	0	11	6	7	adaptee	(Object)Adapter	39	0
+0	7	103	113	495	701.115027170262	770	-1	33	132	38	21	com.ctrip.framework.apollo.spring.property.SpringValue	0	0	0	6	9	15			36	-1
+0	4	52	75	324	433.5557636844247	783	0	4	77	13	25	com.ctrip.framework.apollo.spring.property.SpringValueRegistry	0	0	0	13	4	5	adaptee	(Object)Adapter	30	0
+0	4	364	269	2063	2052.9855420161666	265	-1	358	554	81	225	com.ctrip.framework.apollo.integration.ConfigIntegrationTest	25	4	0	38	8	29			254	0
+-1	0	137	122	655	791.1254987475007	718	-1	190	239	39	75	com.ctrip.framework.apollo.util.ConfigUtilTest	0	0	0	8	0	20			95	0
+1	1	60	65	234	354.5958724982506	915	4	0	102	10	39	com.ctrip.framework.apollo.util.OrderedPropertiesTest	0	0	0	6	1	9			48	4
+-1	0	31	51	158	258.1923466843753	302	-1	6	50	8	8	com.ctrip.framework.apollo.util.ExceptionUtilTest	0	0	0	2	0	4			12	0
+-1	0	34	80	202	424.6614157920964	289	0	0	46	7	8	com.ctrip.framework.apollo.util.ExceptionUtil	0	0	0	3	0	1			9	0
+0	7	267	255	1394	1846.1828107867198	34	-1	517	342	98	77	com.ctrip.framework.apollo.util.ConfigUtil	0	0	0	12	17	35	adaptee	(Object)Adapter	112	-1
+0	3	68	143	414	861.6988342570199	912	-1	0	116	26	16	com.ctrip.framework.apollo.util.OrderedProperties	0	0	0	9	3	13			29	-1
+0	2	63	96	333	557.5816790381226	548	-1	21	98	27	21	com.ctrip.framework.apollo.util.parser.DateParserTest	0	0	0	6	4	10			31	1
+0	1	55	61	346	356.6327652785212	549	-1	53	92	22	12	com.ctrip.framework.apollo.util.parser.DurationParserTest	0	0	0	2	1	11			23	0
+-1	0	8	17	33	59.44062854493016	546	0	1	11	2	0	com.ctrip.framework.apollo.util.parser.ParserException	0	0	0	0	0	2			2	0
+0	4	95	165	637	1065.366993169407	547	-1	28	130	33	16	com.ctrip.framework.apollo.util.parser.Parsers	0	0	0	6	13	8			24	-1
+0	1	77	116	425	702.0423435952324	854	-1	66	141	38	32	com.ctrip.framework.apollo.util.yaml.YamlParserTest	0	0	0	22	1	13			45	0
+0	2	144	213	1040	1479.7058863248442	851	-1	24	189	25	32	com.ctrip.framework.apollo.util.yaml.YamlParser	0	0	0	16	2	8	context	State	40	-1
+0	3	42	59	218	317.68520870455626	709	-1	0	64	10	7	com.ctrip.framework.apollo.build.MockInjector	0	0	0	6	3	6			13	1
+0	2	42	68	298	387.40235708236753	706	-1	3	51	15	12	com.ctrip.framework.apollo.build.ApolloInjector	0	0	0	4	2	3			15	-1
+0	3	119	147	572	933.3234317328303	219	1	3	209	21	50	com.ctrip.framework.apollo.spi.DefaultConfigFactoryTest	0	0	0	28	3	10			60	1
+1	1	27	55	141	272.1817939707993	220	1	0	56	8	6	com.ctrip.framework.apollo.spi.DefaultConfigRegistryTest	0	0	0	9	1	3			9	1
+0	1	72	93	472	572.5990456594566	218	1	0	130	16	16	com.ctrip.framework.apollo.spi.DefaultConfigFactoryManagerTest	0	0	0	11	1	6			22	1
+0	2	27	39	122	187.356820744597	203	0	0	51	4	5	com.ctrip.framework.apollo.spi.DefaultConfigFactoryManager	0	0	0	3	2	2	context	State	7	0
+0	2	17	43	79	187.88625765608194	204	0	0	32	4	5	com.ctrip.framework.apollo.spi.DefaultConfigRegistry	0	0	0	4	2	2			7	0
+-1	0	18	41	89	184.03409115901772	201	0	1	24	6	0	com.ctrip.framework.apollo.spi.ConfigRegistry	0	0	0	0	0	2	state	State	2	0
+-1	0	17	36	77	156.37699518673264	199	0	1	25	6	0	com.ctrip.framework.apollo.spi.ConfigFactory	0	0	0	3	0	2	creator	Factory Method	2	0
+0	2	66	112	180	581.6111672997035	202	-1	26	110	25	20	com.ctrip.framework.apollo.spi.DefaultConfigFactory	0	0	0	20	2	8			28	-1
+-1	0	11	28	42	104.65474931193431	200	0	0	14	3	0	com.ctrip.framework.apollo.spi.ConfigFactoryManager	0	0	0	0	0	1	state	State	1	0
+-1	0	11	24	39	87.9254795071115	381	0	1	14	2	0	com.ctrip.framework.apollo.exceptions.ApolloConfigException	0	0	0	0	0	2			2	0
+1	1	17	34	69	143.95962115630684	545	1	0	22	5	1	com.ctrip.framework.apollo.exceptions.ApolloConfigStatusCodeException	0	0	0	0	1	3			4	1
+0	6	76	130	463	797.9045170312104	782	0	0	124	15	31	com.ctrip.framework.apollo.spring.annotation.ApolloJsonValueProcessor	3	2	0	20	6	5	adapter	(Object)Adapter	36	0
+0	6	93	155	601	991.7822148529572	763	1	0	158	25	34	com.ctrip.framework.apollo.spring.annotation.SpringValueProcessor	4	3	0	26	6	7			41	1
+1	1	9	26	33	90.90919659812849	654	0	0	20	1	1	com.ctrip.framework.apollo.spring.annotation.ApolloConfigRegistrar	0	0	0	5	1	1	context	State	2	0
+-1	0	49	85	303	485.66728846829636	779	-1	36	74	21	11	com.ctrip.framework.apollo.spring.annotation.ApolloProcessor	0	0	3	9	0	9	abstractClass	Template Method	20	0
+-1	0	47	103	312	591.5293283443767	651	0	3	80	11	21	com.ctrip.framework.apollo.spring.annotation.ApolloAnnotationProcessor	1	2	0	12	0	3			24	0
+0	2	37	65	265	362.68243868910446	784	0	1	53	10	7	com.ctrip.framework.apollo.spring.util.SpringInjector	0	0	0	9	2	2			9	0
+-1	0	28	51	176	263.6946837469457	661	-1	1	48	6	14	com.ctrip.framework.apollo.spring.util.BeanRegistrationUtil	0	0	0	5	0	2			16	-1
+0	2	60	86	264	479.5316228705832	244	2	5	77	17	2	com.ctrip.framework.apollo.model.ConfigChange	0	0	0	1	5	10			12	2
+0	2	47	81	203	430.36968430238477	245	1	0	58	12	3	com.ctrip.framework.apollo.model.ConfigChangeEvent	0	0	0	2	2	5			8	1
+0	2	43	66	186	344.8992804650713	714	1	0	56	12	2	com.ctrip.framework.apollo.model.ConfigFileChangeEvent	0	0	0	1	4	6			8	1
+0	2	122	153	875	1036.456254612715	227	2	0	168	22	28	com.ctrip.framework.apollo.util.http.HttpUtil	0	0	0	15	2	6			34	2
+0	2	17	28	61	115.10446819685272	226	0	0	22	5	0	com.ctrip.framework.apollo.util.http.HttpResponse	0	0	0	0	2	3			3	0
+0	3	39	51	145	253.8134208634493	225	1	12	51	13	0	com.ctrip.framework.apollo.util.http.HttpRequest	0	0	0	1	4	8			8	1
+0	1	15	50	75	215.8744056768155	914	0	0	28	4	0	com.ctrip.framework.apollo.util.factory.PropertiesFactory	0	0	0	1	1	1	implementor	Bridge	1	0
+1	1	18	32	67	134.5501638205109	913	0	0	29	5	2	com.ctrip.framework.apollo.util.factory.DefaultPropertiesFactory	0	0	0	4	1	2	adapter	(Object)Adapter	4	0
+0	8	69	73	357	429.07471206991363	644	0	36	76	24	11	com.ctrip.framework.apollo.util.function.Functions	0	0	0	5	9	9			20	0
+1	1	22	39	96	178.0095794672456	346	0	0	46	3	17	com.ctrip.framework.apollo.adminservice.controller.AppNamespaceControllerTest	1	0	0	7	1	1			18	0
+0	2	41	63	188	329.8958436582868	837	-1	4	74	10	27	com.ctrip.framework.apollo.adminservice.controller.ClusterControllerTest	5	0	0	16	2	5			32	0
+0	4	215	202	1143	1422.3651560865517	538	3	3	350	34	97	com.ctrip.framework.apollo.adminservice.controller.InstanceConfigControllerTest	0	0	0	29	4	10			107	3
+-1	0	8	22	37	79.44019407817294	276	-1	0	21	2	9	com.ctrip.framework.apollo.adminservice.controller.TestWebSecurityConfig	0	0	0	4	0	1			10	-1
+0	5	39	71	177	367.5066310127418	285	0	6	86	10	22	com.ctrip.framework.apollo.adminservice.controller.ControllerIntegrationExceptionTest	5	0	0	19	5	5			27	0
+1	1	119	121	749	800.8674170055835	249	1	0	221	9	76	com.ctrip.framework.apollo.adminservice.controller.ItemSetControllerTest	3	0	0	17	1	3			79	1
+0	3	48	60	196	316.68687955383103	284	2	0	94	10	38	com.ctrip.framework.apollo.adminservice.controller.ControllerExceptionTest	0	0	0	18	3	7			45	2
+0	1	87	92	415	554.6016238612242	230	-1	24	140	17	72	com.ctrip.framework.apollo.adminservice.controller.AppControllerTest	9	0	0	14	1	9			81	0
+-1	0	19	41	94	186.27508607307016	840	0	0	31	3	11	com.ctrip.framework.apollo.adminservice.controller.NamespaceControllerTest	1	0	0	6	0	1			12	0
+0	1	51	100	273	560.947179518496	251	0	1	123	4	25	com.ctrip.framework.apollo.adminservice.controller.ReleaseControllerTest	2	0	0	29	1	2			27	0
+0	3	12	35	55	140.2566614831365	248	-1	1	39	3	3	com.ctrip.framework.apollo.adminservice.controller.AbstractControllerTest	0	0	8	12	3	2			5	-1
+1	1	53	99	348	579.3680454976729	171	3	0	108	30	19	com.ctrip.framework.apollo.adminservice.controller.NamespaceController	0	0	0	16	1	8			27	3
+1	1	35	58	179	300.8683767387638	884	2	0	66	12	13	com.ctrip.framework.apollo.adminservice.controller.AccessKeyController	0	0	0	12	1	6			19	2
+1	3	24	49	141	242.48923462853026	439	0	0	52	6	5	com.ctrip.framework.apollo.adminservice.controller.NamespaceLockController	0	0	0	11	3	2			7	0
+0	2	50	100	303	571.3732805509369	142	3	0	92	25	16	com.ctrip.framework.apollo.adminservice.controller.AppController	0	0	0	20	2	7			23	3
+0	3	87	133	574	844.8997097105024	537	2	0	189	18	60	com.ctrip.framework.apollo.adminservice.controller.InstanceConfigController	0	0	0	31	3	5			65	2
+0	2	44	95	269	531.4975810621747	292	-1	0	92	19	18	com.ctrip.framework.apollo.adminservice.controller.AppNamespaceController	0	0	0	19	2	6			24	1
+0	3	60	99	416	597.0378407658651	557	2	0	150	23	35	com.ctrip.framework.apollo.adminservice.controller.NamespaceBranchController	0	0	0	22	3	8			43	2
+1	1	10	30	56	120.76055072205449	238	0	0	33	3	3	com.ctrip.framework.apollo.adminservice.controller.ItemSetController	0	0	0	9	1	2			5	0
+1	1	10	29	55	116.21266237174166	423	0	0	32	4	2	com.ctrip.framework.apollo.adminservice.controller.CommitController	0	0	0	9	1	2			4	0
+0	3	97	139	599	888.9413621380475	144	-1	0	177	32	63	com.ctrip.framework.apollo.adminservice.controller.ItemController	0	0	0	25	3	8			71	3
+1	1	44	86	278	483.9754157773948	95	2	0	87	21	15	com.ctrip.framework.apollo.adminservice.controller.ClusterController	0	0	0	16	1	6			21	2
+0	3	42	83	226	449.9044049395998	558	1	3	95	17	16	com.ctrip.framework.apollo.adminservice.controller.ReleaseHistoryController	0	0	0	17	3	6			22	1
+0	5	100	161	677	1049.3450749388762	145	4	0	220	38	47	com.ctrip.framework.apollo.adminservice.controller.ReleaseController	0	0	0	26	5	10			57	4
+-1	0	5	13	18	37.57483285265014	357	0	0	15	2	0	com.ctrip.framework.apollo.adminservice.controller.IndexController	0	0	0	3	0	1			1	0
+0	4	104	86	471	529.3177960854119	681	3	3	181	20	79	com.ctrip.framework.apollo.adminservice.aop.NamespaceUnlockAspectTest	0	0	0	16	4	10			89	3
+0	7	81	78	336	453.73467047712995	469	2	0	150	16	64	com.ctrip.framework.apollo.adminservice.aop.NamespaceLockTest	0	0	0	19	11	8			72	2
+0	5	85	128	553	808.3658241948589	437	-1	31	151	35	28	com.ctrip.framework.apollo.adminservice.aop.NamespaceAcquireLockAspect	0	0	0	17	5	10			38	-1
+0	6	86	148	566	938.111923574071	680	2	7	162	29	34	com.ctrip.framework.apollo.adminservice.aop.NamespaceUnlockAspect	0	0	0	21	6	10			44	2
+-1	0	5	18	24	57.20496894626302	353	0	0	25	1	1	com.ctrip.framework.apollo.adminservice.AdminServiceApplication	0	0	0	9	0	1			2	0
+0	1	14	28	56	112.70984734058419	254	0	1	29	4	5	com.ctrip.framework.apollo.adminservice.AdminServiceHealthIndicator	0	0	0	5	1	3			8	0
+-1	0	9	27	34	95.21173416463637	847	-1	0	18	2	1	com.ctrip.framework.apollo.adminservice.ServletInitializer	0	0	0	2	0	1			2	-1
+0	2	47	57	201	302.28837975936733	743	0	0	91	2	2	com.ctrip.framework.apollo.common.conditional.ConditionalOnProfileTest	0	0	0	12	8	1			3	0
+-1	0	26	36	112	169.8659593666234	881	0	6	38	6	6	com.ctrip.framework.apollo.common.utils.InputValidatorTest	0	0	0	2	0	4			10	0
+0	1	15	39	82	171.86205064330588	413	-1	3	27	5	4	com.ctrip.framework.apollo.common.utils.RequestPrecondition	0	0	0	2	2	3			7	-1
+0	1	182	190	1162	1341.0006081082527	124	-1	55	238	49	47	com.ctrip.framework.apollo.common.utils.BeanUtils	0	0	0	13	1	11			58	-1
+1	2	13	30	58	121.81329031639257	290	0	0	31	3	7	com.ctrip.framework.apollo.common.utils.ExceptionUtils	0	0	0	6	2	1			8	0
+0	2	15	33	56	132.83660579425992	578	0	0	26	6	2	com.ctrip.framework.apollo.common.utils.GrayReleaseRuleItemTransformer	0	0	0	5	2	2			4	0
+0	3	24	67	134	328.15526659671104	579	0	0	50	7	10	com.ctrip.framework.apollo.common.utils.UniqueKeyGenerator	0	0	1	8	3	2			12	0
+0	2	23	53	128	257.1576039877397	419	-1	1	31	6	6	com.ctrip.framework.apollo.common.utils.InputValidator	0	0	0	2	6	2			8	0
+0	4	64	79	276	444.01166839165484	139	0	76	122	33	5	com.ctrip.framework.apollo.common.entity.BaseEntity	0	0	23	13	6	17			22	0
+0	1	82	95	443	578.8891281542878	138	1	55	149	22	3	com.ctrip.framework.apollo.common.entity.App	13	1	0	8	6	14			17	1
+0	1	20	23	79	100.49730060674149	487	1	0	28	7	0	com.ctrip.framework.apollo.common.entity.EntityPair	0	0	0	0	2	5			5	1
+0	2	43	79	210	422.42149492668	160	1	30	91	23	4	com.ctrip.framework.apollo.common.entity.AppNamespace	11	1	0	9	5	12			16	1
+0	2	22	48	97	219.58612696816238	349	0	6	37	8	2	com.ctrip.framework.apollo.common.http.MultiResponseEntity	0	0	0	3	2	4			6	0
+0	3	27	34	114	161.03074724541284	350	1	0	37	10	3	com.ctrip.framework.apollo.common.http.RichResponseEntity	0	0	0	1	3	5			8	1
+0	3	49	80	219	431.12573838532006	352	0	4	84	13	20	com.ctrip.framework.apollo.common.customize.LoggingCustomizer	0	0	2	10	3	4	abstractClass	Template Method	24	0
+-1	0	33	62	200	328.4956767259782	742	0	1	57	9	15	com.ctrip.framework.apollo.common.condition.OnProfileCondition	0	0	0	8	0	2			17	0
+-1	0	14	23	54	91.74663307097832	316	-1	6	32	8	6	com.ctrip.framework.apollo.common.controller.ApolloInfoController	0	0	0	4	0	4			10	0
+-1	0	26	50	123	240.60921776862085	172	-1	10	56	6	11	com.ctrip.framework.apollo.common.controller.WebMvcConfig	0	0	0	11	0	5			16	0
+-1	0	11	20	44	75.68379267836522	359	0	0	25	2	5	com.ctrip.framework.apollo.common.controller.CharacterEncodingFilterConfiguration	0	0	0	5	0	1			6	0
+-1	0	16	37	74	159.2504084485543	348	0	1	37	4	4	com.ctrip.framework.apollo.common.controller.HttpMessageConverterConfiguration	0	0	0	11	0	2			6	0
+0	3	80	108	388	643.7885766793136	11	-1	45	156	25	36	com.ctrip.framework.apollo.common.controller.GlobalDefaultExceptionHandler	0	0	0	34	3	10			46	0
+-1	0	6	13	22	40.183551893658105	493	0	0	13	1	1	com.ctrip.framework.apollo.common.exception.BadRequestException	1	0	0	1	0	1			2	0
+-1	0	5	12	18	34.68446109475397	494	0	0	9	1	0	com.ctrip.framework.apollo.common.exception.BeanUtilsException	0	0	0	0	0	1			1	0
+-1	0	6	13	22	40.183551893658105	495	0	0	12	1	1	com.ctrip.framework.apollo.common.exception.NotFoundException	1	0	0	1	0	1			2	0
+0	2	16	32	68	135.02424656563542	492	0	4	26	5	0	com.ctrip.framework.apollo.common.exception.AbstractApolloHttpException	0	0	3	1	2	4			4	0
+-1	0	10	18	41	66.84429720067754	496	-1	1	16	2	2	com.ctrip.framework.apollo.common.exception.ServiceException	2	0	0	1	0	2			4	0
+-1	0	12	30	49	116.7546089433188	634	0	3	24	4	1	com.ctrip.framework.apollo.common.config.RefreshablePropertySource	0	0	2	2	0	3			4	0
+0	6	66	96	404	576.1358282842705	633	-1	15	117	19	21	com.ctrip.framework.apollo.common.config.RefreshableConfig	0	0	2	14	6	7	abstractClass	Template Method	28	-1
+-1	0	20	41	108	191.967380312093	347	0	1	37	5	8	com.ctrip.framework.apollo.common.aop.RepositoryAspect	0	0	0	7	0	2			10	0
+0	1	38	44	83	194.42898674305033	137	-1	1	63	8	6	com.ctrip.framework.apollo.common.datasource.TitanSettings	0	0	0	5	6	2			8	0
+-1	0	14	23	75	99.30222661133513	135	0	0	25	3	3	com.ctrip.framework.apollo.common.datasource.TitanCondition	0	0	0	4	0	1			4	0
+1	1	14	34	66	142.44826122889845	136	0	0	33	5	7	com.ctrip.framework.apollo.common.datasource.TitanEntityManager	0	0	0	6	1	2			9	0
+0	3	52	50	212	267.8293137336006	105	1	63	77	20	0	com.ctrip.framework.apollo.common.dto.ItemDTO	14	0	0	0	6	14			14	1
+0	4	54	56	206	298.36106545221656	540	0	77	79	21	0	com.ctrip.framework.apollo.common.dto.InstanceDTO	0	0	0	2	7	14			14	0
+0	2	26	34	94	154.47202259718014	539	0	9	36	11	0	com.ctrip.framework.apollo.common.dto.InstanceConfigDTO	0	0	0	1	3	6			6	0
+0	1	38	53	153	266.6132098337991	231	-1	9	55	15	4	com.ctrip.framework.apollo.common.dto.ItemChangeSets	10	0	0	2	3	10			14	1
+0	3	42	47	172	241.93224041023228	575	1	23	65	16	2	com.ctrip.framework.apollo.common.dto.GrayReleaseRuleDTO	10	0	0	2	6	10			12	1
+0	3	30	47	121	225.40215564304685	541	1	1	44	13	4	com.ctrip.framework.apollo.common.dto.PageDTO	0	0	0	3	4	6			10	1
+0	3	65	60	258	333.177575095297	106	0	135	93	27	0	com.ctrip.framework.apollo.common.dto.ReleaseDTO	18	0	0	0	9	18			18	0
+1	1	9	18	34	63.47448944309091	443	0	0	14	3	0	com.ctrip.framework.apollo.common.dto.NamespaceLockDTO	2	0	0	0	1	2			2	0
+0	1	37	38	146	189.3770516249168	425	0	35	54	15	0	com.ctrip.framework.apollo.common.dto.CommitDTO	10	0	0	0	5	10			10	0
+0	2	33	47	138	231.58092320238865	576	2	0	52	15	8	com.ctrip.framework.apollo.common.dto.GrayReleaseRuleItemDTO	0	0	0	3	3	8			16	2
+0	3	30	35	118	166.97396185629827	890	0	20	45	12	0	com.ctrip.framework.apollo.common.dto.AccessKeyDTO	8	0	0	0	4	8			8	0
+0	2	30	40	124	192.81126262420148	157	0	20	50	12	0	com.ctrip.framework.apollo.common.dto.NamespaceDTO	8	0	0	2	4	8			8	0
+0	2	51	55	208	293.5645943835725	156	0	77	82	21	0	com.ctrip.framework.apollo.common.dto.AppDTO	14	0	0	2	7	14			14	0
+0	2	30	32	116	152.11488611540366	380	0	20	47	16	0	com.ctrip.framework.apollo.common.dto.BaseDTO	0	0	19	1	4	8			8	0
+0	2	30	46	133	224.95605989820066	104	0	20	54	12	0	com.ctrip.framework.apollo.common.dto.ClusterDTO	8	0	0	3	4	8			8	0
+0	3	44	46	174	237.31654376386834	341	0	54	64	20	0	com.ctrip.framework.apollo.common.dto.AppNamespaceDTO	12	0	0	0	6	12			12	0
+0	4	67	62	263	345.4735499950214	577	0	153	99	28	0	com.ctrip.framework.apollo.common.dto.ReleaseHistoryDTO	19	0	0	1	9	19			19	0
+-1	0	2	7	7	13.621371043387192	356	-1	0	12	0	0	com.ctrip.framework.apollo.common.ApolloCommonConfig	0	0	0	3	0	0			0	-1
+-1	1	8	12	16	33.27106466687737	571	-1	0	17	0	0	com.ctrip.framework.apollo.common.constants.GsonType	0	0	0	5	2	0			0	-1
+-1	1	11	18	28	59.979681183153666	574	-1	0	13	0	0	com.ctrip.framework.apollo.common.constants.ReleaseOperationContext	0	0	0	0	6	0			0	-1
+-1	1	5	9	13	23.08454421715383	572	-1	0	11	0	0	com.ctrip.framework.apollo.common.constants.NamespaceBranchStatus	0	0	0	0	3	0			0	-1
+-1	1	14	21	37	75.82927616552871	573	-1	0	16	0	0	com.ctrip.framework.apollo.common.constants.ReleaseOperation	0	0	0	0	9	0			0	-1
+-1	0	2	7	7	13.621371043387192	167	-1	0	14	0	0	com.ctrip.framework.apollo.biz.BizTestConfiguration	0	0	0	4	0	0			0	-1
+-1	0	2	9	9	19.775021196025975	484	-1	0	16	0	0	com.ctrip.framework.apollo.biz.AbstractIntegrationTest	0	0	18	6	0	0			0	-1
+-1	0	42	66	234	360.0511936136083	647	-1	10	65	10	20	com.ctrip.framework.apollo.biz.MockBeanFactory	0	0	0	5	0	5			25	0
+-1	0	2	6	6	10.75055681536833	485	-1	0	9	0	0	com.ctrip.framework.apollo.biz.AbstractUnitTest	0	0	17	2	0	0			0	-1
+-1	0	2	7	7	13.621371043387192	355	-1	0	12	0	0	com.ctrip.framework.apollo.biz.ApolloBizConfig	0	0	0	3	0	0			0	-1
+0	6	74	116	346	678.1868979066961	568	0	6	166	11	32	com.ctrip.framework.apollo.biz.grayReleaseRule.GrayReleaseRulesHolderTest	0	0	0	27	6	5			37	0
+0	10	176	248	1172	1752.4838085939655	562	-1	72	276	46	89	com.ctrip.framework.apollo.biz.grayReleaseRule.GrayReleaseRulesHolder	0	0	0	33	10	16	adapter	(Object)Adapter	105	0
+0	4	56	72	256	399.2527760025285	561	1	29	75	22	2	com.ctrip.framework.apollo.biz.grayReleaseRule.GrayReleaseRuleCache	0	0	0	2	7	11			13	1
+0	6	65	65	279	366.02876581838876	169	1	0	116	6	42	com.ctrip.framework.apollo.biz.service.AdminServiceTest	3	0	0	13	6	3			45	1
+0	9	118	133	536	835.7898434224167	486	3	0	227	19	85	com.ctrip.framework.apollo.biz.service.ReleaseServiceTest	9	0	0	24	13	9			94	3
+0	3	48	63	189	330.2300619487575	632	1	0	104	7	23	com.ctrip.framework.apollo.biz.service.BizDBPropertySourceTest	6	0	0	16	8	6			29	1
+0	6	72	85	328	492.40615671265226	629	1	1	134	13	66	com.ctrip.framework.apollo.biz.service.NamespacePublishInfoTest	7	0	0	17	6	7			73	1
+0	1	145	139	718	914.1292700977032	534	3	0	274	21	74	com.ctrip.framework.apollo.biz.service.InstanceServiceTest	10	0	0	19	1	10			84	3
+1	2	18	33	76	142.91420022944894	294	0	0	37	2	9	com.ctrip.framework.apollo.biz.service.ClusterServiceTest	1	0	0	6	2	1			10	0
+0	1	28	50	128	242.60151319598086	889	0	1	48	5	7	com.ctrip.framework.apollo.biz.service.AccessKeyServiceTest	3	0	0	6	1	3			10	0
+0	4	23	42	98	192.56863410416403	587	0	0	72	2	18	com.ctrip.framework.apollo.biz.service.NamespaceServiceTest	2	0	0	18	4	2			20	0
+0	6	274	195	3055	1564.7842999631105	570	3	0	500	16	157	com.ctrip.framework.apollo.biz.service.ReleaseCreationTest	9	0	0	18	8	9			166	3
+0	4	97	95	417	573.1431910708861	569	2	0	192	8	75	com.ctrip.framework.apollo.biz.service.NamespaceBranchServiceTest	7	0	0	13	8	7			82	2
+0	5	47	62	202	329.11259723887474	267	1	0	88	10	19	com.ctrip.framework.apollo.biz.service.AdminServiceTransactionTest	5	0	0	15	5	5			24	1
+1	9	39	68	173	350.42382842584897	648	0	0	91	1	20	com.ctrip.framework.apollo.biz.service.NamespaceServiceIntegrationTest	1	0	0	20	13	1			21	0
+0	3	53	80	277	449.9214004949871	887	2	0	86	14	26	com.ctrip.framework.apollo.biz.service.AccessKeyService	0	0	0	7	3	5			31	2
+0	5	109	156	637	1007.2560662692574	293	-1	0	180	34	67	com.ctrip.framework.apollo.biz.service.AppNamespaceService	0	0	0	21	5	14			81	-1
+0	2	82	135	459	827.4217783581736	533	-1	0	181	33	56	com.ctrip.framework.apollo.biz.service.InstanceService	0	0	0	20	2	13	context	State	69	-1
+1	1	33	54	183	281.3122522534368	368	1	0	50	9	9	com.ctrip.framework.apollo.biz.service.ReleaseMessageService	0	0	0	9	1	3	context	State	12	1
+0	2	50	77	329	446.29644680893364	631	0	6	91	8	16	com.ctrip.framework.apollo.biz.service.BizDBPropertySource	3	1	0	13	2	4	adapter	(Object)Adapter	20	0
+0	6	116	168	716	1104.3782680493885	565	-1	21	207	25	68	com.ctrip.framework.apollo.biz.service.NamespaceBranchService	0	0	0	17	6	10			78	1
+0	2	56	88	282	496.487822242554	151	3	0	95	20	41	com.ctrip.framework.apollo.biz.service.AppService	0	0	0	11	2	8			49	3
+0	13	246	282	1513	2064.7616192883165	165	-1	93	414	71	118	com.ctrip.framework.apollo.biz.service.NamespaceService	0	0	0	31	13	23			141	-1
+0	3	65	96	459	588.3888201658124	239	-1	2	108	10	39	com.ctrip.framework.apollo.biz.service.ItemSetService	0	0	0	12	3	4			43	-1
+1	1	15	28	66	117.3103327767399	442	1	0	31	6	3	com.ctrip.framework.apollo.biz.service.NamespaceLockService	0	0	0	4	1	4	context	State	7	1
+0	4	120	151	714	992.2033273132772	159	-1	2	184	56	67	com.ctrip.framework.apollo.biz.service.ItemService	0	0	0	16	4	17			84	-1
+1	1	16	35	89	157.10227294062489	288	1	0	35	7	4	com.ctrip.framework.apollo.biz.service.CommitService	0	0	0	6	1	4	context	State	8	1
+0	3	49	84	278	472.7201735500135	566	3	0	86	15	22	com.ctrip.framework.apollo.biz.service.ReleaseHistoryService	0	0	0	11	3	7			29	3
+0	13	330	390	2146	2991.8307600443513	153	-1	186	608	89	178	com.ctrip.framework.apollo.biz.service.ReleaseService	0	0	0	31	13	29	adaptee	(Object)Adapter	207	-1
+0	5	34	66	192	346.9946945538336	164	1	0	72	6	13	com.ctrip.framework.apollo.biz.service.AdminService	0	0	0	10	5	3			16	1
+1	1	23	43	112	202.89545146568904	270	2	0	41	7	9	com.ctrip.framework.apollo.biz.service.AuditService	0	0	0	5	1	5	context	State	14	2
+0	3	91	111	487	686.8973176621674	174	-1	0	156	32	58	com.ctrip.framework.apollo.biz.service.ClusterService	0	0	0	14	3	12			70	-1
+0	2	43	57	194	300.2679150666097	646	2	0	81	17	22	com.ctrip.framework.apollo.biz.config.BizConfigTest	0	0	0	10	2	6			28	2
+0	4	124	133	538	836.2851885015174	630	-1	323	176	57	37	com.ctrip.framework.apollo.biz.config.BizConfig	25	1	0	13	15	26	adaptee	(Object)Adapter	63	-1
+0	4	45	76	200	402.6721198576508	322	0	1	88	8	18	com.ctrip.framework.apollo.biz.message.ReleaseMessageScannerTest	3	0	0	14	4	3			21	0
+1	2	32	52	138	256.21719162817465	321	1	0	60	12	24	com.ctrip.framework.apollo.biz.message.DatabaseMessageSenderTest	4	0	0	9	2	4			28	1
+-1	0	6	16	19	47.111023666663044	298	0	0	8	1	0	com.ctrip.framework.apollo.biz.message.MessageSender	0	0	0	0	0	1			1	0
+-1	1	6	16	16	44.3614195558365	300	-1	0	8	0	0	com.ctrip.framework.apollo.biz.message.Topics	0	0	0	0	1	0			0	-1
+0	7	78	136	404	816.1924234027165	319	0	9	124	18	23	com.ctrip.framework.apollo.biz.message.ReleaseMessageScanner	0	0	0	16	7	7	context	State	30	0
+-1	0	6	17	19	50.055462645829486	367	0	0	10	1	0	com.ctrip.framework.apollo.biz.message.ReleaseMessageListener	0	0	0	1	0	1			1	0
+0	6	57	103	297	586.4544102966781	318	0	0	106	14	25	com.ctrip.framework.apollo.biz.message.DatabaseMessageSender	0	0	0	18	6	5	context	State	30	0
+0	1	27	56	126	270.8317867892828	331	0	1	67	4	10	com.ctrip.framework.apollo.biz.utils.ReleaseKeyGeneratorTest	0	0	0	12	1	2			12	0
+0	2	25	39	91	175.92352075415715	882	0	0	49	4	13	com.ctrip.framework.apollo.biz.utils.ConfigChangeContentBuilderTest	0	0	0	6	2	3			16	0
+1	1	17	60	95	273.23261349603246	339	0	0	31	4	5	com.ctrip.framework.apollo.biz.utils.EntityManagerUtil	0	0	0	7	1	1			6	0
+-1	0	13	37	54	147.59240972287816	329	0	0	22	3	4	com.ctrip.framework.apollo.biz.utils.ReleaseKeyGenerator	1	0	0	2	0	1			5	0
+0	3	66	80	346	467.71510200461796	424	-1	11	100	25	17	com.ctrip.framework.apollo.biz.utils.ConfigChangeContentBuilder	0	0	0	8	4	10			27	-1
+1	1	6	18	31	61.81176968073263	567	0	0	15	2	1	com.ctrip.framework.apollo.biz.utils.ReleaseMessageKeyGenerator	0	0	0	2	1	1			2	0
+1	2	27	62	143	307.69636707611426	846	0	0	57	2	12	com.ctrip.framework.apollo.biz.repository.InstanceConfigRepositoryTest	1	0	0	11	2	1			13	0
+1	1	31	47	134	230.19847059769282	888	1	0	71	4	27	com.ctrip.framework.apollo.biz.repository.AccessKeyRepositoryTest	3	0	0	12	1	3			30	1
+1	1	11	24	49	93.40368715465503	340	0	0	30	4	5	com.ctrip.framework.apollo.biz.repository.AppNamespaceRepositoryTest	2	0	0	6	1	2			7	0
+1	1	33	33	141	163.30907638247956	168	0	0	59	2	16	com.ctrip.framework.apollo.biz.repository.AppRepositoryTest	2	0	0	5	1	2			18	0
+-1	0	10	41	57	165.76510198121656	320	0	10	26	5	0	com.ctrip.framework.apollo.biz.repository.ReleaseMessageRepository	0	0	0	6	0	5	state	State	5	0
+-1	0	8	79	192	415.34213439019476	531	0	15	48	10	0	com.ctrip.framework.apollo.biz.repository.InstanceConfigRepository	0	0	0	10	0	6	state	State	6	0
+-1	0	5	20	39	73.27123292259293	563	0	3	20	3	0	com.ctrip.framework.apollo.biz.repository.GrayReleaseRuleRepository	0	0	0	3	0	3	adaptee	(Object)Adapter	3	0
+-1	0	4	32	53	127.0493412336679	269	0	1	19	2	0	com.ctrip.framework.apollo.biz.repository.AuditRepository	0	0	0	5	0	2	state	State	2	0
+-1	0	4	13	18	37.57483285265014	441	0	1	13	2	0	com.ctrip.framework.apollo.biz.repository.NamespaceLockRepository	0	0	0	2	0	2	state	State	2	0
+-1	0	10	46	93	208.4995766850498	564	0	10	29	6	0	com.ctrip.framework.apollo.biz.repository.ReleaseHistoryRepository	0	0	0	7	0	5			5	0
+-1	0	6	18	21	54.80140387902161	328	0	0	12	1	0	com.ctrip.framework.apollo.biz.repository.ServerConfigRepository	0	0	0	2	0	1	adaptee	(Object)Adapter	1	0
+-1	0	6	20	36	71.6703787691222	99	0	6	19	4	0	com.ctrip.framework.apollo.biz.repository.ClusterRepository	0	0	0	3	0	4			4	0
+-1	0	4	22	28	73.30849922385448	146	0	1	17	2	0	com.ctrip.framework.apollo.biz.repository.AppRepository	0	0	0	5	0	2			2	0
+-1	0	11	45	100	207.23265836946413	162	0	36	36	11	0	com.ctrip.framework.apollo.biz.repository.AppNamespaceRepository	0	0	0	6	0	9			9	0
+-1	0	4	31	51	121.8865946144541	287	0	1	21	3	0	com.ctrip.framework.apollo.biz.repository.CommitRepository	0	0	0	6	0	2	state	State	2	0
+-1	0	5	19	33	66.43364366786312	163	0	3	16	3	0	com.ctrip.framework.apollo.biz.repository.PrivilegeRepository	0	0	0	3	0	3			3	0
+-1	0	8	34	62	140.32256909153313	148	0	15	28	8	0	com.ctrip.framework.apollo.biz.repository.ItemRepository	0	0	0	6	0	6			6	0
+-1	0	7	22	39	80.59835621485222	886	0	10	20	7	0	com.ctrip.framework.apollo.biz.repository.AccessKeyRepository	0	0	0	4	0	5			5	0
+-1	0	3	14	21	42.62331412812792	532	0	0	9	1	0	com.ctrip.framework.apollo.biz.repository.InstanceRepository	0	0	0	2	0	1	state	State	1	0
+-1	0	8	36	77	156.37699518673264	149	0	15	28	7	0	com.ctrip.framework.apollo.biz.repository.NamespaceRepository	0	0	0	6	0	6			6	0
+-1	0	14	57	135	279.6006623709905	150	0	36	40	10	0	com.ctrip.framework.apollo.biz.repository.ReleaseRepository	0	0	0	8	0	9			9	0
+1	1	9	24	40	88.53310689873447	440	0	0	26	3	0	com.ctrip.framework.apollo.biz.entity.NamespaceLock	2	0	0	5	1	2			2	0
+0	2	26	49	122	235.39703119192959	885	1	3	55	11	3	com.ctrip.framework.apollo.biz.entity.AccessKey	6	1	0	6	3	7			10	1
+0	3	65	79	273	443.1482718196118	529	1	68	123	28	4	com.ctrip.framework.apollo.biz.entity.Instance	0	0	0	9	7	16			20	1
+0	1	33	49	150	245.52112941071653	141	1	4	65	13	3	com.ctrip.framework.apollo.biz.entity.Namespace	8	1	0	6	3	9			12	1
+0	3	82	94	343	548.7466620335983	530	1	146	151	36	4	com.ctrip.framework.apollo.biz.entity.InstanceConfig	0	0	0	10	9	21			25	1
+0	1	40	59	179	306.05576254460453	286	1	25	80	17	3	com.ctrip.framework.apollo.biz.entity.Commit	10	1	0	7	5	11			14	1
+0	3	64	83	270	464.66902259686515	560	1	92	114	26	3	com.ctrip.framework.apollo.biz.entity.ReleaseHistory	16	1	0	6	8	17			20	1
+0	1	36	57	154	287.1062983375769	326	1	16	67	14	3	com.ctrip.framework.apollo.biz.entity.ServerConfig	8	1	0	6	4	9			12	1
+0	3	33	51	132	249.0228980519049	317	1	8	71	13	4	com.ctrip.framework.apollo.biz.entity.ReleaseMessage	0	0	0	9	3	8			12	1
+0	3	40	60	178	310.9070130175251	98	1	25	79	17	3	com.ctrip.framework.apollo.biz.entity.Item	10	1	0	7	5	11			14	1
+0	3	36	54	154	271.995440530336	268	1	12	70	14	3	com.ctrip.framework.apollo.biz.entity.Audit	8	1	0	6	5	9			12	1
+0	2	38	70	184	365.04550303262903	53	1	10	71	14	4	com.ctrip.framework.apollo.biz.entity.Cluster	7	1	0	6	3	8			12	1
+0	2	64	85	273	476.80510259072156	54	1	92	115	26	3	com.ctrip.framework.apollo.biz.entity.Release	16	1	0	7	8	17			20	1
+0	3	51	69	224	373.40357757799774	559	0	77	94	21	0	com.ctrip.framework.apollo.biz.entity.GrayReleaseRule	14	0	0	6	7	14			14	0
+0	2	26	46	119	219.83968068313035	161	1	3	55	11	3	com.ctrip.framework.apollo.biz.entity.Privilege	6	1	0	6	3	7			10	1
+1	1	12	26	50	101.71259814113179	382	0	0	27	5	2	com.ctrip.framework.apollo.biz.customize.BizLoggingCustomizer	1	2	0	4	1	3	adapter	(Object)Adapter	5	0
+-1	0	13	72	108	337.1134483529438	278	0	1	39	7	11	com.ctrip.framework.apollo.biz.auth.WebSecurityConfig	0	0	0	8	0	2			13	0
+0	1	16	47	77	204.15885482712315	327	0	1	34	5	2	com.ctrip.framework.apollo.biz.eureka.ApolloEurekaClientConfig	0	0	0	6	1	3			5	0
+0	8	94	102	447	622.460976650584	304	2	0	214	22	67	com.ctrip.framework.apollo.configservice.controller.NotificationControllerTest	0	0	0	25	12	6			73	2
+0	10	210	219	1031	1519.4843019997143	477	3	13	444	53	161	com.ctrip.framework.apollo.configservice.controller.NotificationControllerV2Test	0	0	0	33	16	14			175	3
+-1	0	8	22	37	79.44019407817294	323	-1	0	21	2	9	com.ctrip.framework.apollo.configservice.controller.TestWebSecurityConfig	0	0	0	4	0	1			10	-1
+0	9	117	121	506	753.4109369837834	466	2	0	237	14	69	com.ctrip.framework.apollo.configservice.controller.ConfigFileControllerTest	0	0	0	30	14	5			74	2
+0	10	279	233	1258	1662.98587588167	76	7	0	465	56	196	com.ctrip.framework.apollo.configservice.controller.ConfigControllerTest	0	0	0	27	18	18			214	7
+0	12	147	237	1007	1638.7912215742992	476	1	7	321	23	71	com.ctrip.framework.apollo.configservice.controller.NotificationControllerV2	0	0	0	46	12	6	adapter	(Object)Adapter	77	1
+0	15	143	199	696	1302.5245824065496	464	-1	0	295	35	45	com.ctrip.framework.apollo.configservice.controller.ConfigFileController	0	0	0	41	18	10			55	-1
+0	9	78	180	531	1129.457163823549	283	0	2	169	14	26	com.ctrip.framework.apollo.configservice.controller.NotificationController	0	0	0	27	9	4			30	0
+0	7	128	196	783	1305.9740084141974	75	-1	18	228	31	60	com.ctrip.framework.apollo.configservice.controller.ConfigController	0	0	0	29	7	9			69	-1
+0	5	342	176	1651	1304.0080141299427	478	8	0	672	91	320	com.ctrip.framework.apollo.configservice.integration.NotificationControllerV2IntegrationTest	23	0	0	26	8	23			343	8
+0	5	148	138	681	900.2515982486327	467	5	0	340	25	100	com.ctrip.framework.apollo.configservice.integration.ConfigFileControllerIntegrationTest	12	0	0	26	13	12			112	5
+0	4	113	94	534	590.3572088622583	313	4	0	236	32	91	com.ctrip.framework.apollo.configservice.integration.NotificationControllerIntegrationTest	11	0	0	19	7	11			102	4
+0	3	220	161	1065	1122.2875425811076	312	-1	0	436	48	187	com.ctrip.framework.apollo.configservice.integration.ConfigControllerIntegrationTest	22	0	0	17	10	22			209	9
+0	5	54	103	275	578.5274230596569	311	0	10	130	8	19	com.ctrip.framework.apollo.configservice.integration.AbstractBaseIntegrationTest	0	0	4	28	5	5			24	0
+0	6	65	77	275	432.491374520326	737	2	0	140	18	42	com.ctrip.framework.apollo.configservice.service.config.DefaultConfigServiceTest	0	0	0	18	12	6			48	2
+0	8	149	116	666	754.1496017826852	736	4	0	279	33	78	com.ctrip.framework.apollo.configservice.service.config.ConfigServiceWithCacheTest	0	0	0	20	11	10			88	4
+-1	0	17	54	100	248.67919004335695	731	0	0	26	3	0	com.ctrip.framework.apollo.configservice.service.config.ConfigService	0	0	0	3	0	1			1	0
+0	1	50	96	319	553.4583458673451	730	0	6	86	11	7	com.ctrip.framework.apollo.configservice.service.config.AbstractConfigService	0	0	2	7	1	4	abstractClass	Template Method	11	0
+0	9	114	162	801	1083.1094734250742	732	1	4	190	31	56	com.ctrip.framework.apollo.configservice.service.config.ConfigServiceWithCache	6	2	0	23	13	8			64	1
+0	1	15	46	78	200.40860602772122	733	0	1	36	7	2	com.ctrip.framework.apollo.configservice.service.config.DefaultConfigService	1	2	0	5	1	3	adapter	(Object)Adapter	5	0
+0	6	105	142	476	875.4893353008617	641	0	8	291	12	45	com.ctrip.framework.apollo.configservice.service.AppNamespaceServiceWithCacheTest	0	0	0	21	6	5			50	0
+0	5	108	123	491	762.162627718726	642	2	0	239	19	82	com.ctrip.framework.apollo.configservice.service.ReleaseMessageServiceWithCacheTest	0	0	0	20	5	7			89	2
+0	5	57	85	252	470.001472438471	895	-1	1	123	8	28	com.ctrip.framework.apollo.configservice.service.AccessKeyServiceWithCacheTest	0	0	0	16	5	3			31	-1
+0	10	183	220	1140	1548.532379105479	639	-1	32	275	45	86	com.ctrip.framework.apollo.configservice.service.AppNamespaceServiceWithCache	0	0	0	27	13	16			102	0
+0	9	134	181	757	1199.9147488721783	892	0	5	207	29	65	com.ctrip.framework.apollo.configservice.service.AccessKeyServiceWithCache	0	0	0	28	11	11			76	0
+0	9	103	153	579	973.2792790686683	640	-1	17	184	28	43	com.ctrip.framework.apollo.configservice.service.ReleaseMessageServiceWithCache	0	0	0	24	9	10	context	State	53	0
+0	5	47	70	192	368.0246760419447	536	1	0	93	8	17	com.ctrip.framework.apollo.configservice.util.InstanceConfigAuditUtilTest	0	0	0	14	12	3			20	1
+0	4	88	101	405	606.3925937777605	479	3	0	172	19	49	com.ctrip.framework.apollo.configservice.util.WatchKeysUtilTest	0	0	0	17	13	9			58	3
+0	3	49	55	195	290.01497572100607	896	3	0	97	11	36	com.ctrip.framework.apollo.configservice.util.AccessKeyUtilTest	0	0	0	12	3	7			43	3
+0	2	62	61	274	342.4008144896723	455	4	0	111	22	39	com.ctrip.framework.apollo.configservice.util.NamespaceUtilTest	0	0	0	9	2	9			48	4
+0	1	27	40	131	195.00789292804603	454	0	1	41	7	7	com.ctrip.framework.apollo.configservice.util.NamespaceUtil	0	0	0	3	1	3			10	0
+0	9	162	201	989	1386.2355606561653	535	0	18	269	23	54	com.ctrip.framework.apollo.configservice.util.InstanceConfigAuditUtil	0	0	0	24	11	8			62	0
+0	2	78	105	487	649.7677329236719	465	-1	22	142	25	37	com.ctrip.framework.apollo.configservice.util.WatchKeysUtil	0	0	0	14	2	8			45	-1
+0	2	41	59	211	315.7596298750879	893	0	4	58	10	7	com.ctrip.framework.apollo.configservice.util.AccessKeyUtil	0	0	0	7	6	4			11	0
+0	5	73	71	322	409.993159733653	894	2	0	127	17	63	com.ctrip.framework.apollo.configservice.filter.ClientAuthenticationFilterTest	0	0	0	17	5	6			69	2
+0	3	68	116	426	702.314964167247	891	0	9	114	16	17	com.ctrip.framework.apollo.configservice.filter.ClientAuthenticationFilter	0	0	0	17	3	6			23	0
+1	2	32	45	136	221.06946985812235	738	1	0	67	16	24	com.ctrip.framework.apollo.configservice.wrapper.CaseInsensitiveMapWrapperTest	0	0	0	11	2	4			28	1
+0	3	41	90	201	477.29744172531684	735	-1	6	73	16	12	com.ctrip.framework.apollo.configservice.wrapper.DeferredResultWrapper	0	0	0	9	3	8			20	-1
+1	1	18	33	72	141.12998192752983	734	1	0	26	7	6	com.ctrip.framework.apollo.configservice.wrapper.CaseInsensitiveMapWrapper	0	0	0	1	1	4			10	1
+0	3	21	35	85	155.49279397716109	921	1	0	56	6	13	com.ctrip.framework.apollo.metaservice.controller.ServiceControllerTest	0	0	0	11	3	4			17	1
+1	2	17	33	71	140.6684359423634	925	0	0	47	4	10	com.ctrip.framework.apollo.metaservice.controller.KubernetesHomePageControllerTest	0	0	0	13	2	2			12	0
+1	1	15	45	69	190.5347927068767	924	0	0	34	3	3	com.ctrip.framework.apollo.metaservice.controller.KubernetesHomePageController	0	0	0	8	1	2	context	State	5	0
+0	1	18	51	89	228.92045485633912	50	0	0	42	7	3	com.ctrip.framework.apollo.metaservice.controller.ServiceController	0	0	0	8	1	4	context	State	7	0
+0	3	43	54	178	279.8163117157726	923	2	0	97	10	33	com.ctrip.framework.apollo.metaservice.service.KubernetesDiscoveryServiceTest	0	0	0	14	4	5			38	2
+0	4	45	66	203	350.67159461675794	922	1	3	93	10	35	com.ctrip.framework.apollo.metaservice.service.DefaultDiscoveryServiceTest	0	0	0	16	4	6			41	1
+0	2	18	45	87	200.96586533945626	919	0	0	47	4	9	com.ctrip.framework.apollo.metaservice.service.DefaultDiscoveryService	0	0	0	12	2	2			11	0
+0	3	26	67	147	334.3589833141753	920	0	1	63	8	9	com.ctrip.framework.apollo.metaservice.service.KubernetesDiscoveryService	0	0	0	12	3	3	adapter	(Object)Adapter	12	0
+-1	0	7	31	39	113.57041103001903	44	0	0	14	4	0	com.ctrip.framework.apollo.metaservice.service.DiscoveryService	0	0	0	2	0	1	state	State	1	0
+0	1	55	85	315	488.9686743001788	303	0	8	103	11	4	com.ctrip.framework.apollo.configservice.ConfigServiceAutoConfiguration	0	0	0	16	1	5			9	0
+-1	0	9	31	39	113.57041103001903	64	0	0	37	2	1	com.ctrip.framework.apollo.configservice.ConfigServiceApplication	0	0	0	11	0	1			2	0
+-1	0	9	27	34	95.21173416463637	65	-1	0	18	2	1	com.ctrip.framework.apollo.configservice.ServletInitializer	0	0	0	2	0	1			2	-1
+0	1	14	28	56	112.70984734058419	255	0	1	29	4	5	com.ctrip.framework.apollo.configservice.ConfigServiceHealthIndicator	0	0	0	5	1	3			8	0
+-1	0	6	20	21	60.89044875446846	876	-1	0	16	0	0	com.ctrip.framework.apollo.configservice.ConfigServerEurekaServerConfigure	0	0	0	3	0	0			0	-1
+-1	0	5	15	20	44.93598410330986	360	0	0	18	2	0	com.ctrip.framework.apollo.metaservice.ApolloMetaServiceConfig	0	0	0	6	0	1			1	0
+0	4	60	85	300	484.8215103457771	811	-1	0	127	12	21	com.ctrip.framework.apollo.mockserver.ApolloMockServerSpringIntegrationTest	0	0	0	20	4	5			26	1
+0	2	77	64	398	383.132928338204	813	-1	24	133	16	47	com.ctrip.framework.apollo.mockserver.ApolloMockServerApiTest	0	0	0	12	2	9			56	0
+0	8	134	175	745	1157.3422382164229	809	-1	41	179	34	59	com.ctrip.framework.apollo.mockserver.EmbeddedApollo	0	0	0	23	8	11			70	0

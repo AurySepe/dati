@@ -1,0 +1,31 @@
+com/netflix/appinfo/Archaius2AmazonInfoConfig.java
+ com.netflix.appinfo.Archaius2AmazonInfoConfig
+com/netflix/appinfo/providers/AmazonInfoProviderFactory.java
+ com.netflix.appinfo.providers.AmazonInfoProviderFactory
+com/netflix/appinfo/Ec2EurekaArchaius2InstanceConfig.java
+ com.netflix.appinfo.Ec2EurekaArchaius2InstanceConfig
+ com.netflix.appinfo.Ec2EurekaArchaius2InstanceConfig$1
+com/netflix/discovery/internal/util/InternalPrefixedConfig.java
+ com.netflix.discovery.internal.util.InternalPrefixedConfig
+ com.netflix.discovery.internal.util.InternalPrefixedConfig$1
+com/netflix/discovery/shared/transport/EurekaArchaius2TransportConfig.java
+ com.netflix.discovery.shared.transport.EurekaArchaius2TransportConfig
+com/netflix/appinfo/providers/EurekaInstanceConfigFactory.java
+ com.netflix.appinfo.providers.EurekaInstanceConfigFactory
+com/netflix/appinfo/EurekaArchaius2InstanceConfig.java
+ com.netflix.appinfo.EurekaArchaius2InstanceConfig
+ com.netflix.appinfo.EurekaArchaius2InstanceConfig$1
+com/netflix/appinfo/providers/Archaius2VipAddressResolver.java
+ com.netflix.appinfo.providers.Archaius2VipAddressResolver
+com/netflix/discovery/EurekaArchaius2ClientConfig.java
+ com.netflix.discovery.EurekaArchaius2ClientConfig
+com/netflix/appinfo/providers/CustomAmazonInfoProviderInstanceConfigFactory.java
+ com.netflix.appinfo.providers.CustomAmazonInfoProviderInstanceConfigFactory
+com/netflix/appinfo/providers/CompositeInstanceConfigFactory.java
+ com.netflix.appinfo.providers.CompositeInstanceConfigFactory
+com/netflix/discovery/guice/EurekaClientModule.java
+ com.netflix.discovery.guice.EurekaClientModule
+com/netflix/discovery/guice/InternalEurekaClientModule.java
+ com.netflix.discovery.guice.InternalEurekaClientModule
+ com.netflix.discovery.guice.InternalEurekaClientModule$EurekaConfigLoader
+ com.netflix.discovery.guice.InternalEurekaClientModule$ModuleConfig

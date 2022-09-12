@@ -1,0 +1,11 @@
+{
+    "io.reactivex.Observable": 736,
+    "rx.operators.OperationCache": 597,
+    "rx.operators.OperationFirstOrDefaultTest": 603,
+    "rx.operators.OperationLastTest": 604,
+    "rx.operators.OperationSingle": 598,
+    "rx.operators.OperationSingleTest": 605,
+    "rx.operators.Tester": 110,
+    "rx.subjects.RepeatSubject": 112,
+    "rx.testing.UnsubscribeTester": 113
+}

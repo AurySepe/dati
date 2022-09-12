@@ -1,0 +1,127 @@
+Download https://jcenter.bintray.com/com/netflix/nebula/gradle-netflixoss-project-plugin/2.2.10/gradle-netflixoss-project-plugin-2.2.10.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/gradle-dependency-lock-plugin/2.2.3/gradle-dependency-lock-plugin-2.2.3.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/gradle-info-plugin/2.2.2/gradle-info-plugin-2.2.2.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-project-plugin/2.2.1/nebula-project-plugin-2.2.1.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-publishing-plugin/2.2.2/nebula-publishing-plugin-2.2.2.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-release-plugin/2.2.7/nebula-release-plugin-2.2.7.pom
+Download https://jcenter.bintray.com/org/ajoberstar/gradle-git/1.2.0/gradle-git-1.2.0.pom
+Download https://jcenter.bintray.com/org/ajoberstar/grgit/1.3.0/grgit-1.3.0.pom
+Download https://jcenter.bintray.com/org/eclipse/jgit/org.eclipse.jgit.ui/3.7.0.201502260915-r/org.eclipse.jgit.ui-3.7.0.201502260915-r.pom
+Download https://jcenter.bintray.com/org/eclipse/jgit/org.eclipse.jgit-parent/3.7.0.201502260915-r/org.eclipse.jgit-parent-3.7.0.201502260915-r.pom
+Download https://jcenter.bintray.com/net/java/dev/jna/jna/3.4.0/jna-3.4.0.pom
+Download https://jcenter.bintray.com/org/eclipse/jgit/org.eclipse.jgit/3.7.0.201502260915-r/org.eclipse.jgit-3.7.0.201502260915-r.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/gradle-netflixoss-project-plugin/2.2.10/gradle-netflixoss-project-plugin-2.2.10.jar
+Download https://jcenter.bintray.com/com/netflix/nebula/gradle-dependency-lock-plugin/2.2.3/gradle-dependency-lock-plugin-2.2.3.jar
+Download https://jcenter.bintray.com/com/netflix/nebula/gradle-info-plugin/2.2.2/gradle-info-plugin-2.2.2.jar
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-project-plugin/2.2.1/nebula-project-plugin-2.2.1.jar
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-publishing-plugin/2.2.2/nebula-publishing-plugin-2.2.2.jar
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-release-plugin/2.2.7/nebula-release-plugin-2.2.7.jar
+Download https://jcenter.bintray.com/org/ajoberstar/gradle-git/1.2.0/gradle-git-1.2.0.jar
+Download https://jcenter.bintray.com/org/ajoberstar/grgit/1.3.0/grgit-1.3.0.jar
+Download https://jcenter.bintray.com/org/eclipse/jgit/org.eclipse.jgit.ui/3.7.0.201502260915-r/org.eclipse.jgit.ui-3.7.0.201502260915-r.jar
+Download https://jcenter.bintray.com/org/eclipse/jgit/org.eclipse.jgit/3.7.0.201502260915-r/org.eclipse.jgit-3.7.0.201502260915-r.jar
+Inferred project: eureka, version: 1.4.7-SNAPSHOT
+Publication mavenNebula not found in project :.
+[buildinfo] Properties file path was not found! (Relevant only for builds running on a CI Server)
+Publication named 'mavenNebula' does not exist for project ':' in task ':artifactoryPublish'.
+None of the specified publications matched for project ':' - nothing to publish.
+:clean
+:eureka-client:clean
+:eureka-client-archaius2:clean
+:eureka-client-jersey2:clean
+:eureka-core:clean
+:eureka-examples:clean
+:eureka-resources:clean
+:eureka-server:clean
+:eureka-server-karyon3:clean
+:eureka-test-utils:clean
+:eureka-client:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning
+
+:eureka-client:processResources UP-TO-DATE
+:eureka-client:classes
+:eureka-client:writeManifestProperties
+:eureka-client:jar
+:eureka-client-archaius2:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+Note: /results/Netflix-eureka/RELEASES/b2a36c800691b191f20bd938ef3b1d578b38cb68/eureka-client-archaius2/src/main/java/com/netflix/discovery/EurekaArchaius2ClientConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+1 warning
+
+:eureka-client-jersey2:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+
+:eureka-core:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+/results/Netflix-eureka/RELEASES/b2a36c800691b191f20bd938ef3b1d578b38cb68/eureka-core/src/main/java/com/netflix/eureka/DefaultEurekaServerConfig.java:501: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+                        new String[]{propName, remoteRegionUrlWithNamePair, pairSplitChar});
+                        ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2 warnings
+
+:eureka-examples:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+1 warning
+
+:eureka-resources:compileJava UP-TO-DATE
+:eureka-core:processResources UP-TO-DATE
+:eureka-core:classes
+:eureka-core:writeManifestProperties
+:eureka-core:jar
+:eureka-server:compileJava UP-TO-DATE
+:eureka-client-archaius2:processResources UP-TO-DATE
+:eureka-client-archaius2:classes
+:eureka-client-archaius2:writeManifestProperties
+:eureka-client-archaius2:jar
+:eureka-server-karyon3:compileJava
+Download https://jcenter.bintray.com/com/netflix/karyon/karyon3-core/3.0.1-rc.23/karyon3-core-3.0.1-rc.23.pom
+Download https://jcenter.bintray.com/com/netflix/karyon/karyon3-archaius2/3.0.1-rc.23/karyon3-archaius2-3.0.1-rc.23.pom
+Download https://jcenter.bintray.com/com/netflix/karyon/karyon3-jetty/3.0.1-rc.23/karyon3-jetty-3.0.1-rc.23.pom
+Download https://jcenter.bintray.com/com/netflix/governator/governator-jetty/1.12.10/governator-jetty-1.12.10.pom
+Download https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.6/slf4j-api-1.7.6.pom
+Download https://jcenter.bintray.com/org/slf4j/slf4j-parent/1.7.6/slf4j-parent-1.7.6.pom
+Download https://jcenter.bintray.com/com/netflix/karyon/karyon3-admin/3.0.1-rc.23/karyon3-admin-3.0.1-rc.23.pom
+Download https://jcenter.bintray.com/com/netflix/archaius/archaius2-persisted2/2.0.0-rc.33/archaius2-persisted2-2.0.0-rc.33.pom
+Download https://jcenter.bintray.com/com/netflix/archaius/archaius2-archaius1-bridge/2.0.0-rc.33/archaius2-archaius1-bridge-2.0.0-rc.33.pom
+Download https://jcenter.bintray.com/com/netflix/archaius/archaius2-commons-configuration/2.0.0-rc.33/archaius2-commons-configuration-2.0.0-rc.33.pom
+Download https://jcenter.bintray.com/org/eclipse/jetty/jetty-servlet/9.2.12.v20150709/jetty-servlet-9.2.12.v20150709.pom
+Download https://jcenter.bintray.com/org/eclipse/jetty/jetty-project/9.2.12.v20150709/jetty-project-9.2.12.v20150709.pom
+Download https://jcenter.bintray.com/org/eclipse/jetty/jetty-parent/23/jetty-parent-23.pom
+Download https://jcenter.bintray.com/org/eclipse/jetty/jetty-security/9.2.12.v20150709/jetty-security-9.2.12.v20150709.pom
+Download https://jcenter.bintray.com/org/eclipse/jetty/jetty-server/9.2.12.v20150709/jetty-server-9.2.12.v20150709.pom
+Download https://jcenter.bintray.com/org/eclipse/jetty/jetty-http/9.2.12.v20150709/jetty-http-9.2.12.v20150709.pom
+Download https://jcenter.bintray.com/org/eclipse/jetty/jetty-io/9.2.12.v20150709/jetty-io-9.2.12.v20150709.pom
+Download https://jcenter.bintray.com/org/eclipse/jetty/jetty-util/9.2.12.v20150709/jetty-util-9.2.12.v20150709.pom
+Download https://jcenter.bintray.com/com/netflix/karyon/karyon3-core/3.0.1-rc.23/karyon3-core-3.0.1-rc.23.jar
+Download https://jcenter.bintray.com/com/netflix/karyon/karyon3-archaius2/3.0.1-rc.23/karyon3-archaius2-3.0.1-rc.23.jar
+Download https://jcenter.bintray.com/com/netflix/karyon/karyon3-jetty/3.0.1-rc.23/karyon3-jetty-3.0.1-rc.23.jar
+Download https://jcenter.bintray.com/com/netflix/governator/governator-jetty/1.12.10/governator-jetty-1.12.10.jar
+Download https://jcenter.bintray.com/com/netflix/karyon/karyon3-admin/3.0.1-rc.23/karyon3-admin-3.0.1-rc.23.jar
+Download https://jcenter.bintray.com/com/netflix/archaius/archaius2-persisted2/2.0.0-rc.33/archaius2-persisted2-2.0.0-rc.33.jar
+Download https://jcenter.bintray.com/com/netflix/archaius/archaius2-archaius1-bridge/2.0.0-rc.33/archaius2-archaius1-bridge-2.0.0-rc.33.jar
+Download https://jcenter.bintray.com/com/netflix/archaius/archaius2-commons-configuration/2.0.0-rc.33/archaius2-commons-configuration-2.0.0-rc.33.jar
+Download https://jcenter.bintray.com/org/eclipse/jetty/jetty-servlet/9.2.12.v20150709/jetty-servlet-9.2.12.v20150709.jar
+Download https://jcenter.bintray.com/org/eclipse/jetty/jetty-security/9.2.12.v20150709/jetty-security-9.2.12.v20150709.jar
+Download https://jcenter.bintray.com/org/eclipse/jetty/jetty-server/9.2.12.v20150709/jetty-server-9.2.12.v20150709.jar
+Download https://jcenter.bintray.com/org/eclipse/jetty/jetty-http/9.2.12.v20150709/jetty-http-9.2.12.v20150709.jar
+Download https://jcenter.bintray.com/org/eclipse/jetty/jetty-io/9.2.12.v20150709/jetty-io-9.2.12.v20150709.jar
+Download https://jcenter.bintray.com/org/eclipse/jetty/jetty-util/9.2.12.v20150709/jetty-util-9.2.12.v20150709.jar
+warning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+:eureka-test-utils:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+1 warning
+
+
+BUILD SUCCESSFUL
+
+Total time: 58.428 secs

@@ -1,0 +1,31 @@
+Downloading https://services.gradle.org/distributions/gradle-6.1-rc-3-bin.zip
+............................................................................................
+
+Welcome to Gradle 6.1-rc-3!
+
+Here are the highlights of this release:
+ - Dependency cache is relocatable
+ - Configurable compilation order between Groovy, Java & Scala
+ - New sample projects in Gradle's documentation
+
+For more details see https://docs.gradle.org/6.1-rc-3/release-notes.html
+
+To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.1-rc-3/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+checksum-dependency-plugin is disabled since checksumIgnore property is present
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/results/ben-manes-caffeine/RELEASES/8dd18b1ef4335f1a267edc5f02da47f340086bd3/build.gradle' line: 53
+
+* What went wrong:
+A problem occurred evaluating root project 'caffeine'.
+> LaQute/bnd/build/Project;
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 49s

@@ -1,0 +1,368 @@
+Downloading https://services.gradle.org/distributions/gradle-2.10-bin.zip
+..............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Unzipping /root/.gradle/wrapper/dists/gradle-2.10-bin/baigpnfu14tdk6ztbfwcl8275/gradle-2.10-bin.zip to /root/.gradle/wrapper/dists/gradle-2.10-bin/baigpnfu14tdk6ztbfwcl8275
+Set executable permissions for: /root/.gradle/wrapper/dists/gradle-2.10-bin/baigpnfu14tdk6ztbfwcl8275/gradle-2.10/bin/gradle
+Download https://jcenter.bintray.com/com/netflix/nebula/gradle-extra-configurations-plugin/2.2.2/gradle-extra-configurations-plugin-2.2.2.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/gradle-netflixoss-project-plugin/3.6.0/gradle-netflixoss-project-plugin-3.6.0.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/gradle-contacts-plugin/3.0.1/gradle-contacts-plugin-3.0.1.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/gradle-dependency-lock-plugin/4.4.0/gradle-dependency-lock-plugin-4.4.0.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/gradle-info-plugin/3.5.0/gradle-info-plugin-3.5.0.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-bintray-plugin/3.5.2/nebula-bintray-plugin-3.5.2.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-core/4.0.1/nebula-core-4.0.1.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-project-plugin/3.3.0/nebula-project-plugin-3.3.0.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-publishing-plugin/4.9.1/nebula-publishing-plugin-4.9.1.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-release-plugin/4.1.1/nebula-release-plugin-4.1.1.pom
+Download https://plugins.gradle.org/m2/gradle/plugin/nl/javadude/gradle/plugins/license-gradle-plugin/0.13.1/license-gradle-plugin-0.13.1.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/gradle-scm-plugin/3.0.1/gradle-scm-plugin-3.0.1.pom
+Download https://jcenter.bintray.com/com/perforce/p4java/2015.2.1365273/p4java-2015.2.1365273.pom
+Download https://jcenter.bintray.com/org/eclipse/jgit/org.eclipse.jgit/4.4.1.201607150455-r/org.eclipse.jgit-4.4.1.201607150455-r.pom
+Download https://jcenter.bintray.com/org/eclipse/jgit/org.eclipse.jgit-parent/4.4.1.201607150455-r/org.eclipse.jgit-parent-4.4.1.201607150455-r.pom
+Download https://jcenter.bintray.com/org/tmatesoft/svnkit/svnkit/1.8.12/svnkit-1.8.12.pom
+Download https://jcenter.bintray.com/com/jfrog/bintray/gradle/gradle-bintray-plugin/1.7.1/gradle-bintray-plugin-1.7.1.pom
+Download https://jcenter.bintray.com/org/jfrog/buildinfo/build-info-extractor-gradle/4.4.7/build-info-extractor-gradle-4.4.7.pom
+Download https://jcenter.bintray.com/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.pom
+Download https://jcenter.bintray.com/org/apache/commons/commons-parent/37/commons-parent-37.pom
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpclient-cache/4.5.2/httpclient-cache-4.5.2.pom
+Download https://jcenter.bintray.com/org/ajoberstar/gradle-git/1.4.2/gradle-git-1.4.2.pom
+Download https://jcenter.bintray.com/org/apache/ivy/ivy/2.2.0/ivy-2.2.0.pom
+Download https://jcenter.bintray.com/org/apache/apache/7/apache-7.pom
+Download https://jcenter.bintray.com/commons-io/commons-io/2.2/commons-io-2.2.pom
+Download https://jcenter.bintray.com/org/apache/commons/commons-parent/24/commons-parent-24.pom
+Download https://jcenter.bintray.com/org/jfrog/buildinfo/build-info-extractor/2.6.3/build-info-extractor-2.6.3.pom
+Download https://jcenter.bintray.com/org/ajoberstar/grgit/1.5.0/grgit-1.5.0.pom
+Download https://jcenter.bintray.com/com/github/zafarkhaja/java-semver/0.9.0/java-semver-0.9.0.pom
+Download https://jcenter.bintray.com/org/jfrog/buildinfo/build-info-client/2.6.3/build-info-client-2.6.3.pom
+Download https://jcenter.bintray.com/com/thoughtworks/xstream/xstream/1.3.1/xstream-1.3.1.pom
+Download https://jcenter.bintray.com/com/thoughtworks/xstream/xstream-parent/1.3.1/xstream-parent-1.3.1.pom
+Download https://jcenter.bintray.com/org/eclipse/jgit/org.eclipse.jgit.ui/4.1.1.201511131810-r/org.eclipse.jgit.ui-4.1.1.201511131810-r.pom
+Download https://jcenter.bintray.com/org/eclipse/jgit/org.eclipse.jgit-parent/4.1.1.201511131810-r/org.eclipse.jgit-parent-4.1.1.201511131810-r.pom
+Download https://jcenter.bintray.com/com/jcraft/jsch.agentproxy.jsch/0.0.9/jsch.agentproxy.jsch-0.0.9.pom
+Download https://jcenter.bintray.com/com/jcraft/jsch.agentproxy/0.0.9/jsch.agentproxy-0.0.9.pom
+Download https://jcenter.bintray.com/com/jcraft/jsch.agentproxy.pageant/0.0.9/jsch.agentproxy.pageant-0.0.9.pom
+Download https://jcenter.bintray.com/com/jcraft/jsch.agentproxy.sshagent/0.0.9/jsch.agentproxy.sshagent-0.0.9.pom
+Download https://jcenter.bintray.com/com/jcraft/jsch.agentproxy.usocket-jna/0.0.9/jsch.agentproxy.usocket-jna-0.0.9.pom
+Download https://jcenter.bintray.com/com/jcraft/jsch.agentproxy.usocket-nc/0.0.9/jsch.agentproxy.usocket-nc-0.0.9.pom
+Download https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.pom
+Download https://jcenter.bintray.com/org/slf4j/slf4j-parent/1.7.12/slf4j-parent-1.7.12.pom
+Download https://jcenter.bintray.com/org/jfrog/buildinfo/build-info-api/2.6.3/build-info-api-2.6.3.pom
+Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.8.1/jackson-core-2.8.1.pom
+Download https://jcenter.bintray.com/com/fasterxml/jackson/jackson-parent/2.8/jackson-parent-2.8.pom
+Download https://jcenter.bintray.com/com/fasterxml/oss-parent/27/oss-parent-27.pom
+Download https://jcenter.bintray.com/com/jcraft/jsch/0.1.49/jsch-0.1.49.pom
+Download https://jcenter.bintray.com/com/jcraft/jsch.agentproxy.core/0.0.9/jsch.agentproxy.core-0.0.9.pom
+Download https://jcenter.bintray.com/net/java/dev/jna/jna/4.1.0/jna-4.1.0.pom
+Download https://jcenter.bintray.com/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.pom
+Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.8.1/jackson-databind-2.8.1.pom
+Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.pom
+Download https://jcenter.bintray.com/com/jcraft/jzlib/1.1.2/jzlib-1.1.2.pom
+Download https://jcenter.bintray.com/com/jcraft/jsch.agentproxy.svnkit-trilead-ssh2/0.0.7/jsch.agentproxy.svnkit-trilead-ssh2-0.0.7.pom
+Download https://jcenter.bintray.com/com/jcraft/jsch.agentproxy/0.0.7/jsch.agentproxy-0.0.7.pom
+Download https://jcenter.bintray.com/com/trilead/trilead-ssh2/1.0.0-build220/trilead-ssh2-1.0.0-build220.pom
+Download https://jcenter.bintray.com/com/jcraft/jsch.agentproxy.connector-factory/0.0.7/jsch.agentproxy.connector-factory-0.0.7.pom
+Download https://jcenter.bintray.com/de/regnis/q/sequence/sequence-library/1.0.3/sequence-library-1.0.3.pom
+Download https://jcenter.bintray.com/org/tmatesoft/sqljet/sqljet/1.1.10/sqljet-1.1.10.pom
+Download https://jcenter.bintray.com/org/antlr/antlr-runtime/3.4/antlr-runtime-3.4.pom
+Download https://jcenter.bintray.com/org/antlr/antlr-master/3.4/antlr-master-3.4.pom
+Download https://jcenter.bintray.com/commons-codec/commons-codec/1.8/commons-codec-1.8.pom
+Download https://jcenter.bintray.com/com/jcraft/jsch/0.1.53/jsch-0.1.53.pom
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.pom
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpcomponents-core/4.4.4/httpcomponents-core-4.4.4.pom
+Download https://jcenter.bintray.com/com/netflix/nebula/gradle-extra-configurations-plugin/2.2.2/gradle-extra-configurations-plugin-2.2.2.jar
+Download https://jcenter.bintray.com/com/netflix/nebula/gradle-netflixoss-project-plugin/3.6.0/gradle-netflixoss-project-plugin-3.6.0.jar
+Download https://jcenter.bintray.com/com/netflix/nebula/gradle-contacts-plugin/3.0.1/gradle-contacts-plugin-3.0.1.jar
+Download https://jcenter.bintray.com/com/netflix/nebula/gradle-dependency-lock-plugin/4.4.0/gradle-dependency-lock-plugin-4.4.0.jar
+Download https://jcenter.bintray.com/com/netflix/nebula/gradle-info-plugin/3.5.0/gradle-info-plugin-3.5.0.jar
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-bintray-plugin/3.5.2/nebula-bintray-plugin-3.5.2.jar
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-core/4.0.1/nebula-core-4.0.1.jar
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-project-plugin/3.3.0/nebula-project-plugin-3.3.0.jar
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-publishing-plugin/4.9.1/nebula-publishing-plugin-4.9.1.jar
+Download https://jcenter.bintray.com/com/netflix/nebula/nebula-release-plugin/4.1.1/nebula-release-plugin-4.1.1.jar
+Download https://plugins.gradle.org/m2/gradle/plugin/nl/javadude/gradle/plugins/license-gradle-plugin/0.13.1/license-gradle-plugin-0.13.1.jar
+Download https://jcenter.bintray.com/com/netflix/nebula/gradle-scm-plugin/3.0.1/gradle-scm-plugin-3.0.1.jar
+Download https://jcenter.bintray.com/com/perforce/p4java/2015.2.1365273/p4java-2015.2.1365273.jar
+Download https://jcenter.bintray.com/org/eclipse/jgit/org.eclipse.jgit/4.4.1.201607150455-r/org.eclipse.jgit-4.4.1.201607150455-r.jar
+Download https://jcenter.bintray.com/org/tmatesoft/svnkit/svnkit/1.8.12/svnkit-1.8.12.jar
+Download https://jcenter.bintray.com/com/jfrog/bintray/gradle/gradle-bintray-plugin/1.7.1/gradle-bintray-plugin-1.7.1.jar
+Download https://jcenter.bintray.com/org/jfrog/buildinfo/build-info-extractor-gradle/4.4.7/build-info-extractor-gradle-4.4.7.jar
+Download https://jcenter.bintray.com/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpclient-cache/4.5.2/httpclient-cache-4.5.2.jar
+Download https://jcenter.bintray.com/org/ajoberstar/gradle-git/1.4.2/gradle-git-1.4.2.jar
+Download https://jcenter.bintray.com/org/apache/ivy/ivy/2.2.0/ivy-2.2.0.jar
+Download https://jcenter.bintray.com/commons-io/commons-io/2.2/commons-io-2.2.jar
+Download https://jcenter.bintray.com/org/jfrog/buildinfo/build-info-extractor/2.6.3/build-info-extractor-2.6.3.jar
+Download https://jcenter.bintray.com/org/ajoberstar/grgit/1.5.0/grgit-1.5.0.jar
+Download https://jcenter.bintray.com/com/github/zafarkhaja/java-semver/0.9.0/java-semver-0.9.0.jar
+Download https://jcenter.bintray.com/org/jfrog/buildinfo/build-info-client/2.6.3/build-info-client-2.6.3.jar
+Download https://jcenter.bintray.com/com/thoughtworks/xstream/xstream/1.3.1/xstream-1.3.1.jar
+Download https://jcenter.bintray.com/org/eclipse/jgit/org.eclipse.jgit.ui/4.1.1.201511131810-r/org.eclipse.jgit.ui-4.1.1.201511131810-r.jar
+Download https://jcenter.bintray.com/com/jcraft/jsch.agentproxy.jsch/0.0.9/jsch.agentproxy.jsch-0.0.9.jar
+Download https://jcenter.bintray.com/com/jcraft/jsch.agentproxy.pageant/0.0.9/jsch.agentproxy.pageant-0.0.9.jar
+Download https://jcenter.bintray.com/com/jcraft/jsch.agentproxy.sshagent/0.0.9/jsch.agentproxy.sshagent-0.0.9.jar
+Download https://jcenter.bintray.com/com/jcraft/jsch.agentproxy.usocket-jna/0.0.9/jsch.agentproxy.usocket-jna-0.0.9.jar
+Download https://jcenter.bintray.com/com/jcraft/jsch.agentproxy.usocket-nc/0.0.9/jsch.agentproxy.usocket-nc-0.0.9.jar
+Download https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar
+Download https://jcenter.bintray.com/org/jfrog/buildinfo/build-info-api/2.6.3/build-info-api-2.6.3.jar
+Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.8.1/jackson-core-2.8.1.jar
+Download https://jcenter.bintray.com/com/jcraft/jsch.agentproxy.core/0.0.9/jsch.agentproxy.core-0.0.9.jar
+Download https://jcenter.bintray.com/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar
+Download https://jcenter.bintray.com/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar
+Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.8.1/jackson-databind-2.8.1.jar
+Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar
+Download https://jcenter.bintray.com/com/jcraft/jzlib/1.1.2/jzlib-1.1.2.jar
+Download https://jcenter.bintray.com/com/jcraft/jsch.agentproxy.svnkit-trilead-ssh2/0.0.7/jsch.agentproxy.svnkit-trilead-ssh2-0.0.7.jar
+Download https://jcenter.bintray.com/com/trilead/trilead-ssh2/1.0.0-build220/trilead-ssh2-1.0.0-build220.jar
+Download https://jcenter.bintray.com/com/jcraft/jsch.agentproxy.connector-factory/0.0.7/jsch.agentproxy.connector-factory-0.0.7.jar
+Download https://jcenter.bintray.com/de/regnis/q/sequence/sequence-library/1.0.3/sequence-library-1.0.3.jar
+Download https://jcenter.bintray.com/org/tmatesoft/sqljet/sqljet/1.1.10/sqljet-1.1.10.jar
+Download https://jcenter.bintray.com/org/antlr/antlr-runtime/3.4/antlr-runtime-3.4.jar
+Download https://jcenter.bintray.com/com/jcraft/jsch/0.1.53/jsch-0.1.53.jar
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar
+Inferred project: eureka, version: 1.9.3-SNAPSHOT
+The testJar task is deprecated.  Please place common test harness code in its own project and publish separately.
+The testJar task is deprecated.  Please place common test harness code in its own project and publish separately.
+The testJar task is deprecated.  Please place common test harness code in its own project and publish separately.
+Publication nebula not found in project :.
+[buildinfo] Not using buildInfo properties file for this build.
+Publication named 'nebula' does not exist for project ':' in task ':artifactoryPublish'.
+:eureka-client:clean
+:eureka-client-archaius2:clean
+:eureka-client-jersey2:clean
+:eureka-core:clean
+:eureka-core-jersey2:clean
+:eureka-examples:clean
+:eureka-resources:clean
+:eureka-server:clean
+:eureka-server-governator:clean
+:eureka-test-utils:clean
+:eureka-client:compileJava
+Download https://jcenter.bintray.com/com/netflix/netflix-commons/netflix-eventbus/0.3.0/netflix-eventbus-0.3.0.pom
+Download https://jcenter.bintray.com/com/netflix/archaius/archaius-core/0.7.6/archaius-core-0.7.6.pom
+Download https://jcenter.bintray.com/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.pom
+Download https://jcenter.bintray.com/com/netflix/servo/servo-core/0.12.21/servo-core-0.12.21.pom
+Download https://jcenter.bintray.com/com/sun/jersey/jersey-core/1.19.1/jersey-core-1.19.1.pom
+Download https://jcenter.bintray.com/com/sun/jersey/jersey-project/1.19.1/jersey-project-1.19.1.pom
+Download https://jcenter.bintray.com/com/sun/jersey/jersey-client/1.19.1/jersey-client-1.19.1.pom
+Download https://jcenter.bintray.com/com/sun/jersey/contribs/jersey-apache-client4/1.19.1/jersey-apache-client4-1.19.1.pom
+Download https://jcenter.bintray.com/com/sun/jersey/contribs/jersey-contribs/1.19.1/jersey-contribs-1.19.1.pom
+Download https://jcenter.bintray.com/com/google/inject/guice/4.1.0/guice-4.1.0.pom
+Download https://jcenter.bintray.com/com/google/inject/guice-parent/4.1.0/guice-parent-4.1.0.pom
+Download https://jcenter.bintray.com/com/google/google/5/google-5.pom
+Download https://jcenter.bintray.com/com/github/vlsi/compactmap/compactmap/1.2.1/compactmap-1.2.1.pom
+Download https://jcenter.bintray.com/com/github/vlsi/compactmap/parent/1.2.1/parent-1.2.1.pom
+Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.9.4/jackson-annotations-2.9.4.pom
+Download https://jcenter.bintray.com/com/fasterxml/jackson/jackson-parent/2.9.1/jackson-parent-2.9.1.pom
+Download https://jcenter.bintray.com/com/fasterxml/oss-parent/30/oss-parent-30.pom
+Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.9.4/jackson-core-2.9.4.pom
+Download https://jcenter.bintray.com/com/fasterxml/jackson/jackson-base/2.9.4/jackson-base-2.9.4.pom
+Download https://jcenter.bintray.com/com/fasterxml/jackson/jackson-bom/2.9.4/jackson-bom-2.9.4.pom
+Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.9.4/jackson-databind-2.9.4.pom
+Download https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.9.4/jackson-dataformat-xml-2.9.4.pom
+Download https://jcenter.bintray.com/org/codehaus/woodstox/woodstox-core-asl/4.4.1/woodstox-core-asl-4.4.1.pom
+Download https://jcenter.bintray.com/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.pom
+Download https://jcenter.bintray.com/org/slf4j/slf4j-parent/1.6.4/slf4j-parent-1.6.4.pom
+Download https://jcenter.bintray.com/com/netflix/netflix-commons/netflix-infix/0.3.0/netflix-infix-0.3.0.pom
+Download https://jcenter.bintray.com/org/apache/commons/commons-math/2.2/commons-math-2.2.pom
+Download https://jcenter.bintray.com/org/apache/commons/commons-parent/18/commons-parent-18.pom
+Download https://jcenter.bintray.com/aopalliance/aopalliance/1.0/aopalliance-1.0.pom
+Download https://jcenter.bintray.com/com/github/andrewoma/dexx/dexx-collections/0.2/dexx-collections-0.2.pom
+Download https://jcenter.bintray.com/com/github/andrewoma/dexx/dexx-parent/0.2/dexx-parent-0.2.pom
+Download https://jcenter.bintray.com/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.9.4/jackson-module-jaxb-annotations-2.9.4.pom
+Download https://jcenter.bintray.com/com/fasterxml/jackson/module/jackson-modules-base/2.9.4/jackson-modules-base-2.9.4.pom
+Download https://jcenter.bintray.com/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.pom
+Download https://jcenter.bintray.com/com/fasterxml/woodstox/woodstox-core/5.0.3/woodstox-core-5.0.3.pom
+Download https://jcenter.bintray.com/com/fasterxml/oss-parent/24/oss-parent-24.pom
+Download https://jcenter.bintray.com/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.pom
+Download https://jcenter.bintray.com/commons-jxpath/commons-jxpath/1.3/commons-jxpath-1.3.pom
+Download https://jcenter.bintray.com/joda-time/joda-time/2.3/joda-time-2.3.pom
+Download https://jcenter.bintray.com/javax/servlet/servlet-api/2.5/servlet-api-2.5.pom
+Download https://jcenter.bintray.com/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.pom
+Download https://jcenter.bintray.com/com/google/code/gson/gson/2.1/gson-2.1.pom
+Download https://jcenter.bintray.com/commons-configuration/commons-configuration/1.8/commons-configuration-1.8.pom
+Download https://jcenter.bintray.com/org/apache/commons/commons-parent/23/commons-parent-23.pom
+Download https://jcenter.bintray.com/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+Download https://jcenter.bintray.com/org/apache/commons/commons-parent/17/commons-parent-17.pom
+Download https://jcenter.bintray.com/com/netflix/netflix-commons/netflix-eventbus/0.3.0/netflix-eventbus-0.3.0.jar
+Download https://jcenter.bintray.com/com/netflix/archaius/archaius-core/0.7.6/archaius-core-0.7.6.jar
+Download https://jcenter.bintray.com/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.jar
+Download https://jcenter.bintray.com/com/netflix/servo/servo-core/0.12.21/servo-core-0.12.21.jar
+Download https://jcenter.bintray.com/com/sun/jersey/jersey-core/1.19.1/jersey-core-1.19.1.jar
+Download https://jcenter.bintray.com/com/sun/jersey/jersey-client/1.19.1/jersey-client-1.19.1.jar
+Download https://jcenter.bintray.com/com/sun/jersey/contribs/jersey-apache-client4/1.19.1/jersey-apache-client4-1.19.1.jar
+Download https://jcenter.bintray.com/com/google/inject/guice/4.1.0/guice-4.1.0.jar
+Download https://jcenter.bintray.com/com/github/vlsi/compactmap/compactmap/1.2.1/compactmap-1.2.1.jar
+Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.9.4/jackson-annotations-2.9.4.jar
+Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.9.4/jackson-core-2.9.4.jar
+Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.9.4/jackson-databind-2.9.4.jar
+Download https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.9.4/jackson-dataformat-xml-2.9.4.jar
+Download https://jcenter.bintray.com/org/codehaus/woodstox/woodstox-core-asl/4.4.1/woodstox-core-asl-4.4.1.jar
+Download https://jcenter.bintray.com/com/netflix/netflix-commons/netflix-infix/0.3.0/netflix-infix-0.3.0.jar
+Download https://jcenter.bintray.com/org/apache/commons/commons-math/2.2/commons-math-2.2.jar
+Download https://jcenter.bintray.com/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+Download https://jcenter.bintray.com/com/github/andrewoma/dexx/dexx-collections/0.2/dexx-collections-0.2.jar
+Download https://jcenter.bintray.com/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.9.4/jackson-module-jaxb-annotations-2.9.4.jar
+Download https://jcenter.bintray.com/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar
+Download https://jcenter.bintray.com/com/fasterxml/woodstox/woodstox-core/5.0.3/woodstox-core-5.0.3.jar
+Download https://jcenter.bintray.com/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar
+Download https://jcenter.bintray.com/commons-jxpath/commons-jxpath/1.3/commons-jxpath-1.3.jar
+Download https://jcenter.bintray.com/joda-time/joda-time/2.3/joda-time-2.3.jar
+Download https://jcenter.bintray.com/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar
+Download https://jcenter.bintray.com/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar
+Download https://jcenter.bintray.com/com/google/code/gson/gson/2.1/gson-2.1.jar
+Download https://jcenter.bintray.com/commons-configuration/commons-configuration/1.8/commons-configuration-1.8.jar
+Download https://jcenter.bintray.com/commons-lang/commons-lang/2.6/commons-lang-2.6.jar
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:eureka-client:processResources UP-TO-DATE
+:eureka-client:classes
+:eureka-client:writeManifestProperties
+:eureka-client:jar
+:eureka-client-archaius2:compileJava
+Download https://jcenter.bintray.com/com/netflix/archaius/archaius2-core/2.1.7/archaius2-core-2.1.7.pom
+Download https://jcenter.bintray.com/org/codehaus/jettison/jettison/1.3.7/jettison-1.3.7.pom
+Download https://jcenter.bintray.com/org/codehaus/codehaus-parent/3/codehaus-parent-3.pom
+Download https://jcenter.bintray.com/com/netflix/archaius/archaius2-api/2.1.7/archaius2-api-2.1.7.pom
+Download https://jcenter.bintray.com/com/netflix/archaius/archaius2-core/2.1.7/archaius2-core-2.1.7.jar
+Download https://jcenter.bintray.com/org/codehaus/jettison/jettison/1.3.7/jettison-1.3.7.jar
+Download https://jcenter.bintray.com/com/netflix/archaius/archaius2-api/2.1.7/archaius2-api-2.1.7.jar
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:eureka-client-jersey2:compileJava
+Download https://jcenter.bintray.com/org/glassfish/jersey/core/jersey-client/2.23.1/jersey-client-2.23.1.pom
+Download https://jcenter.bintray.com/org/glassfish/jersey/project/2.23.1/project-2.23.1.pom
+Download https://jcenter.bintray.com/org/glassfish/hk2/hk2-bom/2.4.0-b34/hk2-bom-2.4.0-b34.pom
+Download https://jcenter.bintray.com/net/java/jvnet-parent/5/jvnet-parent-5.pom
+Download https://jcenter.bintray.com/org/glassfish/jersey/connectors/jersey-apache-connector/2.23.1/jersey-apache-connector-2.23.1.pom
+Download https://jcenter.bintray.com/org/glassfish/jersey/connectors/project/2.23.1/project-2.23.1.pom
+Download https://jcenter.bintray.com/javax/mail/mail/1.4.7/mail-1.4.7.pom
+Download https://jcenter.bintray.com/com/sun/mail/all/1.4.7/all-1.4.7.pom
+Download https://jcenter.bintray.com/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.pom
+Download https://jcenter.bintray.com/org/glassfish/jersey/core/jersey-common/2.23.1/jersey-common-2.23.1.pom
+Download https://jcenter.bintray.com/org/glassfish/hk2/hk2-api/2.4.0-b34/hk2-api-2.4.0-b34.pom
+Download https://jcenter.bintray.com/org/glassfish/hk2/hk2-parent/2.4.0-b34/hk2-parent-2.4.0-b34.pom
+Download https://jcenter.bintray.com/org/glassfish/hk2/external/javax.inject/2.4.0-b34/javax.inject-2.4.0-b34.pom
+Download https://jcenter.bintray.com/org/glassfish/hk2/external/2.4.0-b34/external-2.4.0-b34.pom
+Download https://jcenter.bintray.com/org/glassfish/hk2/hk2-locator/2.4.0-b34/hk2-locator-2.4.0-b34.pom
+Download https://jcenter.bintray.com/javax/activation/activation/1.1/activation-1.1.pom
+Download https://jcenter.bintray.com/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.pom
+Download https://jcenter.bintray.com/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.23.1/jersey-guava-2.23.1.pom
+Download https://jcenter.bintray.com/org/glassfish/jersey/bundles/repackaged/project/2.23.1/project-2.23.1.pom
+Download https://jcenter.bintray.com/org/glassfish/jersey/bundles/project/2.23.1/project-2.23.1.pom
+Download https://jcenter.bintray.com/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1.pom
+Download https://jcenter.bintray.com/org/glassfish/pom/8/pom-8.pom
+Download https://jcenter.bintray.com/org/glassfish/hk2/hk2-utils/2.4.0-b34/hk2-utils-2.4.0-b34.pom
+Download https://jcenter.bintray.com/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b34/aopalliance-repackaged-2.4.0-b34.pom
+Download https://jcenter.bintray.com/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.pom
+Download https://jcenter.bintray.com/org/glassfish/jersey/core/jersey-client/2.23.1/jersey-client-2.23.1.jar
+Download https://jcenter.bintray.com/org/glassfish/jersey/connectors/jersey-apache-connector/2.23.1/jersey-apache-connector-2.23.1.jar
+Download https://jcenter.bintray.com/javax/mail/mail/1.4.7/mail-1.4.7.jar
+Download https://jcenter.bintray.com/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.jar
+Download https://jcenter.bintray.com/org/glassfish/jersey/core/jersey-common/2.23.1/jersey-common-2.23.1.jar
+Download https://jcenter.bintray.com/org/glassfish/hk2/hk2-api/2.4.0-b34/hk2-api-2.4.0-b34.jar
+Download https://jcenter.bintray.com/org/glassfish/hk2/external/javax.inject/2.4.0-b34/javax.inject-2.4.0-b34.jar
+Download https://jcenter.bintray.com/org/glassfish/hk2/hk2-locator/2.4.0-b34/hk2-locator-2.4.0-b34.jar
+Download https://jcenter.bintray.com/javax/activation/activation/1.1/activation-1.1.jar
+Download https://jcenter.bintray.com/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar
+Download https://jcenter.bintray.com/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.23.1/jersey-guava-2.23.1.jar
+Download https://jcenter.bintray.com/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1.jar
+Download https://jcenter.bintray.com/org/glassfish/hk2/hk2-utils/2.4.0-b34/hk2-utils-2.4.0-b34.jar
+Download https://jcenter.bintray.com/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b34/aopalliance-repackaged-2.4.0-b34.jar
+Download https://jcenter.bintray.com/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /results/Netflix-eureka/RELEASES/b988850245ffd5fa65b5e56b1c9af81d3c0330e1/eureka-client-jersey2/src/main/java/com/netflix/discovery/shared/transport/jersey2/EurekaJersey2ClientImpl.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:eureka-core:compileJava
+Download https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-core/1.11.277/aws-java-sdk-core-1.11.277.pom
+Download https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-pom/1.11.277/aws-java-sdk-pom-1.11.277.pom
+Download https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-ec2/1.11.277/aws-java-sdk-ec2-1.11.277.pom
+Download https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-autoscaling/1.11.277/aws-java-sdk-autoscaling-1.11.277.pom
+Download https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-sts/1.11.277/aws-java-sdk-sts-1.11.277.pom
+Download https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-route53/1.11.277/aws-java-sdk-route53-1.11.277.pom
+Download https://jcenter.bintray.com/software/amazon/ion/ion-java/1.0.2/ion-java-1.0.2.pom
+Download https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.6.7/jackson-dataformat-cbor-2.6.7.pom
+Download https://jcenter.bintray.com/com/fasterxml/jackson/jackson-parent/2.6.2/jackson-parent-2.6.2.pom
+Download https://jcenter.bintray.com/joda-time/joda-time/2.8.1/joda-time-2.8.1.pom
+Download https://jcenter.bintray.com/com/amazonaws/jmespath-java/1.11.277/jmespath-java-1.11.277.pom
+Download https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-core/1.11.277/aws-java-sdk-core-1.11.277.jar
+Download https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-ec2/1.11.277/aws-java-sdk-ec2-1.11.277.jar
+Download https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-autoscaling/1.11.277/aws-java-sdk-autoscaling-1.11.277.jar
+Download https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-sts/1.11.277/aws-java-sdk-sts-1.11.277.jar
+Download https://jcenter.bintray.com/com/amazonaws/aws-java-sdk-route53/1.11.277/aws-java-sdk-route53-1.11.277.jar
+Download https://jcenter.bintray.com/software/amazon/ion/ion-java/1.0.2/ion-java-1.0.2.jar
+Download https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.6.7/jackson-dataformat-cbor-2.6.7.jar
+Download https://jcenter.bintray.com/joda-time/joda-time/2.8.1/joda-time-2.8.1.jar
+Download https://jcenter.bintray.com/com/amazonaws/jmespath-java/1.11.277/jmespath-java-1.11.277.jar
+/results/Netflix-eureka/RELEASES/b988850245ffd5fa65b5e56b1c9af81d3c0330e1/eureka-core/src/main/java/com/netflix/eureka/DefaultEurekaServerConfig.java:501: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+                        new String[]{propName, remoteRegionUrlWithNamePair, pairSplitChar});
+                        ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning
+:eureka-client-jersey2:processResources UP-TO-DATE
+:eureka-client-jersey2:classes
+:eureka-client-jersey2:writeManifestProperties
+:eureka-client-jersey2:jar
+:eureka-core:processResources UP-TO-DATE
+:eureka-core:classes
+:eureka-core:writeManifestProperties
+:eureka-core:jar
+:eureka-core-jersey2:compileJava
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpclient/4.5/httpclient-4.5.pom
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpcomponents-client/4.5/httpcomponents-client-4.5.pom
+:eureka-examples:compileJava
+Download https://jcenter.bintray.com/com/netflix/governator/governator/1.17.5/governator-1.17.5.pom
+Download https://jcenter.bintray.com/com/netflix/governator/governator-api/1.17.5/governator-api-1.17.5.pom
+Download https://jcenter.bintray.com/com/netflix/governator/governator-core/1.17.5/governator-core-1.17.5.pom
+Download https://jcenter.bintray.com/com/google/inject/extensions/guice-multibindings/4.1.0/guice-multibindings-4.1.0.pom
+Download https://jcenter.bintray.com/com/google/inject/extensions/extensions-parent/4.1.0/extensions-parent-4.1.0.pom
+Download https://jcenter.bintray.com/com/google/inject/extensions/guice-grapher/4.1.0/guice-grapher-4.1.0.pom
+Download https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.1.0/guice-assistedinject-4.1.0.pom
+Download https://jcenter.bintray.com/com/netflix/governator/governator/1.17.5/governator-1.17.5.jar
+Download https://jcenter.bintray.com/com/netflix/governator/governator-api/1.17.5/governator-api-1.17.5.jar
+Download https://jcenter.bintray.com/com/netflix/governator/governator-core/1.17.5/governator-core-1.17.5.jar
+Download https://jcenter.bintray.com/com/google/inject/extensions/guice-multibindings/4.1.0/guice-multibindings-4.1.0.jar
+Download https://jcenter.bintray.com/com/google/inject/extensions/guice-grapher/4.1.0/guice-grapher-4.1.0.jar
+Download https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.1.0/guice-assistedinject-4.1.0.jar
+Note: /results/Netflix-eureka/RELEASES/b988850245ffd5fa65b5e56b1c9af81d3c0330e1/eureka-examples/src/main/java/com/netflix/eureka/ExampleEurekaGovernatedService.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:eureka-resources:compileJava UP-TO-DATE
+:eureka-server:compileJava UP-TO-DATE
+:eureka-server-governator:compileJava
+Download https://jcenter.bintray.com/com/netflix/governator/governator-servlet/1.17.5/governator-servlet-1.17.5.pom
+Download https://jcenter.bintray.com/com/sun/jersey/jersey-server/1.19.1/jersey-server-1.19.1.pom
+Download https://jcenter.bintray.com/com/sun/jersey/jersey-servlet/1.19.1/jersey-servlet-1.19.1.pom
+Download https://jcenter.bintray.com/com/sun/jersey/contribs/jersey-guice/1.19.1/jersey-guice-1.19.1.pom
+Download https://jcenter.bintray.com/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.pom
+Download https://jcenter.bintray.com/org/slf4j/slf4j-parent/1.6.1/slf4j-parent-1.6.1.pom
+Download https://jcenter.bintray.com/com/google/inject/extensions/guice-servlet/4.1.0/guice-servlet-4.1.0.pom
+Download https://jcenter.bintray.com/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.pom
+Download https://jcenter.bintray.com/log4j/log4j/1.2.16/log4j-1.2.16.pom
+Download https://jcenter.bintray.com/com/google/guava/guava/14.0.1/guava-14.0.1.pom
+Download https://jcenter.bintray.com/com/google/guava/guava-parent/14.0.1/guava-parent-14.0.1.pom
+Download https://jcenter.bintray.com/com/netflix/governator/governator-servlet/1.17.5/governator-servlet-1.17.5.jar
+Download https://jcenter.bintray.com/com/sun/jersey/jersey-server/1.19.1/jersey-server-1.19.1.jar
+Download https://jcenter.bintray.com/com/sun/jersey/jersey-servlet/1.19.1/jersey-servlet-1.19.1.jar
+Download https://jcenter.bintray.com/com/sun/jersey/contribs/jersey-guice/1.19.1/jersey-guice-1.19.1.jar
+Download https://jcenter.bintray.com/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar
+Download https://jcenter.bintray.com/com/google/inject/extensions/guice-servlet/4.1.0/guice-servlet-4.1.0.jar
+Download https://jcenter.bintray.com/log4j/log4j/1.2.16/log4j-1.2.16.jar
+:eureka-test-utils:compileJava
+Download https://jcenter.bintray.com/junit/junit/4.11/junit-4.11.pom
+Download https://jcenter.bintray.com/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.pom
+Download https://jcenter.bintray.com/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom
+Download https://jcenter.bintray.com/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom
+Download https://jcenter.bintray.com/junit/junit/4.11/junit-4.11.jar
+Download https://jcenter.bintray.com/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar
+Download https://jcenter.bintray.com/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+BUILD SUCCESSFUL
+
+Total time: 1 mins 36.488 secs

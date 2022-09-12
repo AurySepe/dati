@@ -1,0 +1,58 @@
+To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.4.1/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+
+> Configure project :
+Building version '3.7.unspecified'
+  - reason: shipkit-auto-version caught an exception, falling back to reasonable default
+  - run with --debug for more info
+Spotless: customLazy has been deprecated, use custom instead
+
+> Task :junitJupiterInlineMockMakerExtensionTest:clean UP-TO-DATE
+> Task :clean
+> Task :junitJupiterExtensionTest:clean UP-TO-DATE
+> Task :android:clean UP-TO-DATE
+> Task :inline:clean UP-TO-DATE
+> Task :kotlinTest:clean UP-TO-DATE
+> Task :kotlinReleaseCoroutinesTest:clean UP-TO-DATE
+> Task :junit-jupiter:clean
+> Task :deprecatedPluginsTest:clean UP-TO-DATE
+> Task :junitJupiterParallelTest:clean UP-TO-DATE
+> Task :errorprone:clean UP-TO-DATE
+> Task :extTest:clean UP-TO-DATE
+> Task :module-test:clean SKIPPED
+> Task :osgi-test:clean UP-TO-DATE
+> Task :memory-test:clean UP-TO-DATE
+> Task :kotlinTest:compileKotlin NO-SOURCE
+> Task :osgi-test:compileJava NO-SOURCE
+> Task :deprecatedPluginsTest:compileJava NO-SOURCE
+> Task :extTest:compileJava NO-SOURCE
+> Task :junitJupiterParallelTest:compileJava NO-SOURCE
+> Task :junitJupiterInlineMockMakerExtensionTest:compileJava NO-SOURCE
+> Task :junitJupiterExtensionTest:compileJava NO-SOURCE
+> Task :kotlinReleaseCoroutinesTest:compileKotlin NO-SOURCE
+> Task :kotlinTest:compileJava NO-SOURCE
+> Task :kotlinReleaseCoroutinesTest:compileJava NO-SOURCE
+
+> Task :compileJava
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :copyMockMethodDispatcher
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :jar
+> Task :inline:compileJava NO-SOURCE
+> Task :module-test:compileJava SKIPPED
+> Task :memory-test:compileJava NO-SOURCE
+> Task :android:compileJava
+> Task :junit-jupiter:compileJava
+> Task :errorprone:compileJava
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 18s
+20 actionable tasks: 8 executed, 12 up-to-date

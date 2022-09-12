@@ -1,0 +1,880 @@
+CLASSDATASHOULDBEPRIVATE	COMPLEXCLASS	FUNCTIONALDECOMPOSITION	GODCLASS	ID	NAME	PATTERNROLE	PATTERNTYPE	SPAGHETTICODE
+false	false	false	false	1469	org.mockitoutil.SafeJUnitRuleTest			false
+false	false	false	false	1389	org.mockitoutil.VmArgAssumptions			false
+false	false	false	false	1099	org.mockitoutil.SimplePerRealmReloadingClassLoader			false
+false	false	false	false	1521	org.mockitoutil.ConcurrentTesting			false
+false	false	false	false	1098	org.mockitoutil.SimpleSerializationUtil			false
+false	false	false	false	1118	org.mockitoutil.ClassLoaders			false
+false	false	false	false	1506	org.mockitoutil.ThrowableAssert			false
+false	false	false	false	1332	org.mockitoutil.TestBaseTest			false
+false	false	false	false	1468	org.mockitoutil.SafeJUnitRule			false
+false	false	false	false	1335	org.mockitoutil.Conditions			false
+false	false	false	false	1317	org.mockitoutil.Stopwatch			false
+false	false	false	false	1120	org.mockitoutil.SimpleClassGenerator			false
+false	false	false	false	1300	org.mockitoutil.JUnitResultAssert			false
+false	false	false	false	1119	org.mockitoutil.ClassLoadersTest			false
+false	false	false	false	235	org.mockitoutil.TestBase			false
+false	false	false	false	1596	org.mockitoutil.async.AsyncTestingTest			false
+false	false	false	false	1595	org.mockitoutil.async.AsyncTesting			false
+false	false	false	false	1648	org.mockitointegration.NoByteCodeDependenciesTest			false
+false	false	false	false	1240	org.mockitointegration.NoJUnitDependenciesTest			false
+false	false	false	false	442	org.concurrentmockito.VerificationInOrderFromMultipleThreadsTest			false
+false	false	false	false	443	org.concurrentmockito.ThreadVerifiesContinuouslyInteractingMockTest			false
+false	false	false	false	380	org.concurrentmockito.ThreadsShareAMockTest			false
+false	false	false	false	385	org.concurrentmockito.ThreadsShareGenerouslyStubbedMockTest			false
+false	false	false	false	236	org.concurrentmockito.ThreadsRunAllTestsHalfManualTest			false
+false	false	false	false	800	org.mockito.ArgumentCaptorTest			false
+false	false	false	false	1700	org.mockito.PrematureGarbageCollectionTest			false
+false	false	false	false	1258	org.mockito.AnnotationsAreCopiedFromMockedTypeTest			false
+false	false	false	false	1542	org.mockito.StaticMockingExperimentTest			false
+false	false	false	false	1704	org.mockito.MockitoClearTest			false
+false	false	false	false	1676	org.mockito.DescriptionTest			false
+false	false	false	false	1566	org.mockito.InvocationFactoryTest			false
+false	false	false	false	180	org.mockito.StateMaster			false
+false	false	false	false	184	org.mockito.MockitoTest			false
+false	false	false	false	1046	org.mockito.MockingDetails			false
+false	false	false	false	1684	org.mockito.ScopedMock			false
+false	false	false	false	550	org.mockito.MockSettings			false
+false	false	false	false	1677	org.mockito.MockedStatic			false
+false	false	false	false	317	org.mockito.MockitoAnnotations			false
+false	false	false	false	1298	org.mockito.MockitoFramework	creator	Factory Method	false
+false	false	false	false	453	org.mockito.BDDMockito			false
+false	false	false	false	1516	org.mockito.MockitoSession	state	State	false
+false	false	false	false	1683	org.mockito.MockedConstruction			false
+false	false	false	false	1063	org.mockito.AdditionalAnswers			false
+false	false	false	false	523	org.mockito.ArgumentCaptor			false
+false	false	false	false	1269	org.mockito.ArgumentMatcher			false
+false	false	false	false	1321	org.mockito.ArgumentMatchers			false
+false	true	false	false	69	org.mockito.Mockito			false
+false	true	false	true	176	org.mockito.AdditionalMatchers			true
+false	false	false	false	315	org.mockito.InOrder			false
+false	false	false	false	1655	org.mockito.NestedParallelTest			false
+false	false	false	false	1653	org.mockito.ParallelBugTest			false
+false	false	false	false	336	org.mockito.exceptions.base.TraceBuilder			false
+false	false	false	false	227	org.mockito.exceptions.base.MockitoAssertionErrorTest			false
+false	false	false	false	239	org.mockito.exceptions.base.StackTraceBuilder			false
+false	false	false	false	228	org.mockito.exceptions.base.MockitoExceptionTest			false
+false	false	false	false	1281	org.mockito.exceptions.base.MockitoSerializationIssueTest			false
+false	false	false	false	1460	org.mockito.exceptions.base.MockitoInitializationException			false
+false	false	false	false	186	org.mockito.exceptions.base.MockitoAssertionError			false
+false	false	false	false	187	org.mockito.exceptions.base.MockitoException			false
+false	false	false	false	1109	org.mockito.exceptions.base.MockitoSerializationIssue			false
+false	false	false	false	1305	org.mockito.exceptions.stacktrace.StackTraceCleanerTest			false
+false	false	false	false	1084	org.mockito.exceptions.stacktrace.StackTraceCleaner	state	State	false
+false	false	false	false	247	org.mockito.internal.exceptions.ReporterTest			false
+false	false	false	false	925	org.mockito.internal.exceptions.VerificationAwareInvocation			false
+false	true	false	false	216	org.mockito.internal.exceptions.Reporter			false
+false	false	false	false	869	org.mockito.internal.exceptions.ExceptionIncludingMockitoWarnings			false
+false	false	false	false	927	org.mockito.internal.exceptions.util.ScenarioPrinterTest			false
+false	false	false	false	926	org.mockito.internal.exceptions.util.ScenarioPrinter			false
+false	false	false	false	513	org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilterTest			false
+false	false	false	false	763	org.mockito.internal.exceptions.stacktrace.StackTraceFilterTest			false
+false	false	false	false	1086	org.mockito.internal.exceptions.stacktrace.DefaultStackTraceCleanerProvider			false
+false	false	false	false	759	org.mockito.internal.exceptions.stacktrace.StackTraceFilter	context	State	false
+false	false	false	false	512	org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilter	context	State	false
+false	false	false	false	1085	org.mockito.internal.exceptions.stacktrace.DefaultStackTraceCleaner			false
+false	false	false	false	1278	org.mockito.internal.hamcrest.MatcherGenericTypeExtractorTest			false
+false	false	false	false	1276	org.mockito.internal.hamcrest.MatcherGenericTypeExtractor			false
+false	false	false	false	1275	org.mockito.internal.hamcrest.HamcrestArgumentMatcher			false
+false	false	false	false	1350	org.mockito.internal.framework.DefaultMockitoFrameworkTest			false
+false	false	false	false	1338	org.mockito.internal.framework.DefaultMockitoFramework			false
+false	false	false	false	1511	org.mockito.internal.framework.DefaultMockitoSession	adapter	(Object)Adapter	false
+false	false	false	false	289	org.mockito.internal.AllInvocationsFinderTest			false
+false	false	false	false	907	org.mockito.internal.InOrderImplTest			false
+false	false	false	false	232	org.mockito.internal.InvalidStateDetectionTest			false
+false	false	false	false	1685	org.mockito.internal.MockedConstructionImpl	context	State	false
+false	false	false	false	1678	org.mockito.internal.MockedStaticImpl	context	State	false
+false	false	false	false	210	org.mockito.internal.InOrderImpl	adaptee	(Object)Adapter	false
+false	false	false	false	506	org.mockito.internal.MockitoCore	context	State	false
+false	false	false	false	862	org.mockito.internal.verification.VerificationDataImplTest			false
+false	false	false	false	1261	org.mockito.internal.verification.VerificationWithDescriptionTest			false
+false	false	false	false	273	org.mockito.internal.verification.DefaultRegisteredInvocationsTest			false
+false	false	false	false	1125	org.mockito.internal.verification.VerificationOverTimeImplTest			false
+false	false	false	false	864	org.mockito.internal.verification.DummyVerificationMode			false
+false	false	false	false	1650	org.mockito.internal.verification.NoInteractionsTest			false
+false	false	false	false	911	org.mockito.internal.verification.NoMoreInteractionsTest			false
+false	false	false	false	1260	org.mockito.internal.verification.DescriptionTest			false
+false	false	false	false	377	org.mockito.internal.verification.SmartPrinterTest			false
+false	false	false	false	929	org.mockito.internal.verification.OnlyTest			false
+false	false	false	false	420	org.mockito.internal.verification.NoMoreInteractions			false
+false	false	false	false	1093	org.mockito.internal.verification.SingleRegisteredInvocation			false
+false	false	false	false	418	org.mockito.internal.verification.Times			false
+false	false	false	false	343	org.mockito.internal.verification.RegisteredInvocations	state	State	false
+false	false	false	false	421	org.mockito.internal.verification.VerificationModeFactory			false
+false	false	false	false	1311	org.mockito.internal.verification.VerificationWrapperInOrderWrapper	decorator	Decorator	false
+false	false	false	false	430	org.mockito.internal.verification.AtLeast			false
+false	false	false	false	813	org.mockito.internal.verification.Only			false
+false	false	false	false	425	org.mockito.internal.verification.VerificationDataImpl	adapter	(Object)Adapter	false
+false	false	false	false	424	org.mockito.internal.verification.InOrderWrapper	context	State	false
+false	false	false	false	1112	org.mockito.internal.verification.VerificationWrapper	abstractClass	Template Method	false
+false	false	false	false	1259	org.mockito.internal.verification.Description	decorator	Decorator	false
+false	false	false	false	1002	org.mockito.internal.verification.Calls			false
+false	false	false	false	1476	org.mockito.internal.verification.VerificationEventImpl			false
+false	false	false	false	903	org.mockito.internal.verification.InOrderContextImpl	adapter	(Object)Adapter	false
+false	false	false	false	1117	org.mockito.internal.verification.VerificationOverTimeImpl	adapter	(Object)Adapter	false
+false	false	false	false	1649	org.mockito.internal.verification.NoInteractions			false
+false	false	false	false	1091	org.mockito.internal.verification.DefaultRegisteredInvocations			false
+false	false	false	false	915	org.mockito.internal.verification.MockAwareVerificationMode	decorator	Decorator	false
+false	false	false	false	423	org.mockito.internal.verification.AtMost			false
+false	false	false	false	802	org.mockito.internal.verification.checkers.AtLeastXNumberOfInvocationsCheckerTest			false
+false	false	false	false	280	org.mockito.internal.verification.checkers.MissingInvocationCheckerTest			false
+false	false	false	false	311	org.mockito.internal.verification.checkers.MissingInvocationInOrderCheckerTest			false
+false	false	false	false	218	org.mockito.internal.verification.checkers.NumberOfInvocationsCheckerTest			false
+false	false	false	false	310	org.mockito.internal.verification.checkers.NumberOfInvocationsInOrderCheckerTest			false
+false	false	false	false	431	org.mockito.internal.verification.checkers.AtLeastXNumberOfInvocationsChecker			false
+false	false	false	false	258	org.mockito.internal.verification.checkers.NumberOfInvocationsChecker			false
+false	false	false	false	498	org.mockito.internal.verification.checkers.AtLeastDiscrepancy			false
+false	false	false	false	257	org.mockito.internal.verification.checkers.MissingInvocationChecker			false
+false	false	false	false	774	org.mockito.internal.verification.argumentmatching.ArgumentMatchingToolTest			false
+false	false	false	false	773	org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool			false
+false	false	false	false	804	org.mockito.internal.progress.AtLeastTest			false
+false	false	false	false	278	org.mockito.internal.progress.VerificationModeBuilder			false
+false	false	false	false	149	org.mockito.internal.progress.TimesTest			false
+false	false	false	false	179	org.mockito.internal.progress.MockingProgressImplTest			false
+false	false	false	false	863	org.mockito.internal.progress.ThreadSafeMockingProgressTest			false
+false	false	false	false	441	org.mockito.internal.progress.SequenceNumber			false
+false	false	false	false	26	org.mockito.internal.progress.ArgumentMatcherStorageImpl			false
+false	false	false	false	255	org.mockito.internal.progress.MockingProgressImpl	context	Strategy	false
+false	false	false	false	262	org.mockito.internal.progress.ThreadSafeMockingProgress			false
+false	false	false	false	261	org.mockito.internal.progress.MockingProgress			false
+false	false	false	false	456	org.mockito.internal.progress.ArgumentMatcherStorage			false
+false	false	false	false	224	org.mockito.internal.invocation.InvocationBuilder			false
+false	false	false	false	1394	org.mockito.internal.invocation.TypeSafeMatchingTest			false
+false	false	false	false	290	org.mockito.internal.invocation.InvocationsFinderTest			false
+false	false	false	false	164	org.mockito.internal.invocation.InvocationMatcherTest			false
+false	false	false	false	1393	org.mockito.internal.invocation.MatcherApplicationStrategyTest			false
+false	false	false	false	796	org.mockito.internal.invocation.InvocationMarkerTest			false
+false	false	false	false	835	org.mockito.internal.invocation.SerializableMethodTest			false
+false	false	false	false	1391	org.mockito.internal.invocation.MatcherApplicationStrategy			false
+false	false	false	false	1548	org.mockito.internal.invocation.DefaultInvocationFactory			false
+false	false	false	false	1390	org.mockito.internal.invocation.ArgumentMatcherAction			false
+false	false	false	false	1242	org.mockito.internal.invocation.InterceptedInvocation	context	State	false
+false	false	false	false	253	org.mockito.internal.invocation.MatchersBinder	adaptee	(Object)Adapter	false
+false	false	false	false	65	org.mockito.internal.invocation.InvocationMatcher	context	State	false
+false	false	false	false	825	org.mockito.internal.invocation.SerializableMethod			false
+false	false	false	false	221	org.mockito.internal.invocation.InvocationsFinder			false
+false	false	false	false	1052	org.mockito.internal.invocation.ArgumentsProcessor			false
+false	false	false	false	1551	org.mockito.internal.invocation.RealMethod	state	State	false
+false	false	false	false	838	org.mockito.internal.invocation.MockitoMethod	state	State	false
+false	false	false	false	1392	org.mockito.internal.invocation.TypeSafeMatching			false
+false	false	false	false	844	org.mockito.internal.invocation.StubInfoImpl	context	State	false
+false	false	false	false	1123	org.mockito.internal.invocation.AbstractAwareMethod			false
+false	false	false	false	1396	org.mockito.internal.invocation.InvocationComparator			false
+false	false	false	false	794	org.mockito.internal.invocation.InvocationMarker			false
+false	false	false	false	1585	org.mockito.internal.invocation.mockref.MockWeakReferenceTest			false
+false	false	false	false	1581	org.mockito.internal.invocation.mockref.MockReference	state	State	false
+false	false	false	false	1583	org.mockito.internal.invocation.mockref.MockWeakReference			false
+false	false	false	false	1582	org.mockito.internal.invocation.mockref.MockStrongReference			false
+false	false	false	false	1484	org.mockito.internal.stubbing.answers.CallsRealMethodsTest			false
+false	false	false	false	1538	org.mockito.internal.stubbing.answers.AnswersWithDelayTest			false
+false	false	false	false	1065	org.mockito.internal.stubbing.answers.ReturnsArgumentAtTest			false
+false	false	false	false	1675	org.mockito.internal.stubbing.answers.ThrowsExceptionForClassTypeTest			false
+false	false	false	false	1488	org.mockito.internal.stubbing.answers.ReturnsTest			false
+false	false	false	false	1486	org.mockito.internal.stubbing.answers.DoesNothingTest			false
+false	false	false	false	1485	org.mockito.internal.stubbing.answers.DefaultAnswerValidatorTest			false
+false	false	false	false	1487	org.mockito.internal.stubbing.answers.InvocationInfoTest			false
+false	false	false	false	1489	org.mockito.internal.stubbing.answers.ThrowsExceptionTest			false
+false	false	false	false	1674	org.mockito.internal.stubbing.answers.AbstractThrowsExceptionTest			false
+false	false	false	false	1064	org.mockito.internal.stubbing.answers.ReturnsArgumentAt			false
+false	false	false	false	1049	org.mockito.internal.stubbing.answers.InvocationInfo	context	State	false
+false	false	false	false	1537	org.mockito.internal.stubbing.answers.AnswersWithDelay	decorator	Decorator	false
+false	false	false	false	1673	org.mockito.internal.stubbing.answers.ThrowsExceptionForClassType			false
+false	false	false	false	383	org.mockito.internal.stubbing.answers.Returns			false
+false	false	false	false	854	org.mockito.internal.stubbing.answers.ClonesArguments			false
+false	false	false	false	400	org.mockito.internal.stubbing.answers.DoesNothing	singleton	Singleton	false
+false	false	false	false	1672	org.mockito.internal.stubbing.answers.AbstractThrowsException	abstractClass	Template Method	false
+false	false	false	false	1482	org.mockito.internal.stubbing.answers.DefaultAnswerValidator			false
+false	false	false	false	1069	org.mockito.internal.stubbing.answers.ReturnsElementsOf			false
+false	false	false	false	517	org.mockito.internal.stubbing.answers.CallsRealMethods			false
+false	false	false	false	1312	org.mockito.internal.stubbing.answers.AnswerFunctionalInterfaces			false
+false	false	false	false	384	org.mockito.internal.stubbing.answers.ThrowsException			false
+false	false	false	false	932	org.mockito.internal.stubbing.InvocationContainerImplTest			false
+false	false	false	false	252	org.mockito.internal.stubbing.InvocationContainerImplStubbingTest			false
+false	false	false	false	542	org.mockito.internal.stubbing.ConsecutiveStubbing			false
+false	false	false	false	1599	org.mockito.internal.stubbing.DefaultLenientStubber	adapter	(Object)Adapter	false
+false	false	false	false	251	org.mockito.internal.stubbing.InvocationContainerImpl	context	State	false
+false	false	false	false	397	org.mockito.internal.stubbing.StubberImpl			false
+false	false	false	false	1607	org.mockito.internal.stubbing.StrictnessSelector			false
+false	false	false	false	1397	org.mockito.internal.stubbing.StubbingComparator			false
+false	false	false	false	1604	org.mockito.internal.stubbing.DoAnswerStyleStubbing			false
+false	false	false	false	541	org.mockito.internal.stubbing.BaseStubbing			false
+false	false	false	false	234	org.mockito.internal.stubbing.StubbedInvocationMatcher			false
+false	false	false	false	543	org.mockito.internal.stubbing.OngoingStubbingImpl			false
+false	false	false	false	1609	org.mockito.internal.stubbing.UnusedStubbingReporting			false
+false	false	false	false	1309	org.mockito.internal.stubbing.defaultanswers.ForwardsInvocationsTest			false
+false	false	false	false	508	org.mockito.internal.stubbing.defaultanswers.HasPrimitiveMethods			false
+false	false	false	false	477	org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValuesTest			false
+false	false	false	false	1082	org.mockito.internal.stubbing.defaultanswers.ReturnsGenericDeepStubsTest			false
+false	false	false	false	438	org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest			false
+false	false	false	false	1723	org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubsConcurrentTest			false
+false	false	false	false	346	org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest			false
+false	false	false	false	509	org.mockito.internal.stubbing.defaultanswers.ReturnsMocksTest			false
+false	false	false	false	1633	org.mockito.internal.stubbing.defaultanswers.RetrieveGenericsForDefaultAnswers			false
+false	false	false	false	507	org.mockito.internal.stubbing.defaultanswers.ReturnsMocks	decorator	Decorator	false
+false	false	false	false	437	org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls	decorator	Decorator	false
+false	false	false	false	1039	org.mockito.internal.stubbing.defaultanswers.ForwardsInvocations			false
+false	false	false	false	1289	org.mockito.internal.stubbing.defaultanswers.TriesToReturnSelf			false
+false	false	false	false	436	org.mockito.internal.stubbing.defaultanswers.GloballyConfiguredAnswer			false
+false	false	false	false	860	org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs			false
+false	false	false	false	40	org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues			false
+false	false	false	false	476	org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValues	decorator	Decorator	false
+false	false	false	false	876	org.mockito.internal.util.SimpleMockitoLogger			false
+false	false	false	false	1131	org.mockito.internal.util.TimerTest			false
+false	false	false	false	1257	org.mockito.internal.util.DefaultMockingDetailsTest			false
+false	false	false	false	812	org.mockito.internal.util.ObjectMethodsGuruTest			false
+false	false	false	false	841	org.mockito.internal.util.MockNameImplTest			false
+false	false	false	false	1373	org.mockito.internal.util.PlatformTest			false
+false	false	false	false	555	org.mockito.internal.util.MockCreationValidatorTest			false
+false	false	false	false	1523	org.mockito.internal.util.StringUtilTest			false
+false	false	false	false	1531	org.mockito.internal.util.ChecksTest			false
+false	false	false	false	877	org.mockito.internal.util.SimpleMockitoLoggerTest			false
+false	false	false	false	1308	org.mockito.internal.util.PrimitivesTest			false
+false	false	false	false	146	org.mockito.internal.util.MockUtilTest			false
+false	false	false	false	1541	org.mockito.internal.util.MockSettingsTest			false
+false	false	false	false	811	org.mockito.internal.util.ObjectMethodsGuru			false
+false	false	false	false	460	org.mockito.internal.util.ConsoleMockitoLogger			false
+false	false	false	false	1306	org.mockito.internal.util.JavaEightUtil			false
+false	false	false	false	68	org.mockito.internal.util.MockUtil	context	State	false
+false	false	false	false	1130	org.mockito.internal.util.Timer	adaptee	(Object)Adapter	false
+false	false	false	false	1493	org.mockito.internal.util.Supplier			false
+false	false	false	false	1707	org.mockito.internal.util.KotlinInlineClassUtil			false
+false	false	false	false	1060	org.mockito.internal.util.DefaultMockingDetails			false
+false	false	false	false	971	org.mockito.internal.util.Checks			false
+false	false	false	false	1372	org.mockito.internal.util.Platform			false
+false	false	false	false	414	org.mockito.internal.util.Primitives			false
+false	false	false	false	1522	org.mockito.internal.util.StringUtil			false
+false	false	false	false	486	org.mockito.internal.util.MockNameImpl			false
+false	false	false	false	553	org.mockito.internal.util.MockCreationValidator			false
+false	false	false	false	924	org.mockito.internal.util.reflection.GenericMasterTest			false
+false	false	false	false	974	org.mockito.internal.util.reflection.ParameterizedConstructorInstantiatorTest			false
+false	false	false	false	1694	org.mockito.internal.util.reflection.MemberAccessorTest			false
+false	false	false	false	938	org.mockito.internal.util.reflection.FieldInitializerTest			false
+false	false	false	false	539	org.mockito.internal.util.reflection.LenientCopyToolTest			false
+false	false	false	false	1073	org.mockito.internal.util.reflection.SuperTypesLastSorterTest			false
+false	false	false	false	1083	org.mockito.internal.util.reflection.GenericMetadataSupportTest			false
+false	false	false	false	790	org.mockito.internal.util.reflection.DummyParentClassForTests			false
+false	false	false	false	789	org.mockito.internal.util.reflection.DummyClassForTests			false
+false	false	false	false	1279	org.mockito.internal.util.reflection.GenericTypeExtractorTest			false
+false	false	false	false	1048	org.mockito.internal.util.reflection.FieldsTest			false
+false	false	false	false	948	org.mockito.internal.util.reflection.BeanPropertySetterTest			false
+false	false	false	false	1282	org.mockito.internal.util.reflection.GenericArrayReturnTypeTest			false
+false	false	false	false	900	org.mockito.internal.util.reflection.FieldReaderTest			false
+false	false	false	false	1277	org.mockito.internal.util.reflection.GenericTypeExtractor			false
+false	false	false	false	1691	org.mockito.internal.util.reflection.ModuleMemberAccessor	decorator	Decorator	false
+false	false	false	false	937	org.mockito.internal.util.reflection.FieldInitializer			false
+false	false	false	false	1254	org.mockito.internal.util.reflection.SuperTypesLastSorter			false
+false	false	false	false	947	org.mockito.internal.util.reflection.BeanPropertySetter			false
+false	false	false	false	1045	org.mockito.internal.util.reflection.InstanceField			false
+false	false	false	false	923	org.mockito.internal.util.reflection.GenericMaster			false
+false	false	false	false	1692	org.mockito.internal.util.reflection.ReflectionMemberAccessor			false
+false	false	false	false	899	org.mockito.internal.util.reflection.FieldReader	context	State	false
+false	false	false	false	547	org.mockito.internal.util.reflection.LenientCopyTool	context	State	false
+false	false	false	false	1044	org.mockito.internal.util.reflection.Fields			false
+false	false	false	false	975	org.mockito.internal.util.reflection.FieldInitializationReport			false
+false	false	false	false	1081	org.mockito.internal.util.reflection.GenericMetadataSupport	abstractClass	Template Method	false
+false	false	false	false	1690	org.mockito.internal.util.reflection.InstrumentationMemberAccessor			false
+false	false	false	false	1208	org.mockito.internal.util.io.IOUtilTest			false
+false	false	false	false	1207	org.mockito.internal.util.io.IOUtil			false
+false	false	false	false	1017	org.mockito.internal.util.collections.HashCodeAndEqualsSafeSetTest			false
+false	false	false	false	908	org.mockito.internal.util.collections.IdentitySetTest			false
+false	false	false	false	308	org.mockito.internal.util.collections.ListUtilTest			false
+false	false	false	false	1014	org.mockito.internal.util.collections.HashCodeAndEqualsMockWrapper			false
+false	false	false	false	1209	org.mockito.internal.util.collections.Iterables			false
+false	false	false	false	902	org.mockito.internal.util.collections.IdentitySet	adaptee	(Object)Adapter	false
+false	false	false	false	1015	org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet			false
+false	false	false	false	307	org.mockito.internal.util.collections.ListUtil			false
+false	false	false	false	1016	org.mockito.internal.util.collections.Sets			false
+false	false	false	false	136	org.mockito.internal.matchers.ComparableMatchersTest			false
+false	false	false	false	1334	org.mockito.internal.matchers.InstanceOfTest			false
+false	false	false	false	1313	org.mockito.internal.matchers.StringMatchersTest			false
+false	false	false	false	137	org.mockito.internal.matchers.MatchersToStringTest			false
+false	false	false	false	769	org.mockito.internal.matchers.MatchersPrinterTest			false
+false	false	false	false	797	org.mockito.internal.matchers.CapturingMatcherTest			false
+false	false	false	false	171	org.mockito.internal.matchers.EqualsTest			false
+false	false	false	false	840	org.mockito.internal.matchers.EqualityTest			false
+false	false	false	false	58	org.mockito.internal.matchers.Matches			false
+false	false	false	false	59	org.mockito.internal.matchers.Not			false
+false	false	false	false	62	org.mockito.internal.matchers.Or			false
+false	false	false	false	56	org.mockito.internal.matchers.LessOrEqual			false
+false	false	false	false	49	org.mockito.internal.matchers.EndsWith			false
+false	false	false	false	839	org.mockito.internal.matchers.Equality			false
+false	false	false	false	57	org.mockito.internal.matchers.LessThan			false
+false	false	false	false	44	org.mockito.internal.matchers.ArrayEquals			false
+false	false	false	false	524	org.mockito.internal.matchers.CapturingMatcher			false
+false	false	false	false	46	org.mockito.internal.matchers.CompareEqual			false
+false	false	false	false	47	org.mockito.internal.matchers.CompareTo	abstractClass	Template Method	false
+false	false	false	false	63	org.mockito.internal.matchers.Same			false
+false	false	false	false	61	org.mockito.internal.matchers.Null	singleton	Singleton	false
+false	false	false	false	43	org.mockito.internal.matchers.Any	singleton	Singleton	false
+false	false	false	false	54	org.mockito.internal.matchers.GreaterThan			false
+false	false	false	false	55	org.mockito.internal.matchers.InstanceOf			false
+false	false	false	false	795	org.mockito.internal.matchers.CapturesArguments			false
+false	false	false	false	48	org.mockito.internal.matchers.Contains			false
+false	false	false	false	494	org.mockito.internal.matchers.LocalizedMatcher			false
+false	false	false	false	50	org.mockito.internal.matchers.Equals			false
+false	false	false	false	64	org.mockito.internal.matchers.StartsWith			false
+false	false	false	false	52	org.mockito.internal.matchers.Find			false
+false	false	false	false	51	org.mockito.internal.matchers.EqualsWithDelta			false
+false	false	false	false	53	org.mockito.internal.matchers.GreaterOrEqual			false
+false	false	false	false	42	org.mockito.internal.matchers.And			false
+false	false	false	false	60	org.mockito.internal.matchers.NotNull	singleton	Singleton	false
+false	false	false	false	818	org.mockito.internal.matchers.VarargMatcher			false
+false	false	false	false	1271	org.mockito.internal.matchers.ContainsExtraTypeInfo			false
+false	false	false	false	1280	org.mockito.internal.matchers.text.ValuePrinterTest			false
+false	false	false	false	1273	org.mockito.internal.matchers.text.MatcherToStringTest			false
+false	false	false	false	1272	org.mockito.internal.matchers.text.MatcherToString			false
+false	false	false	false	1268	org.mockito.internal.matchers.text.ValuePrinter			false
+false	false	false	false	1270	org.mockito.internal.matchers.text.FormattedText			false
+false	false	false	false	768	org.mockito.internal.matchers.text.MatchersPrinter			false
+false	false	false	true	325	org.mockito.internal.matchers.apachecommons.EqualsBuilderTest			true
+false	false	false	true	323	org.mockito.internal.matchers.apachecommons.EqualsBuilder			false
+false	false	false	false	324	org.mockito.internal.matchers.apachecommons.ReflectionEquals			false
+false	false	false	false	1519	org.mockito.internal.session.DefaultMockitoSessionBuilderTest			false
+false	false	false	false	1517	org.mockito.internal.session.DefaultMockitoSessionBuilder			false
+false	false	false	false	1565	org.mockito.internal.session.MockitoSessionLoggerAdapter	context	State	false
+false	false	false	false	1563	org.mockito.internal.session.MockitoLoggerAdapter	context	State	false
+false	false	false	false	976	org.mockito.internal.configuration.injection.ConstructorInjectionTest			false
+false	false	false	false	977	org.mockito.internal.configuration.injection.SimpleArgumentResolverTest			false
+false	false	false	false	979	org.mockito.internal.configuration.injection.SpyOnInjectedFieldsHandler	context	State	false
+false	false	false	false	968	org.mockito.internal.configuration.injection.MockInjection			false
+false	false	false	false	969	org.mockito.internal.configuration.injection.MockInjectionStrategy	abstractClass	Template Method	false
+false	false	false	false	967	org.mockito.internal.configuration.injection.ConstructorInjection			false
+false	false	false	false	970	org.mockito.internal.configuration.injection.PropertyAndSetterInjection	context	State	false
+false	false	false	false	505	org.mockito.internal.configuration.ConfigurationAccess			false
+false	false	false	false	1475	org.mockito.internal.configuration.GlobalConfigurationTest			false
+false	false	false	false	1680	org.mockito.internal.configuration.MockAnnotationProcessorTest			false
+false	false	false	false	-1	org.mockito.internal.configuration.I			false
+false	false	false	false	973	org.mockito.internal.configuration.MockInjectionTest			false
+false	false	false	false	1202	org.mockito.internal.configuration.ClassPathLoaderTest			false
+false	false	false	false	1042	org.mockito.internal.configuration.MockAnnotationProcessor			false
+false	false	false	false	472	org.mockito.internal.configuration.GlobalConfiguration			false
+false	false	false	false	479	org.mockito.internal.configuration.ClassPathLoader			false
+false	false	false	false	888	org.mockito.internal.configuration.DefaultInjectionEngine			false
+false	false	false	false	1040	org.mockito.internal.configuration.CaptorAnnotationProcessor			false
+false	false	false	false	1726	org.mockito.internal.configuration.DefaultDoNotMockEnforcer			false
+false	false	false	false	889	org.mockito.internal.configuration.InjectingAnnotationEngine			false
+false	false	false	false	890	org.mockito.internal.configuration.SpyAnnotationEngine			false
+false	false	false	false	483	org.mockito.internal.configuration.IndependentAnnotationEngine			false
+false	false	false	false	1041	org.mockito.internal.configuration.FieldAnnotationProcessor			false
+false	false	false	false	1580	org.mockito.internal.configuration.plugins.PluginLoaderTest			false
+false	false	false	false	1211	org.mockito.internal.configuration.plugins.PluginFinderTest			false
+false	false	false	false	480	org.mockito.internal.configuration.plugins.PluginFileReaderTest			false
+false	false	false	false	1546	org.mockito.internal.configuration.plugins.DefaultMockitoPluginsTest			false
+false	false	false	false	1203	org.mockito.internal.configuration.plugins.PluginFileReader			false
+false	false	false	false	1579	org.mockito.internal.configuration.plugins.PluginInitializer			false
+false	false	false	false	1200	org.mockito.internal.configuration.plugins.PluginLoader			false
+false	false	false	false	1204	org.mockito.internal.configuration.plugins.DefaultPluginSwitch			false
+false	false	false	false	1544	org.mockito.internal.configuration.plugins.DefaultMockitoPlugins			false
+false	false	false	false	1210	org.mockito.internal.configuration.plugins.PluginFinder	context	State	false
+false	false	false	false	1205	org.mockito.internal.configuration.plugins.Plugins			false
+false	false	false	false	1201	org.mockito.internal.configuration.plugins.PluginRegistry			false
+false	false	false	false	875	org.mockito.internal.debugging.LoggingListenerTest			false
+false	false	false	false	984	org.mockito.internal.debugging.VerboseMockInvocationLoggerTest			false
+false	false	false	false	873	org.mockito.internal.debugging.WarningsFinderTest			false
+false	false	false	false	871	org.mockito.internal.debugging.FindingsListener			false
+false	false	false	false	1398	org.mockito.internal.debugging.InvocationsPrinter			false
+false	false	false	false	464	org.mockito.internal.debugging.WarningsPrinterImpl			false
+false	false	false	false	488	org.mockito.internal.debugging.LocationImpl			false
+false	false	false	false	487	org.mockito.internal.debugging.Localized	adaptee	(Object)Adapter	false
+false	false	false	false	872	org.mockito.internal.debugging.WarningsFinder			false
+false	false	false	false	982	org.mockito.internal.debugging.VerboseMockInvocationLogger			false
+false	false	false	false	874	org.mockito.internal.debugging.LoggingListener			false
+false	false	false	false	178	org.mockito.internal.handler.MockHandlerImplTest			false
+false	false	false	false	988	org.mockito.internal.handler.InvocationNotifierHandlerTest			false
+false	false	false	false	1072	org.mockito.internal.handler.MockHandlerFactoryTest			false
+false	false	false	false	986	org.mockito.internal.handler.NotifiedMethodInvocationReport	context	State	false
+false	false	false	false	1071	org.mockito.internal.handler.NullResultGuardian	decorator	Decorator	false
+false	false	false	false	71	org.mockito.internal.handler.MockHandlerImpl	context	State	false
+false	false	false	false	1070	org.mockito.internal.handler.MockHandlerFactory			false
+false	false	false	false	985	org.mockito.internal.handler.InvocationNotifierHandler	decorator	Decorator	false
+false	false	false	false	1612	org.mockito.internal.listeners.StubbingLookupNotifierTest			false
+false	false	false	false	1556	org.mockito.internal.listeners.VerificationStartedNotifierTest			false
+false	false	false	false	1611	org.mockito.internal.listeners.StubbingLookupNotifier			false
+false	false	false	false	1615	org.mockito.internal.listeners.AutoCleanableListener			false
+false	false	false	false	1552	org.mockito.internal.listeners.VerificationStartedNotifier			false
+false	false	false	false	1351	org.mockito.internal.junit.ArgMismatchFinderTest			false
+false	false	false	false	1138	org.mockito.internal.junit.JUnitRuleTest			false
+false	false	false	false	1352	org.mockito.internal.junit.StubbingArgMismatchesTest			false
+false	false	false	false	1354	org.mockito.internal.junit.UnusedStubbingsTest			false
+false	false	false	false	1530	org.mockito.internal.junit.ExceptionFactoryTest			false
+false	false	false	false	1358	org.mockito.internal.junit.UnnecessaryStubbingsReporter			false
+false	false	false	false	1529	org.mockito.internal.junit.ExceptionFactory			false
+false	false	false	false	1462	org.mockito.internal.junit.MockitoTestListener			false
+false	false	false	false	1471	org.mockito.internal.junit.NoOpTestListener			false
+false	false	false	false	1345	org.mockito.internal.junit.UnusedStubbings			false
+false	false	false	false	1490	org.mockito.internal.junit.MismatchReportingTestListener			false
+false	false	false	false	1134	org.mockito.internal.junit.JUnitRule	adapter	(Object)Adapter	false
+false	false	false	false	1472	org.mockito.internal.junit.DefaultTestFinishedEvent			false
+false	false	false	false	1344	org.mockito.internal.junit.StubbingHint			false
+false	false	false	false	1341	org.mockito.internal.junit.ArgMismatchFinder			false
+false	false	false	false	1343	org.mockito.internal.junit.StubbingArgMismatches			false
+false	false	false	false	1473	org.mockito.internal.junit.TestFinishedEvent			false
+false	false	false	false	1503	org.mockito.internal.junit.UniversalTestListener	adaptee	(Object)Adapter	false
+false	false	false	false	1666	org.mockito.internal.junit.JUnitSessionStore	context	State	false
+false	false	false	false	1502	org.mockito.internal.junit.DefaultStubbingLookupListener			false
+false	false	false	false	1286	org.mockito.internal.junit.VerificationCollectorImpl			false
+false	false	false	false	1504	org.mockito.internal.junit.StrictStubsRunnerTestListener			false
+false	false	false	false	1346	org.mockito.internal.junit.UnusedStubbingsFinder			false
+false	false	false	false	1667	org.mockito.internal.junit.JUnitTestRule	adapter	(Object)Adapter	false
+false	false	false	false	556	org.mockito.internal.reporting.PluralizerTest			false
+false	false	false	false	375	org.mockito.internal.reporting.SmartPrinter			false
+false	false	false	false	1057	org.mockito.internal.reporting.Pluralizer			false
+false	false	false	false	1056	org.mockito.internal.reporting.Discrepancy			false
+false	false	false	false	766	org.mockito.internal.reporting.PrintSettings			false
+false	false	false	false	821	org.mockito.internal.runners.util.TestMethodsFinderTest			false
+false	false	false	false	534	org.mockito.internal.runners.util.RunnerProviderTest			false
+false	false	false	false	532	org.mockito.internal.runners.util.RunnerProvider			false
+false	false	false	false	820	org.mockito.internal.runners.util.TestMethodsFinder			false
+false	false	false	false	1326	org.mockito.internal.runners.util.FailureDetector			false
+false	false	false	false	1535	org.mockito.internal.runners.DefaultInternalRunnerTest			false
+false	false	false	false	1322	org.mockito.internal.runners.StrictRunner	decorator	Decorator	false
+false	false	false	false	531	org.mockito.internal.runners.RunnerFactory			false
+false	false	false	false	1327	org.mockito.internal.runners.DefaultInternalRunner			false
+false	false	false	false	536	org.mockito.internal.runners.InternalRunner	state	State	false
+false	false	false	false	1128	org.mockito.internal.creation.DelegatingMethodTest			false
+false	false	false	false	1713	org.mockito.internal.creation.AbstractMockMakerTest			false
+false	false	false	false	1532	org.mockito.internal.creation.InterfaceOverrideTest			false
+false	false	false	false	554	org.mockito.internal.creation.MockSettingsImplTest			false
+false	false	false	false	837	org.mockito.internal.creation.DelegatingMethod			false
+false	false	false	false	1536	org.mockito.internal.creation.SuspendMethod			false
+false	false	false	false	551	org.mockito.internal.creation.MockSettingsImpl			false
+false	false	false	false	1158	org.mockito.internal.creation.instance.ConstructorInstantiatorTest			false
+false	false	false	false	1141	org.mockito.internal.creation.instance.ConstructorInstantiator			false
+false	false	false	false	1143	org.mockito.internal.creation.instance.ObjenesisInstantiator			false
+false	false	false	false	1146	org.mockito.internal.creation.instance.DefaultInstantiatorProvider			false
+false	false	true	false	1384	org.mockito.internal.creation.bytebuddy.ByteBuddyMockMakerTest			false
+false	false	false	false	1706	org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest			false
+false	false	false	false	1382	org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMakerTest			false
+false	false	true	false	1381	org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMakerTest			false
+false	false	false	false	1246	org.mockito.internal.creation.bytebuddy.AbstractByteBuddyMockMakerTest			false
+false	false	false	false	1250	org.mockito.internal.creation.bytebuddy.TypeCachingMockBytecodeGeneratorTest			false
+false	false	false	false	1497	org.mockito.internal.creation.bytebuddy.SubclassLoader	state	State	false
+false	false	false	false	1705	org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMaker	context	State	false
+false	false	true	false	1388	org.mockito.internal.creation.bytebuddy.ClassCreatingMockMaker			false
+false	false	false	false	1245	org.mockito.internal.creation.bytebuddy.ByteBuddyCrossClassLoaderSerializationSupport			false
+false	false	false	false	1626	org.mockito.internal.creation.bytebuddy.ModuleHandler	state	State	false
+false	false	false	false	1496	org.mockito.internal.creation.bytebuddy.SubclassInjectionLoader	decorator	Decorator	false
+false	false	false	false	1376	org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator			false
+false	false	false	false	1709	org.mockito.internal.creation.bytebuddy.TypeSupport	singleton	Singleton	false
+false	false	false	false	1383	org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker	proxy	Proxy	false
+false	false	false	false	1377	org.mockito.internal.creation.bytebuddy.MockAccess			false
+false	false	false	false	1243	org.mockito.internal.creation.bytebuddy.MockMethodInterceptor	context	State	false
+false	false	false	false	1378	org.mockito.internal.creation.bytebuddy.MockMethodAdvice	context	State	false
+false	false	false	false	1241	org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMaker	adapter	(Object)Adapter	false
+false	false	false	false	1251	org.mockito.internal.creation.bytebuddy.MockFeatures			false
+false	false	false	false	1375	org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMaker	proxy	Proxy	false
+false	false	false	false	1374	org.mockito.internal.creation.bytebuddy.BytecodeGenerator	state	State	false
+false	false	false	false	1249	org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator	decorator	Decorator	false
+false	false	false	false	1244	org.mockito.internal.creation.bytebuddy.SubclassBytecodeGenerator	context	State	false
+false	false	false	false	1686	org.mockito.internal.creation.bytebuddy.ConstructionCallback	state	State	false
+false	false	false	false	1714	org.mockito.internal.creation.proxy.ProxyMockMakerTest			false
+false	false	false	false	1719	org.mockito.internal.creation.proxy.MethodHandleProxy			false
+false	false	false	false	1720	org.mockito.internal.creation.proxy.ProxyRealMethod	creator	Factory Method	false
+false	false	false	false	1711	org.mockito.internal.creation.proxy.ProxyMockMaker			false
+false	false	false	false	1718	org.mockito.internal.creation.proxy.InvokeDefaultProxy			false
+false	false	false	false	919	org.mockito.verification.TimeoutTest			false
+false	false	false	false	1256	org.mockito.verification.NegativeDurationTest			false
+false	false	false	false	1114	org.mockito.verification.After			false
+false	false	false	false	1304	org.mockito.verification.VerificationStrategy	strategy	Strategy	false
+false	false	false	false	75	org.mockito.verification.VerificationMode	decorated	Decorator	false
+false	false	false	false	1115	org.mockito.verification.VerificationAfterDelay			false
+false	false	false	false	1478	org.mockito.verification.VerificationEvent			false
+false	false	false	false	918	org.mockito.verification.Timeout			false
+false	false	false	false	921	org.mockito.verification.VerificationWithTimeout			false
+false	false	false	false	473	org.mockito.configuration.MockitoConfiguration			false
+false	false	false	false	478	org.mockito.configuration.IMockitoConfiguration	creator	Factory Method	false
+false	false	false	false	474	org.mockito.configuration.DefaultMockitoConfiguration			false
+false	false	false	false	1494	org.mockito.junit.TestableJUnitRunner			false
+false	false	false	false	1226	org.mockito.junit.MockitoJUnit			false
+false	false	false	false	1285	org.mockito.junit.VerificationCollector			false
+false	false	false	false	1222	org.mockito.junit.MockitoRule			false
+false	false	false	false	1457	org.mockito.junit.MockitoJUnitRunner	context	State	false
+false	false	false	false	1668	org.mockito.junit.MockitoTestRule			false
+false	false	false	false	897	org.mockitousage.annotation.SpyInjectionTest			false
+false	false	false	false	995	org.mockitousage.annotation.InjectionOfInlinedMockDeclarationTest			false
+false	false	false	false	978	org.mockitousage.annotation.MockInjectionUsingConstructorTest			false
+false	false	false	false	1728	org.mockitousage.annotation.DoNotMockTest			false
+false	false	false	false	896	org.mockitousage.annotation.SpyAnnotationInitializedInBaseClassTest			false
+false	false	false	false	886	org.mockitousage.annotation.CaptorAnnotationUnhappyPathTest			false
+false	false	false	false	898	org.mockitousage.annotation.WrongSetOfAnnotationsTest			false
+false	false	false	false	894	org.mockitousage.annotation.SpyAnnotationTest			false
+false	false	false	false	318	org.mockitousage.annotation.AnnotationsTest			false
+false	false	false	false	885	org.mockitousage.annotation.CaptorAnnotationTest			false
+false	false	false	false	884	org.mockitousage.annotation.CaptorAnnotationBasicTest			false
+false	false	false	false	1121	org.mockitousage.annotation.MockInjectionUsingConstructorIssue421Test			false
+false	false	false	false	893	org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest			false
+false	false	false	false	1157	org.mockitousage.constructor.CreatingMocksWithConstructorTest			false
+false	false	false	false	1283	org.mockitousage.CompilationWarningsTest			false
+false	false	false	false	853	org.mockitousage.PlaygroundWithDemoOfUnclonedParametersProblemTest			false
+false	false	false	false	94	org.mockitousage.IMethods			false
+false	true	false	false	810	org.mockitousage.MethodsImpl			false
+false	false	false	false	433	org.mockitousage.PlaygroundTest			false
+false	false	false	false	1591	org.mockitousage.NoExtendsTest			false
+false	false	false	false	1588	org.mockitousage.JunitJupiterTest			false
+false	false	false	false	1589	org.mockitousage.StrictnessTest			false
+false	false	false	false	1652	org.mockitousage.MultiLevelNestedTest			false
+false	false	false	false	1722	org.mockitousage.CloseOnDemandTest			false
+false	false	false	false	1591	org.mockitousage.NoExtendsTest			false
+false	false	false	false	1605	org.mockitousage.strictness.StrictnessPerStubbingWithRunnerTest			false
+false	false	false	false	1619	org.mockitousage.strictness.PotentialStubbingSensitivityTest			false
+false	false	false	false	1603	org.mockitousage.strictness.StrictnessPerStubbingTest			false
+false	false	false	false	1616	org.mockitousage.strictness.LenientMockAnnotationTest			false
+false	false	false	false	1606	org.mockitousage.strictness.StrictnessWithRulesTest			false
+false	false	false	false	1602	org.mockitousage.strictness.StrictnessPerMockTest			false
+false	false	false	false	1608	org.mockitousage.strictness.StrictnessWhenRuleStrictnessIsUpdatedTest			false
+false	false	false	false	1620	org.mockitousage.strictness.ProductionCode			false
+false	false	false	false	764	org.mockitousage.internal.debugging.LocationImplTest			false
+false	false	false	false	1359	org.mockitousage.internal.junit.UnusedStubbingsFinderTest			false
+false	false	false	false	1480	org.mockitousage.jls.JLS_15_12_2_5Test			false
+false	false	false	false	910	org.mockitousage.verification.FindingRedundantInvocationsInOrderTest			false
+false	false	false	false	814	org.mockitousage.verification.OnlyVerificationTest			false
+false	false	false	false	152	org.mockitousage.verification.ExactNumberOfTimesVerificationTest			false
+false	false	false	false	806	org.mockitousage.verification.AtLeastXVerificationTest			false
+false	false	false	false	158	org.mockitousage.verification.VerificationOnMultipleMocksUsingMatchersTest			false
+false	false	false	false	1593	org.mockitousage.verification.VerificationWithAfterAndCaptorTest			false
+false	false	false	false	402	org.mockitousage.verification.VerificationWithTimeoutTest			false
+false	false	false	false	197	org.mockitousage.verification.VerificationInOrderTest			false
+false	false	false	false	294	org.mockitousage.verification.RelaxedVerificationInOrderTest			false
+false	false	false	false	951	org.mockitousage.verification.VerificationExcludingStubsTest			false
+false	false	false	false	295	org.mockitousage.verification.SelectedMocksInOrderVerificationTest			false
+false	false	false	false	170	org.mockitousage.verification.VerificationUsingMatchersTest			false
+false	false	false	false	1613	org.mockitousage.verification.VerificationInOrderWithTimeoutTest			false
+false	false	false	false	428	org.mockitousage.verification.AtMostXVerificationTest			false
+false	false	false	false	156	org.mockitousage.verification.NoMoreInteractionsVerificationTest			false
+false	false	false	false	770	org.mockitousage.verification.PrintingVerboseTypesWithArgumentsTest			false
+false	false	false	false	173	org.mockitousage.verification.DescriptiveMessagesWhenVerificationFailsTest			false
+false	false	false	false	293	org.mockitousage.verification.DescriptiveMessagesWhenTimesXVerificationFailsTest			false
+false	false	false	false	211	org.mockitousage.verification.VerificationInOrderMixedWithOrdinaryVerificationTest			false
+false	false	false	false	1004	org.mockitousage.verification.VerificationInOrderWithCallsTest			false
+false	false	false	false	1646	org.mockitousage.verification.VerifyPrintsAllInvocationsOnErrorTest			false
+false	false	false	false	1555	org.mockitousage.verification.VerificationStartedListenerTest			false
+false	false	false	false	229	org.mockitousage.verification.DescriptiveMessagesOnVerificationInOrderErrorsTest			false
+false	false	false	false	151	org.mockitousage.verification.BasicVerificationTest			false
+false	false	false	false	514	org.mockitousage.verification.OrdinaryVerificationPrintsAllInteractionsTest			false
+false	false	false	false	1594	org.mockitousage.verification.VerificationWithAfterTest			false
+false	false	false	false	316	org.mockitousage.verification.BasicVerificationInOrderTest			false
+false	false	false	false	161	org.mockitousage.examples.use.ArticleDatabase			false
+false	false	false	false	160	org.mockitousage.examples.use.ArticleCalculator			false
+false	false	false	false	213	org.mockitousage.examples.use.Article			false
+false	false	false	false	163	org.mockitousage.examples.use.ExampleTest			false
+false	false	false	false	162	org.mockitousage.examples.use.ArticleManager			false
+false	false	false	false	1547	org.mockitousage.plugins.MockitoPluginsTest			false
+false	false	false	false	335	org.mockitousage.puzzlers.OverloadingPuzzleTest			false
+false	false	false	false	231	org.mockitousage.puzzlers.BridgeMethodPuzzleTest			false
+false	false	false	false	520	org.mockitousage.misuse.ExplicitFrameworkValidationTest			false
+false	false	false	false	434	org.mockitousage.misuse.RestrictedObjectMethodsTest			false
+false	false	false	false	449	org.mockitousage.misuse.DetectingMisusedMatchersTest			false
+false	false	false	false	154	org.mockitousage.misuse.InvalidUsageTest			false
+false	false	false	false	448	org.mockitousage.misuse.DetectingFinalMethodsTest			false
+false	false	false	false	447	org.mockitousage.misuse.CleaningUpPotentialStubbingTest			false
+false	false	false	false	327	org.mockitousage.misuse.DescriptiveMessagesOnMisuseTest			false
+false	false	false	false	991	org.mockitousage.misuse.SpyStubbingMisuseTest			false
+false	false	false	false	1220	org.mockitousage.junitrule.RuleTestWithFactoryMethodTest			false
+false	false	false	false	1221	org.mockitousage.junitrule.RuleTestWithParameterConstructorTest			false
+false	false	false	false	1139	org.mockitousage.junitrule.MockitoJUnitRuleTest			false
+false	false	false	false	1466	org.mockitousage.junitrule.StrictJUnitRuleTest			false
+false	false	false	false	1501	org.mockitousage.junitrule.MutableStrictJUnitRuleTest			false
+false	false	false	false	1223	org.mockitousage.junitrule.InvalidTargetMockitoJUnitRuleTest			false
+false	false	false	false	1357	org.mockitousage.junitrule.StubbingWarningsMultiThreadingTest			false
+false	false	false	false	1669	org.mockitousage.junitrule.JUnitTestRuleIntegratesWithRuleChainTest			false
+false	false	false	false	1671	org.mockitousage.junitrule.MutableStrictJUnitTestRuleTest			false
+false	false	false	false	1670	org.mockitousage.junitrule.MockitoJUnitTestRuleTest			false
+false	false	false	false	1355	org.mockitousage.junitrule.LenientJUnitRuleTest			false
+false	false	false	false	1287	org.mockitousage.junitrule.VerificationCollectorImplTest			false
+false	false	false	false	1356	org.mockitousage.junitrule.StubbingWarningsJUnitRuleTest			false
+false	false	false	false	395	org.mockitousage.stubbing.StubbingUsingDoReturnTest			false
+false	false	false	false	914	org.mockitousage.stubbing.StubbingWithExtraAnswersTest			false
+false	false	false	false	1514	org.mockitousage.stubbing.StrictStubbingEndToEndTest			false
+false	false	false	false	1310	org.mockitousage.stubbing.StubbingWithDelegateVarArgsTest			false
+false	false	false	false	861	org.mockitousage.stubbing.DeepStubbingTest			false
+false	false	false	false	371	org.mockitousage.stubbing.StubbingConsecutiveAnswersTest			false
+false	false	false	false	157	org.mockitousage.stubbing.StubbingWithThrowablesTest			false
+false	false	false	false	166	org.mockitousage.stubbing.ReturningDefaultValuesTest			false
+false	false	false	false	1623	org.mockitousage.stubbing.SmartNullsGenericBugTest			false
+false	false	false	false	1013	org.mockitousage.stubbing.StubbingWithDelegateTest			false
+false	false	false	false	381	org.mockitousage.stubbing.StubbingWithCustomAnswerTest			false
+false	false	false	false	1512	org.mockitousage.stubbing.StrictStubbingTest			false
+false	false	false	false	1314	org.mockitousage.stubbing.StubbingWithAdditionalAnswersTest			false
+false	false	false	false	1513	org.mockitousage.stubbing.StubbingWarningsTest			false
+false	false	false	false	1290	org.mockitousage.stubbing.StubbingReturnsSelfTest			false
+false	false	false	false	150	org.mockitousage.stubbing.BasicStubbingTest			false
+false	false	false	false	440	org.mockitousage.stubbing.SmartNullsStubbingTest			false
+false	false	false	false	518	org.mockitousage.stubbing.CallingRealMethodTest			false
+false	false	false	false	1621	org.mockitousage.stubbing.StubbingWithBadThrowablesTest			false
+false	false	false	false	1651	org.mockitousage.stubbing.MisusingStubbingTest			false
+false	false	false	false	855	org.mockitousage.stubbing.CloningParameterTest			false
+false	false	false	false	1631	org.mockitousage.serialization.StrictStubsSerializableTest			false
+false	false	false	false	1102	org.mockitousage.serialization.AcrossClassLoaderSerializationTest			false
+false	false	false	false	1124	org.mockitousage.serialization.DeepStubsSerializableTest			false
+false	false	false	false	1103	org.mockitousage.serialization.ParallelSerializationTest			false
+false	false	false	false	392	org.mockitousage.packageprotected.PackageProtected			false
+false	false	false	false	391	org.mockitousage.packageprotected.MockingPackageProtectedTest			false
+false	false	false	false	454	org.mockitousage.customization.BDDMockitoTest			false
+false	false	false	false	493	org.mockitousage.matchers.NewMatchersTest			false
+false	false	false	false	172	org.mockitousage.matchers.InvalidUseOfMatchersTest			false
+false	false	false	false	312	org.mockitousage.matchers.CustomMatchersTest			false
+false	false	false	false	515	org.mockitousage.matchers.CustomMatcherDoesYieldCCETest			false
+false	false	false	false	169	org.mockitousage.matchers.MatchersTest			false
+false	false	false	false	455	org.mockitousage.matchers.CapturingArgumentsTest			false
+false	false	false	false	233	org.mockitousage.matchers.VerificationAndStubbingUsingMatchersTest			false
+false	false	false	false	379	org.mockitousage.matchers.GenericMatchersTest			false
+false	false	false	false	361	org.mockitousage.matchers.MatchersMixedWithRawArgumentsTest			false
+false	false	false	false	326	org.mockitousage.matchers.ReflectionMatchersTest			false
+false	false	false	false	481	org.mockitousage.matchers.MoreMatchersTest			false
+false	false	false	false	328	org.mockitousage.matchers.HamcrestMatchersTest			false
+false	false	false	false	1395	org.mockitousage.matchers.VarargsTest			false
+false	false	false	false	374	org.mockitousage.matchers.AnyXMatchersAcceptNullsTest			false
+false	false	false	false	1495	org.mockitousage.junitrunner.StubbingWarningsJUnitRunnerTest			false
+false	false	false	false	1459	org.mockitousage.junitrunner.DeepStubbingWithJUnitRunnerTest			false
+false	false	false	false	1330	org.mockitousage.junitrunner.StrictRunnerTest			false
+false	false	false	false	1324	org.mockitousage.junitrunner.SilentRunnerTest			false
+false	false	false	false	1505	org.mockitousage.junitrunner.StrictStubsRunnerTest			false
+false	false	false	false	865	org.mockitousage.junitrunner.Filters			false
+false	false	false	false	410	org.mockitousage.junitrunner.JUnit45RunnerTest			false
+false	false	false	false	511	org.mockitousage.junitrunner.ModellingVerboseMockitoTest			false
+false	false	false	false	1328	org.mockitousage.junitrunner.UnusedStubsExceptionMessageTest			false
+false	false	false	false	193	org.mockitousage.stacktrace.StackTraceFilteringTest			false
+false	false	false	false	320	org.mockitousage.stacktrace.PointingStackTraceToActualInvocationInOrderTest			false
+false	false	false	false	491	org.mockitousage.stacktrace.ClickableStackTracesTest			false
+false	false	false	false	492	org.mockitousage.stacktrace.ModellingDescriptiveMessagesTest			false
+false	false	false	false	319	org.mockitousage.stacktrace.PointingStackTraceToActualInvocationChunkInOrderTest			false
+false	false	false	false	299	org.mockitousage.stacktrace.PointingStackTraceToActualInvocationTest			false
+false	false	false	false	495	org.mockitousage.stacktrace.ClickableStackTracesWhenFrameworkMisusedTest			false
+false	false	false	false	1520	org.mockitousage.session.MockitoSessionTest			false
+false	false	false	false	1140	org.mockitousage.bugs.deepstubs.DeepStubsWronglyReportsSerializationProblemsTest			false
+false	false	false	false	1239	org.mockitousage.bugs.deepstubs.DeepStubFailingWhenGenericNestedAsRawTypeTest			false
+false	false	false	false	990	org.mockitousage.bugs.IOOBExceptionShouldNotBeThrownWhenNotCodingFluentlyTest			false
+false	false	false	false	930	org.mockitousage.bugs.ShouldOnlyModeAllowCapturingArgumentsTest			false
+false	false	false	false	1079	org.mockitousage.bugs.EqualsWithDeltaTest			false
+false	false	false	false	1011	org.mockitousage.bugs.ConcurrentModificationExceptionOnMultiThreadedVerificationTest			false
+false	false	false	false	503	org.mockitousage.bugs.NPEWhenMockingThrowablesTest			false
+false	false	false	false	859	org.mockitousage.bugs.StubbingMocksThatAreConfiguredToReturnMocksTest			false
+false	false	false	false	783	org.mockitousage.bugs.ActualInvocationHasNullArgumentNPEBugTest			false
+false	false	false	false	922	org.mockitousage.bugs.CaptorAnnotationAutoboxingTest			false
+false	false	false	false	786	org.mockitousage.bugs.MockitoRunnerBreaksWhenNoTestMethodsTest			false
+false	false	false	false	960	org.mockitousage.bugs.BridgeMethodsHitAgainTest			false
+false	false	false	false	803	org.mockitousage.bugs.AIOOBExceptionWithAtLeastTest			false
+false	false	false	false	1562	org.mockitousage.bugs.MockitoStubbedCallInAnswerTest			false
+false	false	false	false	805	org.mockitousage.bugs.AtLeastMarksAllInvocationsVerified			false
+false	false	false	false	785	org.mockitousage.bugs.CovariantOverrideTest			false
+false	false	false	false	782	org.mockitousage.bugs.NPEWithCertainMatchersTest			false
+false	false	false	false	1534	org.mockitousage.bugs.EnabledMockingInterfaceCloneMethodTest			false
+false	false	false	false	1508	org.mockitousage.bugs.FillInStackTraceScenariosTest			false
+false	false	false	false	916	org.mockitousage.bugs.VerifyingWithAnExtraCallToADifferentMockTest			false
+false	false	false	false	909	org.mockitousage.bugs.MultipleInOrdersTest			false
+false	false	false	false	1509	org.mockitousage.bugs.ImplementationOfGenericAbstractMethodNotInvokedOnSpyTest			false
+false	false	false	false	940	org.mockitousage.bugs.ShouldMocksCompareToBeConsistentWithEqualsTest			false
+false	false	false	false	936	org.mockitousage.bugs.NPEOnAnyClassMatcherAutounboxTest			false
+false	false	false	false	1336	org.mockitousage.bugs.DiamondInheritanceIsConfusingMockitoTest			false
+false	false	false	false	1481	org.mockitousage.bugs.ArgumentCaptorDontCapturePreviouslyVerifiedTest			false
+false	false	false	false	1018	org.mockitousage.bugs.FinalHashCodeAndEqualsRaiseNPEInInitMocksTest			false
+false	false	false	false	1558	org.mockitousage.bugs.GenericsMockitoAnnotationsTest			false
+false	false	true	false	928	org.mockitousage.bugs.ShouldNotDeadlockAnswerExecutionTest			false
+false	false	false	false	935	org.mockitousage.bugs.SpyShouldHaveNiceNameTest			false
+false	false	false	false	992	org.mockitousage.bugs.ListenersLostOnResetMockTest			false
+false	false	false	false	1255	org.mockitousage.bugs.ClassCastExOnVerifyZeroInteractionsTest			false
+false	false	false	false	1319	org.mockitousage.bugs.CompareMatcherTest			false
+false	false	false	false	931	org.mockitousage.bugs.InheritedGenericsPolimorphicCallTest			false
+false	false	false	false	933	org.mockitousage.bugs.MultithreadedStubbingHalfManualTest			false
+false	false	false	false	1337	org.mockitousage.bugs.ConfusedSignatureTest			false
+false	false	false	false	996	org.mockitousage.bugs.injection.ChildWithSameParentFieldInjectionTest			false
+false	false	false	false	1074	org.mockitousage.bugs.injection.Issue353InjectionMightNotHappenInCertainConfigurationTest			false
+false	false	false	false	956	org.mockitousage.bugs.injection.InjectionByTypeShouldFirstLookForExactTypeThenAncestorTest			false
+false	false	false	false	949	org.mockitousage.bugs.injection.InjectMocksShouldTryPropertySettersFirstBeforeFieldAccessTest			false
+false	false	false	false	989	org.mockitousage.bugs.injection.ShouldNotTryToInjectInFinalOrStaticFieldsTest			false
+false	false	false	false	952	org.mockitousage.bugs.injection.ParentTestMockInjectionTest			false
+false	false	false	false	504	org.mockitousage.bugs.varargs.VarargsNotPlayingWithAnyTest			false
+false	false	false	false	776	org.mockitousage.bugs.varargs.VarargsAndAnyPicksUpExtraInvocationsTest			false
+false	false	false	false	822	org.mockitousage.bugs.varargs.VarargsErrorWhenCallingRealMethodTest			false
+false	false	false	false	1262	org.mockitousage.bugs.creation.PublicMethodInParentWithNonPublicTypeInSignatureTest			false
+false	false	false	false	939	org.mockitousage.bugs.creation.ShouldAllowInlineMockCreationTest			false
+false	false	false	false	1265	org.mockitousage.bugs.creation.ConstructorInvokingMethodShouldNotRaiseExceptionTest			false
+false	false	false	false	1708	org.mockitousage.bugs.creation.PackagePrivateWithContextClassLoaderTest			false
+false	false	false	false	1264	org.mockitousage.bugs.creation.otherpackage.PublicParentClass			false
+false	false	false	false	1263	org.mockitousage.bugs.creation.api.PublicClass			false
+false	false	false	false	997	org.mockitousage.configuration.ClassToBeMocked			false
+false	false	false	false	993	org.mockitousage.configuration.ClassCacheVersusClassReloadingTest			false
+false	false	false	false	1479	org.mockitousage.debugging.VerificationListenerCallBackTest			false
+false	false	false	false	848	org.mockitousage.debugging.Foo			false
+false	false	false	false	965	org.mockitousage.debugging.InvocationListenerCallbackTest			false
+false	false	false	false	1632	org.mockitousage.debugging.StubbingLookupListenerCallbackTest			false
+false	false	false	false	1399	org.mockitousage.debugging.InvocationsPrinterTest			false
+false	false	false	false	966	org.mockitousage.debugging.VerboseLoggingOfInvocationsOnMockTest			false
+false	false	false	false	489	org.mockitousage.performance.LoadsOfMocksTest			false
+false	false	false	false	1107	org.mockitousage.performance.StubOnlyAvoidMemoryConsumptionTest			false
+false	false	false	false	167	org.mockitousage.basicapi.UsingVarargsTest			false
+false	false	false	false	552	org.mockitousage.basicapi.MockingMultipleInterfacesTest			false
+false	false	false	false	807	org.mockitousage.basicapi.MocksSerializationTest			false
+false	false	false	false	490	org.mockitousage.basicapi.ResetTest			false
+false	false	false	false	961	org.mockitousage.basicapi.MockAccessTest			false
+false	false	false	false	828	org.mockitousage.basicapi.ObjectsSerializationTest			false
+false	false	false	false	1288	org.mockitousage.basicapi.ResetInvocationsTest			false
+false	false	false	false	148	org.mockitousage.basicapi.ReplacingObjectMethodsTest			false
+false	false	false	false	388	org.mockitousage.basicapi.MocksCreationTest			false
+false	false	false	false	1097	org.mockitousage.basicapi.MocksSerializationForAnnotationTest			false
+false	false	false	false	836	org.mockitousage.spies.SpyingOnInterfacesTest			false
+false	false	false	false	429	org.mockitousage.spies.StubbingSpiesDoesNotYieldNPETest			false
+false	false	false	false	1710	org.mockitousage.spies.SpiesWithRealEqualsAndInOrderTest			false
+false	false	false	false	540	org.mockitousage.spies.PartialMockingWithSpiesTest			false
+false	false	false	false	390	org.mockitousage.spies.SpyingOnRealObjectsTest			false
+false	false	false	false	1133	org.mockito.exceptions.misusing.CannotStubVoidMethodWithReturnValue			false
+false	false	false	false	1507	org.mockito.exceptions.misusing.RedundantListenerException			false
+false	false	false	false	369	org.mockito.exceptions.misusing.NullInsteadOfMockException			false
+false	false	false	false	81	org.mockito.exceptions.misusing.UnfinishedStubbingException			false
+false	false	false	false	1301	org.mockito.exceptions.misusing.UnnecessaryStubbingException			false
+false	false	false	false	78	org.mockito.exceptions.misusing.NotAMockException			false
+false	false	false	false	1094	org.mockito.exceptions.misusing.CannotVerifyStubOnlyMock			false
+false	false	false	false	1725	org.mockito.exceptions.misusing.DoNotMockException			false
+false	false	false	false	413	org.mockito.exceptions.misusing.WrongTypeOfReturnValue			false
+false	false	false	false	1470	org.mockito.exceptions.misusing.PotentialStubbingProblem			false
+false	false	false	false	1614	org.mockito.exceptions.misusing.InjectMocksException			false
+false	false	false	false	957	org.mockito.exceptions.misusing.FriendlyReminderException			false
+false	false	false	false	1515	org.mockito.exceptions.misusing.UnfinishedMockingSessionException			false
+false	false	false	false	475	org.mockito.exceptions.misusing.MockitoConfigurationException			false
+false	false	false	false	79	org.mockito.exceptions.misusing.MissingMethodInvocationException			false
+false	false	false	false	183	org.mockito.exceptions.misusing.UnfinishedVerificationException			false
+false	false	false	false	168	org.mockito.exceptions.misusing.InvalidUseOfMatchersException			false
+false	false	false	false	1592	org.mockito.exceptions.verification.MoreThanAllowedActualInvocations			false
+false	false	false	false	303	org.mockito.exceptions.verification.VerificationInOrderFailure			false
+false	false	false	false	435	org.mockito.exceptions.verification.SmartNullPointerException			false
+false	false	false	false	282	org.mockito.exceptions.verification.NoInteractionsWanted			false
+false	false	false	false	248	org.mockito.exceptions.verification.ArgumentsAreDifferent			false
+false	false	false	false	1647	org.mockito.exceptions.verification.TooFewActualInvocations			false
+false	false	false	false	188	org.mockito.exceptions.verification.TooManyActualInvocations			false
+false	false	false	false	330	org.mockito.exceptions.verification.NeverWantedButInvoked			false
+false	false	false	false	300	org.mockito.exceptions.verification.WantedButNotInvoked			false
+false	false	false	false	1639	org.mockito.exceptions.verification.opentest4j.ArgumentsAreDifferent			false
+false	false	false	false	404	org.mockito.exceptions.verification.junit.ArgumentsAreDifferent			false
+false	false	false	false	906	org.mockito.internal.verification.api.VerificationDataInOrderImpl			false
+false	false	false	false	905	org.mockito.internal.verification.api.VerificationDataInOrder			false
+false	false	false	false	1404	org.mockito.internal.verification.api.VerificationData			false
+false	false	false	false	904	org.mockito.internal.verification.api.InOrderContext	decorated	Decorator	false
+false	false	false	false	427	org.mockito.internal.verification.api.VerificationInOrderMode	state	State	false
+false	false	false	false	220	org.mockito.internal.invocation.finder.AllInvocationsFinder			false
+false	false	false	false	981	org.mockito.internal.invocation.finder.VerifiableInvocationsFinder			false
+false	false	false	false	1386	org.mockito.internal.util.concurrent.WeakConcurrentMap	adaptee	(Object)Adapter	false
+false	false	false	false	1387	org.mockito.internal.util.concurrent.WeakConcurrentSet			false
+false	false	false	false	1385	org.mockito.internal.util.concurrent.DetachedThreadLocal	adaptee	(Object)Adapter	false
+false	false	false	false	998	org.mockito.internal.configuration.injection.scanner.InjectMocksScanner			false
+false	false	false	false	999	org.mockito.internal.configuration.injection.scanner.MockScanner			false
+false	false	false	false	943	org.mockito.internal.configuration.injection.filter.MockCandidateFilter	state	State	false
+false	false	false	false	941	org.mockito.internal.configuration.injection.filter.TerminalMockCandidateFilter			false
+false	false	false	false	944	org.mockito.internal.configuration.injection.filter.NameBasedCandidateFilter	decorator	Decorator	false
+false	false	false	false	945	org.mockito.internal.configuration.injection.filter.TypeBasedCandidateFilter	decorator	Decorator	false
+false	false	false	false	946	org.mockito.internal.configuration.injection.filter.OngoingInjector	singleton	Singleton	false
+false	false	false	false	1379	org.mockito.internal.creation.bytebuddy.inject.MockMethodDispatcher	abstractClass	Template Method	false
+false	false	false	false	1068	org.mockito.internal.creation.settings.CreationSettings			false
+false	false	false	false	824	org.mockito.internal.creation.util.MockitoMethodProxy			false
+false	false	false	false	1590	org.mockito.codegen.InjectionBase			false
+false	false	false	false	1274	org.mockito.hamcrest.MockitoHamcrest			false
+false	false	false	false	1540	org.mockito.invocation.InvocationContainer			false
+false	false	false	false	1549	org.mockito.invocation.InvocationFactory			false
+false	false	false	false	1050	org.mockito.invocation.Invocation	state	State	false
+false	false	false	false	1054	org.mockito.invocation.StubInfo			false
+false	false	false	false	1059	org.mockito.invocation.MockHandler	state	State	false
+false	false	false	false	1058	org.mockito.invocation.DescribedInvocation	state	State	false
+false	false	false	false	1403	org.mockito.invocation.MatchableInvocation	state	State	false
+false	false	false	false	1053	org.mockito.invocation.Location	state	State	false
+false	false	false	false	349	org.mockito.invocation.InvocationOnMock	state	State	false
+false	false	false	false	1349	org.mockito.quality.MockitoHint			false
+false	false	false	false	1087	org.mockito.plugins.StackTraceCleanerProvider			false
+false	false	true	false	1634	org.mockito.plugins.InlineMockMaker			false
+false	false	false	false	1570	org.mockito.plugins.InstantiatorProvider2	creator	Factory Method	false
+false	false	false	false	1628	org.mockito.plugins.MockitoLogger	state	State	false
+false	false	false	false	1005	org.mockito.plugins.MockMaker	creator	Factory Method	false
+false	false	false	false	1461	org.mockito.plugins.AnnotationEngine			false
+false	false	false	false	1197	org.mockito.plugins.PluginSwitch	state	State	false
+false	false	false	false	1727	org.mockito.plugins.DoNotMockEnforcer	state	State	false
+false	false	false	false	1545	org.mockito.plugins.MockitoPlugins			false
+false	false	false	false	1701	org.mockito.plugins.MockResolver			false
+false	false	false	false	1693	org.mockito.plugins.MemberAccessor	state	State	false
+false	false	false	false	1362	org.mockito.stubbing.Answer2			false
+false	false	false	false	1483	org.mockito.stubbing.ValidableAnswer			false
+false	false	false	false	1366	org.mockito.stubbing.VoidAnswer1			false
+false	false	false	false	1368	org.mockito.stubbing.VoidAnswer3			false
+false	false	false	false	1369	org.mockito.stubbing.VoidAnswer4			false
+false	false	false	false	1364	org.mockito.stubbing.Answer4			false
+false	false	false	false	1367	org.mockito.stubbing.VoidAnswer2			false
+false	false	false	false	1642	org.mockito.stubbing.VoidAnswer6			false
+false	false	false	false	1600	org.mockito.stubbing.BaseStubber			false
+false	false	false	false	1363	org.mockito.stubbing.Answer3			false
+false	false	false	false	389	org.mockito.stubbing.Answer	decorated	Decorator	false
+false	false	false	false	1340	org.mockito.stubbing.Stubbing			false
+false	false	false	false	407	org.mockito.stubbing.OngoingStubbing			false
+false	false	false	false	1365	org.mockito.stubbing.Answer5			false
+false	false	false	false	1641	org.mockito.stubbing.Answer6			false
+false	false	false	false	1370	org.mockito.stubbing.VoidAnswer5			false
+false	false	false	false	1601	org.mockito.stubbing.LenientStubber			false
+false	false	false	false	1361	org.mockito.stubbing.Answer1			false
+false	false	false	false	399	org.mockito.stubbing.Stubber			false
+false	false	false	false	1518	org.mockito.session.MockitoSessionBuilder	creator	Factory Method	false
+false	false	false	false	1564	org.mockito.session.MockitoSessionLogger	state	State	false
+false	false	false	false	1067	org.mockito.mock.MockName			false
+false	false	false	false	1007	org.mockito.mock.MockCreationSettings	state	State	false
+false	false	false	false	963	org.mockito.listeners.InvocationListener			false
+false	false	false	false	1477	org.mockito.listeners.VerificationListener			false
+false	false	false	false	1553	org.mockito.listeners.VerificationStartedEvent			false
+false	false	false	false	1348	org.mockito.listeners.MockitoListener			false
+false	false	false	false	1347	org.mockito.listeners.MockCreationListener			false
+false	false	false	false	987	org.mockito.listeners.MethodInvocationReport			false
+false	false	false	false	1467	org.mockito.listeners.StubbingLookupListener			false
+false	false	false	false	1554	org.mockito.listeners.VerificationStartedListener			false
+false	false	false	false	1610	org.mockito.listeners.StubbingLookupEvent			false
+false	false	false	false	1568	org.mockito.creation.instance.Instantiator			false
+false	false	false	false	1567	org.mockito.creation.instance.InstantiationException			false
+false	false	false	false	1643	org.mockito.memorytest.ShouldNotStarveMemoryOnLargeStackTraceInvocationsTest			false
+false	false	false	false	1575	org.mockitousage.plugins.instantiator.MyInstantiatorProvider2			false
+false	false	false	false	1576	org.mockitousage.plugins.instantiator.InstantiatorProviderTest			false
+false	false	false	false	1731	org.mockitousage.plugins.donotmockenforcer.MyDoNotMockEnforcer			false
+false	false	false	false	1730	org.mockitousage.plugins.donotmockenforcer.DoNotmockEnforcerTest			false
+false	false	false	false	1702	org.mockitousage.plugins.resolver.MockResolverTest			false
+false	false	false	false	1703	org.mockitousage.plugins.resolver.MyMockResolver			false
+false	false	false	false	1630	org.mockitousage.plugins.logger.MyMockitoLogger			false
+false	false	false	false	1629	org.mockitousage.plugins.logger.MockitoLoggerTest			false
+false	false	false	false	1090	org.mockitousage.plugins.stacktrace.PluginStackTraceFilteringTest			false
+false	false	false	false	1089	org.mockitousage.plugins.stacktrace.MyStackTraceCleanerProvider			false
+false	false	false	false	1198	org.mockitousage.plugins.switcher.MyPluginSwitch			false
+false	false	false	false	1578	org.mockitousage.plugins.switcher.PluginSwitchTest			false
+false	false	false	false	1206	org.mockitousage.plugins.switcher.MyMockMaker			false
+false	false	false	false	1498	org.mockito.android.internal.creation.AndroidByteBuddyMockMaker	decorator	Decorator	false
+false	false	false	false	1500	org.mockito.android.internal.creation.AndroidTempFileLocator			false
+false	false	false	false	1499	org.mockito.android.internal.creation.AndroidLoadingStrategy			false
+false	false	false	false	1625	org.mockito.moduletest.ReplicatingClassLoader			false
+false	false	false	false	1695	org.mockito.moduletest.ModuleAccessTest			false
+false	false	false	false	1624	org.mockito.moduletest.ModuleHandlingTest			false
+false	false	false	false	1696	org.mockito.moduletest.ModuleUtil			false
+false	false	false	false	1586	org.mockito.junit.jupiter.MockitoExtension			false
+false	false	false	false	1645	org.mockito.errorprone.bugpatterns.MockitoInternalUsageTest			false
+false	false	false	false	1659	org.mockito.errorprone.bugpatterns.MockitoAnyClassWithPrimitiveTypeTest			false
+false	false	false	false	1660	org.mockito.errorprone.bugpatterns.MockitoAnyIncorrectPrimitiveTypeTest			false
+false	false	false	false	1638	org.mockito.errorprone.bugpatterns.MockitoNotExtensibleTest			false
+false	false	false	false	1657	org.mockito.errorprone.bugpatterns.MockitoAnyClassWithPrimitiveType			false
+false	false	false	false	1658	org.mockito.errorprone.bugpatterns.MockitoAnyIncorrectPrimitiveType			false
+false	false	false	false	1644	org.mockito.errorprone.bugpatterns.MockitoInternalUsage			false
+false	false	false	false	1656	org.mockito.errorprone.bugpatterns.AbstractMockitoAnyForPrimitiveType	abstractClass	Template Method	false
+false	false	false	false	1637	org.mockito.errorprone.bugpatterns.MockitoNotExtensible			false
+false	false	false	false	1584	org.mockitoinline.StressTest			false
+false	false	false	false	1682	org.mockitoinline.StaticRunnerTest			false
+false	false	false	false	1688	org.mockitoinline.ConstructionMockTest			false
+false	false	false	false	1561	org.mockitoinline.SuperCallTest			false
+false	false	false	false	1681	org.mockitoinline.StaticRuleTest			false
+false	false	false	false	1524	org.mockitoinline.PluginTest			false
+false	false	false	false	1699	org.mockitoinline.InitializationTest			false
+false	false	false	false	1698	org.mockitoinline.SpyWithConstructorTest			false
+false	false	false	false	1689	org.mockitoinline.StaticMockRuleTest			false
+false	false	false	false	1687	org.mockitoinline.ConstructionMockRuleTest			false
+false	false	false	false	1533	org.mockitoinline.StubbingLocationTest			false
+false	false	false	false	1618	org.mockitoinline.OneLinerStubStressTest			false
+false	false	false	false	1721	org.mockitoinline.EnumMockingTest			false
+false	false	false	false	1732	org.mockitoinline.HierarchyPreInitializationTest			false
+false	false	false	false	1525	org.mockitoinline.FinalClassMockingTest			false
+false	false	false	false	1679	org.mockitoinline.StaticMockTest			false
+false	false	false	false	1560	org.mockitoinline.RecursionTest			false
+false	false	false	false	1635	org.mockitoinline.bugs.CyclicMockMethodArgumentMemoryLeakTest			false
+false	false	false	false	1636	org.mockitoinline.bugs.SelfSpyReferenceMemoryLeakTest			false
+false	false	false	false	1661	org.mockito.osgitest.otherbundle.Methods			false
+false	false	false	false	1662	org.mockito.osgitest.OsgiTest			false
+false	false	false	false	1664	org.mockito.osgitest.testbundle.MockNonPublicClassFailsTest			false
+false	false	false	false	1663	org.mockito.osgitest.testbundle.MockClassInOtherBundleTest			false
+false	false	false	false	1665	org.mockito.osgitest.testbundle.SimpleMockTest			false
+false	false	false	false	1717	org.mockitoproxy.MocksTest			false

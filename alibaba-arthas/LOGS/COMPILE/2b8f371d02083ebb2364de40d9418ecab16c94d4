@@ -1,0 +1,214 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.taobao.arthas:arthas-tunnel-server:jar:3.1.8
+[WARNING] 'build.plugins.plugin.version' for org.springframework.boot:spring-boot-maven-plugin is missing. @ com.taobao.arthas:arthas-tunnel-server:[unknown-version], /results/alibaba-arthas/RELEASES/2b8f371d02083ebb2364de40d9418ecab16c94d4/tunnel-server/pom.xml, line 87, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] arthas-all                                                         [pom]
+[INFO] arthas-spy                                                         [jar]
+[INFO] arthas-common                                                      [jar]
+[INFO] arthas-tunnel-client                                               [jar]
+[INFO] arthas-memorycompiler                                              [jar]
+[INFO] arthas-core                                                        [jar]
+[INFO] arthas-agent                                                       [jar]
+[INFO] arthas-client                                                      [jar]
+[INFO] arthas-boot                                                        [jar]
+[INFO] arthas-demo                                                        [jar]
+[INFO] arthas-testcase                                                    [jar]
+[INFO] arthas-site                                                        [jar]
+[INFO] arthas-packaging                                                   [jar]
+[INFO] arthas-tunnel-server                                               [jar]
+[INFO] 
+[INFO] --------------------< com.taobao.arthas:arthas-all >--------------------
+[INFO] Building arthas-all 3.1.8                                         [1/14]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-all ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-all ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --------------------< com.taobao.arthas:arthas-spy >--------------------
+[INFO] Building arthas-spy 3.1.8                                         [2/14]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-spy ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-spy ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to /results/alibaba-arthas/RELEASES/2b8f371d02083ebb2364de40d9418ecab16c94d4/spy/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] ------------------< com.taobao.arthas:arthas-common >-------------------
+[INFO] Building arthas-common 3.1.8                                      [3/14]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-common ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-common ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 11 source files to /results/alibaba-arthas/RELEASES/2b8f371d02083ebb2364de40d9418ecab16c94d4/common/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] ---------------< com.taobao.arthas:arthas-tunnel-client >---------------
+[INFO] Building arthas-tunnel-client 3.1.8                               [4/14]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-tunnel-client ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-tunnel-client ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 7 source files to /results/alibaba-arthas/RELEASES/2b8f371d02083ebb2364de40d9418ecab16c94d4/tunnel-client/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] --------------< com.taobao.arthas:arthas-memorycompiler >---------------
+[INFO] Building arthas-memorycompiler 3.1.8                              [5/14]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-memorycompiler ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-memorycompiler ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /results/alibaba-arthas/RELEASES/2b8f371d02083ebb2364de40d9418ecab16c94d4/memorycompiler/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] -------------------< com.taobao.arthas:arthas-core >--------------------
+[INFO] Building arthas-core 3.1.8                                        [6/14]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-core ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 254 source files to /results/alibaba-arthas/RELEASES/2b8f371d02083ebb2364de40d9418ecab16c94d4/core/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[WARNING] /results/alibaba-arthas/RELEASES/2b8f371d02083ebb2364de40d9418ecab16c94d4/core/src/main/java/com/taobao/arthas/core/command/monitor200/PerfCounterCommand.java:[25,30] sun.management.counter.Counter is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/2b8f371d02083ebb2364de40d9418ecab16c94d4/core/src/main/java/com/taobao/arthas/core/command/monitor200/PerfCounterCommand.java:[26,35] sun.management.counter.perf.PerfInstrumentation is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/2b8f371d02083ebb2364de40d9418ecab16c94d4/core/src/main/java/com/taobao/arthas/core/command/monitor200/PerfCounterCommand.java:[25,30] sun.management.counter.Counter is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/2b8f371d02083ebb2364de40d9418ecab16c94d4/core/src/main/java/com/taobao/arthas/core/command/monitor200/PerfCounterCommand.java:[26,35] sun.management.counter.perf.PerfInstrumentation is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/2b8f371d02083ebb2364de40d9418ecab16c94d4/core/src/main/java/com/taobao/arthas/core/command/monitor200/PerfCounterCommand.java:[25,30] sun.management.counter.Counter is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/2b8f371d02083ebb2364de40d9418ecab16c94d4/core/src/main/java/com/taobao/arthas/core/command/monitor200/PerfCounterCommand.java:[26,35] sun.management.counter.perf.PerfInstrumentation is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/2b8f371d02083ebb2364de40d9418ecab16c94d4/core/src/main/java/com/taobao/arthas/core/shell/term/impl/http/TtyWebSocketFrameHandler.java:[55,72] HANDSHAKE_COMPLETE in io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandler.ServerHandshakeStateEvent has been deprecated
+[WARNING] /results/alibaba-arthas/RELEASES/2b8f371d02083ebb2364de40d9418ecab16c94d4/core/src/main/java/com/taobao/arthas/core/util/UserStatUtil.java:[22,53] encode(java.lang.String) in java.net.URLEncoder has been deprecated
+[WARNING] /results/alibaba-arthas/RELEASES/2b8f371d02083ebb2364de40d9418ecab16c94d4/core/src/main/java/com/taobao/arthas/core/util/UserStatUtil.java:[51,50] encode(java.lang.String) in java.net.URLEncoder has been deprecated
+[WARNING] /results/alibaba-arthas/RELEASES/2b8f371d02083ebb2364de40d9418ecab16c94d4/core/src/main/java/com/taobao/arthas/core/util/UserStatUtil.java:[53,56] encode(java.lang.String) in java.net.URLEncoder has been deprecated
+[WARNING] /results/alibaba-arthas/RELEASES/2b8f371d02083ebb2364de40d9418ecab16c94d4/core/src/main/java/com/taobao/arthas/core/command/monitor200/PerfCounterCommand.java:[60,18] sun.management.counter.Counter is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/2b8f371d02083ebb2364de40d9418ecab16c94d4/core/src/main/java/com/taobao/arthas/core/command/monitor200/PerfCounterCommand.java:[67,22] sun.management.counter.Counter is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/2b8f371d02083ebb2364de40d9418ecab16c94d4/core/src/main/java/com/taobao/arthas/core/command/monitor200/PerfCounterCommand.java:[83,25] sun.management.counter.Counter is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/2b8f371d02083ebb2364de40d9418ecab16c94d4/core/src/main/java/com/taobao/arthas/core/command/monitor200/PerfCounterCommand.java:[113,13] sun.management.counter.perf.PerfInstrumentation is internal proprietary API and may be removed in a future release
+[WARNING] /results/alibaba-arthas/RELEASES/2b8f371d02083ebb2364de40d9418ecab16c94d4/core/src/main/java/com/taobao/arthas/core/command/monitor200/PerfCounterCommand.java:[113,59] sun.management.counter.perf.PerfInstrumentation is internal proprietary API and may be removed in a future release
+[INFO] /results/alibaba-arthas/RELEASES/2b8f371d02083ebb2364de40d9418ecab16c94d4/core/src/main/java/com/taobao/arthas/core/util/collection/ThreadUnsafeGaStack.java: Some input files use unchecked or unsafe operations.
+[INFO] /results/alibaba-arthas/RELEASES/2b8f371d02083ebb2364de40d9418ecab16c94d4/core/src/main/java/com/taobao/arthas/core/util/collection/ThreadUnsafeGaStack.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] -------------------< com.taobao.arthas:arthas-agent >-------------------
+[INFO] Building arthas-agent 3.1.8                                       [7/14]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-agent ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-agent ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /results/alibaba-arthas/RELEASES/2b8f371d02083ebb2364de40d9418ecab16c94d4/agent/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] ------------------< com.taobao.arthas:arthas-client >-------------------
+[INFO] Building arthas-client 3.1.8                                      [8/14]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-client ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-client ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 28 source files to /results/alibaba-arthas/RELEASES/2b8f371d02083ebb2364de40d9418ecab16c94d4/client/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] -------------------< com.taobao.arthas:arthas-boot >--------------------
+[INFO] Building arthas-boot 3.1.8                                        [9/14]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-boot ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-boot ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /results/alibaba-arthas/RELEASES/2b8f371d02083ebb2364de40d9418ecab16c94d4/boot/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] -------------------< com.taobao.arthas:arthas-demo >--------------------
+[INFO] Building arthas-demo 3.1.8                                       [10/14]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-demo ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-demo ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /results/alibaba-arthas/RELEASES/2b8f371d02083ebb2364de40d9418ecab16c94d4/demo/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] -----------------< com.taobao.arthas:arthas-testcase >------------------
+[INFO] Building arthas-testcase 3.1.8                                   [11/14]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-testcase ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-testcase ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /results/alibaba-arthas/RELEASES/2b8f371d02083ebb2364de40d9418ecab16c94d4/testcase/target/classes
+[INFO] /results/alibaba-arthas/RELEASES/2b8f371d02083ebb2364de40d9418ecab16c94d4/testcase/src/main/java/com/alibaba/arthas/Test.java: /results/alibaba-arthas/RELEASES/2b8f371d02083ebb2364de40d9418ecab16c94d4/testcase/src/main/java/com/alibaba/arthas/Test.java uses unchecked or unsafe operations.
+[INFO] /results/alibaba-arthas/RELEASES/2b8f371d02083ebb2364de40d9418ecab16c94d4/testcase/src/main/java/com/alibaba/arthas/Test.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] -------------------< com.taobao.arthas:arthas-site >--------------------
+[INFO] Building arthas-site 3.1.8                                       [12/14]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-site ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-site ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] -----------------< com.taobao.arthas:arthas-packaging >-----------------
+[INFO] Building arthas-packaging 3.1.8                                  [13/14]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-packaging ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-packaging ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] ---------------< com.taobao.arthas:arthas-tunnel-server >---------------
+[INFO] Building arthas-tunnel-server 3.1.8                              [14/14]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ arthas-tunnel-server ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-cli) @ arthas-tunnel-server ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 14 source files to /results/alibaba-arthas/RELEASES/2b8f371d02083ebb2364de40d9418ecab16c94d4/tunnel-server/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] arthas-all 3.1.8 ................................... SUCCESS [  0.282 s]
+[INFO] arthas-spy ......................................... SUCCESS [  0.374 s]
+[INFO] arthas-common ...................................... SUCCESS [  0.230 s]
+[INFO] arthas-tunnel-client ............................... SUCCESS [  0.143 s]
+[INFO] arthas-memorycompiler .............................. SUCCESS [  0.096 s]
+[INFO] arthas-core ........................................ SUCCESS [  1.634 s]
+[INFO] arthas-agent ....................................... SUCCESS [  0.031 s]
+[INFO] arthas-client ...................................... SUCCESS [  0.121 s]
+[INFO] arthas-boot ........................................ SUCCESS [  0.063 s]
+[INFO] arthas-demo ........................................ SUCCESS [  0.017 s]
+[INFO] arthas-testcase .................................... SUCCESS [  0.021 s]
+[INFO] arthas-site ........................................ SUCCESS [  0.008 s]
+[INFO] arthas-packaging ................................... SUCCESS [  0.017 s]
+[INFO] arthas-tunnel-server 3.1.8 ......................... SUCCESS [  0.617 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.028 s
+[INFO] Finished at: 2022-09-10T03:48:34Z
+[INFO] ------------------------------------------------------------------------

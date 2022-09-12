@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<pattern name="Factory Method">
+		<instance>
+			<role name="Creator" element="com.netflix.zuul.monitoring.TracerFactory" />
+			<role name="FactoryMethod()" element="com.netflix.zuul.monitoring.TracerFactory::startMicroTracer(java.lang.String):com.netflix.zuul.monitoring.Tracer" />
+		</instance>
+		<instance>
+			<role name="Creator" element="com.netflix.zuul.message.http.HttpRequestMessage" />
+			<role name="FactoryMethod()" element="com.netflix.zuul.message.http.HttpRequestMessage::clone():com.netflix.zuul.message.ZuulMessage" />
+		</instance>
+		<instance>
+			<role name="Creator" element="com.netflix.zuul.message.ZuulMessage" />
+			<role name="FactoryMethod()" element="com.netflix.zuul.message.ZuulMessage::clone():com.netflix.zuul.message.ZuulMessage" />
+		</instance>
+		<instance>
+			<role name="Creator" element="com.netflix.zuul.netty.server.push.PushMessageSender" />
+			<role name="FactoryMethod()" element="com.netflix.zuul.netty.server.push.PushMessageSender::getPushUserAuth(io.netty.handler.codec.http.FullHttpRequest):com.netflix.zuul.netty.server.push.PushUserAuth" />
+		</instance>
+		<instance>
+			<role name="Creator" element="com.netflix.zuul.netty.server.push.PushAuthHandler" />
+			<role name="FactoryMethod()" element="com.netflix.zuul.netty.server.push.PushAuthHandler::doAuth(io.netty.handler.codec.http.FullHttpRequest):com.netflix.zuul.netty.server.push.PushUserAuth" />
+		</instance>
+	</pattern>
+	<pattern name="Prototype">
+		<instance>
+			<role name="Client" element="com.netflix.zuul.message.http.HttpRequestMessageImpl" />
+			<role name="Prototype" element="com.netflix.zuul.message.http.HttpRequestInfo" />
+			<role name="prototype" element="com.netflix.zuul.message.http.HttpRequestMessageImpl::inboundRequest:com.netflix.zuul.message.http.HttpRequestInfo" />
+			<role name="Operation()" element="com.netflix.zuul.message.http.HttpRequestMessageImpl::clone():com.netflix.zuul.message.ZuulMessage" />
+		</instance>
+	</pattern>
+	<pattern name="Singleton">
+		<instance>
+			<role name="Singleton" element="com.netflix.zuul.stats.ErrorStatsManager" />
+			<role name="uniqueInstance" element="com.netflix.zuul.stats.ErrorStatsManager::INSTANCE:com.netflix.zuul.stats.ErrorStatsManager" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.zuul.stats.monitoring.MonitorRegistry" />
+			<role name="uniqueInstance" element="com.netflix.zuul.stats.monitoring.MonitorRegistry::instance:com.netflix.zuul.stats.monitoring.MonitorRegistry" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.zuul.stats.StatsManager" />
+			<role name="uniqueInstance" element="com.netflix.zuul.stats.StatsManager::INSTANCE:com.netflix.zuul.stats.StatsManager" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.zuul.monitoring.TracerFactory" />
+			<role name="uniqueInstance" element="com.netflix.zuul.monitoring.TracerFactory::INSTANCE:com.netflix.zuul.monitoring.TracerFactory" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.zuul.netty.server.MethodBinding" />
+			<role name="uniqueInstance" element="com.netflix.zuul.netty.server.MethodBinding::NO_OP_BINDING:com.netflix.zuul.netty.server.MethodBinding" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.zuul.netty.server.SocketAddressProperty$Decoder" />
+			<role name="uniqueInstance" element="com.netflix.zuul.netty.server.SocketAddressProperty$Decoder::INSTANCE:com.netflix.zuul.netty.server.SocketAddressProperty$Decoder" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.netty.common.HttpRequestReadTimeoutEvent" />
+			<role name="uniqueInstance" element="com.netflix.netty.common.HttpRequestReadTimeoutEvent::INSTANCE:com.netflix.netty.common.HttpRequestReadTimeoutEvent" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.netflix.zuul.scriptManager.FilterVerifier" />
+			<role name="uniqueInstance" element="com.netflix.zuul.scriptManager.FilterVerifier::INSTANCE:com.netflix.zuul.scriptManager.FilterVerifier" />
+		</instance>
+	</pattern>
+	<pattern name="(Object)Adapter">
+		<instance>
+			<role name="Adaptee" element="com.netflix.zuul.context.SessionContext" />
+			<role name="Adapter" element="com.netflix.zuul.message.ZuulMessageImpl" />
+			<role name="adaptee" element="com.netflix.zuul.message.ZuulMessageImpl::context:com.netflix.zuul.context.SessionContext" />
+			<role name="Request()" element="com.netflix.zuul.message.ZuulMessageImpl::clone():com.netflix.zuul.message.ZuulMessage" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.zuul.message.Headers" />
+			<role name="Adapter" element="com.netflix.zuul.message.ZuulMessageImpl" />
+			<role name="adaptee" element="com.netflix.zuul.message.ZuulMessageImpl::headers:com.netflix.zuul.message.Headers" />
+			<role name="Request()" element="com.netflix.zuul.message.ZuulMessageImpl::clone():com.netflix.zuul.message.ZuulMessage" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.netty.common.ssl.ServerSslConfig" />
+			<role name="Adapter" element="com.netflix.zuul.netty.ssl.BaseSslContextFactory" />
+			<role name="adaptee" element="com.netflix.zuul.netty.ssl.BaseSslContextFactory::serverSslConfig:com.netflix.netty.common.ssl.ServerSslConfig" />
+			<role name="Request()" element="com.netflix.zuul.netty.ssl.BaseSslContextFactory::createBuilderForServer():io.netty.handler.ssl.SslContextBuilder" />
+			<role name="Request()" element="com.netflix.zuul.netty.ssl.BaseSslContextFactory::getProtocols():java.lang.String[]" />
+			<role name="Request()" element="com.netflix.zuul.netty.ssl.BaseSslContextFactory::getCiphers():java.util.List" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.zuul.netty.NettyRequestAttemptFactory" />
+			<role name="Adapter" element="com.netflix.zuul.origins.BasicNettyOrigin" />
+			<role name="adaptee" element="com.netflix.zuul.origins.BasicNettyOrigin::requestAttemptFactory:com.netflix.zuul.netty.NettyRequestAttemptFactory" />
+			<role name="Request()" element="com.netflix.zuul.origins.BasicNettyOrigin::recordFinalError(com.netflix.zuul.message.http.HttpRequestMessage, java.lang.Throwable):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.zuul.filters.FilterRegistry" />
+			<role name="Adapter" element="com.netflix.zuul.DynamicFilterLoader" />
+			<role name="adaptee" element="com.netflix.zuul.DynamicFilterLoader::filterRegistry:com.netflix.zuul.filters.FilterRegistry" />
+			<role name="Request()" element="com.netflix.zuul.DynamicFilterLoader::putFilter(java.io.File):boolean" />
+			<role name="Request()" element="com.netflix.zuul.DynamicFilterLoader::getFiltersByType(com.netflix.zuul.filters.FilterType):java.util.SortedSet" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.zuul.netty.connectionpool.ClientChannelManager" />
+			<role name="Adapter" element="com.netflix.zuul.origins.BasicNettyOrigin" />
+			<role name="adaptee" element="com.netflix.zuul.origins.BasicNettyOrigin::clientChannelManager:com.netflix.zuul.netty.connectionpool.ClientChannelManager" />
+			<role name="Request()" element="com.netflix.zuul.origins.BasicNettyOrigin::connectToOrigin(com.netflix.zuul.message.http.HttpRequestMessage, io.netty.channel.EventLoop, int, com.netflix.zuul.passport.CurrentPassport, java.util.concurrent.atomic.AtomicReference, java.util.concurrent.atomic.AtomicReference):io.netty.util.concurrent.Promise" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.zuul.netty.connectionpool.ConnectionPoolConfig" />
+			<role name="Adapter" element="com.netflix.zuul.netty.connectionpool.DefaultClientChannelManager" />
+			<role name="adaptee" element="com.netflix.zuul.netty.connectionpool.DefaultClientChannelManager::connPoolConfig:com.netflix.zuul.netty.connectionpool.ConnectionPoolConfig" />
+			<role name="Request()" element="com.netflix.zuul.netty.connectionpool.DefaultClientChannelManager::release(com.netflix.zuul.netty.connectionpool.PooledConnection):boolean" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.zuul.netty.connectionpool.ConnectionPoolConfig" />
+			<role name="Adapter" element="com.netflix.zuul.netty.connectionpool.PerServerConnectionPool" />
+			<role name="adaptee" element="com.netflix.zuul.netty.connectionpool.PerServerConnectionPool::config:com.netflix.zuul.netty.connectionpool.ConnectionPoolConfig" />
+			<role name="Request()" element="com.netflix.zuul.netty.connectionpool.PerServerConnectionPool::release(com.netflix.zuul.netty.connectionpool.PooledConnection):boolean" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.zuul.DynamicCodeCompiler" />
+			<role name="Adapter" element="com.netflix.zuul.DynamicFilterLoader" />
+			<role name="adaptee" element="com.netflix.zuul.DynamicFilterLoader::compiler:com.netflix.zuul.DynamicCodeCompiler" />
+			<role name="Request()" element="com.netflix.zuul.DynamicFilterLoader::putFilter(java.io.File):boolean" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.zuul.FilterFactory" />
+			<role name="Adapter" element="com.netflix.zuul.DynamicFilterLoader" />
+			<role name="adaptee" element="com.netflix.zuul.DynamicFilterLoader::filterFactory:com.netflix.zuul.FilterFactory" />
+			<role name="Request()" element="com.netflix.zuul.DynamicFilterLoader::putFilter(java.io.File):boolean" />
+			<role name="Request()" element="com.netflix.zuul.DynamicFilterLoader::putFilterForClassName(java.lang.String):com.netflix.zuul.filters.ZuulFilter" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.zuul.netty.connectionpool.OriginChannelInitializer" />
+			<role name="Adapter" element="com.netflix.zuul.netty.connectionpool.DefaultClientChannelManager" />
+			<role name="adaptee" element="com.netflix.zuul.netty.connectionpool.DefaultClientChannelManager::channelInitializer:com.netflix.zuul.netty.connectionpool.OriginChannelInitializer" />
+			<role name="Request()" element="com.netflix.zuul.netty.connectionpool.DefaultClientChannelManager::getInflightRequestsCount():int" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.netflix.zuul.stats.RequestMetricsPublisher" />
+			<role name="Adapter" element="com.netflix.zuul.BasicRequestCompleteHandler" />
+			<role name="adaptee" element="com.netflix.zuul.BasicRequestCompleteHandler::requestMetricsPublisher:com.netflix.zuul.stats.RequestMetricsPublisher" />
+			<role name="Request()" element="com.netflix.zuul.BasicRequestCompleteHandler::handle(com.netflix.zuul.message.http.HttpRequestInfo, com.netflix.zuul.message.http.HttpResponseMessage):void" />
+		</instance>
+	</pattern>
+	<pattern name="Command" />
+	<pattern name="Composite" />
+	<pattern name="Decorator">
+		<instance>
+			<role name="Component" element="com.netflix.zuul.message.ZuulMessage" />
+			<role name="Decorator" element="com.netflix.zuul.message.http.HttpRequestMessageImpl" />
+			<role name="component" element="com.netflix.zuul.message.http.HttpRequestMessageImpl::message:com.netflix.zuul.message.ZuulMessage" />
+			<role name="Operation()" element="com.netflix.zuul.message.http.HttpRequestMessageImpl::getContext():com.netflix.zuul.context.SessionContext" />
+			<role name="Operation()" element="com.netflix.zuul.message.http.HttpRequestMessageImpl::getHeaders():com.netflix.zuul.message.Headers" />
+			<role name="Operation()" element="com.netflix.zuul.message.http.HttpRequestMessageImpl::setHeaders(com.netflix.zuul.message.Headers):void" />
+			<role name="Operation()" element="com.netflix.zuul.message.http.HttpRequestMessageImpl::setHasBody(boolean):void" />
+			<role name="Operation()" element="com.netflix.zuul.message.http.HttpRequestMessageImpl::hasBody():boolean" />
+			<role name="Operation()" element="com.netflix.zuul.message.http.HttpRequestMessageImpl::bufferBodyContents(io.netty.handler.codec.http.HttpContent):void" />
+			<role name="Operation()" element="com.netflix.zuul.message.http.HttpRequestMessageImpl::setBodyAsText(java.lang.String):void" />
+			<role name="Operation()" element="com.netflix.zuul.message.http.HttpRequestMessageImpl::setBody(byte[]):void" />
+			<role name="Operation()" element="com.netflix.zuul.message.http.HttpRequestMessageImpl::finishBufferedBodyIfIncomplete():boolean" />
+			<role name="Operation()" element="com.netflix.zuul.message.http.HttpRequestMessageImpl::getBodyContents():java.lang.Iterable" />
+			<role name="Operation()" element="com.netflix.zuul.message.http.HttpRequestMessageImpl::getBodyAsText():java.lang.String" />
+			<role name="Operation()" element="com.netflix.zuul.message.http.HttpRequestMessageImpl::getBody():byte[]" />
+			<role name="Operation()" element="com.netflix.zuul.message.http.HttpRequestMessageImpl::getBodyLength():int" />
+			<role name="Operation()" element="com.netflix.zuul.message.http.HttpRequestMessageImpl::hasCompleteBody():boolean" />
+			<role name="Operation()" element="com.netflix.zuul.message.http.HttpRequestMessageImpl::disposeBufferedBody():void" />
+		</instance>
+		<instance>
+			<role name="Component" element="com.netflix.zuul.message.http.HttpResponseInfo" />
+			<role name="Decorator" element="com.netflix.zuul.message.http.HttpResponseMessageImpl" />
+			<role name="component" element="com.netflix.zuul.message.http.HttpResponseMessageImpl::inboundResponse:com.netflix.zuul.message.http.HttpResponseInfo" />
+			<role name="Operation()" element="com.netflix.zuul.message.http.HttpResponseMessageImpl::clone():com.netflix.zuul.message.ZuulMessage" />
+		</instance>
+	</pattern>
+	<pattern name="Observer" />
+	<pattern name="State">
+		<instance>
+			<role name="Context" element="com.netflix.zuul.netty.filter.BaseZuulFilterRunner$FilterChainResumer" />
+			<role name="State" element="com.netflix.zuul.filters.ZuulFilter" />
+			<role name="state" element="com.netflix.zuul.netty.filter.BaseZuulFilterRunner$FilterChainResumer::filter:com.netflix.zuul.filters.ZuulFilter" />
+			<role name="Request()" element="com.netflix.zuul.netty.filter.BaseZuulFilterRunner$FilterChainResumer::decrementConcurrency():void" />
+			<role name="Request()" element="com.netflix.zuul.netty.filter.BaseZuulFilterRunner$FilterChainResumer::onNext(O):void" />
+			<role name="Request()" element="com.netflix.zuul.netty.filter.BaseZuulFilterRunner$FilterChainResumer::onError(java.lang.Throwable):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.zuul.stats.monitoring.MonitorRegistry" />
+			<role name="State" element="com.netflix.zuul.stats.monitoring.Monitor" />
+			<role name="state" element="com.netflix.zuul.stats.monitoring.MonitorRegistry::publisher:com.netflix.zuul.stats.monitoring.Monitor" />
+			<role name="Request()" element="com.netflix.zuul.stats.monitoring.MonitorRegistry::registerObject(com.netflix.zuul.stats.monitoring.NamedCount):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.zuul.netty.connectionpool.PooledConnection" />
+			<role name="State" element="com.netflix.zuul.netty.connectionpool.ClientChannelManager" />
+			<role name="state" element="com.netflix.zuul.netty.connectionpool.PooledConnection::channelManager:com.netflix.zuul.netty.connectionpool.ClientChannelManager" />
+			<role name="Request()" element="com.netflix.zuul.netty.connectionpool.PooledConnection::getConfig():com.netflix.zuul.netty.connectionpool.ConnectionPoolConfig" />
+			<role name="Request()" element="com.netflix.zuul.netty.connectionpool.PooledConnection::closeAndRemoveFromPool():io.netty.channel.ChannelFuture" />
+			<role name="Request()" element="com.netflix.zuul.netty.connectionpool.PooledConnection::release():void" />
+		</instance>
+		<instance>
+			<role name="State" element="com.netflix.zuul.message.ZuulMessage" />
+			<role name="Context" element="com.netflix.zuul.message.http.HttpResponseMessageImpl" />
+			<role name="state" element="com.netflix.zuul.message.http.HttpResponseMessageImpl::message:com.netflix.zuul.message.ZuulMessage" />
+			<role name="Request()" element="com.netflix.zuul.message.http.HttpResponseMessageImpl::getHeaders():com.netflix.zuul.message.Headers" />
+			<role name="Request()" element="com.netflix.zuul.message.http.HttpResponseMessageImpl::getContext():com.netflix.zuul.context.SessionContext" />
+			<role name="Request()" element="com.netflix.zuul.message.http.HttpResponseMessageImpl::setHeaders(com.netflix.zuul.message.Headers):void" />
+			<role name="Request()" element="com.netflix.zuul.message.http.HttpResponseMessageImpl::setHasBody(boolean):void" />
+			<role name="Request()" element="com.netflix.zuul.message.http.HttpResponseMessageImpl::hasBody():boolean" />
+			<role name="Request()" element="com.netflix.zuul.message.http.HttpResponseMessageImpl::bufferBodyContents(io.netty.handler.codec.http.HttpContent):void" />
+			<role name="Request()" element="com.netflix.zuul.message.http.HttpResponseMessageImpl::setBodyAsText(java.lang.String):void" />
+			<role name="Request()" element="com.netflix.zuul.message.http.HttpResponseMessageImpl::setBody(byte[]):void" />
+			<role name="Request()" element="com.netflix.zuul.message.http.HttpResponseMessageImpl::getBodyAsText():java.lang.String" />
+			<role name="Request()" element="com.netflix.zuul.message.http.HttpResponseMessageImpl::getBody():byte[]" />
+			<role name="Request()" element="com.netflix.zuul.message.http.HttpResponseMessageImpl::getBodyLength():int" />
+			<role name="Request()" element="com.netflix.zuul.message.http.HttpResponseMessageImpl::hasCompleteBody():boolean" />
+			<role name="Request()" element="com.netflix.zuul.message.http.HttpResponseMessageImpl::finishBufferedBodyIfIncomplete():boolean" />
+			<role name="Request()" element="com.netflix.zuul.message.http.HttpResponseMessageImpl::getBodyContents():java.lang.Iterable" />
+			<role name="Request()" element="com.netflix.zuul.message.http.HttpResponseMessageImpl::runBufferedBodyContentThroughFilter(com.netflix.zuul.filters.ZuulFilter):void" />
+			<role name="Request()" element="com.netflix.zuul.message.http.HttpResponseMessageImpl::disposeBufferedBody():void" />
+		</instance>
+		<instance>
+			<role name="State" element="com.netflix.zuul.message.http.HttpRequestMessage" />
+			<role name="Context" element="com.netflix.zuul.message.http.HttpResponseMessageImpl" />
+			<role name="state" element="com.netflix.zuul.message.http.HttpResponseMessageImpl::outboundRequest:com.netflix.zuul.message.http.HttpRequestMessage" />
+			<role name="Request()" element="com.netflix.zuul.message.http.HttpResponseMessageImpl::getInboundRequest():com.netflix.zuul.message.http.HttpRequestInfo" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.zuul.filters.endpoint.ProxyEndpoint" />
+			<role name="State" element="com.netflix.zuul.origins.NettyOrigin" />
+			<role name="state" element="com.netflix.zuul.filters.endpoint.ProxyEndpoint::origin:com.netflix.zuul.origins.NettyOrigin" />
+			<role name="Request()" element="com.netflix.zuul.filters.endpoint.ProxyEndpoint::apply(com.netflix.zuul.message.http.HttpRequestMessage):com.netflix.zuul.message.http.HttpResponseMessage" />
+			<role name="Request()" element="com.netflix.zuul.filters.endpoint.ProxyEndpoint::storeAndLogOriginRequestInfo():void" />
+			<role name="Request()" element="com.netflix.zuul.filters.endpoint.ProxyEndpoint::proxyRequestToOrigin():void" />
+			<role name="Request()" element="com.netflix.zuul.filters.endpoint.ProxyEndpoint::getReadTimeout(com.netflix.client.config.IClientConfig, int):java.lang.Integer" />
+			<role name="Request()" element="com.netflix.zuul.filters.endpoint.ProxyEndpoint::preCacheBodyForRetryingSslRequests():byte[]" />
+			<role name="Request()" element="com.netflix.zuul.filters.endpoint.ProxyEndpoint::isBelowRetryLimit():boolean" />
+			<role name="Request()" element="com.netflix.zuul.filters.endpoint.ProxyEndpoint::processErrorFromOrigin(java.lang.Throwable, io.netty.channel.Channel):void" />
+			<role name="Request()" element="com.netflix.zuul.filters.endpoint.ProxyEndpoint::buildZuulHttpResponse(io.netty.handler.codec.http.HttpResponse, com.netflix.zuul.stats.status.StatusCategory, java.lang.Throwable):com.netflix.zuul.message.http.HttpResponseMessage" />
+			<role name="Request()" element="com.netflix.zuul.filters.endpoint.ProxyEndpoint::handleOriginNonSuccessResponse(io.netty.handler.codec.http.HttpResponse, com.netflix.loadbalancer.Server):void" />
+			<role name="Request()" element="com.netflix.zuul.filters.endpoint.ProxyEndpoint::lambda$operationComplete$2(io.netty.util.concurrent.Future):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.zuul.netty.filter.ZuulFilterChainRunner" />
+			<role name="State" element="com.netflix.zuul.filters.ZuulFilter" />
+			<role name="state" element="com.netflix.zuul.netty.filter.ZuulFilterChainRunner::filters:com.netflix.zuul.filters.ZuulFilter[]" />
+			<role name="Request()" element="com.netflix.zuul.netty.filter.ZuulFilterChainRunner::runFilters(T, java.util.concurrent.atomic.AtomicInteger):void" />
+			<role name="Request()" element="com.netflix.zuul.netty.filter.ZuulFilterChainRunner::filter(T, io.netty.handler.codec.http.HttpContent):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.zuul.netty.connectionpool.PerServerConnectionPool" />
+			<role name="State" element="com.netflix.zuul.netty.connectionpool.PooledConnectionFactory" />
+			<role name="state" element="com.netflix.zuul.netty.connectionpool.PerServerConnectionPool::pooledConnectionFactory:com.netflix.zuul.netty.connectionpool.PooledConnectionFactory" />
+			<role name="Request()" element="com.netflix.zuul.netty.connectionpool.PerServerConnectionPool::createConnection(io.netty.channel.ChannelFuture, io.netty.util.concurrent.Promise, com.netflix.zuul.passport.CurrentPassport):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.zuul.filters.endpoint.ProxyEndpoint" />
+			<role name="State" element="com.netflix.zuul.netty.connectionpool.RequestStat" />
+			<role name="state" element="com.netflix.zuul.filters.endpoint.ProxyEndpoint::currentRequestStat:com.netflix.zuul.netty.connectionpool.RequestStat" />
+			<role name="Request()" element="com.netflix.zuul.filters.endpoint.ProxyEndpoint::finish(boolean):void" />
+			<role name="Request()" element="com.netflix.zuul.filters.endpoint.ProxyEndpoint::processErrorFromOrigin(java.lang.Throwable, io.netty.channel.Channel):void" />
+			<role name="Request()" element="com.netflix.zuul.filters.endpoint.ProxyEndpoint::handleOriginSuccessResponse(io.netty.handler.codec.http.HttpResponse, com.netflix.loadbalancer.Server):void" />
+			<role name="Request()" element="com.netflix.zuul.filters.endpoint.ProxyEndpoint::handleOriginNonSuccessResponse(io.netty.handler.codec.http.HttpResponse, com.netflix.loadbalancer.Server):void" />
+			<role name="Request()" element="com.netflix.zuul.filters.endpoint.ProxyEndpoint::lambda$operationComplete$2(io.netty.util.concurrent.Future):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.zuul.netty.server.ClientRequestReceiver" />
+			<role name="State" element="com.netflix.zuul.context.SessionContextDecorator" />
+			<role name="state" element="com.netflix.zuul.netty.server.ClientRequestReceiver::decorator:com.netflix.zuul.context.SessionContextDecorator" />
+			<role name="Request()" element="com.netflix.zuul.netty.server.ClientRequestReceiver::buildZuulHttpRequest(io.netty.handler.codec.http.HttpRequest, io.netty.channel.ChannelHandlerContext):com.netflix.zuul.message.http.HttpRequestMessage" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.zuul.netty.connectionpool.NettyClientConnectionFactory" />
+			<role name="State" element="com.netflix.zuul.netty.connectionpool.ConnectionPoolConfig" />
+			<role name="state" element="com.netflix.zuul.netty.connectionpool.NettyClientConnectionFactory::connPoolConfig:com.netflix.zuul.netty.connectionpool.ConnectionPoolConfig" />
+			<role name="Request()" element="com.netflix.zuul.netty.connectionpool.NettyClientConnectionFactory::connect(io.netty.channel.EventLoop, java.net.SocketAddress, com.netflix.zuul.passport.CurrentPassport):io.netty.channel.ChannelFuture" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.zuul.DynamicFilterLoader" />
+			<role name="State" element="com.netflix.zuul.filters.FilterRegistry" />
+			<role name="state" element="com.netflix.zuul.DynamicFilterLoader::filterRegistry:com.netflix.zuul.filters.FilterRegistry" />
+			<role name="Request()" element="com.netflix.zuul.DynamicFilterLoader::getFilter(java.lang.String, java.lang.String):com.netflix.zuul.filters.ZuulFilter" />
+			<role name="Request()" element="com.netflix.zuul.DynamicFilterLoader::filterInstanceMapSize():int" />
+			<role name="Request()" element="com.netflix.zuul.DynamicFilterLoader::putFilter(java.io.File):boolean" />
+			<role name="Request()" element="com.netflix.zuul.DynamicFilterLoader::putFilter(java.lang.String, com.netflix.zuul.filters.ZuulFilter, long):void" />
+			<role name="Request()" element="com.netflix.zuul.DynamicFilterLoader::getFiltersByType(com.netflix.zuul.filters.FilterType):java.util.SortedSet" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.zuul.filters.endpoint.ProxyEndpoint" />
+			<role name="State" element="com.netflix.zuul.netty.filter.FilterRunner" />
+			<role name="state" element="com.netflix.zuul.filters.endpoint.ProxyEndpoint::responseFilters:com.netflix.zuul.netty.filter.FilterRunner" />
+			<role name="Request()" element="com.netflix.zuul.filters.endpoint.ProxyEndpoint::filterResponse(com.netflix.zuul.message.http.HttpResponseMessage):void" />
+			<role name="Request()" element="com.netflix.zuul.filters.endpoint.ProxyEndpoint::filterResponseChunk(io.netty.handler.codec.http.HttpContent):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.zuul.netty.server.push.PushRegistrationHandler" />
+			<role name="State" element="com.netflix.zuul.netty.server.push.PushProtocol" />
+			<role name="state" element="com.netflix.zuul.netty.server.push.PushRegistrationHandler::pushProtocol:com.netflix.zuul.netty.server.push.PushProtocol" />
+			<role name="Request()" element="com.netflix.zuul.netty.server.push.PushRegistrationHandler::requestClientToCloseConnection():void" />
+			<role name="Request()" element="com.netflix.zuul.netty.server.push.PushRegistrationHandler::userEventTriggered(io.netty.channel.ChannelHandlerContext, java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.zuul.netty.server.push.PushConnection" />
+			<role name="State" element="com.netflix.zuul.netty.server.push.PushProtocol" />
+			<role name="state" element="com.netflix.zuul.netty.server.push.PushConnection::pushProtocol:com.netflix.zuul.netty.server.push.PushProtocol" />
+			<role name="Request()" element="com.netflix.zuul.netty.server.push.PushConnection::sendPushMessage(io.netty.buffer.ByteBuf):io.netty.channel.ChannelFuture" />
+			<role name="Request()" element="com.netflix.zuul.netty.server.push.PushConnection::sendPing():io.netty.channel.ChannelFuture" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.zuul.origins.BasicNettyOrigin" />
+			<role name="State" element="com.netflix.zuul.netty.connectionpool.ClientChannelManager" />
+			<role name="state" element="com.netflix.zuul.origins.BasicNettyOrigin::clientChannelManager:com.netflix.zuul.netty.connectionpool.ClientChannelManager" />
+			<role name="Request()" element="com.netflix.zuul.origins.BasicNettyOrigin::isAvailable():boolean" />
+			<role name="Request()" element="com.netflix.zuul.origins.BasicNettyOrigin::isCold():boolean" />
+			<role name="Request()" element="com.netflix.zuul.origins.BasicNettyOrigin::connectToOrigin(com.netflix.zuul.message.http.HttpRequestMessage, io.netty.channel.EventLoop, int, com.netflix.zuul.passport.CurrentPassport, java.util.concurrent.atomic.AtomicReference, java.util.concurrent.atomic.AtomicReference):io.netty.util.concurrent.Promise" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.zuul.FilterFileManager" />
+			<role name="State" element="com.netflix.zuul.FilterLoader" />
+			<role name="state" element="com.netflix.zuul.FilterFileManager::filterLoader:com.netflix.zuul.FilterLoader" />
+			<role name="Request()" element="com.netflix.zuul.FilterFileManager::init():void" />
+			<role name="Request()" element="com.netflix.zuul.FilterFileManager::lambda$processGroovyFiles$0(java.io.File):java.lang.Boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.zuul.netty.connectionpool.DefaultClientChannelManager" />
+			<role name="State" element="com.netflix.zuul.netty.connectionpool.ConnectionPoolConfig" />
+			<role name="state" element="com.netflix.zuul.netty.connectionpool.DefaultClientChannelManager::connPoolConfig:com.netflix.zuul.netty.connectionpool.ConnectionPoolConfig" />
+			<role name="Request()" element="com.netflix.zuul.netty.connectionpool.DefaultClientChannelManager::release(com.netflix.zuul.netty.connectionpool.PooledConnection):boolean" />
+			<role name="Request()" element="com.netflix.zuul.netty.connectionpool.DefaultClientChannelManager::releaseHandlers(com.netflix.zuul.netty.connectionpool.PooledConnection):void" />
+			<role name="Request()" element="com.netflix.zuul.netty.connectionpool.DefaultClientChannelManager::pickAddress(com.netflix.loadbalancer.Server):java.net.SocketAddress" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.zuul.netty.server.Http1MutualSslChannelInitializer" />
+			<role name="State" element="com.netflix.zuul.netty.ssl.SslContextFactory" />
+			<role name="state" element="com.netflix.zuul.netty.server.Http1MutualSslChannelInitializer::sslContextFactory:com.netflix.zuul.netty.ssl.SslContextFactory" />
+			<role name="Request()" element="com.netflix.zuul.netty.server.Http1MutualSslChannelInitializer::initChannel(io.netty.channel.Channel):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.zuul.netty.connectionpool.PerServerConnectionPool" />
+			<role name="State" element="com.netflix.zuul.netty.connectionpool.ConnectionPoolConfig" />
+			<role name="state" element="com.netflix.zuul.netty.connectionpool.PerServerConnectionPool::config:com.netflix.zuul.netty.connectionpool.ConnectionPoolConfig" />
+			<role name="Request()" element="com.netflix.zuul.netty.connectionpool.PerServerConnectionPool::tryMakingNewConnection(io.netty.channel.EventLoop, io.netty.util.concurrent.Promise, com.netflix.zuul.passport.CurrentPassport, java.util.concurrent.atomic.AtomicReference):void" />
+			<role name="Request()" element="com.netflix.zuul.netty.connectionpool.PerServerConnectionPool::release(com.netflix.zuul.netty.connectionpool.PooledConnection):boolean" />
+			<role name="Request()" element="com.netflix.zuul.netty.connectionpool.PerServerConnectionPool::lambda$tryMakingNewConnection$0(io.netty.util.concurrent.Promise, com.netflix.zuul.passport.CurrentPassport, io.netty.util.concurrent.Future):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.zuul.netty.server.Server" />
+			<role name="State" element="com.netflix.zuul.netty.server.EventLoopConfig" />
+			<role name="state" element="com.netflix.zuul.netty.server.Server::eventLoopConfig:com.netflix.zuul.netty.server.EventLoopConfig" />
+			<role name="Request()" element="com.netflix.zuul.netty.server.Server::start(boolean):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.zuul.DynamicFilterLoader" />
+			<role name="State" element="com.netflix.zuul.DynamicCodeCompiler" />
+			<role name="state" element="com.netflix.zuul.DynamicFilterLoader::compiler:com.netflix.zuul.DynamicCodeCompiler" />
+			<role name="Request()" element="com.netflix.zuul.DynamicFilterLoader::getFilter(java.lang.String, java.lang.String):com.netflix.zuul.filters.ZuulFilter" />
+			<role name="Request()" element="com.netflix.zuul.DynamicFilterLoader::putFilter(java.io.File):boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.zuul.DynamicFilterLoader" />
+			<role name="State" element="com.netflix.zuul.FilterFactory" />
+			<role name="state" element="com.netflix.zuul.DynamicFilterLoader::filterFactory:com.netflix.zuul.FilterFactory" />
+			<role name="Request()" element="com.netflix.zuul.DynamicFilterLoader::getFilter(java.lang.String, java.lang.String):com.netflix.zuul.filters.ZuulFilter" />
+			<role name="Request()" element="com.netflix.zuul.DynamicFilterLoader::putFilter(java.io.File):boolean" />
+			<role name="Request()" element="com.netflix.zuul.DynamicFilterLoader::putFilterForClassName(java.lang.String):com.netflix.zuul.filters.ZuulFilter" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.zuul.netty.connectionpool.DefaultClientChannelManager" />
+			<role name="State" element="com.netflix.zuul.netty.connectionpool.OriginChannelInitializer" />
+			<role name="state" element="com.netflix.zuul.netty.connectionpool.DefaultClientChannelManager::channelInitializer:com.netflix.zuul.netty.connectionpool.OriginChannelInitializer" />
+			<role name="Request()" element="com.netflix.zuul.netty.connectionpool.DefaultClientChannelManager::getInflightRequestsCount():int" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.zuul.netty.connectionpool.DefaultOriginChannelInitializer" />
+			<role name="State" element="com.netflix.zuul.netty.connectionpool.ConnectionPoolConfig" />
+			<role name="state" element="com.netflix.zuul.netty.connectionpool.DefaultOriginChannelInitializer::connectionPoolConfig:com.netflix.zuul.netty.connectionpool.ConnectionPoolConfig" />
+			<role name="Request()" element="com.netflix.zuul.netty.connectionpool.DefaultOriginChannelInitializer::initChannel(io.netty.channel.Channel):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.zuul.netty.server.push.PushRegistrationHandler" />
+			<role name="State" element="com.netflix.zuul.netty.server.push.PushUserAuth" />
+			<role name="state" element="com.netflix.zuul.netty.server.push.PushRegistrationHandler::authEvent:com.netflix.zuul.netty.server.push.PushUserAuth" />
+			<role name="Request()" element="com.netflix.zuul.netty.server.push.PushRegistrationHandler::isAuthenticated():boolean" />
+			<role name="Request()" element="com.netflix.zuul.netty.server.push.PushRegistrationHandler::tearDown():void" />
+			<role name="Request()" element="com.netflix.zuul.netty.server.push.PushRegistrationHandler::userEventTriggered(io.netty.channel.ChannelHandlerContext, java.lang.Object):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.zuul.netty.server.ClientResponseWriter" />
+			<role name="State" element="com.netflix.zuul.RequestCompleteHandler" />
+			<role name="state" element="com.netflix.zuul.netty.server.ClientResponseWriter::requestCompleteHandler:com.netflix.zuul.RequestCompleteHandler" />
+			<role name="Request()" element="com.netflix.zuul.netty.server.ClientResponseWriter::handleComplete(io.netty.channel.Channel):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.zuul.netty.filter.ZuulEndPointRunner" />
+			<role name="State" element="com.netflix.zuul.FilterLoader" />
+			<role name="state" element="com.netflix.zuul.netty.filter.ZuulEndPointRunner::filterLoader:com.netflix.zuul.FilterLoader" />
+			<role name="Request()" element="com.netflix.zuul.netty.filter.ZuulEndPointRunner::getEndpointFilter():com.netflix.zuul.filters.Endpoint" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.zuul.netty.server.push.PushClientProtocolHandler" />
+			<role name="State" element="com.netflix.zuul.netty.server.push.PushUserAuth" />
+			<role name="state" element="com.netflix.zuul.netty.server.push.PushClientProtocolHandler::authEvent:com.netflix.zuul.netty.server.push.PushUserAuth" />
+			<role name="Request()" element="com.netflix.zuul.netty.server.push.PushClientProtocolHandler::isAuthenticated():boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.netflix.zuul.BasicRequestCompleteHandler" />
+			<role name="State" element="com.netflix.zuul.stats.RequestMetricsPublisher" />
+			<role name="state" element="com.netflix.zuul.BasicRequestCompleteHandler::requestMetricsPublisher:com.netflix.zuul.stats.RequestMetricsPublisher" />
+			<role name="Request()" element="com.netflix.zuul.BasicRequestCompleteHandler::handle(com.netflix.zuul.message.http.HttpRequestInfo, com.netflix.zuul.message.http.HttpResponseMessage):void" />
+		</instance>
+	</pattern>
+	<pattern name="Strategy" />
+	<pattern name="Bridge">
+		<instance>
+			<role name="Abstraction" element="com.netflix.zuul.netty.filter.BaseZuulFilterRunner" />
+			<role name="Implementor" element="com.netflix.zuul.FilterUsageNotifier" />
+			<role name="implementor" element="com.netflix.zuul.netty.filter.BaseZuulFilterRunner::usageNotifier:com.netflix.zuul.FilterUsageNotifier" />
+			<role name="Operation()" element="com.netflix.zuul.netty.filter.BaseZuulFilterRunner::recordFilterCompletion(com.netflix.zuul.ExecutionStatus, com.netflix.zuul.filters.ZuulFilter, long, com.netflix.zuul.message.ZuulMessage, com.netflix.zuul.message.ZuulMessage):void" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="com.netflix.zuul.netty.server.BaseZuulChannelInitializer" />
+			<role name="Implementor" element="com.netflix.zuul.FilterLoader" />
+			<role name="implementor" element="com.netflix.zuul.netty.server.BaseZuulChannelInitializer::filterLoader:com.netflix.zuul.FilterLoader" />
+			<role name="Operation()" element="com.netflix.zuul.netty.server.BaseZuulChannelInitializer::getFilters(, com.netflix.zuul.filters.ZuulFilter):com.netflix.zuul.filters.ZuulFilter[]" />
+		</instance>
+	</pattern>
+	<pattern name="Template Method">
+		<instance>
+			<role name="AbstractClass" element="com.netflix.zuul.netty.server.push.PushChannelInitializer" />
+			<role name="TemplateMethod()" element="com.netflix.zuul.netty.server.push.PushChannelInitializer::initChannel(io.netty.channel.Channel):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.netflix.zuul.netty.server.push.PushMessageSender" />
+			<role name="TemplateMethod()" element="com.netflix.zuul.netty.server.push.PushMessageSender::channelRead0(io.netty.channel.ChannelHandlerContext, io.netty.handler.codec.http.FullHttpRequest):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.netflix.zuul.netty.server.push.PushAuthHandler" />
+			<role name="TemplateMethod()" element="com.netflix.zuul.netty.server.push.PushAuthHandler::channelRead0(io.netty.channel.ChannelHandlerContext, io.netty.handler.codec.http.FullHttpRequest):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.netflix.zuul.netty.server.push.PushMessageFactory" />
+			<role name="TemplateMethod()" element="com.netflix.zuul.netty.server.push.PushMessageFactory::sendErrorAndClose(io.netty.channel.ChannelHandlerContext, int, java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.netflix.zuul.netty.server.push.PushMessageSenderInitializer" />
+			<role name="TemplateMethod()" element="com.netflix.zuul.netty.server.push.PushMessageSenderInitializer::initChannel(io.netty.channel.Channel):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.netflix.zuul.netty.server.push.PushProtocol" />
+			<role name="TemplateMethod()" element="com.netflix.zuul.netty.server.push.PushProtocol::sendErrorAndClose(io.netty.channel.ChannelHandlerContext, int, java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.netflix.zuul.netty.filter.BaseZuulFilterRunner" />
+			<role name="TemplateMethod()" element="com.netflix.zuul.netty.filter.BaseZuulFilterRunner::lambda$resumeInBindingContext$11(com.netflix.zuul.message.ZuulMessage):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.netflix.netty.common.AbstrHttpConnectionExpiryHandler" />
+			<role name="TemplateMethod()" element="com.netflix.netty.common.AbstrHttpConnectionExpiryHandler::write(io.netty.channel.ChannelHandlerContext, java.lang.Object, io.netty.channel.ChannelPromise):void" />
+		</instance>
+	</pattern>
+	<pattern name="Visitor" />
+	<pattern name="Proxy" />
+	<pattern name="Proxy2" />
+	<pattern name="Chain of Responsibility" />
+</system>
+

@@ -1,0 +1,89 @@
+
+> Configure project :
+Inferred project: eureka, version: 1.9.25-SNAPSHOT
+
+> Configure project :eureka-client
+The testJar task is deprecated.  Please place common test harness code in its own project and publish separately.
+
+> Configure project :eureka-client-archaius2
+The testJar task is deprecated.  Please place common test harness code in its own project and publish separately.
+
+> Configure project :eureka-client-jersey2
+The testJar task is deprecated.  Please place common test harness code in its own project and publish separately.
+
+> Task :clean UP-TO-DATE
+> Task :eureka-client:clean
+> Task :eureka-client-archaius2:clean
+> Task :eureka-client-jersey2:clean
+> Task :eureka-core:clean
+> Task :eureka-core-jersey2:clean
+> Task :eureka-examples:clean
+> Task :eureka-resources:clean
+> Task :eureka-server:clean
+> Task :eureka-server-governator:clean
+> Task :eureka-test-utils:clean
+
+> Task :eureka-client:compileJava
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :eureka-client:processResources NO-SOURCE
+> Task :eureka-client:classes
+> Task :eureka-client:createPropertiesFileForJar
+> Task :eureka-client:writeManifestProperties
+> Task :eureka-client:jar
+
+> Task :eureka-client-archaius2:compileJava
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :eureka-client-jersey2:compileJava
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /results/Netflix-eureka/RELEASES/5e266be6b22b776f90d4f7bf68ef47d94669a7d2/eureka-client-jersey2/src/main/java/com/netflix/discovery/shared/transport/jersey2/EurekaJersey2ClientImpl.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :eureka-core:compileJava
+/results/Netflix-eureka/RELEASES/5e266be6b22b776f90d4f7bf68ef47d94669a7d2/eureka-core/src/main/java/com/netflix/eureka/DefaultEurekaServerConfig.java:524: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+                        new String[]{propName, remoteRegionUrlWithNamePair, pairSplitChar});
+                        ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning
+
+> Task :eureka-client-jersey2:processResources NO-SOURCE
+> Task :eureka-client-jersey2:classes
+> Task :eureka-client-jersey2:createPropertiesFileForJar
+> Task :eureka-client-jersey2:writeManifestProperties
+> Task :eureka-client-jersey2:jar
+> Task :eureka-core:processResources NO-SOURCE
+> Task :eureka-core:classes
+> Task :eureka-core:createPropertiesFileForJar
+> Task :eureka-core:writeManifestProperties
+> Task :eureka-core:jar
+> Task :eureka-core-jersey2:compileJava
+
+> Task :eureka-examples:compileJava
+Note: /results/Netflix-eureka/RELEASES/5e266be6b22b776f90d4f7bf68ef47d94669a7d2/eureka-examples/src/main/java/com/netflix/eureka/ExampleEurekaGovernatedService.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :eureka-resources:compileJava NO-SOURCE
+> Task :eureka-server:compileJava NO-SOURCE
+> Task :eureka-server-governator:compileJava
+
+> Task :eureka-test-utils:compileJava
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 12s
+28 actionable tasks: 27 executed, 1 up-to-date

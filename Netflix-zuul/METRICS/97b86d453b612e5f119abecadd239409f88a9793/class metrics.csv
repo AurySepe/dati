@@ -1,0 +1,293 @@
+COH	DAC	ELOC	HALSTEADLENGHT	HALSTEADVOCABULARY	HALSTEADVOLUME	ID	LCC	LCOM	LOC	MCCABEMETRIC	MPC	NAME	NOA	NOO	NUMBEROFCHILDREN	NUMBEROFIMPORTS	NUMBOFATTRIBUTES	NUMBOFMETHODS	PATTERNROLE	PATTERNTYPE	RFC	TCC
+-1	0	55	70	366	413.1843333380956	427	0	0	167	2	0	com.netflix.zuul.message.HeadersBenchmark	0	0	0	13	0	1			1	0
+-1	0	94	64	461	392.5374747517855	387	-1	36	147	9	61	com.netflix.zuul.message.ZuulMessageImplTest	0	0	0	9	0	9			70	0
+-1	0	488	260	2092	1987.9277145480514	386	-1	1326	721	61	303	com.netflix.zuul.message.HeadersTest	0	0	0	17	0	52			355	-1
+0	6	143	181	793	1208.3240031159073	147	-1	139	235	53	37	com.netflix.zuul.message.ZuulMessageImpl	0	0	0	15	7	22	adapter	(Object)Adapter	59	-1
+0	2	49	83	233	452.4361916459531	149	-1	2	84	18	5	com.netflix.zuul.message.HeaderName	0	0	0	1	3	8			13	-1
+-1	0	84	236	645	1526.7430747638023	79	0	171	144	39	0	com.netflix.zuul.message.ZuulMessage	0	0	0	5	0	19	creator	Factory Method	19	0
+0	3	524	500	3416	4068.11277745423	74	-1	1650	679	166	191	com.netflix.zuul.message.Headers	0	0	0	17	5	60	adaptee	(Object)Adapter	251	-1
+0	2	42	82	229	445.5652042914477	148	2	0	73	17	5	com.netflix.zuul.message.Header	0	0	0	0	2	7			12	2
+0	6	71	98	369	579.2580711159717	379	2	0	150	14	38	com.netflix.zuul.DynamicFilterLoaderTest	0	0	0	20	6	6			44	2
+-1	0	42	33	171	169.6748973645878	433	-1	21	90	7	30	com.netflix.zuul.AttrsTest	0	0	0	8	0	7			37	0
+1	1	59	60	344	350.4384994424039	424	0	0	133	2	10	com.netflix.zuul.StaticFilterLoaderTest	0	0	0	12	1	2			12	0
+0	2	22	45	92	203.48048596720682	378	0	1	71	5	11	com.netflix.zuul.FilterFileManagerTest	0	0	0	14	4	2			13	0
+1	1	12	39	58	158.35727741131035	136	0	0	48	2	2	com.netflix.zuul.BasicRequestCompleteHandler	0	0	0	6	1	1	context	State	3	0
+0	7	147	236	921	1610.8085685562523	6	-1	5	225	27	40	com.netflix.zuul.FilterFileManager	0	0	0	18	8	10	context	State	50	-1
+-1	0	7	33	42	123.34309740335115	5	0	1	32	4	0	com.netflix.zuul.DynamicCodeCompiler	0	0	0	1	0	2	state	State	2	0
+0	2	26	125	209	667.7917814956014	7	0	10	68	12	0	com.netflix.zuul.FilterLoader	0	0	0	7	2	5	implementor	Bridge	5	0
+0	8	139	272	1009	1881.3464855361815	422	-1	0	212	34	47	com.netflix.zuul.DynamicFilterLoader	0	0	0	16	9	9	context	State	56	-1
+0	2	13	43	61	176.76757615945237	195	0	0	42	4	7	com.netflix.zuul.BasicFilterUsageNotifier	0	0	0	3	2	2			9	0
+-1	0	6	33	37	119.1602911172594	72	0	0	30	2	0	com.netflix.zuul.FilterUsageNotifier	0	0	0	1	0	1	implementor	Bridge	1	0
+-1	0	13	55	76	238.1903337157482	66	0	0	37	4	1	com.netflix.zuul.DefaultFilterFactory	0	0	0	1	0	1			2	0
+0	1	20	41	86	182.6282391463938	36	0	2	43	6	0	com.netflix.zuul.ZuulApplicationInfo	0	0	0	0	2	4			4	0
+0	4	78	140	603	896.268407541806	423	-1	17	158	23	25	com.netflix.zuul.StaticFilterLoader	0	0	0	28	4	7			32	0
+0	1	67	105	391	626.7142937984634	431	1	9	118	15	4	com.netflix.zuul.Attrs	0	0	0	8	1	7			11	1
+-1	0	12	41	58	166.4781634324032	67	0	0	33	4	0	com.netflix.zuul.FilterFactory	0	0	0	1	0	1	state	State	1	0
+-1	0	3	11	13	28.214442932076903	98	0	0	24	1	0	com.netflix.zuul.RequestCompleteHandler	0	0	0	2	0	1	state	State	1	0
+-1	0	37	42	188	219.93056243885786	338	-1	15	92	6	26	com.netflix.zuul.passport.CurrentPassportTest	0	0	0	4	0	6			32	0
+0	1	16	22	56	88.55773719617329	316	0	2	41	8	0	com.netflix.zuul.passport.StartAndEnd	0	0	0	0	2	4			4	0
+0	10	313	298	2204	2294.0126927412957	313	-1	201	528	93	104	com.netflix.zuul.passport.CurrentPassport	0	0	0	24	12	31			135	-1
+0	2	17	27	71	115.09235668011551	314	1	0	45	7	0	com.netflix.zuul.passport.PassportItem	0	0	0	0	2	4			4	1
+-1	0	61	80	265	446.37838607889773	395	-1	15	121	7	29	com.netflix.zuul.stats.StatsManagerTest	0	0	0	12	0	6			35	0
+-1	0	22	33	86	146.99346077636574	393	-1	1	53	2	8	com.netflix.zuul.stats.ErrorStatsManagerTest	0	0	0	6	0	2			10	0
+-1	0	25	38	102	175.74896690480227	394	0	1	56	2	6	com.netflix.zuul.stats.RouteStatusCodeMonitorTest	0	0	0	6	0	2			8	0
+-1	0	23	35	94	159.01531737945012	392	0	1	56	2	6	com.netflix.zuul.stats.ErrorStatsDataTest	0	0	0	6	0	2			8	0
+0	1	52	89	266	496.9311714815712	56	0	1	87	10	7	com.netflix.zuul.stats.ErrorStatsManager	0	0	0	3	2	3	singleton	Singleton	10	0
+0	5	159	260	1095	1819.6125069851564	59	-1	49	252	35	41	com.netflix.zuul.stats.StatsManager	0	0	0	10	12	11	singleton	Singleton	52	-1
+0	2	44	118	257	654.790978017636	55	0	5	88	12	11	com.netflix.zuul.stats.ErrorStatsData	0	0	0	5	3	6			17	0
+-1	0	7	24	26	78.19431691251557	137	0	0	33	1	0	com.netflix.zuul.stats.BasicRequestMetricsPublisher	0	0	0	1	0	1			1	0
+0	1	12	30	42	112.13008854850105	54	0	1	35	3	0	com.netflix.zuul.stats.AmazonInfoHolder	0	0	0	1	1	2			2	0
+-1	0	6	19	20	56.918913197525825	102	0	0	28	1	0	com.netflix.zuul.stats.RequestMetricsPublisher	0	0	0	1	0	1	state	State	1	0
+0	2	35	57	127	276.1186639281397	57	0	6	73	9	9	com.netflix.zuul.stats.NamedCountingMonitor	0	0	0	6	2	5			14	0
+0	3	49	94	257	521.6131519801506	58	0	5	93	12	10	com.netflix.zuul.stats.RouteStatusCodeMonitor	0	0	0	8	4	6			16	0
+-1	0	22	35	93	158.64098226036396	434	0	0	62	1	12	com.netflix.zuul.monitoring.ConnTimerTest	0	0	0	11	0	1			13	0
+-1	0	20	42	99	192.99503370565276	26	0	0	43	1	1	com.netflix.zuul.monitoring.MonitoringHelper	0	0	0	0	0	1			2	0
+0	6	48	91	274	510.7946576813144	432	1	0	106	14	16	com.netflix.zuul.monitoring.ConnTimer	0	0	0	15	7	4			20	1
+-1	0	15	33	54	131.63647353662105	27	0	1	38	3	0	com.netflix.zuul.monitoring.Tracer	0	0	0	0	0	2			2	0
+0	0	23	54	104	250.7971085536341	28	0	1	50	7	2	com.netflix.zuul.monitoring.TracerFactory	0	0	1	0	1	3	creator	Factory Method	5	0
+0	2	31	59	197	311.7090199955413	382	0	1	79	4	5	com.netflix.zuul.filters.BaseFilterTest	0	0	0	9	3	2			7	0
+0	1	21	40	100	184.2068074395237	421	1	0	62	12	9	com.netflix.zuul.filters.MutableFilterRegistry	0	0	0	7	1	6			15	1
+0	5	69	204	463	1252.0963190335917	10	-1	64	140	27	17	com.netflix.zuul.filters.BaseFilter	0	0	0	8	6	13			30	-1
+-1	0	19	80	151	401.38238694519396	18	0	15	51	15	0	com.netflix.zuul.filters.FilterRegistry	0	0	0	2	0	6	state	State	6	0
+-1	0	14	37	61	152.10233297441252	124	0	3	47	6	0	com.netflix.zuul.filters.Endpoint	0	0	0	1	0	3			3	0
+-1	0	6	23	26	74.93622037449408	178	0	0	29	1	0	com.netflix.zuul.filters.SyncZuulFilter	0	0	0	1	0	1			1	0
+-1	0	36	155	311	889.6679013877813	243	0	55	98	20	2	com.netflix.zuul.filters.SyncZuulFilterAdapter	0	0	0	5	0	11			13	0
+-1	0	14	63	84	279.14145832712876	99	0	1	45	5	2	com.netflix.zuul.filters.BaseSyncFilter	0	0	4	2	0	2			4	0
+0	2	28	55	126	265.99550488233126	90	2	0	60	11	0	com.netflix.zuul.filters.FilterError	0	0	0	0	3	6			6	2
+-1	0	68	202	477	1245.838331159445	9	-1	66	117	36	9	com.netflix.zuul.filters.ZuulFilter	0	0	0	5	0	12	state	State	21	0
+-1	0	10	44	58	178.65949246404244	91	0	0	33	3	0	com.netflix.zuul.filters.ShouldFilter	0	0	0	1	0	1			1	0
+0	5	55	84	273	471.1956307955366	383	1	0	121	9	41	com.netflix.zuul.filters.common.GZipResponseFilterTest	0	0	0	23	6	4			45	1
+-1	0	39	114	267	636.9463470576285	245	-1	6	96	12	12	com.netflix.zuul.filters.common.SurgicalDebugFilter	4	0	0	10	0	4			16	0
+0	3	62	142	390	847.1928369555643	244	-1	15	134	17	31	com.netflix.zuul.filters.common.GZipResponseFilter	6	0	0	19	3	6			37	-1
+-1	0	100	74	439	450.2529565675627	397	-1	36	175	9	29	com.netflix.zuul.util.JsonUtilityTest	0	0	0	7	0	9			38	0
+-1	0	20	31	72	132.5766496894977	399	-1	1	48	2	4	com.netflix.zuul.util.VipUtilsTest	0	0	0	4	0	2			6	0
+0	2	12	26	41	96.552873734312	398	0	0	45	1	4	com.netflix.zuul.util.ProxyUtilsTest	0	0	0	8	2	1			5	0
+-1	0	22	34	81	149.41127125886294	396	-1	6	58	4	9	com.netflix.zuul.util.HttpUtilsTest	0	0	0	7	0	4			13	0
+0	2	119	209	716	1373.899154894775	81	-1	66	178	43	33	com.netflix.zuul.util.HttpUtils	0	0	0	11	2	12			45	-1
+-1	0	32	73	215	392.05657605331936	323	-1	6	55	11	8	com.netflix.zuul.util.VipUtils	0	0	0	0	0	4			12	-1
+0	2	58	88	310	504.8183621781689	322	1	0	96	15	17	com.netflix.zuul.util.Gzipper	0	0	0	7	2	5			22	1
+0	1	98	161	749	1065.6169763462724	65	0	1	151	11	20	com.netflix.zuul.util.JsonUtility	0	0	0	3	1	2			22	0
+0	2	45	68	221	367.07506370320715	138	-1	6	89	8	12	com.netflix.zuul.util.ProxyUtils	0	0	0	7	3	4			16	-1
+0	2	25	49	131	238.8846688368564	390	1	0	68	4	13	com.netflix.zuul.message.http.HttpResponseMessageImplTest	0	0	0	10	2	3			16	1
+-1	0	81	63	341	367.4085960688616	388	-1	45	148	10	35	com.netflix.zuul.message.http.HttpQueryParamsTest	0	0	0	6	0	10			45	0
+0	1	213	135	982	930.0948266278529	389	-1	10	373	18	62	com.netflix.zuul.message.http.HttpRequestMessageImplTest	0	0	0	22	1	12			74	2
+0	6	164	223	891	1514.6928073259903	146	-1	249	304	66	64	com.netflix.zuul.message.http.HttpResponseMessageImpl	0	0	0	14	6	35	context	State	99	-1
+-1	0	14	41	57	165.76510198121656	144	0	15	41	6	0	com.netflix.zuul.message.http.HttpResponseInfo	0	0	0	1	0	6	decorated	Decorator	6	0
+0	2	26	51	128	247.45354345990046	155	1	0	63	7	4	com.netflix.zuul.message.http.HttpHeaderNamesCache	0	0	0	2	2	3			7	1
+0	3	167	216	1045	1501.582787510165	75	-1	0	270	56	56	com.netflix.zuul.message.http.HttpQueryParams	0	0	0	15	3	23			79	-1
+0	13	383	443	2158	3400.8831555974093	145	-1	935	628	134	99	com.netflix.zuul.message.http.HttpRequestMessageImpl	0	0	0	27	26	58	decorator	Decorator	157	-1
+0	2	40	63	193	331.54948190100777	142	-1	2	77	13	9	com.netflix.zuul.message.http.Cookies	0	0	0	5	2	5			14	-1
+0	3	60	131	386	780.2146953998929	154	0	0	103	3	1	com.netflix.zuul.message.http.HttpHeaderNames	0	0	0	3	47	1			2	0
+-1	0	36	106	173	546.2489090167646	139	0	190	81	23	0	com.netflix.zuul.message.http.HttpRequestInfo	0	0	0	3	0	20			20	0
+-1	0	22	62	106	289.1332238349481	77	0	28	48	8	0	com.netflix.zuul.message.http.HttpResponseMessage	0	0	0	1	0	8			8	0
+-1	0	14	37	62	152.7039722466684	76	0	36	45	9	0	com.netflix.zuul.message.http.HttpRequestMessage	0	0	0	1	0	9	creator	Factory Method	9	0
+-1	0	46	51	222	275.53654647548626	376	-1	6	100	4	10	com.netflix.zuul.netty.server.BaseZuulChannelInitializerTest	0	0	0	19	0	4			14	-1
+-1	0	89	62	385	369.10108672584266	402	-1	66	168	13	77	com.netflix.zuul.netty.server.SocketAddressPropertyTest	0	0	0	20	0	12			89	0
+-1	0	111	105	530	658.6520856873476	403	-1	10	185	7	73	com.netflix.zuul.netty.server.ClientRequestReceiverTest	0	0	0	18	0	5			78	0
+-1	0	36	67	191	351.9023196791242	408	0	6	89	8	13	com.netflix.zuul.netty.server.ServerTest	0	0	0	22	0	4			17	0
+0	6	54	135	375	800.1350135060054	287	0	0	156	7	16	com.netflix.zuul.netty.server.ClientConnectionsShutdown	0	0	0	22	6	3			19	0
+-1	14	20	62	119	296.3056565729148	295	-1	0	59	0	0	com.netflix.zuul.netty.server.ZuulDependencyKeys	0	0	0	15	15	0			0	-1
+0	15	159	257	925	1755.256990540693	285	-1	133	326	33	25	com.netflix.zuul.netty.server.BaseServerStartup	0	0	1	34	15	18			43	-1
+0	3	21	60	108	280.9278736274532	292	0	0	48	5	3	com.netflix.zuul.netty.server.MethodBinding	0	0	0	2	3	2	singleton	Singleton	5	0
+0	3	42	84	204	446.7220794829141	291	0	1	97	6	22	com.netflix.zuul.netty.server.Http1MutualSslChannelInitializer	3	0	0	9	3	3	context	State	25	0
+-1	0	4	8	10	18.420680743952367	335	0	1	23	2	0	com.netflix.zuul.netty.server.EventLoopConfig	0	0	0	0	0	2	state	State	2	0
+0	6	196	258	1335	1856.7451352752623	289	-1	17	322	36	78	com.netflix.zuul.netty.server.ClientResponseWriter	0	0	0	42	8	11	context	State	89	0
+0	4	164	233	1064	1623.9612260870704	293	-1	36	270	41	55	com.netflix.zuul.netty.server.OriginResponseReceiver	0	0	0	31	4	13			68	2
+0	12	301	446	2088	3409.207029255128	294	-1	24	514	38	58	com.netflix.zuul.netty.server.Server	0	0	0	59	15	13	context	State	71	-1
+0	2	21	40	99	183.8047940053836	334	1	0	57	6	1	com.netflix.zuul.netty.server.DefaultEventLoopConfig	0	0	0	2	5	4			5	1
+0	8	210	305	1488	2228.0824056948763	288	-1	52	407	40	116	com.netflix.zuul.netty.server.ClientRequestReceiver	0	0	0	52	9	13	context	State	129	0
+0	5	61	94	353	551.4479973517299	290	0	0	130	8	11	com.netflix.zuul.netty.server.DirectMemoryMonitor	0	0	0	14	6	3			14	0
+0	24	188	366	1086	2558.4338791807604	286	0	81	371	32	28	com.netflix.zuul.netty.server.BaseZuulChannelInitializer	0	0	4	55	35	18	abstraction	Bridge	46	0
+1	2	18	129	241	707.5388044202945	401	0	0	173	2	0	com.netflix.zuul.netty.server.SocketAddressProperty	0	0	0	10	2	2			2	0
+-1	0	24	56	116	266.20105070195643	296	0	3	65	4	9	com.netflix.zuul.netty.server.ZuulServerChannelInitializer	3	0	0	4	0	3			12	0
+1	1	12	24	51	94.36381518538381	370	1	0	40	5	0	com.netflix.zuul.netty.server.ServerTimeout	0	0	0	0	1	3			3	1
+-1	0	27	54	150	270.5743058811978	400	-1	1	75	5	19	com.netflix.zuul.netty.server.ssl.SslHandshakeInfoHandlerTest	0	0	0	17	0	2			21	0
+0	4	122	224	1123	1573.3220058614113	304	1	0	211	18	46	com.netflix.zuul.netty.server.ssl.SslHandshakeInfoHandler	0	0	0	23	4	5			51	1
+-1	0	22	58	108	271.5636111732048	435	0	0	76	2	11	com.netflix.zuul.netty.server.http2.Http2OrHttpHandlerTest	0	0	0	17	0	1			12	0
+0	8	45	98	239	536.6934280892881	303	0	0	118	9	13	com.netflix.zuul.netty.server.http2.Http2StreamInitializer	0	0	0	16	8	5			18	0
+0	1	40	79	230	429.60826540493247	298	-1	3	95	11	12	com.netflix.zuul.netty.server.http2.Http2Configuration	0	0	0	7	1	3			15	-1
+-1	0	13	37	64	153.87867408430785	300	0	0	44	4	1	com.netflix.zuul.netty.server.http2.Http2ResetFrameHandler	0	0	0	5	0	1			2	0
+0	6	47	99	245	544.6245628439281	299	0	2	116	9	23	com.netflix.zuul.netty.server.http2.Http2OrHttpHandler	0	0	0	19	8	4			27	0
+-1	0	17	39	90	175.49257714288035	344	0	0	45	4	2	com.netflix.zuul.netty.server.http2.Http2StreamErrorHandler	0	0	0	7	0	1			3	0
+0	7	59	120	309	688.0009532277295	301	0	8	139	7	28	com.netflix.zuul.netty.server.http2.Http2SslChannelInitializer	5	0	0	18	7	5			33	0
+-1	0	11	35	61	143.8805852460659	297	0	3	38	6	0	com.netflix.zuul.netty.server.http2.DummyChannelHandler	0	0	0	2	0	3			3	0
+-1	0	16	94	168	481.6526140639063	302	0	0	50	4	4	com.netflix.zuul.netty.server.http2.Http2StreamHeaderCleaner	0	0	0	4	0	1			5	0
+-1	0	53	60	240	328.8383354005195	428	-1	15	120	8	53	com.netflix.zuul.netty.connectionpool.DefaultClientChannelManagerTest	0	0	0	14	0	6			59	0
+-1	0	5	15	15	40.62075301653315	272	-1	0	27	0	0	com.netflix.zuul.netty.connectionpool.ZuulNettyExceptionMapper	0	0	0	0	0	0			0	-1
+-1	0	20	31	57	125.33458930287105	259	0	105	58	15	0	com.netflix.zuul.netty.connectionpool.ConnectionPoolConfig	0	0	0	0	0	15	state	State	15	0
+0	2	13	37	63	153.2959848764867	265	0	1	66	2	0	com.netflix.zuul.netty.connectionpool.NettyClientConnectionFactory	0	0	0	11	2	2	context	State	2	0
+-1	2	33	69	249	380.7042498560648	371	-1	0	71	0	0	com.netflix.zuul.netty.connectionpool.ClientTimeoutHandler	0	0	0	8	2	0			0	-1
+-1	0	6	20	21	60.89044875446846	270	0	0	29	1	0	com.netflix.zuul.netty.connectionpool.PooledConnectionFactory	0	0	0	1	0	1	state	State	1	0
+0	5	54	134	294	761.5996888233833	263	0	4	111	10	10	com.netflix.zuul.netty.connectionpool.DefaultOriginChannelInitializer	4	1	0	14	5	5	context	State	15	0
+0	1	22	49	93	222.09737516450957	271	0	53	61	13	2	com.netflix.zuul.netty.connectionpool.RequestStat	0	0	0	3	1	11	state	State	13	0
+0	2	44	65	186	339.6735337913581	257	-1	45	95	16	6	com.netflix.zuul.netty.connectionpool.BasicRequestStat	0	0	0	5	2	11			17	-1
+-1	0	13	38	55	152.27866103883392	264	0	28	42	8	0	com.netflix.zuul.netty.connectionpool.IConnectionPool	0	0	0	5	0	8			8	0
+0	5	74	95	338	553.1893600708868	260	-1	48	142	31	14	com.netflix.zuul.netty.connectionpool.ConnectionPoolConfigImpl	0	0	0	4	13	16			30	2
+0	12	146	184	659	1194.2931303484613	269	-1	255	250	48	37	com.netflix.zuul.netty.connectionpool.PooledConnection	0	0	0	12	17	27	context	State	64	-1
+-1	0	6	24	25	77.25301979683681	266	0	0	32	1	0	com.netflix.zuul.netty.connectionpool.OriginChannelInitializer	0	0	1	3	0	1	state	State	1	0
+0	14	265	378	1597	2788.0834520252747	262	-1	185	504	67	87	com.netflix.zuul.netty.connectionpool.DefaultClientChannelManager	0	0	0	41	27	27	context	State	114	-1
+0	12	241	310	1418	2249.6708391985426	268	-1	148	410	59	100	com.netflix.zuul.netty.connectionpool.PerServerConnectionPool	0	0	0	24	20	21	context	State	121	-1
+1	1	17	43	82	189.4889276323629	267	1	0	45	4	0	com.netflix.zuul.netty.connectionpool.OriginConnectException	0	0	0	1	1	3			3	1
+-1	0	17	46	76	199.21373365317123	258	0	66	63	12	0	com.netflix.zuul.netty.connectionpool.ClientChannelManager	0	0	0	6	0	12	state	State	12	0
+0	3	89	157	673	1022.3440167542223	261	1	7	156	24	39	com.netflix.zuul.netty.connectionpool.ConnectionPoolHandler	0	0	0	15	6	7			46	1
+-1	0	13	24	45	91.35989975448767	405	-1	1	46	2	6	com.netflix.zuul.netty.ssl.ClientSslContextFactoryTest	0	0	0	5	0	2			8	0
+0	4	130	226	778	1504.4201944643164	305	-1	27	235	40	55	com.netflix.zuul.netty.ssl.BaseSslContextFactory	0	0	1	33	4	14	adapter	(Object)Adapter	69	-1
+-1	0	10	32	41	118.83430613453785	306	0	10	37	6	0	com.netflix.zuul.netty.ssl.SslContextFactory	0	0	0	4	0	5	state	State	5	0
+0	3	34	78	189	408.85626717465215	347	0	6	81	11	11	com.netflix.zuul.netty.ssl.ClientSslContextFactory	4	0	0	7	3	4			15	0
+0	5	73	90	362	530.2479790643195	380	3	0	166	9	62	com.netflix.zuul.context.DebugTest	0	0	0	23	5	8			70	3
+-1	0	7	15	26	48.87144807032223	381	0	0	33	1	2	com.netflix.zuul.context.SessionContextTest	0	0	0	4	0	1			3	0
+0	3	243	329	1148	2318.060493793359	78	-1	960	357	84	33	com.netflix.zuul.context.SessionContext	0	0	0	8	16	45	adaptee	(Object)Adapter	78	-1
+-1	0	4	17	27	56.029226722073595	83	0	1	25	2	0	com.netflix.zuul.context.SessionContextFactory	0	0	0	2	0	2			2	0
+-1	0	6	19	21	57.845926316745036	82	0	0	25	1	0	com.netflix.zuul.context.SessionContextDecorator	0	0	0	0	0	1	state	State	1	0
+0	1	133	192	905	1307.1235091903857	15	-1	105	207	37	54	com.netflix.zuul.context.Debug	0	0	0	10	1	15			69	-1
+0	2	25	60	120	287.2495045669227	239	0	0	82	4	10	com.netflix.zuul.context.ZuulSessionContextDecorator	0	0	0	10	2	2			12	0
+-1	1	37	78	227	423.1461013635494	238	-1	0	69	0	0	com.netflix.zuul.context.CommonContextKeys	0	0	0	0	29	0			0	-1
+-1	0	6	19	20	56.918913197525825	151	0	0	29	1	0	com.netflix.zuul.context.SessionCleaner	0	0	0	1	0	1			1	0
+-1	0	48	45	234	245.48945019109658	365	-1	10	83	11	15	com.netflix.zuul.com.netflix.zuul.netty.server.push.PushConnectionTest	0	0	0	4	0	5			20	0
+1	1	14	21	51	82.56833828721084	377	0	0	48	3	3	com.netflix.netty.common.metrics.InstrumentedResourceLeakDetectorTest	0	0	0	6	1	2			5	0
+0	4	42	62	175	320.21673038325787	223	-1	6	88	10	14	com.netflix.netty.common.metrics.EventLoopMetrics	0	0	0	3	6	8			22	1
+0	3	45	70	293	397.6120826311947	228	0	0	94	1	0	com.netflix.netty.common.metrics.PerEventLoopMetricsChannelHandler	0	0	0	5	3	1			1	0
+0	2	93	105	670	683.2641598004262	224	0	6	166	9	11	com.netflix.netty.common.metrics.Http2MetricsChannelHandlers	0	0	0	10	2	5			16	0
+0	1	88	106	599	677.8977294002376	225	0	4	165	9	5	com.netflix.netty.common.metrics.HttpBodySizeRecordingChannelHandler	0	0	0	10	1	4			9	0
+0	1	40	103	233	561.4569607172671	227	0	4	81	7	10	com.netflix.netty.common.metrics.InstrumentedResourceLeakDetector	0	0	0	6	2	5			15	0
+0	3	41	66	194	347.6786384981797	222	0	6	92	12	17	com.netflix.netty.common.metrics.EventLoopGroupMetrics	0	0	0	5	3	5			22	0
+0	7	50	97	270	543.0469300228424	226	-1	1	109	14	21	com.netflix.netty.common.metrics.HttpMetricsChannelHandler	0	0	0	11	7	7			28	0
+0	5	58	112	323	647.0970602009376	229	-1	3	112	14	17	com.netflix.netty.common.metrics.ServerChannelMetrics	0	0	0	13	9	6			23	1
+0	5	68	81	288	458.69979889101165	429	4	0	157	24	61	com.netflix.netty.common.proxyprotocol.StripUntrustedProxyHeadersHandlerTest	0	0	0	24	5	10			71	4
+0	2	122	93	563	588.9950054169913	374	4	0	248	14	96	com.netflix.netty.common.proxyprotocol.ElbProxyProtocolChannelHandlerTest	0	0	0	25	2	9			105	4
+-1	0	16	34	73	145.87562099904528	430	0	0	62	1	13	com.netflix.netty.common.proxyprotocol.HAProxyMessageChannelHandlerTest	0	0	0	12	0	1			14	0
+1	2	64	108	249	595.8849128181884	410	0	0	118	7	14	com.netflix.netty.common.proxyprotocol.HAProxyMessageChannelHandler	0	0	0	11	2	1			15	0
+0	4	32	81	180	420.62950492210706	230	0	2	68	9	11	com.netflix.netty.common.proxyprotocol.ElbProxyProtocolChannelHandler	0	0	0	9	4	4			15	0
+0	4	59	98	173	505.0225762607824	232	-1	8	125	16	13	com.netflix.netty.common.proxyprotocol.StripUntrustedProxyHeadersHandler	0	0	0	16	4	5			18	-1
+-1	0	49	76	271	425.76103038685727	404	-1	10	116	12	26	com.netflix.netty.common.SourceAddressChannelHandlerTest	0	0	0	17	0	5			31	0
+0	4	63	132	406	792.8386170674287	210	-1	9	130	17	15	com.netflix.netty.common.HttpRequestReadTimeoutHandler	0	0	0	10	5	7			22	0
+0	5	51	103	295	585.7584617030014	199	0	0	104	12	17	com.netflix.netty.common.AbstrHttpConnectionExpiryHandler	0	0	2	10	9	5	abstractClass	Template Method	22	0
+-1	0	11	37	58	150.2363913902175	337	0	0	36	3	1	com.netflix.netty.common.CloseOnIdleStateHandler	0	0	0	3	0	1			2	0
+0	2	14	36	78	156.8415177608253	372	-1	1	44	4	6	com.netflix.netty.common.ConnectionCloseChannelAttributes	0	0	0	6	2	2			8	0
+-1	0	11	36	51	141.5457227780757	203	0	1	38	3	0	com.netflix.netty.common.Http1ConnectionExpiryHandler	1	1	0	1	0	2			2	0
+-1	0	11	52	69	220.1735382390575	205	0	1	42	3	0	com.netflix.netty.common.Http2ConnectionExpiryHandler	1	1	0	2	0	2			2	0
+0	3	111	242	512	1509.674559259561	204	0	34	242	28	42	com.netflix.netty.common.Http2ConnectionCloseHandler	0	0	0	19	3	9			51	0
+0	5	76	119	429	721.313373352434	208	-1	1	181	7	19	com.netflix.netty.common.HttpLifecycleChannelHandler	0	0	2	10	6	3			22	-1
+0	2	28	51	159	258.5141143132318	373	0	1	72	8	9	com.netflix.netty.common.SwallowSomeHttp2ExceptionsHandler	0	0	0	9	2	3			12	0
+-1	0	56	70	473	431.13667719443526	211	-1	0	117	0	0	com.netflix.netty.common.HttpServerLifecycleChannelHandler	0	0	0	9	0	0			0	-1
+-1	1	54	72	411	433.33871144372887	207	-1	0	114	0	0	com.netflix.netty.common.HttpClientLifecycleChannelHandler	0	0	0	8	2	0			0	-1
+-1	1	30	57	188	298.4771918813071	206	-1	0	71	0	0	com.netflix.netty.common.HttpChannelFlags	0	0	0	4	2	0			0	-1
+0	4	81	199	624	1280.793923305516	214	-1	6	172	13	18	com.netflix.netty.common.SourceAddressChannelHandler	0	0	0	13	9	4			22	-1
+0	2	65	99	253	547.8055593840245	202	-1	10	146	17	22	com.netflix.netty.common.Http1ConnectionCloseHandler	0	0	0	11	2	5			27	0
+0	2	44	83	300	473.41394539646467	212	0	0	103	3	0	com.netflix.netty.common.LeastConnsEventLoopChooserFactory	0	0	0	10	2	2			2	0
+0	2	15	43	67	180.8017826338115	200	0	0	43	3	0	com.netflix.netty.common.CategorizedThreadFactory	0	0	0	2	2	2			2	0
+-1	0	5	14	14	36.94680261461362	213	-1	0	26	0	0	com.netflix.netty.common.RequestResponseCompleteEvent	0	0	0	0	0	0			0	-1
+-1	0	6	32	34	112.84353678771717	209	-1	0	27	0	0	com.netflix.netty.common.HttpRequestReadTimeoutEvent	0	0	0	0	1	0	singleton	Singleton	0	-1
+0	1	23	71	172	365.4721078537551	198	0	1	56	6	8	com.netflix.config.PatternListStringProperty	0	0	0	5	1	2			10	0
+-1	0	17	25	87	111.64770296636459	197	0	10	43	6	1	com.netflix.config.DynamicIntegerSetProperty	0	0	0	1	0	5			6	0
+0	1	21	65	111	306.11946308530173	62	0	1	47	5	1	com.netflix.zuul.stats.monitoring.MonitorRegistry	0	0	0	0	2	3	context	State	4	0
+-1	0	11	33	45	125.61986216242055	61	0	0	30	1	0	com.netflix.zuul.stats.monitoring.Monitor	0	0	0	0	0	1	state	State	1	0
+-1	0	8	24	26	78.19431691251557	63	0	1	27	2	0	com.netflix.zuul.stats.monitoring.NamedCount	0	0	0	0	0	2			2	0
+-1	0	8	22	25	70.81526814710041	317	0	3	31	3	0	com.netflix.zuul.stats.status.StatusCategory	0	0	0	0	0	3			3	0
+-1	0	7	22	23	68.98087275044129	318	0	1	29	2	0	com.netflix.zuul.stats.status.StatusCategoryGroup	0	0	0	0	0	2			2	0
+0	1	37	70	211	374.6300693433247	319	-1	21	71	14	11	com.netflix.zuul.stats.status.StatusCategoryUtils	0	0	0	6	1	7			18	-1
+-1	0	37	72	203	382.5508304910087	35	0	6	76	9	5	com.netflix.zuul.plugins.Tracer	3	1	0	5	0	4			9	0
+0	2	16	31	74	133.42601788932927	343	0	0	45	5	1	com.netflix.zuul.origins.OriginThrottledException	3	0	1	2	2	3			4	0
+-1	0	9	21	26	68.42002729845113	111	0	6	28	4	0	com.netflix.zuul.origins.Origin	0	0	0	0	0	4			4	0
+0	9	146	223	865	1508.088680045809	309	-1	275	274	50	36	com.netflix.zuul.origins.BasicNettyOrigin	0	0	0	33	10	26	context	State	62	-1
+0	2	17	70	120	335.1244219947432	310	0	0	54	5	1	com.netflix.zuul.origins.BasicNettyOriginManager	0	0	0	5	2	3			4	0
+-1	0	11	27	40	99.59974526107628	311	0	15	39	6	0	com.netflix.zuul.origins.InstrumentedOrigin	0	0	0	1	0	6			6	0
+-1	0	19	82	184	427.62473212393684	312	0	91	76	15	0	com.netflix.zuul.origins.NettyOrigin	0	0	0	14	0	14	state	State	14	0
+-1	0	7	29	49	112.86278864520817	112	0	1	30	2	0	com.netflix.zuul.origins.OriginManager	0	0	0	1	0	2			2	0
+-1	0	5	17	23	53.303401670795544	342	0	0	28	1	0	com.netflix.zuul.origins.OriginConcurrencyExceededException	1	0	0	1	0	1			1	0
+1	1	18	61	117	290.49261002266314	252	0	0	49	3	7	com.netflix.zuul.logging.Http2FrameLoggingPerClientIpHandler	0	0	0	5	1	1			8	0
+0	3	61	79	264	440.49997914855896	17	1	20	94	18	0	com.netflix.zuul.exception.ZuulException	0	0	3	0	3	12			12	1
+0	2	27	52	123	250.2335864793657	242	1	0	64	6	10	com.netflix.zuul.exception.OutboundException	4	0	0	2	2	4			14	1
+-1	0	5	21	30	71.42514501490527	336	0	0	25	1	1	com.netflix.zuul.exception.ZuulFilterConcurrencyExceededException	1	0	0	1	0	1			2	0
+0	2	18	46	82	202.70908537415565	240	0	3	48	3	0	com.netflix.zuul.exception.ErrorType	0	0	0	3	10	3			3	0
+-1	0	6	20	21	60.89044875446846	108	0	0	26	1	0	com.netflix.zuul.metrics.OriginStatsFactory	0	0	0	0	0	1			1	0
+-1	0	7	23	28	76.64070373402969	107	0	1	27	2	0	com.netflix.zuul.metrics.OriginStats	0	0	0	0	0	2			2	0
+-1	0	11	30	44	113.52568901754783	131	0	1	40	4	0	com.netflix.zuul.filters.http.HttpOutboundFilter	0	0	0	4	0	2			2	0
+-1	0	8	25	29	84.18239574966185	132	0	0	33	2	0	com.netflix.zuul.filters.http.HttpOutboundSyncFilter	0	0	1	3	0	1			1	0
+-1	0	8	25	29	84.18239574966185	129	0	0	33	2	0	com.netflix.zuul.filters.http.HttpInboundFilter	0	0	0	3	0	1			1	0
+-1	0	8	25	29	84.18239574966185	130	0	0	33	2	0	com.netflix.zuul.filters.http.HttpInboundSyncFilter	0	0	2	3	0	1			1	0
+0	2	41	78	230	424.1701860960093	141	-1	10	103	12	11	com.netflix.zuul.filters.http.HttpSyncEndpoint	0	0	0	12	2	5			16	0
+-1	0	11	28	40	103.28862471519021	248	0	1	41	3	0	com.netflix.zuul.filters.passport.InboundPassportStampingFilter	0	0	0	5	0	2			2	0
+0	2	21	43	94	195.36167563761018	250	0	2	53	7	5	com.netflix.zuul.filters.passport.PassportStampingFilter	0	0	0	4	2	4			9	0
+-1	0	11	28	40	103.28862471519021	249	0	1	41	3	0	com.netflix.zuul.filters.passport.OutboundPassportStampingFilter	0	0	0	5	0	2			2	0
+0	29	720	792	4578	6675.781860405909	247	-1	703	1131	165	291	com.netflix.zuul.filters.endpoint.ProxyEndpoint	0	0	0	90	34	59	context	State	350	1
+0	2	24	53	115	251.48140280325225	246	0	0	62	7	5	com.netflix.zuul.filters.endpoint.MissingEndpointHandlingFilter	0	0	0	10	2	4			9	0
+0	2	45	78	232	424.8455149899722	308	-1	13	93	18	11	com.netflix.zuul.niws.RequestAttempts	0	0	0	10	2	6			17	-1
+0	4	262	262	1520	1919.5339908261644	307	-1	507	387	70	49	com.netflix.zuul.niws.RequestAttempt	0	0	0	14	18	38			87	-1
+-1	0	5	14	14	36.94680261461362	255	-1	0	26	0	0	com.netflix.zuul.netty.RequestCancelledEvent	0	0	0	0	0	0			0	-1
+0	1	41	61	259	338.9665117636718	254	-1	1	92	7	9	com.netflix.zuul.netty.NettyRequestAttemptFactory	0	0	0	16	1	2	adaptee	(Object)Adapter	11	-1
+-1	0	34	52	206	277.0495607770582	256	-1	28	65	15	18	com.netflix.zuul.netty.SpectatorUtils	0	0	0	5	0	8			26	0
+-1	0	10	39	73	167.32791820478724	253	0	0	40	3	8	com.netflix.zuul.netty.ChannelUtils	0	0	0	2	0	1			9	0
+1	1	16	42	73	180.19929652823242	351	0	0	46	4	3	com.netflix.zuul.netty.server.push.PushMessageSenderInitializer	0	0	1	5	1	3	abstractClass	Template Method	6	0
+-1	0	5	11	13	28.214442932076903	353	0	3	26	3	0	com.netflix.zuul.netty.server.push.PushUserAuth	0	0	0	0	0	3	state	State	3	0
+0	3	107	206	735	1359.5733228378442	350	0	20	210	28	42	com.netflix.zuul.netty.server.push.PushMessageSender	0	0	1	26	3	13	abstractClass	Template Method	55	0
+0	10	116	277	868	1874.2351049609172	352	1	0	187	35	49	com.netflix.zuul.netty.server.push.PushRegistrationHandler	0	0	0	11	14	12	context	State	61	1
+0	2	30	63	141	311.77187309382464	340	-1	0	67	10	9	com.netflix.zuul.netty.server.push.PushConnectionRegistry	0	0	0	6	2	6			15	-1
+0	6	53	101	263	562.7875572499543	364	-1	11	96	13	8	com.netflix.zuul.netty.server.push.PushConnection	0	0	0	6	7	7			15	-1
+-1	0	30	62	150	310.65938823396783	349	0	15	74	7	10	com.netflix.zuul.netty.server.push.PushChannelInitializer	4	2	2	7	0	6	abstractClass	Template Method	16	0
+0	2	73	129	472	794.2502891405366	348	0	13	118	18	30	com.netflix.zuul.netty.server.push.PushAuthHandler	0	0	1	9	4	6	abstractClass	Template Method	36	0
+1	1	15	44	71	187.55791458981787	366	0	0	43	6	1	com.netflix.zuul.netty.server.push.PushClientProtocolHandler	0	0	2	2	1	2	context	State	3	0
+-1	0	17	62	98	284.2679836775755	367	0	3	46	6	3	com.netflix.zuul.netty.server.push.PushMessageFactory	0	0	0	2	0	3	abstractClass	Template Method	6	0
+-1	0	54	79	417	476.6138115221053	280	-1	0	119	2	2	com.netflix.zuul.netty.insights.PassportStateHttpServerHandler	0	0	0	11	0	1			3	-1
+1	2	23	40	121	191.83162182386965	281	1	0	55	6	2	com.netflix.zuul.netty.insights.PassportStateListener	0	0	0	4	3	3			5	1
+-1	0	49	69	397	412.89160336741617	279	-1	0	100	2	2	com.netflix.zuul.netty.insights.PassportStateHttpClientHandler	0	0	0	10	0	1			3	-1
+0	2	68	108	501	671.3934589171654	283	0	1	135	5	9	com.netflix.zuul.netty.insights.PassportStateServerHandler	0	0	0	13	2	3			12	0
+0	3	65	153	577	972.7498667757393	278	0	6	149	12	33	com.netflix.zuul.netty.insights.PassportLoggingHandler	0	0	0	22	4	5			38	0
+-1	0	39	64	295	363.9664228057485	282	-1	0	98	2	2	com.netflix.zuul.netty.insights.PassportStateOriginHandler	0	0	0	7	0	1			3	-1
+-1	0	5	14	19	41.22214570833016	284	0	0	31	2	0	com.netflix.zuul.netty.ratelimiting.NullChannelHandlerProvider	0	0	0	3	0	1			1	0
+-1	0	7	23	31	78.98170570315837	274	0	1	29	2	0	com.netflix.zuul.netty.filter.FilterRunner	0	0	0	2	0	2	state	State	2	0
+0	1	103	141	859	952.56341799978	277	-1	9	158	18	36	com.netflix.zuul.netty.filter.ZuulFilterChainRunner	0	0	0	13	1	6	context	State	42	0
+0	5	132	195	849	1315.0915413307127	275	-1	76	221	36	60	com.netflix.zuul.netty.filter.ZuulEndPointRunner	0	0	0	24	5	13	context	State	73	-1
+0	4	99	150	615	963.2433401709776	276	1	0	173	25	34	com.netflix.zuul.netty.filter.ZuulFilterChainHandler	0	0	0	31	4	8			42	1
+0	5	281	341	1991	2590.369775685891	273	0	160	476	51	107	com.netflix.zuul.netty.filter.BaseZuulFilterRunner	0	0	0	43	6	20	abstraction	Bridge	127	0
+0	1	52	74	294	420.58490278306243	12	-1	0	76	2	0	com.netflix.zuul.constants.ZuulConstants	0	0	0	0	44	1			1	-1
+0	1	26	64	159	324.4098689420948	13	-1	0	55	2	0	com.netflix.zuul.constants.ZuulHeaders	0	0	0	0	18	1			1	-1
+0	6	57	135	431	818.9245921640058	216	-1	2	128	10	27	com.netflix.netty.common.accesslog.AccessLogPublisher	0	0	0	12	8	4			31	-1
+-1	2	64	118	503	734.0296400717692	215	-1	0	132	0	0	com.netflix.netty.common.accesslog.AccessLogChannelHandler	0	0	0	13	2	0			0	-1
+0	1	157	256	1174	1809.4520320993388	412	-1	45	270	39	38	com.netflix.netty.common.throttle.RejectionUtils	0	0	0	25	1	10			48	-1
+0	5	40	100	277	562.4017506187339	237	1	0	93	11	14	com.netflix.netty.common.throttle.MaxInboundConnectionsHandler	0	0	0	10	5	4			18	1
+0	4	24	31	102	143.3741572118124	413	0	2	52	9	0	com.netflix.netty.common.throttle.RequestRejectedEvent	0	0	0	3	4	5			5	0
+1	1	12	31	46	118.68788329116195	236	0	0	44	2	1	com.netflix.netty.common.status.ServerStatusManager	0	0	0	4	1	2			3	0
+0	5	40	70	192	368.0246760419447	234	1	2	83	19	0	com.netflix.netty.common.ssl.SslHandshakeInfo	0	0	0	3	6	8			8	1
+0	8	96	128	503	796.2355417727666	233	-1	26	175	30	6	com.netflix.netty.common.ssl.ServerSslConfig	0	0	0	8	12	17	adaptee	(Object)Adapter	23	-1
+0	5	99	153	696	1001.4384980311662	221	-1	159	188	39	52	com.netflix.netty.common.http2.DynamicHttp2FrameLogger	0	0	0	14	5	19			71	0
+0	2	17	32	65	133.58039263666038	219	0	0	44	5	0	com.netflix.netty.common.channel.config.ChannelConfigValue	0	0	0	0	2	3			3	0
+1	1	35	70	162	356.13174346626687	217	3	0	77	13	9	com.netflix.netty.common.channel.config.ChannelConfig	0	0	0	1	1	8			17	3
+-1	7	35	88	206	468.85310285348316	220	-1	0	65	0	0	com.netflix.netty.common.channel.config.CommonChannelConfigKeys	0	0	0	6	21	0			0	-1
+0	2	27	50	116	237.67950955531822	218	2	0	63	10	0	com.netflix.netty.common.channel.config.ChannelConfigKey	0	0	0	0	2	6			6	2
+-1	0	44	54	208	288.22705630387117	418	0	78	96	26	0	com.netflix.zuul.filters.processor.TestFilter	0	0	3	7	0	13			13	0
+-1	0	15	31	55	124.22732874220661	419	-1	0	48	0	0	com.netflix.zuul.filters.processor.TopLevelFilter	0	0	0	2	0	0			0	-1
+-1	0	9	22	32	76.24618986159399	417	0	0	48	2	5	com.netflix.zuul.filters.processor.FilterProcessorTest	0	0	0	9	0	1			6	0
+0	2	76	119	494	738.1017265453628	415	-1	6	142	20	31	com.netflix.zuul.filters.processor.FilterProcessor	0	0	0	31	2	4			35	-1
+-1	0	2	8	8	16.635532333438686	420	-1	0	25	0	0	com.netflix.zuul.filters.processor.override.SubpackageFilter	0	0	0	3	0	0			0	-1
+-1	0	2	8	8	16.635532333438686	426	-1	0	25	0	0	com.netflix.zuul.filters.processor.subpackage.OverrideFilter	0	0	0	3	0	0			0	-1
+-1	0	14	24	60	98.2642694933304	345	0	6	44	8	0	com.netflix.zuul.init2.TestZuulFilter2	4	0	0	3	0	4			4	0
+1	2	57	51	244	280.3555794899533	194	3	0	132	7	47	com.netflix.zuul.init.ZuulFiltersModuleTest	0	0	0	9	2	7			54	3
+0	1	17	30	68	126.58523115528321	193	0	1	58	3	5	com.netflix.zuul.init.ZuulFiltersModuleIntegTest	0	0	0	10	1	2			7	0
+-1	0	14	24	60	98.2642694933304	192	0	6	44	8	0	com.netflix.zuul.init.TestZuulFilter	4	0	0	3	0	4			4	0
+-1	0	7	15	25	48.28313737302301	409	-1	0	34	1	4	com.netflix.zuul.init.InitTestModule	0	0	0	6	0	1			5	-1
+0	2	54	110	332	638.5648465808137	196	-1	0	130	14	24	com.netflix.zuul.init.ZuulFiltersModule	0	0	0	18	2	4			28	-1
+0	1	15	27	64	112.28984325071113	191	0	6	49	8	0	com.netflix.zuul.guice.TestGuiceFieldFilter	4	0	0	5	1	4			4	0
+0	1	18	31	77	134.6579680774642	190	0	10	53	9	0	com.netflix.zuul.guice.TestGuiceConstructorFilter	5	0	0	5	1	5			5	0
+1	1	11	23	48	89.0376232508815	189	0	0	48	4	4	com.netflix.zuul.guice.GuiceFilterFactoryIntegTest	0	0	0	6	1	2			6	0
+1	1	9	27	43	101.55240312372618	188	0	0	39	4	2	com.netflix.zuul.guice.GuiceFilterFactory	0	0	0	5	1	2			4	0
+0	1	36	82	486	507.2691071598405	391	1	0	154	8	18	com.netflix.zuul.scriptManager.FilterVerifierTest	0	0	0	9	3	3			21	1
+0	5	151	231	946	1582.8680334509838	48	-1	19	243	43	13	com.netflix.zuul.scriptManager.FilterInfo	0	0	0	4	11	18			31	-1
+0	0	40	98	214	525.8656494721414	50	-1	10	79	16	11	com.netflix.zuul.scriptManager.FilterVerifier	0	0	0	5	1	5	singleton	Singleton	16	-1
+-1	0	10	25	37	90.27294781610561	385	0	0	41	1	3	com.netflix.zuul.groovy.GroovyFileFilterTest	0	0	0	6	0	1			4	0
+-1	0	21	46	116	218.66514879089277	384	0	0	55	3	8	com.netflix.zuul.groovy.GroovyCompilerTest	0	0	0	9	0	1			9	0
+0	1	29	74	145	368.27829693912247	20	-1	3	65	7	5	com.netflix.zuul.groovy.GroovyCompiler	0	0	0	6	1	3			8	-1
+-1	0	8	24	30	81.62873715989173	21	0	0	28	2	1	com.netflix.zuul.groovy.GroovyFileFilter	0	0	0	2	0	1			2	0
+-1	0	33	75	196	395.8585994422888	330	-1	1	67	4	11	com.netflix.zuul.sample.Bootstrap	0	0	0	4	0	2			13	-1
+0	5	99	137	281	772.4545896987231	331	0	1	243	10	17	com.netflix.zuul.sample.SampleServerStartup	2	1	0	33	5	3			20	0
+0	1	15	38	58	154.2968344007639	332	0	1	48	5	3	com.netflix.zuul.sample.SampleService	0	0	0	4	1	3			6	0
+-1	0	29	58	133	283.6402494368617	333	-1	0	95	3	8	com.netflix.zuul.sample.ZuulSampleModule	0	0	0	30	0	1			9	-1
+-1	0	16	49	83	216.5231897820333	416	0	3	50	6	6	com.netflix.zuul.sample.filters.Debug	3	0	0	3	0	3			9	0
+0	2	26	40	103	185.38915952918543	359	0	0	58	9	0	com.netflix.zuul.sample.push.SamplePushUserAuth	0	0	0	1	2	6			6	0
+1	1	36	73	276	410.28926319735194	368	0	0	68	5	10	com.netflix.zuul.sample.push.SampleWebSocketPushClientProtocolHandler	1	0	0	7	1	1			11	0
+-1	0	15	38	68	160.34129279669207	356	0	1	49	4	4	com.netflix.zuul.sample.push.SamplePushMessageSender	1	1	0	8	0	2			6	0
+1	1	13	33	53	131.01963314722002	357	0	0	44	3	0	com.netflix.zuul.sample.push.SamplePushMessageSenderInitializer	1	1	0	5	1	2			2	0
+0	1	21	55	148	274.8466750570263	361	0	0	71	4	12	com.netflix.zuul.sample.push.SampleSSEPushClientProtocolHandler	1	0	0	11	1	1			13	0
+-1	0	26	99	196	522.5333512638211	354	0	3	65	7	7	com.netflix.zuul.sample.push.SamplePushAuthHandler	1	2	0	9	0	3			10	0
+1	2	17	46	79	200.99460121348298	360	0	0	52	2	3	com.netflix.zuul.sample.push.SampleSSEPushChannelInitializer	1	1	0	5	2	2			5	0
+1	2	19	48	89	215.4545457471427	355	0	0	50	2	4	com.netflix.zuul.sample.push.SampleWebSocketPushChannelInitializer	1	1	0	7	2	2			6	0

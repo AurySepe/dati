@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<pattern name="Factory Method">
+		<instance>
+			<role name="Creator" element="com.ctrip.framework.apollo.portal.component.txtresolver.ConfigTextResolver" />
+			<role name="FactoryMethod()" element="com.ctrip.framework.apollo.portal.component.txtresolver.ConfigTextResolver::resolve(long, java.lang.String, java.util.List):com.ctrip.framework.apollo.common.dto.ItemChangeSets" />
+		</instance>
+		<instance>
+			<role name="Creator" element="com.ctrip.framework.apollo.tracer.spi.MessageProducer" />
+			<role name="FactoryMethod()" element="com.ctrip.framework.apollo.tracer.spi.MessageProducer::newTransaction(java.lang.String, java.lang.String):com.ctrip.framework.apollo.tracer.spi.Transaction" />
+		</instance>
+		<instance>
+			<role name="Creator" element="com.ctrip.framework.apollo.spi.ConfigFactory" />
+			<role name="FactoryMethod()" element="com.ctrip.framework.apollo.spi.ConfigFactory::createConfigFile(java.lang.String, com.ctrip.framework.apollo.core.enums.ConfigFileFormat):com.ctrip.framework.apollo.ConfigFile" />
+		</instance>
+	</pattern>
+	<pattern name="Prototype" />
+	<pattern name="Singleton">
+		<instance>
+			<role name="Singleton" element="com.ctrip.framework.apollo.config.data.importer.ApolloConfigDataResource" />
+			<role name="uniqueInstance" element="com.ctrip.framework.apollo.config.data.importer.ApolloConfigDataResource::DEFAULT:com.ctrip.framework.apollo.config.data.importer.ApolloConfigDataResource" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.ctrip.framework.foundation.internals.NetworkInterfaceManager" />
+			<role name="uniqueInstance" element="com.ctrip.framework.foundation.internals.NetworkInterfaceManager::INSTANCE:com.ctrip.framework.foundation.internals.NetworkInterfaceManager" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.ctrip.framework.apollo.util.parser.Parsers$DateParser" />
+			<role name="uniqueInstance" element="com.ctrip.framework.apollo.util.parser.Parsers$DateParser::INSTANCE:com.ctrip.framework.apollo.util.parser.Parsers$DateParser" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.ctrip.framework.apollo.util.parser.Parsers$DurationParser" />
+			<role name="uniqueInstance" element="com.ctrip.framework.apollo.util.parser.Parsers$DurationParser::INSTANCE:com.ctrip.framework.apollo.util.parser.Parsers$DurationParser" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="com.ctrip.framework.apollo.ConfigService" />
+			<role name="uniqueInstance" element="com.ctrip.framework.apollo.ConfigService::s_instance:com.ctrip.framework.apollo.ConfigService" />
+		</instance>
+	</pattern>
+	<pattern name="(Object)Adapter">
+		<instance>
+			<role name="Adaptee" element="com.ctrip.framework.apollo.portal.repository.UserRepository" />
+			<role name="Adapter" element="com.ctrip.framework.apollo.portal.spi.springsecurity.SpringSecurityUserService" />
+			<role name="adaptee" element="com.ctrip.framework.apollo.portal.spi.springsecurity.SpringSecurityUserService::userRepository:com.ctrip.framework.apollo.portal.repository.UserRepository" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.springsecurity.SpringSecurityUserService::findByUserId(java.lang.String):com.ctrip.framework.apollo.portal.entity.bo.UserInfo" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.springsecurity.SpringSecurityUserService::findByUserIds(java.util.List):java.util.List" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.ctrip.framework.apollo.biz.repository.GrayReleaseRuleRepository" />
+			<role name="Adapter" element="com.ctrip.framework.apollo.biz.grayReleaseRule.GrayReleaseRulesHolder" />
+			<role name="adaptee" element="com.ctrip.framework.apollo.biz.grayReleaseRule.GrayReleaseRulesHolder::grayReleaseRuleRepository:com.ctrip.framework.apollo.biz.repository.GrayReleaseRuleRepository" />
+			<role name="Request()" element="com.ctrip.framework.apollo.biz.grayReleaseRule.GrayReleaseRulesHolder::handleMessage(com.ctrip.framework.apollo.biz.entity.ReleaseMessage, java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.ctrip.framework.apollo.openapi.repository.ConsumerRoleRepository" />
+			<role name="Adapter" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRolePermissionService" />
+			<role name="adaptee" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRolePermissionService::consumerRoleRepository:com.ctrip.framework.apollo.openapi.repository.ConsumerRoleRepository" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRolePermissionService::deleteRolePermissionsByAppId(java.lang.String, java.lang.String):void" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRolePermissionService::deleteRolePermissionsByAppIdAndNamespace(java.lang.String, java.lang.String, java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.ctrip.framework.apollo.portal.repository.RoleRepository" />
+			<role name="Adapter" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRolePermissionService" />
+			<role name="adaptee" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRolePermissionService::roleRepository:com.ctrip.framework.apollo.portal.repository.RoleRepository" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRolePermissionService::createRoleWithPermissions(com.ctrip.framework.apollo.portal.entity.po.Role, java.util.Set):com.ctrip.framework.apollo.portal.entity.po.Role" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRolePermissionService::findRoleByRoleName(java.lang.String):com.ctrip.framework.apollo.portal.entity.po.Role" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRolePermissionService::findUserRoles(java.lang.String):java.util.List" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRolePermissionService::deleteRolePermissionsByAppId(java.lang.String, java.lang.String):void" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRolePermissionService::deleteRolePermissionsByAppIdAndNamespace(java.lang.String, java.lang.String, java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.ctrip.framework.apollo.portal.repository.PermissionRepository" />
+			<role name="Adapter" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRolePermissionService" />
+			<role name="adaptee" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRolePermissionService::permissionRepository:com.ctrip.framework.apollo.portal.repository.PermissionRepository" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRolePermissionService::userHasPermission(java.lang.String, java.lang.String, java.lang.String):boolean" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRolePermissionService::createPermission(com.ctrip.framework.apollo.portal.entity.po.Permission):com.ctrip.framework.apollo.portal.entity.po.Permission" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRolePermissionService::createPermissions(java.util.Set):java.util.Set" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRolePermissionService::deleteRolePermissionsByAppId(java.lang.String, java.lang.String):void" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRolePermissionService::deleteRolePermissionsByAppIdAndNamespace(java.lang.String, java.lang.String, java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.ctrip.framework.apollo.portal.repository.RolePermissionRepository" />
+			<role name="Adapter" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRolePermissionService" />
+			<role name="adaptee" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRolePermissionService::rolePermissionRepository:com.ctrip.framework.apollo.portal.repository.RolePermissionRepository" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRolePermissionService::createRoleWithPermissions(com.ctrip.framework.apollo.portal.entity.po.Role, java.util.Set):com.ctrip.framework.apollo.portal.entity.po.Role" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRolePermissionService::userHasPermission(java.lang.String, java.lang.String, java.lang.String):boolean" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRolePermissionService::deleteRolePermissionsByAppId(java.lang.String, java.lang.String):void" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRolePermissionService::deleteRolePermissionsByAppIdAndNamespace(java.lang.String, java.lang.String, java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.ctrip.framework.apollo.portal.repository.UserRoleRepository" />
+			<role name="Adapter" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRolePermissionService" />
+			<role name="adaptee" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRolePermissionService::userRoleRepository:com.ctrip.framework.apollo.portal.repository.UserRoleRepository" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRolePermissionService::assignRoleToUsers(java.lang.String, java.util.Set, java.lang.String):java.util.Set" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRolePermissionService::removeRoleFromUsers(java.lang.String, java.util.Set, java.lang.String):void" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRolePermissionService::queryUsersWithRole(java.lang.String):java.util.Set" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRolePermissionService::userHasPermission(java.lang.String, java.lang.String, java.lang.String):boolean" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRolePermissionService::findUserRoles(java.lang.String):java.util.List" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRolePermissionService::deleteRolePermissionsByAppId(java.lang.String, java.lang.String):void" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRolePermissionService::deleteRolePermissionsByAppIdAndNamespace(java.lang.String, java.lang.String, java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="com.ctrip.framework.apollo.spring.property.AutoUpdateConfigChangeListener" />
+			<role name="Adaptee" element="com.ctrip.framework.apollo.spring.property.SpringValueRegistry" />
+			<role name="adaptee" element="com.ctrip.framework.apollo.spring.property.AutoUpdateConfigChangeListener::springValueRegistry:com.ctrip.framework.apollo.spring.property.SpringValueRegistry" />
+			<role name="Request()" element="com.ctrip.framework.apollo.spring.property.AutoUpdateConfigChangeListener::onChange(com.ctrip.framework.apollo.model.ConfigChangeEvent):void" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="com.ctrip.framework.apollo.spring.annotation.SpringValueProcessor" />
+			<role name="Adaptee" element="com.ctrip.framework.apollo.spring.property.PlaceholderHelper" />
+			<role name="adaptee" element="com.ctrip.framework.apollo.spring.annotation.SpringValueProcessor::placeholderHelper:com.ctrip.framework.apollo.spring.property.PlaceholderHelper" />
+			<role name="Request()" element="com.ctrip.framework.apollo.spring.annotation.SpringValueProcessor::processField(java.lang.Object, java.lang.String, java.lang.reflect.Field):void" />
+			<role name="Request()" element="com.ctrip.framework.apollo.spring.annotation.SpringValueProcessor::processMethod(java.lang.Object, java.lang.String, java.lang.reflect.Method):void" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="com.ctrip.framework.apollo.spring.annotation.SpringValueProcessor" />
+			<role name="Adaptee" element="com.ctrip.framework.apollo.spring.property.SpringValueRegistry" />
+			<role name="adaptee" element="com.ctrip.framework.apollo.spring.annotation.SpringValueProcessor::springValueRegistry:com.ctrip.framework.apollo.spring.property.SpringValueRegistry" />
+			<role name="Request()" element="com.ctrip.framework.apollo.spring.annotation.SpringValueProcessor::processField(java.lang.Object, java.lang.String, java.lang.reflect.Field):void" />
+			<role name="Request()" element="com.ctrip.framework.apollo.spring.annotation.SpringValueProcessor::processMethod(java.lang.Object, java.lang.String, java.lang.reflect.Method):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.ctrip.framework.apollo.portal.repository.PermissionRepository" />
+			<role name="Adapter" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRoleInitializationService" />
+			<role name="adaptee" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRoleInitializationService::permissionRepository:com.ctrip.framework.apollo.portal.repository.PermissionRepository" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRoleInitializationService::initCreateAppRole():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.ctrip.framework.apollo.biz.service.ReleaseService" />
+			<role name="Adapter" element="com.ctrip.framework.apollo.configservice.service.config.DefaultConfigService" />
+			<role name="adaptee" element="com.ctrip.framework.apollo.configservice.service.config.DefaultConfigService::releaseService:com.ctrip.framework.apollo.biz.service.ReleaseService" />
+			<role name="Request()" element="com.ctrip.framework.apollo.configservice.service.config.DefaultConfigService::findActiveOne(long, com.ctrip.framework.apollo.core.dto.ApolloNotificationMessages):com.ctrip.framework.apollo.biz.entity.Release" />
+			<role name="Request()" element="com.ctrip.framework.apollo.configservice.service.config.DefaultConfigService::findLatestActiveRelease(java.lang.String, java.lang.String, java.lang.String, com.ctrip.framework.apollo.core.dto.ApolloNotificationMessages):com.ctrip.framework.apollo.biz.entity.Release" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.ctrip.framework.apollo.internals.ConfigRepository" />
+			<role name="Adapter" element="com.ctrip.framework.apollo.internals.AbstractConfigFile" />
+			<role name="adaptee" element="com.ctrip.framework.apollo.internals.AbstractConfigFile::m_configRepository:com.ctrip.framework.apollo.internals.ConfigRepository" />
+			<role name="Request()" element="com.ctrip.framework.apollo.internals.AbstractConfigFile::onRepositoryChange(java.lang.String, java.util.Properties):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.ctrip.framework.apollo.internals.ConfigRepository" />
+			<role name="Adapter" element="com.ctrip.framework.apollo.internals.DefaultConfig" />
+			<role name="adaptee" element="com.ctrip.framework.apollo.internals.DefaultConfig::m_configRepository:com.ctrip.framework.apollo.internals.ConfigRepository" />
+			<role name="Request()" element="com.ctrip.framework.apollo.internals.DefaultConfig::onRepositoryChange(java.lang.String, java.util.Properties):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.ctrip.framework.apollo.internals.ConfigRepository" />
+			<role name="Adapter" element="com.ctrip.framework.apollo.internals.SimpleConfig" />
+			<role name="adaptee" element="com.ctrip.framework.apollo.internals.SimpleConfig::m_configRepository:com.ctrip.framework.apollo.internals.ConfigRepository" />
+			<role name="Request()" element="com.ctrip.framework.apollo.internals.SimpleConfig::onRepositoryChange(java.lang.String, java.util.Properties):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.ctrip.framework.apollo.biz.repository.ReleaseMessageRepository" />
+			<role name="Adapter" element="com.ctrip.framework.apollo.biz.message.DatabaseMessageSender" />
+			<role name="adaptee" element="com.ctrip.framework.apollo.biz.message.DatabaseMessageSender::releaseMessageRepository:com.ctrip.framework.apollo.biz.repository.ReleaseMessageRepository" />
+			<role name="Request()" element="com.ctrip.framework.apollo.biz.message.DatabaseMessageSender::sendMessage(java.lang.String, java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.ctrip.framework.apollo.portal.spi.ctrip.CtripEmailRequestBuilder" />
+			<role name="Adapter" element="com.ctrip.framework.apollo.portal.spi.ctrip.CtripEmailService" />
+			<role name="adaptee" element="com.ctrip.framework.apollo.portal.spi.ctrip.CtripEmailService::emailRequestBuilder:com.ctrip.framework.apollo.portal.spi.ctrip.CtripEmailRequestBuilder" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.ctrip.CtripEmailService::send(com.ctrip.framework.apollo.portal.entity.bo.Email):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.ctrip.framework.apollo.common.dto.AppDTO" />
+			<role name="Adapter" element="com.ctrip.framework.apollo.portal.enricher.adapter.AppDtoUserInfoEnrichedAdapter" />
+			<role name="adaptee" element="com.ctrip.framework.apollo.portal.enricher.adapter.AppDtoUserInfoEnrichedAdapter::dto:com.ctrip.framework.apollo.common.dto.AppDTO" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.enricher.adapter.AppDtoUserInfoEnrichedAdapter::getFirstUserId():java.lang.String" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.enricher.adapter.AppDtoUserInfoEnrichedAdapter::setFirstUserDisplayName(java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.ctrip.framework.apollo.common.dto.BaseDTO" />
+			<role name="Adapter" element="com.ctrip.framework.apollo.portal.enricher.adapter.BaseDtoUserInfoEnrichedAdapter" />
+			<role name="adaptee" element="com.ctrip.framework.apollo.portal.enricher.adapter.BaseDtoUserInfoEnrichedAdapter::dto:com.ctrip.framework.apollo.common.dto.BaseDTO" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.enricher.adapter.BaseDtoUserInfoEnrichedAdapter::getFirstUserId():java.lang.String" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.enricher.adapter.BaseDtoUserInfoEnrichedAdapter::setFirstUserDisplayName(java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="com.ctrip.framework.apollo.configservice.controller.NotificationControllerV2" />
+			<role name="Adaptee" element="com.ctrip.framework.apollo.biz.config.BizConfig" />
+			<role name="adaptee" element="com.ctrip.framework.apollo.configservice.controller.NotificationControllerV2::bizConfig:com.ctrip.framework.apollo.biz.config.BizConfig" />
+			<role name="Request()" element="com.ctrip.framework.apollo.configservice.controller.NotificationControllerV2::handleMessage(com.ctrip.framework.apollo.biz.entity.ReleaseMessage, java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.ctrip.framework.apollo.portal.component.config.PortalConfig" />
+			<role name="Adapter" element="com.ctrip.framework.apollo.portal.spi.ctrip.CtripEmailService" />
+			<role name="adaptee" element="com.ctrip.framework.apollo.portal.spi.ctrip.CtripEmailService::portalConfig:com.ctrip.framework.apollo.portal.component.config.PortalConfig" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.ctrip.CtripEmailService::send(com.ctrip.framework.apollo.portal.entity.bo.Email):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.ctrip.framework.apollo.portal.component.config.PortalConfig" />
+			<role name="Adapter" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultEmailService" />
+			<role name="adaptee" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultEmailService::portalConfig:com.ctrip.framework.apollo.portal.component.config.PortalConfig" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultEmailService::send(com.ctrip.framework.apollo.portal.entity.bo.Email):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.ctrip.framework.apollo.util.factory.PropertiesFactory" />
+			<role name="Adapter" element="com.ctrip.framework.apollo.internals.AbstractConfigFile" />
+			<role name="adaptee" element="com.ctrip.framework.apollo.internals.AbstractConfigFile::propertiesFactory:com.ctrip.framework.apollo.util.factory.PropertiesFactory" />
+			<role name="Request()" element="com.ctrip.framework.apollo.internals.AbstractConfigFile::onRepositoryChange(java.lang.String, java.util.Properties):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.ctrip.framework.apollo.portal.service.RolePermissionService" />
+			<role name="Adapter" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRoleInitializationService" />
+			<role name="adaptee" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRoleInitializationService::rolePermissionService:com.ctrip.framework.apollo.portal.service.RolePermissionService" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRoleInitializationService::initAppRoles(com.ctrip.framework.apollo.common.entity.App):void" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRoleInitializationService::initNamespaceRoles(java.lang.String, java.lang.String, java.lang.String):void" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRoleInitializationService::initNamespaceSpecificEnvRoles(java.lang.String, java.lang.String, java.lang.String, java.lang.String):void" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRoleInitializationService::initCreateAppRole():void" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRoleInitializationService::initManageAppMasterRole(java.lang.String, java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.ctrip.framework.apollo.PropertiesCompatibleConfigFile" />
+			<role name="Adapter" element="com.ctrip.framework.apollo.internals.PropertiesCompatibleFileConfigRepository" />
+			<role name="adaptee" element="com.ctrip.framework.apollo.internals.PropertiesCompatibleFileConfigRepository::configFile:com.ctrip.framework.apollo.PropertiesCompatibleConfigFile" />
+			<role name="Request()" element="com.ctrip.framework.apollo.internals.PropertiesCompatibleFileConfigRepository::sync():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.ctrip.framework.apollo.biz.config.BizConfig" />
+			<role name="Adapter" element="com.ctrip.framework.apollo.biz.customize.BizLoggingCustomizer" />
+			<role name="adaptee" element="com.ctrip.framework.apollo.biz.customize.BizLoggingCustomizer::bizConfig:com.ctrip.framework.apollo.biz.config.BizConfig" />
+			<role name="Request()" element="com.ctrip.framework.apollo.biz.customize.BizLoggingCustomizer::cloggingUrl():java.lang.String" />
+			<role name="Request()" element="com.ctrip.framework.apollo.biz.customize.BizLoggingCustomizer::cloggingPort():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.ctrip.framework.apollo.portal.component.config.PortalConfig" />
+			<role name="Adapter" element="com.ctrip.framework.apollo.portal.spi.ctrip.BizLoggingCustomizer" />
+			<role name="adaptee" element="com.ctrip.framework.apollo.portal.spi.ctrip.BizLoggingCustomizer::portalConfig:com.ctrip.framework.apollo.portal.component.config.PortalConfig" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.ctrip.BizLoggingCustomizer::cloggingUrl():java.lang.String" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.ctrip.BizLoggingCustomizer::cloggingPort():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.ctrip.framework.apollo.portal.component.config.PortalConfig" />
+			<role name="Adapter" element="com.ctrip.framework.apollo.portal.spi.ctrip.CtripUserService" />
+			<role name="adaptee" element="com.ctrip.framework.apollo.portal.spi.ctrip.CtripUserService::portalConfig:com.ctrip.framework.apollo.portal.component.config.PortalConfig" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.ctrip.CtripUserService::searchUsers(java.lang.String, int, int):java.util.List" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.ctrip.CtripUserService::findByUserIds(java.util.List):java.util.List" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.ctrip.framework.apollo.util.ConfigUtil" />
+			<role name="Adapter" element="com.ctrip.framework.apollo.util.factory.DefaultPropertiesFactory" />
+			<role name="adaptee" element="com.ctrip.framework.apollo.util.factory.DefaultPropertiesFactory::m_configUtil:com.ctrip.framework.apollo.util.ConfigUtil" />
+			<role name="Request()" element="com.ctrip.framework.apollo.util.factory.DefaultPropertiesFactory::getPropertiesInstance():java.util.Properties" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.ctrip.framework.apollo.portal.component.config.PortalConfig" />
+			<role name="Adapter" element="com.ctrip.framework.apollo.portal.spi.ctrip.CtripMQService" />
+			<role name="adaptee" element="com.ctrip.framework.apollo.portal.spi.ctrip.CtripMQService::portalConfig:com.ctrip.framework.apollo.portal.component.config.PortalConfig" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.ctrip.CtripMQService::sendPublishMsg(com.ctrip.framework.apollo.portal.environment.Env, com.ctrip.framework.apollo.portal.entity.bo.ReleaseHistoryBO):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.ctrip.framework.apollo.biz.repository.ServerConfigRepository" />
+			<role name="Adapter" element="com.ctrip.framework.apollo.biz.service.BizDBPropertySource" />
+			<role name="adaptee" element="com.ctrip.framework.apollo.biz.service.BizDBPropertySource::serverConfigRepository:com.ctrip.framework.apollo.biz.repository.ServerConfigRepository" />
+			<role name="Request()" element="com.ctrip.framework.apollo.biz.service.BizDBPropertySource::refresh():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.ctrip.framework.apollo.portal.repository.ServerConfigRepository" />
+			<role name="Adapter" element="com.ctrip.framework.apollo.portal.service.PortalDBPropertySource" />
+			<role name="adaptee" element="com.ctrip.framework.apollo.portal.service.PortalDBPropertySource::serverConfigRepository:com.ctrip.framework.apollo.portal.repository.ServerConfigRepository" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.service.PortalDBPropertySource::refresh():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.ctrip.framework.apollo.portal.component.config.PortalConfig" />
+			<role name="Adapter" element="com.ctrip.framework.apollo.portal.spi.ctrip.CtripLogoutHandler" />
+			<role name="adaptee" element="com.ctrip.framework.apollo.portal.spi.ctrip.CtripLogoutHandler::portalConfig:com.ctrip.framework.apollo.portal.component.config.PortalConfig" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.ctrip.CtripLogoutHandler::logout(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.ctrip.framework.apollo.portal.spi.UserService" />
+			<role name="Adapter" element="com.ctrip.framework.apollo.portal.spi.oidc.OidcUserInfoHolder" />
+			<role name="adaptee" element="com.ctrip.framework.apollo.portal.spi.oidc.OidcUserInfoHolder::userService:com.ctrip.framework.apollo.portal.spi.UserService" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.oidc.OidcUserInfoHolder::getUser():com.ctrip.framework.apollo.portal.entity.bo.UserInfo" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.ctrip.framework.apollo.portal.spi.UserService" />
+			<role name="Adapter" element="com.ctrip.framework.apollo.portal.spi.springsecurity.SpringSecurityUserInfoHolder" />
+			<role name="adaptee" element="com.ctrip.framework.apollo.portal.spi.springsecurity.SpringSecurityUserInfoHolder::userService:com.ctrip.framework.apollo.portal.spi.UserService" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.springsecurity.SpringSecurityUserInfoHolder::getUser():com.ctrip.framework.apollo.portal.entity.bo.UserInfo" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.ctrip.framework.apollo.biz.config.BizConfig" />
+			<role name="Adapter" element="com.ctrip.framework.apollo.metaservice.service.KubernetesDiscoveryService" />
+			<role name="adaptee" element="com.ctrip.framework.apollo.metaservice.service.KubernetesDiscoveryService::bizConfig:com.ctrip.framework.apollo.biz.config.BizConfig" />
+			<role name="Request()" element="com.ctrip.framework.apollo.metaservice.service.KubernetesDiscoveryService::getServiceInstances(java.lang.String):java.util.List" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.ctrip.framework.apollo.portal.component.config.PortalConfig" />
+			<role name="Adapter" element="com.ctrip.framework.apollo.portal.environment.DatabasePortalMetaServerProvider" />
+			<role name="adaptee" element="com.ctrip.framework.apollo.portal.environment.DatabasePortalMetaServerProvider::portalConfig:com.ctrip.framework.apollo.portal.component.config.PortalConfig" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.environment.DatabasePortalMetaServerProvider::reload():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.ctrip.framework.apollo.portal.component.config.PortalConfig" />
+			<role name="Adapter" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRoleInitializationService" />
+			<role name="adaptee" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRoleInitializationService::portalConfig:com.ctrip.framework.apollo.portal.component.config.PortalConfig" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRoleInitializationService::initNamespaceEnvRoles(java.lang.String, java.lang.String, java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.ctrip.framework.apollo.portal.component.config.PortalConfig" />
+			<role name="Adapter" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRolePermissionService" />
+			<role name="adaptee" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRolePermissionService::portalConfig:com.ctrip.framework.apollo.portal.component.config.PortalConfig" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRolePermissionService::isSuperAdmin(java.lang.String):boolean" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.ctrip.framework.apollo.spi.ConfigFactoryManager" />
+			<role name="Adapter" element="com.ctrip.framework.apollo.internals.DefaultConfigManager" />
+			<role name="adaptee" element="com.ctrip.framework.apollo.internals.DefaultConfigManager::m_factoryManager:com.ctrip.framework.apollo.spi.ConfigFactoryManager" />
+			<role name="Request()" element="com.ctrip.framework.apollo.internals.DefaultConfigManager::getConfig(java.lang.String):com.ctrip.framework.apollo.Config" />
+			<role name="Request()" element="com.ctrip.framework.apollo.internals.DefaultConfigManager::getConfigFile(java.lang.String, com.ctrip.framework.apollo.core.enums.ConfigFileFormat):com.ctrip.framework.apollo.ConfigFile" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.ctrip.framework.apollo.portal.spi.UserService" />
+			<role name="Adapter" element="com.ctrip.framework.apollo.portal.service.AdditionalUserInfoEnrichServiceImpl" />
+			<role name="adaptee" element="com.ctrip.framework.apollo.portal.service.AdditionalUserInfoEnrichServiceImpl::userService:com.ctrip.framework.apollo.portal.spi.UserService" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.service.AdditionalUserInfoEnrichServiceImpl::enrichAdditionalUserInfo(, java.util.function.Function):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="com.ctrip.framework.apollo.spi.ConfigRegistry" />
+			<role name="Adapter" element="com.ctrip.framework.apollo.spi.DefaultConfigFactoryManager" />
+			<role name="adaptee" element="com.ctrip.framework.apollo.spi.DefaultConfigFactoryManager::m_registry:com.ctrip.framework.apollo.spi.ConfigRegistry" />
+			<role name="Request()" element="com.ctrip.framework.apollo.spi.DefaultConfigFactoryManager::getFactory(java.lang.String):com.ctrip.framework.apollo.spi.ConfigFactory" />
+		</instance>
+	</pattern>
+	<pattern name="Command" />
+	<pattern name="Composite" />
+	<pattern name="Decorator" />
+	<pattern name="Observer">
+		<instance>
+			<role name="Observer" element="com.ctrip.framework.apollo.internals.RepositoryChangeListener" />
+			<role name="Subject" element="com.ctrip.framework.apollo.internals.AbstractConfigRepository" />
+			<role name="Notify()" element="com.ctrip.framework.apollo.internals.AbstractConfigRepository::fireRepositoryChange(java.lang.String, java.util.Properties):void" />
+		</instance>
+	</pattern>
+	<pattern name="State">
+		<instance>
+			<role name="State" element="com.ctrip.framework.apollo.biz.repository.InstanceConfigRepository" />
+			<role name="Context" element="com.ctrip.framework.apollo.biz.service.InstanceService" />
+			<role name="state" element="com.ctrip.framework.apollo.biz.service.InstanceService::instanceConfigRepository:com.ctrip.framework.apollo.biz.repository.InstanceConfigRepository" />
+			<role name="Request()" element="com.ctrip.framework.apollo.biz.service.InstanceService::findInstanceConfig(long, java.lang.String, java.lang.String):com.ctrip.framework.apollo.biz.entity.InstanceConfig" />
+			<role name="Request()" element="com.ctrip.framework.apollo.biz.service.InstanceService::findActiveInstanceConfigsByReleaseKey(java.lang.String, org.springframework.data.domain.Pageable):org.springframework.data.domain.Page" />
+			<role name="Request()" element="com.ctrip.framework.apollo.biz.service.InstanceService::findInstancesByNamespace(java.lang.String, java.lang.String, java.lang.String, org.springframework.data.domain.Pageable):org.springframework.data.domain.Page" />
+			<role name="Request()" element="com.ctrip.framework.apollo.biz.service.InstanceService::findInstancesByNamespaceAndInstanceAppId(java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.springframework.data.domain.Pageable):org.springframework.data.domain.Page" />
+			<role name="Request()" element="com.ctrip.framework.apollo.biz.service.InstanceService::findInstanceConfigsByNamespaceWithReleaseKeysNotIn(java.lang.String, java.lang.String, java.lang.String, java.util.Set):java.util.List" />
+			<role name="Request()" element="com.ctrip.framework.apollo.biz.service.InstanceService::batchDeleteInstanceConfig(java.lang.String, java.lang.String, java.lang.String):int" />
+		</instance>
+		<instance>
+			<role name="State" element="com.ctrip.framework.apollo.biz.repository.InstanceRepository" />
+			<role name="Context" element="com.ctrip.framework.apollo.biz.service.InstanceService" />
+			<role name="state" element="com.ctrip.framework.apollo.biz.service.InstanceService::instanceRepository:com.ctrip.framework.apollo.biz.repository.InstanceRepository" />
+			<role name="Request()" element="com.ctrip.framework.apollo.biz.service.InstanceService::findInstance(java.lang.String, java.lang.String, java.lang.String, java.lang.String):com.ctrip.framework.apollo.biz.entity.Instance" />
+		</instance>
+		<instance>
+			<role name="State" element="com.ctrip.framework.apollo.biz.repository.ReleaseMessageRepository" />
+			<role name="Context" element="com.ctrip.framework.apollo.biz.message.ReleaseMessageScanner" />
+			<role name="state" element="com.ctrip.framework.apollo.biz.message.ReleaseMessageScanner::releaseMessageRepository:com.ctrip.framework.apollo.biz.repository.ReleaseMessageRepository" />
+			<role name="Request()" element="com.ctrip.framework.apollo.biz.message.ReleaseMessageScanner::scanAndSendMessages():boolean" />
+			<role name="Request()" element="com.ctrip.framework.apollo.biz.message.ReleaseMessageScanner::loadLargestMessageId():long" />
+		</instance>
+		<instance>
+			<role name="State" element="com.ctrip.framework.apollo.biz.repository.ReleaseMessageRepository" />
+			<role name="Context" element="com.ctrip.framework.apollo.biz.service.ReleaseMessageService" />
+			<role name="state" element="com.ctrip.framework.apollo.biz.service.ReleaseMessageService::releaseMessageRepository:com.ctrip.framework.apollo.biz.repository.ReleaseMessageRepository" />
+			<role name="Request()" element="com.ctrip.framework.apollo.biz.service.ReleaseMessageService::findLatestReleaseMessageForMessages(java.util.Collection):com.ctrip.framework.apollo.biz.entity.ReleaseMessage" />
+			<role name="Request()" element="com.ctrip.framework.apollo.biz.service.ReleaseMessageService::findLatestReleaseMessagesGroupByMessages(java.util.Collection):java.util.List" />
+		</instance>
+		<instance>
+			<role name="State" element="com.ctrip.framework.apollo.portal.repository.UserRepository" />
+			<role name="Context" element="com.ctrip.framework.apollo.portal.spi.oidc.OidcLocalUserServiceImpl" />
+			<role name="state" element="com.ctrip.framework.apollo.portal.spi.oidc.OidcLocalUserServiceImpl::userRepository:com.ctrip.framework.apollo.portal.repository.UserRepository" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.oidc.OidcLocalUserServiceImpl::updateUserInfoInternal(com.ctrip.framework.apollo.portal.entity.bo.UserInfo):void" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.oidc.OidcLocalUserServiceImpl::findUsers(java.lang.String):java.util.List" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.oidc.OidcLocalUserServiceImpl::findByUserId(java.lang.String):com.ctrip.framework.apollo.portal.entity.bo.UserInfo" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.oidc.OidcLocalUserServiceImpl::findByUserIds(java.util.List):java.util.List" />
+		</instance>
+		<instance>
+			<role name="State" element="com.ctrip.framework.apollo.portal.repository.UserRepository" />
+			<role name="Context" element="com.ctrip.framework.apollo.portal.spi.springsecurity.SpringSecurityUserService" />
+			<role name="state" element="com.ctrip.framework.apollo.portal.spi.springsecurity.SpringSecurityUserService::userRepository:com.ctrip.framework.apollo.portal.repository.UserRepository" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.springsecurity.SpringSecurityUserService::createOrUpdate(com.ctrip.framework.apollo.portal.entity.po.UserPO):void" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.springsecurity.SpringSecurityUserService::findUsers(java.lang.String):java.util.List" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.springsecurity.SpringSecurityUserService::findByUserId(java.lang.String):com.ctrip.framework.apollo.portal.entity.bo.UserInfo" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.springsecurity.SpringSecurityUserService::findByUserIds(java.util.List):java.util.List" />
+		</instance>
+		<instance>
+			<role name="State" element="com.ctrip.framework.apollo.biz.repository.AuditRepository" />
+			<role name="Context" element="com.ctrip.framework.apollo.biz.service.AuditService" />
+			<role name="state" element="com.ctrip.framework.apollo.biz.service.AuditService::auditRepository:com.ctrip.framework.apollo.biz.repository.AuditRepository" />
+			<role name="Request()" element="com.ctrip.framework.apollo.biz.service.AuditService::findByOwner(java.lang.String):java.util.List" />
+			<role name="Request()" element="com.ctrip.framework.apollo.biz.service.AuditService::find(java.lang.String, java.lang.String, java.lang.String):java.util.List" />
+		</instance>
+		<instance>
+			<role name="State" element="com.ctrip.framework.apollo.biz.repository.CommitRepository" />
+			<role name="Context" element="com.ctrip.framework.apollo.biz.service.CommitService" />
+			<role name="state" element="com.ctrip.framework.apollo.biz.service.CommitService::commitRepository:com.ctrip.framework.apollo.biz.repository.CommitRepository" />
+			<role name="Request()" element="com.ctrip.framework.apollo.biz.service.CommitService::find(java.lang.String, java.lang.String, java.lang.String, org.springframework.data.domain.Pageable):java.util.List" />
+			<role name="Request()" element="com.ctrip.framework.apollo.biz.service.CommitService::find(java.lang.String, java.lang.String, java.lang.String, java.util.Date, org.springframework.data.domain.Pageable):java.util.List" />
+			<role name="Request()" element="com.ctrip.framework.apollo.biz.service.CommitService::findByKey(java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.springframework.data.domain.Pageable):java.util.List" />
+			<role name="Request()" element="com.ctrip.framework.apollo.biz.service.CommitService::batchDelete(java.lang.String, java.lang.String, java.lang.String, java.lang.String):int" />
+		</instance>
+		<instance>
+			<role name="State" element="com.ctrip.framework.apollo.biz.repository.NamespaceLockRepository" />
+			<role name="Context" element="com.ctrip.framework.apollo.biz.service.NamespaceLockService" />
+			<role name="state" element="com.ctrip.framework.apollo.biz.service.NamespaceLockService::namespaceLockRepository:com.ctrip.framework.apollo.biz.repository.NamespaceLockRepository" />
+			<role name="Request()" element="com.ctrip.framework.apollo.biz.service.NamespaceLockService::findLock(java.lang.Long):com.ctrip.framework.apollo.biz.entity.NamespaceLock" />
+			<role name="Request()" element="com.ctrip.framework.apollo.biz.service.NamespaceLockService::unlock(java.lang.Long):void" />
+		</instance>
+		<instance>
+			<role name="State" element="com.ctrip.framework.apollo.portal.repository.ServerConfigRepository" />
+			<role name="Context" element="com.ctrip.framework.apollo.portal.controller.ServerConfigController" />
+			<role name="state" element="com.ctrip.framework.apollo.portal.controller.ServerConfigController::serverConfigRepository:com.ctrip.framework.apollo.portal.repository.ServerConfigRepository" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.controller.ServerConfigController::createOrUpdate(com.ctrip.framework.apollo.portal.entity.po.ServerConfig):com.ctrip.framework.apollo.portal.entity.po.ServerConfig" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.controller.ServerConfigController::loadServerConfig(java.lang.String):com.ctrip.framework.apollo.portal.entity.po.ServerConfig" />
+		</instance>
+		<instance>
+			<role name="State" element="com.ctrip.framework.apollo.portal.spi.oidc.OidcLocalUserService" />
+			<role name="Context" element="com.ctrip.framework.apollo.portal.spi.oidc.OidcAuthenticationSuccessEventListener" />
+			<role name="state" element="com.ctrip.framework.apollo.portal.spi.oidc.OidcAuthenticationSuccessEventListener::oidcLocalUserService:com.ctrip.framework.apollo.portal.spi.oidc.OidcLocalUserService" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.oidc.OidcAuthenticationSuccessEventListener::oidcUserLogin(org.springframework.security.oauth2.core.oidc.user.OidcUser):void" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.oidc.OidcAuthenticationSuccessEventListener::jwtLogin(org.springframework.security.oauth2.jwt.Jwt):void" />
+		</instance>
+		<instance>
+			<role name="State" element="com.ctrip.framework.apollo.biz.repository.ReleaseMessageRepository" />
+			<role name="Context" element="com.ctrip.framework.apollo.configservice.service.ReleaseMessageServiceWithCache" />
+			<role name="state" element="com.ctrip.framework.apollo.configservice.service.ReleaseMessageServiceWithCache::releaseMessageRepository:com.ctrip.framework.apollo.biz.repository.ReleaseMessageRepository" />
+			<role name="Request()" element="com.ctrip.framework.apollo.configservice.service.ReleaseMessageServiceWithCache::loadReleaseMessages(long):void" />
+		</instance>
+		<instance>
+			<role name="State" element="com.ctrip.framework.apollo.portal.repository.FavoriteRepository" />
+			<role name="Context" element="com.ctrip.framework.apollo.portal.service.FavoriteService" />
+			<role name="state" element="com.ctrip.framework.apollo.portal.service.FavoriteService::favoriteRepository:com.ctrip.framework.apollo.portal.repository.FavoriteRepository" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.service.FavoriteService::addFavorite(com.ctrip.framework.apollo.portal.entity.po.Favorite):com.ctrip.framework.apollo.portal.entity.po.Favorite" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.service.FavoriteService::search(java.lang.String, java.lang.String, org.springframework.data.domain.Pageable):java.util.List" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.service.FavoriteService::adjustFavoriteToFirst(long):void" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.service.FavoriteService::batchDeleteByAppId(java.lang.String, java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="State" element="com.ctrip.framework.apollo.Config" />
+			<role name="Context" element="com.ctrip.framework.apollo.demo.api.ApolloConfigDemo" />
+			<role name="state" element="com.ctrip.framework.apollo.demo.api.ApolloConfigDemo::config:com.ctrip.framework.apollo.Config" />
+			<role name="state" element="com.ctrip.framework.apollo.demo.api.ApolloConfigDemo::publicConfig:com.ctrip.framework.apollo.Config" />
+			<role name="state" element="com.ctrip.framework.apollo.demo.api.ApolloConfigDemo::yamlConfig:com.ctrip.framework.apollo.Config" />
+			<role name="Request()" element="com.ctrip.framework.apollo.demo.api.ApolloConfigDemo::getConfig(java.lang.String):java.lang.String" />
+		</instance>
+		<instance>
+			<role name="State" element="com.ctrip.framework.apollo.Config" />
+			<role name="Context" element="com.ctrip.framework.apollo.demo.api.SimpleApolloConfigDemo" />
+			<role name="state" element="com.ctrip.framework.apollo.demo.api.SimpleApolloConfigDemo::config:com.ctrip.framework.apollo.Config" />
+			<role name="Request()" element="com.ctrip.framework.apollo.demo.api.SimpleApolloConfigDemo::getConfig(java.lang.String):java.lang.String" />
+		</instance>
+		<instance>
+			<role name="State" element="com.ctrip.framework.apollo.metaservice.service.DiscoveryService" />
+			<role name="Context" element="com.ctrip.framework.apollo.metaservice.controller.HomePageController" />
+			<role name="state" element="com.ctrip.framework.apollo.metaservice.controller.HomePageController::discoveryService:com.ctrip.framework.apollo.metaservice.service.DiscoveryService" />
+			<role name="Request()" element="com.ctrip.framework.apollo.metaservice.controller.HomePageController::listAllServices():java.util.List" />
+		</instance>
+		<instance>
+			<role name="State" element="com.ctrip.framework.apollo.metaservice.service.DiscoveryService" />
+			<role name="Context" element="com.ctrip.framework.apollo.metaservice.controller.ServiceController" />
+			<role name="state" element="com.ctrip.framework.apollo.metaservice.controller.ServiceController::discoveryService:com.ctrip.framework.apollo.metaservice.service.DiscoveryService" />
+			<role name="Request()" element="com.ctrip.framework.apollo.metaservice.controller.ServiceController::getConfigService(java.lang.String, java.lang.String):java.util.List" />
+			<role name="Request()" element="com.ctrip.framework.apollo.metaservice.controller.ServiceController::getAdminService():java.util.List" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.ctrip.framework.apollo.internals.DefaultConfig" />
+			<role name="State" element="com.ctrip.framework.apollo.internals.ConfigRepository" />
+			<role name="state" element="com.ctrip.framework.apollo.internals.DefaultConfig::m_configRepository:com.ctrip.framework.apollo.internals.ConfigRepository" />
+			<role name="Request()" element="com.ctrip.framework.apollo.internals.DefaultConfig::initialize():void" />
+			<role name="Request()" element="com.ctrip.framework.apollo.internals.DefaultConfig::onRepositoryChange(java.lang.String, java.util.Properties):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.ctrip.framework.apollo.internals.SimpleConfig" />
+			<role name="State" element="com.ctrip.framework.apollo.internals.ConfigRepository" />
+			<role name="state" element="com.ctrip.framework.apollo.internals.SimpleConfig::m_configRepository:com.ctrip.framework.apollo.internals.ConfigRepository" />
+			<role name="Request()" element="com.ctrip.framework.apollo.internals.SimpleConfig::initialize():void" />
+			<role name="Request()" element="com.ctrip.framework.apollo.internals.SimpleConfig::onRepositoryChange(java.lang.String, java.util.Properties):void" />
+		</instance>
+		<instance>
+			<role name="State" element="com.ctrip.framework.apollo.biz.repository.ReleaseMessageRepository" />
+			<role name="Context" element="com.ctrip.framework.apollo.biz.message.DatabaseMessageSender" />
+			<role name="state" element="com.ctrip.framework.apollo.biz.message.DatabaseMessageSender::releaseMessageRepository:com.ctrip.framework.apollo.biz.repository.ReleaseMessageRepository" />
+			<role name="Request()" element="com.ctrip.framework.apollo.biz.message.DatabaseMessageSender::cleanMessage(java.lang.Long):void" />
+		</instance>
+		<instance>
+			<role name="State" element="com.ctrip.framework.apollo.portal.spi.LogoutHandler" />
+			<role name="Context" element="com.ctrip.framework.apollo.portal.controller.UserInfoController" />
+			<role name="state" element="com.ctrip.framework.apollo.portal.controller.UserInfoController::logoutHandler:com.ctrip.framework.apollo.portal.spi.LogoutHandler" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.controller.UserInfoController::logout(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse):void" />
+		</instance>
+		<instance>
+			<role name="State" element="com.ctrip.framework.apollo.portal.spi.SsoHeartbeatHandler" />
+			<role name="Context" element="com.ctrip.framework.apollo.portal.controller.SsoHeartbeatController" />
+			<role name="state" element="com.ctrip.framework.apollo.portal.controller.SsoHeartbeatController::handler:com.ctrip.framework.apollo.portal.spi.SsoHeartbeatHandler" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.controller.SsoHeartbeatController::heartbeat(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse):void" />
+		</instance>
+		<instance>
+			<role name="State" element="com.ctrip.framework.apollo.spring.spi.ApolloConfigRegistrarHelper" />
+			<role name="Context" element="com.ctrip.framework.apollo.spring.annotation.ApolloConfigRegistrar" />
+			<role name="state" element="com.ctrip.framework.apollo.spring.annotation.ApolloConfigRegistrar::helper:com.ctrip.framework.apollo.spring.spi.ApolloConfigRegistrarHelper" />
+			<role name="Request()" element="com.ctrip.framework.apollo.spring.annotation.ApolloConfigRegistrar::registerBeanDefinitions(org.springframework.core.type.AnnotationMetadata, org.springframework.beans.factory.support.BeanDefinitionRegistry):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRoleInitializationService" />
+			<role name="State" element="com.ctrip.framework.apollo.portal.service.RolePermissionService" />
+			<role name="state" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRoleInitializationService::rolePermissionService:com.ctrip.framework.apollo.portal.service.RolePermissionService" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRoleInitializationService::initAppRoles(com.ctrip.framework.apollo.common.entity.App):void" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRoleInitializationService::initNamespaceRoles(java.lang.String, java.lang.String, java.lang.String):void" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRoleInitializationService::initNamespaceSpecificEnvRoles(java.lang.String, java.lang.String, java.lang.String, java.lang.String):void" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRoleInitializationService::initCreateAppRole():void" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRoleInitializationService::createManageAppMasterRole(java.lang.String, java.lang.String):void" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRoleInitializationService::initManageAppMasterRole(java.lang.String, java.lang.String):void" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRoleInitializationService::createAppMasterRole(java.lang.String, java.lang.String):void" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRoleInitializationService::createNamespaceRole(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String):void" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.defaultimpl.DefaultRoleInitializationService::createNamespaceEnvRole(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.ctrip.framework.apollo.internals.PropertiesCompatibleFileConfigRepository" />
+			<role name="State" element="com.ctrip.framework.apollo.PropertiesCompatibleConfigFile" />
+			<role name="state" element="com.ctrip.framework.apollo.internals.PropertiesCompatibleFileConfigRepository::configFile:com.ctrip.framework.apollo.PropertiesCompatibleConfigFile" />
+			<role name="Request()" element="com.ctrip.framework.apollo.internals.PropertiesCompatibleFileConfigRepository::sync():void" />
+		</instance>
+		<instance>
+			<role name="State" element="com.ctrip.framework.apollo.util.factory.PropertiesFactory" />
+			<role name="Context" element="com.ctrip.framework.apollo.util.yaml.YamlParser" />
+			<role name="state" element="com.ctrip.framework.apollo.util.yaml.YamlParser::propertiesFactory:com.ctrip.framework.apollo.util.factory.PropertiesFactory" />
+			<role name="Request()" element="com.ctrip.framework.apollo.util.yaml.YamlParser::yamlToProperties(java.lang.String):java.util.Properties" />
+			<role name="Request()" element="com.ctrip.framework.apollo.util.yaml.YamlParser::process(java.util.Map, com.ctrip.framework.apollo.util.yaml.YamlParser$MatchCallback):boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.ctrip.framework.apollo.internals.RemoteConfigRepository" />
+			<role name="State" element="com.ctrip.framework.apollo.core.schedule.SchedulePolicy" />
+			<role name="state" element="com.ctrip.framework.apollo.internals.RemoteConfigRepository::m_loadConfigFailSchedulePolicy:com.ctrip.framework.apollo.core.schedule.SchedulePolicy" />
+			<role name="Request()" element="com.ctrip.framework.apollo.internals.RemoteConfigRepository::loadApolloConfig():com.ctrip.framework.apollo.core.dto.ApolloConfig" />
+		</instance>
+		<instance>
+			<role name="State" element="com.ctrip.framework.apollo.portal.component.txtresolver.ConfigTextResolver" />
+			<role name="Context" element="com.ctrip.framework.apollo.portal.service.ItemService" />
+			<role name="state" element="com.ctrip.framework.apollo.portal.service.ItemService::propertyResolver:com.ctrip.framework.apollo.portal.component.txtresolver.ConfigTextResolver" />
+			<role name="state" element="com.ctrip.framework.apollo.portal.service.ItemService::fileTextResolver:com.ctrip.framework.apollo.portal.component.txtresolver.ConfigTextResolver" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.service.ItemService::updateConfigItemByText(com.ctrip.framework.apollo.portal.entity.model.NamespaceTextModel):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.ctrip.framework.apollo.portal.spi.oidc.OidcUserInfoHolder" />
+			<role name="State" element="com.ctrip.framework.apollo.portal.spi.UserService" />
+			<role name="state" element="com.ctrip.framework.apollo.portal.spi.oidc.OidcUserInfoHolder::userService:com.ctrip.framework.apollo.portal.spi.UserService" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.oidc.OidcUserInfoHolder::getUser():com.ctrip.framework.apollo.portal.entity.bo.UserInfo" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.ctrip.framework.apollo.portal.spi.springsecurity.SpringSecurityUserInfoHolder" />
+			<role name="State" element="com.ctrip.framework.apollo.portal.spi.UserService" />
+			<role name="state" element="com.ctrip.framework.apollo.portal.spi.springsecurity.SpringSecurityUserInfoHolder::userService:com.ctrip.framework.apollo.portal.spi.UserService" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.spi.springsecurity.SpringSecurityUserInfoHolder::getUser():com.ctrip.framework.apollo.portal.entity.bo.UserInfo" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.ctrip.framework.apollo.internals.DefaultConfigManager" />
+			<role name="State" element="com.ctrip.framework.apollo.spi.ConfigFactoryManager" />
+			<role name="state" element="com.ctrip.framework.apollo.internals.DefaultConfigManager::m_factoryManager:com.ctrip.framework.apollo.spi.ConfigFactoryManager" />
+			<role name="Request()" element="com.ctrip.framework.apollo.internals.DefaultConfigManager::getConfig(java.lang.String):com.ctrip.framework.apollo.Config" />
+			<role name="Request()" element="com.ctrip.framework.apollo.internals.DefaultConfigManager::getConfigFile(java.lang.String, com.ctrip.framework.apollo.core.enums.ConfigFileFormat):com.ctrip.framework.apollo.ConfigFile" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.ctrip.framework.apollo.portal.service.AdditionalUserInfoEnrichServiceImpl" />
+			<role name="State" element="com.ctrip.framework.apollo.portal.spi.UserService" />
+			<role name="state" element="com.ctrip.framework.apollo.portal.service.AdditionalUserInfoEnrichServiceImpl::userService:com.ctrip.framework.apollo.portal.spi.UserService" />
+			<role name="Request()" element="com.ctrip.framework.apollo.portal.service.AdditionalUserInfoEnrichServiceImpl::enrichAdditionalUserInfo(, java.util.function.Function):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.ctrip.framework.apollo.spi.DefaultConfigFactoryManager" />
+			<role name="State" element="com.ctrip.framework.apollo.spi.ConfigRegistry" />
+			<role name="state" element="com.ctrip.framework.apollo.spi.DefaultConfigFactoryManager::m_registry:com.ctrip.framework.apollo.spi.ConfigRegistry" />
+			<role name="Request()" element="com.ctrip.framework.apollo.spi.DefaultConfigFactoryManager::getFactory(java.lang.String):com.ctrip.framework.apollo.spi.ConfigFactory" />
+		</instance>
+		<instance>
+			<role name="Context" element="com.ctrip.framework.apollo.spring.config.ConfigPropertySourcesProcessor" />
+			<role name="State" element="com.ctrip.framework.apollo.spring.spi.ConfigPropertySourcesProcessorHelper" />
+			<role name="state" element="com.ctrip.framework.apollo.spring.config.ConfigPropertySourcesProcessor::helper:com.ctrip.framework.apollo.spring.spi.ConfigPropertySourcesProcessorHelper" />
+			<role name="Request()" element="com.ctrip.framework.apollo.spring.config.ConfigPropertySourcesProcessor::postProcessBeanDefinitionRegistry(org.springframework.beans.factory.support.BeanDefinitionRegistry):void" />
+		</instance>
+	</pattern>
+	<pattern name="Strategy" />
+	<pattern name="Bridge">
+		<instance>
+			<role name="Abstraction" element="com.ctrip.framework.apollo.internals.AbstractConfigFile" />
+			<role name="Implementor" element="com.ctrip.framework.apollo.internals.ConfigRepository" />
+			<role name="implementor" element="com.ctrip.framework.apollo.internals.AbstractConfigFile::m_configRepository:com.ctrip.framework.apollo.internals.ConfigRepository" />
+			<role name="Operation()" element="com.ctrip.framework.apollo.internals.AbstractConfigFile::initialize():void" />
+			<role name="Operation()" element="com.ctrip.framework.apollo.internals.AbstractConfigFile::onRepositoryChange(java.lang.String, java.util.Properties):void" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="com.ctrip.framework.apollo.internals.AbstractConfigFile" />
+			<role name="Implementor" element="com.ctrip.framework.apollo.util.factory.PropertiesFactory" />
+			<role name="implementor" element="com.ctrip.framework.apollo.internals.AbstractConfigFile::propertiesFactory:com.ctrip.framework.apollo.util.factory.PropertiesFactory" />
+			<role name="Operation()" element="com.ctrip.framework.apollo.internals.AbstractConfigFile::onRepositoryChange(java.lang.String, java.util.Properties):void" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="com.ctrip.framework.apollo.internals.AbstractConfig" />
+			<role name="Implementor" element="com.ctrip.framework.apollo.util.factory.PropertiesFactory" />
+			<role name="implementor" element="com.ctrip.framework.apollo.internals.AbstractConfig::propertiesFactory:com.ctrip.framework.apollo.util.factory.PropertiesFactory" />
+			<role name="Operation()" element="com.ctrip.framework.apollo.internals.AbstractConfig::calcPropertyChanges(java.lang.String, java.util.Properties, java.util.Properties):java.util.List" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="com.ctrip.framework.apollo.tracer.Tracer" />
+			<role name="Implementor" element="com.ctrip.framework.apollo.tracer.spi.MessageProducerManager" />
+			<role name="implementor" element="com.ctrip.framework.apollo.tracer.Tracer::producerManager:com.ctrip.framework.apollo.tracer.spi.MessageProducerManager" />
+			<role name="implementor" element="com.ctrip.framework.apollo.tracer.Tracer::NULL_MESSAGE_PRODUCER_MANAGER:com.ctrip.framework.apollo.tracer.spi.MessageProducerManager" />
+			<role name="Operation()" element="com.ctrip.framework.apollo.tracer.Tracer::getProducer():com.ctrip.framework.apollo.tracer.spi.MessageProducer" />
+			<role name="Operation()" element="com.ctrip.framework.apollo.tracer.Tracer::newTransaction(java.lang.String, java.lang.String):com.ctrip.framework.apollo.tracer.spi.Transaction" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="com.ctrip.framework.apollo.portal.component.emailbuilder.ConfigPublishEmailBuilder" />
+			<role name="Implementor" element="com.ctrip.framework.apollo.portal.service.RolePermissionService" />
+			<role name="implementor" element="com.ctrip.framework.apollo.portal.component.emailbuilder.ConfigPublishEmailBuilder::rolePermissionService:com.ctrip.framework.apollo.portal.service.RolePermissionService" />
+			<role name="Operation()" element="com.ctrip.framework.apollo.portal.component.emailbuilder.ConfigPublishEmailBuilder::recipients(java.lang.String, java.lang.String, java.lang.String):java.util.List" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="com.ctrip.framework.apollo.portal.component.emailbuilder.ConfigPublishEmailBuilder" />
+			<role name="Implementor" element="com.ctrip.framework.apollo.portal.spi.UserService" />
+			<role name="implementor" element="com.ctrip.framework.apollo.portal.component.emailbuilder.ConfigPublishEmailBuilder::userService:com.ctrip.framework.apollo.portal.spi.UserService" />
+			<role name="Operation()" element="com.ctrip.framework.apollo.portal.component.emailbuilder.ConfigPublishEmailBuilder::recipients(java.lang.String, java.lang.String, java.lang.String):java.util.List" />
+		</instance>
+	</pattern>
+	<pattern name="Template Method">
+		<instance>
+			<role name="AbstractClass" element="com.ctrip.framework.apollo.portal.component.emailbuilder.ConfigPublishEmailBuilder" />
+			<role name="TemplateMethod()" element="com.ctrip.framework.apollo.portal.component.emailbuilder.ConfigPublishEmailBuilder::build(com.ctrip.framework.apollo.portal.environment.Env, com.ctrip.framework.apollo.portal.entity.bo.ReleaseHistoryBO):com.ctrip.framework.apollo.portal.entity.bo.Email" />
+			<role name="TemplateMethod()" element="com.ctrip.framework.apollo.portal.component.emailbuilder.ConfigPublishEmailBuilder::renderEmailCommonContent(com.ctrip.framework.apollo.portal.environment.Env, com.ctrip.framework.apollo.portal.entity.bo.ReleaseHistoryBO):java.lang.String" />
+			<role name="TemplateMethod()" element="com.ctrip.framework.apollo.portal.component.emailbuilder.ConfigPublishEmailBuilder::renderDiffModule(java.lang.String, com.ctrip.framework.apollo.portal.environment.Env, com.ctrip.framework.apollo.portal.entity.bo.ReleaseHistoryBO):java.lang.String" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.ctrip.framework.apollo.internals.AbstractConfigRepository" />
+			<role name="TemplateMethod()" element="com.ctrip.framework.apollo.internals.AbstractConfigRepository::trySync():boolean" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.ctrip.framework.apollo.internals.AbstractConfigFile" />
+			<role name="TemplateMethod()" element="com.ctrip.framework.apollo.internals.AbstractConfigFile::onRepositoryChange(java.lang.String, java.util.Properties):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.ctrip.framework.apollo.spring.annotation.ApolloProcessor" />
+			<role name="TemplateMethod()" element="com.ctrip.framework.apollo.spring.annotation.ApolloProcessor::postProcessBeforeInitialization(java.lang.Object, java.lang.String):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.ctrip.framework.apollo.common.customize.LoggingCustomizer" />
+			<role name="TemplateMethod()" element="com.ctrip.framework.apollo.common.customize.LoggingCustomizer::tryConfigCLogging():void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.ctrip.framework.apollo.common.config.RefreshableConfig" />
+			<role name="TemplateMethod()" element="com.ctrip.framework.apollo.common.config.RefreshableConfig::setup():void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="com.ctrip.framework.apollo.configservice.service.config.AbstractConfigService" />
+			<role name="TemplateMethod()" element="com.ctrip.framework.apollo.configservice.service.config.AbstractConfigService::findRelease(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, com.ctrip.framework.apollo.core.dto.ApolloNotificationMessages):com.ctrip.framework.apollo.biz.entity.Release" />
+		</instance>
+	</pattern>
+	<pattern name="Visitor" />
+	<pattern name="Proxy" />
+	<pattern name="Proxy2" />
+	<pattern name="Chain of Responsibility" />
+</system>
+
